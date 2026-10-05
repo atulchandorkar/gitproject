@@ -47,7 +47,11 @@ jobs:
       DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
       TRACKER_MODEL: ${{ vars.TRACKER_MODEL || 'claude-haiku-4-5' }}
     steps:
+      # Always start from the newest data on the branch, not the commit the run was queued on;
+      # otherwise a queued run redoes work an earlier run already saved.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
