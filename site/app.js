@@ -241,6 +241,44 @@
     wrap.addEventListener("pointerleave", () => { tip.classList.remove("show"); el.querySelectorAll(".bar").forEach((p) => p.classList.remove("hl")); });
   }
 
+  // Bank picker: a bottom sheet with logos, flags and counts (native dropdowns can't show images on phones).
+  function bankPicker({ country, selected, onPick }) {
+    const counts = countsByBank(DATA.items);
+    const sheet = document.createElement("div");
+    sheet.className = "sheet-wrap";
+    sheet.innerHTML = `<div class="sheet" role="dialog" aria-modal="true" aria-label="Choose a bank">
+      <div class="sheet-head"><b>Choose a bank</b><button class="sheet-x" aria-label="Close">✕</button></div>
+      <label class="search sheet-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+        <input type="search" placeholder="Find a bank…" aria-label="Find a bank"></label>
+      <div class="sheet-list"></div></div>`;
+    document.body.appendChild(sheet);
+    document.body.classList.add("no-scroll");
+    const close = () => { sheet.remove(); document.body.classList.remove("no-scroll"); };
+    const draw = (needle) => {
+      const row = (b) => `<button class="pk-row" data-id="${b.id}" aria-pressed="${b.id === selected}">${avatar(b)}
+        <span class="pk-info"><span class="pk-name">${esc(b.name)}</span><span class="pk-sub">${flag(COUNTRIES[b.country])} ${esc(b.short)} · ${esc(CFG.types[b.type] || b.type)}</span></span>
+        <span class="pk-n">${counts[b.id] || 0}</span></button>`;
+      const groups = CFG.countries.filter((c) => !country || c.code === country).map((c) => {
+        const banks = CFG.banks.filter((b) => b.country === c.code && (!needle ||
+          `${b.name} ${b.short} ${b.name_ar || ""} ${(b.aliases || []).join(" ")}`.toLowerCase().includes(needle)))
+          .sort((a, b) => (counts[b.id] || 0) - (counts[a.id] || 0) || a.short.localeCompare(b.short));
+        return banks.length ? `<div class="pk-group">${flag(c)} ${esc(c.name)}</div>${banks.map(row).join("")}` : "";
+      }).join("");
+      sheet.querySelector(".sheet-list").innerHTML = (needle ? "" : `<button class="pk-row pk-all" data-id="" aria-pressed="${!selected}">
+        <span class="avatar"><span class="ini">ALL</span></span><span class="pk-info"><span class="pk-name">All banks</span>
+        <span class="pk-sub">${country ? esc(COUNTRIES[country].name) : "All GCC"}</span></span></button>`) + (groups || `<div class="empty">No bank matches “${esc(needle)}”.</div>`);
+    };
+    draw("");
+    sheet.addEventListener("click", (e) => {
+      if (e.target === sheet || e.target.closest(".sheet-x")) return close();
+      const r = e.target.closest(".pk-row"); if (!r) return;
+      close(); onPick(r.dataset.id);
+    });
+    const input = sheet.querySelector("input");
+    input.oninput = () => draw(input.value.trim().toLowerCase());
+    document.addEventListener("keydown", function esc_(e) { if (e.key === "Escape") { close(); document.removeEventListener("keydown", esc_); } });
+  }
+
   // ---------- Feed ----------
   function renderFeed(q) {
     const st = {
@@ -270,7 +308,7 @@
       <div class="filters">
         <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
           <input id="fq" type="search" placeholder="Search news, partners, tags…" value="${esc(st.q)}" aria-label="Search"></label>
-        <select id="fbank" aria-label="Bank"></select>
+        <button type="button" class="picker-btn" id="fbank" aria-haspopup="dialog" aria-label="Bank"></button>
         <select id="fcat" aria-label="Theme"><option value="">All themes</option><option value="${AR_FILTER}" ${st.cat === AR_FILTER ? "selected" : ""}>📘 Annual reports</option>${CATEGORIES.map((c) => `<option ${c === st.cat ? "selected" : ""}>${esc(c)}</option>`).join("")}</select>
         <select id="fperiod" aria-label="Period">${PERIODS.map(([v, l]) => `<option value="${v}" ${v === st.period ? "selected" : ""}>${l}</option>`).join("")}</select>
       </div>
@@ -294,12 +332,12 @@
       <p class="updated">${DATA.updated_at ? "Updated " + new Date(DATA.updated_at).toLocaleString() : ""} · checked daily</p>`;
 
     const fillBanks = () => {
-      const banks = CFG.banks.filter((b) => !st.country || b.country === st.country)
-        .sort((a, b) => a.country.localeCompare(b.country) || a.short.localeCompare(b.short));
-      if (st.bank && !banks.some((b) => b.id === st.bank)) st.bank = "";
-      $("#fbank").innerHTML = `<option value="">All banks</option>` + banks.map((b) =>
-        `<option value="${b.id}" ${b.id === st.bank ? "selected" : ""}>${esc(b.short)}${st.country ? "" : " · " + esc(COUNTRIES[b.country].name)}</option>`).join("");
+      if (st.bank && st.country && BANKS[st.bank] && BANKS[st.bank].country !== st.country) st.bank = "";
+      const b = BANKS[st.bank];
+      $("#fbank").innerHTML = b ? `${avatar(b, "avatar xs")}<span class="pk-l">${esc(b.short)}</span><span class="pk-c">▾</span>`
+        : `<span class="pk-l">All banks</span><span class="pk-c">▾</span>`;
     };
+    const pickBank = () => bankPicker({ country: st.country, selected: st.bank, onPick: (id) => { st.bank = id; fillBanks(); update(); } });
 
     let shown = PAGE, lastList = [];
     const update = (resetPage = true) => {
@@ -360,7 +398,7 @@
       document.querySelectorAll("#countryChips [data-country]").forEach((c) => c.setAttribute("aria-pressed", c === btn));
       fillBanks(); update();
     });
-    $("#fbank").onchange = (e) => { st.bank = e.target.value; update(); };
+    $("#fbank").onclick = pickBank;
     $("#fcat").onchange = (e) => { st.cat = e.target.value; update(); };
     $("#fperiod").onchange = (e) => { st.period = e.target.value; update(); };
     let t; $("#fq").oninput = (e) => { clearTimeout(t); t = setTimeout(() => { st.q = e.target.value; update(); }, 180); };
