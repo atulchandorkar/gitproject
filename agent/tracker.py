@@ -33,6 +33,7 @@ import anthropic
 from pydantic import BaseModel, Field
 
 import logos
+import dedupe
 import newsrooms
 import sector
 import verify
@@ -380,11 +381,25 @@ class Tracker:
             "language": c["language"], "added_at": now_iso(),
         }
 
+    def bank_names(self, bank_id: str) -> list[str]:
+        b = self.banks[bank_id]
+        extra = ["central bank"] if b["type"] == "central" else []
+        return [b["name"], b["short"], *b.get("aliases", []), *verify.arabic_names(b), *extra]
+
     def _same_story(self, a: dict, b: dict) -> bool:
         return (a["bank_id"] == b["bank_id"]
                 and abs((dt.date.fromisoformat(a["date"]) - dt.date.fromisoformat(b["date"])).days) <= 10
-                and (similar(a["title"], b["title"], 0.45) or a["source_url"] == b["source_url"]
-                     or similar(a.get("source_title", ""), b.get("source_title", "x"), 0.5)))
+                and (a["source_url"] == b["source_url"]
+                     or dedupe.lexical_same([a["title"], a.get("source_title") or a["title"]],
+                                            [b["title"], b.get("source_title") or b["title"]], self.bank_names(a["bank_id"]))))
+
+    def dedupe_news(self) -> None:
+        """Merge copies of the same story (word match, then a cheap AI check on close pairs)."""
+        before = len(self.news["items"])
+        self.news["items"] = dedupe.dedupe(self.news["items"], lambda i: i["bank_id"], lambda i: self.bank_names(i["bank_id"]),
+                                           self.checker.ask, self.state.setdefault("dup_verdicts", {}))
+        if len(self.news["items"]) < before:
+            print(f"  merged {before - len(self.news['items'])} duplicate stories")
 
     def merge_into_existing(self, d: dict) -> bool:
         """A story already on the dashboard: just record the extra outlets."""
@@ -584,6 +599,9 @@ class Tracker:
         banks = list(self.banks.values())
         from_newsrooms = newsrooms.scan_all(banks, self.state, AI_RE, today())
         added = self.process(discover(banks, [None], from_newsrooms), screener, today() - dt.timedelta(days=60))
+        self.dedupe_news()
+        live = {id(i) for i in self.news["items"]}
+        added = [a for a in added if id(a) in live]   # a merged copy is not news
         self.fill_missing_summaries()   # items published in this run (incl. newly confirmed ones)
         self.state["last_update"] = now_iso()
         self.save()

@@ -26,6 +26,7 @@ from typing import Callable, Literal
 
 from pydantic import BaseModel
 
+import dedupe
 import newsrooms
 import verify
 
@@ -471,10 +472,17 @@ class Sector:
             return True
         if days > 21:
             return False
-        if self.similar(a["title"], b["title"], 0.45) or self.similar(a.get("source_title", ""), b.get("source_title", "x"), 0.5):
-            return True
-        return bool(a.get("publisher")) and a.get("publisher", "").lower() == b.get("publisher", "").lower() \
-            and a["category"] == b["category"] and days <= 14 and self.similar(a["title"], b["title"], 0.25)
+        return dedupe.lexical_same([a["title"], a.get("source_title") or a["title"]],
+                                   [b["title"], b.get("source_title") or b["title"]])
+
+    def dedupe(self) -> None:
+        before = len(self.data["items"])
+        self.data["items"] = dedupe.dedupe(self.data["items"], lambda i: "sector", lambda i: [], self.checker.ask,
+                                           self.state.setdefault("sector_dup_verdicts", {}), max_days=21,
+                                           related=lambda a, b: bool(a.get("publisher")) and
+                                           a["publisher"].lower() == b.get("publisher", "").lower())
+        if len(self.data["items"]) < before:
+            print(f"  sector: merged {before - len(self.data['items'])} duplicate items")
 
     def _merge(self, d: dict) -> bool:
         dup = next((i for i in self.data["items"] if self._same(i, d)), None)
@@ -559,14 +567,16 @@ class Sector:
             print(f"Sector insights: loading the last {MONTHS_BACK} months ({len(windows)} windows) …")
             added = self.process(self.discover(windows, with_pages=True), start)
             self.state["sector_history"] = self.today.isoformat()
+            self.dedupe()
             self.attach_pdfs()
             self.save()
-            return added
+            return [a for a in added if any(a is i for i in self.data["items"])]
         print("Sector insights: daily update …")
         added = self.process(self.discover([None], with_pages=True), self.today - dt.timedelta(days=60))
+        self.dedupe()
         self.attach_pdfs()
         self.save()
-        return added
+        return [a for a in added if any(a is i for i in self.data["items"])]
 
 
 def format_telegram(it: dict, dashboard: str, countries: dict) -> str:

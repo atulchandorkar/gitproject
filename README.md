@@ -109,6 +109,14 @@ Each card shows:
 
 Rejected items are logged with their reason in `data/rejected.json` for audit. If a check can't run, for example because the page is unreachable or the API is down, the item is retried on the next two runs. Items collected before these checks existed are re-checked the same way.
 
+### One story, one card
+Outlets word the same story differently, so each story is shown once:
+- **Word match:** the bank's own names are ignored and words are reduced to their stems. Two headlines count as the same story when they overlap strongly.
+- **AI check:** close pairs that are still unclear get one cheap Haiku question, "same event?", and the answer is cached.
+- **Merging:** copies are merged into the best-sourced card (the bank's own release first), and every outlet is kept as a source.
+
+The same logic applies to Sector Insights; there, two items from the same publisher are always checked.
+
 ### Themes
 These themes come from what the collected news actually covers. Each item has one main theme plus every theme that applies:
 - AI Strategy & Leadership
