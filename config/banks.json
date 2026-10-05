@@ -51,7 +51,7 @@
     { "id": "visionbank", "name": "Vision Bank", "short": "Vision Bank", "country": "SA", "type": "digital", "domain": "visionbank.sa", "name_ar": "فيجن بنك", "aliases": [] },
     { "id": "sama", "name": "Saudi Central Bank", "short": "SAMA", "country": "SA", "type": "central", "domain": "sama.gov.sa", "name_ar": "البنك المركزي السعودي", "aliases": ["SAMA"] },
 
-    { "id": "qnb", "name": "QNB Group", "short": "QNB", "country": "QA", "type": "conventional", "domain": "qnb.com", "name_ar": "بنك قطر الوطني", "aliases": ["Qatar National Bank"] },
+    { "id": "qnb", "name": "QNB Group", "short": "QNB", "country": "QA", "type": "conventional", "domain": "qnb.com", "newsroom": "https://www.qnb.com/sites/qnb/qnbglobal/page/en/ennews.html", "name_ar": "بنك قطر الوطني", "aliases": ["Qatar National Bank"] },
     { "id": "qib", "name": "Qatar Islamic Bank", "short": "QIB", "country": "QA", "type": "islamic", "domain": "qib.com.qa", "name_ar": "مصرف قطر الإسلامي", "aliases": ["QIB"] },
     { "id": "cbq", "name": "Commercial Bank of Qatar", "short": "Commercial Bank", "country": "QA", "type": "conventional", "domain": "cbq.qa", "name_ar": "البنك التجاري", "aliases": ["CBQ", "The Commercial Bank"] },
     { "id": "rayan", "name": "Masraf Al Rayan", "short": "Al Rayan", "country": "QA", "type": "islamic", "domain": "alrayan.com", "name_ar": "مصرف الريان", "aliases": ["Al Rayan Bank"] },

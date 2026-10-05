@@ -362,7 +362,7 @@
         <h2>What's excluded</h2>
         <p>General AI or tech news, fintech or startup news with no bank involved, and generic "digital transformation" with no AI component.</p>
         <h2>How it works</h2>
-        <p><b>Once a day</b>, the tracker scans English and Arabic news for every bank. An AI model screens each headline, keeps only
+        <p><b>Once a day</b>, the tracker reads the banks' own newsrooms and scans English and Arabic news for every bank. An AI model screens each headline, keeps only
         qualifying items, summarises and categorises them, and sends new items to Telegram. Every item links to its original source.
         The history goes back 24 months.</p>
         <p style="font-size:13px">Summaries are AI-generated, so check the linked source before citing a figure.</p>
