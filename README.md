@@ -22,8 +22,8 @@ A mobile-first dashboard and Telegram alert service that tracks **AI initiatives
 
 ## One-time setup (about 15 minutes)
 
-### 1. Put the code on `main`
-Scheduled GitHub Actions only run on the default branch. Merge this branch into `main`.
+### 1. Put the code on `master`
+Scheduled GitHub Actions only run on the default branch. Merge this branch into `master`.
 
 ### 2. Turn on GitHub Pages
 1. **Settings → General → Danger zone → Change visibility → Public.** Pages is free for public repos. The data is public news, so this is safe. Private Pages needs a paid GitHub plan.
