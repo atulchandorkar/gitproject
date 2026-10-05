@@ -32,6 +32,7 @@ from typing import Literal
 import anthropic
 from pydantic import BaseModel, Field
 
+import logos
 import newsrooms
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -472,6 +473,11 @@ def main() -> None:
             sys.exit("Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID first.")
         tg.send("✅ GCC Bank AI Tracker is connected. You'll receive new bank AI updates here.")
         return
+
+    try:  # free: refresh bank logos for the dashboard (every 60 days per bank)
+        logos.refresh(list(tracker.banks.values()), ROOT / "data", today())
+    except Exception as exc:
+        print(f"  ! logo refresh failed: {exc!r}", file=sys.stderr)
 
     screener = Screener(tracker.banks)
     try:
