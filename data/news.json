@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-05T20:31:32+00:00",
+ "updated_at": "2026-10-05T21:31:41+00:00",
  "items": [
   {
    "id": "c6d5639013d1",
@@ -232,44 +232,6 @@
    }
   },
   {
-   "id": "836802503806",
-   "bank_id": "adib",
-   "country": "AE",
-   "date": "2026-08-24",
-   "title": "ADIB appoints first chief AI officer",
-   "summary": "ADIB has appointed its first Chief AI Officer.",
-   "category": "AI Strategy & Leadership",
-   "topics": [
-    "AI Strategy & Leadership"
-   ],
-   "tags": [
-    "Chief AI Officer",
-    "Leadership"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZi16YkNSY0dnMzB3UE8tUDNDQ3VWVVljUG9oNzU1aExTcm5LQzhwWHpWdm1ETk1wNlRZQXQ0Y252a2lsMHBuWEN4ck85LUZkNkZ6R184dlVFSGVHUlY4dzIyQnh3SFpCMXd2d01vRnl2c1NzcTk1eVR1U1dHOFpVVFd1Z25sZw?oc=5",
-   "source_name": "Finextra Research",
-   "source_title": "ADIB appoints first chief AI officer",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZi16YkNSY0dnMzB3UE8tUDNDQ3VWVVljUG9oNzU1aExTcm5LQzhwWHpWdm1ETk1wNlRZQXQ0Y252a2lsMHBuWEN4ck85LUZkNkZ6R184dlVFSGVHUlY4dzIyQnh3SFpCMXd2d01vRnl2c1NzcTk1eVR1U1dHOFpVVFd1Z25sZw?oc=5",
-     "name": "Finextra Research"
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTkRNd1Z1VTJQZ0YtOTZlXzlIQVQzNnFEY1otTmZMel9DaVdNVktIaWJRTC0tTGZZNUtKSTFhdnM3NVRBdWlvR1Q1Rm5pY1Q1QzhtRXg3UWNlcVZkWnpraGNmT21oX2IxdEpyemt2ei03U2t1NWVLM0VPcmNLNF9rUW1OcGpLc1IySXNxOXFZOC1sVWNobThWT2twM1ZrV0FYcUVB?oc=5",
-     "name": "Gulf Business"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T17:57:50+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
    "id": "1334224df8f9",
    "bank_id": "adib",
    "country": "AE",
@@ -330,6 +292,14 @@
     {
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLTVUUVpJMWNlTU5LSmN6MTN1bXBVaHN2UERZcjdNbEZmZVV4RUlPd3JOZEprYVlIRFI2MnNzcXJBN1ZNUE5JaG1yS0lsVGhSTFpTLWREZTNuZ3A5WlNfNDFZWVVEMWwxYU54eGZSN0c3YkFuVkk3eC1lVVkxcTl6NDRDYzJNUFZudFlGSEtRX0hlblNtck9MNmtTaTBsYS1vSm91bDVkY28?oc=5",
      "name": "intlbm"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZi16YkNSY0dnMzB3UE8tUDNDQ3VWVVljUG9oNzU1aExTcm5LQzhwWHpWdm1ETk1wNlRZQXQ0Y252a2lsMHBuWEN4ck85LUZkNkZ6R184dlVFSGVHUlY4dzIyQnh3SFpCMXd2d01vRnl2c1NzcTk1eVR1U1dHOFpVVFd1Z25sZw?oc=5",
+     "name": "Finextra Research"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTkRNd1Z1VTJQZ0YtOTZlXzlIQVQzNnFEY1otTmZMel9DaVdNVktIaWJRTC0tTGZZNUtKSTFhdnM3NVRBdWlvR1Q1Rm5pY1Q1QzhtRXg3UWNlcVZkWnpraGNmT21oX2IxdEpyemt2ei03U2t1NWVLM0VPcmNLNF9rUW1OcGpLc1IySXNxOXFZOC1sVWNobThWT2twM1ZrV0FYcUVB?oc=5",
+     "name": "Gulf Business"
     }
    ],
    "verification": {
@@ -376,41 +346,6 @@
    }
   },
   {
-   "id": "3459de84753c",
-   "bank_id": "fab",
-   "country": "AE",
-   "date": "2026-08-14",
-   "title": "First Abu Dhabi Bank strengthens AI ecosystem via SpeakEasy corporate AI forum",
-   "summary": "First Abu Dhabi Bank is strengthening the UAE's AI ecosystem through the second edition of its \"SpeakEasy\" corporate AI forum.",
-   "category": "AI Strategy & Leadership",
-   "topics": [
-    "AI Strategy & Leadership",
-    "AI Skills & Talent"
-   ],
-   "tags": [
-    "AI ecosystem",
-    "Corporate AI forum"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMi2AhBVV95cUxNcXJUWkF6ak1ISDlkVl9RYlhpU1BkWUcwUURyMVpBVGEzUVlweDgyX1BzXzZJc0NmUXZDT1JodmlnbkFId243X1lNNVBMM2NpLTVzTE83SUY1dF9NY1dvY2tZVTRWTHRYMThHajB3NFBONEdOQ2c3R1pCb3BsdjRfeHVjOTQtQTR1dDRGcldqUDMxcUxGOEZtc3dxTmRMaVVLOGttOTdwcGtRbDlMdkYxRlotWGp6NjUtQ2FFVzg5WWl4VjZKVnpMVVZGOC1rYVVuRXdBN1ZXRXZ6LWN0Rk45OW9CWWRneU1KcElzUHI4akJWRU5FdmQ1WUp3VEZoNTM2WG1EeGhrLWFoM19VbmhhVkdKM2JiNndCdXRUbF9LSS1KdmRIVmxTcTVmcG5xbndBZGQ5YVRMWTZBYVhLXzNlczNTWXUxSEk3ZmlzbDBHRGhGUXRxY003eFZ4S1BYcUVmRE9jaTFSSGpSVXJmZHNLbTdHUk5XSnd2NWIxT1J2U2wxNFBWZkJYMkUtb21neE95ZW43dWdZNUtkYkE1VXpLVkhfZFg1YUppMUJkUnVndVlZaHg0UWNHeGZhWEZFNWQ2dnVKRjNEZEJVeUlNSEhIUDk4d0c3N1dONjU4VXBnRDhXZG9DRThmamdwc3JPY1NEczluaEdGQ0MzemJWNVN0a0toT25rVXR6MWhsZ1NpRjhmdkU0MEJJT0VBM2R5UmxVdlBuRjZYQnNKM1RybExBVDZVU3hhRUVia0c3VWtMUXE2anZoRW81TGhfWEpSTHFrLW1NakZxOHRHazdueVF5dkl4VkVubUdfLXB5YkhiZHNodEJ0a21FZmZ0ZWdIczhjRXRybE5QQjU3SEhFVWo4SzJpdTFfYmZmQjh6cmRjNnRXd2JrdDVZcFhnQk90Sk5MdDIxUnNkY2lXREJfMmxBa20yTDFvckNqSVRrLUVyZWg0LTJUU2JPSmpKRGZickZaNXlsamVFa2hhUVh3R0VJTXRhQVExWFh1UjNzTnRhMVZITnJhSy05S0xBT0kyOGpTUG5jNnFEVkdYeDVMaFBleHkwbU5pVzhwcHRyR3RhN05mMnhhcUNqNVRrRFpJYUFnNlkydGNiTTlnZGkwdmNnVVBhcVNhTlJRWWJTYTB2cEE3UTdwVF9iR25WbEVrVURjck42bEtRMWNpSjkta3Y5QUxobDh1NXlXaUdyNEw4aEhRc1lBMXlZTFY5LWdQMk9qV0c0WjBVZnNTcFlnQ0NEU0FLdlRQWWJwbjR5Ykl4SlhHVGpSV1IxYzk3V1kzNjlFZ01jVmgzZVJqYllDdDJibWlJbGJxNkdybjVveThLdXlKeTF2VTNXWG90MkxkZW9ocTItc2tLU2g4WWZpU1pnaTM3dzZJelM4dERVQWhxU2R0YldPTVEyNjlQYzY4c1hiYmEwTjZRWUN0dmJmRXBaRHFoaHhZZnZVSGUwWlc0RS1vQkVPT2ZPdg?oc=5",
-   "source_name": "Zawya",
-   "source_title": "بنك أبوظبي الأول يعزز منظومة الذكاء الاصطناعي في دولة الإمارات عبر النسخة الثانية من منتدى \"SpeakEasy\" للذكاء الاصطناعي المؤسسي",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi2AhBVV95cUxNcXJUWkF6ak1ISDlkVl9RYlhpU1BkWUcwUURyMVpBVGEzUVlweDgyX1BzXzZJc0NmUXZDT1JodmlnbkFId243X1lNNVBMM2NpLTVzTE83SUY1dF9NY1dvY2tZVTRWTHRYMThHajB3NFBONEdOQ2c3R1pCb3BsdjRfeHVjOTQtQTR1dDRGcldqUDMxcUxGOEZtc3dxTmRMaVVLOGttOTdwcGtRbDlMdkYxRlotWGp6NjUtQ2FFVzg5WWl4VjZKVnpMVVZGOC1rYVVuRXdBN1ZXRXZ6LWN0Rk45OW9CWWRneU1KcElzUHI4akJWRU5FdmQ1WUp3VEZoNTM2WG1EeGhrLWFoM19VbmhhVkdKM2JiNndCdXRUbF9LSS1KdmRIVmxTcTVmcG5xbndBZGQ5YVRMWTZBYVhLXzNlczNTWXUxSEk3ZmlzbDBHRGhGUXRxY003eFZ4S1BYcUVmRE9jaTFSSGpSVXJmZHNLbTdHUk5XSnd2NWIxT1J2U2wxNFBWZkJYMkUtb21neE95ZW43dWdZNUtkYkE1VXpLVkhfZFg1YUppMUJkUnVndVlZaHg0UWNHeGZhWEZFNWQ2dnVKRjNEZEJVeUlNSEhIUDk4d0c3N1dONjU4VXBnRDhXZG9DRThmamdwc3JPY1NEczluaEdGQ0MzemJWNVN0a0toT25rVXR6MWhsZ1NpRjhmdkU0MEJJT0VBM2R5UmxVdlBuRjZYQnNKM1RybExBVDZVU3hhRUVia0c3VWtMUXE2anZoRW81TGhfWEpSTHFrLW1NakZxOHRHazdueVF5dkl4VkVubUdfLXB5YkhiZHNodEJ0a21FZmZ0ZWdIczhjRXRybE5QQjU3SEhFVWo4SzJpdTFfYmZmQjh6cmRjNnRXd2JrdDVZcFhnQk90Sk5MdDIxUnNkY2lXREJfMmxBa20yTDFvckNqSVRrLUVyZWg0LTJUU2JPSmpKRGZickZaNXlsamVFa2hhUVh3R0VJTXRhQVExWFh1UjNzTnRhMVZITnJhSy05S0xBT0kyOGpTUG5jNnFEVkdYeDVMaFBleHkwbU5pVzhwcHRyR3RhN05mMnhhcUNqNVRrRFpJYUFnNlkydGNiTTlnZGkwdmNnVVBhcVNhTlJRWWJTYTB2cEE3UTdwVF9iR25WbEVrVURjck42bEtRMWNpSjkta3Y5QUxobDh1NXlXaUdyNEw4aEhRc1lBMXlZTFY5LWdQMk9qV0c0WjBVZnNTcFlnQ0NEU0FLdlRQWWJwbjR5Ykl4SlhHVGpSV1IxYzk3V1kzNjlFZ01jVmgzZVJqYllDdDJibWlJbGJxNkdybjVveThLdXlKeTF2VTNXWG90MkxkZW9ocTItc2tLU2g4WWZpU1pnaTM3dzZJelM4dERVQWhxU2R0YldPTVEyNjlQYzY4c1hiYmEwTjZRWUN0dmJmRXBaRHFoaHhZZnZVSGUwWlc0RS1vQkVPT2ZPdg?oc=5",
-     "name": "Zawya"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T17:55:46+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
    "id": "7571cca80591",
    "bank_id": "fab",
    "country": "AE",
@@ -421,7 +356,9 @@
    "tags": [
     "SpeakEasy",
     "Community",
-    "AI Innovation Hub"
+    "AI Innovation Hub",
+    "AI ecosystem",
+    "Corporate AI forum"
    ],
    "partners": [
     "AWS",
@@ -436,6 +373,10 @@
     {
      "url": "https://www.zawya.com/en/press-release/companies-news/fab-strengthens-uae-ai-ecosystem-through-second-speakeasy-enterprise-ai-forum-456462",
      "name": "Zawya"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi2AhBVV95cUxNcXJUWkF6ak1ISDlkVl9RYlhpU1BkWUcwUURyMVpBVGEzUVlweDgyX1BzXzZJc0NmUXZDT1JodmlnbkFId243X1lNNVBMM2NpLTVzTE83SUY1dF9NY1dvY2tZVTRWTHRYMThHajB3NFBONEdOQ2c3R1pCb3BsdjRfeHVjOTQtQTR1dDRGcldqUDMxcUxGOEZtc3dxTmRMaVVLOGttOTdwcGtRbDlMdkYxRlotWGp6NjUtQ2FFVzg5WWl4VjZKVnpMVVZGOC1rYVVuRXdBN1ZXRXZ6LWN0Rk45OW9CWWRneU1KcElzUHI4akJWRU5FdmQ1WUp3VEZoNTM2WG1EeGhrLWFoM19VbmhhVkdKM2JiNndCdXRUbF9LSS1KdmRIVmxTcTVmcG5xbndBZGQ5YVRMWTZBYVhLXzNlczNTWXUxSEk3ZmlzbDBHRGhGUXRxY003eFZ4S1BYcUVmRE9jaTFSSGpSVXJmZHNLbTdHUk5XSnd2NWIxT1J2U2wxNFBWZkJYMkUtb21neE95ZW43dWdZNUtkYkE1VXpLVkhfZFg1YUppMUJkUnVndVlZaHg0UWNHeGZhWEZFNWQ2dnVKRjNEZEJVeUlNSEhIUDk4d0c3N1dONjU4VXBnRDhXZG9DRThmamdwc3JPY1NEczluaEdGQ0MzemJWNVN0a0toT25rVXR6MWhsZ1NpRjhmdkU0MEJJT0VBM2R5UmxVdlBuRjZYQnNKM1RybExBVDZVU3hhRUVia0c3VWtMUXE2anZoRW81TGhfWEpSTHFrLW1NakZxOHRHazdueVF5dkl4VkVubUdfLXB5YkhiZHNodEJ0a21FZmZ0ZWdIczhjRXRybE5QQjU3SEhFVWo4SzJpdTFfYmZmQjh6cmRjNnRXd2JrdDVZcFhnQk90Sk5MdDIxUnNkY2lXREJfMmxBa20yTDFvckNqSVRrLUVyZWg0LTJUU2JPSmpKRGZickZaNXlsamVFa2hhUVh3R0VJTXRhQVExWFh1UjNzTnRhMVZITnJhSy05S0xBT0kyOGpTUG5jNnFEVkdYeDVMaFBleHkwbU5pVzhwcHRyR3RhN05mMnhhcUNqNVRrRFpJYUFnNlkydGNiTTlnZGkwdmNnVVBhcVNhTlJRWWJTYTB2cEE3UTdwVF9iR25WbEVrVURjck42bEtRMWNpSjkta3Y5QUxobDh1NXlXaUdyNEw4aEhRc1lBMXlZTFY5LWdQMk9qV0c0WjBVZnNTcFlnQ0NEU0FLdlRQWWJwbjR5Ykl4SlhHVGpSV1IxYzk3V1kzNjlFZ01jVmgzZVJqYllDdDJibWlJbGJxNkdybjVveThLdXlKeTF2VTNXWG90MkxkZW9ocTItc2tLU2g4WWZpU1pnaTM3dzZJelM4dERVQWhxU2R0YldPTVEyNjlQYzY4c1hiYmEwTjZRWUN0dmJmRXBaRHFoaHhZZnZVSGUwWlc0RS1vQkVPT2ZPdg?oc=5",
+     "name": "Zawya"
     }
    ],
    "verification": {
@@ -445,7 +386,8 @@
    },
    "topics": [
     "AI Skills & Talent",
-    "Tech Vendor Partnerships"
+    "Tech Vendor Partnerships",
+    "AI Strategy & Leadership"
    ]
   },
   {
@@ -756,43 +698,6 @@
    ]
   },
   {
-   "id": "36b34a38a9c5",
-   "bank_id": "nbf",
-   "country": "AE",
-   "date": "2026-07-08",
-   "title": "National Bank of Fujairah partners with Accenture LearnVantage for AI-ready workforce",
-   "summary": "National Bank of Fujairah has partnered with Accenture LearnVantage to build an AI-ready workforce.",
-   "category": "AI Skills & Talent",
-   "topics": [
-    "AI Skills & Talent",
-    "Tech Vendor Partnerships"
-   ],
-   "tags": [
-    "AI training",
-    "Workforce development"
-   ],
-   "partners": [
-    "Accenture LearnVantage"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcjZxZDhCMnhrM1ZuZUdVT3FYV0thMmxrVDRPbWctNjJvQ3ZiN3ZVam9jV0pUaS1JaHctOHdRMk1DM2t2STBFN1FnR1ZWWTBpQkY0VDh4YWtWaWE4bzhOTTJpeXhDUEhkVDRnUUdzYzBjVGhMQjF5V2tUdm96WFlNSWh4TnpLaVZsd01VS1JXNkduRzYyUU9rUl9ETTE0dzlQQ2M0WmF6cUFTQXJsS201U21heHo?oc=5",
-   "source_name": "FF News",
-   "source_title": "National Bank of Fujairah Partners with Accenture LearnVantage to Build AI-Ready Workforce",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcjZxZDhCMnhrM1ZuZUdVT3FYV0thMmxrVDRPbWctNjJvQ3ZiN3ZVam9jV0pUaS1JaHctOHdRMk1DM2t2STBFN1FnR1ZWWTBpQkY0VDh4YWtWaWE4bzhOTTJpeXhDUEhkVDRnUUdzYzBjVGhMQjF5V2tUdm96WFlNSWh4TnpLaVZsd01VS1JXNkduRzYyUU9rUl9ETTE0dzlQQ2M0WmF6cUFTQXJsS201U21heHo?oc=5",
-     "name": "FF News"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T17:59:40+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
    "id": "7ea45c9bbcb1",
    "bank_id": "nbf",
    "country": "AE",
@@ -804,7 +709,9 @@
     "AI upskilling",
     "GenAI",
     "Responsible AI",
-    "Workforce"
+    "Workforce",
+    "AI training",
+    "Workforce development"
    ],
    "partners": [
     "Accenture LearnVantage",
@@ -823,6 +730,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa19kSzl1NW5iOGdDTlNoQldPOFg0Wm5BSWxTWnlEcTZ2YkRtSzZEWkRsd1dPY2hhMklEV3NBQk5MWWlCSktqeFJjY3doZHlDY000cnU5bEZXQVI4WVl6bmdBbS1NbnFFX1pjTUNwd3FaT3FIZ0lvM3JFSnJsTnlsUWgzdmNnRk80Vl82RXFfRlUyeXROT1NTWW9OMnp2eFk?oc=5",
      "name": ""
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcjZxZDhCMnhrM1ZuZUdVT3FYV0thMmxrVDRPbWctNjJvQ3ZiN3ZVam9jV0pUaS1JaHctOHdRMk1DM2t2STBFN1FnR1ZWWTBpQkY0VDh4YWtWaWE4bzhOTTJpeXhDUEhkVDRnUUdzYzBjVGhMQjF5V2tUdm96WFlNSWh4TnpLaVZsd01VS1JXNkduRzYyUU9rUl9ETTE0dzlQQ2M0WmF6cUFTQXJsS201U21heHo?oc=5",
+     "name": "FF News"
     }
    ],
    "verification": {
@@ -1421,6 +1332,178 @@
    }
   },
   {
+   "id": "51929f1b0b58",
+   "bank_id": "qib",
+   "country": "QA",
+   "date": "2026-05-07",
+   "title": "QIB AI-Powered Personalization in Mobile Apps",
+   "summary": "QIB introduced AI-powered features in its Mobile Apps that analyze customer behavior and financial patterns to enable personalized product recommendations and timely interactions. These features support better customer experience across retail and corporate segments.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "mobile banking",
+    "personalization",
+    "customer experience",
+    "behavior analysis"
+   ],
+   "partners": [],
+   "impact": "Enhanced customer experience through AI-powered analysis of customer behavior and financial patterns",
+   "source_url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib---annual-report-2025-english.pdf?rev=e5ea1a44acba4b088f35828fa8bc1e3d#page=9",
+   "source_name": "QIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib---annual-report-2025-english.pdf?rev=e5ea1a44acba4b088f35828fa8bc1e3d#page=9",
+     "name": "QIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:18:00+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib---annual-report-2025-english.pdf?rev=e5ea1a44acba4b088f35828fa8bc1e3d",
+    "page": 9,
+    "quote": "AI-powered features introduced within the QIB Mobile Apps enabled better analysis of customer behavior and financial patterns, supporting personalized product recommendations and more relevant, timely interactions."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "70ebf901aa70",
+   "bank_id": "qib",
+   "country": "QA",
+   "date": "2026-05-07",
+   "title": "QIB Junior App Launch with Digital Enhancements",
+   "summary": "QIB launched the QIB Junior App, described as the country's first digital banking experience for kids and teens, alongside further enhancements to the QIB Mobile App. AI played an increasing role in enhancing the customer experience across these digital ecosystem enhancements.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "digital banking",
+    "junior banking",
+    "mobile app",
+    "innovation"
+   ],
+   "partners": [],
+   "impact": "Launch of country's first digital banking experience for kids and teens",
+   "source_url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib---annual-report-2025-english.pdf?rev=e5ea1a44acba4b088f35828fa8bc1e3d#page=9",
+   "source_name": "QIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib---annual-report-2025-english.pdf?rev=e5ea1a44acba4b088f35828fa8bc1e3d#page=9",
+     "name": "QIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:18:00+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib---annual-report-2025-english.pdf?rev=e5ea1a44acba4b088f35828fa8bc1e3d",
+    "page": 9,
+    "quote": "QIB introduced a number of key enhancements across its digital ecosystem, including the launch of the QIB Junior App—the country's first digital banking experience for kids and teens—alongside further enhancements to the QIB Mobile App"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "f976154b856a",
+   "bank_id": "qib",
+   "country": "QA",
+   "date": "2026-05-07",
+   "title": "QIB AI and Analytics for Corporate Banking Transformation",
+   "summary": "Qatar Islamic Bank reports in its 2025 annual report (p. 13): “The increased use of AI and analytics supported process streamlining and improved the corporate customer experience, forming an important component of the Bank's corporate banking transformation during the year.”",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "corporate banking",
+    "process streamlining",
+    "analytics",
+    "transformation"
+   ],
+   "partners": [],
+   "impact": "Improved corporate customer experience and process streamlining",
+   "source_url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib---annual-report-2025-english.pdf?rev=e5ea1a44acba4b088f35828fa8bc1e3d#page=13",
+   "source_name": "QIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib---annual-report-2025-english.pdf?rev=e5ea1a44acba4b088f35828fa8bc1e3d#page=13",
+     "name": "QIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:18:00+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib---annual-report-2025-english.pdf?rev=e5ea1a44acba4b088f35828fa8bc1e3d",
+    "page": 13,
+    "quote": "The increased use of AI and analytics supported process streamlining and improved the corporate customer experience, forming an important component of the Bank's corporate banking transformation during the year."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "7b747acfd76c",
+   "bank_id": "qib",
+   "country": "QA",
+   "date": "2026-05-07",
+   "title": "QIB Strategic Focus on AI and Data-Driven Solutions",
+   "summary": "QIB committed to leveraging data-driven insights and AI solutions to enhance efficiency, scalability, and customer experience as part of its technology-driven growth strategy. This reflects the Bank's positioning of technology as a central driver of future growth.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "strategy",
+    "digital transformation",
+    "efficiency",
+    "scalability"
+   ],
+   "partners": [],
+   "impact": "Technology established as central driver of future growth",
+   "source_url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib---annual-report-2025-english.pdf?rev=e5ea1a44acba4b088f35828fa8bc1e3d#page=16",
+   "source_name": "QIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib---annual-report-2025-english.pdf?rev=e5ea1a44acba4b088f35828fa8bc1e3d#page=16",
+     "name": "QIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:18:00+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib---annual-report-2025-english.pdf?rev=e5ea1a44acba4b088f35828fa8bc1e3d",
+    "page": 16,
+    "quote": "QIB will continue to advance its digital capabilities, strengthen its technology infrastructure, and leverage data-driven insights and AI solutions to enhance efficiency, scalability, and customer experience."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
    "id": "26e868ac875b",
    "bank_id": "edb",
    "country": "AE",
@@ -1459,40 +1542,6 @@
    }
   },
   {
-   "id": "547ad08231d4",
-   "bank_id": "mashreq",
-   "country": "AE",
-   "date": "2026-05-01",
-   "title": "AI Investments Help Lift Mashreq's First-Quarter Profits",
-   "summary": "Mashreq's AI investments contributed to improved first-quarter profits.",
-   "category": "AI Strategy & Leadership",
-   "topics": [
-    "AI Strategy & Leadership"
-   ],
-   "tags": [
-    "AI Investment",
-    "AI outcomes"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbVJOWEJUM0NFZDRicGQyU2dVajExQ2ZOTDlfZ21BMXNtZzBGZGZkOURnWFBvSEwtSEtIUXlYTmE2TW1KTTE1MVV6VGpzQ3cxeVdWOXRQWEE4Vmh6QXMzNV95UG1iM0VKRE9welZ1Nmx4RDdUOXloY2dLWTNVSEw5djAzODM0Y1RfRVVYTV9FLThqRF93YjhUdHAxdnJPczJPU3JJ?oc=5",
-   "source_name": "Arabian Gulf Business Insight | AGBI",
-   "source_title": "AI investments help lift Mashreq’s first-quarter profits",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbVJOWEJUM0NFZDRicGQyU2dVajExQ2ZOTDlfZ21BMXNtZzBGZGZkOURnWFBvSEwtSEtIUXlYTmE2TW1KTTE1MVV6VGpzQ3cxeVdWOXRQWEE4Vmh6QXMzNV95UG1iM0VKRE9welZ1Nmx4RDdUOXloY2dLWTNVSEw5djAzODM0Y1RfRVVYTV9FLThqRF93YjhUdHAxdnJPczJPU3JJ?oc=5",
-     "name": "Arabian Gulf Business Insight | AGBI"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T17:58:15+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
    "id": "586cfd14d31e",
    "bank_id": "mashreq",
    "country": "AE",
@@ -1503,7 +1552,9 @@
    "tags": [
     "GenAI investment",
     "Opex",
-    "Earnings"
+    "Earnings",
+    "AI Investment",
+    "AI outcomes"
    ],
    "partners": [],
    "impact": "Opex +15% year on year, partly attributed to GenAI",
@@ -1515,6 +1566,10 @@
     {
      "url": "https://www.agbi.com/banking-finance/2026/05/ai-investments-help-lift-mashreqs-first-quarter-profits/",
      "name": "AGBI"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbVJOWEJUM0NFZDRicGQyU2dVajExQ2ZOTDlfZ21BMXNtZzBGZGZkOURnWFBvSEwtSEtIUXlYTmE2TW1KTTE1MVV6VGpzQ3cxeVdWOXRQWEE4Vmh6QXMzNV95UG1iM0VKRE9welZ1Nmx4RDdUOXloY2dLWTNVSEw5djAzODM0Y1RfRVVYTV9FLThqRF93YjhUdHAxdnJPczJPU3JJ?oc=5",
+     "name": "Arabian Gulf Business Insight | AGBI"
     }
    ],
    "verification": {
@@ -1564,43 +1619,349 @@
    ]
   },
   {
-   "id": "27be783abed9",
-   "bank_id": "fab",
-   "country": "AE",
-   "date": "2026-04-08",
-   "title": "First Abu Dhabi Bank speeds up HR tasks with Oracle's AI chatbot",
-   "summary": "First Abu Dhabi Bank is using Oracle's AI chatbot to accelerate human resources tasks.",
-   "category": "AI Adoption in Operations",
+   "id": "1e5d586b28e9",
+   "bank_id": "kfh",
+   "country": "KW",
+   "date": "2026-04-21",
+   "title": "KFH AI Virtual Assistant Fahad",
+   "summary": "KFH launched Fahad, an AI virtual assistant, at The Avenues Phase 4 branch to respond to general customer inquiries—Kuwait's first such service. The assistant was introduced coinciding with a redesign of the KFH online application and ATMs.",
+   "category": "Customer-Facing AI",
    "topics": [
-    "AI Adoption in Operations",
-    "Generative AI & Copilots"
+    "Customer-Facing AI"
    ],
    "tags": [
-    "AI chatbot",
-    "HR automation"
+    "virtual assistant",
+    "chatbot",
+    "customer service",
+    "Kuwait first"
    ],
-   "partners": [
-    "Oracle"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SVG1HOWlHbGgtYkVJZlB3YS1raVlWWmhMVHMwUnJud3pmMXJWZVJETnNYeThkTWFKcGFxNXltR0hWN2Q5TjR0eVUzejVTTDI0cDQxSDV6WWYxQkpNYmttZ2pMQjg?oc=5",
-   "source_name": "oracle.com",
-   "source_title": "First Abu Dhabi Bank speeds up HR tasks with Oracle’s AI chatbot",
+   "partners": [],
+   "impact": "First AI virtual assistant in Kuwait for customer inquiries",
+   "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=36",
+   "source_name": "KFH Annual Report 2025",
+   "source_title": "",
    "sources": [
     {
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SVG1HOWlHbGgtYkVJZlB3YS1raVlWWmhMVHMwUnJud3pmMXJWZVJETnNYeThkTWFKcGFxNXltR0hWN2Q5TjR0eVUzejVTTDI0cDQxSDV6WWYxQkpNYmttZ2pMQjg?oc=5",
-     "name": "oracle.com"
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SVG1HOWlHbGgtYkVJZlB3YS1raVlWWmhMVHMwUnJud3pmMXJWZVJETnNYeThkTWFKcGFxNXltR0hWN2Q5TjR0eVUzejVTTDI0cDQxSDV6WWYxQkpNYmttZ2pMQjg?oc=5",
-     "name": "Oracle"
+     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=36",
+     "name": "KFH Annual Report 2025"
     }
    ],
    "language": "en",
-   "added_at": "2026-10-05T17:55:46+00:00",
+   "added_at": "2026-10-05T21:23:41+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+    "page": 36,
+    "quote": "KFH launched the AI virtual assistant \"Fahad\" at The Avenues Phase 4 branch to respond to general customer inquiries for the first time in Kuwait."
+   },
    "verification": {
-    "level": "trusted",
-    "evidence": "headline",
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "f4eaadb55a19",
+   "bank_id": "kfh",
+   "country": "KW",
+   "date": "2026-04-21",
+   "title": "KFH AI-Driven Fraud Detection Model",
+   "summary": "KFH deployed an AI-driven fraud detection model on KFHOnline that analyzes customer behavior to flag suspicious activities. This system was introduced as part of the bank's digital transformation strategy.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "fraud detection",
+    "machine learning",
+    "digital security"
+   ],
+   "partners": [],
+   "impact": "Automated fraud detection on KFHOnline platform",
+   "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=35",
+   "source_name": "KFH Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=35",
+     "name": "KFH Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:23:41+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+    "page": 35,
+    "quote": "the introduction of an AI-driven fraud detection model on KFHOnline to analyzes customer behavior to flag suspicious activities"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "f770742e5038",
+   "bank_id": "kfh",
+   "country": "KW",
+   "date": "2026-04-21",
+   "title": "KFH AI Examination Engine for Letters of Credit",
+   "summary": "KFH introduced an integrated AI examination engine within the Letter of Credit (LC) issuance workflow to automatically review LC and CTA documents. The system ensures compliance with regulatory requirements and eligibility criteria.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "letters of credit",
+    "document review",
+    "compliance",
+    "automation",
+    "screening",
+    "trade finance"
+   ],
+   "partners": [],
+   "impact": "Automated LC and CTA document review with regulatory compliance verification",
+   "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=35",
+   "source_name": "KFH Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=35",
+     "name": "KFH Annual Report 2025"
+    },
+    {
+     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=9",
+     "name": "KFH Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:23:41+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+    "page": 35,
+    "quote": "KFH introduced an integrated AI examination engine within the Letter of Credit (LC) issuance workflow to automatically review LC and CTA documents, ensuring compliance with regulatory requirements and eligibility criteria."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "3a6c878cc631",
+   "bank_id": "kfh",
+   "country": "KW",
+   "date": "2026-04-21",
+   "title": "KFH Digital Risk Management Transformation",
+   "summary": "Under the leadership of Mr. El-Bendary, KFH adopted cutting-edge technologies including artificial intelligence and machine learning to improve risk models, predictive analysis, and regulatory compliance. The group implemented digital tools for real-time risk identification and streamlined data governance.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "risk management",
+    "machine learning",
+    "predictive analytics",
+    "digital transformation"
+   ],
+   "partners": [],
+   "impact": "Enhanced real-time risk identification and agile risk management strategies across the global KFH network",
+   "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=39",
+   "source_name": "KFH Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=39",
+     "name": "KFH Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:23:41+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+    "page": 39,
+    "quote": "Mr. El-Bendary has led KFH's digital transformation in risk management by adopting cutting-edge technologies such as artificial intelligence, machine learning, and advanced analytics to improve Risk models, predictive analysis, and regulatory compliance. Under his leadership, the group has implemented digital tools to enhance real-time risk identification and streamline data governance, ensuring more agile and proactive risk management strategies across the global KFH network."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "30c24f9e18cc",
+   "bank_id": "kfh",
+   "country": "KW",
+   "date": "2026-04-21",
+   "title": "KFH Generative AI for Policy and Procedure Management",
+   "summary": "KFH introduced Generative AI capabilities across the bank to support policy and procedure management with intelligent document handling and faster updates. This enables improved decision-making in operations.",
+   "category": "Generative AI & Copilots",
+   "topics": [
+    "Generative AI & Copilots"
+   ],
+   "tags": [
+    "generative AI",
+    "document handling",
+    "policy management"
+   ],
+   "partners": [],
+   "impact": "Intelligent document handling, faster policy updates, and improved decision-making in Group Operations",
+   "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=34",
+   "source_name": "KFH Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=34",
+     "name": "KFH Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:23:41+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+    "page": 34,
+    "quote": "Generative AI capabilities were introduced across the bank to support policy and procedure management, enabling intelligent document handling, faster updates, and improved decision-making."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "cceb1598fefe",
+   "bank_id": "kfh",
+   "country": "KW",
+   "date": "2026-04-21",
+   "title": "KFH AI Excellence Award from Microsoft",
+   "summary": "KFH received the AI Excellence Award during the Microsoft AI Summit in 2025. This recognition reflects the bank's achievements in artificial intelligence implementation.",
+   "category": "Awards & Rankings",
+   "topics": [
+    "Awards & Rankings"
+   ],
+   "tags": [
+    "award",
+    "Microsoft",
+    "excellence"
+   ],
+   "partners": [
+    "Microsoft"
+   ],
+   "impact": "AI Excellence Award from Microsoft AI Summit",
+   "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=37",
+   "source_name": "KFH Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=37",
+     "name": "KFH Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:23:41+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+    "page": 37,
+    "quote": "KFH also received the AI Excellence Award during the Microsoft AI Summit."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "b36d53b8e5ff",
+   "bank_id": "kfh",
+   "country": "KW",
+   "date": "2026-04-21",
+   "title": "KFH AI-Driven Digital Transformation Strategy",
+   "summary": "KFH developed a three-pillar strategic framework with AI-driven digital transformation as the primary pillar, alongside customer centricity and Group synergy. The strategy guides the development of all key business strategies across the organization.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "strategy",
+    "digital transformation",
+    "board-approved"
+   ],
+   "partners": [],
+   "impact": "Comprehensive AI-driven digital transformation strategy implemented across all Group business units",
+   "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=32",
+   "source_name": "KFH Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=32",
+     "name": "KFH Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:23:41+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+    "page": 32,
+    "quote": "the Group's key strategies are developed based on three pillars: AI-driven digital transformation, customer centricity and Group synergy."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "3da8d6487c1c",
+   "bank_id": "kfh",
+   "country": "KW",
+   "date": "2026-04-21",
+   "title": "KFH Facial Recognition and Fraud Detection Features",
+   "summary": "KFH deployed facial recognition technology and fraud detection features as part of advanced systems launched during its digital transformation. These systems enhance security and operational efficiency.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "facial recognition",
+    "fraud detection",
+    "security"
+   ],
+   "partners": [],
+   "impact": "Enhanced security through facial recognition and fraud detection capabilities",
+   "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=9",
+   "source_name": "KFH Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=9",
+     "name": "KFH Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:23:41+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+    "page": 9,
+    "quote": "features like facial recognition and a fraud detection model"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
     "checked": "2026-10-05"
    }
   },
@@ -1615,9 +1976,13 @@
    "tags": [
     "HR",
     "Chatbot",
+    "Oracle",
+    "AI chatbot",
+    "HR automation"
+   ],
+   "partners": [
     "Oracle"
    ],
-   "partners": [],
    "impact": "",
    "source_url": "https://www.oracle.com/customers/first-abu-dhabi-bank/",
    "source_name": "Oracle",
@@ -1626,6 +1991,14 @@
    "sources": [
     {
      "url": "https://www.oracle.com/customers/first-abu-dhabi-bank/",
+     "name": "Oracle"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SVG1HOWlHbGgtYkVJZlB3YS1raVlWWmhMVHMwUnJud3pmMXJWZVJETnNYeThkTWFKcGFxNXltR0hWN2Q5TjR0eVUzejVTTDI0cDQxSDV6WWYxQkpNYmttZ2pMQjg?oc=5",
+     "name": "oracle.com"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SVG1HOWlHbGgtYkVJZlB3YS1raVlWWmhMVHMwUnJud3pmMXJWZVJETnNYeThkTWFKcGFxNXltR0hWN2Q5TjR0eVUzejVTTDI0cDQxSDV6WWYxQkpNYmttZ2pMQjg?oc=5",
      "name": "Oracle"
     }
    ],
@@ -1636,8 +2009,231 @@
    },
    "topics": [
     "AI Adoption in Operations",
-    "Tech Vendor Partnerships"
+    "Tech Vendor Partnerships",
+    "Generative AI & Copilots"
    ]
+  },
+  {
+   "id": "3283c734ae25",
+   "bank_id": "alinma",
+   "country": "SA",
+   "date": "2026-03-31",
+   "title": "Alinma 10 Live AI Use Cases in 2025",
+   "summary": "Alinma deployed 10 live AI use cases in 2025 that enhanced both customer experience and internal efficiency across core journeys. These implementations improved speed, consistency, and control through automation and advanced analytics embedded across operations.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "use cases",
+    "customer experience",
+    "internal efficiency"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf#page=19",
+   "source_name": "Alinma Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf#page=19",
+     "name": "Alinma Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:13:32+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf",
+    "page": 19,
+    "quote": "Data and advanced analytics translated into tangible outcomes, with 10 live AI use cases enhancing both customer experience and internal efficiency."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "9c4dc08cc86e",
+   "bank_id": "alinma",
+   "country": "SA",
+   "date": "2026-03-31",
+   "title": "Alinma Unified Data and AI Platform Deployment",
+   "summary": "Alinma deployed a unified Data and AI platform in 2025 providing governed, scalable infrastructure for analytics, predictive modeling, and GenAI use cases across the enterprise. This foundation enabled faster delivery, improved data consistency, and supported the bank's first production GenAI solutions.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "platform",
+    "infrastructure",
+    "production deployment"
+   ],
+   "partners": [
+    "Dataiku",
+    "NVIDIA"
+   ],
+   "impact": "Enabled deployment of Operations Policies and Procedures AI Agent and GenAI Enterprise Assistant for Policies and Procedures",
+   "source_url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf#page=33",
+   "source_name": "Alinma Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf#page=33",
+     "name": "Alinma Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:13:32+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf",
+    "page": 33,
+    "quote": "A major milestone was the deployment of a unified Data and AI platform that provides governed, scalable infrastructure for analytics, predictive modeling, and GenAI use cases. This foundation enabled faster delivery, improved data consistency, and supported the Bank's first production GenAI solutions, including the Operations Policies and Procedures AI Agent and GenAI Enterprise Assistant for Policies and Procedures."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "7d2a2faef196",
+   "bank_id": "alinma",
+   "country": "SA",
+   "date": "2026-03-31",
+   "title": "Alinma First Global Bank to Implement Visa AI Marketing Program",
+   "summary": "Alinma became the first bank globally to implement Visa's AI-powered marketing (AIM) program in 2025, developed by Google and Boston Consulting Group (BCG). The program introduces a structured framework designed to elevate marketing maturity across measurement, media, creative, data, and audience strategy.",
+   "category": "Tech Vendor Partnerships",
+   "topics": [
+    "Tech Vendor Partnerships"
+   ],
+   "tags": [
+    "Visa",
+    "Google",
+    "BCG",
+    "marketing"
+   ],
+   "partners": [
+    "Visa",
+    "Google",
+    "Boston Consulting Group (BCG)"
+   ],
+   "impact": "Major step forward in the Bank's digital marketing transformation",
+   "source_url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf#page=32",
+   "source_name": "Alinma Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf#page=32",
+     "name": "Alinma Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:13:32+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf",
+    "page": 32,
+    "quote": "alinma achieved another significant milestone by becoming the first bank globally to implement Visa's AI-powered marketing (AIM) program; marking a major step forward in the Bank's digital marketing transformation. Developed by Google and Boston Consulting Group (BCG), with Visa as a strategic partner, the AIM program introduces a structured, world-class framework designed to elevate marketing maturity across five core pillars: measurement, media, creative, data, and audience strategy."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "40b7d6d83cf1",
+   "bank_id": "alinma",
+   "country": "SA",
+   "date": "2026-03-31",
+   "title": "Alinma NVIDIA H200 GPUs and Dataiku Platform Deployment",
+   "summary": "Alinma deployed NVIDIA H200 GPUs supported by NVIDIA Enterprise AI tools in 2025 to enhance processing of large-scale datasets and train advanced models. The bank also deployed Dataiku as a unified platform for scalable AI and GenAI development with governance for analytics and model lifecycle management.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "NVIDIA",
+    "Dataiku",
+    "GPU",
+    "infrastructure"
+   ],
+   "partners": [
+    "NVIDIA",
+    "Dataiku"
+   ],
+   "impact": "Significantly enhanced ability to process large-scale datasets, train advanced models, and accelerate GenAI and agentic-AI solutions rollout",
+   "source_url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf#page=33",
+   "source_name": "Alinma Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf#page=33",
+     "name": "Alinma Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:13:32+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf",
+    "page": 33,
+    "quote": "We deployed NVIDIA H200 GPUs supported by NVIDIA Enterprise AI tools, significantly enhancing our ability to process large-scale datasets, train advanced models, and accelerate the rollout of GenAI and agentic-AI solutions across the Bank. We also strengthened our enterprise Data and AI capabilities by deploying Dataiku as our unified platform for scalable AI and GenAI development."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "9b17f092dca1",
+   "bank_id": "alinma",
+   "country": "SA",
+   "date": "2026-03-31",
+   "title": "Alinma Future Bankers AI Training Program",
+   "summary": "Alinma launched a specialized Artificial Intelligence track within the Future Bankers program in 2025, providing learning pathways in AI fundamentals, practical model development, and hands-on GenAI solution design. In 2025, 10 candidates were selected and trained, joining as full-time employees and successfully delivering three AI use cases.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "Future Bankers",
+    "training",
+    "GenAI track"
+   ],
+   "partners": [],
+   "impact": "10 future bankers trained and hired as full-time employees; successfully delivered three AI use cases for Retail Banking Group and Credit team",
+   "source_url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf#page=33",
+   "source_name": "Alinma Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf#page=33",
+     "name": "Alinma Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:13:32+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf",
+    "page": 33,
+    "quote": "Through the Future Bankers program, GenAI Track, we provided specialized learning pathways covering AI fundamentals, practical model development, and hands-on GenAI solution design. In 2025, we selected and trained 10 future bankers who have now joined us as full-time employees. As part of their development journey, they successfully delivered three AI use cases for the Retail Banking Group and the Credit team, demonstrating early contributions to our innovation agenda."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
   },
   {
    "id": "0edb49204011",
@@ -1709,6 +2305,570 @@
    ]
   },
   {
+   "id": "e0012bdd3461",
+   "bank_id": "saib",
+   "country": "SA",
+   "date": "2026-03-24",
+   "title": "SAIB AI Platform for Advanced Analytics and Use Cases",
+   "summary": "SAIB launched an AI platform to support advanced analytics and AI use cases across the bank. The platform is designed to enable high-impact AI and advanced analytics applications to enhance productivity and decision-making efficiency.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations",
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "AI platform",
+    "advanced analytics",
+    "productivity"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.saib.com.sa/sites/default/files/2026-04/bod-2025-Ar.pdf#page=14",
+   "source_name": "SAIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.saib.com.sa/sites/default/files/2026-04/bod-2025-Ar.pdf#page=14",
+     "name": "SAIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:16:29+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.saib.com.sa/sites/default/files/2026-04/bod-2025-Ar.pdf",
+    "page": 14,
+    "quote": "إطلاق منصة الذكاء الاصطناعي لدعم التحليلات المتقدمة وحالات استخدام الذكاء الاصطناعي"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "e6e24eecbe85",
+   "bank_id": "burgan",
+   "country": "KW",
+   "date": "2026-03-17",
+   "title": "Burgan AI-Powered Digital Banking Platform",
+   "summary": "Burgan deployed AI across chatbots, eKYC, and workflows to modernize its digital banking platform and accelerate customer innovation. The initiative integrated AI capabilities to enhance customer-facing services and streamline onboarding processes.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "chatbots",
+    "eKYC",
+    "customer innovation"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://burgan.com/en/documents/157/BBAnnualReport2025.pdf#page=24",
+   "source_name": "Burgan Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://burgan.com/en/documents/157/BBAnnualReport2025.pdf#page=24",
+     "name": "Burgan Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:28:53+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://burgan.com/en/documents/157/BBAnnualReport2025.pdf",
+    "page": 24,
+    "quote": "Deployed AI across chatbots, eKYC, development, and workflows to modernize the platform and accelerate customer innovation."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "99023bfa2d80",
+   "bank_id": "burgan",
+   "country": "KW",
+   "date": "2026-03-17",
+   "title": "Burgan Business AI Integration for HR and Decision-Making",
+   "summary": "Burgan is integrating SAP's Business AI capabilities to support smarter decision-making and professional growth in talent management. This initiative will enhance data-driven HR operations and career development for employees.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Business AI",
+    "SAP SuccessFactors",
+    "talent management"
+   ],
+   "partners": [
+    "SAP"
+   ],
+   "impact": "",
+   "source_url": "https://burgan.com/en/documents/157/BBAnnualReport2025.pdf#page=33",
+   "source_name": "Burgan Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://burgan.com/en/documents/157/BBAnnualReport2025.pdf#page=33",
+     "name": "Burgan Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:28:53+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://burgan.com/en/documents/157/BBAnnualReport2025.pdf",
+    "page": 33,
+    "quote": "Burgan will also be integrating SAP's Business AI capabilities to support smarter decision-making and professional growth."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "5d394f2d7d6d",
+   "bank_id": "burgan",
+   "country": "KW",
+   "date": "2026-03-17",
+   "title": "Burgan Data Champion Programme with CODED Academy",
+   "summary": "Burgan Bank reports in its 2025 annual report (p. 33): “The Bank introduced the Data Champion Programme in collaboration with CODED Academy, along with Digital and AI Readiness workshops.”",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "Data Champion Programme",
+    "AI Readiness workshops",
+    "CODED Academy"
+   ],
+   "partners": [
+    "CODED Academy"
+   ],
+   "impact": "",
+   "source_url": "https://burgan.com/en/documents/157/BBAnnualReport2025.pdf#page=33",
+   "source_name": "Burgan Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://burgan.com/en/documents/157/BBAnnualReport2025.pdf#page=33",
+     "name": "Burgan Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:28:53+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://burgan.com/en/documents/157/BBAnnualReport2025.pdf",
+    "page": 33,
+    "quote": "The Bank introduced the Data Champion Programme in collaboration with CODED Academy, along with Digital and AI Readiness workshops."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "b78e91a0ad7d",
+   "bank_id": "dib",
+   "country": "AE",
+   "date": "2026-03-13",
+   "title": "DIB AI Committee and Enterprise AI Strategy",
+   "summary": "Dubai Islamic Bank reports in its 2025 annual report (p. 24): “Constitution of AI Committee • Focusing to centralise and unify AI efforts • Driving AI adoption and elevating AI maturity”",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "AI Committee",
+    "governance",
+    "strategy development"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=24",
+   "source_name": "DIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=24",
+     "name": "DIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:01:38+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf",
+    "page": 24,
+    "quote": "Constitution of AI Committee • Focusing to centralise and unify AI efforts • Driving AI adoption and elevating AI maturity"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "6807cf791bc7",
+   "bank_id": "dib",
+   "country": "AE",
+   "date": "2026-03-13",
+   "title": "DIB AI-Powered Fraud Detection Systems",
+   "summary": "DIB deployed AI-powered fraud detection systems as part of enhanced monitoring and incident management through real-time tools. The system strengthens security measures alongside regular audits, data encryption, and access controls.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "fraud detection",
+    "security",
+    "real-time monitoring",
+    "compliance",
+    "AI automation",
+    "detection"
+   ],
+   "partners": [],
+   "impact": "Improved detection capabilities for financial crime surveillance; enhanced financial crime surveillance activities",
+   "source_url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=46",
+   "source_name": "DIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=46",
+     "name": "DIB Annual Report 2025"
+    },
+    {
+     "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=68",
+     "name": "DIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:01:38+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf",
+    "page": 46,
+    "quote": "The Bank is enhancing monitoring and incident management through real-time tools and robust response plans, while strengthening security measures with regular audits, data encryption, access controls, and AI-powered fraud detection systems."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "3229927a5ac9",
+   "bank_id": "dib",
+   "country": "AE",
+   "date": "2026-03-13",
+   "title": "DIB AI-Driven Models for Customer Insight and Credit Decisioning",
+   "summary": "DIB deployed advanced data analytics and AI-driven models to enhance customer insight, financing decisioning, fraud detection, and next-best-offer capabilities. These capabilities are integrated into the bank's core systems upgrades for faster transaction processing.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "financing",
+    "predictive models",
+    "customer insight"
+   ],
+   "partners": [],
+   "impact": "Enhanced customer insight and financing decisioning; improved fraud detection; next-best-offer capabilities deployed",
+   "source_url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=16",
+   "source_name": "DIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=16",
+     "name": "DIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:01:38+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf",
+    "page": 16,
+    "quote": "Deployment of advanced data analytics and AI-driven models to enhance customer insight, financing decisioning, fraud detection, and next-best-offer capabilities."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "7b088c3461a7",
+   "bank_id": "dib",
+   "country": "AE",
+   "date": "2026-03-13",
+   "title": "DIB AI-Driven Interaction Platforms and Self-Service Analytics",
+   "summary": "DIB is deploying advanced analytics and AI models with a data-driven event platform, and building retail and corporate data marts to enable self-service analytics. The bank is enhancing customer engagement through AI-driven interaction platforms.",
+   "category": "Generative AI & Copilots",
+   "topics": [
+    "Generative AI & Copilots"
+   ],
+   "tags": [
+    "data analytics",
+    "self-service",
+    "customer engagement"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=47",
+   "source_name": "DIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=47",
+     "name": "DIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:01:38+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf",
+    "page": 47,
+    "quote": "Development of an API management and monetisation framework, the rollout of a data-driven event platform, and the deployment of advanced analytics and AI models. Building retail and corporate data marts, enabling self-service analytics, and enhancing customer engagement through AI-driven interaction platforms."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "8a45c64f0055",
+   "bank_id": "dib",
+   "country": "AE",
+   "date": "2026-03-13",
+   "title": "DIB AI Governance Enhancement and Threat Intelligence",
+   "summary": "DIB implemented enhanced AI governance controls and upgraded its threat intelligence platforms as part of information security and data privacy measures. The bank expanded collaboration with global intelligence-sharing networks and conducts regular cyber-resilience exercises.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "governance controls",
+    "threat intelligence",
+    "security operations"
+   ],
+   "partners": [],
+   "impact": "Enhanced AI governance controls; upgraded threat intelligence platforms; continuous monitoring by Security Operations Center",
+   "source_url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=62",
+   "source_name": "DIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=62",
+     "name": "DIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:01:38+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf",
+    "page": 62,
+    "quote": "The Bank implemented enhanced AI governance controls, upgraded its threat intelligence platforms, and expanded collaboration with global intelligence-sharing networks."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "d0478b1f6eca",
+   "bank_id": "dib",
+   "country": "AE",
+   "date": "2026-03-13",
+   "title": "DIB Strategic Partnership with HCLTech for Responsible AI Scaling",
+   "summary": "DIB partnered with HCLTech to scale the responsible use of Artificial Intelligence across the organisation. The partnership reinforces DIB's leadership in digital innovation and strengthens decision-making, customer experience, and risk frameworks.",
+   "category": "Tech Vendor Partnerships",
+   "topics": [
+    "Tech Vendor Partnerships"
+   ],
+   "tags": [
+    "HCLTech",
+    "responsible AI",
+    "partnership"
+   ],
+   "partners": [
+    "HCLTech"
+   ],
+   "impact": "Responsible AI scaled across organisation; decision-making, customer experience, and risk frameworks strengthened",
+   "source_url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=49",
+   "source_name": "DIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=49",
+     "name": "DIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:01:38+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf",
+    "page": 49,
+    "quote": "The Bank also partnered with HCLTech to scale the responsible use of Artificial Intelligence (AI) across the organisation, reinforcing its leadership in digital innovation and strengthening decision-making, customer experience, and risk frameworks."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "975f00dbab6c",
+   "bank_id": "dib",
+   "country": "AE",
+   "date": "2026-03-13",
+   "title": "DIB Strategic Partnership with Finshape for Digital Banking",
+   "summary": "At GITEX GLOBAL 2025, DIB entered into a strategic partnership with Finshape to leverage its Digital Bank Operating System. The partnership enables enhanced agility, scalability, and personalised digital experiences.",
+   "category": "Tech Vendor Partnerships",
+   "topics": [
+    "Tech Vendor Partnerships"
+   ],
+   "tags": [
+    "Finshape",
+    "Digital Bank Operating System",
+    "personalisation"
+   ],
+   "partners": [
+    "Finshape"
+   ],
+   "impact": "Enhanced agility and scalability of digital banking platform; personalised digital experiences enabled",
+   "source_url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=49",
+   "source_name": "DIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=49",
+     "name": "DIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:01:38+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf",
+    "page": 49,
+    "quote": "At GITEX GLOBAL 2025, DIB entered into a strategic partnership with Finshape to leverage its Digital Bank Operating System, enabling enhanced agility, scalability, and personalised digital experiences."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "5e259da47d4b",
+   "bank_id": "dib",
+   "country": "AE",
+   "date": "2026-03-13",
+   "title": "DIB AI Skills Development and LinkedIn Learning Partnership",
+   "summary": "DIB opened a new on-site Academy as a state-of-the-art learning facility and established a partnership with LinkedIn Learning. The partnership provides employees access to curated content on topics including artificial intelligence, sustainability, and systems thinking.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "AI training",
+    "LinkedIn Learning",
+    "Academy"
+   ],
+   "partners": [
+    "LinkedIn Learning"
+   ],
+   "impact": "State-of-the-art learning facility opened; employees access curated AI and emerging-topics content",
+   "source_url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=58",
+   "source_name": "DIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=58",
+     "name": "DIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:01:38+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf",
+    "page": 58,
+    "quote": "Substantial investments were made into learning and development with the opening of DIB's new Academy, a state-of-the-art, on-site learning facility. Additionally, the Bank expanded its digital education horizons, establishing a partnership with LinkedIn Learning, where employees can access curated leading content on topics such as sustainability, artificial intelligence, systems thinking, and many more."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "ebb7fea057d2",
+   "bank_id": "dib",
+   "country": "AE",
+   "date": "2026-03-13",
+   "title": "DIB AI-Powered Hyper-Personalisation and Voice-Enabled Banking (Future Initiative)",
+   "summary": "DIB is exploring AI-powered hyper-personalisation and voice-enabled conversational banking experiences as future initiatives. The bank is also examining blockchain-based smart contracts and next-generation open banking ecosystem capabilities to redefine customer interactions.",
+   "category": "Generative AI & Copilots",
+   "topics": [
+    "Generative AI & Copilots"
+   ],
+   "tags": [
+    "future initiatives",
+    "hyper-personalisation",
+    "voice banking"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=47",
+   "source_name": "DIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf#page=47",
+     "name": "DIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:01:38+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf",
+    "page": 47,
+    "quote": "These initiatives include AI-powered hyper-personalisation, digital twin technology, and the creation of a next-generation open banking ecosystem. The Bank is also exploring blockchain-based smart contracts and voice-enabled conversational banking experiences, which will redefine how customers interact with financial services."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
    "id": "88833631af45",
    "bank_id": "adcb",
    "country": "AE",
@@ -1752,41 +2912,263 @@
    ]
   },
   {
-   "id": "93c52a605b83",
-   "bank_id": "cbuae",
-   "country": "AE",
-   "date": "2026-03-03",
-   "title": "UAE Central Bank publishes responsible AI guidance for financial sector",
-   "summary": "The UAE Central Bank has published guidance on responsible artificial intelligence use for the financial sector.",
-   "category": "AI Regulation & Policy",
+   "id": "38134f7b05a1",
+   "bank_id": "nbk",
+   "country": "KW",
+   "date": "2026-03-04",
+   "title": "NBK AI-Driven Bank Strategic Ambition with Responsible Implementation",
+   "summary": "As part of its strategic ambition to become Kuwait's leading AI-driven bank, NBK embedded artificial intelligence across its operations in a responsible and forward-looking manner with strong executive sponsorship. The Bank positioned itself at the forefront of AI adoption in the region through coordinated initiatives across productivity tools, fraud detection, and customer personalization.",
+   "category": "AI Strategy & Leadership",
    "topics": [
-    "AI Regulation & Policy",
-    "Fraud, Risk & Compliance"
+    "AI Strategy & Leadership"
    ],
    "tags": [
-    "AI regulation",
-    "Responsible AI"
+    "strategic ambition",
+    "responsible AI",
+    "regional leadership",
+    "executive commitment"
    ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNTluMEJPNzE1ZkY1WEZRaE9pRjJoMU9zUmNNVWRTTC1qemswOFR5LWNNTmxsbVZVNFo2UHhXUmZSNjVBblR2UmNKa3lxS0Nnb0hNYkRYcG91bUtIS1k5clJhU18wVnJ5ZS0xTy1DaEVaSjk2UkpRbEpsY2Y1TmVMMWxWZ1lKWnowbFpIMjkyWmVFVDRuU1c4azJWSkNKdTNkRGc?oc=5",
-   "source_name": "pinsentmasons.com",
-   "source_title": "UAE Central Bank publishes responsible AI guidance for financial sector",
+   "partners": [
+    "Microsoft",
+    "leading consultants"
+   ],
+   "impact": "Positioned as Kuwait's leading AI-driven bank; earned AI Excellence Award at Microsoft AI Summit",
+   "source_url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf#page=38",
+   "source_name": "NBK Annual Report 2025",
+   "source_title": "",
    "sources": [
     {
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNTluMEJPNzE1ZkY1WEZRaE9pRjJoMU9zUmNNVWRTTC1qemswOFR5LWNNTmxsbVZVNFo2UHhXUmZSNjVBblR2UmNKa3lxS0Nnb0hNYkRYcG91bUtIS1k5clJhU18wVnJ5ZS0xTy1DaEVaSjk2UkpRbEpsY2Y1TmVMMWxWZ1lKWnowbFpIMjkyWmVFVDRuU1c4azJWSkNKdTNkRGc?oc=5",
-     "name": "pinsentmasons.com"
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNTluMEJPNzE1ZkY1WEZRaE9pRjJoMU9zUmNNVWRTTC1qemswOFR5LWNNTmxsbVZVNFo2UHhXUmZSNjVBblR2UmNKa3lxS0Nnb0hNYkRYcG91bUtIS1k5clJhU18wVnJ5ZS0xTy1DaEVaSjk2UkpRbEpsY2Y1TmVMMWxWZ1lKWnowbFpIMjkyWmVFVDRuU1c4azJWSkNKdTNkRGc?oc=5",
-     "name": "Pinsent Masons"
+     "url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf#page=38",
+     "name": "NBK Annual Report 2025"
     }
    ],
    "language": "en",
-   "added_at": "2026-10-05T18:02:54+00:00",
+   "added_at": "2026-10-05T21:22:47+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
+    "page": 38,
+    "quote": "As part of its strategic ambition to become Kuwait's leading AI-driven bank, NBK made significant progress in embedding artificial intelligence across its operations in a responsible and forward-looking manner. With strong executive sponsorship, NBK partnered with Microsoft to accelerate enterprise-wide adoption of AI-powered productivity tools."
+   },
    "verification": {
-    "level": "corroborated",
-    "evidence": "headline",
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "e63ed14c0266",
+   "bank_id": "nbk",
+   "country": "KW",
+   "date": "2026-03-04",
+   "title": "NBK Enterprise Fraud Management with Real-Time AI Detection",
+   "summary": "NBK deployed a next-generation real-time fraud detection platform offering cross-channel correlation of customer activity, instant scoring and decisioning, and real-time blocking to prevent fraudulent transactions. The platform enhances operational resilience and customer protection across all channels.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "fraud management",
+    "real-time decisioning",
+    "cybersecurity",
+    "operational resilience"
+   ],
+   "partners": [],
+   "impact": "Deployed next-generation platform with instant scoring, decisioning, and real-time blocking capabilities",
+   "source_url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf#page=40",
+   "source_name": "NBK Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf#page=40",
+     "name": "NBK Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:22:47+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
+    "page": 40,
+    "quote": "Deployed a next-generation real-time fraud detection platform offering: Ȍ Cross-channel correlation of customer activity Ȍ Instant scoring and decisioning Ȍ Real-time blocking to prevent fraudulent transactions"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "e63fd0ae7758",
+   "bank_id": "nbk",
+   "country": "KW",
+   "date": "2026-03-04",
+   "title": "NBK Customer 360 Analytics for Hyper-Personalization and Risk Modeling",
+   "summary": "National Bank of Kuwait reports in its 2025 annual report (p. 40): “Continuing to enhance Operational Data Store (ODS) and Enterprise Data Warehouse (EDW) to support: Ȍ IFRS 9 financial impairment models Ȍ Customer 360 (C-360) analytics for personalization, risk modeling, and segmentatio…”",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "data analytics",
+    "machine learning",
+    "customer insights",
+    "decisioning"
+   ],
+   "partners": [],
+   "impact": "Enables hyper-personalization and consistent delivery of Five Rights of customer communication; supports IFRS 9 impairment models",
+   "source_url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf#page=40",
+   "source_name": "NBK Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf#page=40",
+     "name": "NBK Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:22:47+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
+    "page": 40,
+    "quote": "Continuing to enhance Operational Data Store (ODS) and Enterprise Data Warehouse (EDW) to support: Ȍ IFRS 9 financial impairment models Ȍ Customer 360 (C-360) analytics for personalization, risk modeling, and segmentation"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "ddfbded0bc45",
+   "bank_id": "nbk",
+   "country": "KW",
+   "date": "2026-03-04",
+   "title": "NBK e-KYC Rollout Across Digital Channels",
+   "summary": "NBK rolled out e-KYC capabilities across retail and corporate digital channels, enabling customers to update KYC information digitally, upload documents via mobile and online banking, and complete verification without visiting branches. The implementation streamlines customer onboarding and compliance processes.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "e-KYC",
+    "digital verification",
+    "mobile banking",
+    "branch reduction"
+   ],
+   "partners": [],
+   "impact": "Enables digital KYC updates, document uploads, and verification without branch visits across retail and corporate channels",
+   "source_url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf#page=40",
+   "source_name": "NBK Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf#page=40",
+     "name": "NBK Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:22:47+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
+    "page": 40,
+    "quote": "Rolled out e-KYC capabilities across retail and corporate digital channels, enabling customers to: Ȍ Update KYC information digitally Ȍ Upload documents via mobile and online banking Ȍ Complete verification without visiting branches"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "7648d5489259",
+   "bank_id": "nbk",
+   "country": "KW",
+   "date": "2026-03-04",
+   "title": "NBK Data Analytics and Predictive Decisioning for Customer Engagement",
+   "summary": "NBK integrates new data sources into its analytics framework to generate deeper customer insights and delivers more impactful communications using predictive models, scoring, and Next Best Action (NBA) capabilities. The decisioning process identifies the right customer, optimal timing, and most effective channel for each interaction to ensure personalization and impact.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Next Best Action",
+    "predictive models",
+    "scoring",
+    "data integration"
+   ],
+   "partners": [],
+   "impact": "Delivers Five Rights of customer communication: right customer, time, offer, channel, and location",
+   "source_url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf#page=41",
+   "source_name": "NBK Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf#page=41",
+     "name": "NBK Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:22:47+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
+    "page": 41,
+    "quote": "Leveraging predictive models, scoring, and Next Best Action (NBA) capabilities, the decisioning process identifies the right customer to engage with, the optimal timing, and the most effective channel, ensuring every interaction is both personalized and impactful."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "1588d13e9675",
+   "bank_id": "nbk",
+   "country": "KW",
+   "date": "2026-03-04",
+   "title": "NBK Digital Transformation Strategy with AI and Analytics Capabilities",
+   "summary": "NBK's digital transformation strategy uses a dual-track approach combining modernization of existing business and building native digital businesses leveraging AI and fintech ecosystems. The strategy embeds intelligent automation, data intelligence, and advanced analytics across operating models to enhance decision precision, operational scalability, and client experience.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "digital strategy",
+    "operational efficiency",
+    "customer experience",
+    "scalability"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf#page=34",
+   "source_name": "NBK Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf#page=34",
+     "name": "NBK Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:22:47+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
+    "page": 34,
+    "quote": "The digital banking strategy of NBK is built on dual-track approach: • Digital transformation of the core: A comprehensive program to modernize and digitize the existing business, channels and operations. • Building native digital businesses through innovation: Building digital first business models beyond the traditional banking core, leveraging AI and fintech ecosystems."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
     "checked": "2026-10-05"
    }
   },
@@ -1827,40 +3209,6 @@
    }
   },
   {
-   "id": "9564f7f09aa0",
-   "bank_id": "cbuae",
-   "country": "AE",
-   "date": "2026-02-24",
-   "title": "UAE central bank issues AI guidance for licensed financial institutions",
-   "summary": "The UAE Central Bank has issued guidance on artificial intelligence for licensed financial institutions.",
-   "category": "AI Regulation & Policy",
-   "topics": [
-    "AI Regulation & Policy"
-   ],
-   "tags": [
-    "AI regulation",
-    "Financial sector"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObnc0RFpON2w3TkJOY1hIRy1OWmdkeDBOdnhvRTl0cDhEY1A3dlpfQ0o1SkxpOEZMRUZDSlVSZm1MZ0FKSi16ck1fYjVrU2doOHFxVkdJZzNDdktzSFdPXzRYV2ZvWkdaQmFNWlphMUFYLTRKbm1vcWc0RUEzX1RPN0ZSVTEycnV4VWpJSG9oUnAyVVgySlJBV000ZzBFbWRGX3JiTmg5R19QU1BueXlsWQ?oc=5",
-   "source_name": "Arabian Business",
-   "source_title": "UAE central bank issues AI guidance for licensed financial institutions",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObnc0RFpON2w3TkJOY1hIRy1OWmdkeDBOdnhvRTl0cDhEY1A3dlpfQ0o1SkxpOEZMRUZDSlVSZm1MZ0FKSi16ck1fYjVrU2doOHFxVkdJZzNDdktzSFdPXzRYV2ZvWkdaQmFNWlphMUFYLTRKbm1vcWc0RUEzX1RPN0ZSVTEycnV4VWpJSG9oUnAyVVgySlJBV000ZzBFbWRGX3JiTmg5R19QU1BueXlsWQ?oc=5",
-     "name": "Arabian Business"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T18:02:54+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
    "id": "2955b44f27ed",
    "bank_id": "cbuae",
    "country": "AE",
@@ -1875,7 +3223,9 @@
    "tags": [
     "AI regulation",
     "Responsible AI",
-    "Consumer protection"
+    "Consumer protection",
+    "Financial sector guidance",
+    "Financial sector"
    ],
    "partners": [],
    "impact": "",
@@ -1886,38 +3236,19 @@
     {
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUDB1YjF5bW53djRFWUdiRkMxaFZ1UXJqOWRIYUUyaUdzaGs1c0tTOGlqNHpPQURqZld4YUtqd3BlanZpcThtbjB0enhLWEVtNUF2THdvSW01NlRWa3JLVHFlZlRDSmQzUkoxNEhuMWlDWWxTbEFueUxKWk5WbDJNZk1IUllOTm1DZmM4QVdqYw?oc=5",
      "name": "wam.ae"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T18:02:54+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "bb214a7eed6b",
-   "bank_id": "cbuae",
-   "country": "AE",
-   "date": "2026-02-23",
-   "title": "UAE Central Bank issues new rules on AI use to protect banking customers",
-   "summary": "The UAE Central Bank has issued new rules governing the use of artificial intelligence in banking to protect customers.",
-   "category": "AI Regulation & Policy",
-   "topics": [
-    "AI Regulation & Policy",
-    "Fraud, Risk & Compliance"
-   ],
-   "tags": [
-    "AI regulation",
-    "Consumer protection"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNejN6SG1YVHE1MWZhVkVIYmh1M2JKSXNjZjhjeWFqVHYtd0RLbnUxR0p2VU0zMFhKREVjbnlJUFZPWHV6WVdwc0IwX3UxbFN6TnlXbUp3OGNpTENZdklUOGFVblRRanFjbDJ2VGRkZHpfRjBpVFpaYXRHb3R5dFJtdW9wdnhpaVoxeDhQU2lSbC1nc3hHclJSUDkwdVo4eGU2SGF6QlBFSE9DZmoyVXNwMkNaeEc0RFFXbkZSVXF4QdIB0gFBVV95cUxQQ3RyYTFISFFPQ1NlalZURDR4emN1eHdkRUpmWkJYekVacGJoSWFIX0g2MDN0ODdwYUZSWFVNdmxJZkFGMzQxS2YtalduaEdLQ2xCWDlVZnBuT01vM2ZNZGozNmRjOVI4VjMzOXJTSVJ2TmJibmtIS2JWSUp1YlZIdm5ieEVyakVVRnJMUTlBMTQ5enNhV1hJQk1CNk9SSnNzRzhwTmt4bEljSk9RSU1ER2draV80NmhLR0I3X0Uta3RFRnN3NFhPcm9pdlVCdkZZcXc?oc=5",
-   "source_name": "Gulf News",
-   "source_title": "UAE Central Bank issues new rules on AI use to protect banking customers",
-   "sources": [
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNEI2dnQwSWQwNUhaSEhRV3hCYlBtS1NCS2JPRVhMX290NXoxbXMzdVI3NHZjZ0tIUUgwMGJGc2hOSkpfT0Zhb2lxME10UVluZDN4Yy1vQlVheFhsdGRReUtKX2M1ZGZEYWdTbXJJWXVqVGpoYzNaY1BSd3FoT24tRDJ0YzhyRmJhb2RpRGxYNHZMSzd1bFRtRHE2QjBIOTdvM2NCd1haaU1tdG5HOTE0dkNQYkZDUmFzNjFiQldwY2xGRzhtNVJUV3djZEU2dXQ1QlE?oc=5",
+     "name": "thenationalnews.com"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNTluMEJPNzE1ZkY1WEZRaE9pRjJoMU9zUmNNVWRTTC1qemswOFR5LWNNTmxsbVZVNFo2UHhXUmZSNjVBblR2UmNKa3lxS0Nnb0hNYkRYcG91bUtIS1k5clJhU18wVnJ5ZS0xTy1DaEVaSjk2UkpRbEpsY2Y1TmVMMWxWZ1lKWnowbFpIMjkyWmVFVDRuU1c4azJWSkNKdTNkRGc?oc=5",
+     "name": "pinsentmasons.com"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNTluMEJPNzE1ZkY1WEZRaE9pRjJoMU9zUmNNVWRTTC1qemswOFR5LWNNTmxsbVZVNFo2UHhXUmZSNjVBblR2UmNKa3lxS0Nnb0hNYkRYcG91bUtIS1k5clJhU18wVnJ5ZS0xTy1DaEVaSjk2UkpRbEpsY2Y1TmVMMWxWZ1lKWnowbFpIMjkyWmVFVDRuU1c4azJWSkNKdTNkRGc?oc=5",
+     "name": "Pinsent Masons"
+    },
     {
      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNejN6SG1YVHE1MWZhVkVIYmh1M2JKSXNjZjhjeWFqVHYtd0RLbnUxR0p2VU0zMFhKREVjbnlJUFZPWHV6WVdwc0IwX3UxbFN6TnlXbUp3OGNpTENZdklUOGFVblRRanFjbDJ2VGRkZHpfRjBpVFpaYXRHb3R5dFJtdW9wdnhpaVoxeDhQU2lSbC1nc3hHclJSUDkwdVo4eGU2SGF6QlBFSE9DZmoyVXNwMkNaeEc0RFFXbkZSVXF4QdIB0gFBVV95cUxQQ3RyYTFISFFPQ1NlalZURDR4emN1eHdkRUpmWkJYekVacGJoSWFIX0g2MDN0ODdwYUZSWFVNdmxJZkFGMzQxS2YtalduaEdLQ2xCWDlVZnBuT01vM2ZNZGozNmRjOVI4VjMzOXJTSVJ2TmJibmtIS2JWSUp1YlZIdm5ieEVyakVVRnJMUTlBMTQ5enNhV1hJQk1CNk9SSnNzRzhwTmt4bEljSk9RSU1ER2draV80NmhLR0I3X0Uta3RFRnN3NFhPcm9pdlVCdkZZcXc?oc=5",
      "name": "Gulf News"
@@ -1925,41 +3256,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNclpsemtWV2hUVGVRQmJoRVdwUWNnQXNnQ1hNYjhra2VSUnMxS3p6NjhjOHFLMXZCQWQyblZoR0ZfdWNzSzZpSHZ3cG1wb0tDYkNLSUNXRG0zTG5WNzFObGJ0ckFIM0VjVHhNY0F6ZF80RnZVSEdJMkMzdUxBQ2dlZTQ4WUdieEozVjhpNjhkdlRJTEV5aHJXc9IBoAFBVV95cUxNRnZzWWxRa0NvSjkwaDJfd3FMeEtpeHdfWnJwWjUyQkVNQURLLVFfVWR0SGNHampHOXlVQlVWVzVJdmVnUm9YQ0lVNjJSTmM4bUV4bkR2T3phRzJQTG1UcXhTWC1tT0ZpU19aVzU2Z3I3bDJhUjVGSzlic0hQYVZEVkZiRXFGenNXRkc3OFRXZm5KODZ6elB1NGVEcEFXT2Jl?oc=5",
      "name": "Khaleej Times"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T18:02:54+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "09dadb0c6eed",
-   "bank_id": "cbuae",
-   "country": "AE",
-   "date": "2026-02-23",
-   "title": "UAE Central Bank issues new guidelines on AI use in financial sector",
-   "summary": "The UAE Central Bank has issued new guidelines on the use of artificial intelligence in the financial sector.",
-   "category": "AI Regulation & Policy",
-   "topics": [
-    "AI Regulation & Policy",
-    "Fraud, Risk & Compliance"
-   ],
-   "tags": [
-    "AI regulation",
-    "Financial sector guidance"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNEI2dnQwSWQwNUhaSEhRV3hCYlBtS1NCS2JPRVhMX290NXoxbXMzdVI3NHZjZ0tIUUgwMGJGc2hOSkpfT0Zhb2lxME10UVluZDN4Yy1vQlVheFhsdGRReUtKX2M1ZGZEYWdTbXJJWXVqVGpoYzNaY1BSd3FoT24tRDJ0YzhyRmJhb2RpRGxYNHZMSzd1bFRtRHE2QjBIOTdvM2NCd1haaU1tdG5HOTE0dkNQYkZDUmFzNjFiQldwY2xGRzhtNVJUV3djZEU2dXQ1QlE?oc=5",
-   "source_name": "thenationalnews.com",
-   "source_title": "UAE Central Bank issues new guidelines on the use of AI in financial sector",
-   "sources": [
+    },
     {
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNEI2dnQwSWQwNUhaSEhRV3hCYlBtS1NCS2JPRVhMX290NXoxbXMzdVI3NHZjZ0tIUUgwMGJGc2hOSkpfT0Zhb2lxME10UVluZDN4Yy1vQlVheFhsdGRReUtKX2M1ZGZEYWdTbXJJWXVqVGpoYzNaY1BSd3FoT24tRDJ0YzhyRmJhb2RpRGxYNHZMSzd1bFRtRHE2QjBIOTdvM2NCd1haaU1tdG5HOTE0dkNQYkZDUmFzNjFiQldwY2xGRzhtNVJUV3djZEU2dXQ1QlE?oc=5",
-     "name": "thenationalnews.com"
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObnc0RFpON2w3TkJOY1hIRy1OWmdkeDBOdnhvRTl0cDhEY1A3dlpfQ0o1SkxpOEZMRUZDSlVSZm1MZ0FKSi16ck1fYjVrU2doOHFxVkdJZzNDdktzSFdPXzRYV2ZvWkdaQmFNWlphMUFYLTRKbm1vcWc0RUEzX1RPN0ZSVTEycnV4VWpJSG9oUnAyVVgySlJBV000ZzBFbWRGX3JiTmg5R19QU1BueXlsWQ?oc=5",
+     "name": "Arabian Business"
     }
    ],
    "language": "en",
@@ -2002,6 +3302,441 @@
    "verification": {
     "level": "trusted",
     "evidence": "headline",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "b6d6f35051b5",
+   "bank_id": "uab",
+   "country": "AE",
+   "date": "2026-02-20",
+   "title": "UAB AI-Powered Compliance Platform (RegPRISM) Partnership with Smarbl",
+   "summary": "United Arab Bank reports in its 2025 annual report (p. 10): “UAB partners with Smarbl to launch RegPRISM, a cutting-edge AI-powered compliance platform”",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "RegPRISM",
+    "compliance",
+    "GRC",
+    "regulatory"
+   ],
+   "partners": [
+    "Smarbl"
+   ],
+   "impact": "",
+   "source_url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf#page=10",
+   "source_name": "UAB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf#page=10",
+     "name": "UAB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:09:35+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf",
+    "page": 10,
+    "quote": "UAB partners with Smarbl to launch RegPRISM, a cutting-edge AI-powered compliance platform"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "c34d5404a27d",
+   "bank_id": "uab",
+   "country": "AE",
+   "date": "2026-02-20",
+   "title": "UAB Partnership with Lune for AI-Powered Personalised Banking",
+   "summary": "United Arab Bank reports in its 2025 annual report (p. 6): “In July 2025, UAB announced a strategic partnership with Lune, a leading UAE-based fintech company, to enhance our mobile banking experience by delivering smarter, data-driven, and hyper-personalised customer journeys.”",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "personalization",
+    "mobile banking",
+    "fintech partnership"
+   ],
+   "partners": [
+    "Lune"
+   ],
+   "impact": "Enhanced mobile banking experience with data-driven and hyper-personalised customer journeys",
+   "source_url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf#page=6",
+   "source_name": "UAB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf#page=6",
+     "name": "UAB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:09:35+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf",
+    "page": 6,
+    "quote": "In July 2025, UAB announced a strategic partnership with Lune, a leading UAE-based fintech company, to enhance our mobile banking experience by delivering smarter, data-driven, and hyper-personalised customer journeys."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "46dafd037388",
+   "bank_id": "uab",
+   "country": "AE",
+   "date": "2026-02-20",
+   "title": "UAB Partnership with Emirates Face Recognition for Secure Digital Banking",
+   "summary": "UAB partnered with Emirates Face Recognition (EFR) to launch a seamless and secure digital banking experience via its new mobile app. The partnership leverages advanced biometric and facial recognition capabilities for enhanced customer authentication.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "facial recognition",
+    "biometric",
+    "mobile app",
+    "security"
+   ],
+   "partners": [
+    "Emirates Face Recognition"
+   ],
+   "impact": "Launched seamless and secure digital banking experience via new mobile app with facial recognition capability",
+   "source_url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf#page=10",
+   "source_name": "UAB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf#page=10",
+     "name": "UAB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:09:35+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf",
+    "page": 10,
+    "quote": "UAB partners with Emirates Face Recognition (EFR) to launch a seamless and secure digital banking experience via its new mobile app"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "a0c9bf3cd9b7",
+   "bank_id": "uab",
+   "country": "AE",
+   "date": "2026-02-20",
+   "title": "UAB AI/ML Adoption in Personal Banking and Compliance",
+   "summary": "UAB executed multiple partnerships with FinTechs to integrate AI/ML adoption across Personal Banking and Compliance processes. These initiatives form part of the Bank's broader digitisation and transformation agenda to embed technology and AI across every aspect of operations.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "AI/ML adoption",
+    "FinTech partnerships",
+    "digital transformation"
+   ],
+   "partners": [],
+   "impact": "Multiple initiatives to integrate AI/ML across Personal Banking and Compliance processes as part of digitisation strategy",
+   "source_url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf#page=15",
+   "source_name": "UAB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf#page=15",
+     "name": "UAB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:09:35+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf",
+    "page": 15,
+    "quote": "Multiple partnerships with FinTechs to integrate AI/ML (artificial intelligence/ machine language) adoption across Personal Banking and Compliance processes"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "735e0e819414",
+   "bank_id": "uab",
+   "country": "AE",
+   "date": "2026-02-20",
+   "title": "UAB Integrated Financial Crime Compliance Platform (Under Evaluation)",
+   "summary": "United Arab Bank reports in its 2025 annual report (p. 60): “Some of the initiatives that are being evaluated include an Integrated Financial Crime Compliance platform that leverages advanced analytics, AI/ML models, and real-time monitoring to proactively detect suspicious activi…”",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "financial crime",
+    "AML",
+    "compliance platform",
+    "analytics"
+   ],
+   "partners": [],
+   "impact": "Under evaluation to strengthen bank's defences and compliance with global and UAE regulatory standards",
+   "source_url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf#page=60",
+   "source_name": "UAB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf#page=60",
+     "name": "UAB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:09:35+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf",
+    "page": 60,
+    "quote": "Some of the initiatives that are being evaluated include an Integrated Financial Crime Compliance platform that leverages advanced analytics, AI/ML models, and real-time monitoring to proactively detect suspicious activity and strengthen compliance with global and UAE regulatory standards."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "50ffd0efb88b",
+   "bank_id": "uab",
+   "country": "AE",
+   "date": "2026-02-20",
+   "title": "UAB Corporate Digital Onboarding Deployment with Enhanced KYC/AML",
+   "summary": "UAB deployed a digital onboarding solution for corporate customers, enabling faster account opening with enhanced KYC, AML, and compliance checks. The solution streamlines customer onboarding processes while maintaining rigorous compliance standards.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "onboarding",
+    "KYC",
+    "AML",
+    "digital"
+   ],
+   "partners": [],
+   "impact": "Faster account opening for corporate customers with enhanced KYC, AML, and compliance checks",
+   "source_url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf#page=44",
+   "source_name": "UAB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf#page=44",
+     "name": "UAB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:09:35+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf",
+    "page": 44,
+    "quote": "Corporate Digital Onboarding Deployment of a digital onboarding solution for corporate customers, enabling faster account opening with enhanced KYC, AML, and compliance checks."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "1ad059c4ec88",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2026-02-20",
+   "title": "ADIB AI-Augmented Banking Channels and GenAI-Enabled Services",
+   "summary": "Abu Dhabi Islamic Bank reports in its 2025 annual report (p. 37): “Breakthrough personalization powered by AI: AI-augmented channels across branches, contact centre, mobile and web”",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "GenAI chatbot",
+    "self-service tools",
+    "IVR",
+    "onboarding automation"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf#page=37",
+   "source_name": "ADIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf#page=37",
+     "name": "ADIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:03:36+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf",
+    "page": 37,
+    "quote": "Breakthrough personalization powered by AI: AI-augmented channels across branches, contact centre, mobile and web"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "8ed48a8bd35a",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2026-02-20",
+   "title": "ADIB Becoming an AI-Powered Organization Through Multi-Year Transformation",
+   "summary": "ADIB is executing a bold, integrated multi-year strategy to position itself as a truly AI-powered organization, accelerating digital transformation and strengthening its role as a leader in the Islamic fintech ecosystem. The bank is prioritizing a digital-first approach with AI-augmented banking apps, automating processes with zero human intervention, and implementing use cases for regulatory compliance, risk management, and customer service.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "AI-powered organization",
+    "business transformation",
+    "global partnerships"
+   ],
+   "partners": [
+    "global leaders"
+   ],
+   "impact": "Positioned ADIB to accelerate early wins while planning for structural transformation required to remain competitive long-term",
+   "source_url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf#page=37",
+   "source_name": "ADIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf#page=37",
+     "name": "ADIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:03:36+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf",
+    "page": 37,
+    "quote": "IN LINE WITH ADIB'S 2035 VISION, THE BANK IS EMBARKING ON A BOLD, INTEGRATED, MULTI-YEAR STRATEGY THAT POSITIONS ADIB AS A TRULY AI-POWERED ORGANIZATION, ACCELERATES DIGITAL TRANSFORMATION, AND STRENGTHENS ITS ROLE AS A LEADER IN THE ISLAMIC FINTECH ECOSYSTEM."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "22e250d7ef40",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2026-02-20",
+   "title": "ADIB AI-Enabled Wholesale Banking and Trade Finance Automation",
+   "summary": "ADIB is digitally transforming wholesale banking with AI-powered virtual corporate RM assistant, automated credit journeys, and Trade AI for document screening and transaction processing. The bank is implementing end-to-end digital onboarding, API-based banking, and supply chain finance automation.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Trade AI",
+    "virtual RM assistant",
+    "automated credit",
+    "document screening"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf#page=39",
+   "source_name": "ADIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf#page=39",
+     "name": "ADIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:03:36+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf",
+    "page": 39,
+    "quote": "AI powered virtual corporate RM assistant, Automated credit journeys, Trade AI for document screening and transaction processing"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "336c85126c0c",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2026-02-20",
+   "title": "ADIB Digital Resilience, Cloud Infrastructure and AI Readiness Foundation",
+   "summary": "ADIB advanced its digital resilience and intelligent automation, laying the foundation for AI-driven growth through cloud, resilience and AI readiness enhancements. These improvements enable faster scaling of digital services, better personalization, Open Finance support, and reduced operational friction.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "cloud resilience",
+    "intelligent automation",
+    "Open Finance readiness",
+    "anti-fraud controls"
+   ],
+   "partners": [],
+   "impact": "Major regulatory digital programs progressed including Aani, Open Finance, Wage Protection System (WPS) and strong Anti-Fraud controls",
+   "source_url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf#page=60",
+   "source_name": "ADIB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf#page=60",
+     "name": "ADIB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:03:36+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf",
+    "page": 60,
+    "quote": "ADIB advanced its digital resilience and intelligent automation, laying the foundation for AI driven growth. These enhancements will allow ADIB to scale digital services faster, improve personalization, support Open Finance, and reduce operational friction."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
     "checked": "2026-10-05"
    }
   },
@@ -2258,6 +3993,177 @@
    "topics": [
     "AI Adoption in Operations"
    ]
+  },
+  {
+   "id": "a7cbb129deb1",
+   "bank_id": "ei",
+   "country": "AE",
+   "date": "2026-01-22",
+   "title": "Emirates Islamic AI Blueprint for High-Impact Opportunities",
+   "summary": "Emirates Islamic is developing a comprehensive AI blueprint focusing on revenue-generating opportunities including agentic chat capabilities, autonomous workflows, automated due diligence and enhanced fraud detection. Each initiative is designed to streamline processes, strengthen risk controls and support an intelligent operating model.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "agentic AI",
+    "autonomous workflows",
+    "fraud detection",
+    "due diligence"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.emiratesislamic.ae/-/media/ei/pdfs/financial-information/annual-report-pdf/2025/ei_annualreport_2025_eng.pdf#page=5",
+   "source_name": "Emirates Islamic Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.emiratesislamic.ae/-/media/ei/pdfs/financial-information/annual-report-pdf/2025/ei_annualreport_2025_eng.pdf#page=5",
+     "name": "Emirates Islamic Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:06:27+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.emiratesislamic.ae/-/media/ei/pdfs/financial-information/annual-report-pdf/2025/ei_annualreport_2025_eng.pdf",
+    "page": 5,
+    "quote": "We are developing a comprehensive AI blueprint that focuses on high-impact, revenue-generating opportunities. These include agentic chat capabilities, autonomous workflows, automated due diligence and enhanced fraud detection. Each initiative is designed to streamline processes, strengthen risk controls and support a more intelligent operating model that can scale with changing customer demands and evolving market dynamics."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "998746456dac",
+   "bank_id": "ei",
+   "country": "AE",
+   "date": "2026-01-22",
+   "title": "Emirates Islamic AI-Driven Tools for Employee Productivity",
+   "summary": "Emirates Islamic is integrating AI-driven tools to enhance productivity and support teams across the bank as part of embracing the future of work. The bank also launched a new Learning Experience Platform to deliver personalised and continuous learning journeys.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "employee productivity",
+    "AI tools",
+    "learning platform",
+    "personalisation"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.emiratesislamic.ae/-/media/ei/pdfs/financial-information/annual-report-pdf/2025/ei_annualreport_2025_eng.pdf#page=11",
+   "source_name": "Emirates Islamic Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.emiratesislamic.ae/-/media/ei/pdfs/financial-information/annual-report-pdf/2025/ei_annualreport_2025_eng.pdf#page=11",
+     "name": "Emirates Islamic Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:06:27+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.emiratesislamic.ae/-/media/ei/pdfs/financial-information/annual-report-pdf/2025/ei_annualreport_2025_eng.pdf",
+    "page": 11,
+    "quote": "As we embrace the future of work, we are integrating AI-driven tools to enhance productivity and support teams across the Bank. We launched a new Learning Experience Platform to deliver personalised and continuous learning journeys, reinforcing our focus on digital fluency and leadership capability."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "c8516cf58ac2",
+   "bank_id": "ei",
+   "country": "AE",
+   "date": "2026-01-22",
+   "title": "Emirates Islamic AI-Enabled Transformation for Governance and Risk",
+   "summary": "The Board is committed to the next phase of AI-enabled transformation, leveraging advanced technologies to enhance customer experience, reinforce risk management and strengthen Board governance. This strategic focus aims to unlock new opportunities across the Bank.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "AI governance",
+    "risk management",
+    "customer experience"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.emiratesislamic.ae/-/media/ei/pdfs/financial-information/annual-report-pdf/2025/ei_annualreport_2025_eng.pdf#page=17",
+   "source_name": "Emirates Islamic Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.emiratesislamic.ae/-/media/ei/pdfs/financial-information/annual-report-pdf/2025/ei_annualreport_2025_eng.pdf#page=17",
+     "name": "Emirates Islamic Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:06:27+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.emiratesislamic.ae/-/media/ei/pdfs/financial-information/annual-report-pdf/2025/ei_annualreport_2025_eng.pdf",
+    "page": 17,
+    "quote": "A key focus will be the next phase of AI-enabled transformation, leveraging advanced technologies to enhance customer experience, reinforce risk management and further strengthen Board governance, unlocking new opportunities across the Bank."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "e7b4502fb402",
+   "bank_id": "ei",
+   "country": "AE",
+   "date": "2026-01-22",
+   "title": "Emirates Islamic Workforce Reskilling for AI and Automation",
+   "summary": "Emirates Islamic continues to build a future-ready workforce through reskilling, upskilling and cross-skilling programmes in response to disruptive technologies such as AI and automation reshaping the banking landscape. These programmes prepare colleagues for the evolving demands of AI adoption.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "reskilling",
+    "upskilling",
+    "cross-skilling",
+    "workforce development"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.emiratesislamic.ae/-/media/ei/pdfs/financial-information/annual-report-pdf/2025/ei_annualreport_2025_eng.pdf#page=6",
+   "source_name": "Emirates Islamic Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.emiratesislamic.ae/-/media/ei/pdfs/financial-information/annual-report-pdf/2025/ei_annualreport_2025_eng.pdf#page=6",
+     "name": "Emirates Islamic Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:06:27+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.emiratesislamic.ae/-/media/ei/pdfs/financial-information/annual-report-pdf/2025/ei_annualreport_2025_eng.pdf",
+    "page": 6,
+    "quote": "To address this shift, we continue to build a future-ready workforce through reskilling, upskilling and cross-skilling programmes."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
   },
   {
    "id": "8a402dfdb272",
@@ -2772,44 +4678,6 @@
    }
   },
   {
-   "id": "dd465319f7d1",
-   "bank_id": "dib",
-   "country": "AE",
-   "date": "2025-10-22",
-   "title": "Dubai Islamic Bank forges alliance with HCLTech to integrate AI",
-   "summary": "Dubai Islamic Bank has formed a strategic alliance with HCLTech to integrate artificial intelligence into its operations.",
-   "category": "Tech Vendor Partnerships",
-   "topics": [
-    "Tech Vendor Partnerships",
-    "AI Adoption in Operations"
-   ],
-   "tags": [
-    "AI integration",
-    "Strategic partnership",
-    "Technology vendor"
-   ],
-   "partners": [
-    "HCLTech"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVlVFeUxyT0tqLS1tWFJWRVFib0h6SjJXN2dJd2Rka2JfNUNCU244TlVQT2JhNXQ3eHlzR0JmTE9QUHM1b2U2cjZsWmQxRlpuX3l0SVZSbnFBN09XQWVadGpxTlNWY1JVMVFsYVJZX1BKQmx6NzB1RnNqMWtva29DV2Mydw?oc=5",
-   "source_name": "Retail Banker International",
-   "source_title": "Dubai Islamic Bank forges alliance HCLTech to integrate AI",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVlVFeUxyT0tqLS1tWFJWRVFib0h6SjJXN2dJd2Rka2JfNUNCU244TlVQT2JhNXQ3eHlzR0JmTE9QUHM1b2U2cjZsWmQxRlpuX3l0SVZSbnFBN09XQWVadGpxTlNWY1JVMVFsYVJZX1BKQmx6NzB1RnNqMWtva29DV2Mydw?oc=5",
-     "name": "Retail Banker International"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T17:57:22+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
    "id": "affefbe7f8bb",
    "bank_id": "nbf",
    "country": "AE",
@@ -2863,7 +4731,10 @@
     "AI advisory",
     "Responsible AI",
     "GITEX 2025",
-    "Islamic finance"
+    "Islamic finance",
+    "AI integration",
+    "Strategic partnership",
+    "Technology vendor"
    ],
    "partners": [
     "HCLTech"
@@ -2877,6 +4748,10 @@
     {
      "url": "https://www.dib.ae/about-us/news/2025/10/21/dib-and-hcltech-forge-strategic-ai-innovation-partnership",
      "name": "DIB newsroom"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVlVFeUxyT0tqLS1tWFJWRVFib0h6SjJXN2dJd2Rka2JfNUNCU244TlVQT2JhNXQ3eHlzR0JmTE9QUHM1b2U2cjZsWmQxRlpuX3l0SVZSbnFBN09XQWVadGpxTlNWY1JVMVFsYVJZX1BKQmx6NzB1RnNqMWtva29DV2Mydw?oc=5",
+     "name": "Retail Banker International"
     }
    ],
    "verification": {
@@ -3103,6 +4978,49 @@
    "verification": {
     "level": "trusted",
     "evidence": "headline",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "f101fd877625",
+   "bank_id": "uab",
+   "country": "AE",
+   "date": "2025-09-01",
+   "title": "UAB AI/ML for Credit Underwriting, AML/CFT and Records Management",
+   "summary": "United Arab Bank reports in its 2024 annual report (p. 13): “Constantly exploring optimal utilization of AI/ML capabilities to improve our processes such as credit underwriting, AML/CFT and records management to elevate client experience and mitigate risk”",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "AI/ML",
+    "Credit",
+    "AML",
+    "Operations"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.uab.ae/en/about-uab/investor-relations/-/media/project/uab/pdf/2025/aug/uab-annual-report-2024-en.pdf#page=13",
+   "source_name": "UAB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.uab.ae/en/about-uab/investor-relations/-/media/project/uab/pdf/2025/aug/uab-annual-report-2024-en.pdf#page=13",
+     "name": "UAB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:10:11+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.uab.ae/en/about-uab/investor-relations/-/media/project/uab/pdf/2025/aug/uab-annual-report-2024-en.pdf",
+    "page": 13,
+    "quote": "Constantly exploring optimal utilization of AI/ML capabilities to improve our processes such as credit underwriting, AML/CFT and records management to elevate client experience and mitigate risk"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
     "checked": "2026-10-05"
    }
   },
@@ -3335,6 +5253,50 @@
    }
   },
   {
+   "id": "706f2532afa3",
+   "bank_id": "qib",
+   "country": "QA",
+   "date": "2025-07-04",
+   "title": "QIB AI-Driven Fraud Management System",
+   "summary": "QIB implemented the first phase of an advanced Fraud Management System that leverages AI-driven analytics and multi-layered security protocols to detect and prevent fraudulent activities. The system strengthens the bank's commitment to data privacy and fraud prevention as part of its proactive defense strategy.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "fraud detection",
+    "AI analytics",
+    "security",
+    "data privacy"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib-annual-report-2024-english.pdf?rev=5fd1fcbb9c734ed4995da654cfe45694#page=15",
+   "source_name": "QIB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib-annual-report-2024-english.pdf?rev=5fd1fcbb9c734ed4995da654cfe45694#page=15",
+     "name": "QIB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:18:30+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib-annual-report-2024-english.pdf?rev=5fd1fcbb9c734ed4995da654cfe45694",
+    "page": 15,
+    "quote": "The bank also reinforced its commitment to data privacy and fraud prevention, implementing the first phase of an advanced Fraud Management System that leverages AI-driven analytics and multi-layered security protocols to detect and prevent fraudulent activities."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
    "id": "d637eaafe98f",
    "bank_id": "cbq",
    "country": "QA",
@@ -3552,44 +5514,6 @@
    }
   },
   {
-   "id": "26a8a4b05753",
-   "bank_id": "rakbank",
-   "country": "AE",
-   "date": "2025-05-20",
-   "title": "RAKBANK can retrieve decades of documents in minutes with Azure AI Services, streamlining compliance",
-   "summary": "RAKBANK uses Microsoft Azure AI Services to rapidly retrieve and process historical documents, improving compliance efficiency.",
-   "category": "Fraud, Risk & Compliance",
-   "topics": [
-    "Fraud, Risk & Compliance",
-    "Tech Vendor Partnerships"
-   ],
-   "tags": [
-    "Document processing",
-    "Compliance automation",
-    "Azure AI"
-   ],
-   "partners": [
-    "Microsoft"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdm9oSHNLYnV2cVRmaFVhNEZ1RWRxbnVDdzAwMW1XWFNIZjdzbmhSR0llSzhQcU5aaHpPdHIzRkxibURkaHhrZFhIbXlmZFprMlFUWVZTN0dKVkZxdjZnNlh0c1NpZkFRbFA4Q3VXNWtUVGdUeG04eks1Rjd3NWRIN2NBMnhwMEE?oc=5",
-   "source_name": "Microsoft",
-   "source_title": "RAKBANK can retrieve decades of documents in minutes with Azure AI Services, streamlining compliance",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdm9oSHNLYnV2cVRmaFVhNEZ1RWRxbnVDdzAwMW1XWFNIZjdzbmhSR0llSzhQcU5aaHpPdHIzRkxibURkaHhrZFhIbXlmZFprMlFUWVZTN0dKVkZxdjZnNlh0c1NpZkFRbFA4Q3VXNWtUVGdUeG04eks1Rjd3NWRIN2NBMnhwMEE?oc=5",
-     "name": "Microsoft"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T17:58:59+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
    "id": "233b2907fc31",
    "bank_id": "rakbank",
    "country": "AE",
@@ -3601,7 +5525,10 @@
     "Azure OpenAI",
     "KYC",
     "Document intelligence",
-    "Mobile assistant"
+    "Mobile assistant",
+    "Document processing",
+    "Compliance automation",
+    "Azure AI"
    ],
    "partners": [
     "Microsoft"
@@ -3615,6 +5542,10 @@
     {
      "url": "https://www.microsoft.com/en/customers/story/24080-rakbank-azure-open-ai-service",
      "name": "Microsoft Customer Stories"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdm9oSHNLYnV2cVRmaFVhNEZ1RWRxbnVDdzAwMW1XWFNIZjdzbmhSR0llSzhQcU5aaHpPdHIzRkxibURkaHhrZFhIbXlmZFprMlFUWVZTN0dKVkZxdjZnNlh0c1NpZkFRbFA4Q3VXNWtUVGdUeG04eks1Rjd3NWRIN2NBMnhwMEE?oc=5",
+     "name": "Microsoft"
     }
    ],
    "verification": {
@@ -3629,41 +5560,6 @@
    ]
   },
   {
-   "id": "6d377a852a7b",
-   "bank_id": "enbd",
-   "country": "AE",
-   "date": "2025-05-15",
-   "title": "Emirates NBD pilots new AI compliance tech to reduce risks, improve payment speed",
-   "summary": "Emirates NBD is piloting AI-powered compliance technology to reduce risks and accelerate payment processing.",
-   "category": "Fraud, Risk & Compliance",
-   "topics": [
-    "Fraud, Risk & Compliance",
-    "AI Adoption in Operations"
-   ],
-   "tags": [
-    "Compliance AI",
-    "Risk Management"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTHI3ZG1RZi04WS1nWmZCdmRJNkc4WndNTkxscFRXZmpELUV4R005Vm11ZlJqc2NmNmJEbThLb1VZV3ZWbENuUC0xUm1zRnQ3VEt2M2wwTWJjdkdBeXd5amtnNEhPVnVmYVU3WEtZVzk3TDdoMlJqb3VrbDRPVXRjeHcxRmhZVWZ4ZWY0TDNuT1FNV2M5b0xrUEo5eTJiY25xSFdMem5UY2xHclRGVzhSNWpJTFRnNUl6Qkw4WnV6Z1R6SWZOWVVHXzhB0gHcAUFVX3lxTFBHYlNjYWlSdEtUR3hEblN3NHpfVGZweS1FMEF3OEpKSzFyZElBTnlScEVEMk0xYldxNXVsZkRUR3h4eEU3UXZ0LWphVnk2dmVMVUVzaDRpQ2JacUFFLThPQVd0LTk1dEZrMlI4ejc0eHRuU0VEZ0IwTWlrbk1UZTFVTU83dm9sbTZpMGlwemU3WnpleExoeVBHX1RhWG1SRi15ejk3ck5CSW5kS0IyTV9KTkliU3YxTDJ3U0FfZXlKM3I2a3NBSlRqa29QLTRpQ3QxVi1YU2hEeEhzaVI?oc=5",
-   "source_name": "Gulf News",
-   "source_title": "Emirates NBD pilots new AI compliance tech to reduce risks, improve payment speed",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTHI3ZG1RZi04WS1nWmZCdmRJNkc4WndNTkxscFRXZmpELUV4R005Vm11ZlJqc2NmNmJEbThLb1VZV3ZWbENuUC0xUm1zRnQ3VEt2M2wwTWJjdkdBeXd5amtnNEhPVnVmYVU3WEtZVzk3TDdoMlJqb3VrbDRPVXRjeHcxRmhZVWZ4ZWY0TDNuT1FNV2M5b0xrUEo5eTJiY25xSFdMem5UY2xHclRGVzhSNWpJTFRnNUl6Qkw4WnV6Z1R6SWZOWVVHXzhB0gHcAUFVX3lxTFBHYlNjYWlSdEtUR3hEblN3NHpfVGZweS1FMEF3OEpKSzFyZElBTnlScEVEMk0xYldxNXVsZkRUR3h4eEU3UXZ0LWphVnk2dmVMVUVzaDRpQ2JacUFFLThPQVd0LTk1dEZrMlI4ejc0eHRuU0VEZ0IwTWlrbk1UZTFVTU83dm9sbTZpMGlwemU3WnpleExoeVBHX1RhWG1SRi15ejk3ck5CSW5kS0IyTV9KTkliU3YxTDJ3U0FfZXlKM3I2a3NBSlRqa29QLTRpQ3QxVi1YU2hEeEhzaVI?oc=5",
-     "name": "Gulf News"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T17:56:29+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
    "id": "6c5db3e3b63d",
    "bank_id": "enbd",
    "country": "AE",
@@ -3674,7 +5570,9 @@
    "tags": [
     "AI compliance",
     "Payments screening",
-    "Trade finance"
+    "Trade finance",
+    "Compliance AI",
+    "Risk Management"
    ],
    "partners": [],
    "impact": "",
@@ -3685,6 +5583,10 @@
    "sources": [
     {
      "url": "https://gulfnews.com/business/banking/emirates-nbd-pilots-new-ai-compliance-tech-to-reduce-risks-improve-payment-speed-1.500128414",
+     "name": "Gulf News"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTHI3ZG1RZi04WS1nWmZCdmRJNkc4WndNTkxscFRXZmpELUV4R005Vm11ZlJqc2NmNmJEbThLb1VZV3ZWbENuUC0xUm1zRnQ3VEt2M2wwTWJjdkdBeXd5amtnNEhPVnVmYVU3WEtZVzk3TDdoMlJqb3VrbDRPVXRjeHcxRmhZVWZ4ZWY0TDNuT1FNV2M5b0xrUEo5eTJiY25xSFdMem5UY2xHclRGVzhSNWpJTFRnNUl6Qkw4WnV6Z1R6SWZOWVVHXzhB0gHcAUFVX3lxTFBHYlNjYWlSdEtUR3hEblN3NHpfVGZweS1FMEF3OEpKSzFyZElBTnlScEVEMk0xYldxNXVsZkRUR3h4eEU3UXZ0LWphVnk2dmVMVUVzaDRpQ2JacUFFLThPQVd0LTk1dEZrMlI4ejc0eHRuU0VEZ0IwTWlrbk1UZTFVTU83dm9sbTZpMGlwemU3WnpleExoeVBHX1RhWG1SRi15ejk3ck5CSW5kS0IyTV9KTkliU3YxTDJ3U0FfZXlKM3I2a3NBSlRqa29QLTRpQ3QxVi1YU2hEeEhzaVI?oc=5",
      "name": "Gulf News"
     }
    ],
@@ -3859,6 +5761,136 @@
    ]
   },
   {
+   "id": "dbd3ed8a1399",
+   "bank_id": "rayan",
+   "country": "QA",
+   "date": "2025-03-26",
+   "title": "Al Rayan Data Governance Framework Review for AI Readiness",
+   "summary": "The bank is reviewing its data governance framework to ensure readiness for advanced data applications, including artificial intelligence, and compliance with new and existing regulatory reporting requirements. This initiative supports the bank's preparation for AI-enabled operations and technologies.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "Governance framework",
+    "Regulatory compliance",
+    "Advanced data applications"
+   ],
+   "partners": [
+    "Central Bank of Qatar"
+   ],
+   "impact": "",
+   "source_url": "https://marblobstorage.blob.core.windows.net/files/arbfiles/AnnualReports2019/AR/ARB-Annual-Report-2024_ar.pdf#page=27",
+   "source_name": "Al Rayan Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://marblobstorage.blob.core.windows.net/files/arbfiles/AnnualReports2019/AR/ARB-Annual-Report-2024_ar.pdf#page=27",
+     "name": "Al Rayan Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:19:23+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://marblobstorage.blob.core.windows.net/files/arbfiles/AnnualReports2019/AR/ARB-Annual-Report-2024_ar.pdf",
+    "page": 27,
+    "quote": "يجري مراجعة إطار حوكمة البيانات لضمان جاهزية البنك لتطبيقات البيانات المتقدمة، بما في ذلك الذكاء الاصطناعي والامتثال لمتطلبات التقارير التنظيمية الجديدة والقائمة."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "e60b4f3f8acf",
+   "bank_id": "rayan",
+   "country": "QA",
+   "date": "2025-03-26",
+   "title": "Al Rayan Board Training on AI and Financial Sector Impact",
+   "summary": "Board members received training on artificial intelligence and its impact on the financial sector as part of the 2024 board training and orientation program. This reflects the bank's commitment to ensuring leadership understands AI implications for banking.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "Board training",
+    "AI awareness",
+    "Financial sector"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://marblobstorage.blob.core.windows.net/files/arbfiles/AnnualReports2019/AR/ARB-Annual-Report-2024_ar.pdf#page=48",
+   "source_name": "Al Rayan Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://marblobstorage.blob.core.windows.net/files/arbfiles/AnnualReports2019/AR/ARB-Annual-Report-2024_ar.pdf#page=48",
+     "name": "Al Rayan Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:19:23+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://marblobstorage.blob.core.windows.net/files/arbfiles/AnnualReports2019/AR/ARB-Annual-Report-2024_ar.pdf",
+    "page": 48,
+    "quote": "الذكاء الاصطناعي وتأثيره في القطاع المالي"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "9ec832be4367",
+   "bank_id": "rayan",
+   "country": "QA",
+   "date": "2025-03-26",
+   "title": "Al Rayan Exploration of AI and New Technologies for Operations and Services",
+   "summary": "The bank continues to monitor local, regional, and international markets for proven use cases of new technologies such as artificial intelligence to enhance operational capabilities and services. Any adoption of new technology is coordinated transparently with the Central Bank of Qatar and in accordance with the latest applicable laws and regulations.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "Technology monitoring",
+    "Use case evaluation",
+    "Regulatory alignment"
+   ],
+   "partners": [
+    "Central Bank of Qatar"
+   ],
+   "impact": "",
+   "source_url": "https://marblobstorage.blob.core.windows.net/files/arbfiles/AnnualReports2019/AR/ARB-Annual-Report-2024_ar.pdf#page=66",
+   "source_name": "Al Rayan Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://marblobstorage.blob.core.windows.net/files/arbfiles/AnnualReports2019/AR/ARB-Annual-Report-2024_ar.pdf#page=66",
+     "name": "Al Rayan Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:19:23+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://marblobstorage.blob.core.windows.net/files/arbfiles/AnnualReports2019/AR/ARB-Annual-Report-2024_ar.pdf",
+    "page": 66,
+    "quote": "ونواصل أيضاً متابعتنا للأسواق المحلية والإقليمية والدولية للبحث عن حالات استخدام مثبتة لتقنيات جديدة ) وAIمثل الذكاء الاصطناعي من قدراتنا التشغيلية وخدماتنا. تجدر الإشارة إلى أن كل عملية اعتماد لتقنية جديدة تقوم بالتنسيق الشفاف مع مصرف قطر المركزي، ووفقاً لأحدث القوانين واللوائح المعمول بها"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
    "id": "ede9d4f7050f",
    "bank_id": "boubyan",
    "country": "KW",
@@ -3897,43 +5929,306 @@
    }
   },
   {
-   "id": "51eab52c942b",
+   "id": "a43891e4b30e",
    "bank_id": "cbd",
    "country": "AE",
-   "date": "2025-03-20",
-   "title": "Commercial Bank of Dubai launches AI and Data training program with Accenture",
-   "summary": "Commercial Bank of Dubai has launched an AI and Data training program in partnership with Accenture.",
-   "category": "AI Skills & Talent",
+   "date": "2025-03-24",
+   "title": "CBD Microsoft Copilot Partnership and Enterprise AI Adoption",
+   "summary": "CBD partnered with Microsoft to drive AI adoption across the organisation and became the most engaged user of Copilot in the region. The bank integrated Microsoft Copilot enterprise-wide to enhance employee productivity and digital capabilities.",
+   "category": "Tech Vendor Partnerships",
    "topics": [
-    "AI Skills & Talent",
-    "Tech Vendor Partnerships"
+    "Tech Vendor Partnerships",
+    "Generative AI & Copilots",
+    "AI Adoption in Operations"
    ],
    "tags": [
-    "AI Training",
-    "Accenture Partnership"
+    "Microsoft",
+    "Copilot",
+    "enterprise adoption"
    ],
    "partners": [
-    "Accenture"
+    "Microsoft"
    ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQzRaQXV0NWlwS1J2bVYyRFgyaUhrd2liTG1rMm1NWjRiWFJsS0NxRmg2dVhVellUd3BGUlFodHYxNVRHZGZuXzhBYVR2eHRhWEd6QlJVdERXaTg0akd6UDgtTmRUUFh2UzJlbnRBMUFJRzdXSVVNdzRfbDhrNm9lMDl1ZVl3WkR3eVIzMEtNeTNoZTJOV3ZVcXBmWFViTERVX0wxMzF4Q0xNRlhqeG5XclFhMThMMUlDTkJV0gHAAUFVX3lxTFBieHNrNlJWLU9TVVl5ZGQwTzZSVXRMMUc4VzVqa0d5M09nLW5neS1tTTdieG9PUVljb3B3OGlOTTN3RnkwdWxrLVlEMWd2ZVBrUDJvSEZuWFlRWDRCNS1Wd1BNOGRCVGZTaXlhV0VMc2hWc3B2R2c2S2ExcVZjZU01aEVRS3hqNzFFeE8xUGJHazBwcS1Na3Q3WFBfcGtkYksxd0M2Z0RxbnhOZkNfbkZYcTBOM3dMOFlYLUlNclhrZg?oc=5",
-   "source_name": "consultancy-me.com",
-   "source_title": "Commercial Bank of Dubai launches AI and Data training program with Accenture",
+   "impact": "Most engaged user of Copilot in the region",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2#page=6",
+   "source_name": "CBD Annual Report 2024",
+   "source_title": "",
    "sources": [
     {
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQzRaQXV0NWlwS1J2bVYyRFgyaUhrd2liTG1rMm1NWjRiWFJsS0NxRmg2dVhVellUd3BGUlFodHYxNVRHZGZuXzhBYVR2eHRhWEd6QlJVdERXaTg0akd6UDgtTmRUUFh2UzJlbnRBMUFJRzdXSVVNdzRfbDhrNm9lMDl1ZVl3WkR3eVIzMEtNeTNoZTJOV3ZVcXBmWFViTERVX0wxMzF4Q0xNRlhqeG5XclFhMThMMUlDTkJV0gHAAUFVX3lxTFBieHNrNlJWLU9TVVl5ZGQwTzZSVXRMMUc4VzVqa0d5M09nLW5neS1tTTdieG9PUVljb3B3OGlOTTN3RnkwdWxrLVlEMWd2ZVBrUDJvSEZuWFlRWDRCNS1Wd1BNOGRCVGZTaXlhV0VMc2hWc3B2R2c2S2ExcVZjZU01aEVRS3hqNzFFeE8xUGJHazBwcS1Na3Q3WFBfcGtkYksxd0M2Z0RxbnhOZkNfbkZYcTBOM3dMOFlYLUlNclhrZg?oc=5",
-     "name": "consultancy-me.com"
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdFFnTU1sLUNwTDg2LUl2Mm53aFVpdjdtcWZJMGVEZDlYaGFwVHgxOWp0UTQwVWpYWHRrb1djNVFwSUxGV0JqV0ZSNGVXckstaGl0bVVUOEdGMVBlV0Y0eERuRHdiOS1VSjJVbHE4NjZPN0txSnJtVU1zTC0yWXoxdjRVSEloUklndmZoMUhHQzBvRUZOQW1pLXRwQVd6aFZrWTVyZ3duTmM4QVRYOFhtZkh6MWxCNllJWjJxMTZickl1VzkwdFh4dQ?oc=5",
-     "name": "Crowdfund Insider"
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2#page=6",
+     "name": "CBD Annual Report 2024"
     }
    ],
    "language": "en",
-   "added_at": "2026-10-05T18:09:15+00:00",
+   "added_at": "2026-10-05T21:06:06+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2",
+    "page": 6,
+    "quote": "CBD also partnered with Microsoft to drive AI adoption across the organisation, becoming the most engaged user of Copilot in the region."
+   },
    "verification": {
-    "level": "trusted",
-    "evidence": "headline",
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "470367db329a",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2025-03-24",
+   "title": "CBD Promptathon for AI Prompt Engineering Skills",
+   "summary": "CBD launched a \"Promptathon\" initiative to train and develop employee skills in AI prompt engineering as part of Dubai's 'One Million Prompters' initiative. The programme aligns CBD's AI capability-building with governmental vision for Dubai as a global AI hub.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "prompt engineering",
+    "employee training",
+    "Dubai One Million Prompters"
+   ],
+   "partners": [],
+   "impact": "Supported Dubai's 'One Million Prompters' initiative",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2#page=6",
+   "source_name": "CBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2#page=6",
+     "name": "CBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:06:06+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2",
+    "page": 6,
+    "quote": "To further enhance AI capabilities, we launched CBD's \"Promptathon\" to train and develop employees' skills in AI prompt engineering, supporting Dubai's 'One Million Prompters' initiative."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "fd5daca1f256",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2025-03-24",
+   "title": "CBD Digital Accelerator Programme with AI and Data Analytics Training",
+   "summary": "CBD expanded its Digital Accelerator Programme, training employees in AI, data analytics, and business storytelling. The programme equips staff with advanced digital and analytical capabilities to support the bank's digital transformation.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "employee development",
+    "data analytics",
+    "digital skills"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2#page=6",
+   "source_name": "CBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2#page=6",
+     "name": "CBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:06:06+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2",
+    "page": 6,
+    "quote": "An enhanced Digital Accelerator Programme, with employees trained in AI, data analytics, and business storytelling"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "865d8d169ee3",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2025-03-24",
+   "title": "CBD FLEX Learning Platform with AI Personalisation",
+   "summary": "CBD launched FLEX (Future Learning Experience), a cutting-edge learning platform that utilises artificial intelligence and personalisation to deliver tailored learning content based on individual needs and skills-based objectives. The platform supports the bank's professional development and talent retention strategy.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "learning platform",
+    "personalization",
+    "employee development"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2#page=35",
+   "source_name": "CBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2#page=35",
+     "name": "CBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:06:06+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2",
+    "page": 35,
+    "quote": "The Bank launched a new learning experience platform FLEX (Future Learning Experience). This is a cutting-edge learning platform that utilises artificial intelligence and personalisation to deliver tailored learning content based on an individual's needs, development areas, and skills-based learning objectives."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "10bccbad7dbc",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2025-03-24",
+   "title": "CBD Trade Finance Platform Automation and Workflow Redesign",
+   "summary": "CBD redesigned its Trade Finance platform to deliver further automation and streamline workflow for customers with automated processing. The redesign improves operational efficiency and customer experience in trade finance services.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "automation",
+    "trade finance",
+    "workflow"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2#page=34",
+   "source_name": "CBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2#page=34",
+     "name": "CBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:06:06+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2",
+    "page": 34,
+    "quote": "The Trade Finance platform was redesigned to deliver further automation and to streamline workflow for the customer with automated processing."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "888cfef47638",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2025-03-24",
+   "title": "CBD HPE GreenLake Hybrid Cloud Platform with AI Capabilities",
+   "summary": "CBD adopted the HPE GreenLake platform, hosted in du's data centres, to accelerate its hybrid cloud journey and incorporate AI capabilities alongside customised services. The partnership enables the bank to operate core banking applications within a private cloud environment with AI integration.",
+   "category": "Tech Vendor Partnerships",
+   "topics": [
+    "Tech Vendor Partnerships",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "HPE",
+    "hybrid cloud",
+    "infrastructure"
+   ],
+   "partners": [
+    "HPE",
+    "du"
+   ],
+   "impact": "",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2#page=11",
+   "source_name": "CBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2#page=11",
+     "name": "CBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:06:06+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2",
+    "page": 11,
+    "quote": "CBD has adopted the HPE GreenLake platform, hosted in du's state-of-the-art data centres, to accelerate its hybrid cloud journey and optimise the customer and team member experience. This partnership enables the Bank to operate core banking applications and workloads within a private cloud environment that incorporates AI capabilities and customised services."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "ea425835fc79",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2025-03-24",
+   "title": "CBD Middle East Banking AI & Analytics Summit Award for AI Solutions",
+   "summary": "CBD received recognition at the Middle East Banking AI & Analytics Summit for \"Best Use Case of AI Solutions\". The award acknowledges the bank's effective implementation and deployment of AI capabilities.",
+   "category": "Awards & Rankings",
+   "topics": [
+    "Awards & Rankings"
+   ],
+   "tags": [
+    "award",
+    "AI solutions",
+    "industry recognition"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2#page=13",
+   "source_name": "CBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2#page=13",
+     "name": "CBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:06:06+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2",
+    "page": 13,
+    "quote": "Middle East Banking AI & Analytics Summit Best Use Case of AI Solutions"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
     "checked": "2026-10-05"
    }
   },
@@ -3949,7 +6244,9 @@
     "Data literacy",
     "AI certification",
     "Upskilling",
-    "Udacity"
+    "Udacity",
+    "AI Training",
+    "Accenture Partnership"
    ],
    "partners": [
     "Accenture",
@@ -3968,6 +6265,14 @@
     {
      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQSDB0XzlwTlRiWHBEUmloRlZjM2hMYmpSd1hiNGhoaFBoUXVGZE85LVptNmROMTVxUkhMM255WUpPTVVoYnRMeEpxQWg5WHltdzBmTUtTUXZtVFlOS0xWR1YtZjNZdlQzcXN1NE53M09MZlZaNFRvT0s1eGwteFNMRDg0bW4zWENrVlpoU3lsOHB6YUFSMFJrd3ZIaU55Ym1xM3JNbDR5N2NHWHpQYjRrUE5VLXl5elVrNV9YUFVTUFAwYlpNMVE3WHB4cFBCaVVIRU1YQ2JDSWdSSWxCM2ZTcC10WURpcmpFMjNEeTJMbXFxa0RZRnN3SGRsWk8?oc=5",
      "name": ""
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQzRaQXV0NWlwS1J2bVYyRFgyaUhrd2liTG1rMm1NWjRiWFJsS0NxRmg2dVhVellUd3BGUlFodHYxNVRHZGZuXzhBYVR2eHRhWEd6QlJVdERXaTg0akd6UDgtTmRUUFh2UzJlbnRBMUFJRzdXSVVNdzRfbDhrNm9lMDl1ZVl3WkR3eVIzMEtNeTNoZTJOV3ZVcXBmWFViTERVX0wxMzF4Q0xNRlhqeG5XclFhMThMMUlDTkJV0gHAAUFVX3lxTFBieHNrNlJWLU9TVVl5ZGQwTzZSVXRMMUc4VzVqa0d5M09nLW5neS1tTTdieG9PUVljb3B3OGlOTTN3RnkwdWxrLVlEMWd2ZVBrUDJvSEZuWFlRWDRCNS1Wd1BNOGRCVGZTaXlhV0VMc2hWc3B2R2c2S2ExcVZjZU01aEVRS3hqNzFFeE8xUGJHazBwcS1Na3Q3WFBfcGtkYksxd0M2Z0RxbnhOZkNfbkZYcTBOM3dMOFlYLUlNclhrZg?oc=5",
+     "name": "consultancy-me.com"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdFFnTU1sLUNwTDg2LUl2Mm53aFVpdjdtcWZJMGVEZDlYaGFwVHgxOWp0UTQwVWpYWHRrb1djNVFwSUxGV0JqV0ZSNGVXckstaGl0bVVUOEdGMVBlV0Y0eERuRHdiOS1VSjJVbHE4NjZPN0txSnJtVU1zTC0yWXoxdjRVSEloUklndmZoMUhHQzBvRUZOQW1pLXRwQVd6aFZrWTVyZ3duTmM4QVRYOFhtZkh6MWxCNllJWjJxMTZickl1VzkwdFh4dQ?oc=5",
+     "name": "Crowdfund Insider"
     }
    ],
    "verification": {
@@ -3979,6 +6284,741 @@
     "AI Skills & Talent",
     "Tech Vendor Partnerships"
    ]
+  },
+  {
+   "id": "3ba0b1a8e120",
+   "bank_id": "kfh",
+   "country": "KW",
+   "date": "2025-03-14",
+   "title": "KFH Digital Transformation in Risk Management with AI and Machine Learning",
+   "summary": "KFH's Risk Management achieved significant progress in digital transformation by adopting latest AI techniques, machine learning, and advanced analytics to enhance risk assessment, monitoring, and early forecasting. This strategic approach enabled the group to adopt advanced tools for managing financial risks according to best global practices.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "risk assessment",
+    "monitoring",
+    "predictive analysis",
+    "early detection"
+   ],
+   "partners": [],
+   "impact": "Enhanced capabilities for risk measurement, monitoring, and early detection; improved real-time risk identification and proactive risk management strategies",
+   "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2024/document_en/KFH%20Annual%20Report%20En%202024%20(Draft-16).pdf.pdf#page=31",
+   "source_name": "KFH Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2024/document_en/KFH%20Annual%20Report%20En%202024%20(Draft-16).pdf.pdf#page=31",
+     "name": "KFH Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:24:10+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2024/document_en/KFH%20Annual%20Report%20En%202024%20(Draft-16).pdf.pdf",
+    "page": 31,
+    "quote": "Risk Management successfully achieved significant progress in digital transformation, relying on the latest AI techniques, machine learning, and advanced analytics to enhance the capabilities of risk assessment, monitoring, and early forecasting. This strategic approach enabled us to adopt advanced tools to support managing the financial risks according to the best global practices."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "2b06bc3a8ae0",
+   "bank_id": "kfh",
+   "country": "KW",
+   "date": "2025-03-14",
+   "title": "KFH Robotic Process Automation (RPA) Implementation in Key Operations",
+   "summary": "KFH implemented RPA initiatives in key operations to reduce time and costs while achieving synergies and improving inventory management. The automation also improved usage of Self-Service Centers for instant card issuance.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "cost reduction",
+    "inventory management",
+    "card issuance",
+    "self-service"
+   ],
+   "partners": [],
+   "impact": "Reduced time and costs, achieved synergies, improved inventory management and usage of Self-Service Centers for instant card issuance",
+   "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2024/document_en/KFH%20Annual%20Report%20En%202024%20(Draft-16).pdf.pdf#page=10",
+   "source_name": "KFH Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2024/document_en/KFH%20Annual%20Report%20En%202024%20(Draft-16).pdf.pdf#page=10",
+     "name": "KFH Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:24:10+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2024/document_en/KFH%20Annual%20Report%20En%202024%20(Draft-16).pdf.pdf",
+    "page": 10,
+    "quote": "The Robotic Process Automation (RPA) initiatives in key operations contributed to reducing time and costs, achieving synergies, improving inventory management and usage of the Self-Service Centers for instant card issuance."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "34d1b8587145",
+   "bank_id": "kfh",
+   "country": "KW",
+   "date": "2025-03-14",
+   "title": "KFH CreditLense Digital Solution Implementation",
+   "summary": "KFH introduced the final digital solutions of the CreditLense program as part of its comprehensive IT sector projects. This digital solution was deployed to enhance lending and credit operations.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "lending",
+    "credit operations"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2024/document_en/KFH%20Annual%20Report%20En%202024%20(Draft-16).pdf.pdf#page=11",
+   "source_name": "KFH Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2024/document_en/KFH%20Annual%20Report%20En%202024%20(Draft-16).pdf.pdf#page=11",
+     "name": "KFH Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:24:10+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2024/document_en/KFH%20Annual%20Report%20En%202024%20(Draft-16).pdf.pdf",
+    "page": 11,
+    "quote": "introduction of the final digital solutions of the CreditLense program"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "96e594a09261",
+   "bank_id": "kfh",
+   "country": "KW",
+   "date": "2025-03-14",
+   "title": "KFH AI Technology Adoption and Cybersecurity Enhancement",
+   "summary": "KFH's IT sector adopted AI technologies alongside developing technological infrastructure and cybersecurity defenses. This was part of numerous projects executed during the KFH-AUBK merger integration.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "infrastructure",
+    "security"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2024/document_en/KFH%20Annual%20Report%20En%202024%20(Draft-16).pdf.pdf#page=11",
+   "source_name": "KFH Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2024/document_en/KFH%20Annual%20Report%20En%202024%20(Draft-16).pdf.pdf#page=11",
+     "name": "KFH Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:24:10+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2024/document_en/KFH%20Annual%20Report%20En%202024%20(Draft-16).pdf.pdf",
+    "page": 11,
+    "quote": "The IT sector implemented numerous projects, developed the technological infrastructure and cybersecurity defenses, and adopted AI technologies."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "541a852810c9",
+   "bank_id": "nbk",
+   "country": "KW",
+   "date": "2025-03-13",
+   "title": "NBK Tech Academy AI Training Programme",
+   "summary": "NBK Tech Academy offers comprehensive training covering Artificial Intelligence, Data Analytics, and Digital Transformation. The inaugural cohort of 10 participants completed intensive six-month training in FinTech, Data Analytics, Ethics in Technology, Cyber Security, Artificial Intelligence, and Programming, with all participants successfully placed in the Bank's data and digital divisions.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "training",
+    "academy",
+    "data analytics",
+    "artificial intelligence"
+   ],
+   "partners": [],
+   "impact": "10 participants successfully completed the program and were placed within the Bank's data and digital divisions",
+   "source_url": "https://nbk.com/dam/jcr:374076fd-2bb1-4b60-ad6a-df7fae2d25ae/nbk-annual-report-2024-e.pdf#page=43",
+   "source_name": "NBK Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://nbk.com/dam/jcr:374076fd-2bb1-4b60-ad6a-df7fae2d25ae/nbk-annual-report-2024-e.pdf#page=43",
+     "name": "NBK Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:23:06+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://nbk.com/dam/jcr:374076fd-2bb1-4b60-ad6a-df7fae2d25ae/nbk-annual-report-2024-e.pdf",
+    "page": 43,
+    "quote": "The inaugural wave of the NBK Tech Academy saw 10 participants successfully completing the program. Over the course of six months, these participants received intensive training covering a diverse range of critical skills, including FinTech, Data Analytics, Ethics in Technology, Cyber Security, Fundamentals of Digital Payments, Digital Innovation, Artificial Intelligence, Scripting and Programming, Fundamentals of Codifications, and Finance for Non-Finance Professionals. Following the training, the 10 participants were successfully placed within the Bank's data and digital divisions."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "77be85e1ee58",
+   "bank_id": "nbk",
+   "country": "KW",
+   "date": "2025-03-13",
+   "title": "NBK Exploring AI Solutions for Customer and Bank Value",
+   "summary": "NBK is exploring AI solutions to add value for both customers and the Bank as part of its future digital banking plans. This initiative is part of NBK's broader commitment to continuous innovation and adapting to the evolving digital landscape.",
+   "category": "Generative AI & Copilots",
+   "topics": [
+    "Generative AI & Copilots"
+   ],
+   "tags": [
+    "customer-facing AI",
+    "digital banking",
+    "innovation"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://nbk.com/dam/jcr:374076fd-2bb1-4b60-ad6a-df7fae2d25ae/nbk-annual-report-2024-e.pdf#page=28",
+   "source_name": "NBK Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://nbk.com/dam/jcr:374076fd-2bb1-4b60-ad6a-df7fae2d25ae/nbk-annual-report-2024-e.pdf#page=28",
+     "name": "NBK Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:23:06+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://nbk.com/dam/jcr:374076fd-2bb1-4b60-ad6a-df7fae2d25ae/nbk-annual-report-2024-e.pdf",
+    "page": 28,
+    "quote": "NBK is also exploring AI solutions to add value for both customers and the Bank, ensuring continuous innovation and adapting to the evolving digital landscape."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "940c38ff3bc1",
+   "bank_id": "dib",
+   "country": "AE",
+   "date": "2025-03-03",
+   "title": "DIB Early Adopter of AI Capabilities with Machine Learning for Customer Behaviour Analysis",
+   "summary": "The Bank is one of the early adopters of AI capabilities and has gained significant competencies such as real-time analysis of customer actions and behaviours with the help of advanced algorithms written on Machine Learning platforms. This is helping the Bank deliver contextualised experiences to its customers during product selection process.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations",
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "machine learning",
+    "real-time analysis",
+    "customer behaviour",
+    "contextualised experiences"
+   ],
+   "partners": [],
+   "impact": "Delivery of contextualised experiences to customers during product selection process",
+   "source_url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15#page=44",
+   "source_name": "DIB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15#page=44",
+     "name": "DIB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:02:30+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15",
+    "page": 44,
+    "quote": "The Bank is one of the early adopters of AI capabilities and has gained significant competencies such as real-time analysis of customer actions and behaviours with the help of advanced algorithms written on Machine Learning platforms. This is helping the Bank deliver contextualised experiences to its customers during product selection process."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "c0a3e1c2472f",
+   "bank_id": "dib",
+   "country": "AE",
+   "date": "2025-03-03",
+   "title": "DIB Machine Learning and Predictive Analytics for Enhanced Decision Making",
+   "summary": "2024 included extensive leveraging of Machine Learning technologies which have enhanced decision making through predictive analytics, optimised resource utilisation, and automated repetitive tasks. These initiatives have led to improved operational efficiency, cost savings, and the ability to proactively address business challenges.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "machine learning",
+    "predictive analytics",
+    "decision making",
+    "automation"
+   ],
+   "partners": [],
+   "impact": "Improved operational efficiency, cost savings, and ability to proactively address business challenges",
+   "source_url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15#page=70",
+   "source_name": "DIB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15#page=70",
+     "name": "DIB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:02:30+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15",
+    "page": 70,
+    "quote": "This included the strategic migration to our new core banking system and extensive leveraging of Machine Learning technologies which have enhanced decision making through predictive analytics, optimised resource utilisation, and automated repetitive tasks. These initiatives have also led to improved operational efficiency, cost savings, and the ability to proactively address business challenges, driving innovation and a competitive edge."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "f9f4cf5a33d8",
+   "bank_id": "dib",
+   "country": "AE",
+   "date": "2025-03-03",
+   "title": "DIB Strategic Investment in AI-Driven Digital Infrastructure",
+   "summary": "The Bank is investing significantly in advanced digital infrastructure including adoption of cloud computing, advanced data analytics, and AI-driven solutions. This enables the Bank to stay at the forefront of technological advancements.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "cloud computing",
+    "data analytics",
+    "AI-driven solutions",
+    "infrastructure investment"
+   ],
+   "partners": [],
+   "impact": "Enables the Bank to stay at the forefront of technological advancements",
+   "source_url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15#page=43",
+   "source_name": "DIB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15#page=43",
+     "name": "DIB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:02:30+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15",
+    "page": 43,
+    "quote": "Strategic investment in digital infrastructure: We are investing significantly in advanced digital infrastructure to support the seamless integration of new technologies. This includes adoption of cloud computing, advanced data analytics, and AI-driven solutions, which enable us to stay at the forefront of technological advancements."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "fa5ad7d9675d",
+   "bank_id": "dib",
+   "country": "AE",
+   "date": "2025-03-03",
+   "title": "DIB Data-Driven Decision Making Through Advanced Data Analytics and AI Integration",
+   "summary": "With the integration of advanced data analytics and AI, the Bank gains deeper insights into customer behaviour, market trends, and operational performance. This data-driven approach empowers the Bank to make informed decisions, optimise strategies, and identify new business opportunities.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "data analytics",
+    "customer behaviour analysis",
+    "market insights",
+    "strategic optimisation"
+   ],
+   "partners": [],
+   "impact": "Enables informed decision making, strategy optimisation, and identification of new business opportunities",
+   "source_url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15#page=45",
+   "source_name": "DIB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15#page=45",
+     "name": "DIB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:02:30+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15",
+    "page": 45,
+    "quote": "With the integration of advanced data analytics and AI, the Bank can gain deeper insights into customer behaviour, market trends, and operational performance. This data-driven approach empowers the Bank to make informed decisions, optimise strategies, and identify new business opportunities."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "3af1ff3e7c12",
+   "bank_id": "dib",
+   "country": "AE",
+   "date": "2025-03-03",
+   "title": "DIB AI and Advanced Analytics Workforce Training and Skill Development",
+   "summary": "The Bank is prioritising the upskilling and reskilling of its workforce to ensure employees are proficient in using new digital tools and technologies. This includes offering training programmes, workshops, and certifications in areas such as AI, data analytics, and digital banking.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "AI training",
+    "upskilling",
+    "data analytics training",
+    "workforce development"
+   ],
+   "partners": [],
+   "impact": "Ensures employees are proficient in using new digital tools and technologies",
+   "source_url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15#page=44",
+   "source_name": "DIB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15#page=44",
+     "name": "DIB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:02:30+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15",
+    "page": 44,
+    "quote": "Skill development: The Bank is prioritising the upskilling and reskilling of its workforce to ensure employees are proficient in using new digital tools and technologies. This includes offering training programmes, workshops, and certifications in areas such as AI, data analytics, and digital banking."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "9f4a73e4a3b7",
+   "bank_id": "dib",
+   "country": "AE",
+   "date": "2025-03-03",
+   "title": "DIB Commitment to Tech-Based Innovative Solutions Powered by AI and Advanced Analytics Across Global Markets",
+   "summary": "Across all markets including Katilim digital bank in Turkey, DIB continues to evolve and invest in tech-based innovative solutions powered by AI and advanced analytics. This is to deliver personalised, seamless banking experiences whilst strengthening governance and risk frameworks.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations",
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "AI",
+    "advanced analytics",
+    "personalisation",
+    "global expansion"
+   ],
+   "partners": [],
+   "impact": "Delivery of personalised, seamless banking experiences with strengthened governance and risk frameworks",
+   "source_url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15#page=111",
+   "source_name": "DIB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15#page=111",
+     "name": "DIB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:02:30+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15",
+    "page": 111,
+    "quote": "Across all markets, we continue to evolve and invest in tech based innovative solutions powered by AI and advanced analytics to deliver personalized, seamless banking experiences whilst simultaneously strengthening our governance and risk frameworks."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "50f6651308a8",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2025-02-28",
+   "title": "ADIB GitHub Copilot for Software Development",
+   "summary": "Abu Dhabi Islamic Bank reports in its 2024 annual report (p. 48): “By adopting GitHub Copilot, our digital engineering team achieved a 20% productivity boost, accelerating time-to-market for customer-facing solutions.”",
+   "category": "Generative AI & Copilots",
+   "topics": [
+    "Generative AI & Copilots"
+   ],
+   "tags": [
+    "GitHub Copilot",
+    "code automation",
+    "productivity improvement"
+   ],
+   "partners": [
+    "GitHub"
+   ],
+   "impact": "20% productivity boost for digital engineering team",
+   "source_url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf#page=48",
+   "source_name": "ADIB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf#page=48",
+     "name": "ADIB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:04:40+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf",
+    "page": 48,
+    "quote": "By adopting GitHub Copilot, our digital engineering team achieved a 20% productivity boost, accelerating time-to-market for customer-facing solutions."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "4772b16fceb5",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2025-02-28",
+   "title": "ADIB Silent8 AI for Compliance and Alert Screening",
+   "summary": "ADIB deployed Silent8's AI technology to automate alert screening investigations in compliance operations. This reduced false positive alerts, lowered costs, and enhanced the customer experience.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "AI automation",
+    "compliance operations",
+    "false positive reduction"
+   ],
+   "partners": [
+    "Silent8"
+   ],
+   "impact": "Improved compliance operations, reduced false positive alerts, lowered costs",
+   "source_url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf#page=49",
+   "source_name": "ADIB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf#page=49",
+     "name": "ADIB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:04:40+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf",
+    "page": 49,
+    "quote": "By automating alert screening investigations with AI, Silent8 has helped us improve compliance operations while reducing false positive alerts, lowering costs, and enhancing the customer experience."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "0996dcc5757a",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2025-02-28",
+   "title": "ADIB Advanced Analytics for Customer Relationship Management",
+   "summary": "ADIB deployed advanced analytics, machine learning and artificial intelligence to deepen customer relationships and improve cross-selling through data-driven insights. The bank delivered personalized insights to customers through digital channels to help them better manage their money.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "Machine Learning",
+    "advanced analytics",
+    "cross-selling",
+    "personalization",
+    "data-driven strategies",
+    "real-time analytics",
+    "AI capabilities"
+   ],
+   "partners": [],
+   "impact": "Improved customer relationships, spends, cross-sell, product utilization and retention",
+   "source_url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf#page=34",
+   "source_name": "ADIB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf#page=34",
+     "name": "ADIB Annual Report 2024"
+    },
+    {
+     "url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf#page=28",
+     "name": "ADIB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:04:40+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf",
+    "page": 34,
+    "quote": "ADIB deployed advanced analytics to deepen customer relationships, improve spends, cross-sell, product utilisation and retention. We harnessed advanced analytics, machine learning (ML) and artiﬁcial intelligence (AI) technologies to deliver insights to our customers through our digital channels, to simplify banking and help customers better manage their money."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "7fc798042559",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2025-02-28",
+   "title": "ADIB AI and ML for Ecosystem Partnership Expansion",
+   "summary": "ADIB leveraged AI/ML and data analytics to identify customer subsets across ecosystem partnership platforms for profitable product offerings. This technology-enabled expansion strategy supports the bank's growth through targeted customer acquisition in partnership environments.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Machine Learning",
+    "ecosystem partnerships",
+    "customer identification"
+   ],
+   "partners": [],
+   "impact": "Expanded business through profitably targeted ecosystem partnerships",
+   "source_url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf#page=47",
+   "source_name": "ADIB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf#page=47",
+     "name": "ADIB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:04:40+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf",
+    "page": 47,
+    "quote": "We have expanded our business through ecosystem partnerships by using AI/ML and data to identify the subset of existing customers in those platforms that we can suitably and proﬁtably offer our products to."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
+  },
+  {
+   "id": "019ff0fb6da4",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2025-02-28",
+   "title": "ADIB Cloud and AI Infrastructure Investment",
+   "summary": "ADIB invested in technological capabilities including Cloud, AI/Machine Learning and data infrastructure to scale operations and revolutionize banking. The hybrid cloud infrastructure resulted in greater resiliency, efficiency, and scalability for the organization.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Cloud Azure",
+    "Machine Learning infrastructure",
+    "scalability"
+   ],
+   "partners": [],
+   "impact": "Greater resiliency, efficiency, and scalability; operational efficiency and sustainability gains",
+   "source_url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf#page=47",
+   "source_name": "ADIB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf#page=47",
+     "name": "ADIB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:04:40+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf",
+    "page": 47,
+    "quote": "We invested in technological capabilities such as Cloud, AI/ Machine Learning (ML) and data to scale to new heights and revolutionise the future of banking. Our move to a hybrid, cloud infrastructure resulted in greater resiliency, efﬁciency, and scalability."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-05"
+   }
   },
   {
    "id": "5f1770d39dcc",

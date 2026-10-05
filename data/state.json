@@ -1,5 +1,5 @@
 {
- "last_update": "2026-10-05T20:28:12+00:00",
+ "last_update": "2026-10-05T20:58:54+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -895,7 +895,8 @@
   "46be66ac00ae6e": "2026-09-23",
   "44f3094e0d1f4b": "2026-09-29",
   "d668207bb41718": "2026-09-30",
-  "8997d8fb69994f": "2026-10-05"
+  "8997d8fb69994f": "2026-10-05",
+  "94e784a83ce32b": "2026-10-05"
  },
  "history_loaded": {
   "adcb": "2026-10-05",
@@ -3152,8 +3153,6 @@
   "arabic-names-v1"
  ],
  "sector_seen": {
-  "ba46d17abe60db": "2025-10-11",
-  "d8cb5b04fdd1fa": "2025-10-12",
   "fa51b45b2cadec": "2025-10-15",
   "d1feef6fba1ffc": "2025-10-16",
   "5b665f55bc2a8f": "2025-10-20",
@@ -3178,7 +3177,6 @@
   "b92681866e08ab": "2025-11-13",
   "e88124beadef93": "2025-11-14",
   "58e27ff33d0daa": "2025-11-16",
-  "967137395b71d0": "2025-11-18",
   "d8628f1a271ddf": "2025-11-19",
   "90a3de8d9478b0": "2025-11-20",
   "bf22c5daa03191": "2025-11-21",
@@ -3186,7 +3184,6 @@
   "1ba6aa1fc5220e": "2025-11-26",
   "2f7a4eb8a3c380": "2025-11-30",
   "8bd9e2eabc8741": "2025-12-02",
-  "2e58e09ec686a8": "2026-03-23",
   "be90e94693c773": "2025-12-05",
   "982714bdda061c": "2025-12-08",
   "8be922f54cc65f": "2025-12-09",
@@ -3236,7 +3233,6 @@
   "ba676a07be9827": "2026-02-25",
   "4651ad09847269": "2026-02-26",
   "2075706008bede": "2026-02-26",
-  "5130f636d2e9ed": "2026-02-27",
   "ab3f95f2eda39c": "2026-02-28",
   "6f6bb40dabe4da": "2026-03-02",
   "c305caa2746883": "2026-03-02",
@@ -3255,7 +3251,6 @@
   "3bbfcd40a8bad7": "2026-04-01",
   "79ae167a30ff6e": "2026-04-09",
   "906a20e83f166e": "2026-04-10",
-  "78dbed03159458": "2026-04-13",
   "6c3475a9bdc5ef": "2026-04-14",
   "d0297cb5ba744d": "2026-04-15",
   "1055ef8d0fe3b4": "2026-04-16",
@@ -3263,9 +3258,7 @@
   "d3f6a159eee81c": "2026-04-17",
   "446e9a9b9b41fa": "2026-04-21",
   "126315f79e1392": "2026-04-22",
-  "99970996844bac": "2026-04-28",
   "5a91b75a67253c": "2026-04-28",
-  "ee3fecaacdb7e1": "2026-04-29",
   "8262952726282a": "2026-04-29",
   "dbb50f1610bef2": "2026-05-04",
   "bff17b39cedce7": "2026-05-04",
@@ -3274,7 +3267,6 @@
   "f9e16981b805c3": "2026-05-08",
   "023fa9d5fd03dd": "2026-05-10",
   "58a0348c65eb7e": "2026-05-10",
-  "63fd44455ca612": "2026-05-12",
   "d06eb7ffe5f490": "2026-05-13",
   "f0aa23853b3d0b": "2026-05-13",
   "469858d8fec383": "2026-05-14",
@@ -3290,12 +3282,10 @@
   "1ba7111590ae5d": "2026-06-01",
   "c01aaee7bcc9dc": "2026-06-02",
   "f42153aa01c2a5": "2026-06-03",
-  "1287aef19b491d": "2026-06-03",
   "d56d3ecb143f9f": "2026-06-04",
   "2a529612dbb98b": "2026-06-04",
   "ca5ef8bea842a7": "2026-06-08",
   "3f676bd46980ac": "2026-06-08",
-  "5c05b0c19dc2b1": "2026-06-08",
   "251d36ab2f77bb": "2026-06-08",
   "9b13c9148aa4a9": "2026-06-08",
   "153b384af95ee6": "2026-06-08",
@@ -3306,10 +3296,8 @@
   "3b8e9b149dc1fa": "2026-06-13",
   "813ecfa1771bf6": "2026-06-15",
   "75ac397d78ccbd": "2026-06-18",
-  "6f779974eda21b": "2026-06-18",
   "c3247e5f05087a": "2026-06-19",
   "bf450a0e598313": "2026-06-23",
-  "84d90162840f1d": "2026-06-28",
   "445b5d9221e7cb": "2026-06-28",
   "1cd94f86df765e": "2026-06-29",
   "9aa6de7e1039b7": "2026-06-30",
@@ -3319,7 +3307,6 @@
   "0d3107eb2a6b6d": "2026-07-02",
   "b3113a3f82750b": "2026-07-02",
   "d7ce2ea79a5e33": "2026-07-02",
-  "78a84b245cf1ef": "2026-07-03",
   "23496fb8097ce7": "2026-07-07",
   "311bf21cc1450c": "2026-07-08",
   "a42396b6f530a0": "2026-07-08",
@@ -3335,9 +3322,6 @@
   "926b8a92f65eb8": "2026-07-27",
   "62047088af7edf": "2026-07-27",
   "3ae9699d1c246c": "2026-07-27",
-  "5fce908e58ba52": "2026-07-28",
-  "adddd2cfb21f01": "2026-07-29",
-  "7f6056791d761f": "2026-07-30",
   "9938d59d0429f3": "2026-08-01",
   "66fbd945922e59": "2026-08-05",
   "75a090453bde2f": "2026-08-10",
@@ -3376,7 +3360,6 @@
   "6b97bb9307ca1b": "2026-09-27",
   "28504caaf805d3": "2026-09-29",
   "542622699d2d3f": "2026-09-30",
-  "706c06c462d2dd": "2026-09-30",
   "d8a5f57db7d713": "2026-09-30",
   "e22e9f42cf8a57": "2026-09-30",
   "9f8f4c3200eb06": "2026-09-30",
@@ -3384,9 +3367,7 @@
   "56882a068bf541": "2026-10-01",
   "0a3bbad835c81a": "2026-10-01",
   "5260da25f865c0": "2026-10-01",
-  "7192843c20b931": "2026-10-01",
   "b7d2b6359e0694": "2026-10-01",
-  "a2c807e4be66b2": "2026-10-01",
   "2bdc138a6ed27a": "2026-10-01",
   "4b5c7701c8e843": "2026-10-01",
   "45d960ad734987": "2026-10-01",
@@ -3395,7 +3376,32 @@
   "d83e2261e8ea9c": "2026-10-04",
   "66a864f50f1d0f": "2026-10-04",
   "2485a0f012bf3b": "2026-10-05",
-  "3cf2331316108c": "2026-10-05"
+  "3cf2331316108c": "2026-10-05",
+  "ba46d17abe60db": "2025-10-11",
+  "d8cb5b04fdd1fa": "2025-10-12",
+  "967137395b71d0": "2025-11-18",
+  "2e58e09ec686a8": "2026-03-23",
+  "aca43439dadb64": "2026-02-23",
+  "f01ce7de513c8a": "2026-02-23",
+  "f917bce70bb398": "2026-02-24",
+  "5130f636d2e9ed": "2026-02-27",
+  "78dbed03159458": "2026-04-13",
+  "99970996844bac": "2026-04-28",
+  "ee3fecaacdb7e1": "2026-04-29",
+  "63fd44455ca612": "2026-05-12",
+  "1287aef19b491d": "2026-06-03",
+  "5c05b0c19dc2b1": "2026-06-08",
+  "6f779974eda21b": "2026-06-18",
+  "84d90162840f1d": "2026-06-28",
+  "78a84b245cf1ef": "2026-07-03",
+  "5fce908e58ba52": "2026-07-28",
+  "adddd2cfb21f01": "2026-07-29",
+  "7f6056791d761f": "2026-07-30",
+  "57884041539c24": "2026-08-05",
+  "bbcdaaeea75560": "2026-08-14",
+  "706c06c462d2dd": "2026-09-30",
+  "7192843c20b931": "2026-10-01",
+  "a2c807e4be66b2": "2026-10-01"
  },
  "sector_known": {},
  "sector_pending": [
@@ -3518,34 +3524,6 @@
    }
   },
   {
-   "id": "f8ed31ce09d8",
-   "date": "2026-02-28",
-   "category": "Regulation & Guidance",
-   "publisher": "",
-   "countries": [
-    "AE"
-   ],
-   "title": "UAE Central Bank launches sovereign financial cloud with AI capabilities",
-   "summary": "The UAE's central bank has introduced a world-first sovereign financial cloud infrastructure that incorporates AI technology for secure digital financial operations. This initiative represents a major regulatory advancement in AI-enabled banking infrastructure.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNNDdkNWp2R09LT1ppOC1NUlRLZmRBOFF0cGNQNFNFeUdxSE1iLWxBd1RIa2FQTXZZakNHNHVMU25vTUVFRWNwMEVQVWF1eE9oOVgyVUZhWFQ1UjlXSlVMYWFmYTBzMENySkQ4RHhiSFNZZDZOUXFiZkhhX2JmUURSbkFxeldEVlZGZU1Ob3IwYWhVUVVHcmlNY0NoQUJTYm5QdTJUYzZfQlp4ejdTSXJQVU5fSGNxZWxPdFg1ZXZmbHVNQk9zUnJkUEdpTGR5ZEhtaEZITlEwMTY5a0lCNThuUUE0WW5WTzk4TndYcnZMTW90OVVvVFV0RW5EaktQOGp0S25ralJ6OE9TZlY3ZXY4cGpmQnVvb0JVLUVrRFdR0gGjAkFVX3lxTE41aFBxb2ZwVzJHTkhzanZaU2xQWTM1bG1PdDJYY1FPc1VfY0RxaklIbDJ0N2x5dXljR3BUYzc4eGJWZVpOZnBaN0Q0b2RlVi1Vd1J4MXZUVnNQMkoyNW94M3kyQTZGMUtCWEtvNTdfTUNrcllIQTVjd0NtczJTRXp1QmljRjJsbVpXeHQ5ZXU4OTJYSGVjZVJDZ1Y1UV9Dams1bWZHZkdyRFJsUkVwcnNDTTZCVHBhbnY2T0FYdU5sb3FoNGZqYlVjYjFVR2RXZEJkTS10NzJYZzl0UWNlakZzOUwzTGdNYlkyRlZCTWRLVnV3ZHM5MU5KNktLcUplSnlEUnNUeC00Vi1wcUhCdDlPNVR6ZDdEVDdiVHVXLTh0SERSdw?oc=5",
-   "source_name": "timesofindia.indiatimes.com",
-   "source_title": "UAE makes history: Central Bank launches world's first sovereign financial cloud with AI for secure digit",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNNDdkNWp2R09LT1ppOC1NUlRLZmRBOFF0cGNQNFNFeUdxSE1iLWxBd1RIa2FQTXZZakNHNHVMU25vTUVFRWNwMEVQVWF1eE9oOVgyVUZhWFQ1UjlXSlVMYWFmYTBzMENySkQ4RHhiSFNZZDZOUXFiZkhhX2JmUURSbkFxeldEVlZGZU1Ob3IwYWhVUVVHcmlNY0NoQUJTYm5QdTJUYzZfQlp4ejdTSXJQVU5fSGNxZWxPdFg1ZXZmbHVNQk9zUnJkUEdpTGR5ZEhtaEZITlEwMTY5a0lCNThuUUE0WW5WTzk4TndYcnZMTW90OVVvVFV0RW5EaktQOGp0S25ralJ6OE9TZlY3ZXY4cGpmQnVvb0JVLUVrRFdR0gGjAkFVX3lxTE41aFBxb2ZwVzJHTkhzanZaU2xQWTM1bG1PdDJYY1FPc1VfY0RxaklIbDJ0N2x5dXljR3BUYzc4eGJWZVpOZnBaN0Q0b2RlVi1Vd1J4MXZUVnNQMkoyNW94M3kyQTZGMUtCWEtvNTdfTUNrcllIQTVjd0NtczJTRXp1QmljRjJsbVpXeHQ5ZXU4OTJYSGVjZVJDZ1Y1UV9Dams1bWZHZkdyRFJsUkVwcnNDTTZCVHBhbnY2T0FYdU5sb3FoNGZqYlVjYjFVR2RXZEJkTS10NzJYZzl0UWNlakZzOUwzTGdNYlkyRlZCTWRLVnV3ZHM5MU5KNktLcUplSnlEUnNUeC00Vi1wcUhCdDlPNVR6ZDdEVDdiVHVXLTh0SERSdw?oc=5",
-     "name": "timesofindia.indiatimes.com"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T20:31:11+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
    "id": "853a4e32ae5c",
    "date": "2026-03-02",
    "category": "Market Data",
@@ -3563,34 +3541,6 @@
     {
      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZENxNExKM2JUMGdRRkZMcVc5N3RyV0RIbVFnMmFlSEtYZDNmX095MEJoLV9jTGdjckNGRDFrM1loWmU1cml0VFZIdjVUT2toWk8wbU5nYXROdElXcVV2T3FWZk9zbldnYzRRQlAzZ1JFTGRIR2E0aDdvVlBIb2Q0N0tBbnVrNUtXNncyT1dVMS05X2otdTRkcl9xSlVncW5rU2d1LXc1RVFWQVBWNHREZ3NUUnU4OFVGdlpQMFZ4b3VmWWUwN29KZHZ3ajFNX1JRNWJZLTk0QUFWVTdJSUp1dnVkbTVWQ01Q0gHuAUFVX3lxTFB1ZVRtUXRkTGNEQkpOa3JCa2RCRzA5MVJiYlhLOTBZREhlUjlTRjgxM3lxTVZTU2JoZWJUWVBZOVZIS2l6WEMtTWt2YmJFLVBGaEc4b1RsYmd6YmIwV1RLVFBOaUpNNDNpNmxDMm5BQVB6eFRSbFNCU28wT3M1TURXdzg2WVp4d2RnN2tWSFBlaWxMdjV0OFYxRmNMNTdjQjVaUmdvcXVieDNxalpFWW1VbDg1OUFRM01rbmhxWTdNOUpTTmhMYm1sTUR5bG9XSWpvOE1UcXN2NG5URHM4ektveXV6cG9MTENBaGd6OGc?oc=5",
      "name": "The Economic Times"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T20:31:11+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "569d27d21da5",
-   "date": "2026-05-27",
-   "category": "Market Data",
-   "publisher": "",
-   "countries": [
-    "GCC"
-   ],
-   "title": "Cloud-First, AI-Led GCC Reimagines Global Banking",
-   "summary": "GCC banks are adopting cloud-first and AI-led strategies to transform global banking. This repositioning strengthens the region's financial sector's role in international markets.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd2ZRcndGTk1IeENFaXJfRzBRa2hldVJTTjQxUldQenlILTZNRDlmdXYtZXpldTNqb0ZPWldJTkNzdVF0d0JndEdHVjBMZU9JZzR0WFRiODlKcGdVWnFUY3pfQURfakR1MTQ3M09CUlk2aVVueHhZS2s2X3pXeDMzSThkeUNjcHg5cVk4bm1DWWVmRXEyZzFEeDFBazN2WlUwSU1TLVppeG5Ca2ZkX1kteEVETklsekhNR29lWGd4Q1NFdUpjR1M2d240endKdlZN0gHWAUFVX3lxTFB0eUt3VG9nQm9hNXUyb2lvMmY3RVE4MXBRcVo3TmVyQlI3bnB1TmlBZFV5dEZzUXNtUENVV2dpeWZpNnpiMEFpZE5NMF9oczVkYmZPSlBWaTBiUTZNQ3laWlVXQ0V0dmFFdjNYNG01UEcyM3RyTmhBVlR3S0F4MXJra3kzdnVVeXhDNVc1d1ozUmdNeHNDVDg2WURuVW80RUFGa2lGZWV3WF9aM0QyWnZvZjhqUUpUdzBDd2JhU2ZxZVJkdVhwT256MEs4Sks5Nnl5SWN6WlE?oc=5",
-   "source_name": "timesofindia.indiatimes.com",
-   "source_title": "Cloud-first, AI-led GCC reimagines global banking",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd2ZRcndGTk1IeENFaXJfRzBRa2hldVJTTjQxUldQenlILTZNRDlmdXYtZXpldTNqb0ZPWldJTkNzdVF0d0JndEdHVjBMZU9JZzR0WFRiODlKcGdVWnFUY3pfQURfakR1MTQ3M09CUlk2aVVueHhZS2s2X3pXeDMzSThkeUNjcHg5cVk4bm1DWWVmRXEyZzFEeDFBazN2WlUwSU1TLVppeG5Ca2ZkX1kteEVETklsekhNR29lWGd4Q1NFdUpjR1M2d240endKdlZN0gHWAUFVX3lxTFB0eUt3VG9nQm9hNXUyb2lvMmY3RVE4MXBRcVo3TmVyQlI3bnB1TmlBZFV5dEZzUXNtUENVV2dpeWZpNnpiMEFpZE5NMF9oczVkYmZPSlBWaTBiUTZNQ3laWlVXQ0V0dmFFdjNYNG01UEcyM3RyTmhBVlR3S0F4MXJra3kzdnVVeXhDNVc1d1ozUmdNeHNDVDg2WURuVW80RUFGa2lGZWV3WF9aM0QyWnZvZjhqUUpUdzBDd2JhU2ZxZVJkdVhwT256MEs4Sks5Nnl5SWN6WlE?oc=5",
-     "name": "timesofindia.indiatimes.com"
     }
    ],
    "language": "en",
@@ -3628,8 +3578,676 @@
     "evidence": "headline",
     "checked": "2026-10-05"
    }
+  },
+  {
+   "id": "d102b9a4e96a",
+   "date": "2026-10-01",
+   "category": "Events & Initiatives",
+   "publisher": "General Council for Islamic Banks",
+   "countries": [
+    "GCC"
+   ],
+   "title": "Launch of Artificial Intelligence Initiatives by Islamic Banking Council",
+   "summary": "The General Council for Islamic Banks and the Makkah Chamber have launched their first artificial intelligence initiatives for the sector. These programmes aim to develop AI capabilities within Islamic banking institutions across the region.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9ULThlRURPc2xseFc3R2lpUWlRVHBvVWNnb0lhUGRJRzVGZW84R2ZKbkJ0Sl9Eb1ZOREVrRGcwTQ?oc=5",
+   "source_name": "mz-mz.net",
+   "source_title": "المجلس العام للبنوك الإسلامية وغرفة مكة يطلقان أولى مبادراتهما في الذكاء الاصطناعي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9ULThlRURPc2xseFc3R2lpUWlRVHBvVWNnb0lhUGRJRzVGZW84R2ZKbkJ0Sl9Eb1ZOREVrRGcwTQ?oc=5",
+     "name": "mz-mz.net"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-05T21:31:37+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-05"
+   }
   }
  ],
  "sector_retry": [],
- "sector_history": "2026-10-05"
+ "sector_history": "2026-10-05",
+ "dup_verdicts": {
+  "27be783abed9|d015319b4712": true,
+  "6c5db3e3b63d|6d377a852a7b": true,
+  "233b2907fc31|26a8a4b05753": true,
+  "dd465319f7d1|f8df6a232f1d": true,
+  "2955b44f27ed|bb214a7eed6b": true,
+  "09dadb0c6eed|bb214a7eed6b": true,
+  "2955b44f27ed|9564f7f09aa0": true,
+  "547ad08231d4|586cfd14d31e": true,
+  "0161dd3893d0|ac37443610ca": false,
+  "0161dd3893d0|0295107b1774": false,
+  "0295107b1774|ac37443610ca": false,
+  "3459de84753c|7571cca80591": true,
+  "4772b16fceb5|50f6651308a8": false,
+  "0996dcc5757a|50f6651308a8": false,
+  "0996dcc5757a|4772b16fceb5": false,
+  "50f6651308a8|8a6fe27df387": false,
+  "4772b16fceb5|8a6fe27df387": false,
+  "0996dcc5757a|8a6fe27df387": true,
+  "50f6651308a8|7fc798042559": false,
+  "4772b16fceb5|7fc798042559": false,
+  "0996dcc5757a|7fc798042559": false,
+  "7fc798042559|8a6fe27df387": false,
+  "019ff0fb6da4|50f6651308a8": false,
+  "019ff0fb6da4|4772b16fceb5": false,
+  "019ff0fb6da4|0996dcc5757a": false,
+  "019ff0fb6da4|8a6fe27df387": false,
+  "019ff0fb6da4|7fc798042559": false,
+  "940c38ff3bc1|c0a3e1c2472f": false,
+  "940c38ff3bc1|f9f4cf5a33d8": false,
+  "c0a3e1c2472f|f9f4cf5a33d8": false,
+  "940c38ff3bc1|fa5ad7d9675d": false,
+  "c0a3e1c2472f|fa5ad7d9675d": false,
+  "f9f4cf5a33d8|fa5ad7d9675d": false,
+  "3af1ff3e7c12|940c38ff3bc1": false,
+  "3af1ff3e7c12|c0a3e1c2472f": false,
+  "3af1ff3e7c12|f9f4cf5a33d8": false,
+  "3af1ff3e7c12|fa5ad7d9675d": false,
+  "940c38ff3bc1|9f4a73e4a3b7": false,
+  "9f4a73e4a3b7|c0a3e1c2472f": false,
+  "9f4a73e4a3b7|f9f4cf5a33d8": false,
+  "9f4a73e4a3b7|fa5ad7d9675d": false,
+  "3af1ff3e7c12|9f4a73e4a3b7": false,
+  "541a852810c9|77be85e1ee58": false,
+  "2b06bc3a8ae0|3ba0b1a8e120": false,
+  "34d1b8587145|3ba0b1a8e120": false,
+  "2b06bc3a8ae0|34d1b8587145": false,
+  "3ba0b1a8e120|96e594a09261": false,
+  "2b06bc3a8ae0|96e594a09261": false,
+  "34d1b8587145|96e594a09261": false,
+  "470367db329a|a43891e4b30e": false,
+  "a43891e4b30e|fd5daca1f256": false,
+  "470367db329a|fd5daca1f256": false,
+  "865d8d169ee3|a43891e4b30e": false,
+  "470367db329a|865d8d169ee3": false,
+  "865d8d169ee3|fd5daca1f256": false,
+  "10bccbad7dbc|a43891e4b30e": false,
+  "10bccbad7dbc|470367db329a": false,
+  "10bccbad7dbc|fd5daca1f256": false,
+  "10bccbad7dbc|865d8d169ee3": false,
+  "888cfef47638|a43891e4b30e": false,
+  "470367db329a|888cfef47638": false,
+  "888cfef47638|fd5daca1f256": false,
+  "865d8d169ee3|888cfef47638": false,
+  "10bccbad7dbc|888cfef47638": false,
+  "a43891e4b30e|ea425835fc79": false,
+  "470367db329a|ea425835fc79": false,
+  "ea425835fc79|fd5daca1f256": false,
+  "865d8d169ee3|ea425835fc79": false,
+  "10bccbad7dbc|ea425835fc79": false,
+  "888cfef47638|ea425835fc79": false,
+  "dbd3ed8a1399|e60b4f3f8acf": false,
+  "9ec832be4367|dbd3ed8a1399": false,
+  "9ec832be4367|e60b4f3f8acf": false,
+  "998746456dac|a7cbb129deb1": false,
+  "a7cbb129deb1|c8516cf58ac2": false,
+  "998746456dac|c8516cf58ac2": false,
+  "a7cbb129deb1|e7b4502fb402": false,
+  "998746456dac|e7b4502fb402": false,
+  "c8516cf58ac2|e7b4502fb402": false,
+  "1ad059c4ec88|8ed48a8bd35a": false,
+  "1ad059c4ec88|22e250d7ef40": false,
+  "22e250d7ef40|8ed48a8bd35a": false,
+  "1ad059c4ec88|336c85126c0c": false,
+  "336c85126c0c|8ed48a8bd35a": false,
+  "22e250d7ef40|336c85126c0c": false,
+  "b6d6f35051b5|c34d5404a27d": false,
+  "46dafd037388|b6d6f35051b5": false,
+  "46dafd037388|c34d5404a27d": false,
+  "a0c9bf3cd9b7|b6d6f35051b5": false,
+  "a0c9bf3cd9b7|c34d5404a27d": false,
+  "46dafd037388|a0c9bf3cd9b7": false,
+  "735e0e819414|b6d6f35051b5": false,
+  "735e0e819414|c34d5404a27d": false,
+  "46dafd037388|735e0e819414": false,
+  "735e0e819414|a0c9bf3cd9b7": false,
+  "50ffd0efb88b|b6d6f35051b5": false,
+  "50ffd0efb88b|c34d5404a27d": false,
+  "46dafd037388|50ffd0efb88b": false,
+  "50ffd0efb88b|a0c9bf3cd9b7": false,
+  "50ffd0efb88b|735e0e819414": false,
+  "38134f7b05a1|e63ed14c0266": false,
+  "38134f7b05a1|e63fd0ae7758": false,
+  "e63ed14c0266|e63fd0ae7758": false,
+  "38134f7b05a1|ddfbded0bc45": false,
+  "ddfbded0bc45|e63ed14c0266": false,
+  "ddfbded0bc45|e63fd0ae7758": false,
+  "38134f7b05a1|7648d5489259": false,
+  "7648d5489259|e63ed14c0266": false,
+  "7648d5489259|e63fd0ae7758": false,
+  "7648d5489259|ddfbded0bc45": false,
+  "1588d13e9675|38134f7b05a1": false,
+  "1588d13e9675|e63ed14c0266": false,
+  "1588d13e9675|e63fd0ae7758": false,
+  "1588d13e9675|ddfbded0bc45": false,
+  "1588d13e9675|7648d5489259": false,
+  "6807cf791bc7|b78e91a0ad7d": false,
+  "3229927a5ac9|b78e91a0ad7d": false,
+  "3229927a5ac9|6807cf791bc7": false,
+  "7b088c3461a7|b78e91a0ad7d": false,
+  "6807cf791bc7|7b088c3461a7": false,
+  "3229927a5ac9|7b088c3461a7": false,
+  "8a45c64f0055|b78e91a0ad7d": false,
+  "6807cf791bc7|8a45c64f0055": false,
+  "3229927a5ac9|8a45c64f0055": false,
+  "7b088c3461a7|8a45c64f0055": false,
+  "b78e91a0ad7d|e4caac11cdbb": false,
+  "6807cf791bc7|e4caac11cdbb": true,
+  "3229927a5ac9|e4caac11cdbb": false,
+  "7b088c3461a7|e4caac11cdbb": false,
+  "8a45c64f0055|e4caac11cdbb": false,
+  "b78e91a0ad7d|d0478b1f6eca": false,
+  "6807cf791bc7|d0478b1f6eca": false,
+  "3229927a5ac9|d0478b1f6eca": false,
+  "7b088c3461a7|d0478b1f6eca": false,
+  "8a45c64f0055|d0478b1f6eca": false,
+  "d0478b1f6eca|e4caac11cdbb": false,
+  "975f00dbab6c|b78e91a0ad7d": false,
+  "6807cf791bc7|975f00dbab6c": false,
+  "3229927a5ac9|975f00dbab6c": false,
+  "7b088c3461a7|975f00dbab6c": false,
+  "8a45c64f0055|975f00dbab6c": false,
+  "975f00dbab6c|e4caac11cdbb": false,
+  "975f00dbab6c|d0478b1f6eca": false,
+  "5e259da47d4b|b78e91a0ad7d": false,
+  "5e259da47d4b|6807cf791bc7": false,
+  "3229927a5ac9|5e259da47d4b": false,
+  "5e259da47d4b|7b088c3461a7": false,
+  "5e259da47d4b|8a45c64f0055": false,
+  "5e259da47d4b|e4caac11cdbb": false,
+  "5e259da47d4b|d0478b1f6eca": false,
+  "5e259da47d4b|975f00dbab6c": false,
+  "b78e91a0ad7d|ebb7fea057d2": false,
+  "6807cf791bc7|ebb7fea057d2": false,
+  "3229927a5ac9|ebb7fea057d2": false,
+  "7b088c3461a7|ebb7fea057d2": false,
+  "8a45c64f0055|ebb7fea057d2": false,
+  "e4caac11cdbb|ebb7fea057d2": false,
+  "d0478b1f6eca|ebb7fea057d2": false,
+  "975f00dbab6c|ebb7fea057d2": false,
+  "5e259da47d4b|ebb7fea057d2": false,
+  "99023bfa2d80|e6e24eecbe85": false,
+  "5d394f2d7d6d|e6e24eecbe85": false,
+  "5d394f2d7d6d|99023bfa2d80": false,
+  "3283c734ae25|9c4dc08cc86e": false,
+  "3283c734ae25|7d2a2faef196": false,
+  "7d2a2faef196|9c4dc08cc86e": false,
+  "3283c734ae25|40b7d6d83cf1": false,
+  "40b7d6d83cf1|9c4dc08cc86e": false,
+  "40b7d6d83cf1|7d2a2faef196": false,
+  "3283c734ae25|9b17f092dca1": false,
+  "9b17f092dca1|9c4dc08cc86e": false,
+  "7d2a2faef196|9b17f092dca1": false,
+  "40b7d6d83cf1|9b17f092dca1": false,
+  "1e5d586b28e9|f4eaadb55a19": false,
+  "1e5d586b28e9|f770742e5038": false,
+  "f4eaadb55a19|f770742e5038": false,
+  "1e5d586b28e9|2c38b39960fb": false,
+  "2c38b39960fb|f4eaadb55a19": false,
+  "2c38b39960fb|f770742e5038": true,
+  "1e5d586b28e9|3a6c878cc631": false,
+  "3a6c878cc631|f4eaadb55a19": false,
+  "3a6c878cc631|f770742e5038": false,
+  "2c38b39960fb|3a6c878cc631": false,
+  "1e5d586b28e9|30c24f9e18cc": false,
+  "30c24f9e18cc|f4eaadb55a19": false,
+  "30c24f9e18cc|f770742e5038": false,
+  "2c38b39960fb|30c24f9e18cc": false,
+  "30c24f9e18cc|3a6c878cc631": false,
+  "1e5d586b28e9|cceb1598fefe": false,
+  "cceb1598fefe|f4eaadb55a19": false,
+  "cceb1598fefe|f770742e5038": false,
+  "2c38b39960fb|cceb1598fefe": false,
+  "3a6c878cc631|cceb1598fefe": false,
+  "30c24f9e18cc|cceb1598fefe": false,
+  "1e5d586b28e9|b36d53b8e5ff": false,
+  "b36d53b8e5ff|f4eaadb55a19": false,
+  "b36d53b8e5ff|f770742e5038": false,
+  "2c38b39960fb|b36d53b8e5ff": false,
+  "3a6c878cc631|b36d53b8e5ff": false,
+  "30c24f9e18cc|b36d53b8e5ff": false,
+  "b36d53b8e5ff|cceb1598fefe": false,
+  "1e5d586b28e9|3da8d6487c1c": false,
+  "3da8d6487c1c|f4eaadb55a19": false,
+  "3da8d6487c1c|f770742e5038": false,
+  "2c38b39960fb|3da8d6487c1c": false,
+  "3a6c878cc631|3da8d6487c1c": false,
+  "30c24f9e18cc|3da8d6487c1c": false,
+  "3da8d6487c1c|cceb1598fefe": false,
+  "3da8d6487c1c|b36d53b8e5ff": false,
+  "51929f1b0b58|70ebf901aa70": false,
+  "51929f1b0b58|f976154b856a": false,
+  "70ebf901aa70|f976154b856a": false,
+  "51929f1b0b58|7b747acfd76c": false,
+  "70ebf901aa70|7b747acfd76c": false,
+  "7b747acfd76c|f976154b856a": false
+ },
+ "annual_reports": {
+  "fab": {
+   "done": {},
+   "pages": [
+    "https://www.bankfab.com/en-ae/about-fab/investor-relations/reports-and-presentations/quarterly-and-annual-reports",
+    "https://www.bankfab.com/en-ae/about-fab/investor-relations/shareholder-information/agms"
+   ],
+   "checked": "2026-10-05"
+  },
+  "enbd": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "adcb": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "dib": {
+   "done": {
+    "2025": {
+     "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf",
+     "pages": 205,
+     "items": 10,
+     "date": "2026-03-13"
+    },
+    "2024": {
+     "url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15",
+     "pages": 186,
+     "items": 6,
+     "date": "2025-03-03"
+    }
+   },
+   "pages": [
+    "https://www.dib.ae/about-us/investor-relations",
+    "https://dib.ae/about-us/investor-relations",
+    "https://www.dib.ae/about-us/investor-relations/home"
+   ],
+   "checked": "2026-10-05"
+  },
+  "adib": {
+   "done": {
+    "2025": {
+     "url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf",
+     "pages": 205,
+     "items": 4,
+     "date": "2026-02-20"
+    },
+    "2024": {
+     "url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf",
+     "pages": 211,
+     "items": 6,
+     "date": "2025-02-28"
+    }
+   },
+   "pages": [
+    "https://www.adib.ae/en/investor-relations/reports-and-presentations/annual-reports"
+   ],
+   "checked": "2026-10-05"
+  },
+  "mashreq": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "cbd": {
+   "done": {
+    "2024": {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2",
+     "pages": 81,
+     "items": 7,
+     "date": "2025-03-24"
+    }
+   },
+   "pages": [
+    "https://www.cbd.ae/aboutus/investor-relations"
+   ],
+   "checked": "2026-10-05"
+  },
+  "rakbank": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "ei": {
+   "done": {
+    "2025": {
+     "url": "https://www.emiratesislamic.ae/-/media/ei/pdfs/financial-information/annual-report-pdf/2025/ei_annualreport_2025_eng.pdf",
+     "pages": 72,
+     "items": 4,
+     "date": "2026-01-22"
+    },
+    "2024": {
+     "url": "https://www.emiratesislamic.ae/-/media/ei/pdfs/financial-information/annual-report-pdf/2024/ei_egm.pdf",
+     "pages": 3,
+     "items": 0,
+     "date": "2025-02-25"
+    }
+   },
+   "pages": [
+    "https://www.emiratesislamic.ae/en/financial-information/annual-reports",
+    "https://www.emiratesislamic.ae/en/financial-information/integrated-reports/shareholder-information/general-assembly-meeting",
+    "https://www.emiratesislamic.ae/ar/financial-information/annual-reports"
+   ],
+   "checked": "2026-10-05"
+  },
+  "nbf": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "sib": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "ajman": {
+   "done": {},
+   "pages": [
+    "https://www.ajmanbank.ae/site/annual-integrated-reports.html",
+    "https://www.ajmanbank.ae/site/ar/annual-integrated-reports.html"
+   ],
+   "checked": "2026-10-05"
+  },
+  "bos": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "uab": {
+   "done": {
+    "2025": {
+     "url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf",
+     "pages": 152,
+     "items": 6,
+     "date": "2026-02-20"
+    },
+    "2024": {
+     "url": "https://www.uab.ae/en/about-uab/investor-relations/-/media/project/uab/pdf/2025/aug/uab-annual-report-2024-en.pdf",
+     "pages": 51,
+     "items": 1,
+     "date": "2025-09-01"
+    }
+   },
+   "pages": [
+    "https://www.uab.ae/en/about-uab/investor-relations/financial-information",
+    "https://www.uab.ae/en/about-uab/investor-relations/shareholder-information",
+    "https://www.uab.ae/ar-ae/about-uab/investor-relations/financial-information"
+   ],
+   "checked": "2026-10-05"
+  },
+  "investbank": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "wio": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "zand": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "edb": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "cbuae": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "alrajhi": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "snb": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "riyad": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "sab": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "bsf": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "anb": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "alinma": {
+   "done": {
+    "2025": {
+     "url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf",
+     "pages": 176,
+     "items": 5,
+     "date": "2026-03-31"
+    }
+   },
+   "pages": [
+    "https://ir.alinma.com/en/investor-relations/financial-information/?query=annual-reports"
+   ],
+   "checked": "2026-10-05"
+  },
+  "aljazira": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "albilad": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "saib": {
+   "done": {
+    "2025": {
+     "url": "https://www.saib.com.sa/sites/default/files/2026-04/bod-2025-Ar.pdf",
+     "pages": 41,
+     "items": 1,
+     "date": "2026-03-24"
+    },
+    "2024": {
+     "url": "https://www.saib.com.sa/sites/default/files/2025-11/SAIB_Integrated_Report_2024_En.pdf",
+     "pages": 126,
+     "items": 0,
+     "date": "2025-11-03"
+    }
+   },
+   "pages": [
+    "https://www.saib.com.sa/en/annual-report",
+    "https://www.saib.com.sa/ar/annual-report"
+   ],
+   "checked": "2026-10-05"
+  },
+  "gibsa": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "stcbank": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "d360": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "visionbank": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "sama": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "qnb": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "qib": {
+   "done": {
+    "2025": {
+     "url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib---annual-report-2025-english.pdf?rev=e5ea1a44acba4b088f35828fa8bc1e3d",
+     "pages": 140,
+     "items": 4,
+     "date": "2026-05-07"
+    },
+    "2024": {
+     "url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib-annual-report-2024-english.pdf?rev=5fd1fcbb9c734ed4995da654cfe45694",
+     "pages": 139,
+     "items": 1,
+     "date": "2025-07-04"
+    }
+   },
+   "pages": [
+    "https://www.qib.com.qa/en/investors",
+    "https://www.qib.com.qa/en/investors/financial-information/reports-and-updates/annual-reports",
+    "https://www.qib.com.qa/ar/investors"
+   ],
+   "checked": "2026-10-05"
+  },
+  "cbq": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "rayan": {
+   "done": {
+    "2025": {
+     "url": "https://marblobstorage.blob.core.windows.net/files/arbfiles/AnnualReports2019/AR/ARB-Annual-Report-2025_ar.pdf",
+     "pages": 246,
+     "items": 0,
+     "date": "2026-03-13"
+    },
+    "2024": {
+     "url": "https://marblobstorage.blob.core.windows.net/files/arbfiles/AnnualReports2019/AR/ARB-Annual-Report-2024_ar.pdf",
+     "pages": 238,
+     "items": 3,
+     "date": "2025-03-26"
+    }
+   },
+   "pages": [
+    "https://www.alrayan.com/investor-relations/financial-information/annual-reports",
+    "https://www.alrayan.com/investor-relations/financial-information/financial-statements",
+    "https://www.alrayan.com/investor-relations/sustainability/esg-annual-reports"
+   ],
+   "checked": "2026-10-05"
+  },
+  "dohabank": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "dukhan": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "qiib": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "ahlibankqa": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "lesha": {
+   "done": {
+    "2025": {
+     "url": "https://www.leshabank.com/wp-content/uploads/Lesha-Bank-Annual-Report-2025-FINAL-ENGLISH-Low-Res.pdf",
+     "pages": 76,
+     "items": 0,
+     "date": "2026-02-25"
+    },
+    "2024": {
+     "url": "https://www.leshabank.com/wp-content/uploads/Annual-Report-English-2024.pdf",
+     "pages": 72,
+     "items": 0,
+     "date": "2025-02-22"
+    }
+   },
+   "pages": [
+    "https://www.leshabank.com/investor-relations/financial-statements/",
+    "https://www.leshabank.com/investor-relations/general-assembly/",
+    "https://www.leshabank.com/AnnualReport2024/"
+   ],
+   "checked": "2026-10-05"
+  },
+  "qdb": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "qcb": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "nbk": {
+   "done": {
+    "2025": {
+     "url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
+     "pages": 226,
+     "items": 6,
+     "date": "2026-03-04"
+    },
+    "2024": {
+     "url": "https://nbk.com/dam/jcr:374076fd-2bb1-4b60-ad6a-df7fae2d25ae/nbk-annual-report-2024-e.pdf",
+     "pages": 204,
+     "items": 2,
+     "date": "2025-03-13"
+    }
+   },
+   "pages": [
+    "https://www.nbk.com/nbk-group/investor-relations/latest-annual-report",
+    "https://www.nbk.com/investor-relations.html",
+    "https://www.nbk.com/nbk-group/investor-relations/financial-reports.html"
+   ],
+   "checked": "2026-10-05"
+  },
+  "kfh": {
+   "done": {
+    "2025": {
+     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+     "pages": 120,
+     "items": 9,
+     "date": "2026-04-21"
+    },
+    "2024": {
+     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2024/document_en/KFH%20Annual%20Report%20En%202024%20(Draft-16).pdf.pdf",
+     "pages": 115,
+     "items": 4,
+     "date": "2025-03-14"
+    }
+   },
+   "pages": [
+    "https://www.kfh.com/home/Investor-Relations/Annual-Reports/Annual-Reports.html",
+    "https://www.kfh.com/en/home/Investor-Relations/Annual-Reports/Annual-Reports.html",
+    "https://www.kfh.com/home/Investor-Relations/Annual-Reports.html"
+   ],
+   "checked": "2026-10-05"
+  },
+  "boubyan": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "gulfbank": {
+   "done": {},
+   "checked": "2026-10-05"
+  },
+  "burgan": {
+   "done": {
+    "2025": {
+     "url": "https://burgan.com/en/documents/157/BBAnnualReport2025.pdf",
+     "pages": 103,
+     "items": 3,
+     "date": "2026-03-17"
+    }
+   },
+   "pages": [
+    "https://burgan.com/en/investor-relations/investor-relations/"
+   ],
+   "checked": "2026-10-05"
+  }
+ },
+ "sector_migrations": [
+  "geo-v2"
+ ],
+ "sector_dup_verdicts": {
+  "164d4661ebdf|2b5f79a2338f": false
+ }
 }

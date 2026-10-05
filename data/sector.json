@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-05T20:31:32+00:00",
+ "updated_at": "2026-10-05T21:31:41+00:00",
  "items": [
   {
    "id": "397483223489",
@@ -89,6 +89,39 @@
    "pdf_checked": "2026-10-05"
   },
   {
+   "id": "569d27d21da5",
+   "date": "2026-05-27",
+   "category": "Market Data",
+   "publisher": "",
+   "countries": [
+    "GCC"
+   ],
+   "title": "Cloud-First, AI-Led GCC Reimagines Global Banking",
+   "summary": "GCC banks are adopting cloud-first and AI-led strategies to transform global banking. This repositioning strengthens the region's financial sector's role in international markets.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd2ZRcndGTk1IeENFaXJfRzBRa2hldVJTTjQxUldQenlILTZNRDlmdXYtZXpldTNqb0ZPWldJTkNzdVF0d0JndEdHVjBMZU9JZzR0WFRiODlKcGdVWnFUY3pfQURfakR1MTQ3M09CUlk2aVVueHhZS2s2X3pXeDMzSThkeUNjcHg5cVk4bm1DWWVmRXEyZzFEeDFBazN2WlUwSU1TLVppeG5Ca2ZkX1kteEVETklsekhNR29lWGd4Q1NFdUpjR1M2d240endKdlZN0gHWAUFVX3lxTFB0eUt3VG9nQm9hNXUyb2lvMmY3RVE4MXBRcVo3TmVyQlI3bnB1TmlBZFV5dEZzUXNtUENVV2dpeWZpNnpiMEFpZE5NMF9oczVkYmZPSlBWaTBiUTZNQ3laWlVXQ0V0dmFFdjNYNG01UEcyM3RyTmhBVlR3S0F4MXJra3kzdnVVeXhDNVc1d1ozUmdNeHNDVDg2WURuVW80RUFGa2lGZWV3WF9aM0QyWnZvZjhqUUpUdzBDd2JhU2ZxZVJkdVhwT256MEs4Sks5Nnl5SWN6WlE?oc=5",
+   "source_name": "timesofindia.indiatimes.com",
+   "source_title": "Cloud-first, AI-led GCC reimagines global banking",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd2ZRcndGTk1IeENFaXJfRzBRa2hldVJTTjQxUldQenlILTZNRDlmdXYtZXpldTNqb0ZPWldJTkNzdVF0d0JndEdHVjBMZU9JZzR0WFRiODlKcGdVWnFUY3pfQURfakR1MTQ3M09CUlk2aVVueHhZS2s2X3pXeDMzSThkeUNjcHg5cVk4bm1DWWVmRXEyZzFEeDFBazN2WlUwSU1TLVppeG5Ca2ZkX1kteEVETklsekhNR29lWGd4Q1NFdUpjR1M2d240endKdlZN0gHWAUFVX3lxTFB0eUt3VG9nQm9hNXUyb2lvMmY3RVE4MXBRcVo3TmVyQlI3bnB1TmlBZFV5dEZzUXNtUENVV2dpeWZpNnpiMEFpZE5NMF9oczVkYmZPSlBWaTBiUTZNQ3laWlVXQ0V0dmFFdjNYNG01UEcyM3RyTmhBVlR3S0F4MXJra3kzdnVVeXhDNVc1d1ozUmdNeHNDVDg2WURuVW80RUFGa2lGZWV3WF9aM0QyWnZvZjhqUUpUdzBDd2JhU2ZxZVJkdVhwT256MEs4Sks5Nnl5SWN6WlE?oc=5",
+     "name": "timesofindia.indiatimes.com"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd2ZRcndGTk1IeENFaXJfRzBRa2hldVJTTjQxUldQenlILTZNRDlmdXYtZXpldTNqb0ZPWldJTkNzdVF0d0JndEdHVjBMZU9JZzR0WFRiODlKcGdVWnFUY3pfQURfakR1MTQ3M09CUlk2aVVueHhZS2s2X3pXeDMzSThkeUNjcHg5cVk4bm1DWWVmRXEyZzFEeDFBazN2WlUwSU1TLVppeG5Ca2ZkX1kteEVETklsekhNR29lWGd4Q1NFdUpjR1M2d240endKdlZN0gHWAUFVX3lxTFB0eUt3VG9nQm9hNXUyb2lvMmY3RVE4MXBRcVo3TmVyQlI3bnB1TmlBZFV5dEZzUXNtUENVV2dpeWZpNnpiMEFpZE5NMF9oczVkYmZPSlBWaTBiUTZNQ3laWlVXQ0V0dmFFdjNYNG01UEcyM3RyTmhBVlR3S0F4MXJra3kzdnVVeXhDNVc1d1ozUmdNeHNDVDg2WURuVW80RUFGa2lGZWV3WF9aM0QyWnZvZjhqUUpUdzBDd2JhU2ZxZVJkdVhwT256MEs4Sks5Nnl5SWN6WlE?oc=5",
+     "name": "The Times of India"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T20:31:11+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-05"
+   },
+   "pdf_checked": "2026-10-05"
+  },
+  {
    "id": "e2c05a023e9c",
    "date": "2026-03-27",
    "category": "Events & Initiatives",
@@ -143,6 +176,72 @@
    ],
    "language": "en",
    "added_at": "2026-10-05T20:31:11+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-05"
+   },
+   "pdf_checked": "2026-10-05"
+  },
+  {
+   "id": "f8ed31ce09d8",
+   "date": "2026-02-28",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "AE"
+   ],
+   "title": "UAE Central Bank launches sovereign financial cloud with AI capabilities",
+   "summary": "The UAE's central bank has introduced a world-first sovereign financial cloud infrastructure that incorporates AI technology for secure digital financial operations. This initiative represents a major regulatory advancement in AI-enabled banking infrastructure.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNNDdkNWp2R09LT1ppOC1NUlRLZmRBOFF0cGNQNFNFeUdxSE1iLWxBd1RIa2FQTXZZakNHNHVMU25vTUVFRWNwMEVQVWF1eE9oOVgyVUZhWFQ1UjlXSlVMYWFmYTBzMENySkQ4RHhiSFNZZDZOUXFiZkhhX2JmUURSbkFxeldEVlZGZU1Ob3IwYWhVUVVHcmlNY0NoQUJTYm5QdTJUYzZfQlp4ejdTSXJQVU5fSGNxZWxPdFg1ZXZmbHVNQk9zUnJkUEdpTGR5ZEhtaEZITlEwMTY5a0lCNThuUUE0WW5WTzk4TndYcnZMTW90OVVvVFV0RW5EaktQOGp0S25ralJ6OE9TZlY3ZXY4cGpmQnVvb0JVLUVrRFdR0gGjAkFVX3lxTE41aFBxb2ZwVzJHTkhzanZaU2xQWTM1bG1PdDJYY1FPc1VfY0RxaklIbDJ0N2x5dXljR3BUYzc4eGJWZVpOZnBaN0Q0b2RlVi1Vd1J4MXZUVnNQMkoyNW94M3kyQTZGMUtCWEtvNTdfTUNrcllIQTVjd0NtczJTRXp1QmljRjJsbVpXeHQ5ZXU4OTJYSGVjZVJDZ1Y1UV9Dams1bWZHZkdyRFJsUkVwcnNDTTZCVHBhbnY2T0FYdU5sb3FoNGZqYlVjYjFVR2RXZEJkTS10NzJYZzl0UWNlakZzOUwzTGdNYlkyRlZCTWRLVnV3ZHM5MU5KNktLcUplSnlEUnNUeC00Vi1wcUhCdDlPNVR6ZDdEVDdiVHVXLTh0SERSdw?oc=5",
+   "source_name": "timesofindia.indiatimes.com",
+   "source_title": "UAE makes history: Central Bank launches world's first sovereign financial cloud with AI for secure digit",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNNDdkNWp2R09LT1ppOC1NUlRLZmRBOFF0cGNQNFNFeUdxSE1iLWxBd1RIa2FQTXZZakNHNHVMU25vTUVFRWNwMEVQVWF1eE9oOVgyVUZhWFQ1UjlXSlVMYWFmYTBzMENySkQ4RHhiSFNZZDZOUXFiZkhhX2JmUURSbkFxeldEVlZGZU1Ob3IwYWhVUVVHcmlNY0NoQUJTYm5QdTJUYzZfQlp4ejdTSXJQVU5fSGNxZWxPdFg1ZXZmbHVNQk9zUnJkUEdpTGR5ZEhtaEZITlEwMTY5a0lCNThuUUE0WW5WTzk4TndYcnZMTW90OVVvVFV0RW5EaktQOGp0S25ralJ6OE9TZlY3ZXY4cGpmQnVvb0JVLUVrRFdR0gGjAkFVX3lxTE41aFBxb2ZwVzJHTkhzanZaU2xQWTM1bG1PdDJYY1FPc1VfY0RxaklIbDJ0N2x5dXljR3BUYzc4eGJWZVpOZnBaN0Q0b2RlVi1Vd1J4MXZUVnNQMkoyNW94M3kyQTZGMUtCWEtvNTdfTUNrcllIQTVjd0NtczJTRXp1QmljRjJsbVpXeHQ5ZXU4OTJYSGVjZVJDZ1Y1UV9Dams1bWZHZkdyRFJsUkVwcnNDTTZCVHBhbnY2T0FYdU5sb3FoNGZqYlVjYjFVR2RXZEJkTS10NzJYZzl0UWNlakZzOUwzTGdNYlkyRlZCTWRLVnV3ZHM5MU5KNktLcUplSnlEUnNUeC00Vi1wcUhCdDlPNVR6ZDdEVDdiVHVXLTh0SERSdw?oc=5",
+     "name": "timesofindia.indiatimes.com"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNNDdkNWp2R09LT1ppOC1NUlRLZmRBOFF0cGNQNFNFeUdxSE1iLWxBd1RIa2FQTXZZakNHNHVMU25vTUVFRWNwMEVQVWF1eE9oOVgyVUZhWFQ1UjlXSlVMYWFmYTBzMENySkQ4RHhiSFNZZDZOUXFiZkhhX2JmUURSbkFxeldEVlZGZU1Ob3IwYWhVUVVHcmlNY0NoQUJTYm5QdTJUYzZfQlp4ejdTSXJQVU5fSGNxZWxPdFg1ZXZmbHVNQk9zUnJkUEdpTGR5ZEhtaEZITlEwMTY5a0lCNThuUUE0WW5WTzk4TndYcnZMTW90OVVvVFV0RW5EaktQOGp0S25ralJ6OE9TZlY3ZXY4cGpmQnVvb0JVLUVrRFdR0gGjAkFVX3lxTE41aFBxb2ZwVzJHTkhzanZaU2xQWTM1bG1PdDJYY1FPc1VfY0RxaklIbDJ0N2x5dXljR3BUYzc4eGJWZVpOZnBaN0Q0b2RlVi1Vd1J4MXZUVnNQMkoyNW94M3kyQTZGMUtCWEtvNTdfTUNrcllIQTVjd0NtczJTRXp1QmljRjJsbVpXeHQ5ZXU4OTJYSGVjZVJDZ1Y1UV9Dams1bWZHZkdyRFJsUkVwcnNDTTZCVHBhbnY2T0FYdU5sb3FoNGZqYlVjYjFVR2RXZEJkTS10NzJYZzl0UWNlakZzOUwzTGdNYlkyRlZCTWRLVnV3ZHM5MU5KNktLcUplSnlEUnNUeC00Vi1wcUhCdDlPNVR6ZDdEVDdiVHVXLTh0SERSdw?oc=5",
+     "name": "The Times of India"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T20:31:11+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-05"
+   },
+   "pdf_checked": "2026-10-05"
+  },
+  {
+   "id": "164d4661ebdf",
+   "date": "2026-02-23",
+   "category": "Regulation & Guidance",
+   "publisher": "UAE Central Bank",
+   "countries": [
+    "AE"
+   ],
+   "title": "UAE Central Bank Issues New Rules on Artificial Intelligence Use in Finance",
+   "summary": "The UAE Central Bank has issued comprehensive rules governing AI deployment in the financial sector. The guidance aims to protect consumers while enabling responsible innovation in AI-driven banking services.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNclpsemtWV2hUVGVRQmJoRVdwUWNnQXNnQ1hNYjhra2VSUnMxS3p6NjhjOHFLMXZCQWQyblZoR0ZfdWNzSzZpSHZ3cG1wb0tDYkNLSUNXRG0zTG5WNzFObGJ0ckFIM0VjVHhNY0F6ZF80RnZVSEdJMkMzdUxBQ2dlZTQ4WUdieEozVjhpNjhkdlRJTEV5aHJXc9IBoAFBVV95cUxNRnZzWWxRa0NvSjkwaDJfd3FMeEtpeHdfWnJwWjUyQkVNQURLLVFfVWR0SGNHampHOXlVQlVWVzVJdmVnUm9YQ0lVNjJSTmM4bUV4bkR2T3phRzJQTG1UcXhTWC1tT0ZpU19aVzU2Z3I3bDJhUjVGSzlic0hQYVZEVkZiRXFGenNXRkc3OFRXZm5KODZ6elB1NGVEcEFXT2Jl?oc=5",
+   "source_name": "Khaleej Times",
+   "source_title": "UAE Central Bank issues new rules on AI use in finance to protect consumers",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNclpsemtWV2hUVGVRQmJoRVdwUWNnQXNnQ1hNYjhra2VSUnMxS3p6NjhjOHFLMXZCQWQyblZoR0ZfdWNzSzZpSHZ3cG1wb0tDYkNLSUNXRG0zTG5WNzFObGJ0ckFIM0VjVHhNY0F6ZF80RnZVSEdJMkMzdUxBQ2dlZTQ4WUdieEozVjhpNjhkdlRJTEV5aHJXc9IBoAFBVV95cUxNRnZzWWxRa0NvSjkwaDJfd3FMeEtpeHdfWnJwWjUyQkVNQURLLVFfVWR0SGNHampHOXlVQlVWVzVJdmVnUm9YQ0lVNjJSTmM4bUV4bkR2T3phRzJQTG1UcXhTWC1tT0ZpU19aVzU2Z3I3bDJhUjVGSzlic0hQYVZEVkZiRXFGenNXRkc3OFRXZm5KODZ6elB1NGVEcEFXT2Jl?oc=5",
+     "name": "Khaleej Times"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNejN6SG1YVHE1MWZhVkVIYmh1M2JKSXNjZjhjeWFqVHYtd0RLbnUxR0p2VU0zMFhKREVjbnlJUFZPWHV6WVdwc0IwX3UxbFN6TnlXbUp3OGNpTENZdklUOGFVblRRanFjbDJ2VGRkZHpfRjBpVFpaYXRHb3R5dFJtdW9wdnhpaVoxeDhQU2lSbC1nc3hHclJSUDkwdVo4eGU2SGF6QlBFSE9DZmoyVXNwMkNaeEc0RFFXbkZSVXF4QdIB0gFBVV95cUxQQ3RyYTFISFFPQ1NlalZURDR4emN1eHdkRUpmWkJYekVacGJoSWFIX0g2MDN0ODdwYUZSWFVNdmxJZkFGMzQxS2YtalduaEdLQ2xCWDlVZnBuT01vM2ZNZGozNmRjOVI4VjMzOXJTSVJ2TmJibmtIS2JWSUp1YlZIdm5ieEVyakVVRnJMUTlBMTQ5enNhV1hJQk1CNk9SSnNzRzhwTmt4bEljSk9RSU1ER2draV80NmhLR0I3X0Uta3RFRnN3NFhPcm9pdlVCdkZZcXc?oc=5",
+     "name": "gulfnews.com"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T21:31:37+00:00",
    "verification": {
     "level": "trusted",
     "evidence": "headline",

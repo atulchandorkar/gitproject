@@ -367,5 +367,311 @@
   "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1RX2ZRbUViZl9oQVFKWWJkT0xMZFJyR0hMaWE4ZWV0UHh0eXBmU1lIN0V6N1ZabWR3S2V6NnB5V0ttckI0MGJMSlFRdEJLdmpoQU55WjJvT3I1cC05ZXF6ODdxVdIBakFVX3lxTE9VYy02UkwtSW9UY1IzT0JjaU53VkExRERYWDl6OHQ4TWM4WDViSXhxUFRBNm03bXAzcm5hLTU5V0gtSnJHd1kyUktVTlJIeXlLN0dFajFob2ltTXNTY1FsWHliczhNdWJpaGc?oc=5",
   "source": "الأيام البحرينية",
   "reason": "CBB is not named in the source"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "dib",
+  "date": "2025-03-03",
+  "title": "DIB AI-Driven Analytics Tools and Automation Using RPA and AI Technologies",
+  "source_url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15",
+  "source": "DIB Annual Report 2024",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "dib",
+  "date": "2025-03-03",
+  "title": "DIB AI-Driven Customer Service and Advanced Data Analytics for Risk Management",
+  "source_url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15",
+  "source": "DIB Annual Report 2024",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "dib",
+  "date": "2025-03-03",
+  "title": "DIB Process Mining for Data-Driven Process Improvements and Operational Agility",
+  "source_url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15",
+  "source": "DIB Annual Report 2024",
+  "reason": "fact-check: Title claims 'Process Mining' but evidence does not explicitly name 'process mining' as the technique used in the title context; process mining is mentioned in the summary section only."
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "adib",
+  "date": "2026-02-20",
+  "title": "ADIB AI Strategy and Five-Pillar Framework",
+  "source_url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf",
+  "source": "ADIB Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "adib",
+  "date": "2026-02-20",
+  "title": "ADIB Fintech Ecosystem Partnerships and Innovation",
+  "source_url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf",
+  "source": "ADIB Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "adib",
+  "date": "2026-02-20",
+  "title": "ADIB Open Finance and Financial Super App Integration",
+  "source_url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf",
+  "source": "ADIB Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "adib",
+  "date": "2026-02-20",
+  "title": "ADIB AI Upskilling and Future-Ready Talent Development",
+  "source_url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf",
+  "source": "ADIB Annual Report 2025",
+  "reason": "fact-check: Title and summary claim 'AI Upskilling' and 'building AI capability into day-to-day work' but evidence only mentions 'AI readiness' training and 'future skills' without specifying AI-focused upskilling programs."
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "adib",
+  "date": "2026-02-20",
+  "title": "ADIB Award for Best Implementation of Advanced Analytics in Banking",
+  "source_url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf",
+  "source": "ADIB Annual Report 2025",
+  "reason": "fact-check: Award for advanced analytics is recognition/outcome, not evidence of the bank's own AI activity, strategy, investment, deployment, or partnership."
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "adib",
+  "date": "2026-02-20",
+  "title": "ADIB GenAI-Based Onboarding and Approval-in-Principle Automation",
+  "source_url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf",
+  "source": "ADIB Annual Report 2025",
+  "reason": "fact-check: Evidence does not specifically attribute the onboarding or approval processes to GenAI; it mentions digital automation and AI readiness broadly but not GenAI specifically for these products."
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "adib",
+  "date": "2025-02-28",
+  "title": "ADIB Generative AI Integration Across Operations",
+  "source_url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf",
+  "source": "ADIB Annual Report 2024",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "adib",
+  "date": "2025-02-28",
+  "title": "ADIB Machine Learning for Personalized Customer Offers",
+  "source_url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf",
+  "source": "ADIB Annual Report 2024",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "adib",
+  "date": "2025-02-28",
+  "title": "ADIB Ventures FinTech Partnership and Generative AI Platform",
+  "source_url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf",
+  "source": "ADIB Annual Report 2024",
+  "reason": "fact-check: Title claims 'FinTech Partnership and Generative AI Platform' but evidence describes ADIB Ventures as an initiative/program, not a platform, and partners are described as 'global fintech firms' not specific entities."
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "cbd",
+  "date": "2025-03-24",
+  "title": "CBD Next Generation Chatbot for Digital Customer Experience",
+  "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2",
+  "source": "CBD Annual Report 2024",
+  "reason": "fact-check: Chatbot is digital/technology initiative but not specifically an AI activity as claimed by tracking system; the evidence does not explicitly state the chatbot uses AI."
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "uab",
+  "date": "2026-02-20",
+  "title": "UAB AI Risk Scoring and Fraud Prevention Program",
+  "source_url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf",
+  "source": "UAB Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "alinma",
+  "date": "2026-03-31",
+  "title": "Alinma AI Governance Framework and Strategic Prioritization",
+  "source_url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf",
+  "source": "Alinma Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "alinma",
+  "date": "2026-03-31",
+  "title": "Alinma AI-Powered Predictive Risk Models for Credit and Fraud",
+  "source_url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf",
+  "source": "Alinma Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "alinma",
+  "date": "2026-03-31",
+  "title": "Alinma GenAI Enterprise Assistant for Policies and Procedures",
+  "source_url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf",
+  "source": "Alinma Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "alinma",
+  "date": "2026-03-31",
+  "title": "Alinma AI-Driven Lead Generation and Cross-Sell Models",
+  "source_url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf",
+  "source": "Alinma Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "alinma",
+  "date": "2026-03-31",
+  "title": "Alinma Most Innovative Rebranding Initiative Award 2025",
+  "source_url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf",
+  "source": "Alinma Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "saib",
+  "date": "2026-03-24",
+  "title": "SAIB Fraud Detection System Integration",
+  "source_url": "https://www.saib.com.sa/sites/default/files/2026-04/bod-2025-Ar.pdf",
+  "source": "SAIB Annual Report 2025",
+  "reason": "fact-check: Fraud system integration is not an AI activity; the evidence describes technical integration of fraud prevention systems, not AI-specific activity."
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "saib",
+  "date": "2026-03-24",
+  "title": "SAIB Enterprise Data Lake and AI-Driven Analytics",
+  "source_url": "https://www.saib.com.sa/sites/default/files/2026-04/bod-2025-Ar.pdf",
+  "source": "SAIB Annual Report 2025",
+  "reason": "fact-check: Evidence mentions 'data lake' and 'AI platform' separately but does not explicitly state they are being deployed together as described in the title."
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "qib",
+  "date": "2026-05-07",
+  "title": "QIB Digital Life Insurance with AI-Enabled Processing",
+  "source_url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib---annual-report-2025-english.pdf?rev=e5ea1a44acba4b088f35828fa8bc1e3d",
+  "source": "QIB Annual Report 2025",
+  "reason": "fact-check: Evidence states Life Continuity Takaful is a fully digital solution but does not establish it leverages AI; AI is mentioned separately in relation to mobile app features, not insurance processing."
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "qib",
+  "date": "2025-07-04",
+  "title": "QIB Auto Marketplace with AI-Powered Features",
+  "source_url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib-annual-report-2024-english.pdf?rev=5fd1fcbb9c734ed4995da654cfe45694",
+  "source": "QIB Annual Report 2024",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "qib",
+  "date": "2025-07-04",
+  "title": "QIB Expansion of AI-Driven Services and Automation (2025 Plan)",
+  "source_url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib-annual-report-2024-english.pdf?rev=5fd1fcbb9c734ed4995da654cfe45694",
+  "source": "QIB Annual Report 2024",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "rayan",
+  "date": "2026-03-13",
+  "title": "Al Rayan Data & Analytics Governance Framework",
+  "source_url": "https://marblobstorage.blob.core.windows.net/files/arbfiles/AnnualReports2019/AR/ARB-Annual-Report-2025_ar.pdf",
+  "source": "Al Rayan Annual Report 2025",
+  "reason": "fact-check: Data & Analytics governance is not itself an AI activity; it is a supporting function. The evidence mentions AI potential exploration but the launched framework itself is about governance standards, not AI deployment or strategy."
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "rayan",
+  "date": "2026-03-13",
+  "title": "Al Rayan AI Potential Exploration Initiative",
+  "source_url": "https://marblobstorage.blob.core.windows.net/files/arbfiles/AnnualReports2019/AR/ARB-Annual-Report-2025_ar.pdf",
+  "source": "Al Rayan Annual Report 2025",
+  "reason": "fact-check: Title claims an 'Initiative' but evidence only mentions AI potential exploration as part of ongoing efforts, not a named or formally launched initiative."
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "rayan",
+  "date": "2025-03-26",
+  "title": "Al Rayan Data Strategy for AI and Advanced Analytics",
+  "source_url": "https://marblobstorage.blob.core.windows.net/files/arbfiles/AnnualReports2019/AR/ARB-Annual-Report-2024_ar.pdf",
+  "source": "Al Rayan Annual Report 2024",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "nbk",
+  "date": "2026-03-04",
+  "title": "NBK Microsoft Copilot Deployment Across All Divisions",
+  "source_url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
+  "source": "NBK Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "nbk",
+  "date": "2026-03-04",
+  "title": "NBK AI Roadmap for Priority Domains and Customer-Facing Activities",
+  "source_url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
+  "source": "NBK Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "nbk",
+  "date": "2026-03-04",
+  "title": "NBK Tech Academy Wave 2 – AI and Data Analytics Training",
+  "source_url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
+  "source": "NBK Annual Report 2025",
+  "reason": "headline has numbers that are not on the page"
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "nbk",
+  "date": "2026-03-04",
+  "title": "NBK Future Ready – AI in Banking Leadership Programme",
+  "source_url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
+  "source": "NBK Annual Report 2025",
+  "reason": "fact-check: The Future Ready – AI in Banking is a learning/training program for employees, not a banking AI activity (product, deployment, strategy, or investment in AI systems)."
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "kfh",
+  "date": "2026-04-21",
+  "title": "KFH Credit Card Collection Automation System",
+  "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+  "source": "KFH Annual Report 2025",
+  "reason": "fact-check: Credit card collection automation is not an AI activity; it is described as automation and robotics but not as AI-based."
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "kfh",
+  "date": "2025-03-14",
+  "title": "KFH Face ID and Digital Authentication Integration",
+  "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2024/document_en/KFH%20Annual%20Report%20En%202024%20(Draft-16).pdf.pdf",
+  "source": "KFH Annual Report 2024",
+  "reason": "fact-check: Face ID authentication is a general security feature, not KFH's own AI activity—it is not described as an AI deployment or development."
+ },
+ {
+  "checked": "2026-10-05",
+  "bank_id": "burgan",
+  "date": "2026-03-17",
+  "title": "Burgan Digital Skills Training for Kuwait Ministry of Interior",
+  "source_url": "https://burgan.com/en/documents/157/BBAnnualReport2025.pdf",
+  "source": "Burgan Annual Report 2025",
+  "reason": "fact-check: This is a training program for an external organization (Ministry of Interior), not Burgan's own AI activity, strategy, investment, or deployment."
  }
 ]

@@ -16,8 +16,8 @@
  },
  "ahlibankqa": {
   "checked": "2026-10-05",
-  "file": "logos/ahlibankqa.png",
-  "source": "https://www.ahlibank.com.qa/images/mobileicon.png"
+  "file": "logos/ahlibankqa.ico",
+  "source": "https://www.ahlibank.com.qa/favicon.ico"
  },
  "ahlioman": {
   "checked": "2026-10-05",
@@ -30,7 +30,9 @@
   "source": "https://www.ajmanbank.ae/site/favicon.ico"
  },
  "albilad": {
-  "checked": "2026-10-05"
+  "checked": "2026-10-05",
+  "file": "logos/albilad.png",
+  "source": "https://www.bankalbilad.com.sa/az/images/logo.png"
  },
  "alinma": {
   "checked": "2026-10-05",
@@ -43,7 +45,7 @@
  "alrajhi": {
   "checked": "2026-10-05",
   "file": "logos/alrajhi.png",
-  "source": "https://www.alrajhibank.com.sa/apple-touch-icon.png"
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Al_Rajhi_Bank_Logo.svg?width=256"
  },
  "alsalam": {
   "checked": "2026-10-05",
@@ -56,7 +58,9 @@
   "source": "https://anb.com.sa/o/anb-theme/images/favicon.ico"
  },
  "aub": {
-  "checked": "2026-10-05"
+  "checked": "2026-10-05",
+  "file": "logos/aub.png",
+  "source": "https://www.bh.kfh.com/wp-content/uploads/2025/05/KFH_LOGO.png"
  },
  "bankabc": {
   "checked": "2026-10-05",
@@ -69,9 +73,7 @@
   "source": "https://www.bankdhofar.com/media/wvffurdm/fav-icon.png?width=57&amp;height=57"
  },
  "bankmuscat": {
-  "checked": "2026-10-05",
-  "file": "logos/bankmuscat.png",
-  "source": "https://www.bankmuscat.om/apple-touch-icon.png"
+  "checked": "2026-10-05"
  },
  "bbk": {
   "checked": "2026-10-05",
@@ -114,7 +116,7 @@
  "cbk": {
   "checked": "2026-10-05",
   "file": "logos/cbk.png",
-  "source": "https://www.cbk.com/apple-touch-icon.png"
+  "source": "https://www.cbk.com/Frontend/images/CBK_LOGO.png"
  },
  "cbkw": {
   "checked": "2026-10-05",
@@ -129,7 +131,7 @@
  "cbq": {
   "checked": "2026-10-05",
   "file": "logos/cbq.png",
-  "source": "https://www.cbq.com.qa/apple-touch-icon.png"
+  "source": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Cbq.qa-logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original"
  },
  "cbuae": {
   "checked": "2026-10-05",
@@ -200,7 +202,9 @@
   "source": "https://www.ibkuwt.com/static/img/favicon.ico"
  },
  "investbank": {
-  "checked": "2026-10-05"
+  "checked": "2026-10-05",
+  "file": "logos/investbank.png",
+  "source": "https://www.google.com/s2/favicons?domain=investbank.ae&sz=256"
  },
  "kfh": {
   "checked": "2026-10-05",
@@ -320,8 +324,8 @@
  },
  "sohar": {
   "checked": "2026-10-05",
-  "file": "logos/sohar.png",
-  "source": "https://www.sib.om/apple-touch-icon.png"
+  "file": "logos/sohar.svg",
+  "source": "https://res.cloudinary.com/dtqjagydd/image/upload/v1721631135/sohardevelopment/Logo_245331cf55.svg"
  },
  "stcbank": {
   "checked": "2026-10-05",
@@ -337,7 +341,9 @@
   "source": "https://www.visionbank.com.sa/apple-touch-icon.png"
  },
  "warba": {
-  "checked": "2026-10-05"
+  "checked": "2026-10-05",
+  "file": "logos/warba.svg",
+  "source": "https://www.warbabank.com/images/Warbalogo.svg"
  },
  "wio": {
   "checked": "2026-10-05",
