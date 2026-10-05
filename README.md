@@ -70,7 +70,7 @@ History is saved bank by bank. If a run stops partway, the next run picks up whe
 - **GitHub and Telegram:** free.
 - **News discovery:** free (Google News RSS).
 - **Claude API (Haiku 4.5)**, which only screens headlines:
-  - **one-time history load:** about $1–4
+  - **one-time history load:** about $3–8, including the fact-checks
   - **each daily run:** a few cents, or about **$1–5 a month**
 
   Costs are kept low in four ways:
@@ -91,14 +91,44 @@ Each run works in three steps:
 2. **Filter (free).** Headlines without AI-related words are dropped. Duplicate stories are merged. Headlines screened in an earlier run are skipped.
 3. **Screen (Claude Haiku).** The remaining headlines go to Claude in batches. Claude keeps only a bank's own AI news, names the bank, and assigns a category, tags, partners and any stated impact. It also writes a short English summary that sticks to what the headline says. The inclusion rules are in `system_prompt()` in `agent/tracker.py`.
 
-Every item links to the article it came from. The extra outlets for the same story are kept as additional sources.
+### Accuracy checks (every item, before it is published)
+1. **Real source.** The link always comes from a Google News entry or the bank's own newsroom. Claude never supplies URLs.
+2. **Bank named.** The original headline or the article text must name the bank: its English name, Arabic name or alias.
+3. **No invented numbers.** Every figure in the title, summary or impact line must appear in the source. If one doesn't, the title falls back to the original headline and the unsupported text is removed.
+4. **Independent AI fact-check.** A second Claude pass, with a separate "sceptical fact-checker" prompt, checks every claim. It uses the **full article text** whenever the page can be read, and the original headline otherwise.
+   - If the item is about the wrong bank, or isn't the bank's own AI activity, it is rejected.
+   - Unsupported titles, summaries, figures or partners are removed.
+5. **Trusted source.** The item must come from the bank's own newsroom, an official agency (WAM, SPA, QNA, KUNA, ONA, BNA), or a reputable outlet (the list is in `agent/verify.py`). Anything else is **held back until a second, independent outlet reports the same story**, and dropped after 21 days if none does.
 
-Categories: Strategy & Investment · Generative AI · Customer Experience · Operations & Automation · Risk, Fraud & Compliance · Partnership · Data & Infrastructure · Talent & Training · Awards & Outcomes · Governance & Regulation.
+Each card shows:
+- the verification result, e.g. "✓ Trusted outlet · checked against full article"
+- the original headline
+- **every source** that reported the story
+
+Rejected items are logged with their reason in `data/rejected.json` for audit. If a check can't run, for example because the page is unreachable or the API is down, the item is retried on the next two runs. Items collected before these checks existed are re-checked the same way.
+
+### Themes
+These themes come from what the collected news actually covers. Each item has one main theme plus every theme that applies:
+- AI Strategy & Leadership
+- AI Adoption in Operations
+- Generative AI & Copilots
+- Tech Vendor Partnerships
+- Customer-Facing AI
+- Fraud, Risk & Compliance
+- AI Skills & Talent
+- Awards & Rankings
+- AI Regulation & Policy
+
+The dashboard charts the share of each theme and the top tech partners, overall and per country. Tap a bar to filter. The definitions are in `CATEGORY_GUIDE` in `agent/tracker.py`.
 
 ## Project layout
 ```
 config/banks.json            bank universe (names, Arabic names, domains, aliases)
 agent/tracker.py             news finder + Claude screener + Telegram notifier
+agent/verify.py              accuracy checks (bank named, numbers, AI fact-check, trusted/corroborated source)
+agent/newsrooms.py           reads the banks' own newsroom pages
+agent/logos.py               downloads bank logos
+data/rejected.json           items that failed verification, with the reason
 data/news.json               the news database (updated by the Action)
 data/state.json              run bookkeeping (last run, history progress)
 site/                        static mobile dashboard (HTML/CSS/JS, no build step)

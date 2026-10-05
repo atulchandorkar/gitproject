@@ -58,6 +58,40 @@
   }
 
   // ---------- shared components ----------
+  // Themes in a fixed order (multi-label: an item can have several).
+  const THEMES = ["AI Strategy & Leadership", "AI Adoption in Operations", "Generative AI & Copilots", "Tech Vendor Partnerships",
+    "Customer-Facing AI", "Fraud, Risk & Compliance", "AI Skills & Talent", "Awards & Rankings", "AI Regulation & Policy"];
+  const topicsOf = (i) => (i.topics && i.topics.length ? i.topics : [i.category]);
+  const hasTopic = (i, t) => topicsOf(i).includes(t);
+  const countBy = (items, keysOf) => {
+    const m = new Map();
+    items.forEach((i) => new Set(keysOf(i)).forEach((k) => k && m.set(k, (m.get(k) || 0) + 1)));
+    return [...m.entries()].sort((a, z) => z[1] - a[1] || a[0].localeCompare(z[0]));
+  };
+  // Horizontal bars (one hue = magnitude); each row is a button that filters.
+  function barList(id, rows, active, attr, total) {
+    if (!rows.length) return `<p class="muted">Nothing yet.</p>`;
+    const max = Math.max(...rows.map(([, n]) => n));
+    return `<div class="cat-bars" id="${id}">${rows.map(([k, n]) =>
+      `<button class="cat-bar" data-${attr}="${esc(k)}" aria-pressed="${k === active}"><span class="lbl">${esc(k)}</span>
+        <span class="cnt">${n}${total ? ` <span class="pct">· ${Math.round((n / total) * 100)}%</span>` : ""}</span>
+        <span class="track"><span class="fill" style="display:block;width:${(n / max) * 100}%"></span></span></button>`).join("")}</div>`;
+  }
+  // Group product/unit names under their vendor ("Microsoft 365 Copilot" → Microsoft) for the partners chart.
+  const VENDORS = ["Microsoft", "Accenture", "Oracle", "Infosys", "Google", "Amazon", "AWS", "IBM", "SAP", "Salesforce", "Visa",
+    "Mastercard", "G42", "Presight", "Core42", "HCLTech", "Intellect", "Temenos", "NVIDIA", "OpenAI", "Anthropic", "Huawei",
+    "Capgemini", "Deloitte", "PwC", "EY", "KPMG", "McKinsey", "Bain", "BCG", "Boston Consulting Group", "Wipro", "TCS", "Cognizant"];
+  const vendorOf = (p) => {
+    const v = VENDORS.find((n) => p.toLowerCase() === n.toLowerCase() || p.toLowerCase().startsWith(n.toLowerCase() + " "));
+    return v === "Amazon" ? "AWS" : v === "Boston Consulting Group" ? "BCG" : v || p;
+  };
+  const partnersOf = (i) => (i.partners || []).map(vendorOf);
+  const VERIFY_LABEL = { official: "Official bank release", trusted: "Trusted outlet", corroborated: "Confirmed by several outlets" };
+  function sourcesOf(i) {
+    if (i.sources && i.sources.length) return i.sources;
+    return [{ url: i.source_url, name: i.source_name }, ...(i.other_sources || []).map((u) => (typeof u === "string" ? { url: u, name: "" } : u))];
+  }
+
   // Country flag as an image (emoji flags don't render on Windows).
   const flag = (c, cls = "") => `<img class="flag-img ${cls}" src="flags/${c.code.toLowerCase()}.svg" alt="${esc(c.name)} flag" title="${esc(c.name)}">`;
 
@@ -71,20 +105,25 @@
   function newsCard(i, { showBank = true } = {}) {
     const b = BANKS[i.bank_id], c = COUNTRIES[i.country];
     const tags = (i.tags || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("");
-    const more = i.other_sources && i.other_sources.length ? ` <span class="tag">+${i.other_sources.length} more</span>` : "";
+    const extraTopics = topicsOf(i).filter((t) => t !== i.category).map((t) => `<span class="cat sub">${esc(t)}</span>`).join("");
+    const srcs = sourcesOf(i);
+    const v = i.verification && VERIFY_LABEL[i.verification.level];
+    const outlets = new Set(srcs.map((s) => (s.name || "").toLowerCase()).filter(Boolean)).size;
+    const badge = v ? `<div class="verified" title="Passed the bank-name, numbers and AI fact-checks">✓ ${esc(i.verification.level === "corroborated" ? `Confirmed by ${outlets} outlets` : v)}${i.verification.evidence === "article" ? " · checked against full article" : " · checked against headline"}</div>` : "";
+    const orig = i.source_title && i.source_title.trim() !== i.title.trim()
+      ? `<div class="orig"><span>Original headline:</span> <span dir="auto">${esc(i.source_title)}</span></div>` : "";
+    const srcLinks = srcs.map((s, n) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name || `Source ${n + 1}`)} ↗</a>`).join("");
     return `<article class="card news-card">
       <div class="meta">
         ${showBank ? `<a class="bank-chip" href="#/bank/${b.id}">${avatar(b, "avatar sm")}<span class="bank">${esc(b.short)}</span></a>${flag(c)}<span class="dot"></span>` : ""}
         <time datetime="${i.date}">${fmtDate(i.date)}</time>
-        <span class="dot"></span><span class="cat">${esc(i.category)}</span>
+        <span class="dot"></span><span class="cat">${esc(i.category)}</span>${extraTopics}
       </div>
       <h3><a href="${esc(i.source_url)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>
-      <p>${esc(i.summary)}</p>
+      ${i.summary ? `<p>${esc(i.summary)}</p>` : ""}
       ${i.impact ? `<div class="impact">📈 ${esc(i.impact)}</div>` : ""}
-      <div class="foot">
-        <div class="tags">${tags}${i.partners && i.partners.length ? `<span class="tag">🤝 ${esc(i.partners.join(", "))}</span>` : ""}${more}</div>
-        <a class="src" href="${esc(i.source_url)}" target="_blank" rel="noopener">${esc(i.source_name || "Source")} ↗</a>
-      </div>
+      ${tags || (i.partners && i.partners.length) ? `<div class="tags">${tags}${i.partners && i.partners.length ? `<span class="tag">🤝 ${esc(i.partners.join(", "))}</span>` : ""}</div>` : ""}
+      <div class="sources">${badge}${orig}<div class="src-list"><span>${srcs.length > 1 ? "Sources" : "Source"}:</span>${srcLinks}</div></div>
     </article>`;
   }
 
@@ -178,11 +217,15 @@
         <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
           <input id="fq" type="search" placeholder="Search news, partners, tags…" value="${esc(st.q)}" aria-label="Search"></label>
         <select id="fbank" aria-label="Bank"></select>
-        <select id="fcat" aria-label="Category"><option value="">All categories</option>${CATEGORIES.map((c) => `<option ${c === st.cat ? "selected" : ""}>${esc(c)}</option>`).join("")}</select>
+        <select id="fcat" aria-label="Theme"><option value="">All themes</option>${CATEGORIES.map((c) => `<option ${c === st.cat ? "selected" : ""}>${esc(c)}</option>`).join("")}</select>
         <select id="fperiod" aria-label="Period">${PERIODS.map(([v, l]) => `<option value="${v}" ${v === st.period ? "selected" : ""}>${l}</option>`).join("")}</select>
       </div>
       <div id="feedStats"></div>
       <div style="margin-top:10px">${chartBlock("feedChart", "Activity")}</div>
+      <div class="insights">
+        <div class="card"><div class="chart-head"><b>AI themes</b><span>tap to filter</span></div><div id="themeBars"></div></div>
+        <div class="card"><div class="chart-head"><b>Top tech partners</b><span>tap to filter</span></div><div id="partnerBars"></div></div>
+      </div>
       <div class="result-line"><span id="resCount"></span><button class="linklike" id="clearBtn" hidden>Clear filters</button></div>
       <div class="news-list" id="feedList"></div>
       <button class="more-btn" id="moreBtn" hidden>Show more</button>
@@ -204,11 +247,11 @@
       setQuery(qp);
       const start = periodStart(st.period);
       const needle = st.q.trim().toLowerCase();
-      const list = DATA.items.filter((i) =>
-        (!st.country || i.country === st.country) && (!st.bank || i.bank_id === st.bank) &&
-        (!st.cat || i.category === st.cat) && (!start || i.date >= start) &&
-        (!needle || [i.title, i.summary, i.source_name, BANKS[i.bank_id].name, BANKS[i.bank_id].short, ...(i.tags || []), ...(i.partners || [])]
-          .join(" ").toLowerCase().includes(needle)));
+      const base = DATA.items.filter((i) =>
+        (!st.country || i.country === st.country) && (!st.bank || i.bank_id === st.bank) && (!start || i.date >= start) &&
+        (!needle || [i.title, i.source_title, i.summary, i.source_name, BANKS[i.bank_id].name, BANKS[i.bank_id].short,
+          ...(i.tags || []), ...(i.partners || []), ...partnersOf(i), ...topicsOf(i)].join(" ").toLowerCase().includes(needle)));
+      const list = base.filter((i) => !st.cat || hasTopic(i, st.cat));
       const banksActive = new Set(list.map((i) => i.bank_id)).size;
       const last30 = list.filter((i) => i.date >= isoDaysAgo(30)).length;
       $("#feedStats").innerHTML = stats([[list.length.toLocaleString(), "Announcements"], [banksActive, "Banks active"], [last30, "Last 30 days"]]);
@@ -218,7 +261,18 @@
       $("#moreBtn").hidden = list.length <= shown;
       $("#moreBtn").onclick = () => { shown += PAGE; update(false); };
       mountChart("feedChart", list);
+      // Themes are counted on everything except the theme filter itself, so all bars stay comparable.
+      $("#themeBars").innerHTML = barList("themeList", countBy(base, topicsOf), st.cat, "theme", base.length);
+      $("#partnerBars").innerHTML = barList("partnerList", countBy(list, partnersOf).slice(0, 8), st.q, "partner");
     };
+    $("#themeBars").addEventListener("click", (e) => {
+      const x = e.target.closest("[data-theme]"); if (!x) return;
+      st.cat = x.dataset.theme === st.cat ? "" : x.dataset.theme; $("#fcat").value = st.cat; update();
+    });
+    $("#partnerBars").addEventListener("click", (e) => {
+      const x = e.target.closest("[data-partner]"); if (!x) return;
+      st.q = x.dataset.partner === st.q ? "" : x.dataset.partner; $("#fq").value = st.q; update();
+    });
 
     $("#countryChips").addEventListener("click", (e) => {
       const btn = e.target.closest("[data-country]"); if (!btn) return;
@@ -275,11 +329,17 @@
       <div class="page-head"><h1>${flag(c, "md")} ${esc(c.name)}</h1><div class="sub">AI activity of ${banks.length} tracked banks</div></div>
       ${stats([[items.length, "Announcements"], [Object.keys(counts).length, "Banks active"], [y1, "Last 12 months"]])}
       <div style="margin-top:10px">${chartBlock("cChart", `${c.name} activity`)}</div>
+      <div class="insights">
+        <div class="card"><div class="chart-head"><b>AI themes in ${esc(c.name)}</b><span>tap to see the news</span></div>${barList("cThemes", countBy(items, topicsOf), "", "theme", items.length)}</div>
+        <div class="card"><div class="chart-head"><b>Top tech partners</b><span>tap to see the news</span></div>${barList("cPartners", countBy(items, partnersOf).slice(0, 8), "", "partner")}</div>
+      </div>
       <div class="section-title">Banks by AI activity</div>${bankRows(banks, counts)}
       <div class="section-title">Latest news</div>
       <div class="news-list">${items.slice(0, 8).map((i) => newsCard(i)).join("") || emptyState()}</div>
       ${items.length > 8 ? `<a class="more-btn" style="display:grid;place-items:center" href="#/?country=${code}">See all ${items.length} news</a>` : ""}`;
     mountChart("cChart", items);
+    app.querySelectorAll("#cThemes [data-theme]").forEach((x) => x.onclick = () => { location.hash = `#/?country=${code}&cat=${encodeURIComponent(x.dataset.theme)}`; });
+    app.querySelectorAll("#cPartners [data-partner]").forEach((x) => x.onclick = () => { location.hash = `#/?country=${code}&q=${encodeURIComponent(x.dataset.partner)}`; });
   }
 
   // ---------- Banks ----------
@@ -316,8 +376,7 @@
     const b = BANKS[id], c = COUNTRIES[b.country];
     const all = DATA.items.filter((i) => i.bank_id === id);
     let cat = q.get("cat") || "";
-    const catCounts = all.reduce((m, i) => ((m[i.category] = (m[i.category] || 0) + 1), m), {});
-    const cats = Object.entries(catCounts).sort((a, z) => z[1] - a[1]);
+    const cats = countBy(all, topicsOf);
     const maxCat = Math.max(1, ...cats.map(([, n]) => n));
     const first = all.length ? all[all.length - 1].date : null;
     const partners = [...new Set(all.flatMap((i) => i.partners || []))];
@@ -336,7 +395,7 @@
       <div class="section-title" id="tlTitle">AI timeline</div><div id="timeline"></div>`;
 
     const drawTimeline = () => {
-      const items = all.filter((i) => !cat || i.category === cat);
+      const items = all.filter((i) => !cat || hasTopic(i, cat));
       $("#tlTitle").innerHTML = `AI timeline${cat ? ` · ${esc(cat)} <button class="linklike" id="clrCat">(show all)</button>` : ""}`;
       if (!items.length) { $("#timeline").innerHTML = emptyState(`No AI announcements tracked for ${b.short} yet.`); return; }
       let html = "", year = "";
@@ -374,7 +433,18 @@
         <p><b>Once a day</b>, the tracker reads the banks' own newsrooms and scans English and Arabic news for every bank. An AI model screens each headline, keeps only
         qualifying items, summarises and categorises them, and sends new items to Telegram. Every item links to its original source.
         The history goes back 24 months.</p>
-        <p style="font-size:13px">Summaries are AI-generated, so check the linked source before citing a figure.</p>
+        <h2>How every item is verified</h2>
+        <ul>
+          <li><b>Real source:</b> the link always comes from a news feed or the bank's own newsroom, never from the AI.</li>
+          <li><b>Bank named:</b> the original headline or article must name the bank (English or Arabic).</li>
+          <li><b>No invented numbers:</b> every figure shown must appear in the source.</li>
+          <li><b>Independent AI fact-check:</b> a second AI pass checks each claim against the full article (or the original headline); unsupported details are removed, and wrong-bank or non-AI items are rejected.</li>
+          <li><b>Trusted source:</b> the bank's own newsroom, an official news agency or a reputable outlet; anything else is published only after a second outlet confirms it.</li>
+        </ul>
+        <p>Each card shows the result (e.g. "✓ Trusted outlet · checked against full article"), the original headline and every source.</p>
+        <h2>Themes</h2>
+        <p>${THEMES.map(esc).join(" · ")}. A story can belong to more than one theme.</p>
+        <p style="font-size:13px">Summaries are AI-generated and fact-checked, but please open the source before citing a figure.</p>
       </div>
       <p class="updated">${plural(DATA.items.length, "announcement")} tracked${DATA.updated_at ? " · updated " + new Date(DATA.updated_at).toLocaleString() : ""}</p>`;
   }
@@ -397,7 +467,8 @@
     BANKS = Object.fromEntries(cfg.banks.map((b) => [b.id, b]));
     COUNTRIES = Object.fromEntries(cfg.countries.map((c) => [c.code, c]));
     DATA.items = (DATA.items || []).filter((i) => BANKS[i.bank_id]).sort((a, b) => b.date.localeCompare(a.date));
-    CATEGORIES = [...new Set(DATA.items.map((i) => i.category))].sort();
+    const present = new Set(DATA.items.flatMap(topicsOf));
+    CATEGORIES = [...THEMES.filter((t) => present.has(t)), ...[...present].filter((t) => !THEMES.includes(t)).sort()];
     window.addEventListener("hashchange", route);
     let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => {
       // Re-draw charts at the new width without resetting the view.

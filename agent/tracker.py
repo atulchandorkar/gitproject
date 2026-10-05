@@ -34,10 +34,12 @@ from pydantic import BaseModel, Field
 
 import logos
 import newsrooms
+import verify
 
 ROOT = Path(__file__).resolve().parent.parent
 BANKS_FILE = ROOT / "config" / "banks.json"
 NEWS_FILE = ROOT / "data" / "news.json"
+REJECTED_FILE = ROOT / "data" / "rejected.json"
 STATE_FILE = ROOT / "data" / "state.json"
 
 MODEL = os.environ.get("TRACKER_MODEL") or "claude-haiku-4-5"
@@ -46,16 +48,27 @@ WORKERS = 4                # parallel Claude calls
 FEED_PAUSE = 0.8           # seconds between Google News requests (be polite)
 SEEN_KEEP_DAYS = 800       # remember screened headlines so they are never paid for twice
 
-CATEGORIES = [
-    "Strategy & Investment", "Generative AI", "Customer Experience", "Operations & Automation",
-    "Risk, Fraud & Compliance", "Partnership", "Data & Infrastructure", "Talent & Training",
-    "Awards & Outcomes", "Governance & Regulation",
-]
+# Themes, derived from what the collected news actually covers. Each item has one main
+# `category` plus all applicable `topics` (multi-label), so a Copilot rollout with Microsoft
+# counts under both "Generative AI & Copilots" and "Tech Vendor Partnerships".
+CATEGORY_GUIDE = {
+    "AI Strategy & Leadership": "AI strategy, investment plans, AI leadership hires (e.g. Chief AI Officer), AI in results or CEO statements",
+    "AI Adoption in Operations": "AI deployed in internal processes: lending, credit, trade finance, KYC/onboarding, HR, back office, automation",
+    "Generative AI & Copilots": "generative AI, LLM-based assistants, Copilot rollouts, agentic AI",
+    "Tech Vendor Partnerships": "partnerships, MoUs, contracts or programmes with technology vendors, AI firms or consultancies",
+    "Customer-Facing AI": "AI assistants/chatbots for customers, personalisation, AI-powered products and offers",
+    "Fraud, Risk & Compliance": "AI for fraud, AML, cyber threats, risk, Shariah or regulatory compliance, responsible-AI governance",
+    "AI Skills & Talent": "AI training, upskilling, hackathons/promptathons, AI forums, academies, student programmes",
+    "Awards & Rankings": "AI or digital awards, indices and rankings",
+    "AI Regulation & Policy": "central-bank or regulator AI rules, guidance, sandboxes and supervisory AI tools",
+}
+CATEGORIES = list(CATEGORY_GUIDE)
 Category = Literal[
-    "Strategy & Investment", "Generative AI", "Customer Experience", "Operations & Automation",
-    "Risk, Fraud & Compliance", "Partnership", "Data & Infrastructure", "Talent & Training",
-    "Awards & Outcomes", "Governance & Regulation",
+    "AI Strategy & Leadership", "AI Adoption in Operations", "Generative AI & Copilots", "Tech Vendor Partnerships",
+    "Customer-Facing AI", "Fraud, Risk & Compliance", "AI Skills & Talent", "Awards & Rankings",
+    "AI Regulation & Policy",
 ]
+CATEGORY_TEXT = "\n".join(f"- {k}: {v}" for k, v in CATEGORY_GUIDE.items())
 
 AI_TERMS_EN = ('AI OR "artificial intelligence" OR "generative AI" OR GenAI OR "machine learning" OR chatbot '
                'OR "virtual assistant" OR "AI-powered" OR agentic OR LLM')
@@ -86,7 +99,8 @@ class Kept(BaseModel):
     bank_id: str = Field(description="id of the bank the news is about, from the bank list")
     title: str = Field(description="clear English headline (translate Arabic), max ~110 chars")
     summary: str = Field(description="one or two English sentences, ONLY facts stated or directly implied by the headline")
-    category: Category
+    category: Category = Field(description="the single main theme")
+    topics: list[Category] = Field(description="every theme that applies (1-3), including the main one")
     tags: list[str] = Field(description="1-4 short AI topic tags, e.g. 'GenAI', 'Chatbot', 'Fraud detection'")
     partners: list[str] = Field(description="technology partners named in the headline, else empty")
     impact: str = Field(description="number/outcome stated in the headline (e.g. '$100m investment'), else empty")
@@ -94,6 +108,16 @@ class Kept(BaseModel):
 
 class Screened(BaseModel):
     items: list[Kept]
+
+
+class Retag(BaseModel):
+    i: int
+    category: Category
+    topics: list[Category]
+
+
+class Retagged(BaseModel):
+    items: list[Retag]
 
 
 # --------------------------------------------------------------------------- #
@@ -218,8 +242,9 @@ def discover(banks: list[dict], windows: list[tuple[dt.date, dt.date] | None],
         for k in clusters:
             if (k["bank_hint"] == c["bank_hint"] and similar(k["title"], c["title"])
                     and abs((dt.date.fromisoformat(k["date"]) - dt.date.fromisoformat(c["date"])).days) <= 7):
-                if c["url"] != k["url"] and c["url"] not in k["other_sources"] and len(k["other_sources"]) < 4:
-                    k["other_sources"].append(c["url"])
+                if c["url"] != k["url"] and all(c["url"] != o["url"] for o in k["other_sources"]) \
+                        and len(k["other_sources"]) < 5:
+                    k["other_sources"].append({"url": c["url"], "name": c["source"]})
                 break
         else:
             c["other_sources"] = []
@@ -245,7 +270,8 @@ headlines where the bank is unclear; anything you are not confident about. Most 
 
 The bank_hint tells you which bank's search found the headline, but assign the bank the headline is actually about \
 (use its id) or reject it. Write everything in English. The summary must not invent details that are not in the \
-headline. Categories: {", ".join(CATEGORIES)}.
+headline. Themes (pick one main category and all topics that apply):
+{CATEGORY_TEXT}
 
 Return only the kept headlines; return an empty list if none qualify.
 
@@ -313,6 +339,10 @@ class Tracker:
         self.state.setdefault("seen", {})
         self.state.setdefault("history_loaded", {})
         self.state.pop("backfilled", None)  # from the old web-search edition
+        self.state.setdefault("pending", [])   # waiting for a second outlet to confirm them
+        self.state.setdefault("retry", [])     # verification could not run; try again next time
+        self.rejected = load_json(REJECTED_FILE, [])
+        self.checker = verify.FactChecker(MODEL, lambda exc: FatalAPIError(f"Anthropic API: {exc}"))
 
     def save(self) -> None:
         cutoff = (today() - dt.timedelta(days=SEEN_KEEP_DAYS)).isoformat()
@@ -321,44 +351,155 @@ class Tracker:
         self.news["updated_at"] = now_iso()
         save_json(NEWS_FILE, self.news)
         save_json(STATE_FILE, self.state)
+        save_json(REJECTED_FILE, self.rejected[-3000:])
 
     def process(self, cands: list[dict], screener: Screener, min_date: dt.date) -> list[dict]:
         seen = self.state["seen"]
+        promoted = self.corroborate_pending(cands)
         fresh = [c for c in cands if key_of(c["title"]) not in seen and c["date"] >= min_date.isoformat()]
         print(f"  {len(cands)} headlines found, {len(fresh)} new to screen")
-        if not fresh:
-            return []
-        kept = screener.screen_all(fresh)
+        kept = screener.screen_all(fresh) if fresh else []
         for c in fresh:
             if not c.get("_failed"):
                 seen[key_of(c["title"])] = c["date"]
-        return self.merge(kept)
+        drafts = [d for d in (self.draft(c, k) for c, k in kept) if not self.merge_into_existing(d)]
+        return promoted + self.check_and_add(drafts)
 
-    def merge(self, kept: list[tuple[dict, Kept]]) -> list[dict]:
-        items, added = self.news["items"], []
-        for c, k in kept:
-            bank = self.banks[k.bank_id]
-            dup = next((i for i in items if i["bank_id"] == k.bank_id
-                        and abs((dt.date.fromisoformat(i["date"]) - dt.date.fromisoformat(c["date"])).days) <= 10
-                        and (similar(i["title"], k.title, 0.45) or i["source_url"] == c["url"])), None)
-            if dup:
-                extra = [u for u in [c["url"], *c["other_sources"]] if u != dup["source_url"]]
-                dup["other_sources"] = list(dict.fromkeys(dup.get("other_sources", []) + extra))[:6]
-                continue
-            item = {
-                "id": hashlib.sha1(f"{k.bank_id}|{c['url']}".encode()).hexdigest()[:12],
-                "bank_id": k.bank_id, "country": bank["country"], "date": c["date"],
-                "title": k.title.strip(), "summary": k.summary.strip(), "category": k.category,
-                "tags": [t.strip() for t in k.tags if t.strip()][:5],
-                "partners": [p.strip() for p in k.partners if p.strip()], "impact": k.impact.strip(),
-                "source_url": c["url"], "source_name": c["source"], "language": c["language"],
-                "added_at": now_iso(),
-            }
-            if c["other_sources"]:
-                item["other_sources"] = c["other_sources"]
-            items.append(item)
-            added.append(item)
+    def draft(self, c: dict, k: Kept) -> dict:
+        bank = self.banks[k.bank_id]
+        return {
+            "id": hashlib.sha1(f"{k.bank_id}|{c['url']}".encode()).hexdigest()[:12],
+            "bank_id": k.bank_id, "country": bank["country"], "date": c["date"],
+            "title": k.title.strip(), "summary": k.summary.strip(), "category": k.category,
+            "topics": list(dict.fromkeys([k.category, *k.topics]))[:3],
+            "tags": [t.strip() for t in k.tags if t.strip()][:5],
+            "partners": [p.strip() for p in k.partners if p.strip()], "impact": k.impact.strip(),
+            "source_url": c["url"], "source_name": c["source"], "source_title": c["title"],
+            "sources": [{"url": c["url"], "name": c["source"]}] + list(c.get("other_sources", [])),
+            "language": c["language"], "added_at": now_iso(),
+        }
+
+    def _same_story(self, a: dict, b: dict) -> bool:
+        return (a["bank_id"] == b["bank_id"]
+                and abs((dt.date.fromisoformat(a["date"]) - dt.date.fromisoformat(b["date"])).days) <= 10
+                and (similar(a["title"], b["title"], 0.45) or a["source_url"] == b["source_url"]
+                     or similar(a.get("source_title", ""), b.get("source_title", "x"), 0.5)))
+
+    def merge_into_existing(self, d: dict) -> bool:
+        """A story already on the dashboard: just record the extra outlets."""
+        dup = next((i for i in self.news["items"] if self._same_story(i, d)), None)
+        if not dup:
+            return False
+        have = {s["url"] for s in dup["sources"]}
+        dup["sources"] += [s for s in d["sources"] if s["url"] not in have][: max(0, 8 - len(dup["sources"]))]
+        return True
+
+    def check_and_add(self, drafts: list[dict]) -> list[dict]:
+        retry = [r for r in self.state["retry"] if r.get("tries", 0) < 3]
+        self.state["retry"] = []
+        drafts = drafts + retry
+        if not drafts:
+            return []
+        publish, pending, rejected = verify.verify(drafts, self.banks, self.checker, today())
+        for it in rejected:
+            reason = it.pop("rejected_reason")
+            if "(retry)" in reason or "could not be read" in reason:
+                it["tries"] = it.get("tries", 0) + 1
+                if it["tries"] < 3:
+                    self.state["retry"].append(it)
+                    continue
+            self.rejected.append({"checked": today().isoformat(), "bank_id": it["bank_id"], "date": it["date"],
+                                  "title": it.get("source_title") or it["title"], "source_url": it["source_url"],
+                                  "source": it["source_name"], "reason": reason})
+        self.state["pending"] += [p for p in pending if not any(self._same_story(p, q) for q in self.state["pending"])]
+        added = []
+        for it in publish:
+            it.pop("tries", None)
+            if not self.merge_into_existing(it):
+                self.news["items"].append(it)
+                added.append(it)
+        print(f"  verified: {len(added)} published, {len(pending)} awaiting a second source, "
+              f"{len(rejected)} rejected/retrying")
         return added
+
+    def corroborate_pending(self, cands: list[dict]) -> list[dict]:
+        """Publish held-back items once an independent outlet reports the same story; expire old ones."""
+        keep, promoted = [], []
+        cutoff = (today() - dt.timedelta(days=verify.PENDING_DAYS)).isoformat()
+        for p in self.state["pending"]:
+            names = {s["name"].lower() for s in p["sources"]}
+            for c in cands:
+                if (c["bank_hint"] == p["bank_id"] and c["source"].lower() not in names
+                        and similar(c["title"], p.get("source_title") or p["title"], 0.45)
+                        and abs((dt.date.fromisoformat(c["date"]) - dt.date.fromisoformat(p["date"])).days) <= 10):
+                    p["sources"].append({"url": c["url"], "name": c["source"]})
+                    p["verification"]["level"] = verify.trust_level(p, self.banks[p["bank_id"]]) or "corroborated"
+                    break
+            if p["verification"]["level"] != "pending":
+                if not self.merge_into_existing(p):
+                    self.news["items"].append(p)
+                    promoted.append(p)
+            elif p["added_at"][:10] < cutoff:
+                self.rejected.append({"checked": today().isoformat(), "bank_id": p["bank_id"], "date": p["date"],
+                                      "title": p.get("source_title") or p["title"], "source_url": p["source_url"],
+                                      "source": p["source_name"],
+                                      "reason": f"no second outlet confirmed it within {verify.PENDING_DAYS} days"})
+            else:
+                keep.append(p)
+        self.state["pending"] = keep
+        return promoted
+
+    def retag_missing(self) -> None:
+        """Give items saved under the old category scheme the current themes (one cheap call per 30 items)."""
+        todo = [i for i in self.news["items"] if not i.get("topics") or i.get("category") not in CATEGORY_GUIDE]
+        if not todo:
+            return
+        print(f"Re-tagging {len(todo)} items with the current themes …")
+        client = anthropic.Anthropic(max_retries=4)
+        for n in range(0, len(todo), 30):
+            batch = todo[n:n + 30]
+            rows = "\n".join(json.dumps({"i": j, "bank": self.banks[it["bank_id"]]["name"], "title": it["title"],
+                                         "summary": it.get("summary", ""), "partners": it.get("partners", [])},
+                                        ensure_ascii=False) for j, it in enumerate(batch))
+            try:
+                resp = client.messages.parse(
+                    model=MODEL, max_tokens=6000, output_format=Retagged,
+                    system=f"Assign themes to bank AI news items. Themes:\n{CATEGORY_TEXT}\n"
+                           "Give one main category and all topics that apply (1-3, including the main one). "
+                           "Any item naming a technology vendor or consultancy as partner includes "
+                           "'Tech Vendor Partnerships'.",
+                    messages=[{"role": "user", "content": rows}],
+                )
+            except anthropic.BadRequestError as exc:
+                if "credit balance" in str(exc).lower():
+                    raise FatalAPIError("Anthropic credit balance is too low") from exc
+                raise
+            for t in (resp.parsed_output.items if resp.parsed_output else []):
+                if 0 <= t.i < len(batch):
+                    batch[t.i]["category"] = t.category
+                    batch[t.i]["topics"] = list(dict.fromkeys([t.category, *t.topics]))[:3]
+        self.save()
+
+    def reverify_legacy(self) -> None:
+        """Items saved before verification existed are re-checked once, like new ones."""
+        legacy = [i for i in self.news["items"] if "verification" not in i]
+        if not legacy:
+            return
+        print(f"Re-checking {len(legacy)} earlier items …")
+        self.news["items"] = [i for i in self.news["items"] if "verification" in i]
+        for i in legacy:
+            extra = [{"url": u if isinstance(u, str) else u["url"], "name": "" if isinstance(u, str) else u["name"]}
+                     for u in i.pop("other_sources", [])]
+            i["sources"] = [{"url": i["source_url"], "name": i["source_name"]}] + extra
+        try:
+            self.check_and_add(legacy)
+        except BaseException:
+            # put them back untouched so an interrupted run (e.g. no API credit) never loses items
+            ids = {i["id"] for i in self.news["items"]}
+            self.news["items"] += [i for i in legacy if i["id"] not in ids]
+            self.state["retry"] = [r for r in self.state["retry"] if r["id"] not in {i["id"] for i in legacy}]
+            raise
+        self.save()
 
     def history(self, bank_ids: list[str], months: int, screener: Screener) -> list[dict]:
         end = today()
@@ -368,6 +509,8 @@ class Tracker:
             e = min(s + dt.timedelta(days=92), end + dt.timedelta(days=1))
             windows.append((s, e))
             s = e
+        self.reverify_legacy()
+        self.retag_missing()
         added_all: list[dict] = []
         print(f"Loading history for {len(bank_ids)} banks since {start} ({len(windows)} windows each) …")
         for bid in bank_ids:
@@ -380,6 +523,8 @@ class Tracker:
         return added_all
 
     def update(self, screener: Screener) -> list[dict]:
+        self.reverify_legacy()
+        self.retag_missing()
         print("Daily update (bank newsrooms + last 7 days of news) …")
         banks = list(self.banks.values())
         from_newsrooms = newsrooms.scan_all(banks, self.state, AI_RE, today())
@@ -392,6 +537,16 @@ class Tracker:
 # --------------------------------------------------------------------------- #
 # Telegram
 # --------------------------------------------------------------------------- #
+def verification_label(i: dict) -> str:
+    v = i.get("verification") or {}
+    outlets = len({s["name"].lower() for s in i.get("sources", []) if s.get("name")})
+    label = {"official": "Official bank release", "trusted": "Trusted outlet",
+             "corroborated": f"Confirmed by {outlets} outlets"}.get(v.get("level"), "")
+    if label and v.get("evidence") == "article":
+        label += " · checked against full article"
+    return label
+
+
 class Telegram:
     def __init__(self, banks: dict, countries: dict) -> None:
         self.token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
@@ -427,6 +582,9 @@ class Telegram:
         if self.dashboard:
             link += f' · <a href="{self.dashboard}/#/bank/{i["bank_id"]}">Bank history</a>'
         lines.append(f"🗓 {i['date']} · {link}")
+        badge = verification_label(i)
+        if badge:
+            lines.append(f"✅ {esc(badge)}")
         return "\n".join(lines)
 
     def notify(self, items: list[dict]) -> None:
