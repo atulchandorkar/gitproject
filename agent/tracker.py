@@ -5,7 +5,7 @@ GCC banks, keeps only bank-specific AI news, stores it in data/news.json and
 pushes new items to Telegram.
 
 Usage:
-  python agent/tracker.py update                 # 12-hourly run (auto-backfills banks not yet covered)
+  python agent/tracker.py update                 # daily run (auto-backfills banks not yet covered)
   python agent/tracker.py backfill [--country QA] [--banks qnb,qib] [--months 24]
   python agent/tracker.py telegram-test          # send a test message
 """
@@ -35,7 +35,7 @@ BANKS_FILE = ROOT / "config" / "banks.json"
 NEWS_FILE = ROOT / "data" / "news.json"
 STATE_FILE = ROOT / "data" / "state.json"
 
-MODEL = os.environ.get("TRACKER_MODEL", "claude-opus-5-5")
+MODEL = os.environ.get("TRACKER_MODEL") or "claude-sonnet-5-5"
 SEARCH_EFFORT = os.environ.get("TRACKER_EFFORT", "medium")
 WORKERS = int(os.environ.get("TRACKER_WORKERS", "4"))
 FALLBACK_BETA = "server-side-fallback-2026-07-01"

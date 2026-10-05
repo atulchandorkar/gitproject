@@ -2,7 +2,7 @@ name: GCC Bank AI Tracker
 
 on:
   schedule:
-    - cron: "17 3,15 * * *"   # every 12 hours (07:17 and 19:17 Gulf time)
+    - cron: "17 3 * * *"   # once a day (07:17 Gulf time)
   workflow_dispatch:
     inputs:
       mode:
@@ -43,7 +43,7 @@ jobs:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
-      TRACKER_MODEL: ${{ vars.TRACKER_MODEL }}
+      TRACKER_MODEL: ${{ vars.TRACKER_MODEL || 'claude-sonnet-5-5' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -55,7 +55,6 @@ jobs:
 
       - name: Run agent
         run: |
-          [ -z "$TRACKER_MODEL" ] && unset TRACKER_MODEL
           MODE="${{ inputs.mode || 'update' }}"
           ARGS=""
           if [ "$MODE" = "backfill" ]; then

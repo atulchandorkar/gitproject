@@ -5,13 +5,13 @@ A mobile-first dashboard and Telegram alert service that tracks **AI initiatives
 - **75 institutions**: conventional, Islamic, digital and development banks, plus the 6 central banks (`config/banks.json`)
 - **Bank news only.** An AI agent (Claude with web search) keeps only items about a listed bank's own use of AI. It drops fintech news, general AI news and generic "digital" stories.
 - **English and Arabic sources.** Summaries are written in English, and every item links to its original source.
-- **2 years of history**, loaded automatically on the first run, then **checked every 12 hours**
+- **2 years of history**, loaded automatically on the first run, then **checked once a day**
 - **Telegram push** for each new item, to you, a group or a channel
 - **Slice and dice** by country, bank, category, period or free-text search. Each bank has a profile page with its full AI timeline.
 - **Shareable links.** Every view has its own URL (for example `…/#/bank/qnb` or `…/#/?country=SA&cat=Generative%20AI`). The share button uses your phone's share sheet.
 
 ```
- every 12h ┌──────────────────────┐   new items   ┌───────────┐
+ daily     ┌──────────────────────┐   new items   ┌───────────┐
 ──────────►│ GitHub Action        │──────────────►│ Telegram  │
            │  agent/tracker.py    │               └───────────┘
            │  Claude + web search │  data/news.json
@@ -46,12 +46,12 @@ In **Settings → Secrets and variables → Actions**:
 | Secret | `TELEGRAM_BOT_TOKEN` | The token from BotFather |
 | Secret | `TELEGRAM_CHAT_ID` | Your chat id(s), comma-separated |
 | Variable | `DASHBOARD_URL` | `https://atulchandorkar.github.io/gitproject` |
-| Variable *(optional)* | `TRACKER_MODEL` | Leave empty for Claude Opus 5.5, or set `claude-sonnet-5-5` to roughly halve cost |
+| Variable *(optional)* | `TRACKER_MODEL` | Leave empty to use the default, Claude Sonnet 5.5 (`claude-sonnet-5-5`). Set `claude-opus-5-5` for deeper research at about twice the cost. |
 
 ### 5. First run
 **Actions → GCC Bank AI Tracker → Run workflow**
 1. `mode = telegram-test`: you should receive a "connected" message.
-2. `mode = update`: the first run loads **24 months of history** for every bank (1–2 hours), then finds the latest news. After that it runs by itself every 12 hours, at 07:17 and 19:17 Gulf time.
+2. `mode = update`: the first run loads **24 months of history** for every bank (1–2 hours), then finds the latest news. After that it runs by itself once a day, at 07:17 Gulf time.
 
 History is saved bank by bank. If a run stops partway, the next run picks up where it left off. History items are not pushed to Telegram one by one; you get a single summary message instead.
 
@@ -67,10 +67,10 @@ History is saved bank by bank. If a run stops partway, the next run picks up whe
 ## Running costs (estimate)
 - **GitHub and Telegram:** free.
 - **Claude API**, at the default model and effort, roughly:
-  - **one-time history load:** about $60–150
-  - **each 12-hour run:** about $3–8 (7 searches covering all banks), or about **$200–450 a month**
+  - **one-time history load:** about $30–75
+  - **each daily run:** about $1.5–4 (7 searches covering all banks), or about **$45–120 a month**
 
-  With `TRACKER_MODEL=claude-sonnet-5-5` these figures roughly halve. Usage depends on how much news exists, so set a **monthly spend limit** in the Anthropic Console. Check the real cost in the Console after the first few runs. Then tune the frequency (the `cron` line in `.github/workflows/tracker.yml`) or the model if needed.
+  These figures assume the default model, Claude Sonnet 5.5. Claude Opus 5.5 costs roughly twice as much. Usage depends on how much news exists, so set a **monthly spend limit** in the Anthropic Console. Check the real cost in the Console after the first few runs. Then tune the frequency (the `cron` line in `.github/workflows/tracker.yml`) or the model if needed.
 
 ## How the agent decides what counts
 The inclusion rules are in `SYSTEM_PROMPT` in `agent/tracker.py`. Each run works in two steps:
@@ -93,5 +93,5 @@ agent/tracker.py             AI research agent + Telegram notifier
 data/news.json               the news database (updated by the Action)
 data/state.json              run bookkeeping (last run, history progress)
 site/                        static mobile dashboard (HTML/CSS/JS, no build step)
-.github/workflows/tracker.yml  12-hourly schedule, manual runs, Pages deploy
+.github/workflows/tracker.yml  daily schedule, manual runs, Pages deploy
 ```

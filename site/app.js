@@ -176,7 +176,7 @@
       <div class="result-line"><span id="resCount"></span><button class="linklike" id="clearBtn" hidden>Clear filters</button></div>
       <div class="news-list" id="feedList"></div>
       <button class="more-btn" id="moreBtn" hidden>Show more</button>
-      <p class="updated">${DATA.updated_at ? "Updated " + new Date(DATA.updated_at).toLocaleString() : ""} · checked every 12 hours</p>`;
+      <p class="updated">${DATA.updated_at ? "Updated " + new Date(DATA.updated_at).toLocaleString() : ""} · checked daily</p>`;
 
     const fillBanks = () => {
       const banks = CFG.banks.filter((b) => !st.country || b.country === st.country)
@@ -362,7 +362,7 @@
         <h2>What's excluded</h2>
         <p>General AI or tech news, fintech or startup news with no bank involved, and generic "digital transformation" with no AI component.</p>
         <h2>How it works</h2>
-        <p>An AI research agent searches English and Arabic news and bank newsrooms <b>every 12 hours</b>. It keeps only qualifying items,
+        <p>An AI research agent searches English and Arabic news and bank newsrooms <b>once a day</b>. It keeps only qualifying items,
         summarises and categorises them, links every item to its original source, and sends new items to Telegram.
         The history goes back 24 months.</p>
         <p style="font-size:13px">Summaries are AI-generated, so check the linked source before citing a figure.</p>
