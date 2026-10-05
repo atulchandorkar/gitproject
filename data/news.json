@@ -1,1 +1,1285 @@
-{"updated_at": null, "items": []}
+{
+ "updated_at": "2026-10-05T16:24:43+00:00",
+ "items": [
+  {
+   "id": "e690b74dba68",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2026-09-25",
+   "title": "Emirates NBD partners with Techstars to accelerate AI adoption",
+   "summary": "The partnership gives AI and agentic fintech startups a route to pilot solutions on the bank's cloud-native infrastructure. Focus areas are compliance, wealth management, SME banking and capital markets. Techstars brings a pipeline of more than 11,000 founders.",
+   "category": "Partnership",
+   "tags": [
+    "Techstars",
+    "Agentic AI",
+    "Startups",
+    "Accelerator"
+   ],
+   "partners": [
+    "Techstars"
+   ],
+   "impact": "More than 50 active AI use cases; 11,000+ founders in pipeline",
+   "source_url": "https://www.theasianbanker.com/updates-and-articles/emirates-nbd-accelerates-ai-innovation-tabby-launches-digital-banking-platform",
+   "source_name": "The Asian Banker",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:32+00:00"
+  },
+  {
+   "id": "c29d0ea765fd",
+   "bank_id": "rakbank",
+   "country": "AE",
+   "date": "2026-09-09",
+   "title": "RAKBANK's 'Digital with a Human Touch' brand relaunch highlights rai AI assistant and AI plans",
+   "summary": "In its new brand launch, RAKBANK said its in-app AI assistant rai is used by more than 270,000 customers. The bank's own page says rai has supported over 1.3 million conversations with 94% positive feedback. The bank plans to keep developing its AI capabilities alongside its SME, wholesale and wealth businesses.",
+   "category": "Strategy & Investment",
+   "tags": [
+    "rai",
+    "Brand strategy",
+    "AI roadmap",
+    "Customer experience"
+   ],
+   "partners": [],
+   "impact": "270,000+ rai users; 1.3 million conversations; 94% positive feedback",
+   "source_url": "https://www.arabianbusiness.com/finance/banking/rakbank-unveils-new-brand-identity-after-expanding-beyond-community-banking-roots",
+   "source_name": "Arabian Business",
+   "language": "en",
+   "added_at": "2026-10-05T16:23:05+00:00"
+  },
+  {
+   "id": "5b2b26590264",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2026-08-21",
+   "title": "ADIB appoints Chief AI Officer as it advances Vision 2035 through AI-powered banking",
+   "summary": "ADIB appointed Pedro Uria-Recio as its first Chief AI Officer. He previously served as Chief Data & AI Officer at CIMB Bank in Malaysia. The appointment strengthens leadership as ADIB pursues Vision 2035.",
+   "category": "Strategy & Investment",
+   "tags": [
+    "Chief AI Officer",
+    "Leadership",
+    "Vision 2035"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.adib.ae/en/news/2026/aug/adib-appoints-chief-ai-officer-as-it-advances-vision-2035-through-ai-powered-banking",
+   "source_name": "ADIB",
+   "language": "en",
+   "added_at": "2026-10-05T16:22:49+00:00"
+  },
+  {
+   "id": "7571cca80591",
+   "bank_id": "fab",
+   "country": "AE",
+   "date": "2026-08-14",
+   "title": "FAB hosts second SpeakEasy enterprise AI forum at DIFC",
+   "summary": "The FAB AI Innovation Hub hosted 70+ engineers and data scientists on 'From AI hype to enterprise reality', with speakers from the Hub, AWS and Presight. More editions are planned, including Abu Dhabi on 10 Sept 2026.",
+   "category": "Talent & Training",
+   "tags": [
+    "SpeakEasy",
+    "Community",
+    "AI Innovation Hub"
+   ],
+   "partners": [
+    "AWS",
+    "Presight"
+   ],
+   "impact": "70+ attendees",
+   "source_url": "https://www.zawya.com/en/press-release/companies-news/fab-strengthens-uae-ai-ecosystem-through-second-speakeasy-enterprise-ai-forum-456462",
+   "source_name": "Zawya",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:55+00:00"
+  },
+  {
+   "id": "171b20a78ec2",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2026-08-06",
+   "title": "4most extends model risk management partnership with CBD, including responsible AI use",
+   "summary": "4most extended its engagement with CBD on model risk management. The next phase covers advanced validation, ongoing monitoring, and exploring new approaches, including the responsible use of AI. CBD said the work has strengthened its model governance.",
+   "category": "Risk, Fraud & Compliance",
+   "tags": [
+    "Model risk management",
+    "Model validation",
+    "Responsible AI",
+    "Governance"
+   ],
+   "partners": [
+    "4most"
+   ],
+   "impact": "",
+   "source_url": "https://www.zawya.com/en/press-release/4most-extends-partnership-with-commercial-bank-of-dubai-to-support-model-risk-management-enhancement-423165",
+   "source_name": "Zawya press release",
+   "language": "en",
+   "added_at": "2026-10-05T16:22:45+00:00"
+  },
+  {
+   "id": "eded5bf8033c",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2026-07-23",
+   "title": "ADIB becomes first bank globally to deploy Visa Threat Intelligence Platform",
+   "summary": "ADIB adopted the Visa Threat Intelligence Platform early and integrated it into its fraud-prevention framework. This gives its cybersecurity, fraud and risk teams real-time, contextual threat visibility before payment fraud occurs. It follows the February 2025 MoU.",
+   "category": "Risk, Fraud & Compliance",
+   "tags": [
+    "VTIP",
+    "Fraud",
+    "Cybersecurity"
+   ],
+   "partners": [
+    "Visa"
+   ],
+   "impact": "First bank globally to deploy",
+   "source_url": "https://www.adib.ae/en/news/2026/jul/adib-strengthens-cybersecurity-and-fraud-prevention-capabilities",
+   "source_name": "ADIB",
+   "language": "en",
+   "added_at": "2026-10-05T16:22:49+00:00"
+  },
+  {
+   "id": "904d5087ee79",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2026-07-23",
+   "title": "Q2/H1'26 results: ADCB accelerates AI integration across customer journeys and operations",
+   "summary": "Management highlighted continued progress on the AI strategy. AI integration is being accelerated across customer journeys and business operations. Opex rose 8%, reflecting investment in talent, technology and AI capabilities.",
+   "category": "Strategy & Investment",
+   "tags": [
+    "Earnings",
+    "AI investment",
+    "Productivity"
+   ],
+   "partners": [],
+   "impact": "H1'26 cost-to-income ratio 26.8%; opex AED 3.210bn (up 8%)",
+   "source_url": "https://www.investing.com/news/company-news/adcb-q2-2026-slides-20th-straight-profit-gain-record-earnings-93CH-4809085",
+   "source_name": "Investing.com",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:49+00:00"
+  },
+  {
+   "id": "32034ebcf497",
+   "bank_id": "mashreq",
+   "country": "AE",
+   "date": "2026-07-15",
+   "title": "Euromoney names Mashreq Middle East's Best Digital Bank 2026",
+   "summary": "Euromoney cites AI-powered customer support on Mashreq's Pakistan digital bank launch. It also credits the 200+ person Digital Innovation Studio, whose analytics and GenAI initiatives supported strong incremental revenue growth.",
+   "category": "Awards & Outcomes",
+   "tags": [
+    "Pakistan digital bank",
+    "Digital Innovation Studio",
+    "GenAI",
+    "Analytics"
+   ],
+   "partners": [],
+   "impact": "30%+ incremental revenue growth, 85%+ straight-through processing, 100,000+ customers onboarded",
+   "source_url": "https://www.euromoney.com/article/3z5t8aoyi9wkss4o4gs48ws8s/banking/middle-easts-best-digital-bank-2026-mashreq/",
+   "source_name": "Euromoney",
+   "language": "en",
+   "added_at": "2026-10-05T16:23:13+00:00"
+  },
+  {
+   "id": "7ea45c9bbcb1",
+   "bank_id": "nbf",
+   "country": "AE",
+   "date": "2026-07-08",
+   "title": "NBF collaborates with Accenture LearnVantage on an AI-ready workforce",
+   "summary": "NBF launched an enterprise-wide AI and digital upskilling programme with skills assessments, personalised learning journeys, hands-on capability building, onboarding support and learning analytics. It covers AI, GenAI, automation, data and cloud, with an emphasis on responsible AI use.",
+   "category": "Talent & Training",
+   "tags": [
+    "AI upskilling",
+    "GenAI",
+    "Responsible AI",
+    "Workforce"
+   ],
+   "partners": [
+    "Accenture LearnVantage",
+    "Udacity"
+   ],
+   "impact": "",
+   "source_url": "https://www.zawya.com/en/press-release/companies-news/national-bank-of-fujairah-collaborates-with-accenture-learnvantage-to-advance-an-ai-ready-workforce-it3lichs",
+   "source_name": "Zawya (press release)",
+   "language": "en",
+   "added_at": "2026-10-05T16:24:10+00:00"
+  },
+  {
+   "id": "4cacfd9bb1b6",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2026-06-30",
+   "title": "ADIB Egypt backs Cairo University engineering students to build AI banking solutions",
+   "summary": "ADIB Egypt, a subsidiary, is working with Cairo University's Faculty of Engineering. Outstanding students develop AI-based solutions to real banking challenges in a supported work environment.",
+   "category": "Talent & Training",
+   "tags": [
+    "University partnership",
+    "AI solutions",
+    "ADIB Egypt"
+   ],
+   "partners": [
+    "Cairo University Faculty of Engineering"
+   ],
+   "impact": "",
+   "source_url": "https://www.almezan.news/255667",
+   "source_name": "Al Mezan News",
+   "language": "ar",
+   "added_at": "2026-10-05T16:22:49+00:00"
+  },
+  {
+   "id": "b5ee04e2c390",
+   "bank_id": "mashreq",
+   "country": "AE",
+   "date": "2026-06-22",
+   "title": "Mashreq, Visa and Rezolve Ai launch AI-enabled Everyday Cashback card-linked offers",
+   "summary": "Mashreq partnered with Visa and Rezolve Ai on a Visa Card Linked Offers programme for UAE debit and credit cardholders. It offers automated cashback at merchants, run on Rezolve's AI-powered Reward platform.",
+   "category": "Customer Experience",
+   "tags": [
+    "Card-linked offers",
+    "Personalisation",
+    "Rewards"
+   ],
+   "partners": [
+    "Visa",
+    "Rezolve Ai"
+   ],
+   "impact": "Cashback up to 20%",
+   "source_url": "https://rezolve.com/press-releases/rezolve-ai-powers-new-mashreq-and-visa-everyday-cashback-program-bringing-ai-enabled-card-linked-offers-to-uae-cardholders/",
+   "source_name": "Rezolve Ai",
+   "language": "en",
+   "added_at": "2026-10-05T16:23:13+00:00"
+  },
+  {
+   "id": "508e0fa308aa",
+   "bank_id": "rakbank",
+   "country": "AE",
+   "date": "2026-06-17",
+   "title": "RAKBANK enters Qorus-Infosys Finacle Banking Innovation Awards 2026 with GenAI assistant 'rai'",
+   "summary": "RAKBANK submitted rai, which it describes as a first-of-its-kind GenAI-powered conversational assistant in banking, to the awards programme. This is an entry, not a win. The listing highlights the theme of intelligence, inclusion and trust.",
+   "category": "Awards & Outcomes",
+   "tags": [
+    "rai",
+    "GenAI",
+    "Conversational banking",
+    "Awards entry"
+   ],
+   "partners": [
+    "Qorus",
+    "Infosys Finacle"
+   ],
+   "impact": "",
+   "source_url": "https://www.qorusglobal.com/innovations/31554-rakbank-introduces-rai-a-firstofitskind-genaipowered-digital-assistant-in-the-banking-sector",
+   "source_name": "Qorus",
+   "language": "en",
+   "added_at": "2026-10-05T16:23:05+00:00"
+  },
+  {
+   "id": "73c2772db9b3",
+   "bank_id": "fab",
+   "country": "AE",
+   "date": "2026-06-09",
+   "title": "FAB hosts Young AI Talent forum",
+   "summary": "FAB held its Young AI Talent forum as part of continuing investment in talent development, responsible AI adoption and innovation. It combines employee insights with leadership priorities.",
+   "category": "Talent & Training",
+   "tags": [
+    "Talent",
+    "Responsible AI",
+    "Employee experience"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.albayan.ae/economy/business/uae-economy/1374149",
+   "source_name": "Al Bayan",
+   "language": "ar",
+   "added_at": "2026-10-05T16:21:55+00:00"
+  },
+  {
+   "id": "7bc6581fdb2c",
+   "bank_id": "fab",
+   "country": "AE",
+   "date": "2026-06-02",
+   "title": "Emirates NBD and FAB lead responsible-AI index in Evident study",
+   "summary": "The Evident study says FAB placed the strongest emphasis on building AI at scale. It also credits FAB with evidence of agentic AI in core banking, including payment processing, relationship management and developer augmentation.",
+   "category": "Awards & Outcomes",
+   "tags": [
+    "Evident",
+    "Benchmark",
+    "Agentic AI"
+   ],
+   "partners": [],
+   "impact": "Leading ranking in responsible-AI index",
+   "source_url": "https://www.thenationalnews.com/business/banking/2026/06/02/emirates-nbd-and-fab-lead-responsible-ai-index-as-regions-banks-close-gap-with-global-peers/",
+   "source_name": "The National",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:55+00:00"
+  },
+  {
+   "id": "0161dd3893d0",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2026-06-02",
+   "title": "Emirates NBD ranked #1 in inaugural Evident AI Index for Banks (Middle East and Africa)",
+   "summary": "The bank ranked first among 25 of the region's largest banks in an independent AI-maturity benchmark. It was the only bank in the top three on the Talent, Innovation and Leadership pillars.",
+   "category": "Awards & Outcomes",
+   "tags": [
+    "Evident AI Index",
+    "Benchmark",
+    "AI maturity"
+   ],
+   "partners": [
+    "Evident"
+   ],
+   "impact": "#1 of 25 banks",
+   "source_url": "https://www.emiratesnbd.com/en/media-center/emirates-nbd-ranked-1-in-inaugural-evident-ai-index-for-banks",
+   "source_name": "Emirates NBD newsroom",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:32+00:00"
+  },
+  {
+   "id": "000a8d5e6ac7",
+   "bank_id": "fab",
+   "country": "AE",
+   "date": "2026-06-01",
+   "title": "FAB describes agentic AI trade operations model",
+   "summary": "FAB's Innovation & AI page describes an agentic-AI trade operations model that goes beyond document validation, as a foundation for end-to-end agentic trade processing. AI and analytics are being embedded across credit, risk, treasury and customer experience.",
+   "category": "Operations & Automation",
+   "tags": [
+    "Trade finance",
+    "Agentic AI"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.bankfab.com/en-ae/about-fab/innovation-and-ai",
+   "source_name": "FAB website",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:55+00:00"
+  },
+  {
+   "id": "7cb72f467196",
+   "bank_id": "mashreq",
+   "country": "AE",
+   "date": "2026-05-27",
+   "title": "Mashreq profile: data platforms, real-time analytics and internal GenAI tools",
+   "summary": "The Digital Banker describes how Mashreq uses Mashreq NEO, real-time analytics and internal generative AI tools, alongside youth and SME offerings. Details are limited.",
+   "category": "Generative AI",
+   "tags": [
+    "Internal GenAI tools",
+    "Real-time analytics",
+    "NEO"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://thedigitalbanker.com/mashreqs-digital-playbook-scaling-data-platforms-and-purpose-across-retail-and-sme-banking/",
+   "source_name": "The Digital Banker",
+   "language": "en",
+   "added_at": "2026-10-05T16:23:13+00:00"
+  },
+  {
+   "id": "b60900cc752d",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2026-05-11",
+   "title": "ADCB unveils AI-powered mobile banking app with conversational assistant",
+   "summary": "The new app is built around an AI conversational virtual assistant that takes voice and text commands. It uses AI, machine learning and advanced data capabilities to personalise the experience over time. Coverage also cites AI-driven fraud detection, biometric authentication, UAE Pass sign-in and integrated investment capabilities.",
+   "category": "Customer Experience",
+   "tags": [
+    "Conversational assistant",
+    "Mobile app",
+    "Personalisation",
+    "Fraud detection"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.adcb.com/en/about-us/media-centre/news/2026/may/mib-launch-press-release",
+   "source_name": "ADCB newsroom",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:49+00:00"
+  },
+  {
+   "id": "586cfd14d31e",
+   "bank_id": "mashreq",
+   "country": "AE",
+   "date": "2026-05-01",
+   "title": "Mashreq Q1 2026: opex up 15% on targeted GenAI investment",
+   "summary": "Mashreq's Q1 2026 net profit rose 7% to AED 1.9bn. Operating expenses rose 15%, which the bank attributed to targeted investment in generative AI initiatives, digital onboarding and international expansion.",
+   "category": "Strategy & Investment",
+   "tags": [
+    "GenAI investment",
+    "Opex",
+    "Earnings"
+   ],
+   "partners": [],
+   "impact": "Opex +15% year on year, partly attributed to GenAI",
+   "source_url": "https://www.agbi.com/banking-finance/2026/05/ai-investments-help-lift-mashreqs-first-quarter-profits/",
+   "source_name": "AGBI",
+   "language": "en",
+   "added_at": "2026-10-05T16:23:13+00:00"
+  },
+  {
+   "id": "706481e45284",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2026-04-23",
+   "title": "Q1'26 results: ADCB expands AI use cases into new business areas, scales early pilots",
+   "summary": "ADCB expanded AI use cases into new business areas and began scaling selected early pilots. The focus is embedding AI into the daily work of customer-facing staff, back-office and corporate functions. The bank is also exploring AI-enabled customer engagement and agentic workflows, with risk management around them.",
+   "category": "Operations & Automation",
+   "tags": [
+    "Agentic workflows",
+    "Pilots to production",
+    "Employee productivity"
+   ],
+   "partners": [],
+   "impact": "Q1'26 profit before tax of AED 3.781bn (financial result)",
+   "source_url": "https://www.zawya.com/en/press-release/companies-news/adcb-delivered-record-q126-profit-before-tax-of-aed-3781-bln-p7piuoin",
+   "source_name": "Zawya (ADCB press release)",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:49+00:00"
+  },
+  {
+   "id": "d015319b4712",
+   "bank_id": "fab",
+   "country": "AE",
+   "date": "2026-04-01",
+   "title": "Oracle customer story: FAB builds AI-powered HR chatbot",
+   "summary": "After moving to Oracle Fusion Cloud HCM, FAB worked with Oracle to build an AI HR chatbot using Oracle Digital Assistant. It aims to automate HR workflows and help employees resolve queries faster.",
+   "category": "Operations & Automation",
+   "tags": [
+    "HR",
+    "Chatbot",
+    "Oracle"
+   ],
+   "partners": [
+    "Oracle"
+   ],
+   "impact": "",
+   "source_url": "https://www.oracle.com/customers/first-abu-dhabi-bank/",
+   "source_name": "Oracle",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:55+00:00"
+  },
+  {
+   "id": "0edb49204011",
+   "bank_id": "fab",
+   "country": "AE",
+   "date": "2026-03-31",
+   "title": "FAB hosts one-day AI agent development event",
+   "summary": "FAB held a one-day event on developing AI agents. Four multidisciplinary teams worked with business partners, technical experts and global technology partners on predefined challenges, assessed by a joint judging panel.",
+   "category": "Talent & Training",
+   "tags": [
+    "Hackathon",
+    "AI agents"
+   ],
+   "partners": [],
+   "impact": "4 teams",
+   "source_url": "https://www.albayan.ae/economy/business/uae-economy/1165435",
+   "source_name": "Al Bayan",
+   "language": "ar",
+   "added_at": "2026-10-05T16:21:55+00:00"
+  },
+  {
+   "id": "752ce46fc259",
+   "bank_id": "mashreq",
+   "country": "AE",
+   "date": "2026-03-30",
+   "title": "Mashreq wins three awards at Middle East Banking AI & Analytics Summit 2026",
+   "summary": "Mashreq won Best Innovation in Employee Engagement & Experience (TADA Project), Chief Transformation Officer of the Year, and Best AI Visionary Leader of the Year (Xi Liang). The bank linked the awards to AI-driven innovation, paperless processes and mobile-first capabilities.",
+   "category": "Awards & Outcomes",
+   "tags": [
+    "Awards",
+    "TADA project",
+    "AI leadership"
+   ],
+   "partners": [],
+   "impact": "3 awards",
+   "source_url": "https://x.com/MashreqTweets/status/2038919236312056000",
+   "source_name": "Mashreq on X",
+   "language": "en",
+   "added_at": "2026-10-05T16:23:13+00:00"
+  },
+  {
+   "id": "88833631af45",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2026-03-12",
+   "title": "ADCB Egypt and Network International roll out AI/ML fraud detection with FICO Falcon",
+   "summary": "Network International implemented an AI- and ML-powered fraud detection solution built on FICO Falcon for ADCB Egypt, a subsidiary of ADCB. The original signing was announced in June 2024; March 2026 coverage reports the implementation going live.",
+   "category": "Risk, Fraud & Compliance",
+   "tags": [
+    "Fraud detection",
+    "Machine learning",
+    "FICO Falcon",
+    "ADCB Egypt"
+   ],
+   "partners": [
+    "Network International",
+    "FICO"
+   ],
+   "impact": "",
+   "source_url": "https://arabianreseller.com/2026/03/12/network-international-and-adcb-egypt-launch-ai-powered-fraud-solution-with-fico/",
+   "source_name": "Arabian Reseller",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:49+00:00"
+  },
+  {
+   "id": "85b0ccc5b586",
+   "bank_id": "fab",
+   "country": "AE",
+   "date": "2026-02-17",
+   "title": "FAB accelerates enterprise AI adoption through group-wide innovation and talent enablement",
+   "summary": "FAB says its AI has moved from experimentation to enterprise-wide, production-grade deployment. This covers intelligent automation, agentic AI and decision intelligence in core processes. The maturing AI Innovation Hub and a talent focus are credited.",
+   "category": "Strategy & Investment",
+   "tags": [
+    "AI Innovation Hub",
+    "Agentic AI",
+    "Enterprise scale",
+    "Talent"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.bankfab.com/en-ae/about-fab/group/in-the-media/fab-accelerates-enterprise-ai-adoption",
+   "source_name": "FAB newsroom",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:55+00:00"
+  },
+  {
+   "id": "7c57bd26477d",
+   "bank_id": "fab",
+   "country": "AE",
+   "date": "2026-02-15",
+   "title": "FAB FY2025 results with AI push: 1,000+ Copilot agents, cost-to-income ratio 22.4%",
+   "summary": "On the Q4 2025 call, management said it is investing heavily in AI, with more than 1,000 Copilot agents deployed. It reported gains in productivity, client experience, decision accuracy and turnaround time. Net profit rose 24% to AED 21.11bn and the cost-to-income ratio improved to 22.4% from 24.6%.",
+   "category": "Awards & Outcomes",
+   "tags": [
+    "Copilot",
+    "AI agents",
+    "Earnings"
+   ],
+   "partners": [
+    "Microsoft"
+   ],
+   "impact": "1,000+ Copilot agents; cost-to-income ratio 22.4% vs 24.6%; opex AED 8.2bn",
+   "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-first-abu-dhabi-bank-q4-2025-record-profits-and-ai-push-93CH-4480989",
+   "source_name": "Investing.com",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:55+00:00"
+  },
+  {
+   "id": "fdc0353f25e4",
+   "bank_id": "mashreq",
+   "country": "AE",
+   "date": "2026-01-31",
+   "title": "Mashreq FY2025 results cite AI deployment in lending, onboarding, credit decisioning and fraud",
+   "summary": "Mashreq reported significant 2025 investment in AI deployment, credit decisioning and straight-through processing. Management said it accelerated deployment of AI tools across lending, onboarding, credit decisioning and fraud prevention, and named continued AI and data investment a forward priority.",
+   "category": "Strategy & Investment",
+   "tags": [
+    "Credit decisioning",
+    "Straight-through processing",
+    "GenAI",
+    "Earnings"
+   ],
+   "partners": [],
+   "impact": "Operating expenses grew only 5% year on year",
+   "source_url": "https://www.mashreq.com/en/uae/news/2026/january/mashreq-financial-results-fy2025/",
+   "source_name": "Mashreq newsroom",
+   "language": "en",
+   "added_at": "2026-10-05T16:23:13+00:00"
+  },
+  {
+   "id": "3a18961bbafc",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2026-01-29",
+   "title": "FY2025 results: ADCB advances AI transformation and rolls out new use cases in Q4'25",
+   "summary": "The FY25 earnings release says ADCB advanced its AI transformation in Q4'25 and rolled out new use cases already delivering improvements. Management said it keeps introducing high-value AI use cases aimed at efficiency, better risk management and a more scalable operating model.",
+   "category": "Strategy & Investment",
+   "tags": [
+    "Earnings",
+    "AI use cases",
+    "Efficiency"
+   ],
+   "partners": [],
+   "impact": "FY25 profit before tax of AED 12.843bn (financial result, not an AI figure)",
+   "source_url": "https://www.zawya.com/en/press-release/companies-news/adcb-reports-profit-before-tax-of-aed-12.843bln-in-fy25-up-21-yoy-and-aed-3.736bln-in-q425-up-30-yoy-366028",
+   "source_name": "Zawya",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:49+00:00"
+  },
+  {
+   "id": "93dcfbce5ec4",
+   "bank_id": "fab",
+   "country": "AE",
+   "date": "2026-01-20",
+   "title": "FAB engages Bain & Company for multi-year AI-driven sustainability transformation",
+   "summary": "Announced at the World Economic Forum in Davos, Bain will advise FAB on AI use cases for sustainability. These include sustainable-finance deployment, risk management and SME client support.",
+   "category": "Strategy & Investment",
+   "tags": [
+    "Sustainability",
+    "ESG",
+    "Consulting"
+   ],
+   "partners": [
+    "Bain & Company"
+   ],
+   "impact": "",
+   "source_url": "https://www.consultancy-me.com/news/12923/first-abu-dhabi-bank-engages-bain-company-for-ai-driven-sustainability-transformation",
+   "source_name": "Consultancy-ME",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:55+00:00"
+  },
+  {
+   "id": "5fcc9e7e8298",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2025-12-29",
+   "title": "ADIB hosts Microsoft Copilot Promptathon to accelerate AI capability building",
+   "summary": "ADIB ran a Copilot Promptathon with the Microsoft Innovation Hub. Employees from several functions practised prompt engineering on real business use cases. The event was part of upskilling and embedding responsible AI across the bank.",
+   "category": "Talent & Training",
+   "tags": [
+    "Copilot",
+    "Prompt engineering",
+    "Upskilling",
+    "Responsible AI"
+   ],
+   "partners": [
+    "Microsoft Innovation Hub"
+   ],
+   "impact": "",
+   "source_url": "https://www.zawya.com/en/press-release/companies-news/adib-hosts-microsoft-copilot-promptathon-to-accelerate-ai-capability-building-across-the-bank-du4nrusv",
+   "source_name": "Zawya",
+   "language": "en",
+   "added_at": "2026-10-05T16:22:49+00:00"
+  },
+  {
+   "id": "4bb3365a45c7",
+   "bank_id": "fab",
+   "country": "AE",
+   "date": "2025-12-15",
+   "title": "FAB appoints Presight (G42) for AI-driven growth and operational intelligence",
+   "summary": "Presight signed a contract to deploy AI and analytics for customer intelligence, resource planning and commercial growth. This includes an AI growth-intelligence platform ranking corporate prospects with geospatial heatmaps, and planning for branch and ATM coverage and cost-to-serve. The contract builds on earlier pilots and proofs of concept.",
+   "category": "Partnership",
+   "tags": [
+    "Analytics",
+    "Relationship management",
+    "Resource planning",
+    "G42"
+   ],
+   "partners": [
+    "Presight",
+    "G42"
+   ],
+   "impact": "",
+   "source_url": "https://www.presight.ai/news/first-abu-dhabi-bank-appoints-presight-to-advance-ai-driven-growth-and-operational-intelligence",
+   "source_name": "Presight",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:55+00:00"
+  },
+  {
+   "id": "8a4874b8aade",
+   "bank_id": "mashreq",
+   "country": "AE",
+   "date": "2025-12-01",
+   "title": "Mashreq wins four categories at The Digital Banker MEA Innovation Awards 2025",
+   "summary": "The wins span AI, onboarding, data analytics and client engagement, delivered by the Wholesale Digital Studio. Mashreq built AI-driven insights for relationship managers, including a news engine, sentiment analysis and predictive models, plus 100% digital onboarding for large corporates.",
+   "category": "Awards & Outcomes",
+   "tags": [
+    "Awards",
+    "Relationship manager AI",
+    "Predictive analytics",
+    "Sentiment analysis"
+   ],
+   "partners": [],
+   "impact": "4 category wins",
+   "source_url": "https://thedigitalbanker.com/mashreqs-integrated-approach-to-corporate-banking-innovation/",
+   "source_name": "The Digital Banker",
+   "language": "en",
+   "added_at": "2026-10-05T16:23:13+00:00"
+  },
+  {
+   "id": "2f6f6ba21cf9",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2025-11-01",
+   "title": "Emirates NBD used AI in recruitment to save 8,000 hours and about $400k",
+   "summary": "The Global Head of Talent Acquisition described the bank's use of AI in hiring in an interview at UNLEASH World 2025. The headline reports about 8,000 hours and $400k saved on job interviews.",
+   "category": "Operations & Automation",
+   "tags": [
+    "HR",
+    "Recruitment",
+    "AI automation"
+   ],
+   "partners": [],
+   "impact": "8,000 hours and about $400k saved",
+   "source_url": "https://www.unleash.ai/unleash-world/how-emirates-nbd-used-ai-to-save-8000-hours-and-400k-on-job-interviews/",
+   "source_name": "UNLEASH",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:32+00:00"
+  },
+  {
+   "id": "7bd47d752bcb",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-10-27",
+   "title": "ADCB announces AI-led transformation to reinforce its strategic competitiveness",
+   "summary": "ADCB is embedding AI at the core of its business model. The roadmap covers more than 150 AI use cases, to be activated at pace over the coming years. It is backed by significant investment in scalable infrastructure, cloud and data foundations, framed around Abu Dhabi's AI vision.",
+   "category": "Strategy & Investment",
+   "tags": [
+    "AI roadmap",
+    "150+ use cases",
+    "Cloud",
+    "Data foundations",
+    "Hyper-personalisation"
+   ],
+   "partners": [],
+   "impact": "150+ planned AI use cases; investment amount not disclosed",
+   "source_url": "https://www.adcb.com/en/about-us/media-centre/news/2025/october/ai-led-transformation",
+   "source_name": "ADCB newsroom",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:49+00:00"
+  },
+  {
+   "id": "affefbe7f8bb",
+   "bank_id": "nbf",
+   "country": "AE",
+   "date": "2025-10-21",
+   "title": "NBF and Finesse Global sign MoU to accelerate AI-driven digital transformation in the UAE",
+   "summary": "NBF signed an MoU with Finesse Global, an AI-centric digital transformation and system integration company. The partnership provides dedicated system-integrator financing with flexible terms and lets NBF widen value-added services to larger institutions and SMEs.",
+   "category": "Partnership",
+   "tags": [
+    "MoU",
+    "Technology financing",
+    "System integrator",
+    "SMEs"
+   ],
+   "partners": [
+    "Finesse Global"
+   ],
+   "impact": "",
+   "source_url": "https://www.zawya.com/en/press-release/companies-news/national-bank-of-fujairah-and-finesse-global-sign-mou-to-accelerate-ai-driven-digital-transformation-in-the-uae-t1m4xrdp",
+   "source_name": "Zawya (press release)",
+   "language": "en",
+   "added_at": "2026-10-05T16:24:10+00:00"
+  },
+  {
+   "id": "f8df6a232f1d",
+   "bank_id": "dib",
+   "country": "AE",
+   "date": "2025-10-21",
+   "title": "DIB and HCLTech Forge Strategic AI Innovation Partnership",
+   "summary": "DIB announced a strategic partnership with HCLTech to accelerate AI adoption across its ecosystem, unveiled at GITEX GLOBAL 2025. DIB will draw on HCLTech's AI advisory capabilities and its alliances with hyperscalers and technology partners to deploy AI responsibly and at scale.",
+   "category": "Partnership",
+   "tags": [
+    "AI advisory",
+    "Responsible AI",
+    "GITEX 2025",
+    "Islamic finance"
+   ],
+   "partners": [
+    "HCLTech"
+   ],
+   "impact": "",
+   "source_url": "https://www.dib.ae/about-us/news/2025/10/21/dib-and-hcltech-forge-strategic-ai-innovation-partnership",
+   "source_name": "DIB newsroom",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:28+00:00"
+  },
+  {
+   "id": "7c08eb0be480",
+   "bank_id": "nbf",
+   "country": "AE",
+   "date": "2025-10-01",
+   "title": "NBF Knowledge Series champions AI-powered transformation for sustainable business growth",
+   "summary": "The 'Navigating Change, Powering Growth' edition brought business leaders together to discuss practical strategies for using AI and digital innovation to improve operations and growth. Speakers included Robert Willock of The Economist and Arnold Gutman of Gartner.",
+   "category": "Talent & Training",
+   "tags": [
+    "AI",
+    "Knowledge Series",
+    "Client education"
+   ],
+   "partners": [
+    "Gartner",
+    "The Economist"
+   ],
+   "impact": "",
+   "source_url": "https://nbf.ae/nbf-knowledge-series-champions-ai-powered-transformation-for-sustainable-business-growth/",
+   "source_name": "NBF newsroom",
+   "language": "en",
+   "added_at": "2026-10-05T16:24:10+00:00"
+  },
+  {
+   "id": "9d012aed8104",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2025-09-25",
+   "title": "ADIB implements best data platform for AI initiatives (GenAI in Islamic banking)",
+   "summary": "A Khaleej Times supplement describes ADIB embedding AI and GenAI across its operations in line with Vision 2035. ADIB has launched GenAI-driven chatbots offering 24/7 service for balance checks, password resets, card settings and transactions. It also covers the underlying data platform for AI.",
+   "category": "Generative AI",
+   "tags": [
+    "GenAI chatbot",
+    "Data platform",
+    "Vision 2035"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.khaleejtimes.com/supplements/adib-implements-best-data-platform-for-ai-initiatives",
+   "source_name": "Khaleej Times supplement",
+   "language": "en",
+   "added_at": "2026-10-05T16:22:49+00:00"
+  },
+  {
+   "id": "45231d1ebc94",
+   "bank_id": "mashreq",
+   "country": "AE",
+   "date": "2025-07-25",
+   "title": "Mashreq appoints Xi Liang as Head of Artificial Intelligence",
+   "summary": "Xi Liang will lead Mashreq's AI strategy and embed AI capabilities across customer experience and operational efficiency. The appointment signals a dedicated AI leadership role with a focus on ethical and explainable AI.",
+   "category": "Strategy & Investment",
+   "tags": [
+    "AI leadership",
+    "AI strategy",
+    "Responsible AI"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.khaleejtimes.com/kt-network/mashreq-appoints-xi-liang-as-head-of-artificial-intelligence",
+   "source_name": "Khaleej Times",
+   "language": "en",
+   "added_at": "2026-10-05T16:23:13+00:00"
+  },
+  {
+   "id": "4c862f3116b1",
+   "bank_id": "fab",
+   "country": "AE",
+   "date": "2025-06-16",
+   "title": "FAB implements Intellect eMACH.ai Lending debt-management solution",
+   "summary": "Intellect announced that FAB has implemented its Debt Management solution, part of the eMACH.ai Lending suite. The AI element is thin, so this is low confidence.",
+   "category": "Operations & Automation",
+   "tags": [
+    "Collections",
+    "Lending",
+    "Vendor solution"
+   ],
+   "partners": [
+    "Intellect Design Arena"
+   ],
+   "impact": "",
+   "source_url": "https://www.intellectdesign.com/media/first-abu-dhabi-bank-fab-uaes-global-bank-accelerates-digital-transformation-with-intellects-emach-ai-lending-setting-new-standards-in-debt-management/",
+   "source_name": "Intellect Design Arena press release",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:55+00:00"
+  },
+  {
+   "id": "233b2907fc31",
+   "bank_id": "rakbank",
+   "country": "AE",
+   "date": "2025-05-20",
+   "title": "RAKBANK uses Azure AI and Azure OpenAI to speed up KYC and power in-app assistant",
+   "summary": "RAKBANK digitised, categorised and indexed millions of customer documents using Azure AI Services. It also launched an AI assistant in its mobile app. KYC compliance case processing time fell from 80 to 20 minutes.",
+   "category": "Generative AI",
+   "tags": [
+    "Azure OpenAI",
+    "KYC",
+    "Document intelligence",
+    "Mobile assistant"
+   ],
+   "partners": [
+    "Microsoft"
+   ],
+   "impact": "75% less time on regulatory review; 2 million documents digitised and indexed; case time cut from 80 to 20 minutes",
+   "source_url": "https://www.microsoft.com/en/customers/story/24080-rakbank-azure-open-ai-service",
+   "source_name": "Microsoft Customer Stories",
+   "language": "en",
+   "added_at": "2026-10-05T16:23:05+00:00"
+  },
+  {
+   "id": "87c5b257aa70",
+   "bank_id": "dib",
+   "country": "AE",
+   "date": "2025-05-16",
+   "title": "Salaam Gateway: DIB uses AI tools to assess Shariah compliance",
+   "summary": "An industry feature by Salaam Gateway says DIB is using AI tools to assess the Shariah compliance of companies and financial instruments. The mention is brief, with no detail on the tools, vendor or results.",
+   "category": "Risk, Fraud & Compliance",
+   "tags": [
+    "Shariah compliance",
+    "Islamic finance",
+    "AI screening"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://salaamgateway.com/story/how-ai-is-powering-the-future-of-the-islamic-economy",
+   "source_name": "Salaam Gateway",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:28+00:00"
+  },
+  {
+   "id": "6c5db3e3b63d",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2025-05-15",
+   "title": "Emirates NBD pilots AI compliance platform for payments and trade",
+   "summary": "Emirates NBD is rolling out an AI-driven solution to strengthen compliance checks on payments and trade transactions. It aims to make payments faster, safer and compliant with global rules. It was reported alongside the bank's Q1 2025 results.",
+   "category": "Risk, Fraud & Compliance",
+   "tags": [
+    "AI compliance",
+    "Payments screening",
+    "Trade finance"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://gulfnews.com/business/banking/emirates-nbd-pilots-new-ai-compliance-tech-to-reduce-risks-improve-payment-speed-1.500128414",
+   "source_name": "Gulf News",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:32+00:00"
+  },
+  {
+   "id": "c4f1612a180a",
+   "bank_id": "mashreq",
+   "country": "AE",
+   "date": "2025-05-14",
+   "title": "Mashreq partners with Clari5 for GenAI fraud detection platform",
+   "summary": "Mashreq is partnering with Clari5 (a Perfios company) to launch Clari5 Genie, a GenAI-powered fraud detection and investigation platform. It uncovers hidden patterns, simulates fraud investigations and speeds up case resolution. It runs on-premise and generates case narratives for investigators.",
+   "category": "Risk, Fraud & Compliance",
+   "tags": [
+    "GenAI",
+    "Fraud detection",
+    "Investigations",
+    "On-premise"
+   ],
+   "partners": [
+    "Clari5",
+    "Perfios"
+   ],
+   "impact": "",
+   "source_url": "https://www.businesswire.com/news/home/20250514167278/en/Mashreq-Set-to-Partner-with-Clari5-A-Perfios-Company-to-Launch-GenAI-Powered-Fraud-Detection-Platform",
+   "source_name": "Business Wire",
+   "language": "en",
+   "added_at": "2026-10-05T16:23:13+00:00"
+  },
+  {
+   "id": "e07803366614",
+   "bank_id": "rakbank",
+   "country": "AE",
+   "date": "2025-04-24",
+   "title": "RAKBANK partners with Cleareye.ai to automate trade finance with AI",
+   "summary": "RAKBANK is adopting Cleareye.ai's AI-driven ClearTrade platform for its trade finance operations. The aim is faster processing and lower operational risk. It also automates trade-based money laundering (TBML) red-flag checks to meet CBUAE and AML/CFT requirements.",
+   "category": "Risk, Fraud & Compliance",
+   "tags": [
+    "Trade finance",
+    "TBML",
+    "AML",
+    "Automation"
+   ],
+   "partners": [
+    "Cleareye.ai"
+   ],
+   "impact": "",
+   "source_url": "https://ibsintelligence.com/ibsi-news/rakbank-taps-cleareye-ai-to-automate-trade-finance-operations/",
+   "source_name": "IBS Intelligence",
+   "language": "en",
+   "added_at": "2026-10-05T16:23:05+00:00"
+  },
+  {
+   "id": "62ba1909f674",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2025-04-15",
+   "title": "CBD CEO outlines investment in digital banking, AI and blockchain",
+   "summary": "A Gulf News feature covers CBD's strategy. CEO Dr Bernd van Linder says the bank is investing in digital banking, AI and blockchain, with partnerships with global technology leaders enabling AI, automation and biometric authentication in its services.",
+   "category": "Strategy & Investment",
+   "tags": [
+    "AI strategy",
+    "Automation",
+    "Biometrics",
+    "Executive statement"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://gulfnews.com/business/banking/commercial-bank-of-dubai-investing-in-financial-innovation-to-drive-growth-1.500088012",
+   "source_name": "Gulf News",
+   "language": "en",
+   "added_at": "2026-10-05T16:22:45+00:00"
+  },
+  {
+   "id": "897068b90d7d",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-04-07",
+   "title": "ADCB launches Meedaf, a GCC financial-operations venture with AI-driven automation",
+   "summary": "Meedaf is a venture to transform financial services operations across the GCC for banks and financial institutions. Its offerings include AI-driven automation for collections, risk assessment and regulatory compliance. It also includes blockchain-enabled fraud detection and predictive analytics.",
+   "category": "Operations & Automation",
+   "tags": [
+    "Meedaf",
+    "Collections automation",
+    "Compliance",
+    "Predictive analytics",
+    "Blockchain"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.adcb.com/en/about-us/media-centre/news/2025/march/meedaf-press-release",
+   "source_name": "ADCB newsroom",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:49+00:00"
+  },
+  {
+   "id": "c53b6db4a3dc",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2025-04-06",
+   "title": "CBD boosts AI literacy and productivity with Microsoft 365 Copilot, saving 39,000 hours",
+   "summary": "A Microsoft customer story describes CBD's AI approach as three pillars: workplace modernisation, operational efficiency, and experimenting for the future. Copilot, prompt-a-thons and learning resources are credited with productivity gains and wider AI literacy.",
+   "category": "Awards & Outcomes",
+   "tags": [
+    "Microsoft 365 Copilot",
+    "Productivity",
+    "AI literacy",
+    "Employee experience"
+   ],
+   "partners": [
+    "Microsoft"
+   ],
+   "impact": "39,000 hours saved per year",
+   "source_url": "https://www.microsoft.com/en/customers/story/24341-commercial-bank-of-dubai-microsoft-365-copilot",
+   "source_name": "Microsoft Customer Stories",
+   "language": "en",
+   "added_at": "2026-10-05T16:22:45+00:00"
+  },
+  {
+   "id": "f4172484397a",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2025-03-19",
+   "title": "Accenture and CBD launch Data and AI training programme for employees",
+   "summary": "Accenture, through Udacity, and CBD launched the 'CBD AI and Data for the Future' programme, which CBD describes as the first enterprise-wide data literacy programme at a UAE bank. Employees can earn Data and AI certifications, aiming to improve customer experience and operational resilience.",
+   "category": "Talent & Training",
+   "tags": [
+    "Data literacy",
+    "AI certification",
+    "Upskilling",
+    "Udacity"
+   ],
+   "partners": [
+    "Accenture",
+    "Udacity"
+   ],
+   "impact": "",
+   "source_url": "https://newsroom.accenture.com/news/2025/accenture-and-commercial-bank-of-dubai-launch-data-and-ai-training-programme-to-elevate-employee-skills-and-customer-experience",
+   "source_name": "Accenture Newsroom",
+   "language": "en",
+   "added_at": "2026-10-05T16:22:45+00:00"
+  },
+  {
+   "id": "5f1770d39dcc",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2025-02-17",
+   "title": "Visa and ADIB sign MoU on threat intelligence at World Governments Summit 2025",
+   "summary": "Visa and ADIB signed an MoU to collaborate on an enhanced threat-intelligence solution. The aim is to integrate Visa's cybersecurity capabilities with digital payments and strengthen ADIB's cybersecurity architecture.",
+   "category": "Risk, Fraud & Compliance",
+   "tags": [
+    "MoU",
+    "Threat intelligence",
+    "Cybersecurity",
+    "Fraud"
+   ],
+   "partners": [
+    "Visa"
+   ],
+   "impact": "",
+   "source_url": "https://www.adib.ae/en/news/2025/feb/visa-and-adib-sign-mou-at-world-governments-summit-2025",
+   "source_name": "ADIB",
+   "language": "en",
+   "added_at": "2026-10-05T16:22:49+00:00"
+  },
+  {
+   "id": "e5d83c244de6",
+   "bank_id": "nbf",
+   "country": "AE",
+   "date": "2025-02-12",
+   "title": "NBF hosts Knowledge Series session on harnessing AI for business",
+   "summary": "NBF ran a Knowledge Series session on AI for business attended by more than 200 clients from NBF and other banks. It covered AI strategies and tools, data management and ethics.",
+   "category": "Talent & Training",
+   "tags": [
+    "AI thought leadership",
+    "Client education",
+    "Knowledge Series"
+   ],
+   "partners": [],
+   "impact": "More than 200 attendees",
+   "source_url": "https://www.zawya.com/ar/%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%81%D9%8A%D8%A9/%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%AA/%D8%A8%D9%86%D9%83-%D8%A7%D9%84%D9%81%D8%AC%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%8A%D9%86%D8%B8%D9%85-%D8%AC%D9%84%D8%B3%D8%A9-%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B9%D9%85%D8%A7%D9%84-e4pp4d9l",
+   "source_name": "Zawya (press release)",
+   "language": "ar",
+   "added_at": "2026-10-05T16:24:10+00:00"
+  },
+  {
+   "id": "569d24b021ee",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2025-01-29",
+   "title": "CBD hosts Microsoft Copilot 'Promptathon' to launch Copilot rollout to 800+ employees",
+   "summary": "CBD hosted a Microsoft Copilot Promptathon with the Microsoft Innovation Hub, marking the start of a large-scale Copilot rollout to over 800 employees. Solutions built at the event were presented to CEO Dr Bernd van Linder and Microsoft UAE GM Naim Yazbeck.",
+   "category": "Generative AI",
+   "tags": [
+    "Microsoft 365 Copilot",
+    "Prompt engineering",
+    "Workforce AI adoption",
+    "Early adopter"
+   ],
+   "partners": [
+    "Microsoft"
+   ],
+   "impact": "Rollout to 800+ employees",
+   "source_url": "https://www.cbd.ae/aboutus/media-centre/press-room/news?Id=b89556ff-458f-66de-b8c5-ff0b00b6b24a",
+   "source_name": "CBD newsroom",
+   "language": "en",
+   "added_at": "2026-10-05T16:22:45+00:00"
+  },
+  {
+   "id": "decc14104540",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-01-27",
+   "title": "ADCB unveils five-year strategy to double net profit to AED 20bn, with digital and AI transformation",
+   "summary": "ADCB's medium-term strategy targets doubling net profit to AED 20bn in five years and higher dividends. The newsroom summary says the strategy includes a digital and AI transformation. AI content in the source snippet is thin.",
+   "category": "Strategy & Investment",
+   "tags": [
+    "Strategy",
+    "AI transformation"
+   ],
+   "partners": [],
+   "impact": "AED 20bn net profit target (not an AI-specific figure)",
+   "source_url": "https://www.adcb.com/en/about-us/media-centre/news/2025/january/strategic-announcement",
+   "source_name": "ADCB newsroom",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:49+00:00"
+  },
+  {
+   "id": "aecacdf36bb9",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2025-01-07",
+   "title": "ADIB Ventures and DIFC Innovation Hub unveil Generative AI Innovation Challenge winner",
+   "summary": "ADIB Ventures, ADIB's fintech initiative, partnered with DIFC Innovation Hub on a Generative AI Innovation Challenge. It announced the winner on 7 Jan 2025.",
+   "category": "Partnership",
+   "tags": [
+    "GenAI",
+    "ADIB Ventures",
+    "Innovation challenge"
+   ],
+   "partners": [
+    "DIFC Innovation Hub"
+   ],
+   "impact": "",
+   "source_url": "https://www.adib.ae/en/news/2025/jan/adib-ventures-and-difc-innovation-hub-unveil-generative-ai-innovation-challenge-winner",
+   "source_name": "ADIB",
+   "language": "en",
+   "added_at": "2026-10-05T16:22:49+00:00"
+  },
+  {
+   "id": "ac7cd7aec7a1",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2024-12-26",
+   "title": "Future of banking is AI-driven and ADIB is ready to evolve, CEO says",
+   "summary": "CEO Mohamed Abdelbary, who took over in October 2024, said he is relying on generative AI to turn ADIB into much more than a bank. The bank has an in-house digital lab and a team of data scientists.",
+   "category": "Strategy & Investment",
+   "tags": [
+    "CEO statement",
+    "GenAI",
+    "Data scientists",
+    "Digital lab"
+   ],
+   "partners": [],
+   "impact": "About 25% of annual cost going into technology investment",
+   "source_url": "https://www.thenationalnews.com/business/banking/2024/12/26/future-of-banking-is-ai-driven-and-adib-is-ready-to-evolve-ceo-says/",
+   "source_name": "The National",
+   "language": "en",
+   "added_at": "2026-10-05T16:22:49+00:00"
+  },
+  {
+   "id": "77df6116f767",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2024-12-05",
+   "title": "\"AI is a cornerstone of ADIB's strategy,\" says Group Chief Digital Officer",
+   "summary": "In an interview, Fernando Plaza described AI as central to ADIB's strategy. He tied it to ADIB Ventures, which partners with fintechs and integrates generative AI to serve more than 1.3 million customers.",
+   "category": "Strategy & Investment",
+   "tags": [
+    "GenAI",
+    "ADIB Ventures",
+    "Vision 2035"
+   ],
+   "partners": [],
+   "impact": "More than 1.3m customers",
+   "source_url": "https://www.financemiddleeast.com/islamic-finance/ai-is-a-cornerstone-of-adibs-strategy-says-its-group-chief-digital-officer/",
+   "source_name": "Finance Middle East",
+   "language": "en",
+   "added_at": "2026-10-05T16:22:49+00:00"
+  },
+  {
+   "id": "c67f4b8119a8",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2024-11-01",
+   "title": "Emirates NBD's McKinsey partnership builds AI and advanced analytics capability",
+   "summary": "The bank partnered with McKinsey some years ago to become an AI and advanced-analytics leader, and the article says this goal has now been achieved. It is a retrospective feature.",
+   "category": "Strategy & Investment",
+   "tags": [
+    "Advanced analytics",
+    "AI strategy",
+    "Consulting"
+   ],
+   "partners": [
+    "McKinsey & Company"
+   ],
+   "impact": "",
+   "source_url": "https://www.consultancy-me.com/news/9669/emirates-nbd-partners-with-mckinsey-to-drive-ai-and-advanced-analytics",
+   "source_name": "Consultancy-me.com",
+   "language": "en",
+   "added_at": "2026-10-05T16:21:32+00:00"
+  },
+  {
+   "id": "597f3cbcb962",
+   "bank_id": "adib",
+   "country": "AE",
+   "date": "2024-10-21",
+   "title": "ADIB's digital chief details AI use across service, security and analytics",
+   "summary": "Group Chief Digital Officer Fernando Plaza Lopez said ADIB uses machine-learning algorithms to identify risk and fraud. The mobile app has AI-personalised offers and chatbots. He cited GitHub Copilot, fraud detection through the ACE Command Centre and predictive analytics.",
+   "category": "Customer Experience",
+   "tags": [
+    "ML",
+    "Chatbot",
+    "Fraud detection",
+    "Predictive analytics",
+    "Copilot"
+   ],
+   "partners": [
+    "GitHub",
+    "Microsoft"
+   ],
+   "impact": "More than 1m app users",
+   "source_url": "https://en.aletihad.ae/news/business/4523537/adib-incorporates-ai--data-analytics-in-enhancing-banking-ex",
+   "source_name": "Aletihad",
+   "language": "en",
+   "added_at": "2026-10-05T16:22:49+00:00"
+  },
+  {
+   "id": "ecae73b2e363",
+   "bank_id": "nbf",
+   "country": "AE",
+   "date": "2024-10-17",
+   "title": "NBF to deploy Intellect's eMACH.ai Cloud for Wholesale Banking on Microsoft Azure",
+   "summary": "NBF extended its iGTB (Intellect) partnership to its wholesale business, becoming the first bank in the Middle East to implement eMACH.ai Cloud for Wholesale Banking. The platform runs on Microsoft Azure and covers cash management, trade finance, corporate lending, deposits, cards, treasury and FX, giving SME and corporate clients better information visibility.",
+   "category": "Data & Infrastructure",
+   "tags": [
+    "eMACH.ai",
+    "Cloud",
+    "Wholesale banking",
+    "Transaction banking",
+    "Azure"
+   ],
+   "partners": [
+    "Intellect Design Arena / iGTB",
+    "Microsoft Azure"
+   ],
+   "impact": "",
+   "source_url": "https://www.igtb.com/news/uaes-national-bank-of-fujairah-nbf-partners-with-intellect-for-its-emach-ai-cloud-for-wholesale-banking-on-microsoft-azure/",
+   "source_name": "Intellect iGTB press release",
+   "language": "en",
+   "added_at": "2026-10-05T16:24:10+00:00"
+  }
+ ]
+}
