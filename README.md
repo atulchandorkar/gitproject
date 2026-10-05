@@ -123,6 +123,23 @@ These themes come from what the collected news actually covers. Each item has on
 
 The dashboard charts the share of each theme and the top tech partners, overall and per country. Tap a bar to filter. The definitions are in `CATEGORY_GUIDE` in `agent/tracker.py`.
 
+## GCC Banking Sector Insights (the Sector tab)
+This tab covers AI across GCC banking as a whole, rather than one bank's own news. It holds the last 12 months, in six categories:
+**Studies & Surveys**, **Maturity & Rankings**, **Regulation & Guidance**, **Market Data**, **Expert Views** and **Events & Initiatives**.
+
+- **Where items come from:**
+  - Google News searches (English and Arabic) that combine consultancy, research and ratings firms, GCC bank groups and regulators with AI terms
+  - the press and insight pages of the firms listed in `config/sector_sources.json`, read on a best-effort basis (many firms block automated readers)
+- **When it runs:** the first daily run loads the last 12 months. After that, every run adds new items.
+- **Checks on every item:**
+  - The source must mention AI, banking and a GCC country or the Gulf.
+  - The AI fact-check confirms the item is sector-wide. One bank's own news stays in the News tab.
+  - Every number must appear in the source.
+  - A **key figure** is shown only when its exact quote appears in the source text.
+  - The source must be official, trusted or confirmed by a second outlet; otherwise the item is held back for 21 days.
+  - Rejected items are logged in `data/sector_rejected.json`.
+- **Telegram:** new items are sent with a 📊 *Sector insight* tag.
+
 ## Project layout
 ```
 config/banks.json            bank universe (names, Arabic names, domains, aliases)
@@ -130,6 +147,9 @@ agent/tracker.py             news finder + Claude screener + Telegram notifier
 agent/verify.py              accuracy checks (bank named, numbers, AI fact-check, trusted/corroborated source)
 agent/newsrooms.py           reads the banks' own newsroom pages
 agent/logos.py               downloads bank logos
+agent/sector.py              GCC Banking Sector Insights (studies, rankings, regulation …)
+config/sector_sources.json   sector categories and publishers (consultancies, research firms, regulators)
+data/sector.json             sector insights database (last 12 months)
 data/rejected.json           items that failed verification, with the reason
 data/news.json               the news database (updated by the Action)
 data/state.json              run bookkeeping (last run, history progress)

@@ -33,6 +33,7 @@
   let DATA = { items: [], updated_at: null };
   let CFG = { countries: [], banks: [], types: {} };
   let BANKS = {}, COUNTRIES = {}, CATEGORIES = [], LOGOS = {};
+  let SECTOR = { items: [], updated_at: null }, SECTOR_CFG = { categories: [], publishers: [] };
 
   // ---------- utils ----------
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -73,6 +74,7 @@
     if (view === "country" && COUNTRIES[arg]) return setActiveTab("countries"), renderCountry(arg);
     if (view === "banks") return setActiveTab("banks"), renderBanks(q);
     if (view === "bank" && BANKS[arg]) return setActiveTab("banks"), renderBank(arg, q);
+    if (view === "sector") return setActiveTab("sector"), renderSector(q);
     if (view === "about") return setActiveTab("about"), renderAbout();
     setActiveTab("feed");
     renderFeed(q);
@@ -128,17 +130,6 @@
     const tags = (i.tags || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("");
     const extraTopics = topicsOf(i).filter((t) => t !== i.category).map((t) => `<span class="cat sub">${esc(t)}</span>`).join("");
     const srcs = sourcesOf(i);
-    const v = i.verification && VERIFY_LABEL[i.verification.level];
-    const outlets = new Set(srcs.map((s) => (s.name || "").toLowerCase()).filter(Boolean)).size;
-    const badge = v ? `<div class="verified" title="Passed the bank-name, numbers and AI fact-checks">✓ ${esc(i.verification.level === "corroborated" ? `Confirmed by ${outlets} outlets` : v)}${i.verification.evidence === "article" ? " · checked against full article" : " · checked against headline"}</div>` : "";
-    const orig = i.source_title && i.source_title.trim() !== i.title.trim()
-      ? `<div class="orig"><span>Original headline:</span> <span dir="auto">${esc(i.source_title)}</span></div>` : "";
-    const label = (s, n) => {
-      if (s.name) return s.name;
-      try { const h = new URL(s.url).hostname.replace(/^www\./, ""); return h === "news.google.com" ? `News source ${n + 1}` : h; }
-      catch (_) { return `Source ${n + 1}`; }
-    };
-    const srcLinks = srcs.map((s, n) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(label(s, n))} ↗</a>`).join("");
     return `<article class="card news-card">
       <div class="meta">
         ${showBank ? `<a class="bank-chip" href="#/bank/${b.id}">${avatar(b, "avatar sm")}<span class="bank">${esc(b.short)}</span></a>${flag(c)}<span class="dot"></span>` : ""}
@@ -150,8 +141,25 @@
         : `${b.name}: ${(i.source_title || i.title).replace(/\.$/, "")}. Reported by ${srcs[0].name || "the source"} on ${fmtDate(i.date)}; open the source for full details.`)}</p>
       ${i.impact ? `<div class="impact">📈 ${esc(i.impact)}</div>` : ""}
       ${tags || (i.partners && i.partners.length) ? `<div class="tags">${tags}${i.partners && i.partners.length ? `<span class="tag">🤝 ${esc(i.partners.join(", "))}</span>` : ""}</div>` : ""}
-      <div class="sources">${badge}${orig}<div class="src-list"><span>${srcs.length > 1 ? "Sources" : "Source"}:</span>${srcLinks}</div></div>
+      ${sourceBlock(i, VERIFY_LABEL)}
     </article>`;
+  }
+
+  // Verification badge, original headline and every source link (shared by bank news and sector cards).
+  function sourceBlock(i, labels) {
+    const srcs = sourcesOf(i);
+    const v = i.verification && labels[i.verification.level];
+    const outlets = new Set(srcs.map((s) => (s.name || "").toLowerCase()).filter(Boolean)).size;
+    const badge = v ? `<div class="verified" title="Passed the source, numbers and AI fact-checks">✓ ${esc(i.verification.level === "corroborated" ? `Confirmed by ${outlets} outlets` : v)}${i.verification.evidence === "article" ? " · checked against full article" : " · checked against headline"}</div>` : "";
+    const orig = i.source_title && i.source_title.trim() !== i.title.trim()
+      ? `<div class="orig"><span>Original headline:</span> <span dir="auto">${esc(i.source_title)}</span></div>` : "";
+    const label = (s, n) => {
+      if (s.name) return s.name;
+      try { const h = new URL(s.url).hostname.replace(/^www\./, ""); return h === "news.google.com" ? `News source ${n + 1}` : h; }
+      catch (_) { return `Source ${n + 1}`; }
+    };
+    const srcLinks = srcs.map((s, n) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(label(s, n))} ↗</a>`).join("");
+    return `<div class="sources">${badge}${orig}<div class="src-list"><span>${srcs.length > 1 ? "Sources" : "Source"}:</span>${srcLinks}</div></div>`;
   }
 
   function stats(tiles) {
@@ -166,11 +174,11 @@
   }
 
   // Monthly activity chart (single series → one hue, no legend; title names it).
-  function chartBlock(id, title) {
-    return `<div class="card chart-card"><div class="chart-head"><b>${esc(title)}</b><span>Announcements per month</span></div>
+  function chartBlock(id, title, sub = "Announcements per month") {
+    return `<div class="card chart-card"><div class="chart-head"><b>${esc(title)}</b><span>${esc(sub)}</span></div>
       <div class="chart" id="${id}"></div></div>`;
   }
-  function mountChart(id, items, months = 24) {
+  function mountChart(id, items, months = 24, unit = "announcement") {
     const el = document.getElementById(id);
     if (!el) return;
     const now = new Date();
@@ -205,7 +213,7 @@
       }
       if ((buckets.length - 1 - i) % labelEvery === 0) svg += `<text x="${padL + i * band + band / 2}" y="${H - 4}" text-anchor="middle">${b.label}</text>`;
     });
-    el._redraw = () => mountChart(id, items, months);
+    el._redraw = () => mountChart(id, items, months, unit);
     const wrap = document.createElement("div");
     wrap.style.position = "relative";
     wrap.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Monthly announcements, last ${months} months">${svg}</svg><div class="tooltip"></div>`;
@@ -215,7 +223,7 @@
       const t = e.target.closest("[data-i]"); if (!t) return;
       const b = buckets[+t.dataset.i];
       el.querySelectorAll(".bar").forEach((p) => p.classList.toggle("hl", p.dataset.i === t.dataset.i));
-      tip.textContent = `${b.label.replace(" ", " 20")} · ${plural(b.n, "announcement")}`;
+      tip.textContent = `${b.label.replace(" ", " 20")} · ${plural(b.n, unit)}`;
       const rect = wrap.getBoundingClientRect();
       tip.style.left = `${Math.min(Math.max(padL + (+t.dataset.i + 0.5) * band, 70), rect.width - 70)}px`;
       tip.style.top = `${Math.max(y(b.n), 30)}px`;
@@ -475,6 +483,158 @@
     mountChart("bChart", all);
   }
 
+  // ---------- GCC Banking Sector Insights ----------
+  const SECTOR_LABEL = { official: "Publisher's own release", trusted: "Trusted outlet", corroborated: "Confirmed by several outlets" };
+  const SECTOR_ICON = (c) => (SECTOR_CFG.categories.find((x) => x.id === c) || {}).icon || "•";
+  const SECTOR_SHORT = { "Studies & Surveys": "Studies", "Maturity & Rankings": "Rankings", "Regulation & Guidance": "Regulation",
+    "Market Data": "Market data", "Expert Views": "Expert views", "Events & Initiatives": "Initiatives" };
+  function publisherOf(name) {
+    const n = (name || "").toLowerCase();
+    if (!n) return null;
+    const p = SECTOR_CFG.publishers.find((x) => [x.name, x.short, ...(x.aliases || [])].some((a) => {
+      const l = a.toLowerCase(); return n === l || n.startsWith(l + " ") || l.startsWith(n + " ") || n.startsWith(l + ":"); }));
+    if (p) return p;
+    const b = CFG.banks.find((x) => x.type === "central" && [x.name, x.short, ...(x.aliases || [])].some((a) => n === a.toLowerCase() || n.includes(a.toLowerCase())));
+    return b ? { name: b.name, short: b.short, bank: b } : null;
+  }
+  const pubShort = (i) => { const p = publisherOf(i.publisher); return p ? p.short : (i.publisher || ""); };
+  function pubAvatar(i) {
+    const p = publisherOf(i.publisher);
+    if (p && p.bank) return avatar(p.bank, "avatar sm");
+    const ini = esc((pubShort(i) || i.source_name || "?").replace(/[^A-Za-z0-9&]/g, "").slice(0, 3).toUpperCase() || "📊");
+    const img = p && p.domain ? `<img src="https://www.google.com/s2/favicons?domain=${esc(p.domain)}&sz=64" alt="" loading="lazy" onerror="this.parentNode.classList.remove('has-logo');this.remove()">` : "";
+    return `<span class="avatar sm${img ? " has-logo" : ""}" aria-hidden="true">${img}<span class="ini">${ini}</span></span>`;
+  }
+  const geoOf = (i) => (i.countries && i.countries.length ? i.countries : ["GCC"]);
+  function geoChips(i) {
+    const cs = geoOf(i).filter((c) => COUNTRIES[c]);
+    return cs.length && !geoOf(i).includes("GCC") ? cs.map((c) => flag(COUNTRIES[c])).join("") : `<span class="geo">GCC-wide</span>`;
+  }
+
+  function sectorCard(i) {
+    const pub = pubShort(i);
+    const stats = (i.key_stats || []).slice(0, 3);
+    return `<article class="card news-card sector-card">
+      <div class="meta">
+        ${pub ? `<span class="bank-chip">${pubAvatar(i)}<span class="bank">${esc(pub)}</span></span><span class="dot"></span>` : ""}
+        <time datetime="${i.date}">${fmtDate(i.date)}</time><span class="dot"></span>${geoChips(i)}
+      </div>
+      <div class="sec-cat">${SECTOR_ICON(i.category)} ${esc(i.category)}</div>
+      <h3><a href="${esc(i.source_url)}" target="_blank" rel="noopener" dir="auto">${esc(i.title)}</a></h3>
+      <p>${esc(i.summary)}</p>
+      ${stats.length ? `<div class="kstats kstats-${stats.length}">${stats.map((st) =>
+        `<div class="kstat" title="${esc(st.quote)}"><b>${esc(st.value)}</b><span>${esc(st.label)}</span></div>`).join("")}</div>` : ""}
+      ${i.pdf ? `<a class="pdf-btn" href="${esc(i.pdf.url)}" target="_blank" rel="noopener"><span>📄</span><b>Report PDF</b><small>official file · ${esc(i.pdf.host)}</small><span class="pdf-go">↗</span></a>` : ""}
+      ${sourceBlock(i, SECTOR_LABEL)}
+    </article>`;
+  }
+
+  function renderSector(q) {
+    const st = { cat: q.get("cat") || "", country: q.get("country") || "", pub: q.get("pub") || "", q: q.get("q") || "",
+      view: q.get("view") === "charts" ? "charts" : "" };
+    const all = SECTOR.items;
+    const cats = SECTOR_CFG.categories.map((c) => c.id);
+    const updated = SECTOR.updated_at ? new Date(SECTOR.updated_at).toLocaleString([], { timeZone: "Asia/Qatar", day: "numeric", month: "short", hour: "numeric", minute: "2-digit" }) : "";
+    const pubs = countBy(all, (i) => [pubShort(i)]).map(([k]) => k);
+    app.innerHTML = `
+      <section class="hero sector-hero">
+        ${NETWORK}
+        <div class="hero-eyebrow"><span class="live-dot"></span>Last 12 months${updated ? ` · updated ${esc(updated)}` : ""}</div>
+        <h1 class="hero-title"><span class="hero-kicker">GCC Banking</span><b>Sector Insights</b></h1>
+        <p class="hero-tag">AI across GCC banking: studies, rankings, regulation</p>
+        <div class="hero-kpis" id="secKpis"></div>
+        <div class="cat-grid" id="secCats">
+          ${cats.map((c) => `<button class="cat-tile" data-cat="${esc(c)}" aria-pressed="${st.cat === c}">
+            <span class="ct-ic">${SECTOR_ICON(c)}</span><b>${all.filter((i) => i.category === c).length}</b><span class="ct-l">${esc(SECTOR_SHORT[c] || c)}</span></button>`).join("")}
+        </div>
+      </section>
+      <div id="statRailWrap"></div>
+      <div class="filters">
+        <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+          <input id="sq" type="search" placeholder="Search studies, firms, topics…" value="${esc(st.q)}" aria-label="Search"></label>
+        <select id="scountry" aria-label="Country"><option value="">All GCC</option><option value="GCC" ${st.country === "GCC" ? "selected" : ""}>GCC-wide studies</option>
+          ${CFG.countries.map((c) => `<option value="${c.code}" ${st.country === c.code ? "selected" : ""}>${esc(c.name)}</option>`).join("")}</select>
+        <select id="spub" aria-label="Publisher"><option value="">All publishers</option>${pubs.filter(Boolean).map((p) => `<option ${p === st.pub ? "selected" : ""}>${esc(p)}</option>`).join("")}</select>
+        <select id="scat" aria-label="Category"><option value="">All categories</option>${cats.map((c) => `<option value="${esc(c)}" ${c === st.cat ? "selected" : ""}>${esc(SECTOR_SHORT[c] || c)}</option>`).join("")}</select>
+      </div>
+      <div class="seg" role="tablist" id="secSwitch">
+        <button role="tab" data-view="" aria-selected="${st.view !== "charts"}">📑 Insights</button>
+        <button role="tab" data-view="charts" aria-selected="${st.view === "charts"}">📊 Charts</button>
+      </div>
+      <div id="secCharts" ${st.view === "charts" ? "" : "hidden"}>
+        <div style="margin-top:10px">${chartBlock("secChart", "Sector activity", "Insights per month")}</div>
+        <div class="insights">
+          <div class="card"><div class="chart-head"><b>By category</b><span>tap to filter</span></div><div id="secCatBars"></div></div>
+          <div class="card"><div class="chart-head"><b>Top publishers</b><span>tap to filter</span></div><div id="secPubBars"></div></div>
+          <div class="card"><div class="chart-head"><b>By country</b><span>tap to filter</span></div><div id="secGeoBars"></div></div>
+        </div>
+      </div>
+      <div id="secList" ${st.view === "charts" ? "hidden" : ""}>
+        <div class="result-line"><span id="secCount"></span><button class="linklike" id="secClear" hidden>Clear filters</button></div>
+        <div class="news-list" id="secItems"></div>
+        <button class="more-btn" id="secMore" hidden>Show more</button>
+      </div>
+      <p class="updated">Studies, rankings, regulation and market data on AI in GCC banking · checked daily</p>`;
+
+    const geoName = (c) => (c === "GCC" ? "GCC-wide" : COUNTRIES[c] ? COUNTRIES[c].name : c);
+    let shown = PAGE, last = [];
+    const update = (reset = true) => {
+      if (reset) shown = PAGE;
+      const qp = new URLSearchParams();
+      Object.entries(st).forEach(([k, v]) => { if (v) qp.set(k, v); });
+      setQuery(qp);
+      const needle = st.q.trim().toLowerCase();
+      const base = all.filter((i) => (!st.country || geoOf(i).includes(st.country)) && (!st.pub || pubShort(i) === st.pub) &&
+        (!needle || [i.title, i.summary, i.publisher, i.source_title, i.category, ...(i.key_stats || []).map((k) => `${k.value} ${k.label}`)]
+          .join(" ").toLowerCase().includes(needle)));
+      const list = base.filter((i) => !st.cat || i.category === st.cat);
+      last = list;
+      const figures = list.flatMap((i) => (i.key_stats || []).map((k) => ({ ...k, i })));
+      $("#secKpis").innerHTML = [["news", list.length, "insights"], ["bank", new Set(list.map(pubShort).filter(Boolean)).size, "publishers"],
+        ["bolt", figures.length, "key figures"], ["globe", list.filter((i) => i.date >= isoDaysAgo(90)).length, "last 90 days"]]
+        .map(([k, v, l]) => `<div class="kpi">${icon(k)}<b>${v}</b><span>${l}</span></div>`).join("");
+      document.querySelectorAll("#secCats .cat-tile").forEach((x) => {
+        x.setAttribute("aria-pressed", x.dataset.cat === st.cat);
+        x.querySelector("b").textContent = base.filter((i) => i.category === x.dataset.cat).length;
+      });
+      $("#statRailWrap").innerHTML = figures.length ? `<div class="section-title">What the studies say</div>
+        <div class="stat-rail">${figures.slice(0, 12).map((f) => `<a class="stat-card" href="${esc(f.i.source_url)}" target="_blank" rel="noopener" title="${esc(f.quote)}">
+          <b>${esc(f.value)}</b><span class="sl">${esc(f.label)}</span><span class="sp">${esc(pubShort(f.i) || f.i.source_name)} · ${fmtDate(f.i.date)}</span></a>`).join("")}</div>` : "";
+      $("#secCount").textContent = list.length ? `Showing ${Math.min(shown, list.length)} of ${plural(list.length, "insight")}` : "";
+      $("#secClear").hidden = !(st.cat || st.country || st.pub || st.q);
+      $("#secItems").innerHTML = list.length ? list.slice(0, shown).map(sectorCard).join("") : `<div class="empty card"><div class="big">${all.length ? "🔍" : "⏳"}</div>
+        <p><b>${all.length ? "No matching insights" : "Sector insights are being collected"}</b></p>
+        <p>${all.length ? "Try widening the filters." : "The first run loads the last 12 months of studies, rankings and regulation on AI in GCC banking. Check back after the next daily update."}</p></div>`;
+      $("#secMore").hidden = list.length <= shown;
+      $("#secMore").onclick = () => { shown += PAGE; update(false); };
+      $("#secCatBars").innerHTML = barList("secCatList", cats.map((c) => [c, base.filter((i) => i.category === c).length]).filter(([, n]) => n), st.cat, "cat", base.length);
+      $("#secPubBars").innerHTML = barList("secPubList", countBy(list, (i) => [pubShort(i)]).slice(0, 8), st.pub, "pub");
+      $("#secGeoBars").innerHTML = barList("secGeoList", countBy(list, geoOf).map(([k, n]) => [geoName(k), n, k]), geoName(st.country), "geo");
+      if (st.view === "charts") mountChart("secChart", list, 12, "insight");
+    };
+    const showView = (v) => {
+      st.view = v;
+      $("#secCharts").hidden = v !== "charts"; $("#secList").hidden = v === "charts";
+      document.querySelectorAll("#secSwitch [data-view]").forEach((x) => x.setAttribute("aria-selected", x.dataset.view === v));
+      update(false);
+    };
+    const setCat = (c) => { st.cat = c === st.cat ? "" : c; $("#scat").value = st.cat; };
+    $("#secSwitch").addEventListener("click", (e) => { const x = e.target.closest("[data-view]"); if (x) showView(x.dataset.view); });
+    $("#secCats").addEventListener("click", (e) => { const x = e.target.closest("[data-cat]"); if (!x) return; setCat(x.dataset.cat); showView(""); });
+    $("#secCatBars").addEventListener("click", (e) => { const x = e.target.closest("[data-cat]"); if (!x) return; setCat(x.dataset.cat); showView(""); });
+    $("#secPubBars").addEventListener("click", (e) => { const x = e.target.closest("[data-pub]"); if (!x) return;
+      st.pub = x.dataset.pub === st.pub ? "" : x.dataset.pub; $("#spub").value = st.pub; showView(""); });
+    $("#secGeoBars").addEventListener("click", (e) => { const x = e.target.closest("[data-geo]"); if (!x) return;
+      const code = x.dataset.geo === "GCC-wide" ? "GCC" : (CFG.countries.find((c) => c.name === x.dataset.geo) || {}).code || "";
+      st.country = code === st.country ? "" : code; $("#scountry").value = st.country; showView(""); });
+    $("#scountry").onchange = (e) => { st.country = e.target.value; update(); };
+    $("#spub").onchange = (e) => { st.pub = e.target.value; update(); };
+    $("#scat").onchange = (e) => { st.cat = e.target.value; update(); };
+    let t; $("#sq").oninput = (e) => { clearTimeout(t); t = setTimeout(() => { st.q = e.target.value; update(); }, 180); };
+    $("#secClear").onclick = () => { location.hash = "#/sector"; };
+    update();
+  }
+
   // ---------- About ----------
   function renderAbout() {
     app.innerHTML = `<div class="page-head"><h1>About</h1></div>
@@ -500,6 +660,12 @@
           <li><b>Trusted source:</b> the bank's own newsroom, an official news agency or a reputable outlet; anything else is published only after a second outlet confirms it.</li>
         </ul>
         <p>Each card shows the result (e.g. "✓ Trusted outlet · checked against full article"), the original headline and every source.</p>
+        <h2>GCC Banking Sector Insights</h2>
+        <p>A separate tab for AI across GCC banking as a whole rather than one bank: <b>studies &amp; surveys</b> (McKinsey, BCG, PwC,
+        Deloitte, Accenture, EY, KPMG, IDC, Gartner …), <b>maturity indices &amp; rankings</b>, <b>regulation &amp; guidance</b> from GCC
+        central banks and regulators, <b>market data</b>, <b>expert views</b> and <b>sector events &amp; initiatives</b> from the last 12 months.
+        The same checks apply: the source must be about AI <i>and</i> banking <i>and</i> the GCC, one bank's own news stays in the News tab,
+        and a key figure is shown only when its exact wording appears in the source.</p>
         <h2>Themes</h2>
         <p>${THEMES.map(esc).join(" · ")}. A story can belong to more than one theme.</p>
         <p style="font-size:13px">Summaries are AI-generated and fact-checked, but please open the source before citing a figure.</p>
@@ -520,8 +686,12 @@
     fetch("data/banks.json", { cache: "no-cache" }).then((r) => r.json()),
     fetch("data/news.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : { items: [] }).catch(() => ({ items: [] })),
     fetch("data/logos.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : {}).catch(() => ({})),
-  ]).then(([cfg, news, logos]) => {
+    fetch("data/sector.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : { items: [] }).catch(() => ({ items: [] })),
+    fetch("data/sector_sources.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : null).catch(() => null),
+  ]).then(([cfg, news, logos, sector, sectorCfg]) => {
     CFG = cfg; DATA = news; LOGOS = logos || {};
+    SECTOR = sector || { items: [] }; SECTOR.items = (SECTOR.items || []).sort((a, b) => b.date.localeCompare(a.date));
+    if (sectorCfg) SECTOR_CFG = sectorCfg;
     BANKS = Object.fromEntries(cfg.banks.map((b) => [b.id, b]));
     COUNTRIES = Object.fromEntries(cfg.countries.map((c) => [c.code, c]));
     DATA.items = (DATA.items || []).filter((i) => BANKS[i.bank_id]).sort((a, b) => b.date.localeCompare(a.date));

@@ -34,6 +34,7 @@ from pydantic import BaseModel, Field
 
 import logos
 import newsrooms
+import sector
 import verify
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -666,6 +667,18 @@ class Telegram:
             self.send(chunk)
 
 
+    def notify_sector(self, items: list[dict], first_load: bool, countries: dict) -> None:
+        if not self.enabled or not items:
+            return
+        if first_load or len(items) > 8:
+            link = f'\n<a href="{self.dashboard}/#/sector">Open GCC Banking Sector Insights</a>' if self.dashboard else ""
+            self.send(f"📊 <b>GCC Banking Sector Insights</b>\n<b>{len(items)}</b> studies, rankings, regulations and "
+                      f"market data on AI in GCC banking added.{link}")
+            return
+        for it in sorted(items, key=lambda i: i["date"], reverse=True):
+            self.send(sector.format_telegram(it, self.dashboard, countries))
+
+
 # --------------------------------------------------------------------------- #
 # CLI
 # --------------------------------------------------------------------------- #
@@ -717,6 +730,22 @@ def main() -> None:
         fresh = [i for i in added if i["date"] >= (today() - dt.timedelta(days=30)).isoformat()]
         tg.notify(fresh)
         print(f"Done. {len(added)} new items ({len(fresh)} recent, sent to Telegram).")
+
+        # GCC Banking Sector Insights (studies, rankings, regulation … about AI across GCC banks)
+        sec = sector.Sector(ROOT, tracker.banks, tracker.state, tracker.news["items"], tracker.checker, gnews,
+                            {"similar": similar, "key_of": key_of}, today(), now_iso)
+        first_load = not tracker.state.get("sector_history")
+        try:
+            sec_added = sec.run()
+        except FatalAPIError:
+            raise
+        except Exception as exc:   # never lose the bank-news run over this section
+            print(f"  ! sector insights failed: {exc!r}", file=sys.stderr)
+            sec_added = []
+        finally:
+            tracker.save()
+        tg.notify_sector(sec_added, first_load, tracker.countries)
+        print(f"Sector insights: {len(sec_added)} new ({len(sec.data['items'])} in the last 12 months).")
     except FatalAPIError as exc:
         tracker.save()
         tg.send(f"⚠️ <b>AI Pulse Monitor stopped</b>\n{html.escape(str(exc))}.\n"
