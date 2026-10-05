@@ -103,6 +103,8 @@ jobs:
           cp -r site/* _site/
           cp data/news.json _site/data/news.json
           cp config/banks.json _site/data/banks.json
+          cp config/sector_sources.json _site/data/sector_sources.json
+          if [ -f data/sector.json ]; then cp data/sector.json _site/data/sector.json; fi
           if [ -f data/logos.json ]; then cp data/logos.json _site/data/logos.json; cp -r data/logos _site/logos; fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

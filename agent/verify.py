@@ -209,37 +209,30 @@ class FactChecker:
         self.model = model
         self.on_fatal = on_fatal
 
-    def summarize(self, rows: list[dict]) -> dict[int, str]:
-        body = "\n\n".join(json.dumps(r, ensure_ascii=False) for r in rows)
+    def ask(self, system: str, content: str, output_format, max_tokens: int = 8000):
+        """One structured call; returns the parsed output or None (refusal). Credit/auth errors are fatal."""
         try:
             resp = self.client.messages.parse(
-                model=self.model, max_tokens=4000, system=SUMMARY_PROMPT,
-                messages=[{"role": "user", "content": f"Items:\n\n{body}"}], output_format=Summaries,
+                model=self.model, max_tokens=max_tokens, system=system,
+                messages=[{"role": "user", "content": content}], output_format=output_format,
             )
         except (anthropic.AuthenticationError, anthropic.PermissionDeniedError, anthropic.BadRequestError) as exc:
             if isinstance(exc, anthropic.BadRequestError) and "credit balance" not in str(exc).lower():
                 raise
             raise self.on_fatal(exc) from exc
-        if resp.stop_reason == "refusal" or resp.parsed_output is None:
-            return {}
-        return {x.i: x.summary.strip() for x in resp.parsed_output.items}
+        if resp.stop_reason == "refusal":
+            return None
+        return resp.parsed_output
+
+    def summarize(self, rows: list[dict]) -> dict[int, str]:
+        body = "\n\n".join(json.dumps(r, ensure_ascii=False) for r in rows)
+        out = self.ask(SUMMARY_PROMPT, f"Items:\n\n{body}", Summaries, 4000)
+        return {x.i: x.summary.strip() for x in out.items} if out else {}
 
     def check(self, rows: list[dict]) -> dict[int, Check]:
         body = "\n\n".join(json.dumps(r, ensure_ascii=False) for r in rows)
-        try:
-            resp = self.client.messages.parse(
-                model=self.model, max_tokens=8000,
-                system=FACT_CHECK_PROMPT,
-                messages=[{"role": "user", "content": f"Items to check:\n\n{body}"}],
-                output_format=Checks,
-            )
-        except (anthropic.AuthenticationError, anthropic.PermissionDeniedError, anthropic.BadRequestError) as exc:
-            if isinstance(exc, anthropic.BadRequestError) and "credit balance" not in str(exc).lower():
-                raise
-            raise self.on_fatal(exc) from exc
-        if resp.stop_reason == "refusal" or resp.parsed_output is None:
-            return {}
-        return {c.i: c for c in resp.parsed_output.items}
+        out = self.ask(FACT_CHECK_PROMPT, f"Items to check:\n\n{body}", Checks)
+        return {c.i: c for c in out.items} if out else {}
 
 
 def fallback_summary(it: dict, bank: dict) -> str:
