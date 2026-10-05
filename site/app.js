@@ -11,7 +11,7 @@
 
   let DATA = { items: [], updated_at: null };
   let CFG = { countries: [], banks: [], types: {} };
-  let BANKS = {}, COUNTRIES = {}, CATEGORIES = [];
+  let BANKS = {}, COUNTRIES = {}, CATEGORIES = [], LOGOS = {};
 
   // ---------- utils ----------
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -58,13 +58,20 @@
   }
 
   // ---------- shared components ----------
+  // Bank logo (downloaded by the tracker into logos/) with the initials badge as fallback.
+  function avatar(b, cls = "avatar") {
+    const file = LOGOS[b.id] && LOGOS[b.id].file;
+    const img = file ? `<img src="${esc(file)}" alt="" loading="lazy" onerror="this.parentNode.classList.remove('has-logo');this.remove()">` : "";
+    return `<span class="${cls}${file ? " has-logo" : ""}" aria-hidden="true">${img}<span class="ini">${esc(initials(b))}</span></span>`;
+  }
+
   function newsCard(i, { showBank = true } = {}) {
     const b = BANKS[i.bank_id], c = COUNTRIES[i.country];
     const tags = (i.tags || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("");
     const more = i.other_sources && i.other_sources.length ? ` <span class="tag">+${i.other_sources.length} more</span>` : "";
     return `<article class="card news-card">
       <div class="meta">
-        ${showBank ? `<span>${c.flag}</span><a class="bank" href="#/bank/${b.id}">${esc(b.short)}</a><span class="dot"></span>` : ""}
+        ${showBank ? `<a class="bank-chip" href="#/bank/${b.id}">${avatar(b, "avatar sm")}<span class="bank">${esc(b.short)}</span></a><span title="${esc(c.name)}">${c.flag}</span><span class="dot"></span>` : ""}
         <time datetime="${i.date}">${fmtDate(i.date)}</time>
         <span class="dot"></span><span class="cat">${esc(i.category)}</span>
       </div>
@@ -246,7 +253,7 @@
     const max = Math.max(1, ...banks.map((b) => counts[b.id] || 0));
     return `<div class="bank-list">${banks.map((b) => {
       const n = counts[b.id] || 0;
-      return `<a class="bank-row" href="#/bank/${b.id}"><div class="avatar">${esc(initials(b))}</div>
+      return `<a class="bank-row" href="#/bank/${b.id}">${avatar(b)}
         <div class="info"><div class="name">${esc(b.name)}</div><div class="sub">${esc(CFG.types[b.type] || b.type)}</div>
         <div class="bar" style="width:${(n / max) * 100}%;${n ? "" : "opacity:0"}"></div></div>
         <span class="count">${n}</span><span class="chev">›</span></a>`;
@@ -313,7 +320,7 @@
     const partners = [...new Set(all.flatMap((i) => i.partners || []))];
 
     app.innerHTML = `<a class="back" href="#/country/${b.country}">‹ ${c.flag} ${esc(c.name)}</a>
-      <div class="profile"><div class="avatar">${esc(initials(b))}</div><div>
+      <div class="profile">${avatar(b)}<div>
         <h1>${esc(b.name)}</h1>
         <div class="sub">${c.flag} ${esc(c.name)} · ${esc(CFG.types[b.type] || b.type)}${b.name_ar ? ` · <span class="ar">${esc(b.name_ar)}</span>` : ""}</div>
         <div class="sub"><a href="https://${esc(b.domain)}" target="_blank" rel="noopener">${esc(b.domain)} ↗</a></div></div></div>
@@ -350,7 +357,6 @@
 
   // ---------- About ----------
   function renderAbout() {
-    const theme = document.documentElement.dataset.theme || "auto";
     app.innerHTML = `<div class="page-head"><h1>About</h1></div>
       <div class="card prose">
         <p>This tracker follows the <b>AI initiatives of ${CFG.banks.length} banks</b> across the UAE, Saudi Arabia, Qatar, Kuwait,
@@ -366,16 +372,8 @@
         qualifying items, summarises and categorises them, and sends new items to Telegram. Every item links to its original source.
         The history goes back 24 months.</p>
         <p style="font-size:13px">Summaries are AI-generated, so check the linked source before citing a figure.</p>
-        <h2>Appearance</h2>
-        <div class="theme-switch">${["auto", "light", "dark"].map((t) => `<button class="chip" data-theme-set="${t}" aria-pressed="${t === theme}">${t[0].toUpperCase() + t.slice(1)}</button>`).join("")}</div>
       </div>
       <p class="updated">${plural(DATA.items.length, "announcement")} tracked${DATA.updated_at ? " · updated " + new Date(DATA.updated_at).toLocaleString() : ""}</p>`;
-    app.querySelectorAll("[data-theme-set]").forEach((btn) => btn.onclick = () => {
-      const t = btn.dataset.themeSet;
-      if (t === "auto") delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = t;
-      try { localStorage.setItem("theme", t); } catch (_) {}
-      renderAbout();
-    });
   }
 
   // ---------- share ----------
@@ -386,13 +384,13 @@
   };
 
   // ---------- boot ----------
-  try { const t = localStorage.getItem("theme"); if (t && t !== "auto") document.documentElement.dataset.theme = t; } catch (_) {}
 
   Promise.all([
     fetch("data/banks.json", { cache: "no-cache" }).then((r) => r.json()),
     fetch("data/news.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : { items: [] }).catch(() => ({ items: [] })),
-  ]).then(([cfg, news]) => {
-    CFG = cfg; DATA = news;
+    fetch("data/logos.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : {}).catch(() => ({})),
+  ]).then(([cfg, news, logos]) => {
+    CFG = cfg; DATA = news; LOGOS = logos || {};
     BANKS = Object.fromEntries(cfg.banks.map((b) => [b.id, b]));
     COUNTRIES = Object.fromEntries(cfg.countries.map((c) => [c.code, c]));
     DATA.items = (DATA.items || []).filter((i) => BANKS[i.bank_id]).sort((a, b) => b.date.localeCompare(a.date));
