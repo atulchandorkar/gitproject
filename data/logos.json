@@ -208,7 +208,9 @@
   "source": "https://www.kfh.com/.resources/kfh-templates/webresources/kfh-theme/images/favicon/apple-touch-icon.png"
  },
  "khcb": {
-  "checked": "2026-10-05"
+  "checked": "2026-10-05",
+  "file": "logos/khcb.jpg",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Khcb_logo.jpg?width=256"
  },
  "kib": {
   "checked": "2026-10-05"
@@ -287,7 +289,9 @@
   "source": "https://www.alrayan.com/apple-touch-icon.png"
  },
  "riyad": {
-  "checked": "2026-10-05"
+  "checked": "2026-10-05",
+  "file": "logos/riyad.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Riyad_Bank_logo.svg?width=256"
  },
  "sab": {
   "checked": "2026-10-05",
@@ -310,7 +314,9 @@
   "source": "https://www.google.com/s2/favicons?domain=sib.ae&sz=256"
  },
  "snb": {
-  "checked": "2026-10-05"
+  "checked": "2026-10-05",
+  "file": "logos/snb.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Saudi_National_Bank_Logo.svg?width=256"
  },
  "sohar": {
   "checked": "2026-10-05",
