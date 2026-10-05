@@ -58,10 +58,14 @@ BANKING_RE = re.compile(
 REGULATOR_RE = re.compile(
     r"\b(central bank|sama|cbuae|qcb|dfsa|fsra|qfcra|regulator|supervisor)\b|المركزي|ساما|الجهات الرقابية", re.I)
 GEO_RE = re.compile(
-    r"\b(gcc|gulf|middle east|mena|saudi|ksa|uae|emirat\w*|dubai|abu dhabi|qatar\w*|doha|kuwait\w*|oman\w*|muscat|"
-    r"bahrain\w*|manama|riyadh|sharjah)\b"
-    r"|الخليج|الخليجية|خليجي|الشرق الأوسط|السعودية|السعودي|المملكة|الإمارات|الإماراتي|دبي|أبوظبي|قطر|القطري|الدوحة|"
-    r"الكويت|الكويتي|عمان|العماني|مسقط|البحرين|البحريني|المنامة|الرياض", re.I)
+    r"\b(gcc|gulf|middle east|mena|arabian|saudi|ksa|uae|emirat\w*|dubai|abu dhabi|sharjah|ajman|ras al[- ]khaimah|"
+    r"fujairah|al ain|qatar\w*|doha|lusail|kuwait\w*|oman\w*|muscat|salalah|sohar|bahrain\w*|manama|riyadh|"
+    r"jeddah|jiddah|makkah|mecca|madinah|medina|dammam|khobar|dhahran|neom|vision 2030)\b"
+    r"|الخليج|الخليجية|الخليجي|خليجي|مجلس التعاون|دول المجلس|الشرق الأوسط|السعودية|السعودي|السعوديه|المملكة|"
+    r"الرياض|جدة|مكة|المكرمة|المدينة المنورة|الدمام|الخبر|الظهران|نيوم|رؤية 2030|"
+    r"الإمارات|الإماراتي|الإماراتية|دبي|أبوظبي|أبو ظبي|الشارقة|عجمان|رأس الخيمة|الفجيرة|العين|"
+    r"قطر|القطري|القطرية|الدوحة|لوسيل|الكويت|الكويتي|الكويتية|عمان|العماني|العمانية|مسقط|صلالة|صحار|"
+    r"البحرين|البحريني|البحرينية|المنامة", re.I)
 
 
 def queries(when: str) -> list[tuple[str, str]]:
@@ -555,9 +559,25 @@ class Sector:
               f"{len(rejected)} rejected/retrying")
         return promoted + added
 
+    def recheck_geo_rejections(self) -> None:
+        """One-time: GCC city names (Makkah, Jeddah, Dammam, …) were missing from the place check, so items
+        rejected for 'no GCC / Gulf angle' are screened again with the full 12-month reload."""
+        done = self.state.setdefault("sector_migrations", [])
+        if "geo-v2" in done:
+            return
+        geo = [r for r in self.rejected if r["reason"] == "source has no GCC / Gulf angle"]
+        for r in geo:
+            self.state["sector_seen"].pop(self.key_of(r["title"]), None)
+        self.rejected = [r for r in self.rejected if r not in geo]
+        if geo:
+            self.state["sector_history"] = None
+            print(f"Sector insights: re-checking {len(geo)} items with the extended GCC place list")
+        done.append("geo-v2")
+
     def run(self) -> list[dict]:
         """Daily: last 7 days + publisher pages. First run (or after a reset): load the last 12 months."""
         start = self.today - dt.timedelta(days=int(MONTHS_BACK * 30.5))
+        self.recheck_geo_rejections()
         if not self.state.get("sector_history"):
             windows, s = [], start
             while s < self.today:
