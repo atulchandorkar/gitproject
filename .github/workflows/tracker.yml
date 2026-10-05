@@ -1,0 +1,102 @@
+name: GCC Bank AI Tracker
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # once a day (07:17 Gulf time)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "update = normal run, backfill = (re)load history, deploy = publish dashboard only, telegram-test"
+        type: choice
+        options: [update, backfill, deploy, telegram-test]
+        default: update
+      country:
+        description: "Backfill only: country code (AE, SA, QA, KW, OM, BH) — leave empty for all"
+        required: false
+      banks:
+        description: "Backfill only: comma-separated bank ids (see config/banks.json)"
+        required: false
+      force:
+        description: "Backfill only: re-run banks that already have history"
+        type: boolean
+        default: false
+  push:
+    branches: [master]
+    paths: ["site/**", "config/**", "data/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: tracker
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    if: github.event_name != 'push' && inputs.mode != 'deploy'
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+      TRACKER_MODEL: ${{ vars.TRACKER_MODEL || 'claude-sonnet-5-5' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: agent/requirements.txt
+      - run: pip install -r agent/requirements.txt
+
+      - name: Run agent
+        run: |
+          MODE="${{ inputs.mode || 'update' }}"
+          ARGS=""
+          if [ "$MODE" = "backfill" ]; then
+            [ -n "${{ inputs.country }}" ] && ARGS="$ARGS --country ${{ inputs.country }}"
+            [ -n "${{ inputs.banks }}" ] && ARGS="$ARGS --banks ${{ inputs.banks }}"
+            [ "${{ inputs.force }}" = "true" ] && ARGS="$ARGS --force"
+          fi
+          python agent/tracker.py "$MODE" $ARGS
+
+      - name: Commit new data
+        if: always() && inputs.mode != 'telegram-test'
+        run: |
+          git config user.name "gcc-ai-tracker[bot]"
+          git config user.email "gcc-ai-tracker@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "data: tracker run $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && break
+            sleep $((i * 5))
+          done
+
+  deploy:
+    needs: collect
+    if: always() && inputs.mode != 'telegram-test' && (needs.collect.result == 'success' || needs.collect.result == 'failure' || needs.collect.result == 'skipped')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.pages.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Build site
+        run: |
+          mkdir -p _site/data
+          cp -r site/* _site/
+          cp data/news.json _site/data/news.json
+          cp config/banks.json _site/data/banks.json
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: pages
+        uses: actions/deploy-pages@v4

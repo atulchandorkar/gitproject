@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>GCC Bank AI Tracker</title>
+  <meta name="description" content="AI initiatives, investments and outcomes announced by banks across the GCC.">
+  <meta name="theme-color" content="#0f3d3a">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <meta property="og:title" content="GCC Bank AI Tracker">
+  <meta property="og:description" content="Every AI initiative by banks in UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="#/" class="brand" aria-label="Home">
+        <img src="icon.svg" alt="" width="28" height="28">
+        <span>GCC Bank AI Tracker</span>
+      </a>
+      <button class="icon-btn" id="shareBtn" aria-label="Share this view" title="Share">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 12v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7M16 6l-4-4-4 4M12 2v14"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="app" class="container" aria-live="polite">
+    <div class="loading">Loading…</div>
+  </main>
+
+  <nav class="tabbar" aria-label="Sections">
+    <a href="#/" data-tab="feed">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16M4 12h16M4 19h10"/></svg><span>News</span>
+    </a>
+    <a href="#/countries" data-tab="countries">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span>Countries</span>
+    </a>
+    <a href="#/banks" data-tab="banks">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10l9-6 9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"/></svg><span>Banks</span>
+    </a>
+    <a href="#/about" data-tab="about">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/></svg><span>About</span>
+    </a>
+  </nav>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
