@@ -3,7 +3,7 @@
 A mobile-first dashboard and Telegram alert service that tracks **AI initiatives by banks in the GCC**: strategy, investments, GenAI deployments, partnerships, talent programmes, awards and measurable outcomes. It covers the UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain.
 
 - **75 institutions**: conventional, Islamic, digital and development banks, plus the 6 central banks (`config/banks.json`)
-- **Bank news only.** An AI agent (Claude with web search) keeps only items about a listed bank's own use of AI. It drops fintech news, general AI news and generic "digital" stories.
+- **Bank news only.** Free Google News feeds find candidate headlines. Claude Haiku, the cheapest Claude model, keeps only items about a listed bank's own use of AI and drops fintech news, general AI news and generic "digital" stories.
 - **English and Arabic sources.** Summaries are written in English, and every item links to its original source.
 - **2 years of history**, loaded automatically on the first run, then **checked once a day**
 - **Telegram push** for each new item, to you, a group or a channel
@@ -14,7 +14,8 @@ A mobile-first dashboard and Telegram alert service that tracks **AI initiatives
  daily     ┌──────────────────────┐   new items   ┌───────────┐
 ──────────►│ GitHub Action        │──────────────►│ Telegram  │
            │  agent/tracker.py    │               └───────────┘
-           │  Claude + web search │  data/news.json
+           │ Google News RSS free │  data/news.json
+           │ + Claude Haiku screen│
            └──────────┬───────────┘──────────────►┌────────────────────┐
                       └─ commits data ───────────►│ GitHub Pages site  │◄── colleagues (mobile)
                                                   └────────────────────┘
@@ -46,12 +47,12 @@ In **Settings → Secrets and variables → Actions**:
 | Secret | `TELEGRAM_BOT_TOKEN` | The token from BotFather |
 | Secret | `TELEGRAM_CHAT_ID` | Your chat id(s), comma-separated |
 | Variable | `DASHBOARD_URL` | `https://atulchandorkar.github.io/gitproject` |
-| Variable *(optional)* | `TRACKER_MODEL` | Leave empty to use the default, Claude Sonnet 5.5 (`claude-sonnet-5-5`). Set `claude-opus-5-5` for deeper research at about twice the cost. |
+| Variable *(optional)* | `TRACKER_MODEL` | Leave empty to use the default, Claude Haiku 4.5 (`claude-haiku-4-5`), the cheapest option. Set `claude-sonnet-5-5` for sharper screening at about twice the cost. |
 
 ### 5. First run
 **Actions → GCC Bank AI Tracker → Run workflow**
 1. `mode = telegram-test`: you should receive a "connected" message.
-2. `mode = update`: the first run loads **24 months of history** for every bank (1–2 hours), then finds the latest news. After that it runs by itself once a day, at 07:17 Gulf time.
+2. `mode = update`: the first run loads **24 months of history** for every bank (about 30–45 minutes), then finds the latest news. After that it runs by itself once a day, at 07:17 Gulf time.
 
 History is saved bank by bank. If a run stops partway, the next run picks up where it left off. History items are not pushed to Telegram one by one; you get a single summary message instead.
 
@@ -66,30 +67,35 @@ History is saved bank by bank. If a run stops partway, the next run picks up whe
 
 ## Running costs (estimate)
 - **GitHub and Telegram:** free.
-- **Claude API**, at the default model and effort, roughly:
-  - **one-time history load:** about $30–75
-  - **each daily run:** about $1.5–4 (7 searches covering all banks), or about **$45–120 a month**
+- **News discovery:** free (Google News RSS).
+- **Claude API (Haiku 4.5)**, which only screens headlines:
+  - **one-time history load:** about $1–4
+  - **each daily run:** a few cents, or about **$1–5 a month**
 
-  These figures assume the default model, Claude Sonnet 5.5. Claude Opus 5.5 costs roughly twice as much. Usage depends on how much news exists, so set a **monthly spend limit** in the Anthropic Console. Check the real cost in the Console after the first few runs. Then tune the frequency (the `cron` line in `.github/workflows/tracker.yml`) or the model if needed.
+  Costs are kept low in four ways:
+  - A free keyword filter drops headlines with no AI words before Claude sees anything.
+  - Copies of the same story from different outlets are merged first, so Claude screens each story once.
+  - Headlines are screened in batches of 40.
+  - Every screened headline is remembered, so the same headline is never paid for twice.
+
+  To be safe, set a **monthly spend limit** in the Anthropic Console. If credit runs out, the run stops at once, sends you a Telegram alert, and continues from the same point after you top up.
+
+  **Trade-off:** discovery relies on news coverage, so an announcement that appears only on a bank's own website, with no news article, can be missed. Summaries are based on the headline, not the full article.
 
 ## How the agent decides what counts
-The inclusion rules are in `SYSTEM_PROMPT` in `agent/tracker.py`. Each run works in two steps:
-1. **Research.** Claude searches English and Arabic news and the banks' newsrooms within a date window. It is told which items are already tracked, so it skips them.
-2. **Structure.** The findings are converted into strict JSON with a bank id, date, category, tags, partners, impact and source.
+Each run works in three steps:
+1. **Find (free).** For every bank, the code queries Google News RSS in English (bank name, aliases and AI terms) and in Arabic (the Arabic bank name plus "الذكاء الاصطناعي"). Daily runs look at the last 7 days. The history load searches quarter by quarter over 24 months.
+2. **Filter (free).** Headlines without AI-related words are dropped. Duplicate stories are merged. Headlines screened in an earlier run are skipped.
+3. **Screen (Claude Haiku).** The remaining headlines go to Claude in batches. Claude keeps only a bank's own AI news, names the bank, and assigns a category, tags, partners and any stated impact. It also writes a short English summary that sticks to what the headline says. The inclusion rules are in `system_prompt()` in `agent/tracker.py`.
 
-Before an item is saved, the code checks three things:
-- the bank id is known
-- the date falls inside the window
-- the source URL actually appeared in the search results, which stops invented links
-
-The same story from several outlets is merged into one item, with the extra links kept as additional sources.
+Every item links to the article it came from. The extra outlets for the same story are kept as additional sources.
 
 Categories: Strategy & Investment · Generative AI · Customer Experience · Operations & Automation · Risk, Fraud & Compliance · Partnership · Data & Infrastructure · Talent & Training · Awards & Outcomes · Governance & Regulation.
 
 ## Project layout
 ```
 config/banks.json            bank universe (names, Arabic names, domains, aliases)
-agent/tracker.py             AI research agent + Telegram notifier
+agent/tracker.py             news finder + Claude screener + Telegram notifier
 data/news.json               the news database (updated by the Action)
 data/state.json              run bookkeeping (last run, history progress)
 site/                        static mobile dashboard (HTML/CSS/JS, no build step)
