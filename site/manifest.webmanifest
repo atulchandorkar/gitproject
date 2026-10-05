@@ -1,9 +1,16 @@
 {
-  "name": "GCC Bank AI Tracker",
-  "short_name": "Bank AI",
+  "name": "GCC Banking – AI Pulse Monitor",
+  "short_name": "AI Pulse",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f6f5f1",
-  "theme_color": "#0f3d3a",
-  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+  "theme_color": "#0b1b3f",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
 }

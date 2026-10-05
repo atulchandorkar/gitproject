@@ -1,4 +1,6 @@
-# GCC Bank AI Tracker
+# GCC Banking – AI Pulse Monitor
+
+*Tracking AI in Gulf banks, daily.*
 
 A mobile-first dashboard and Telegram alert service that tracks **AI initiatives by banks in the GCC**: strategy, investments, GenAI deployments, partnerships, talent programmes, awards and measurable outcomes. It covers the UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain.
 

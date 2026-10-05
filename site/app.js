@@ -4,18 +4,9 @@
 
   const app = document.getElementById("app");
 
-  // Brand: title + colour theme. Alternatives kept for preview via ?brand=a|b|c (temporary).
-  const BRANDS = {
-    a: { name: "GCC Bank AI", word: "Pulse", tagline: "The heartbeat of AI across Gulf banking" },
-    b: { name: "Gulf Banking AI", word: "Radar", tagline: "Every AI move by every GCC bank" },
-    c: { name: "Khaleej AI Bank", word: "Monitor", tagline: "Tracking AI in Gulf banks, every day" },
-  };
-  const brandKey = (new URLSearchParams(location.search).get("brand") || "a").toLowerCase();
-  const BRAND = BRANDS[brandKey] || BRANDS.a;
-  document.documentElement.dataset.brand = BRANDS[brandKey] ? brandKey : "a";
-  document.getElementById("brandName").textContent = BRAND.name;
-  document.getElementById("brandWord").textContent = BRAND.word;
-  document.title = `${BRAND.name} ${BRAND.word}`;
+  // Brand
+  const BRAND = { name: "GCC Banking", word: "AI Pulse Monitor", tagline: "Tracking AI in Gulf banks, daily" };
+  document.title = `${BRAND.name} – ${BRAND.word}`;
 
   const ICONS = {
     news: '<path d="M5 5h11v14H6a1 1 0 0 1-1-1V5zM16 9h3v9a1 1 0 0 1-1 1h-2M8 9h5M8 12h5M8 15h3"/>',
@@ -248,7 +239,7 @@
       <section class="hero">
         ${NETWORK}
         <div class="hero-eyebrow"><span class="live-dot"></span>Live${updated ? ` · updated ${esc(updated)}` : ""}</div>
-        <h1 class="hero-title">${esc(BRAND.name)} <b>${esc(BRAND.word)}</b></h1>
+        <h1 class="hero-title"><span class="hero-kicker">${esc(BRAND.name)}</span><b>${esc(BRAND.word)}</b></h1>
         <p class="hero-tag">${esc(BRAND.tagline)}</p>
         <div class="hero-kpis" id="heroKpis"></div>
         <div class="hero-countries" id="countryChips">

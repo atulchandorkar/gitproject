@@ -608,9 +608,9 @@ class Telegram:
         recent = sorted(items, key=lambda i: i["date"], reverse=True)
         if len(recent) <= 12:
             for i in recent:
-                self.send("🤖 <b>New GCC bank AI update</b>\n\n" + self.format_item(i))
+                self.send("🤖 <b>GCC Banking – AI Pulse Monitor</b>\n\n" + self.format_item(i))
             return
-        chunks, cur = [], f"🤖 <b>{len(recent)} new GCC bank AI updates</b>\n"
+        chunks, cur = [], f"🤖 <b>AI Pulse Monitor · {len(recent)} new GCC bank AI updates</b>\n"
         for i in recent:
             b, c = self.banks[i["bank_id"]], self.countries[i["country"]]
             line = (f"\n{c['flag']} <b>{html.escape(b['short'])}</b> – "
@@ -644,7 +644,7 @@ def main() -> None:
     if args.mode == "telegram-test":
         if not tg.enabled:
             sys.exit("Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID first.")
-        tg.send("✅ GCC Bank AI Tracker is connected. You'll receive new bank AI updates here.")
+        tg.send("✅ GCC Banking – AI Pulse Monitor is connected. You'll receive new bank AI updates here.")
         return
 
     try:  # free: refresh bank logos for the dashboard (every 60 days per bank)
@@ -678,7 +678,7 @@ def main() -> None:
         print(f"Done. {len(added)} new items ({len(fresh)} recent, sent to Telegram).")
     except FatalAPIError as exc:
         tracker.save()
-        tg.send(f"⚠️ <b>GCC Bank AI Tracker stopped</b>\n{html.escape(str(exc))}.\n"
+        tg.send(f"⚠️ <b>AI Pulse Monitor stopped</b>\n{html.escape(str(exc))}.\n"
                 "Top up credits at console.anthropic.com → Billing; the next run continues where it stopped.")
         sys.exit(f"Stopped: {exc}")
 
