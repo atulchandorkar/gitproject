@@ -37,13 +37,13 @@ jobs:
   collect:
     if: github.event_name != 'push' && inputs.mode != 'deploy'
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    timeout-minutes: 120
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
-      TRACKER_MODEL: ${{ vars.TRACKER_MODEL || 'claude-sonnet-5-5' }}
+      TRACKER_MODEL: ${{ vars.TRACKER_MODEL || 'claude-haiku-4-5' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

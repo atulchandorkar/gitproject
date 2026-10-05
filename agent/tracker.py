@@ -1,12 +1,12 @@
-"""GCC Bank AI Tracker agent.
+"""GCC Bank AI Tracker agent (low-cost edition).
 
-Searches the web (English + Arabic) for AI initiatives announced by or about
-GCC banks, keeps only bank-specific AI news, stores it in data/news.json and
-pushes new items to Telegram.
+Discovery is free: Google News RSS search feeds (English + Arabic) per bank.
+Claude Haiku only screens the new headlines in batches: it keeps bank-specific AI news,
+assigns the bank and category, and writes a short English summary.
 
 Usage:
-  python agent/tracker.py update                 # daily run (auto-backfills banks not yet covered)
-  python agent/tracker.py backfill [--country QA] [--banks qnb,qib] [--months 24]
+  python agent/tracker.py update                 # daily run (auto-loads history for banks not yet covered)
+  python agent/tracker.py backfill [--country QA] [--banks qnb,qib] [--months 24] [--force]
   python agent/tracker.py telegram-test          # send a test message
 """
 
@@ -15,6 +15,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures as cf
 import datetime as dt
+import email.utils
 import hashlib
 import html
 import json
@@ -24,6 +25,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Literal
 
@@ -35,66 +37,67 @@ BANKS_FILE = ROOT / "config" / "banks.json"
 NEWS_FILE = ROOT / "data" / "news.json"
 STATE_FILE = ROOT / "data" / "state.json"
 
-MODEL = os.environ.get("TRACKER_MODEL") or "claude-sonnet-5-5"
-SEARCH_EFFORT = os.environ.get("TRACKER_EFFORT", "medium")
-WORKERS = int(os.environ.get("TRACKER_WORKERS", "4"))
-FALLBACK_BETA = "server-side-fallback-2026-07-01"
-MAX_CONTINUATIONS = 5
+MODEL = os.environ.get("TRACKER_MODEL") or "claude-haiku-4-5"
+BATCH = 40                 # headlines per Claude call
+WORKERS = 4                # parallel Claude calls
+FEED_PAUSE = 0.8           # seconds between Google News requests (be polite)
+SEEN_KEEP_DAYS = 800       # remember screened headlines so they are never paid for twice
 
 CATEGORIES = [
-    "Strategy & Investment",
-    "Generative AI",
-    "Customer Experience",
-    "Operations & Automation",
-    "Risk, Fraud & Compliance",
-    "Partnership",
-    "Data & Infrastructure",
-    "Talent & Training",
-    "Awards & Outcomes",
-    "Governance & Regulation",
+    "Strategy & Investment", "Generative AI", "Customer Experience", "Operations & Automation",
+    "Risk, Fraud & Compliance", "Partnership", "Data & Infrastructure", "Talent & Training",
+    "Awards & Outcomes", "Governance & Regulation",
 ]
 Category = Literal[
-    "Strategy & Investment",
-    "Generative AI",
-    "Customer Experience",
-    "Operations & Automation",
-    "Risk, Fraud & Compliance",
-    "Partnership",
-    "Data & Infrastructure",
-    "Talent & Training",
-    "Awards & Outcomes",
-    "Governance & Regulation",
+    "Strategy & Investment", "Generative AI", "Customer Experience", "Operations & Automation",
+    "Risk, Fraud & Compliance", "Partnership", "Data & Infrastructure", "Talent & Training",
+    "Awards & Outcomes", "Governance & Regulation",
 ]
 
+AI_TERMS_EN = ('AI OR "artificial intelligence" OR "generative AI" OR GenAI OR "machine learning" OR chatbot '
+               'OR "virtual assistant" OR "AI-powered" OR agentic OR LLM')
+AI_TERMS_AR = '"الذكاء الاصطناعي" OR "ذكاء اصطناعي" OR "التعلم الآلي"'
+# Cheap local pre-filter: a headline must mention AI-ish words before Claude ever sees it.
+AI_RE = re.compile(
+    r"\b(ai|a\.i\.|genai|gen ai|llm|llms|gpt|copilot|chatbot|chat bot|agentic|machine learning|"
+    r"artificial intelligence|generative|virtual assistant|digital assistant|ai-powered|ai-driven|"
+    r"automation|robotic|robo|algorithm|predictive|analytics|data platform|digital human|avatar|"
+    r"intelligent|smart assistant|voice assistant|biometric|facial recognition)\b"
+    r"|الذكاء الاصطناعي|ذكاء اصطناعي|الذكاء الإصطناعي|التعلم الآلي|روبوت|مساعد افتراضي|المساعد الرقمي|التحليلات",
+    re.IGNORECASE,
+)
+# Short codes that are distinctive enough to search on their own.
+SHORT_OK = {"QNB", "QIB", "FAB", "SNB", "NBK", "KFH", "DIB", "ADIB", "ADCB", "ENBD", "QIIB", "BisB", "SAMA",
+            "CBUAE", "SAIB", "NBB", "KIB", "BBK", "RAKBANK"}
+
+
+class FatalAPIError(RuntimeError):
+    """Billing/auth problems: retrying other batches is pointless."""
+
 
 # --------------------------------------------------------------------------- #
-# Data models
+# Models for Claude's structured output
 # --------------------------------------------------------------------------- #
-class ExtractedItem(BaseModel):
-    bank_id: str = Field(description="id of the bank from the provided bank list")
-    date: str = Field(description="Announcement/publication date, YYYY-MM-DD")
-    title: str = Field(description="Concise English headline, max ~110 chars")
-    summary: str = Field(description="2-3 sentence English summary of what the bank is doing with AI")
+class Kept(BaseModel):
+    i: int = Field(description="index of the headline in the input list")
+    bank_id: str = Field(description="id of the bank the news is about, from the bank list")
+    title: str = Field(description="clear English headline (translate Arabic), max ~110 chars")
+    summary: str = Field(description="one or two English sentences, ONLY facts stated or directly implied by the headline")
     category: Category
-    tags: list[str] = Field(description="2-5 short AI topic tags, e.g. 'GenAI', 'Chatbot', 'Fraud detection'")
-    partners: list[str] = Field(description="Named technology partners/vendors, empty if none")
-    impact: str = Field(description="Quantified outcome or investment figure if stated (e.g. '30% faster onboarding'), else empty string")
-    source_url: str = Field(description="Exact URL of the source article, copied from search results")
-    source_name: str = Field(description="Publisher name, e.g. 'Gulf News', 'QNB press release'")
-    language: Literal["en", "ar"]
+    tags: list[str] = Field(description="1-4 short AI topic tags, e.g. 'GenAI', 'Chatbot', 'Fraud detection'")
+    partners: list[str] = Field(description="technology partners named in the headline, else empty")
+    impact: str = Field(description="number/outcome stated in the headline (e.g. '$100m investment'), else empty")
 
 
-class Extraction(BaseModel):
-    items: list[ExtractedItem]
+class Screened(BaseModel):
+    items: list[Kept]
 
 
 # --------------------------------------------------------------------------- #
-# Storage helpers
+# Helpers
 # --------------------------------------------------------------------------- #
 def load_json(path: Path, default):
-    if path.exists():
-        return json.loads(path.read_text(encoding="utf-8"))
-    return default
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
 
 
 def save_json(path: Path, data) -> None:
@@ -112,148 +115,181 @@ def now_iso() -> str:
     return dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
 
 
-def norm_url(url: str) -> str:
-    """Normalise a URL for comparison (scheme, www, tracking params, trailing slash)."""
-    try:
-        p = urllib.parse.urlsplit(url.strip())
-    except ValueError:
-        return url.strip().lower()
-    host = p.netloc.lower().removeprefix("www.")
-    query = urllib.parse.urlencode(
-        [(k, v) for k, v in urllib.parse.parse_qsl(p.query) if not k.lower().startswith(("utm_", "fbclid", "gclid"))]
-    )
-    path = urllib.parse.unquote(p.path).rstrip("/")
-    return f"{host}{path}" + (f"?{query}" if query else "")
-
-
 def title_tokens(title: str) -> set[str]:
-    stop = {"the", "a", "an", "and", "of", "to", "in", "for", "with", "on", "its", "by", "at", "as", "new"}
-    return {w for w in re.findall(r"[a-z0-9]+", title.lower()) if w not in stop and len(w) > 2}
+    stop = {"the", "a", "an", "and", "of", "to", "in", "for", "with", "on", "its", "by", "at", "as", "new",
+            "bank", "launches", "announces"}
+    return {w for w in re.findall(r"[\w]+", title.lower()) if w not in stop and len(w) > 2}
 
 
-def similar(a: str, b: str) -> bool:
+def similar(a: str, b: str, threshold: float = 0.5) -> bool:
     ta, tb = title_tokens(a), title_tokens(b)
-    if not ta or not tb:
-        return False
-    return len(ta & tb) / len(ta | tb) >= 0.5
+    return bool(ta and tb) and len(ta & tb) / len(ta | tb) >= threshold
+
+
+def key_of(title: str) -> str:
+    return hashlib.sha1(" ".join(sorted(title_tokens(title))).encode()).hexdigest()[:14]
+
+
+def is_arabic(s: str) -> bool:
+    return bool(re.search(r"[؀-ۿ]", s))
 
 
 # --------------------------------------------------------------------------- #
-# Claude agent
+# Free discovery: Google News RSS
 # --------------------------------------------------------------------------- #
-SYSTEM_PROMPT = f"""You are a senior research analyst for the Head of AI at a large GCC bank. \
-You track how banks in the GCC (UAE, Saudi Arabia, Qatar, Kuwait, Oman, Bahrain) use artificial intelligence.
-
-INCLUDE an item only when ALL of these hold:
-- It is about a specific bank from the provided list (including central banks, Islamic banks, digital banks and their \
-named subsidiaries/brands), either published by the bank itself or reported by credible media.
-- Its subject is that bank's OWN use of AI: AI strategy or investment, AI/GenAI/ML deployments, AI-powered products \
-(assistants, chatbots, robo-advice, credit decisioning), AI for fraud/AML/risk/compliance, automation driven by AI, \
-data & AI platforms, AI partnerships/MoUs where the bank is a party, AI talent/academy programmes, AI awards or \
-measurable AI outcomes, executive statements about the bank's AI roadmap, and (for central banks) AI regulation, \
-guidance or supervisory AI tools.
-
-EXCLUDE: fintech/startup news where no listed bank is a party; general AI or tech-industry news; generic \
-"digital transformation" with no AI component; market/stock commentary; sponsored listicles; vendor marketing that \
-does not name the bank as a client; duplicates of the same announcement.
-
-Search in English and Arabic (use the Arabic bank names; e.g. "<Arabic name> الذكاء الاصطناعي"). Prefer the bank's own \
-press release/newsroom when available, otherwise a reputable outlet (Zawya, Gulf News, The National, Arab News, \
-Gulf Times, The Peninsula, Arabian Business, Argaam, Times of Oman, Arab Times, Gulf Daily News, Reuters, Bloomberg, etc.).
-
-Be precise about dates: use the article's publication or announcement date. Only report URLs that actually appeared \
-in your search/fetch results — never construct or guess a URL.
-
-Categories to use: {", ".join(CATEGORIES)}.
-
-When you are done searching, write a findings report: one entry per qualifying item with bank id, date (YYYY-MM-DD), \
-headline, 2-3 sentence summary, category, tags, partners, any quantified impact/investment, source URL, publisher \
-and language. If nothing qualifies, say "NO QUALIFYING ITEMS"."""
+def search_terms(b: dict) -> list[str]:
+    terms = [b["name"]] + list(b.get("aliases", [])) + [b["short"]]
+    out = []
+    for t in terms:
+        t = t.strip()
+        if t and t not in out and (" " in t or len(t) >= 5 or t in SHORT_OK):
+            out.append(t)
+    return out
 
 
-def bank_line(b: dict) -> str:
-    aliases = f"; aka {', '.join(b['aliases'])}" if b.get("aliases") else ""
-    return f"- id={b['id']} | {b['name']} ({b.get('name_ar', '')}){aliases} | site: {b['domain']} | type: {b['type']}"
+def gnews(query: str, lang: str) -> list[dict]:
+    params = {"q": query, "hl": lang, "gl": "AE", "ceid": f"AE:{lang}"}
+    url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(params)
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (GCC-Bank-AI-Tracker)"})
+    for attempt in range(3):
+        try:
+            body = urllib.request.urlopen(req, timeout=25).read()
+            break
+        except Exception as exc:
+            if attempt == 2:
+                print(f"  ! feed failed ({exc!r}): {query[:60]}", file=sys.stderr)
+                return []
+            time.sleep(3 * (attempt + 1))
+    try:
+        root = ET.fromstring(body)
+    except ET.ParseError:
+        return []
+    out = []
+    for it in root.iter("item"):
+        title = (it.findtext("title") or "").strip()
+        src_el = it.find("source")
+        source = (src_el.text or "").strip() if src_el is not None else ""
+        if source and title.endswith(" - " + source):
+            title = title[: -len(source) - 3].strip()
+        try:
+            date = email.utils.parsedate_to_datetime(it.findtext("pubDate") or "").date()
+        except (TypeError, ValueError):
+            continue
+        link = (it.findtext("link") or "").strip()
+        if title and link:
+            out.append({"title": title, "url": link, "source": source, "date": date.isoformat(),
+                        "language": "ar" if is_arabic(title) else "en"})
+    return out
 
 
-class Agent:
-    def __init__(self) -> None:
-        self.client = anthropic.Anthropic(max_retries=4, timeout=900)
+def bank_queries(b: dict, window: tuple[dt.date, dt.date] | None) -> list[tuple[str, str]]:
+    names = " OR ".join(f'"{t}"' for t in search_terms(b))
+    when = f" after:{window[0].isoformat()} before:{window[1].isoformat()}" if window else " when:7d"
+    qs = [(f"({names}) ({AI_TERMS_EN}){when}", "en")]
+    if b.get("name_ar"):
+        qs.append((f'"{b["name_ar"]}" ({AI_TERMS_AR}){when}', "ar"))
+    return qs
 
-    # -- search step -------------------------------------------------------- #
-    def search(self, prompt: str, max_searches: int) -> tuple[str, set[str]]:
-        tools = [
-            {"type": "web_search_20260209", "name": "web_search", "max_uses": max_searches},
-            {"type": "web_fetch_20260209", "name": "web_fetch", "max_uses": max(3, max_searches // 2)},
-        ]
-        user_msg = {"role": "user", "content": prompt}
-        messages: list[dict] = [user_msg]
-        assistant_content: list = []
-        seen_urls: set[str] = set()
-        report_parts: list[str] = []
 
-        for _ in range(MAX_CONTINUATIONS + 1):
-            with self.client.beta.messages.stream(
+def discover(banks: list[dict], windows: list[tuple[dt.date, dt.date] | None]) -> list[dict]:
+    """Fetch headlines for each bank/window, pre-filter for AI words, collapse duplicate stories."""
+    found: list[dict] = []
+    for b in banks:
+        for w in windows:
+            for q, lang in bank_queries(b, w):
+                for c in gnews(q, lang):
+                    if AI_RE.search(c["title"]):
+                        c["bank_hint"] = b["id"]
+                        found.append(c)
+                time.sleep(FEED_PAUSE)
+    # Drop exact repeats, then collapse the same story from several outlets (same bank, similar title, ≤7 days).
+    found = list({(c["bank_hint"], c["url"]): c for c in found}.values())
+    found.sort(key=lambda c: c["date"])
+    clusters: list[dict] = []
+    for c in found:
+        for k in clusters:
+            if (k["bank_hint"] == c["bank_hint"] and similar(k["title"], c["title"])
+                    and abs((dt.date.fromisoformat(k["date"]) - dt.date.fromisoformat(c["date"])).days) <= 7):
+                if c["url"] != k["url"] and c["url"] not in k["other_sources"] and len(k["other_sources"]) < 4:
+                    k["other_sources"].append(c["url"])
+                break
+        else:
+            c["other_sources"] = []
+            clusters.append(c)
+    return clusters
+
+
+# --------------------------------------------------------------------------- #
+# Claude screening (the only paid step)
+# --------------------------------------------------------------------------- #
+def system_prompt(banks: dict) -> str:
+    lines = "\n".join(f"{b['id']} | {b['name']} | {b.get('name_ar', '')} | {b['country']} | {b['type']}"
+                      for b in banks.values())
+    return f"""You screen news headlines for the Head of AI at a GCC bank. Keep ONLY headlines about a specific \
+bank from the list below doing something with AI itself: AI strategy or investment, AI/GenAI/ML deployments, \
+AI-powered products or assistants, AI for fraud/AML/risk/compliance, AI-driven automation, data & AI platforms, \
+AI partnerships where the bank is a party, AI talent programmes, AI awards or measurable AI outcomes, executives \
+describing the bank's own AI plans, and central-bank AI regulation or supervisory AI tools.
+
+REJECT: general AI/tech news; fintech or startup news where no listed bank is a party; market, economy or stock \
+commentary (e.g. a bank's research report about AI in the economy); generic digital news with no AI element; \
+headlines where the bank is unclear; anything you are not confident about. Most headlines should be rejected.
+
+The bank_hint tells you which bank's search found the headline, but assign the bank the headline is actually about \
+(use its id) or reject it. Write everything in English. The summary must not invent details that are not in the \
+headline. Categories: {", ".join(CATEGORIES)}.
+
+Return only the kept headlines; return an empty list if none qualify.
+
+Banks (id | name | Arabic name | country | type):
+{lines}"""
+
+
+class Screener:
+    def __init__(self, banks: dict) -> None:
+        self.client = anthropic.Anthropic(max_retries=4)
+        self.system = system_prompt(banks)
+        self.banks = banks
+
+    def screen(self, batch: list[dict]) -> list[Kept]:
+        rows = "\n".join(json.dumps({"i": i, "bank_hint": c["bank_hint"], "date": c["date"], "source": c["source"],
+                                     "title": c["title"]}, ensure_ascii=False) for i, c in enumerate(batch))
+        try:
+            resp = self.client.messages.parse(
                 model=MODEL,
-                max_tokens=32000,
-                system=SYSTEM_PROMPT,
-                tools=tools,
-                messages=messages,
-                output_config={"effort": SEARCH_EFFORT},
-                betas=[FALLBACK_BETA],
-                fallbacks="default",
-            ) as stream:
-                msg = stream.get_final_message()
-
-            if msg.stop_reason == "refusal":
-                print(f"  ! refusal: {getattr(msg.stop_details, 'category', None)}", file=sys.stderr)
-                break
-
-            for block in msg.content:
-                if block.type == "web_search_tool_result" and isinstance(block.content, list):
-                    for r in block.content:
-                        if getattr(r, "url", None):
-                            seen_urls.add(norm_url(r.url))
-                elif block.type == "web_fetch_tool_result":
-                    url = getattr(block.content, "url", None)
-                    if url:
-                        seen_urls.add(norm_url(url))
-                elif block.type == "text":
-                    report_parts.append(block.text)
-
-            if msg.stop_reason != "pause_turn":
-                break
-            # Paused mid server-tool loop: resend the turn so far and the server resumes it.
-            assistant_content += msg.content
-            messages = [user_msg, {"role": "assistant", "content": assistant_content}]
-
-        return "".join(report_parts).strip(), seen_urls
-
-    # -- structuring step --------------------------------------------------- #
-    def structure(self, report: str, banks: list[dict]) -> list[ExtractedItem]:
-        if not report or "NO QUALIFYING ITEMS" in report and len(report) < 200:
-            return []
-        ids = ", ".join(f"{b['id']} ({b['short']})" for b in banks)
-        resp = self.client.beta.messages.parse(
-            model=MODEL,
-            max_tokens=16000,
-            output_config={"effort": "low"},
-            output_format=Extraction,
-            betas=[FALLBACK_BETA],
-            fallbacks="default",
-            messages=[{
-                "role": "user",
-                "content": (
-                    "Convert this research report into structured items. Use only these bank ids: "
-                    f"{ids}.\nKeep only items that are clearly about a listed bank's own AI activity. "
-                    "Write titles and summaries in English (translate Arabic). Copy source URLs exactly.\n\n"
-                    f"<report>\n{report}\n</report>"
-                ),
-            }],
-        )
+                max_tokens=8000,
+                system=[{"type": "text", "text": self.system, "cache_control": {"type": "ephemeral"}}],
+                messages=[{"role": "user", "content": f"Headlines:\n{rows}"}],
+                output_format=Screened,
+            )
+        except (anthropic.AuthenticationError, anthropic.PermissionDeniedError) as exc:
+            raise FatalAPIError(str(exc)) from exc
+        except anthropic.BadRequestError as exc:
+            if "credit balance" in str(exc).lower():
+                raise FatalAPIError("Anthropic credit balance is too low") from exc
+            raise
         if resp.stop_reason == "refusal" or resp.parsed_output is None:
             return []
-        return resp.parsed_output.items
+        return [k for k in resp.parsed_output.items if 0 <= k.i < len(batch) and k.bank_id in self.banks]
+
+    def screen_all(self, cands: list[dict]) -> list[tuple[dict, Kept]]:
+        batches = [cands[i:i + BATCH] for i in range(0, len(cands), BATCH)]
+        kept: list[tuple[dict, Kept]] = []
+        with cf.ThreadPoolExecutor(max_workers=WORKERS) as pool:
+            futures = {pool.submit(self.screen, b): b for b in batches}
+            for fut in cf.as_completed(futures):
+                batch = futures[fut]
+                try:
+                    kept += [(batch[k.i], k) for k in fut.result()]
+                except FatalAPIError:
+                    for f in futures:
+                        f.cancel()
+                    raise
+                except Exception as exc:
+                    print(f"  ! screening batch failed: {exc!r}", file=sys.stderr)
+                    for c in batch:          # let these be retried next run
+                        c["_failed"] = True
+        return kept
 
 
 # --------------------------------------------------------------------------- #
@@ -265,148 +301,82 @@ class Tracker:
         self.countries = {c["code"]: c for c in cfg["countries"]}
         self.banks = {b["id"]: b for b in cfg["banks"]}
         self.news = load_json(NEWS_FILE, {"updated_at": None, "items": []})
-        self.state = load_json(STATE_FILE, {"last_update": None, "backfilled": {}})
-        self.agent = Agent()
-
-    # -- merging ------------------------------------------------------------ #
-    def merge(self, extracted: list[ExtractedItem], seen_urls: set[str], min_date: dt.date) -> list[dict]:
-        added: list[dict] = []
-        items = self.news["items"]
-        by_url = {(i["bank_id"], norm_url(i["source_url"])) for i in items}
-        for e in extracted:
-            bank = self.banks.get(e.bank_id)
-            if not bank:
-                continue
-            try:
-                d = dt.date.fromisoformat(e.date[:10])
-            except ValueError:
-                continue
-            if d < min_date or d > today() + dt.timedelta(days=1):
-                continue
-            nurl = norm_url(e.source_url)
-            if seen_urls and nurl not in seen_urls:
-                print(f"  - dropped (URL not in search results): {e.source_url}", file=sys.stderr)
-                continue
-            if (e.bank_id, nurl) in by_url:
-                continue
-            dup = next(
-                (i for i in items if i["bank_id"] == e.bank_id
-                 and abs((dt.date.fromisoformat(i["date"]) - d).days) <= 10
-                 and similar(i["title"], e.title)),
-                None,
-            )
-            if dup:
-                if nurl != norm_url(dup["source_url"]) and e.source_url not in dup.setdefault("other_sources", []):
-                    dup["other_sources"].append(e.source_url)
-                continue
-            item = {
-                "id": hashlib.sha1(f"{e.bank_id}|{nurl}".encode()).hexdigest()[:12],
-                "bank_id": e.bank_id,
-                "country": bank["country"],
-                "date": d.isoformat(),
-                "title": e.title.strip(),
-                "summary": e.summary.strip(),
-                "category": e.category,
-                "tags": [t.strip() for t in e.tags if t.strip()][:5],
-                "partners": [p.strip() for p in e.partners if p.strip()],
-                "impact": e.impact.strip(),
-                "source_url": e.source_url.strip(),
-                "source_name": e.source_name.strip(),
-                "language": e.language,
-                "added_at": now_iso(),
-            }
-            items.append(item)
-            by_url.add((e.bank_id, nurl))
-            added.append(item)
-        return added
+        self.state = load_json(STATE_FILE, {})
+        self.state.setdefault("seen", {})
+        self.state.setdefault("history_loaded", {})
+        self.state.pop("backfilled", None)  # from the old web-search edition
 
     def save(self) -> None:
+        cutoff = (today() - dt.timedelta(days=SEEN_KEEP_DAYS)).isoformat()
+        self.state["seen"] = {k: v for k, v in self.state["seen"].items() if v >= cutoff}
         self.news["items"].sort(key=lambda i: (i["date"], i["added_at"]), reverse=True)
         self.news["updated_at"] = now_iso()
         save_json(NEWS_FILE, self.news)
         save_json(STATE_FILE, self.state)
 
-    def known_titles(self, bank_ids: set[str], since: dt.date) -> str:
-        rows = [f"- {i['date']} {self.banks[i['bank_id']]['short']}: {i['title']}"
-                for i in self.news["items"] if i["bank_id"] in bank_ids and i["date"] >= since.isoformat()]
-        return "\n".join(rows[:150]) or "(none)"
+    def process(self, cands: list[dict], screener: Screener, min_date: dt.date) -> list[dict]:
+        seen = self.state["seen"]
+        fresh = [c for c in cands if key_of(c["title"]) not in seen and c["date"] >= min_date.isoformat()]
+        print(f"  {len(cands)} headlines found, {len(fresh)} new to screen")
+        if not fresh:
+            return []
+        kept = screener.screen_all(fresh)
+        for c in fresh:
+            if not c.get("_failed"):
+                seen[key_of(c["title"])] = c["date"]
+        return self.merge(kept)
 
-    # -- jobs --------------------------------------------------------------- #
-    def run_job(self, banks: list[dict], start: dt.date, end: dt.date, max_searches: int, focus: str):
-        known = self.known_titles({b["id"] for b in banks}, start)
-        prompt = (
-            f"{focus}\n\nTime window: {start.isoformat()} to {end.isoformat()} (today is {today().isoformat()}).\n\n"
-            f"Banks in scope:\n" + "\n".join(bank_line(b) for b in banks) +
-            f"\n\nAlready tracked (do not report again unless materially new):\n{known}"
-        )
-        report, seen = self.agent.search(prompt, max_searches)
-        return self.agent.structure(report, banks), seen
+    def merge(self, kept: list[tuple[dict, Kept]]) -> list[dict]:
+        items, added = self.news["items"], []
+        for c, k in kept:
+            bank = self.banks[k.bank_id]
+            dup = next((i for i in items if i["bank_id"] == k.bank_id
+                        and abs((dt.date.fromisoformat(i["date"]) - dt.date.fromisoformat(c["date"])).days) <= 10
+                        and (similar(i["title"], k.title, 0.45) or i["source_url"] == c["url"])), None)
+            if dup:
+                extra = [u for u in [c["url"], *c["other_sources"]] if u != dup["source_url"]]
+                dup["other_sources"] = list(dict.fromkeys(dup.get("other_sources", []) + extra))[:6]
+                continue
+            item = {
+                "id": hashlib.sha1(f"{k.bank_id}|{c['url']}".encode()).hexdigest()[:12],
+                "bank_id": k.bank_id, "country": bank["country"], "date": c["date"],
+                "title": k.title.strip(), "summary": k.summary.strip(), "category": k.category,
+                "tags": [t.strip() for t in k.tags if t.strip()][:5],
+                "partners": [p.strip() for p in k.partners if p.strip()], "impact": k.impact.strip(),
+                "source_url": c["url"], "source_name": c["source"], "language": c["language"],
+                "added_at": now_iso(),
+            }
+            if c["other_sources"]:
+                item["other_sources"] = c["other_sources"]
+            items.append(item)
+            added.append(item)
+        return added
 
-    def backfill(self, bank_ids: list[str], months: int) -> list[dict]:
+    def history(self, bank_ids: list[str], months: int, screener: Screener) -> list[dict]:
         end = today()
         start = end - dt.timedelta(days=int(months * 30.5))
-        targets = [self.banks[b] for b in bank_ids]
-        print(f"Backfilling {len(targets)} banks from {start} …")
+        windows, s = [], start
+        while s < end:  # quarterly windows: Google News returns at most ~100 results per query
+            e = min(s + dt.timedelta(days=92), end + dt.timedelta(days=1))
+            windows.append((s, e))
+            s = e
         added_all: list[dict] = []
-
-        def job(b):
-            focus = (
-                f"Build a HISTORY of {b['name']}'s AI initiatives. Find as many distinct qualifying announcements as "
-                "possible across the whole window (aim for full coverage of each year; typical large banks have 10-30). "
-                f"Check the bank's newsroom on {b['domain']} and search English and Arabic news."
-            )
-            return b, *self.run_job([b], start, end, max_searches=12, focus=focus)
-
-        with cf.ThreadPoolExecutor(max_workers=WORKERS) as pool:
-            futures = [pool.submit(job, b) for b in targets]
-            for fut in cf.as_completed(futures):
-                try:
-                    b, extracted, seen = fut.result()
-                except Exception as exc:  # keep going; the bank will be retried next run
-                    print(f"  ! backfill failed: {exc!r}", file=sys.stderr)
-                    continue
-                added = self.merge(extracted, seen, start)
-                self.state["backfilled"][b["id"]] = today().isoformat()
-                added_all += added
-                print(f"  {b['short']}: +{len(added)}")
-                self.save()  # checkpoint after every bank
+        print(f"Loading history for {len(bank_ids)} banks since {start} ({len(windows)} windows each) …")
+        for bid in bank_ids:
+            b = self.banks[bid]
+            added = self.process(discover([b], windows), screener, start)
+            self.state["history_loaded"][bid] = today().isoformat()
+            added_all += added
+            print(f"  {b['short']}: +{len(added)}")
+            self.save()  # checkpoint after every bank
         return added_all
 
-    def update(self) -> list[dict]:
-        last = self.state.get("last_update")
-        start = (dt.date.fromisoformat(last[:10]) if last else today() - dt.timedelta(days=14)) - dt.timedelta(days=3)
-        start = max(start, today() - dt.timedelta(days=45))
-        groups: list[tuple[str, list[dict]]] = []
-        for code, c in self.countries.items():
-            commercial = [b for b in self.banks.values() if b["country"] == code and b["type"] != "central"]
-            groups.append((f"commercial banks in {c['name']}", commercial))
-        groups.append(("GCC central banks", [b for b in self.banks.values() if b["type"] == "central"]))
-
-        print(f"Incremental update from {start} …")
-        added_all: list[dict] = []
-
-        def job(label, banks):
-            focus = (
-                f"Find NEW AI-related announcements from {label} published in the time window. "
-                "Search broadly (e.g. '<bank> AI', '<bank> generative AI', '<bank> artificial intelligence', Arabic "
-                "equivalents, and the banks' newsrooms). Report every qualifying item."
-            )
-            return label, *self.run_job(banks, start, today(), max_searches=10, focus=focus)
-
-        with cf.ThreadPoolExecutor(max_workers=WORKERS) as pool:
-            futures = [pool.submit(job, label, banks) for label, banks in groups]
-            for fut in cf.as_completed(futures):
-                try:
-                    label, extracted, seen = fut.result()
-                except Exception as exc:
-                    print(f"  ! update failed: {exc!r}", file=sys.stderr)
-                    continue
-                added = self.merge(extracted, seen, today() - dt.timedelta(days=int(24 * 30.5)))
-                added_all += added
-                print(f"  {label}: +{len(added)}")
+    def update(self, screener: Screener) -> list[dict]:
+        print("Daily update (last 7 days of headlines) …")
+        added = self.process(discover(list(self.banks.values()), [None]), screener, today() - dt.timedelta(days=30))
         self.state["last_update"] = now_iso()
         self.save()
-        return added_all
+        return added
 
 
 # --------------------------------------------------------------------------- #
@@ -424,10 +394,11 @@ class Telegram:
         return bool(self.token and self.chat_ids)
 
     def send(self, text: str) -> None:
+        if not self.enabled:
+            return
         for chat in self.chat_ids:
-            body = urllib.parse.urlencode({
-                "chat_id": chat, "text": text, "parse_mode": "HTML", "disable_web_page_preview": "true",
-            }).encode()
+            body = urllib.parse.urlencode({"chat_id": chat, "text": text, "parse_mode": "HTML",
+                                           "disable_web_page_preview": "true"}).encode()
             req = urllib.request.Request(f"https://api.telegram.org/bot{self.token}/sendMessage", data=body)
             try:
                 urllib.request.urlopen(req, timeout=30).read()
@@ -438,11 +409,8 @@ class Telegram:
     def format_item(self, i: dict) -> str:
         b, c = self.banks[i["bank_id"]], self.countries[i["country"]]
         esc = html.escape
-        lines = [
-            f"{c['flag']} <b>{esc(b['short'])}</b> · {esc(i['category'])}",
-            f"<b>{esc(i['title'])}</b>",
-            esc(i["summary"]),
-        ]
+        lines = [f"{c['flag']} <b>{esc(b['short'])}</b> · {esc(i['category'])}", f"<b>{esc(i['title'])}</b>",
+                 esc(i["summary"])]
         if i.get("impact"):
             lines.append(f"📈 {esc(i['impact'])}")
         link = f'<a href="{esc(i["source_url"], quote=True)}">{esc(i["source_name"] or "Source")}</a>'
@@ -459,7 +427,6 @@ class Telegram:
             for i in recent:
                 self.send("🤖 <b>New GCC bank AI update</b>\n\n" + self.format_item(i))
             return
-        # Large batch: send a compact digest, split to Telegram's 4096-char limit.
         chunks, cur = [], f"🤖 <b>{len(recent)} new GCC bank AI updates</b>\n"
         for i in recent:
             b, c = self.banks[i["bank_id"]], self.countries[i["country"]]
@@ -485,8 +452,7 @@ def main() -> None:
     ap.add_argument("--country", help="Backfill only this country code (e.g. QA)")
     ap.add_argument("--banks", help="Comma-separated bank ids to backfill")
     ap.add_argument("--months", type=int, default=24)
-    ap.add_argument("--force", action="store_true", help="Backfill banks even if already done")
-    ap.add_argument("--max-banks", type=int, default=0, help="Cap banks backfilled in this run (0 = no cap)")
+    ap.add_argument("--force", action="store_true", help="Reload history even for banks already loaded")
     args = ap.parse_args()
 
     tracker = Tracker()
@@ -498,32 +464,34 @@ def main() -> None:
         tg.send("✅ GCC Bank AI Tracker is connected. You'll receive new bank AI updates here.")
         return
 
-    if args.mode == "backfill":
-        ids = [b.strip() for b in args.banks.split(",")] if args.banks else [
-            b["id"] for b in tracker.banks.values() if not args.country or b["country"] == args.country.upper()
-        ]
-        if not args.force:
-            ids = [i for i in ids if i not in tracker.state["backfilled"]]
-        if args.max_banks:
-            ids = ids[: args.max_banks]
-        added = tracker.backfill(ids, args.months)
-        if added and tg.enabled:
-            tg.send(f"📚 History loaded: <b>{len(added)}</b> AI initiatives added for {len(ids)} banks."
-                    + (f'\n<a href="{tg.dashboard}">Open dashboard</a>' if tg.dashboard else ""))
-        print(f"Done. {len(added)} items added.")
-        return
+    screener = Screener(tracker.banks)
+    try:
+        if args.mode == "backfill":
+            ids = [b.strip() for b in args.banks.split(",")] if args.banks else [
+                b["id"] for b in tracker.banks.values() if not args.country or b["country"] == args.country.upper()]
+            ids = [i for i in ids if i in tracker.banks and (args.force or i not in tracker.state["history_loaded"])]
+            added = tracker.history(ids, args.months, screener)
+            if added:
+                tg.send(f"📚 History loaded: <b>{len(added)}</b> AI initiatives added for {len(ids)} banks."
+                        + (f'\n<a href="{tg.dashboard}">Open dashboard</a>' if tg.dashboard else ""))
+            print(f"Done. {len(added)} items added.")
+            return
 
-    # update: first finish any banks that still lack history (no Telegram spam for history).
-    pending = [b for b in tracker.banks if b not in tracker.state["backfilled"]]
-    max_backfill = int(os.environ.get("AUTO_BACKFILL_PER_RUN", "80"))
-    if pending and max_backfill:
-        hist = tracker.backfill(pending[:max_backfill], args.months)
-        if hist and tg.enabled:
-            tg.send(f"📚 History loaded: <b>{len(hist)}</b> past AI initiatives added to the dashboard.")
-    added = tracker.update()
-    fresh = [i for i in added if i["date"] >= (today() - dt.timedelta(days=30)).isoformat()]
-    tg.notify(fresh)
-    print(f"Done. {len(added)} new items ({len(fresh)} recent, sent to Telegram).")
+        pending = [b for b in tracker.banks if b not in tracker.state["history_loaded"]]
+        if pending:
+            hist = tracker.history(pending, args.months, screener)
+            if hist:
+                tg.send(f"📚 History loaded: <b>{len(hist)}</b> past AI initiatives added to the dashboard."
+                        + (f'\n<a href="{tg.dashboard}">Open dashboard</a>' if tg.dashboard else ""))
+        added = tracker.update(screener)
+        fresh = [i for i in added if i["date"] >= (today() - dt.timedelta(days=30)).isoformat()]
+        tg.notify(fresh)
+        print(f"Done. {len(added)} new items ({len(fresh)} recent, sent to Telegram).")
+    except FatalAPIError as exc:
+        tracker.save()
+        tg.send(f"⚠️ <b>GCC Bank AI Tracker stopped</b>\n{html.escape(str(exc))}.\n"
+                "Top up credits at console.anthropic.com → Billing; the next run continues where it stopped.")
+        sys.exit(f"Stopped: {exc}")
 
 
 if __name__ == "__main__":
