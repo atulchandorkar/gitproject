@@ -1,0 +1,2316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html lang="en">
+	             
+<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-CWX6MQC2XL"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-CWX6MQC2XL');
+	</script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    <title>CBK</title>
+    <!-- Bootstrap -->
+    <link href="/Frontend/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- <link href="css/style-b.css" rel="stylesheet">-->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->				 
+    <script src="/Frontend/scripts/jquery-4.0.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/Frontend/js/bootstrap.min.js"></script>
+   <script src="/Frontend/scripts/script.js" type="text/javascript"></script>
+    <script src="/Frontend/scripts/swfobject.js" type="text/javascript"></script>
+    <script src="/Frontend/scripts/jquery-ui-1.14.2.min.js" type="text/javascript"></script>
+    <script src="/Frontend/scripts/modernizr-2.5.3.min.js" type="text/javascript"></script>
+    <script src="/Frontend/scripts/raphael-min.js" type="text/javascript"></script>
+    <script src="/Frontend/scripts/raphael-shapes.js" type="text/javascript"></script>
+    <script src="/Frontend/scripts/raphael-svg-import.js" type="text/javascript"></script>
+    <script src="/Frontend/scripts/klass.min.js" type="text/javascript"></script>
+    <script src="/Frontend/scripts/code.photoswipe.min.js" type="text/javascript"></script>
+    <!--Base styles here-->
+   
+    <link href="/Frontend/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/Frontend/css/custom-query.css" rel="stylesheet" type="text/css" />
+    <!--FOOTER POPUP SCRIPTS-->
+    
+    <!--Menu scripts starts here-->
+   <!-- <link href="/Frontend/Flexy/flexy-menu.css" rel="stylesheet"> -->
+    <link href="/Frontend/Flexy/flexy.css" rel="stylesheet" />
+    <script type="text/javascript" src="/Frontend/Flexy/flexy-menu.js"></script>
+	
+	
+				 
+<style type="text/css">
+        
+        /* Header - Matches current "my Tools" design */
+        .crowdPaneheader {
+            background: #08ad64;
+            padding: 18px 20px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .crowdPaneheader h1 {
+            margin: 0;
+            color: #ffffff;
+            font-size: 22px !important;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+            line-height: 1;
+            flex: 1;
+        }
+
+				 
+        .crowdPaneheader .title-prefix {
+            font-style: italic;
+            font-weight: 300;
+            font-size: 22px;
+            margin-right: 5px;
+        }
+
+        
+        /* Main Content Area with Green Background */
+        .crowdPanemain {			
+			padding: 15px 20px 20px;
+            background: url('/Frontend/Images/MyTools_background.jpg') no-repeat center center;
+			background-size: cover;
+			position: relative;
+			min-height: 550px;
+        }
+
+        /* Links Section - White buttons on green background */
+        .links-section {
+            margin-bottom: 15px;
+        }
+
+        .links-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .link-item {
+            display: block;
+            padding: 12px 15px;
+            background: #ffffff;
+            border: none;
+            border-radius: 3px;
+            text-decoration: none;
+            color: #333;
+            font-size: 13px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            text-align: left;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .link-item:hover {
+            background: #f0f0f0;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+        }
+
+        .link-item span {
+            display: block;
+        }
+
+
+		.crowdPanefooter-toolbox {
+			margin-top: 0;
+		}
+
+		.crowdPanefooter-toolbox .box-wrappar {
+			display: flex;
+			flex-direction: column;
+			gap: 0;
+		}
+				 
+        .tool-section {
+            margin-bottom: 20px;
+        }
+
+        .tool-title {
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 700;
+            margin: 0 0 15px 0;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .tool-content {
+            /* Tools content area - your Currency Converter and Loan Calculator will render here */
+        }
+
+        /* Bottom Container */
+        .bottomImgContainer {
+            height: 0;
+        }
+
+        /* Inactive State */
+        .pane.crowdPane.inactive .header {
+            background: #999999;
+        }
+
+        .pane.crowdPane.inactive .main {
+            background: linear-gradient(135deg, #cccccc 0%, #aaaaaa 50%, #999999 100%);
+        }
+
+        .pane.crowdPane.inactive .link-item {
+            background: rgba(255, 255, 255, 0.9);
+            color: #666;
+        }
+
+        .pane.crowdPane.inactive .link-item:hover {
+            background: rgba(255, 255, 255, 0.95);
+        }
+
+        .pane.crowdPane.inactive .tool-title {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* Demo Container */
+        .demo-container {
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+				 
+		 .crowdPanefooter-toolbox .box-wrappar {
+			  height:370px!important;
+		 }
+				 
+		.crowdPane {height:550px;}				 
+    </style>
+				 
+    <style type="text/css">
+        .rsbtn {
+        z-index:0 !important;
+        }
+    </style>
+
+	<style type="text/css">
+		div.gm-style {
+			z-index: 99999999999999999 !important;
+		}
+    </style>
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-59003435-1']);
+	  _gaq.push(['_trackPageview']);
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+				 
+   <style id="antiClickjack">body{display:none;} </style>
+
+	<script type="text/javascript">
+	if (self === top) {
+		var antiClickjack = document.getElementById("antiClickjack");
+		antiClickjack.parentNode.removeChild(antiClickjack);
+	}
+	else {
+		top.location = self.location;
+	}
+	</script>
+  
+    
+	
+<style type="text/css">
+	#MainBanner .bx-wrapper .bx-controls-direction a {
+		position: absolute;
+		top: 50%;
+		margin-top: -16px;
+		outline: 0;
+		width: 32px;
+		height: 32px;
+		text-indent: -9999px;
+		z-index: 9999;
+	}
+	#MainBanner .bx-wrapper .bx-prev {
+		left: 10px;
+		background: url(Frontend/images/controls.png) no-repeat 0 -32px;
+	}
+				 
+	#MainBanner .bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    outline: 0;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    z-index: 9999;
+	}
+	#MainBanner .bx-wrapper .bx-next {
+		right: 10px;
+		background: url(Frontend/images/controls.png) no-repeat -43px -32px;
+	}
+				 
+	#MainBanner .bx-wrapper img {
+    width: 100%;
+	}
+</style>
+
+				 
+    <script type="text/javascript">
+function InsertRewardCount() {
+		//	$.ajax({
+        //        url: "/ProcessData.aspx/Add_CBK_Report",
+        //        type: "POST",
+		//		data: '{EventType: "Al-Tijari Rewards", UpdateType:"Click", Lang: "En" }',
+         //       contentType: "application/json; charset=utf-8",
+		//		dataType: "json",
+         //       success: function (data) {
+         //       },
+        //        error: function (data) {
+         //       },
+         //       complete: function (data) {
+         //       }
+         //   });
+        }
+				 
+function InsertDisplayRDCount() {
+		//	$.ajax({
+        //        url: "/ProcessData.aspx/Add_CBK_Report",
+        //        type: "POST",
+		//		data: '{EventType: "Al-Tijari Rewards", UpdateType:"Read", Lang: "En" }',
+       //         contentType: "application/json; charset=utf-8",
+		//		dataType: "json",
+        //        success: function (data) {
+         //       },
+         //       error: function (data) {
+         //       },
+          //      complete: function (data) {
+          //      }
+         //   });
+        }				 
+
+        $(document).ready(function () {            
+	
+	$(".flexy-menu").flexymenu({
+		speed: 400, 
+		indicator: false});
+		
+	$('#news').bxSlider({
+    auto: true,
+    controls: false,
+	pager:true,
+	speed:1000,
+	pause:6800,
+	mode:'vertical',
+	pagerSelector:'#newpager'
+  });
+  
+  
+  var slider = $('#banner').bxSlider({
+    auto: true,
+	pager:false,
+	speed:1000,
+	pause:4000,
+	mode:'fade',
+	  onSlideAfter: function() {
+        slider.stopAuto();
+        slider.startAuto();
+        }	
+  });
+  
+  $('#caption').bxSlider({
+    auto: false,
+    controls: true,
+	pager:false,
+	speed:1500,
+	pause:6200,
+	//mode:'fade',
+	pagerSelector:'#newpager'
+  });
+ 
+ 
+ $(".btn-slide").click(function(){
+		$("#panel").slideToggle("slow");
+		$(this).toggleClass("active"); return false;
+	});
+ 			
+});
+				 
+
+    </script>
+    <!-- bxSlider CSS file -->
+    
+				 <script src="/Frontend/scripts/jquery.bxslider-4.2.17.js" type="text/javascript"></script>
+    <link href="/Frontend/css/jquery.bxslider.css" rel="stylesheet" />
+ <!--   <script src="modernizr.js"></script> -->
+    <link href="/Frontend/css/new.css" rel="stylesheet">
+
+    <script type="text/javascript">
+<!--
+    window.rsConf = { general: { usePost: true } };
+    //-->
+</script>
+ 
+<script src="//f1-as.readspeaker.com/script/10174/webReader/webReader.js?pids=wr" type="text/javascript"></script>
+
+
+</head>
+<body>    				 
+    
+    
+
+
+
+ <div class="modal fade" id="CBKInfoPopup" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        <span id="ctl00_ctl01_transheader">transaction processing</span></h4>
+                </div>
+                <div class="modal-body">
+                    <p>Test message</p>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+<script src="/Frontend/scripts/sweet_alerts.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+function sweetAlertqq(icon_, title_, text_) {
+        Swal.fire({
+            title: title_,
+            html: text_,
+            icon: icon_,
+            showCancelButton: false,
+			showConfirmButton: false,
+			showCloseButton: true,
+			//confirmButtonText: 'Close',
+            cancelButtonText: 'No, keep it',
+            html: text_
+			//customClass: {
+			//	confirmButton: 'btn-link' //insert class here
+			//}
+        });
+	
+		InsertDisplayRDCount();
+    }	
+</script>
+
+<style type="text/css">
+	.swal2-styled.swal2-confirm{
+		    font-size: 0.750em !important;
+			color:blue !important;
+			background-color:white !important;
+			outline: none !important;
+			border-radius:0 !important;
+			border-color:white !important;
+	}
+	
+</style>	
+
+<!-- <script src="/Frontend/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+function ShowCBKInfoPopup() {
+    $('#CBKInfoPopup').modal({ backdrop: 'static', keyboard: false })
+	$("#CBKInfoPopup").modal("show");
+}
+</script> -->
+				 
+    <form method="post" action="./" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZH5JuRInQWYLrgWt4izLfW2cGDUA9EF1L6ywS83DHnzZyd1WSqx2u1NreQEv3ZG83Q2&amp;t=639190941332169432" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=qph9tUZ6hGPLbkznkRkqTbgtuvJkRmgrMuDJAsm_6GHDfb6zQZIN121y2g3FMHvGXR7y4W1BYKo8L9I2qcipMmXjVvgQGIdzqbOfEJ98ySgKGmt31Z2U9zsE4LJmbqod0&amp;t=f2cd5c5" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=TvpD2YGOOsCm1yWcLkKnBcivO7K7ktyynqwYMnkagH7APtIBoDaXmoW-6dS3Bdyr3FbwQGwMUpOlc3zGLK92oQMmYBjba0jN1JVD2cprmTDsuQRtdvcb4rSKVyN7-zU50&amp;t=f2cd5c5" type="text/javascript"></script>
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyC8gb_9Qnbvc7ZVhj2gnN0zKblfq7I76xo&amp;libraries=places,geometry,visualization&amp;v=3.exp" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Ph9KYRob2cmMiWgs3oahYus5cnVYuC8-LmHUZOYpaOArsOjvT7k9zAU9K_sLrtjIngyVKEHq8vpsJXHSrO4IwR3CY3Pk8QbzJSZF10fv32Nuf9fAu1WhSjQ-HcBN9oxI0&amp;t=f2cd5c5" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=6cv1RuDGw9eD36DQVPsZ6xouk6Dp9dOALyCDFSWcnLyLYgByejsesSIaDpBOsCze81g7QvvN79hCkdnFoKwbb2vlGpEhP34EHPnrpeBkecGu8jUg0Gvt1zKjsokpTQfZ0&amp;t=f2cd5c5" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=t0O6Yc3FzeoXP8pjMQG5ygT-vq4wxcFcnNC85t_k5oSPRAoT13QCtniRWJ-U3-duI38y5QJ1i-Wv4NuWU7mvHEXIKvR_q1WqB37K_Mo90MwB3lqd64L8Z3f9Q4qvfnseJ8r-8DzJ2VoexCupSCG1uA2&amp;t=f2cd5c5" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=SCktwi-Z1SFGgmHzICetrgtMrSrBNXDNwXz25Zxc0tG2MQQCKU94uUk1bUtyetHSi0ANy7AJuraQ4hsDuTnSixzwkxuxF-JkDfdYLopceCA8y4GIblTjD9kzTJMFWApDbcxqi-PVmVo0dOK0gXMF-w2&amp;t=f2cd5c5" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=QCoWR-h63aOo-AZIyDRuwMY9aNkuU4E_xd1XlZJIoig9TwFkLxvjRA-UDkAxTUHeXD5sr32uc8nr49K4r4GuYWdg3Rug7s9jCKcIsdj9U4KK7Xi4jXJw78r7y-Yo17WWiBIf_59TA2tCXNV4kRDuRA2&amp;t=f2cd5c5" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=rEnisSq7i0BGB42momXTILJ5pws47EqJOi7Q1TohDqtSOF6lBrXumwOJ_rg7rbX2Gmuwx9e3TU9dcRdS45_CPYl6WsIlm-VeCk7-2EevaXwRN-4UY4IwvAXOh6BYycrmzWOWUUozyT6nnViiagUuqg2&amp;t=f2cd5c5" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=OIkWahXMyTi70MXMQWktDk6TnhQd1XRgyqJH2R5ECIdp7M1vkbgadXbxojVjm7eOXSJqXMwwfBRjlr3jxkM8ErwoKKDtYhTsPKM4HUde_h4mh-lmMSq0yl3wGNVMsS6fUquewcV43U4ElYsaYfhSfA2&amp;t=f2cd5c5" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=redQsF7wEkgmMSvWolVslqHhtsMhRuTx4M_8kvuGkG57oSsLc9eCepprj5Q7y36lsT5uJuup8JRp7syNAly6_j-STg35lBFNkyez_6C-zSNWptMtmF53QRx3c0ASWzUdGb1j8W7S9Bq3GcB37GdxPw2&amp;t=f2cd5c5" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Va5YjwWIxP1x6ZWgL6LRAC0_pZRUZ75t5Qm9Mv-vbgB_BMVt66L56RhqNIC9Y4YikfT2XLvDSKvYC-rEmmICourEtH4ZXRBH_OfKbhEOxHmcVGD7tJotsE2r000A7tPkHwLdW80q2qgImKGRQ0PmFA2&amp;t=f2cd5c5" type="text/javascript"></script>
+        <div id="Mainpanel">            
+    <div class="container" id= "Main">
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'aspnetForm', ['tctl00$ctl08$UpdatePanel3','','tctl00$ctl10$UpdatePanel2','','tctl00$ctl13$UpdatePanel3','','tctl00$ctl15$UpdatePanel1',''], ['ctl00$ctl10$btnSubmit','','ctl00$ctl15$btnSubmit',''], [], 90, 'ctl00');
+//]]>
+</script>
+
+        <header>
+            
+
+<script language="javascript" type="text/javascript">
+    //search
+    function setURL() {
+
+        var val = document.getElementById('txtSearch').value;
+        var url1 = document.location.href;
+        if (url1.indexOf("search.asp") > -1) {
+            val = '/SearchResult?zoom_query=' + val;
+        }
+        else {
+            val = '/SearchResult?zoom_query=' + val;
+        }
+        val = encodeURI(val);
+        var txt = document.getElementById('txtSearch').value;
+        window.open(val, '_self');
+
+
+    }
+
+    function searchKeyPress(e) {
+
+
+        // look for window.event in case event isn't passed in
+        if (window.event) {
+            e = window.event;
+
+        }
+        if (e.keyCode == 13) {
+
+
+            //Get the button the user wants to have clicked
+            var btn = document.getElementById('srchclick');
+
+
+            if (btn != null) { //If we find the button click it
+                btn.click();
+
+                //e.keyCode = 0;
+            }
+        }
+    }
+
+
+</script>
+
+<!--LOGO & RIGHT SIDE LINKS SECTION STARTS HERE-->
+<div class="col-sm-12 row Bottomspace">
+    <!--LOGO SECTIONS STARTS HERE-->
+    <div class="col-sm-4 row">
+        <div class="logo">
+            <a href="/Home">
+                <img src="/Frontend/images/CBK_LOGO.png" alt="" />
+                
+            </a>
+
+        </div>
+    </div>
+    <div class="col-sm-4 row text-center leftmargin">
+        <div class="iframe-container hidden-xs hidden-sm">
+            
+        </div>
+    </div>
+    <!--LOGO SECTIONS STARTS HERE-->
+    <!--RIGHT SIDE LINKS STARTS HERE  -->
+    <div class="col-sm-4">
+        <div class="search">
+            <input type="text" class="form-control" placeholder="Search for..." id="txtSearch" onkeypress="searchKeyPress(event);" autocomplete="off">
+            <div class="search-but">
+                <button id="ctl00_ctl02_srchclick" class="btnsearch" type="button" onclick="setURL(); return false;"></button>
+            </div>
+        </div>
+        <div class="language">
+
+            <div class="language-switcher format-TwoLetterISOLanguageName"><ul><li class=""><a href="/ar/" class="ar-KW" lang="ar"><img src="/Frontend/Ar/images/cbkarabic-lang.png" alt="ar" /></a></li></ul></div>
+        </div>
+        <div class="clear"></div>
+        <ul class="toplink">
+
+            <li>
+            <li><a href="/Home">Home</li>
+            <li><a href="/Media-Library/Press-Releases">Media Library </a></li>
+            <li><a href="/Careers">Careers </a></li>
+            <li><a href="/Contact-Us/Contact-Us-Form">Contact Us </a></li>
+        </ul>
+    </div>
+    <!--RIGHT SIDE LINKS STARTS HERE  -->
+</div>
+<!--LOGO & RIGHT SIDE LINKS SECTION ENDS HERE-->
+<!--EBANKING & MENU SECTION STARTS HERE-->
+<div class="col-sm-12 row">
+    <!--EBANKING SECTION STARTE HERE-->
+    
+
+
+
+
+
+  <div class="col-sm-3 row">
+            <div class="ebankingpart">
+	
+		
+  <h2><center> <a href="https://www.cbk-online.com/Tijarionline/IB/Login/Login.aspx" target="_blank"><img src="/Frontend/Images/E-banking_img.png" alt="" />Online Banking</a></center></h2>
+                <h2><center> <a href="https://www.tijarifb.com/" target="_blank"><img src="/Frontend/Images/CBK-Brokerage-icon.png" alt="" />Al-Tijari Financial Brokerage</a></center></h2>
+	
+    
+	
+
+	 
+
+            </div>
+        </div>
+    <!--EBANKING SECTION STARTE HERE-->
+    <!--MENU STARTS HERE -->
+    <div class="col-sm-9 pra row">
+        <div class="content">
+            <ul class="flexy-menu orange">
+                <li style="" class="active">
+                    <!--	<a href="/About-CBK">About CBK</a></li> -->
+                    
+                            <li class=''>
+                                <a id="ctl00_ctl02_repLevel1_ctl00_hypLevel1" href="javascript:void(0)">About CBK</a>
+                                <ul style="display: none;">
+                                    
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl00_repLevel2_ctl00_hypLevel2" class="" href="/About-CBK">About CBK</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl00_repLevel2_ctl01_hypLevel2" class="" href="javascript:void(0);">CBK Profile</a>
+                                                <ul style="display: none;">
+                                                    
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl00_repLevel2_ctl01_repLevel3_ctl00_hypLevel3" class="" href="/About-CBK/CBK-Profile">CBK Profile</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl00_repLevel2_ctl01_repLevel3_ctl01_hypLevel3" class="" href="/About-CBK/CBK-Profile/Mission--Vision">Mission & Vision</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl00_repLevel2_ctl01_repLevel3_ctl02_hypLevel3" class="" href="/About-CBK/CBK-Profile/Board-of-Directors">Board of Directors</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl00_repLevel2_ctl01_repLevel3_ctl03_hypLevel3" class="" href="/About-CBK/CBK-Profile/Executive-and-Supervisory-Management">Executive & Supervisory Management</a>
+                                                            </li>
+                                                        
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl00_repLevel2_ctl02_hypLevel2" class="" href="javascript:void(0);">Investor Relations</a>
+                                                <ul style="display: none;">
+                                                    
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl00_repLevel2_ctl02_repLevel3_ctl00_hypLevel3" class="" href="/About-CBK/Investors-Relations">Investor Relations</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl00_repLevel2_ctl02_repLevel3_ctl01_hypLevel3" class="" href="/About-CBK/Investors-Relations/Annual-Reports">Annual Reports</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl00_repLevel2_ctl02_repLevel3_ctl02_hypLevel3" class="" href="/About-CBK/Investors-Relations/Financial-Statements">Financial Statements</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl00_repLevel2_ctl02_repLevel3_ctl03_hypLevel3" class="" href="/About-CBK/Investors-Relations/Credit-Rating">Credit Rating</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl00_repLevel2_ctl02_repLevel3_ctl04_hypLevel3" class="" href="/About-CBK/Investors-Relations/Disclosures">Disclosures</a>
+                                                            </li>
+                                                        
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl00_repLevel2_ctl03_hypLevel2" class="" href="/About-CBK/Sustainability">Sustainability</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl00_repLevel2_ctl04_hypLevel2" class="" href="/About-CBK/AML">AML</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl00_repLevel2_ctl05_hypLevel2" class="" href="/About-CBK/Corporate-Governance">Corporate Governance</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl00_repLevel2_ctl06_hypLevel2" class="" href="/About-CBK/FATCA-and-CRS">FATCA & CRS</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                </ul>
+                            </li>
+                        
+                            <li class=''>
+                                <a id="ctl00_ctl02_repLevel1_ctl01_hypLevel1" href="javascript:void(0)">Personal Banking</a>
+                                <ul style="display: none;">
+                                    
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl00_hypLevel2" class="" href="javascript:void(0);">Accounts</a>
+                                                <ul style="display: none;">
+                                                    
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl00_repLevel3_ctl00_hypLevel3" class="" href="/Personal-Banking/Accounts">Accounts</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl00_repLevel3_ctl01_hypLevel3" class="" href="/Personal-Banking/Accounts/YOU">YOU Package</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl00_repLevel3_ctl02_hypLevel3" class="" href="/Personal-Banking/Accounts/Tijari-Junior">Tijari Junior</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl00_repLevel3_ctl03_hypLevel3" class="" href="/Personal-Banking/Accounts/Salary-Accounts">Salary Accounts</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl00_repLevel3_ctl04_hypLevel3" class="" href="/Personal-Banking/Accounts/Current-Account">Current Account</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl00_repLevel3_ctl05_hypLevel3" class="" href="/Personal-Banking/Accounts/On-Demand-Accounts">On Demand Accounts</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl00_repLevel3_ctl06_hypLevel3" class="" href="/Personal-Banking/Accounts/Term-Deposits">Term Deposits</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl00_repLevel3_ctl07_hypLevel3" class="" href="/Personal-Banking/Accounts/Base-Account">Base Account</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl00_repLevel3_ctl08_hypLevel3" class="" href="/Personal-Banking/Accounts/Al-Najma-Account">Al Najma Account</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl00_repLevel3_ctl09_hypLevel3" class="" href="/Personal-Banking/Accounts/Control-Account">Control Account</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl00_repLevel3_ctl10_hypLevel3" class="" href="/Personal-Banking/Accounts/FAQs">FAQs</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl00_repLevel3_ctl11_hypLevel3" class="" href="/Personal-Banking/Accounts/Accounts-Terms--Conditions">Accounts Terms & Conditions</a>
+                                                            </li>
+                                                        
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl01_hypLevel2" class="" href="javascript:void(0);">CBK Cards</a>
+                                                <ul style="display: none;">
+                                                    
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl01_repLevel3_ctl00_hypLevel3" class="" href="/Personal-Banking/Cards">CBK Cards</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl01_repLevel3_ctl01_hypLevel3" class="" href="https://tijarirewards.cbk.com/earn">Rewards Calculator</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl01_repLevel3_ctl02_hypLevel3" class="" href="https://www.cbk-online.com/CreditCardCalculator">Cards interest Calculator</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl01_repLevel3_ctl03_hypLevel3" class="" href="/Personal-Banking/Cards/Al-Tijari-Rewards">Al-Tijari Rewards</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl01_repLevel3_ctl04_hypLevel3" class="" href="/Personal-Banking/Cards/Peacock-Concierge-Service">Al-Tijari Concierge</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl01_repLevel3_ctl05_hypLevel3" class="" href="/Personal-Banking/Cards/Travel-Benefits">Travel Benefits</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl01_repLevel3_ctl06_hypLevel3" class="" href="/Personal-Banking/Cards/Stay-Secure">Stay Secure</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl01_repLevel3_ctl07_hypLevel3" class="" href="/Personal-Banking/Cards/Visa-Checkout">Visa Checkout</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl01_repLevel3_ctl08_hypLevel3" class="" href="/Personal-Banking/Cards/CCR-One-Time-Password-OTP">CCR One Time Password (OTP)</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl01_repLevel3_ctl09_hypLevel3" class="" href="/Personal-Banking/Cards/FAQs">FAQs</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl01_repLevel3_ctl10_hypLevel3" class="" href="/Personal-Banking/Cards/Cards-Terms--Conditions">Cards Terms & Conditions</a>
+                                                            </li>
+                                                        
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl02_hypLevel2" class="" href="javascript:void(0);">Merchants Services</a>
+                                                <ul style="display: none;">
+                                                    
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl02_repLevel3_ctl00_hypLevel3" class="" href="/Personal-Banking/Merchants-Services">Merchants Services</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl02_repLevel3_ctl01_hypLevel3" class="" href="/Personal-Banking/Merchants-Services/Terms-and-Conditions-V4">Terms and Conditions V4</a>
+                                                            </li>
+                                                        
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl03_hypLevel2" class="" href="javascript:void(0);">Loans</a>
+                                                <ul style="display: none;">
+                                                    
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl03_repLevel3_ctl00_hypLevel3" class="" href="/Personal-Banking/Loans">Loans</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl03_repLevel3_ctl01_hypLevel3" class="" href="/Personal-Banking/Loans/FAQs">FAQs</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl03_repLevel3_ctl02_hypLevel3" class="" href="/Personal-Banking/Loans/Loans-Terms-and-Conditions">Loans Terms and Conditions</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl03_repLevel3_ctl03_hypLevel3" class="" href="/Personal-Banking/Loans/Auto-Loan">Auto Loan</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl03_repLevel3_ctl04_hypLevel3" class="" href="/Personal-Banking/Loans/Housing-Loan">Housing Loan</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl03_repLevel3_ctl05_hypLevel3" class="" href="/Personal-Banking/Loans/Auto-Offers">Auto Offers</a>
+                                                            </li>
+                                                        
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl04_hypLevel2" class="" href="javascript:void(0);">Digital Services</a>
+                                                <ul style="display: none;">
+                                                    
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl04_repLevel3_ctl00_hypLevel3" class="" href="/Personal-Banking/Digital-Services">Digital Services</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl04_repLevel3_ctl01_hypLevel3" class="" href="/Personal-Banking/Digital-Services/Ways-of-Payment">Ways of Payment</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl04_repLevel3_ctl02_hypLevel3" class="" href="/Personal-Banking/Digital-Services/Forms--Requests-Center">Forms & Requests Center</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl04_repLevel3_ctl03_hypLevel3" class="" href="/Personal-Banking/Digital-Services/Update-KYC--Civil-ID">Update KYC & Civil ID</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl04_repLevel3_ctl04_hypLevel3" class="" href="/Personal-Banking/Digital-Services/Al-Tijari-Self-Service-Machines">Al-Tijari Self Service Machines </a>
+                                                            </li>
+                                                        
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl05_hypLevel2" class="" href="/Personal-Banking/Bank-Tariff">List of Fees and Commissions</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl06_hypLevel2" class="" href="/Personal-Banking/Compare-our-product-feature">Compare Our Product Feature</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl01_repLevel2_ctl07_hypLevel2" class="" href="/Personal-Banking/Safe-Deposit-Boxes">Safe Deposit Boxes</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                </ul>
+                            </li>
+                        
+                            <li class=''>
+                                <a id="ctl00_ctl02_repLevel1_ctl02_hypLevel1" href="javascript:void(0)">Premier Banking</a>
+                                <ul style="display: none;">
+                                    
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl02_repLevel2_ctl00_hypLevel2" class="" href="/Premier-Banking/All-Premier-Banking-Benefits-and-Services">Benefits and Services</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl02_repLevel2_ctl01_hypLevel2" class="" href="/Premier-Banking/Premier-Banking-Promotions">Promotions</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl02_repLevel2_ctl02_hypLevel2" class="" href="/Premier-Banking/Premier-Family-Banking-Package">Premier Family Banking Package</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl02_repLevel2_ctl03_hypLevel2" class="" href="/Premier-Banking/Premier-Banking-E-Newsletter">E-Newsletter</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl02_repLevel2_ctl04_hypLevel2" class="" href="/Premier-Banking/Events-Gallery">Events Gallery</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl02_repLevel2_ctl05_hypLevel2" class="" href="/Premier-Banking/FAQs">FAQs</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                </ul>
+                            </li>
+                        
+                            <li class=''>
+                                <a id="ctl00_ctl02_repLevel1_ctl03_hypLevel1" href="javascript:void(0)">Corporate Banking</a>
+                                <ul style="display: none;">
+                                    
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl03_repLevel2_ctl00_hypLevel2" class="" href="javascript:void(0);">Products & Services</a>
+                                                <ul style="display: none;">
+                                                    
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl03_repLevel2_ctl00_repLevel3_ctl00_hypLevel3" class="" href="page(b4997424-662e-4d3d-8893-b311e997aa14)">Products & Services</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl03_repLevel2_ctl00_repLevel3_ctl01_hypLevel3" class="" href="page(33565f83-6694-4bd0-bba8-dd55c2727b4f)">Our Team</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl03_repLevel2_ctl00_repLevel3_ctl02_hypLevel3" class="" href="page(63bc8b9c-8d56-4a23-b8f2-1f5183454f23)">Corporate Service Desk</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl03_repLevel2_ctl00_repLevel3_ctl03_hypLevel3" class="" href="page(7e3b7ca5-c0fa-4fea-9ca5-3f7c978ced05)">“Let’s Be Aware”- Corporate Banking</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl03_repLevel2_ctl00_repLevel3_ctl04_hypLevel3" class="" href="page(fe0b92e6-2ee6-44bc-9b69-5b04ec51cadb)">Bank Tariff</a>
+                                                            </li>
+                                                        
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl03_repLevel2_ctl01_hypLevel2" class="" href="javascript:void(0);">Corporate Online Banking</a>
+                                                <ul style="display: none;">
+                                                    
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl03_repLevel2_ctl01_repLevel3_ctl00_hypLevel3" class="" href="page(8fb78953-d61b-4a27-9ee5-2a83662d9c19)">Corporate Online Banking</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl03_repLevel2_ctl01_repLevel3_ctl01_hypLevel3" class="" href="page(7102fd94-d8f9-416d-9be8-db059c8801bd)">Al-Tijari CashLink Service</a>
+                                                            </li>
+                                                        
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl03_repLevel2_ctl02_hypLevel2" class="" href="javascript:void(0);">Treasury & Investment</a>
+                                                <ul style="display: none;">
+                                                    
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl03_repLevel2_ctl02_repLevel3_ctl00_hypLevel3" class="" href="page(dbe9e4b1-4b1e-43d9-a4b4-f3583268e9b9)">Treasury & Investment</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl03_repLevel2_ctl02_repLevel3_ctl01_hypLevel3" class="" href="page(b207ac1d-4df2-4a15-8a3f-a004ee21cf28)">LIBOR Discontinuation & Alternative Rate</a>
+                                                            </li>
+                                                        
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl03_repLevel2_ctl03_hypLevel2" class="" href="/Corporate-Banking/International-Credit">International Credit</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl03_repLevel2_ctl04_hypLevel2" class="" href="javascript:void(0);">Trade Finance</a>
+                                                <ul style="display: none;">
+                                                    
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl03_repLevel2_ctl04_repLevel3_ctl00_hypLevel3" class="" href="page(b11032ae-43b4-482b-9e3a-6ddf602f7d7c)">Trade Finance</a>
+                                                            </li>
+                                                        
+                                                            <li>
+                                                                <a id="ctl00_ctl02_repLevel1_ctl03_repLevel2_ctl04_repLevel3_ctl01_hypLevel3" class="" href="page(179d49d2-021b-48c2-97fd-277921b283c5)">Bank Tariff</a>
+                                                            </li>
+                                                        
+                                                </ul>
+                                            </li>
+                                        
+                                </ul>
+                            </li>
+                        
+                            <li class=''>
+                                <a id="ctl00_ctl02_repLevel1_ctl04_hypLevel1" href="javascript:void(0)">Promotions</a>
+                                <ul style="display: none;">
+                                    
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl04_repLevel2_ctl00_hypLevel2" class="" href="/Promotions/All-CBK-Cards">All CBK Cards</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl04_repLevel2_ctl01_hypLevel2" class="" href="/Promotions/Salary-Packages">Salary Packages</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl04_repLevel2_ctl02_hypLevel2" class="" href="/Promotions/Visa--Mastercard-Offers">Visa & Mastercard Offers</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl04_repLevel2_ctl03_hypLevel2" class="" href="/Promotions/Credit-Cards-Offers">Credit Cards Offers</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl04_repLevel2_ctl04_hypLevel2" class="" href="/Promotions/YOU-Offer">YOU Offer</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl04_repLevel2_ctl05_hypLevel2" class="" href="/Promotions/TJ-Offers">TJ Offers</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                </ul>
+                            </li>
+                        
+                            <li class='menu-b'>
+                                <a id="ctl00_ctl02_repLevel1_ctl05_hypLevel1" href="javascript:void(0)">Banking & Financial Awareness</a>
+                                <ul style="display: none;">
+                                    
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl05_repLevel2_ctl00_hypLevel2" class="" href="/Banking-and-Financial-Awareness">Banking & Financial Awareness</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl05_repLevel2_ctl01_hypLevel2" class="" href="/Banking-and-Financial-Awareness/Lets-Be-Aware-Campaign">“Let's Be Aware” Campaign</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                            <li>
+                                                <a id="ctl00_ctl02_repLevel1_ctl05_repLevel2_ctl02_hypLevel2" class="" href="/Banking-and-Financial-Awareness/Stay-Safe-Online">Stay Safe Online</a>
+                                                <ul style="display: none;">
+                                                    
+                                                </ul>
+                                            </li>
+                                        
+                                </ul>
+                            </li>
+                        
+            </ul>
+        </div>
+    </div>
+    <!--MENU ENDS HERE -->
+    <!--BREAD CRUMB SECTION STARTS HERE-->
+    
+<div class="col-sm-9 row">
+<div class="news">
+<div class="news-head"></div>
+<div class="news-feed">
+<ul id="news">
+
+<li><p><b>05/10/2026 </b>
+
+
+ <a id="ctl00_ctl02_ctl07_rptNewsStrip_ctl00_HyperLink1" href="/Media-Library/Press-Releases?Id=5112f889-3ee6-4013-8323-f328569e2e28" style="text-decoration:none;">Sustainable Fitch: SPO Provided for Commercial Bank of Kuwait’s Sustainable</a>
+
+</p></li>
+
+<li><p><b>29/09/2026 </b>
+
+
+ <a id="ctl00_ctl02_ctl07_rptNewsStrip_ctl01_HyperLink1" href="/Media-Library/Press-Releases?Id=854dfd8a-9b57-44f1-a157-390b7d856a9e" style="text-decoration:none;">Commercial Bank of Kuwait Launches World Elite Mastercard Credit Card in Collaboration</a>
+
+</p></li>
+
+<li><p><b>27/09/2026 </b>
+
+
+ <a id="ctl00_ctl02_ctl07_rptNewsStrip_ctl02_HyperLink1" href="/Media-Library/Press-Releases?Id=4ef88bca-dc9e-481c-96b1-4d11c85c7f6b" style="text-decoration:none;">Al-Tijari: Exclusive Offer for “Premier” Customers in Cooperation with “TEN</a>
+
+</p></li>
+
+<li><p><b>24/09/2026 </b>
+
+
+ <a id="ctl00_ctl02_ctl07_rptNewsStrip_ctl03_HyperLink1" href="/Media-Library/Press-Releases?Id=e62ec50d-319f-4a10-8c45-fe7721ea0797" style="text-decoration:none;">Commercial Bank of Kuwait Launches New TVC for “One Card… Two Ways to Be Rewarded”</a>
+
+</p></li>
+
+<li><p><b>15/09/2026 </b>
+
+
+ <a id="ctl00_ctl02_ctl07_rptNewsStrip_ctl04_HyperLink1" href="/Media-Library/Press-Releases?Id=8802eadf-47e2-47f6-9c38-4ad81d7d865b" style="text-decoration:none;">Commercial Bank of Kuwait Concludes Launch Event of “One Card… Two Ways to Be</a>
+
+</p></li>
+
+<li><p><b>10/09/2026 </b>
+
+
+ <a id="ctl00_ctl02_ctl07_rptNewsStrip_ctl05_HyperLink1" href="/Media-Library/Press-Releases?Id=e68f61cc-ef23-4b33-b7ac-69278e00eec9" style="text-decoration:none;">Commercial Bank of Kuwait Announces Winners of the Weekly and Monthly Draws</a>
+
+</p></li>
+
+<li><p><b>09/09/2026 </b>
+
+
+ <a id="ctl00_ctl02_ctl07_rptNewsStrip_ctl06_HyperLink1" href="/Media-Library/Press-Releases?Id=f35238ac-8a93-4f22-b886-5ecfb2e3405d" style="text-decoration:none;">Commercial Bank of Kuwait Organizes an Employment Day in Cooperation with the</a>
+
+</p></li>
+
+<li><p><b>08/09/2026 </b>
+
+
+ <a id="ctl00_ctl02_ctl07_rptNewsStrip_ctl07_HyperLink1" href="/Media-Library/Press-Releases?Id=f56fbbaf-7e71-46e7-869b-92c5d109c669" style="text-decoration:none;">Commercial Bank of Kuwait Participates as a Silver Sponsor in “Baiti” Exhibition</a>
+
+</p></li>
+
+<li><p><b>06/09/2026 </b>
+
+
+ <a id="ctl00_ctl02_ctl07_rptNewsStrip_ctl08_HyperLink1" href="/Media-Library/Press-Releases?Id=5320d26d-6b50-4a5b-afde-8fa57a44452c" style="text-decoration:none;">Commercial Bank of Kuwait Enhances Institutional Partnerships by Signing Electronic</a>
+
+</p></li>
+
+<li><p><b>04/09/2026 </b>
+
+
+ <a id="ctl00_ctl02_ctl07_rptNewsStrip_ctl09_HyperLink1" href="/Media-Library/Press-Releases?Id=99c30204-36ab-4b70-a4bd-5d084be4a23d" style="text-decoration:none;">Commercial Bank of Kuwait Participates in the Second "Health & Wellness at the</a>
+
+</p></li>
+	
+</ul>
+</div>
+</div>
+</div>
+
+    <!--BREAD CRUMB SECTION ENDS HERE-->
+</div>
+<!--EBANKING & MENU SECTION STARTS HERE-->
+
+        </header>
+        <div class="clearfix">
+        </div>       
+        <div id="readspeaker_button1" class="rs_skip rsbtn rs_preserve">
+    <a rel="nofollow" class="rsbtn_play" accesskey="L" title="Listen to this page using ReadSpeaker" href="https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=10174&lang=en_uk&amp;voice=en_gb_brian&readid=Mainpanel&url=">
+        <span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span>
+        <span class="rsbtn_right rsimg rsplay rspart"></span>
+    </a>
+</div>
+        <!--BANNER SECTION STARTS HERE-->
+        <section>           
+            <div class="col-sm-12 pra2">                            
+                <div class="banner">
+                    <div class="zadjust">
+                        
+<style>
+    .bannerclock {
+    float: right;
+    position: fixed;
+    background-color: white;
+    margin-right: 0;
+    z-index: 9999999999999999999999999999;
+    display: table;
+    right: 24%;
+}
+</style>
+<div id="MainBanner">
+<ul id="banner">	 	
+    
+            <li>                
+                
+                
+                <img src="/media/a1508629-477e-4f62-a6f9-b2107a04af0a/W-qfdA/About CBK/Home Banners/Web-Banner-Kuwait-Prayer.jpg" />
+                
+            </li>
+        
+            <li>                
+                
+                
+                <img src="/media/0ded2c9e-c574-4e64-a4e6-534e56b38dbf/uTXyVg/About CBK/Home Banners/CBK - Tactical Salary Transfer offer for Teachers - Adaptation Female_Home Banner 969x329 en11.jpg" />
+                
+            </li>
+        
+            <li>                
+                
+                <a href='/Personal-Banking/Loans/Auto-Loan' >
+                <img src="/media/57d38620-4d11-4ace-831d-678b93073b2a/svr3jw/About CBK/Home Banners/AutoLoan Adaptation 240226 2_Home Banner 969x329 en.jpg" />
+                </a>
+            </li>
+        
+            <li>                
+                
+                <a href='/Personal-Banking/Loans/Housing-Loan/Maskan-Package' >
+                <img src="/media/54416cb0-b00b-446c-8336-ec1d2224a9f7/uMin2g/About CBK/Home Banners/CBK - House Loan Adaptation_Home Banner 969x329 en.jpg" />
+                </a>
+            </li>
+        
+            <li>                
+                
+                <a href='/Promotions/Salary-Transfer-Campaign' >
+                <img src="/media/960e0d5c-7e57-4a08-bee1-2652ec8e16d3/8NwCPA/About CBK/Home Banners/CBK - Salary Transfer Campaign - Adaptation MV_Home Banner 969x329 en.jpg" />
+                </a>
+            </li>
+        
+            <li>                
+                
+                <a href='/Personal-Banking/Digital-Services/Double-your-Rewards' >
+                <img src="/media/4c617c92-98d3-432a-be1b-a446401dab82/Eiew3A/About CBK/Home Banners/CBADD7~1.JPG" />
+                </a>
+            </li>
+        
+            <li>                
+                
+                <a href='/Personal-Banking/Cards/Al-Tijari-Rewards' >
+                <img src="/media/842232d0-5495-405d-bea2-c66cd1a548b0/B5NuYQ/About CBK/Home Banners/Home Banner EN-100.jpg" />
+                </a>
+            </li>
+        
+            <li>                
+                
+                <a href='/Contact-Us/Al-Tijari-Survey' >
+                <img src="/media/8ecc0ddf-b929-472c-9755-09517d8f5170/kyTkXA/About CBK/Home Banners/CBK-Survey-Home-Banner-englishhh.jpg" />
+                </a>
+            </li>
+        
+            <li>                
+                
+                <a href='https://www.cbk-online.com/Tijarionline/IB/Public/SMEfundsFacilites' target='_blank' >
+                <img src="/media/4507a1ce-fdf5-410a-abe4-ad297731ff97/ukk9pg/About CBK/Home Banners/CBK-SME-Loans-Home-Banner-english (1).jpg" />
+                </a>
+            </li>
+        
+</ul>
+</div><!--<img width="969" height="329" src="/media/f5daa147-3f66-40c5-a3d2-df2083734803/jvX58Q/Banners/HomeBanners/Web images Final5.jpg" />-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--BANNER SECTION STARTS HERE-->
+        <div class="clearfix">
+        </div>
+        
+        <!--WINNER-VISA-CHAT SECTION STARTS HERE-->
+        <div class=" col-sm-12 row" style="z-index:0 !important;">
+            <div class="col-sm-4 row">
+                <div class="content-item-1">
+                    
+<div class="content-1-sub"><a href="http://tijarirewards.cbk.com/" target="_blank"><img src="../../../../Frontend/images/Rewards_Banner_En.jpg" alt="AlTijari Rewards" style="max-height:82px;" /></a></div>
+
+
+
+
+    
+                </div>
+            </div>
+            <div class="col-sm-4 row">
+                <div class="content-item-2">
+                    <!--CBKCards-->
+                    
+
+<div class="content-1-sub"><a href="https://www.cbk.com/Personal-Banking/Cards" target="_blank"><img src="../../../../Frontend/images/english_Al-Tijari-Credit cards_English - new.png" alt="CBK Cards" style="width:307px;max-height:82px;" /></a></div>
+
+
+                    <!--CBKCards-->
+                </div>
+            </div>
+            <div class="col-sm-4 row">
+                <div class="content-item-3">
+                    <!--Live Chat-->
+                    
+	<a href="/Contact-Us/Al-Tijari-Survey"><img src="../../../../Frontend/images/CBK-Survey-Thumb-english.jpg" alt="AlTijari Survey" style="max-height:82px;" /></a>
+ <!-- <a href="http://www.cbk.com/Premier-Banking/All-Premier-Banking-Benefits-and-Services"><img src="/media/fe217aac-8151-47e9-8aa4-918b5d95ee23/JrdbQA/Premier-Banking-Online-Banner-310x80-english.jpg" /></a>  -->
+    
+                    <!--Live Chat-->
+                </div>
+            </div>
+        </div>
+        <!--WINNER-VISA-CHAT SECTION STARTS HERE-->
+        <div class="clearfix">
+        </div>
+        <!--TIJARI BOXES SECTION STARTS HERE-->
+        <div class="col-sm-12 row">
+            
+
+<div id="ctl00_ctl07_Panel_Tijari2">
+	
+
+
+    
+            <div class='col-sm-6 row visible-lg-block'>
+                <div class='content-tijari'>
+                    <img src="/Frontend/images/tijari-icon.png" alt="" />
+                    <h1>
+                        <a id="ctl00_ctl07_rpt_Tijaribox2_ctl00_hypLinkTijara2" href="/Personal-Banking/Accounts/Al-Najma-Winners?Id=3ca7b9c2-8a0e-43ed-ac68-d7f1b717f285">Najma </a></h1>
+                    <p>
+                        <a id="ctl00_ctl07_rpt_Tijaribox2_ctl00_hypLinkTijariDetails2" href="/Personal-Banking/Accounts/Al-Najma-Winners?Id=3ca7b9c2-8a0e-43ed-ac68-d7f1b717f285">Congratulate our Najma Winners of Commercial Bank of ...</a></p>
+                </div>
+            </div>
+        
+            <div class='col-sm-6 row visible-lg-block'>
+                <div class='content-tijari2'>
+                    <img src="/Frontend/images/tijari-icon.png" alt="" />
+                    <h1>
+                        <a id="ctl00_ctl07_rpt_Tijaribox2_ctl01_hypLinkTijara2" href="/Promotions?Id=b9eda415-8847-4b3f-8457-2ea2b4a95d77">Promotions</a></h1>
+                    <p>
+                        <a id="ctl00_ctl07_rpt_Tijaribox2_ctl01_hypLinkTijariDetails2" href="/Promotions?Id=b9eda415-8847-4b3f-8457-2ea2b4a95d77">Check latest offers & Promotions of CBK Accounts & ...</a></p>
+                </div>
+            </div>
+        
+    <h1>
+        <a id="ctl00_ctl07_hypLinkTijara2"></a></h1>
+
+
+
+    
+            <div class="col-sm-12 row">
+                <!--<div class='content-tijari'>-->
+
+                <div class="content-tijari5">
+                    
+                    <div class="col-sm-6">
+                        <a href='https://www.cbk.com/Personal-Banking/Accounts/Al-Najma-Winners?Id=3ca7b9c2-8a0e-43ed-ac68-d7f1b717f285'>							
+						<img src="../../../../Frontend/images/english_Want to become-a millionaire-_Enlish_najma.png" alt="" style="max-width:463px;max-height:57px" /></a>
+						
+                            
+                    </div>
+                    <div class="col-sm-6">
+                                                
+						<a href='https://www.cbk-online.com/Tijarionline/IB/Public/FraudReporting' target="_blank">
+						<img src="../../../../Frontend/images/english_Report-a Fraud_English.png" alt="" style="max-width:463px;max-height:57px" />
+						
+                        </a>
+
+                        
+                        
+                    </div>
+
+                    
+
+                    <h1>
+                        <a id="ctl00_ctl07_rpt_Tijaribox1_ctl00_hypLinkTijara3" href="/Personal-Banking/Accounts/Al-Najma-Winners?Id=3ca7b9c2-8a0e-43ed-ac68-d7f1b717f285"></a></h1>
+                    <p>
+                        <a id="ctl00_ctl07_rpt_Tijaribox1_ctl00_hypLinkTijariDetails3" href="/Personal-Banking/Accounts/Al-Najma-Winners?Id=3ca7b9c2-8a0e-43ed-ac68-d7f1b717f285"></a></p>
+                </div>
+            </div>
+					<div class="col-sm-12 row" style="height: 30px;position: relative;"></div>
+        
+
+
+
+
+</div>
+
+<div id="ctl00_ctl07_Panel_Tijari1">
+	
+
+</div>
+
+        </div>
+        <!--TIJARI BOXES SECTION ENDS HERE-->
+        <div class="clearfix">
+        </div>
+        <!--CALCULATORS SECTION STARTS HERE-->
+        <div class="col-sm-12 row">
+            <!--MAIN DESKTOP VIEW HERE-->
+            <div class="home-footer">
+                <div class="cvd">
+                    <!-- FOOTER -->
+                    <div id="footer" class="fixed">
+                        <ul>
+                            <!-- CROWD -->
+                            <li class="crowd">
+                            
+                              
+						  <a href="javascript:void(0);" class="ga_click" rel="footer_open_crowd">
+									<img alt="" src="/Frontend/Images/FeesCommissionsRates_inactive.png" width="340" height="91" align=" " />
+							</a>
+                           
+                            </li>
+                            <!-- TRACK -->
+                            <li class="track"><a href="javascript:void(0);" class="ga_click" rel="footer_open_track">
+                                <img alt="" src="/Frontend/Images/btn2.png" width="340" height="91" align=" " />
+                            </a></li>
+                            <!-- GENT -->
+                            <li class="_gent"><a href="javascript:void(0);" class="ga_click" rel="footer_open_gent">
+                                <img alt="" src="/Frontend/Images/bn3.png" width="340" height="91" align=" " />
+                            </a></li>
+                        </ul>
+                    </div>
+                    <!-- .footer -->
+                    <!-- FOOTER -->
+                    <!--<div id="tools_more" ><img src="Content/img/myTools_more.png" width="353" height="396"><a href="#" class="close ga_click crowd1" rel="footer_close_crowd">X</a></div>-->
+                </div>
+            </div>
+            <!--MAIN DESKTOP VIEW HERE-->
+            <!--FOR MOBILE VIEWS HERE-->
+            <div class="container row hidden-lg">
+                <div class="accordion">
+                    <h3 class="panel-title ds">
+                        MY TOOLS</h3>
+                    <div class="panel-content ccl">
+                        <div class="box-wrappar2">
+                            <!-- CurrencyConverter -->
+                            
+
+  
+  
+<script type="text/javascript">
+
+//    placeholder = function () {
+//        $('input, textarea').each(function () {
+//            var holder = $(this).attr('placeholder');
+//            if (typeof (holder) !== 'undefined') {
+//                $(this).val(holder);
+//                $(this).bind('click', function () {
+//                    $(this).val('');
+//                }).blur(function () {
+//                    $(this).val(holder);
+//                });
+//            }
+//        });
+//    };
+
+
+//    $(document).ready(placeholder);
+
+
+    function isNumber(evt) {
+        evt = (evt) ? evt : window.event;
+        var charCode = (evt.which) ? evt.which : evt.keyCode;
+        if ((charCode > 31 && (charCode < 48 || charCode > 57)) && (charCode != 43)) {
+            return false;
+        }
+        return true;
+    }
+</script>
+<script type="text/javascript" language="javascript">
+         function validatenumerics(key) {
+           //getting key code of pressed key
+           var keycode = (key.which) ? key.which : key.keyCode;
+           //comparing pressed keycodes
+
+           if (keycode > 31 && (keycode < 48 || keycode > 57)) {
+              
+               return false;
+           }
+           else return true;
+ 
+
+       }        
+    </script>
+ <script type="text/javascript">
+	 $(window).on("load", function () {
+	    $(".homeloader").fadeOut("fast");
+	 });	  	 
+    </script>
+ 
+<div id="ctl00_ctl08_UpdatePanel3">
+	
+        <div class="currency-convertor">
+            <h1>
+                CURRENCY CONVERTER</h1>
+            <div class="form">
+               
+             
+                <input name="ctl00$ctl08$txtAmount" type="text" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ctl08$txtAmount\&#39;,\&#39;\&#39;)&#39;, 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;return validatenumerics(event);" id="ctl00_ctl08_txtAmount" placeholder="Enter Amount" />
+					
+                <div class="field_select_df">
+                    <select name="ctl00$ctl08$drpCurrency1" id="ctl00_ctl08_drpCurrency1">
+
+	</select>
+                </div>
+               
+                <div class="field_select_df">
+                    <select name="ctl00$ctl08$drpCurrency2" id="ctl00_ctl08_drpCurrency2">
+
+	</select>
+                 
+                </div>
+                 
+                <div class="form form-3">
+                      
+                    <input type="submit" name="ctl00$ctl08$btnConvert" value="CONVERT" id="ctl00_ctl08_btnConvert" />
+                    <input name="ctl00$ctl08$txtResult" type="text" id="ctl00_ctl08_txtResult" disabled="disabled" class="aspNetDisabled" placeholder="000.000" />
+                    
+   <input type="image" name="ctl00$ctl08$imgbtnswap" id="ctl00_ctl08_imgbtnswap" src="Frontend/images/btnswap1.png" alt="img1" style="height:31px;padding-left:15px;" />
+  
+                   
+                                   </div>
+                  </div>
+       
+               
+
+
+            
+        </div>
+	    <img src="Frontend/images/loading.gif" id="ctl00_ctl08_ldimg" class="homeloader" />
+   
+</div>
+
+                            <!--End CurrencyConverter -->
+                            <!-- LoanCalculator -->
+                            
+<link href="../../../../Frontend/css/LoanStyle.css" rel="stylesheet" />
+<link href="../../../../Frontend/css/custom-query.css" rel="stylesheet" />
+<div class="loan-calkulator">
+     <iframe class="hmloanframe" src="../../../../Calculator.aspx"></iframe> 
+
+  
+</div>
+
+
+                            <!--End LoanCalculator -->
+                        </div>
+                    </div>
+                    <h3 class="panel-title vv">
+                        OUR BRANCHES</h3>
+                    <div class="panel-content">
+                        <div class="box-wrappar3">
+                            <!-- ATM locator -->
+                            
+
+<script type="text/javascript">
+    function initializeDevice() {
+        var mapOptions = {
+            center: new google.maps.LatLng("29.3697", "47.9783"),
+            zoom: 8,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var infoWindow = new google.maps.InfoWindow();
+        var map = new google.maps.Map(document.getElementById("dvMap1"), mapOptions);
+
+        for (i = 0; i < markerList.length; i++) {
+            var data = markerList[i];
+            var myLatlng = new google.maps.LatLng(data.lat, data.lng);
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                title: data.title
+            });
+            (function (marker, data) {
+                google.maps.event.addListener(marker, "click", function (e) {
+                    infoWindow.setContent("<div style=\"width:200px;height:150px\"><h3>" + data.title + "</h3><br/>" + data.description + "</div>");
+                    infoWindow.open(map, marker);
+                });
+            })(marker, data);
+        }
+
+        // for fixing resizing the map for the second time issue
+        google.maps.event.addListenerOnce(map, 'idle', function () {
+            google.maps.event.trigger(map, 'resize');
+            map.setCenter(new google.maps.LatLng('29.3697', '47.9783'));
+        });
+    }
+</script>
+<div id="ctl00_ctl10_UpdatePanel2">
+	
+        <div class="atm">
+            <h1>
+               BRANCH / ATM LOCATOR</h1>
+              <h2>
+          
+               Search by</h2>  
+             <div class="field_select_df3">
+                <select name="ctl00$ctl10$drpGovernorate" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ctl10$drpGovernorate\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_ctl10_drpGovernorate">
+		<option selected="selected" value="00000000-0000-0000-0000-000000000000">Select Governorate</option>
+		<option value="9e4d7705-b551-4ec7-b689-406b4619b9ff">Ahmadi</option>
+		<option value="83f30e01-ebd2-4f16-ac47-bc2bb0e4373e">Al Asimah (Capital)</option>
+		<option value="2c9dbfcf-70e6-4fb8-8a4f-e961dd404d2a">Farwaniya</option>
+		<option value="78b6c26a-5166-4798-8d22-f0d7bde64e10">Hawalli</option>
+		<option value="2a39a28a-e0b4-4d46-afea-1fb9735d7892">Jahra</option>
+		<option value="31379b72-fd0c-41a1-a29d-d9901e193608">Mubarak Al Kabeer</option>
+
+	</select>
+                </div>
+                  <div class="field_select_df3">
+                <select name="ctl00$ctl10$drpRegions" id="ctl00_ctl10_drpRegions">
+		<option selected="selected" value="00000000-0000-0000-0000-000000000000">Select Region</option>
+
+	</select>
+            </div> 
+            <h2>
+                Location type</h2>
+            <div class="branch-atmlocator">
+                <input id="ctl00_ctl10_chkATM" type="checkbox" name="ctl00$ctl10$chkATM" /><label for="ctl00_ctl10_chkATM">ATM</label>
+                <input id="ctl00_ctl10_chkCDM" type="checkbox" name="ctl00$ctl10$chkCDM" /><label for="ctl00_ctl10_chkCDM">CDM</label>
+                <input id="ctl00_ctl10_chkBranch" type="checkbox" name="ctl00$ctl10$chkBranch" /><label for="ctl00_ctl10_chkBranch">Branch</label>
+                <input id="ctl00_ctl10_chkDriveThrough" type="checkbox" name="ctl00$ctl10$chkDriveThrough" /><label for="ctl00_ctl10_chkDriveThrough">Drive Through</label>  
+           
+            </div>
+			<div class="clear"></div>
+				 <input type="submit" name="ctl00$ctl10$btnSubmit" value="Find" id="ctl00_ctl10_btnSubmit" />
+			<div class="clear"></div>
+               <div class="adress">
+                
+                <h1>
+                   Commercial Bank of Kuwait </h1>
+                <p>
+                    Address</p>
+               
+                    <span>P.O BOX 2861 SAFAT 13029 KUWAIT<br />
+                       Phone Number 1888225 <br />
+                       Fax Number 22610084  </span>
+               
+                
+            </div>
+        </div>
+        
+        <a id="ctl00_ctl10_dummyDevice" style="visibility: hidden"></a>
+        <div id="ctl00_ctl10_mapPop" class="mapmodal-popup" style="display: none; margin: 5% 50% auto auto;">
+		
+            <div class="mapmodal-header">
+                <input id="btnCloseDevice" type="button" value="" class="closee" />
+            </div>
+            <div class="mapmodal-body">
+                <div id="dvMap1" class="map-content">
+                </div>
+            </div>
+        
+	</div>
+    
+</div>
+
+                            <!--End ATM locator -->
+                        </div>
+                    </div>
+                    <h3 class="panel-title aa">
+                        QUICK SERVICES</h3>
+                    <div class="panel-content">
+                        <div class="box-wrappar4">
+                            
+
+
+<div class="service-contentbox">
+<ul class="service-content">
+    
+<li><a href="/Personal-Banking/Digital-Services/Forms--Requests-Center">Forms & Requests Center</a></li>
+
+    
+    
+		
+    <li><a href="/Rates--Markets/Foreign-Exchange-Rates" >Rates & Markets</a></li>
+
+	<li><a href="https://www.Cbk-Online.com" target="_blank">Internet Banking Registration (Online Banking)</a></li>
+	
+	
+		
+<li><a href="http://www.cbk.com/Corporate-Banking/Corporate-Online-Banking" target="_blank">Corporate Online Banking</a></li>
+<li><a href="https://tijarirewards.cbk.com/earn" target="_blank">Rewards Calculator</a></li>
+<li><a href="https://www.cbk-online.com/CreditCardCalculator" target="_blank">Cards interest Calculator</a></li>
+    
+	
+	
+	
+</ul> 
+</div>
+
+                        </div>
+                    </div>
+                    <br><br><br><br>
+                </div>
+            </div>
+            <!--FOR MOBILE VIEWS HERE-->
+        </div>
+        <!--MAIN CONTAINER ENDS-->
+    </div>
+    <div class="clearfix">
+    </div>
+    <!--FOOTER SECTION STARTS HERE-->
+    <!-- Footer -->
+    
+
+<div class="footer-main">
+
+<div class="container ">
+  <div class="wrapper col-sm-12 row">
+  
+  <div class="col-sm-9">
+  <div class="footer-links">
+    <div class="footerlinkpart">
+      <ul class="footerlist">
+          <li><a href="/Privacy-Statement/">Privacy Statement </a></li>
+        <li><a href="/About-CBK/Corporate-Governance">Corporate Governance </a></li>
+        <li class="ftr-lst"><a href="/Site-Map">Site Map</a></li>
+      </ul>
+    </div>
+	  <div class="copyright"><p id="CopyRights"></p></div>
+    </div>
+    </div>
+    
+    
+    <div class="col-sm-3">
+    <div class="social">
+		<ul>
+		  <!--<li><a href="https://api.whatsapp.com/send?phone=1888225" target="_blank">
+			  <img src="/Frontend/Images/social/2023/WhatsApp.png" alt="" /></a></li> -->
+          <li><a href="https://www.snapchat.com/add/altijaricbk" target="_blank">
+              <img src="/Frontend/Images/social/2023/SnapChat.png" alt="" /></a></li>
+          <li><a href="https://twitter.com/ALTijariCBK" target="_blank">
+              <img src="/Frontend/Images/social/2023/X-logo.png" alt="" /></a></li>
+          <li><a href="https://www.facebook.com/pages/Commercial-Bank-of-Kuwait/112837366839" target="_blank">
+              <img src="/Frontend/Images/social/2023/Facebook.png" alt="" /></a></li>
+          <li><a href="http://www.youtube.com/user/ALTijariCBK" target="_blank">
+              <img src="/Frontend/Images/social/2023/YouTube.png" alt="" /></a></li>
+          <li><a href="http://instagram.com/altijaricbk" target="_blank">
+              <img src="/Frontend/Images/social/2023/Instagram.png" alt="" /></a></li>
+          <li><a href="https://www.linkedin.com/company/276269?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A4646455631481541467243%2CVSRPtargetId%3A276269%2CVSRPcmpt%3Aprimary" target="_blank">
+              <img src="/Frontend/Images/social/2023/LinkedIn.png" alt="" /></a></li>
+          <li><a href="https://appsto.re/kw/1s_TV.i" target="_blank">
+              <img src="/Frontend/Images/social/2023/Apple.png" alt="" /></a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.cbk.mobilebanking&hl=en" target="_blank">
+              <img src="/Frontend/Images/social/2023/Android.png" alt="" /></a></li>
+      </ul>
+    </div>
+    </div>
+    
+  </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		var CurrYear = new Date().getFullYear();
+		$("#CopyRights").text("Copyright "+CurrYear+" Al-Tijari.  All Rights Reserved");
+	});
+</script>
+
+
+
+    <!-- EndFooter -->
+    <div id="loaderOverlayBG" class="ui-widget-overlay" style="width: 1903px; height: 1426px;
+        z-index: 1004; display: none;">
+        <img src="/Frontend/Ar/images/loader02.gif" width="50" height="50" alt="Loader02">
+    </div>
+    <div id="loaderOverlayBG2" class="ui-widget-overlay" style="width: 1903px; height: 1426px;
+        z-index: 1004; display: none;">
+        <img src="/Frontend/Ar/images/play.png" width="50" height="50" alt="Loader02">
+    </div>
+    <!--FOOTER SECTION STARTS HERE-->
+  
+    <div class="container">
+        <!-- PANES -->
+        <div id="panes" class="hiddenbox">
+            <!-- CROWDPANE -->
+            <div class="pane crowdPane">
+                <div class="pane_inner _crowd">
+                    <div id="tools_more" style="position: absolute; z-index: -10; margin-left: 0px; display: none;">
+                        <img src="/Frontend/Ar/Images/myTools_more.png" width="353" height="396" style="position: absolute;"
+                            alt="" />
+                        <a href="#" class="close ga_click crowd1" rel="footer_close_crowd">X</a>
+                    </div>
+                    <div class="pane_content">
+                        <div class="header crowdPaneheader">
+                            <h1>
+                            <span class="title-prefix">Fees</span>,Commissions & Rates
+                        </h1>
+                            <a href="#" class="close ga_click crowd" rel="footer_close_crowd">X</a>
+                        </div>
+                        <!-- .header -->
+                        <div class="crowdPanemain">
+						 <!-- New Links Section -->
+							<div class="links-section">
+								<div class="links-grid">
+									<a href="Personal-Banking/Cards/Understanding-Annual-Percentage-Rate-APR" 
+									   class="link-item ga_click" 
+									   target="_blank">
+										<span>Annual Percentage Rate</span>
+									</a>
+									<a href="Rates--Markets/Deposit-Rates" 
+									   class="link-item ga_click" 
+									   target="_blank">
+										<span>Deposit Rates</span>
+									</a>
+									<a href="Personal-Banking/Bank-Tariff" 
+									   class="link-item ga_click" 
+									   target="_blank">
+										<span>Fees and Commissions</span>
+									</a>
+								</div>
+							</div>
+				 
+                            <div class="crowdPanefooter-toolbox">
+                                <div class="box-wrappar">
+                                    <!-- CurrencyConverter -->
+                                    
+
+  
+  
+<script type="text/javascript">
+
+//    placeholder = function () {
+//        $('input, textarea').each(function () {
+//            var holder = $(this).attr('placeholder');
+//            if (typeof (holder) !== 'undefined') {
+//                $(this).val(holder);
+//                $(this).bind('click', function () {
+//                    $(this).val('');
+//                }).blur(function () {
+//                    $(this).val(holder);
+//                });
+//            }
+//        });
+//    };
+
+
+//    $(document).ready(placeholder);
+
+
+    function isNumber(evt) {
+        evt = (evt) ? evt : window.event;
+        var charCode = (evt.which) ? evt.which : evt.keyCode;
+        if ((charCode > 31 && (charCode < 48 || charCode > 57)) && (charCode != 43)) {
+            return false;
+        }
+        return true;
+    }
+</script>
+<script type="text/javascript" language="javascript">
+         function validatenumerics(key) {
+           //getting key code of pressed key
+           var keycode = (key.which) ? key.which : key.keyCode;
+           //comparing pressed keycodes
+
+           if (keycode > 31 && (keycode < 48 || keycode > 57)) {
+              
+               return false;
+           }
+           else return true;
+ 
+
+       }        
+    </script>
+ <script type="text/javascript">
+	 $(window).on("load", function () {
+	    $(".homeloader").fadeOut("fast");
+	 });	  	 
+    </script>
+ 
+<div id="ctl00_ctl13_UpdatePanel3">
+	
+        <div class="currency-convertor">
+            <h1>
+                CURRENCY CONVERTER</h1>
+            <div class="form">
+               
+             
+                <input name="ctl00$ctl13$txtAmount" type="text" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ctl13$txtAmount\&#39;,\&#39;\&#39;)&#39;, 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;return validatenumerics(event);" id="ctl00_ctl13_txtAmount" placeholder="Enter Amount" />
+					
+                <div class="field_select_df">
+                    <select name="ctl00$ctl13$drpCurrency1" id="ctl00_ctl13_drpCurrency1">
+
+	</select>
+                </div>
+               
+                <div class="field_select_df">
+                    <select name="ctl00$ctl13$drpCurrency2" id="ctl00_ctl13_drpCurrency2">
+
+	</select>
+                 
+                </div>
+                 
+                <div class="form form-3">
+                      
+                    <input type="submit" name="ctl00$ctl13$btnConvert" value="CONVERT" id="ctl00_ctl13_btnConvert" />
+                    <input name="ctl00$ctl13$txtResult" type="text" id="ctl00_ctl13_txtResult" disabled="disabled" class="aspNetDisabled" placeholder="000.000" />
+                    
+   <input type="image" name="ctl00$ctl13$imgbtnswap" id="ctl00_ctl13_imgbtnswap" src="Frontend/images/btnswap1.png" alt="img1" style="height:31px;padding-left:15px;" />
+  
+                   
+                                   </div>
+                  </div>
+       
+               
+
+
+            
+        </div>
+	    <img src="Frontend/images/loading.gif" id="ctl00_ctl13_ldimg" class="homeloader" />
+   
+</div>
+
+                                    <!--End CurrencyConverter -->
+                                    <!-- LoanCalculator -->
+                                    
+<link href="../../../../Frontend/css/LoanStyle.css" rel="stylesheet" />
+<link href="../../../../Frontend/css/custom-query.css" rel="stylesheet" />
+<div class="loan-calkulator">
+     <iframe class="hmloanframe" src="../../../../Calculator.aspx"></iframe> 
+
+  
+</div>
+
+
+                                    <!--End LoanCalculator -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .main -->
+                        <div class="bottomImgContainer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pane trackPane">
+                <div class="pane_inner track">
+                    <div class="pane_content" style="margin-left: 6px !important;">
+                        <div class="header">
+                            <h3>
+                                <img src="/Frontend/images/ourBranches_open.png" alt="" /></h3>
+                            <a href="#" class="close ga_click track" rel="footer_close_track">X</a>
+                        </div>
+                        <!-- .header -->
+                        <div class="main" style="margin: 0">
+                            <div class="footer-branch">
+                                <div class="box-wrappar">
+                                    <!-- ATM locator -->
+                                    
+
+<style type="text/css">
+    .gm-ui-hover-effect {
+        z-index:999999999999999;
+    }
+</style>
+<script type="text/javascript">
+
+    function initialize() {
+        var mapOptions = {
+            center: new google.maps.LatLng("29.3697", "47.9783"),
+            zoom: 10,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var infoWindow = new google.maps.InfoWindow();
+        var map = new google.maps.Map(document.getElementById("dvMap"), mapOptions);
+
+        for (i = 0; i < markerList.length; i++) {
+            var data = markerList[i];
+            var myLatlng = new google.maps.LatLng(data.lat, data.lng);
+
+            var icon = {
+                url: '/media/4372fd08-4a06-4519-a803-2f079e69fecf/QQ2PmQ/Media Library/Icons-Branch.png', // url
+                scaledSize: new google.maps.Size(30, 37), // scaled size
+                origin: new google.maps.Point(0, 0), // origin
+                anchor: new google.maps.Point(0, 0) // anchor
+            };
+
+
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                icon: googlemarkerimg(data.icon), //data.icon,
+                //icon:   icon,
+                title: data.title,
+                animation: google.maps.Animation.DROP
+            });
+
+            (function (marker, data) {
+                google.maps.event.addListener(marker, "click", function (e) {
+                    infoWindow.setContent("<div style=\"width:200px;height:150px\"><h3>" + data.title + "</h3><br/>" + data.description + "</div>");
+                    infoWindow.open(map, marker);
+                });
+            })(marker, data);
+        }
+
+        // for fixing resizing the map for the second time issue
+        google.maps.event.addListenerOnce(map, 'idle', function () {
+            google.maps.event.trigger(map, 'resize');
+            map.setCenter(new google.maps.LatLng('29.3697', '47.9783'));
+        });
+
+        var legend = document.getElementById('legend');
+        map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legend);
+    }
+
+    function googlemarkerimg(imgpath) {
+        var newIcon = { url: location.protocol + '//'+ location.host + '/' + imgpath, scaledSize: new google.maps.Size(30, 37) };
+
+        return newIcon;
+    }
+    //google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+
+<div id="ctl00_ctl15_UpdatePanel1">
+	
+        <div class="atm">
+            <h1>
+               BRANCH / ATM LOCATOR</h1>
+            <h2>
+               Search by</h2>
+            <div class="field_select_df3">
+                <select name="ctl00$ctl15$drpGovernorate" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ctl15$drpGovernorate\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_ctl15_drpGovernorate">
+		<option selected="selected" value="00000000-0000-0000-0000-000000000000">Select Governorate</option>
+		<option value="9e4d7705-b551-4ec7-b689-406b4619b9ff">Ahmadi</option>
+		<option value="83f30e01-ebd2-4f16-ac47-bc2bb0e4373e">Al Asimah (Capital)</option>
+		<option value="2c9dbfcf-70e6-4fb8-8a4f-e961dd404d2a">Farwaniya</option>
+		<option value="78b6c26a-5166-4798-8d22-f0d7bde64e10">Hawalli</option>
+		<option value="2a39a28a-e0b4-4d46-afea-1fb9735d7892">Jahra</option>
+		<option value="31379b72-fd0c-41a1-a29d-d9901e193608">Mubarak Al Kabeer</option>
+
+	</select>
+                </div>
+                 <div class="field_select_df3">
+                <select name="ctl00$ctl15$drpRegions" id="ctl00_ctl15_drpRegions">
+		<option selected="selected" value="00000000-0000-0000-0000-000000000000">Select Region</option>
+
+	</select>
+            </div>
+            <h2>
+                Location type</h2>
+            <div class="branch-atmlocator">
+                <input id="ctl00_ctl15_chkATM" type="checkbox" name="ctl00$ctl15$chkATM" /><label for="ctl00_ctl15_chkATM">ATM</label>
+                <input id="ctl00_ctl15_chkCDM" type="checkbox" name="ctl00$ctl15$chkCDM" /><label for="ctl00_ctl15_chkCDM">CDM</label>
+                <input id="ctl00_ctl15_chkBranch" type="checkbox" name="ctl00$ctl15$chkBranch" /><label for="ctl00_ctl15_chkBranch">Branch</label>
+                <input id="ctl00_ctl15_chkDriveThrough" type="checkbox" name="ctl00$ctl15$chkDriveThrough" /><label for="ctl00_ctl15_chkDriveThrough">Drive Through</label>
+                <input type="submit" name="ctl00$ctl15$btnSubmit" value="Find" id="ctl00_ctl15_btnSubmit" />
+            </div>
+            <div class="adress">
+                
+                <h1>
+                   Commercial Bank of Kuwait </h1>
+                <p>
+                    Address</p>
+               
+                    <span>P.O BOX 2861 SAFAT 13029 KUWAIT<br />
+                       Phone Number 1888225 <br />
+                       Fax Number 22610084  </span>
+               
+                
+            </div>
+        </div>
+        
+        <a id="ctl00_ctl15_dummy" style="visibility: hidden"></a>
+        <div id="ctl00_ctl15_mapPop" class="mapmodal-popup" style="display: none; margin: 5% 50% auto auto;">
+		
+            <div class="mapmodal-header">
+                <input id="btnClose" type="button" value="" class="closee" />
+            </div>
+            <div class="mapmodal-body">
+                <div id="ctl00_ctl15_dvMap" class="map-content">
+                </div>
+            </div>
+        
+	</div>
+    
+</div>
+
+                                    <!--End ATM locator -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottomImgContainer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- GENTPANE -->
+            <div class="pane _gentPane">
+                <div class="pane_inner _gent">
+                    <div class="pane_content" style="margin-left: 17px !important;">
+                        <div class="header">
+                            <h3>
+                                <img src="/Frontend/images/mainServices_open.png" alt="" /></h3>
+                            <a href="#" class="close ga_click _gent" rel="footer_close_gent">X</a>
+                        </div>
+                        <!-- .header -->
+                        <div class="main">
+                            <div class="services">
+                                <div class="box-wrappar">
+                                    
+
+
+<div class="service-contentbox">
+<ul class="service-content">
+    
+<li><a href="/Personal-Banking/Digital-Services/Forms--Requests-Center">Forms & Requests Center</a></li>
+
+    
+    
+		
+    <li><a href="/Rates--Markets/Foreign-Exchange-Rates" >Rates & Markets</a></li>
+
+	<li><a href="https://www.Cbk-Online.com" target="_blank">Internet Banking Registration (Online Banking)</a></li>
+	
+	
+		
+<li><a href="http://www.cbk.com/Corporate-Banking/Corporate-Online-Banking" target="_blank">Corporate Online Banking</a></li>
+<li><a href="https://tijarirewards.cbk.com/earn" target="_blank">Rewards Calculator</a></li>
+<li><a href="https://www.cbk-online.com/CreditCardCalculator" target="_blank">Cards interest Calculator</a></li>
+    
+	
+	
+	
+</ul> 
+</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- .main -->
+                        <div class="bottomImgContainer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- TRACKPANE -->
+        </div>
+        <!-- PANES -->
+    </div>
+	
+	
+	</div>
+    
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="80A69F75" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="hOgG9OV/NoHk7T/SmegLdZhgNFdFqcO7i0Az7HmB84ztuygxyuAyuBv2QsX0OJcv578T5DkE2djs0lQcnXQskCGPXq5uc+bRIQqDy75LqYOd+KJpDFzvzsw1PNuPBVfONSWlNpIKAI8RdhKR22z0atWC2rT3MGIqocd1Rm7Chpi/Nle8g9SwZfDxFpWdFL1skhZhOVQbPtOPc6Yedm9bfadOvY+Oru0rOhcJipmG5ET9dUpZRg+MJMVdcUrYfYqUXJlyhZhQBiDOmIyKSX40pMb93PcO531PiULs9mIR0qaWtKFnN/XEvKvFxHDNA6zOaLw9gZBIVUJZt7R66tTzAQgZ3kQ7lxrSuRQpWv6t2YaF5JLmYW0DMFRvkw3keDjhXV4JszBfjl+FHAui3DqJwysFEMRZpvEREngDrUe6Vv2q/zdToLiy2HckPoHHXq2d+BBtV/xD8+EYQe98dfwzDDJHpXSeJczuTNgO1R/y6S2QneXbuvTirdfjvyUwkRIOBQj60mVxjTaBmQ/lsAlWMvFB7B+5Wm/HufgVNi1f0z8m1u6noTA9/9waM4aCs8G/gMgphwhNi5xFTNoLund+fuczjVxEaUxHF3ui/fsvNExzTyryqjgeVvcX1/5GdLeecyH7nCzkFlX3Qe3ExKApQMO2LuGmIkA4PB3OfIahR2Qv/DCTaZSuRZdcdFjUEkeJBgvmbUnZlb740RnFjtUeMdsB5RN3lKvauUb3v0fGjFCAOp/Ww33rrczxVdDUaBzJyoFIVc2B3jem+Iz3fVpNmf+zCcSWblIDEfN4TcC8LcR9kdhfZ+InwxacLZUP/vQFN4UU9gLulgbTw6aPx1Om5z2X3Rtk9XUv6PXbyTnPbkY=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"mapmodal-bg","OkControlID":"btnCloseDevice","PopupControlID":"ctl00_ctl10_mapPop","dynamicServicePath":"/","id":"mapModalDevice"}, null, null, $get("ctl00_ctl10_dummyDevice"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"mapmodal-bg","OkControlID":"btnClose","PopupControlID":"ctl00_ctl15_mapPop","dynamicServicePath":"/","id":"mapModal"}, null, null, $get("ctl00_ctl15_dummy"));
+});
+//]]>
+</script>
+</form>
+    
+				 <script>
+        (function (I, n, f, o, b, i, p) {
+            I[b] = I[b] || function () { (I[b].q = I[b].q || []).push(arguments) };
+            I[b].t = 1 * new Date(); i = n.createElement(f); i.async = 1; i.src = o;
+            p = n.getElementsByTagName(f)[0]; p.parentNode.insertBefore(i, p)
+        })
+            (window, document, 'script', 'https://livechat.infobip.com/widget.js', 'liveChat');
+
+        liveChat('init', 'd0fb2040-f49e-45d1-ad7b-5999dacc3431');
+    </script>
+
+			
+
+
+  
+    
+    <script>
+        // Hiding the panel content. If JS is inactive, content will be displayed
+        $('.panel-content').hide();
+
+        // Preparing the DOM
+
+        // -- Update the markup of accordion container 
+        $('.accordion').attr({
+            role: 'tablist',
+            multiselectable: 'true'
+        });
+
+        // -- Adding ID, aria-labelled-by, role and aria-labelledby attributes to panel content
+        $('.panel-content').attr('id', function (IDcount) {
+            return 'panel-' + IDcount;
+        });
+        $('.panel-content').attr('aria-labelledby', function (IDcount) {
+            return 'control-panel-' + IDcount;
+        });
+        $('.panel-content').attr('aria-hidden', 'true');
+        // ---- Only for accordion, add role tabpanel
+        $('.accordion .panel-content').attr('role', 'tabpanel');
+
+        // -- Wrapping panel title content with a <a href="">
+        $('.panel-title').each(function (i) {
+
+            // ---- Need to identify the target, easy it's the immediate brother
+            $target = $(this).next('.panel-content')[0].id;
+
+            // ---- Creating the link with aria and link it to the panel content
+            $link = $('<a>', {
+                'href': '#' + $target,
+                'aria-expanded': 'false',
+                'aria-controls': $target,
+                'id': 'control-' + $target
+            });
+
+            // ---- Output the link
+            $(this).wrapInner($link);
+
+        });
+
+        // Optional : include an icon. Better in JS because without JS it have non-sense.
+        $('.panel-title a').append('<span class="icon">+</span>');
+
+        // Now we can play with it
+        $('.panel-title a').click(function () {
+
+            if ($(this).attr('aria-expanded') == 'false') { //If aria expanded is false then it's not opened and we want it opened !
+
+                // -- Only for accordion effect (2 options) : comment or uncomment the one you want
+
+                // ---- Option 1 : close only opened panel in the same accordion
+                //      search through the current Accordion container for opened panel and close it, remove class and change aria expanded value
+                $(this).parents('.accordion').find('[aria-expanded=true]').attr('aria-expanded', false).removeClass('active').parent().next('.panel-content').slideUp(200).attr('aria-hidden', 'true');
+
+                // Option 2 : close all opened panels in all accordion container
+                //$('.accordion .panel-title > a').attr('aria-expanded', false).removeClass('active').parent().next('.panel-content').slideUp(200);
+
+                // Finally we open the panel, set class active for styling purpos on a and aria-expanded to "true"
+                $(this).attr('aria-expanded', true).addClass('active').parent().next('.panel-content').slideDown(200).attr('aria-hidden', 'false');
+
+            } else { // The current panel is opened and we want to close it
+
+                $(this).attr('aria-expanded', false).removeClass('active').parent().next('.panel-content').slideUp(200).attr('aria-hidden', 'true'); ;
+
+            }
+            // No Boing Boing
+            return false;
+        });
+    </script>
+		
+		<!-- Visa Checkout Javascript function -->
+		<script type="text/javascript">
+		function onVmeReady(){
+		var params = {
+		niptf: 'Null',
+		nicaller: 'CommBnkOfKuwait',
+		nicmp: 'CommBnkOfKuwait',
+		niflow: 'Issuer',
+		nichn: 'BrandedEnroll',
+		niseg: '00001',
+		locale: 'en-KW',
+		country: 'KW',
+		};   
+		V.init({params: params});
+				 };
+		</script>
+		
+		
+		<!--Visa Checkout Library -->
+	<script src="https://secure.checkout.visa.com/assets/integration/v1/sdk.js"  type="text/javascript"></script>
+			
+	
+
+    
+		
+</body>
+</html>
