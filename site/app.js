@@ -8,6 +8,7 @@
   const BRAND = { name: "GCC Banking", word: "AI Pulse Monitor", tagline: "Tracking AI in Gulf banks, daily" };
   document.title = `${BRAND.name} – ${BRAND.word}`;
 
+  const SHORT_NAME = { SA: "KSA" };  // keeps the flag strip readable on small phones
   const ICONS = {
     news: '<path d="M5 5h11v14H6a1 1 0 0 1-1-1V5zM16 9h3v9a1 1 0 0 1-1 1h-2M8 9h5M8 12h5M8 15h3"/>',
     bank: '<path d="M3 10l9-6 9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"/>',
@@ -229,7 +230,7 @@
   function renderFeed(q) {
     const st = {
       country: q.get("country") || "", bank: q.get("bank") || "", cat: q.get("cat") || "",
-      period: q.get("period") || "all", q: q.get("q") || "",
+      period: q.get("period") || "all", q: q.get("q") || "", view: q.get("view") === "insights" ? "insights" : "",
     };
     const countryChips = [["", "All GCC", DATA.items.length]].concat(
       CFG.countries.map((c) => [c.code, `${flag(c)} ${esc(c.name)}`, DATA.items.filter((i) => i.country === c.code).length]));
@@ -247,7 +248,7 @@
           <button class="hc" data-country="" aria-pressed="${!st.country}"><span class="hc-all">GCC</span><span class="hc-n">${DATA.items.length}</span><span class="hc-l">All</span></button>
           ${CFG.countries.map((c) => {
             const n = DATA.items.filter((i) => i.country === c.code).length;
-            return `<button class="hc" data-country="${c.code}" aria-pressed="${st.country === c.code}">${flag(c, "hc-flag")}<span class="hc-n">${n}</span><span class="hc-l">${esc(c.name)}</span><span class="hc-bar"><span style="width:${(n / maxC) * 100}%"></span></span></button>`;
+            return `<button class="hc" data-country="${c.code}" aria-pressed="${st.country === c.code}">${flag(c, "hc-flag")}<span class="hc-n">${n}</span><span class="hc-l">${esc(SHORT_NAME[c.code] || c.name)}</span><span class="hc-bar"><span style="width:${(n / maxC) * 100}%"></span></span></button>`;
           }).join("")}
         </div>
       </section>
@@ -258,14 +259,22 @@
         <select id="fcat" aria-label="Theme"><option value="">All themes</option>${CATEGORIES.map((c) => `<option ${c === st.cat ? "selected" : ""}>${esc(c)}</option>`).join("")}</select>
         <select id="fperiod" aria-label="Period">${PERIODS.map(([v, l]) => `<option value="${v}" ${v === st.period ? "selected" : ""}>${l}</option>`).join("")}</select>
       </div>
-      <div style="margin-top:10px">${chartBlock("feedChart", "Activity")}</div>
-      <div class="insights">
-        <div class="card"><div class="chart-head"><b>AI themes</b><span>tap to filter</span></div><div id="themeBars"></div></div>
-        <div class="card"><div class="chart-head"><b>Top tech partners</b><span>tap to filter</span></div><div id="partnerBars"></div></div>
+      <div class="seg" role="tablist" id="viewSwitch">
+        <button role="tab" data-view="" aria-selected="${st.view !== "insights"}">📰 News</button>
+        <button role="tab" data-view="insights" aria-selected="${st.view === "insights"}">📊 Insights</button>
       </div>
+      <div id="insightsPane" ${st.view === "insights" ? "" : "hidden"}>
+        <div style="margin-top:10px">${chartBlock("feedChart", "Activity")}</div>
+        <div class="insights">
+          <div class="card"><div class="chart-head"><b>AI themes</b><span>tap to filter</span></div><div id="themeBars"></div></div>
+          <div class="card"><div class="chart-head"><b>Top tech partners</b><span>tap to filter</span></div><div id="partnerBars"></div></div>
+        </div>
+      </div>
+      <div id="newsPane" ${st.view === "insights" ? "hidden" : ""}>
       <div class="result-line"><span id="resCount"></span><button class="linklike" id="clearBtn" hidden>Clear filters</button></div>
       <div class="news-list" id="feedList"></div>
       <button class="more-btn" id="moreBtn" hidden>Show more</button>
+      </div>
       <p class="updated">${DATA.updated_at ? "Updated " + new Date(DATA.updated_at).toLocaleString() : ""} · checked daily</p>`;
 
     const fillBanks = () => {
@@ -276,7 +285,7 @@
         `<option value="${b.id}" ${b.id === st.bank ? "selected" : ""}>${esc(b.short)}${st.country ? "" : " · " + esc(COUNTRIES[b.country].name)}</option>`).join("");
     };
 
-    let shown = PAGE;
+    let shown = PAGE, lastList = [];
     const update = (resetPage = true) => {
       if (resetPage) shown = PAGE;
       const qp = new URLSearchParams();
@@ -292,26 +301,35 @@
       const banksActive = new Set(list.map((i) => i.bank_id)).size;
       const last30 = list.filter((i) => i.date >= isoDaysAgo(30)).length;
       const countries = new Set(list.map((i) => i.country)).size;
-      $("#heroKpis").innerHTML = [["news", list.length.toLocaleString(), "AI announcements"], ["bank", banksActive, "banks active"],
-        ["globe", countries, "countries"], ["bolt", last30, "in the last 30 days"]]
+      $("#heroKpis").innerHTML = [["news", list.length.toLocaleString(), "AI news"], ["bank", banksActive, "banks"],
+        ["globe", countries, "countries"], ["bolt", last30, "last 30 days"]]
         .map(([k, v, l]) => `<div class="kpi">${icon(k)}<b>${v}</b><span>${l}</span></div>`).join("");
       $("#resCount").textContent = list.length ? `Showing ${Math.min(shown, list.length)} of ${plural(list.length, "item")}` : "";
       $("#clearBtn").hidden = !(st.country || st.bank || st.cat || st.q || st.period !== "all");
       $("#feedList").innerHTML = list.length ? list.slice(0, shown).map((i) => newsCard(i)).join("") : emptyState();
       $("#moreBtn").hidden = list.length <= shown;
       $("#moreBtn").onclick = () => { shown += PAGE; update(false); };
-      mountChart("feedChart", list);
+      lastList = list;
+      if (st.view === "insights") mountChart("feedChart", list);
       // Themes are counted on everything except the theme filter itself, so all bars stay comparable.
       $("#themeBars").innerHTML = barList("themeList", countBy(base, topicsOf), st.cat, "theme", base.length);
       $("#partnerBars").innerHTML = barList("partnerList", countBy(list, partnersOf).slice(0, 8), st.q, "partner");
     };
+    const showView = (v) => {
+      st.view = v;
+      $("#insightsPane").hidden = v !== "insights"; $("#newsPane").hidden = v === "insights";
+      document.querySelectorAll("#viewSwitch [data-view]").forEach((x) => x.setAttribute("aria-selected", x.dataset.view === v));
+      update(false);
+      if (v === "insights") mountChart("feedChart", lastList);  // chart needs a visible container to size itself
+    };
+    $("#viewSwitch").addEventListener("click", (e) => { const x = e.target.closest("[data-view]"); if (x) showView(x.dataset.view); });
     $("#themeBars").addEventListener("click", (e) => {
       const x = e.target.closest("[data-theme]"); if (!x) return;
-      st.cat = x.dataset.theme === st.cat ? "" : x.dataset.theme; $("#fcat").value = st.cat; update();
+      st.cat = x.dataset.theme === st.cat ? "" : x.dataset.theme; $("#fcat").value = st.cat; showView("");
     });
     $("#partnerBars").addEventListener("click", (e) => {
       const x = e.target.closest("[data-partner]"); if (!x) return;
-      st.q = x.dataset.partner === st.q ? "" : x.dataset.partner; $("#fq").value = st.q; update();
+      st.q = x.dataset.partner === st.q ? "" : x.dataset.partner; $("#fq").value = st.q; showView("");
     });
 
     $("#countryChips").addEventListener("click", (e) => {
