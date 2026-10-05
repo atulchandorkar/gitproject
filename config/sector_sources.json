@@ -1,11 +1,12 @@
 {
  "categories": [
-  {"id": "Studies & Surveys", "icon": "📑", "guide": "a report, study, survey or white paper by a consultancy, research/analyst firm, academic or industry body about AI in GCC banking"},
-  {"id": "Maturity & Rankings", "icon": "🏆", "guide": "an index, benchmark, maturity/readiness assessment or ranking of GCC banks' AI capabilities (incl. lists of top AI banks)"},
-  {"id": "Regulation & Guidance", "icon": "⚖️", "guide": "rules, guidelines, principles, frameworks, sandboxes or consultations on AI in banking/finance by a GCC central bank, regulator or government"},
-  {"id": "Market Data", "icon": "📈", "guide": "figures on AI spending, market size, investment or adoption rates in GCC banking/financial services (forecasts and statistics)"},
-  {"id": "Expert Views", "icon": "💬", "guide": "an opinion piece, interview or analysis by an industry leader, partner or analyst about AI across GCC banks (not one bank's own announcement)"},
-  {"id": "Events & Initiatives", "icon": "🗓️", "guide": "sector-wide programmes, consortia, national AI-in-finance initiatives, summits or forums about AI in GCC banking"}
+  {"id": "Studies & Surveys", "icon": "📑", "guide": "a report, study, survey or white paper by a consultancy, research/analyst firm, academic or industry body about AI in banking"},
+  {"id": "Case Studies & Use Cases", "icon": "🧩", "guide": "a concrete account of how a bank (outside the GCC) or the industry built, deployed or scaled an AI solution – what it does and ideally the results"},
+  {"id": "Maturity & Rankings", "icon": "🏆", "guide": "an index, benchmark, maturity/readiness assessment or ranking of banks' AI capabilities (incl. lists of top AI banks)"},
+  {"id": "Regulation & Guidance", "icon": "⚖️", "guide": "rules, guidelines, principles, frameworks, sandboxes or consultations on AI in banking/finance by a central bank, regulator, standard setter or government"},
+  {"id": "Market Data", "icon": "📈", "guide": "figures on AI spending, market size, investment, productivity or adoption rates in banking/financial services"},
+  {"id": "Expert Views", "icon": "💬", "guide": "an opinion piece, interview or analysis by an industry leader, partner or analyst about AI in banking"},
+  {"id": "Events & Initiatives", "icon": "🗓️", "guide": "sector-wide programmes, consortia, national AI-in-finance initiatives, summits or forums about AI in banking"}
  ],
  "publishers": [
   {"name": "McKinsey & Company", "short": "McKinsey", "domain": "mckinsey.com", "kind": "consultancy",

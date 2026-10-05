@@ -81,6 +81,45 @@
     renderFeed(q);
   }
 
+  // ---------- one story, one card (safety net; the agent merges duplicates with an AI check too) ----------
+  const DUP_STOP = new Set(("the a an and of to in for with on its by at as new bank banks banking launches launch announces first " +
+    "through via from into over more most has have will is are be it this that group says said uae saudi qatar kuwait oman bahrain " +
+    "gcc after amid while unveil unveils ai genai artificial intelligence generative powered driven digital").split(" "));
+  const stem = (w) => { for (const x of ["ments", "ment", "ings", "ing", "ed", "es", "s"]) if (w.endsWith(x) && w.length - x.length >= 4) return w.slice(0, -x.length); return w; };
+  function dupTokens(title, names) {
+    let t = (title || "").toLowerCase();
+    names.filter(Boolean).sort((a, b) => b.length - a.length).forEach((n) => { t = t.split(n.toLowerCase()).join(" "); });
+    return new Set((t.match(/[\p{L}\p{N}_]+/gu) || []).filter((w) => w.length > 1 && !DUP_STOP.has(w)).map(stem));
+  }
+  function sameStory(a, b, names) {
+    if ((a.source_type || "news") !== (b.source_type || "news")) return false;
+    if (Math.abs(new Date(a.date) - new Date(b.date)) > 10 * 864e5) return false;
+    for (const x of [a.title, a.source_title].filter(Boolean)) for (const y of [b.title, b.source_title].filter(Boolean)) {
+      const A = dupTokens(x, names), B = dupTokens(y, names);
+      if (!A.size || !B.size) continue;
+      let i = 0; A.forEach((w) => { if (B.has(w)) i++; });
+      const jac = i / (A.size + B.size - i), cont = i / Math.min(A.size, B.size);
+      if (jac >= 0.45 || (cont >= 0.75 && Math.min(A.size, B.size) >= 3)) return true;
+    }
+    return false;
+  }
+  const LEVEL_RANK = { official: 0, trusted: 1, corroborated: 2 };
+  function dedupeItems(items) {
+    const rank = (i) => [LEVEL_RANK[(i.verification || {}).level] ?? 3, (i.verification || {}).evidence === "article" ? 0 : 1];
+    const sorted = [...items].sort((a, b) => { const x = rank(a), y = rank(b); return x[0] - y[0] || x[1] - y[1]; });
+    const kept = [];
+    sorted.forEach((it) => {
+      const b = BANKS[it.bank_id];
+      const names = [b.name, b.short, b.name_ar, ...(b.aliases || []), ...(b.type === "central" ? ["central bank"] : [])];
+      const dup = kept.find((k) => k.bank_id === it.bank_id && sameStory(k, it, names));
+      if (!dup) return kept.push(it);
+      const have = new Set(sourcesOf(dup).map((x) => x.url));
+      dup.sources = [...sourcesOf(dup), ...sourcesOf(it).filter((x) => !have.has(x.url))];
+      if (it.date < dup.date) dup.date = it.date;
+    });
+    return kept.sort((a, b) => b.date.localeCompare(a.date));
+  }
+
   // ---------- shared components ----------
   // Themes in a fixed order (multi-label: an item can have several).
   const THEMES = ["AI Strategy & Leadership", "AI Adoption in Operations", "Generative AI & Copilots", "Tech Vendor Partnerships",
@@ -542,7 +581,7 @@
   // ---------- GCC Banking Sector Insights ----------
   const SECTOR_LABEL = { official: "Publisher's own release", trusted: "Trusted outlet", corroborated: "Confirmed by several outlets" };
   const SECTOR_ICON = (c) => (SECTOR_CFG.categories.find((x) => x.id === c) || {}).icon || "•";
-  const SECTOR_SHORT = { "Studies & Surveys": "Studies", "Maturity & Rankings": "Rankings", "Regulation & Guidance": "Regulation",
+  const SECTOR_SHORT = { "Studies & Surveys": "Studies", "Case Studies & Use Cases": "Use cases", "Maturity & Rankings": "Rankings", "Regulation & Guidance": "Regulation",
     "Market Data": "Market data", "Expert Views": "Expert views", "Events & Initiatives": "Initiatives" };
   function publisherOf(name) {
     const n = (name || "").toLowerCase();
@@ -562,9 +601,11 @@
     return `<span class="avatar sm${img ? " has-logo" : ""}" aria-hidden="true">${img}<span class="ini">${ini}</span></span>`;
   }
   const geoOf = (i) => (i.countries && i.countries.length ? i.countries : ["GCC"]);
+  const isGCC = (i) => !geoOf(i).includes("Global");
   function geoChips(i) {
+    if (!isGCC(i)) return `<span class="geo">🌐 Global</span>`;
     const cs = geoOf(i).filter((c) => COUNTRIES[c]);
-    return cs.length && !geoOf(i).includes("GCC") ? cs.map((c) => flag(COUNTRIES[c])).join("") : `<span class="geo">GCC-wide</span>`;
+    return cs.length && !geoOf(i).includes("GCC") ? cs.map((c) => flag(COUNTRIES[c])).join("") : `<span class="geo gcc">GCC-wide</span>`;
   }
 
   function sectorCard(i) {
@@ -596,8 +637,8 @@
       <section class="hero sector-hero">
         ${NETWORK}
         <div class="hero-eyebrow"><span class="live-dot"></span>Last 12 months${updated ? ` · updated ${esc(updated)}` : ""}</div>
-        <h1 class="hero-title"><span class="hero-kicker">GCC Banking</span><b>Sector Insights</b></h1>
-        <p class="hero-tag">AI across GCC banking: studies, rankings, regulation</p>
+        <h1 class="hero-title"><span class="hero-kicker">Global &amp; GCC</span><b>Banking Sector Insights</b></h1>
+        <p class="hero-tag">AI across banking: studies, use cases, regulation</p>
         <div class="hero-kpis" id="secKpis"></div>
         <div class="cat-grid" id="secCats">
           ${cats.map((c) => `<button class="cat-tile" data-cat="${esc(c)}" aria-pressed="${st.cat === c}">
@@ -608,7 +649,10 @@
       <div class="filters">
         <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
           <input id="sq" type="search" placeholder="Search studies, firms, topics…" value="${esc(st.q)}" aria-label="Search"></label>
-        <select id="scountry" aria-label="Country"><option value="">All GCC</option><option value="GCC" ${st.country === "GCC" ? "selected" : ""}>GCC-wide studies</option>
+        <select id="scountry" aria-label="Region"><option value="">All regions</option>
+          <option value="Global" ${st.country === "Global" ? "selected" : ""}>🌐 Global</option>
+          <option value="GCCALL" ${st.country === "GCCALL" ? "selected" : ""}>GCC (all)</option>
+          <option value="GCC" ${st.country === "GCC" ? "selected" : ""}>GCC-wide studies</option>
           ${CFG.countries.map((c) => `<option value="${c.code}" ${st.country === c.code ? "selected" : ""}>${esc(c.name)}</option>`).join("")}</select>
         <select id="spub" aria-label="Publisher"><option value="">All publishers</option>${pubs.filter(Boolean).map((p) => `<option ${p === st.pub ? "selected" : ""}>${esc(p)}</option>`).join("")}</select>
         <select id="scat" aria-label="Category"><option value="">All categories</option>${cats.map((c) => `<option value="${esc(c)}" ${c === st.cat ? "selected" : ""}>${esc(SECTOR_SHORT[c] || c)}</option>`).join("")}</select>
@@ -622,7 +666,7 @@
         <div class="insights">
           <div class="card"><div class="chart-head"><b>By category</b><span>tap to filter</span></div><div id="secCatBars"></div></div>
           <div class="card"><div class="chart-head"><b>Top publishers</b><span>tap to filter</span></div><div id="secPubBars"></div></div>
-          <div class="card"><div class="chart-head"><b>By country</b><span>tap to filter</span></div><div id="secGeoBars"></div></div>
+          <div class="card"><div class="chart-head"><b>By region</b><span>tap to filter</span></div><div id="secGeoBars"></div></div>
         </div>
       </div>
       <div id="secList" ${st.view === "charts" ? "hidden" : ""}>
@@ -630,9 +674,9 @@
         <div class="news-list" id="secItems"></div>
         <button class="more-btn" id="secMore" hidden>Show more</button>
       </div>
-      <p class="updated">Studies, rankings, regulation and market data on AI in GCC banking · checked daily</p>`;
+      <p class="updated">Studies, use cases, rankings, regulation and market data on AI in banking · checked daily</p>`;
 
-    const geoName = (c) => (c === "GCC" ? "GCC-wide" : COUNTRIES[c] ? COUNTRIES[c].name : c);
+    const geoName = (c) => (c === "GCC" ? "GCC-wide" : c === "Global" ? "🌐 Global" : COUNTRIES[c] ? COUNTRIES[c].name : c);
     let shown = PAGE, last = [];
     const update = (reset = true) => {
       if (reset) shown = PAGE;
@@ -640,7 +684,8 @@
       Object.entries(st).forEach(([k, v]) => { if (v) qp.set(k, v); });
       setQuery(qp);
       const needle = st.q.trim().toLowerCase();
-      const base = all.filter((i) => (!st.country || geoOf(i).includes(st.country)) && (!st.pub || pubShort(i) === st.pub) &&
+      const inRegion = (i) => !st.country || (st.country === "GCCALL" ? isGCC(i) : geoOf(i).includes(st.country));
+      const base = all.filter((i) => inRegion(i) && (!st.pub || pubShort(i) === st.pub) &&
         (!needle || [i.title, i.summary, i.publisher, i.source_title, i.category, ...(i.key_stats || []).map((k) => `${k.value} ${k.label}`)]
           .join(" ").toLowerCase().includes(needle)));
       const list = base.filter((i) => !st.cat || i.category === st.cat);
@@ -660,7 +705,7 @@
       $("#secClear").hidden = !(st.cat || st.country || st.pub || st.q);
       $("#secItems").innerHTML = list.length ? list.slice(0, shown).map(sectorCard).join("") : `<div class="empty card"><div class="big">${all.length ? "🔍" : "⏳"}</div>
         <p><b>${all.length ? "No matching insights" : "Sector insights are being collected"}</b></p>
-        <p>${all.length ? "Try widening the filters." : "The first run loads the last 12 months of studies, rankings and regulation on AI in GCC banking. Check back after the next daily update."}</p></div>`;
+        <p>${all.length ? "Try widening the filters." : "The first run loads the last 12 months of studies, use cases and regulation on AI in banking. Check back after the next daily update."}</p></div>`;
       $("#secMore").hidden = list.length <= shown;
       $("#secMore").onclick = () => { shown += PAGE; update(false); };
       $("#secCatBars").innerHTML = barList("secCatList", cats.map((c) => [c, base.filter((i) => i.category === c).length]).filter(([, n]) => n), st.cat, "cat", base.length);
@@ -681,7 +726,7 @@
     $("#secPubBars").addEventListener("click", (e) => { const x = e.target.closest("[data-pub]"); if (!x) return;
       st.pub = x.dataset.pub === st.pub ? "" : x.dataset.pub; $("#spub").value = st.pub; showView(""); });
     $("#secGeoBars").addEventListener("click", (e) => { const x = e.target.closest("[data-geo]"); if (!x) return;
-      const code = x.dataset.geo === "GCC-wide" ? "GCC" : (CFG.countries.find((c) => c.name === x.dataset.geo) || {}).code || "";
+      const code = x.dataset.geo === "GCC-wide" ? "GCC" : x.dataset.geo === "🌐 Global" ? "Global" : (CFG.countries.find((c) => c.name === x.dataset.geo) || {}).code || "";
       st.country = code === st.country ? "" : code; $("#scountry").value = st.country; showView(""); });
     $("#scountry").onchange = (e) => { st.country = e.target.value; update(); };
     $("#spub").onchange = (e) => { st.pub = e.target.value; update(); };
@@ -721,12 +766,12 @@
         implementations it discloses. Each one appears as a 📘 card tagged to the bank, with the exact quote and a button that opens the official PDF at
         that page. A disclosure is shown only if its quote is found word for word in the report, its numbers are on that page, and an independent
         AI fact-check confirms it. Filter with “📘 Annual reports” in the theme menu; each bank page lists its report PDFs.</p>
-        <h2>GCC Banking Sector Insights</h2>
-        <p>A separate tab for AI across GCC banking as a whole rather than one bank: <b>studies &amp; surveys</b> (McKinsey, BCG, PwC,
-        Deloitte, Accenture, EY, KPMG, IDC, Gartner …), <b>maturity indices &amp; rankings</b>, <b>regulation &amp; guidance</b> from GCC
-        central banks and regulators, <b>market data</b>, <b>expert views</b> and <b>sector events &amp; initiatives</b> from the last 12 months.
-        The same checks apply: the source must be about AI <i>and</i> banking <i>and</i> the GCC, one bank's own news stays in the News tab,
-        and a key figure is shown only when its exact wording appears in the source.</p>
+        <h2>Banking Sector Insights</h2>
+        <p>A separate tab for AI across the banking sector worldwide, with GCC items flagged: <b>studies &amp; surveys</b> (McKinsey, BCG,
+        Accenture, PwC, Deloitte, EY, KPMG, IDC, Gartner …), <b>case studies &amp; use cases</b>, <b>maturity indices &amp; rankings</b>,
+        <b>regulation &amp; guidance</b>, <b>market data</b>, <b>expert views</b> and <b>sector events &amp; initiatives</b> from the last 12 months.
+        Filter by region (Global, GCC or one country). The same checks apply: the source must be about AI <i>and</i> banking, a GCC bank's own
+        news stays in the News tab, and a key figure is shown only when its exact wording appears in the source.</p>
         <h2>Themes</h2>
         <p>${THEMES.map(esc).join(" · ")}. A story can belong to more than one theme.</p>
         <p style="font-size:13px">Summaries are AI-generated and fact-checked, but please open the source before citing a figure.</p>
@@ -757,7 +802,7 @@
     if (sectorCfg) SECTOR_CFG = sectorCfg;
     BANKS = Object.fromEntries(cfg.banks.map((b) => [b.id, b]));
     COUNTRIES = Object.fromEntries(cfg.countries.map((c) => [c.code, c]));
-    DATA.items = (DATA.items || []).filter((i) => BANKS[i.bank_id]).sort((a, b) => b.date.localeCompare(a.date));
+    DATA.items = dedupeItems((DATA.items || []).filter((i) => BANKS[i.bank_id]));
     const present = new Set(DATA.items.flatMap(topicsOf));
     CATEGORIES = [...THEMES.filter((t) => present.has(t)), ...[...present].filter((t) => !THEMES.includes(t)).sort()];
     window.addEventListener("hashchange", route);

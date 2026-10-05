@@ -360,3 +360,6 @@ h1, h2, h3 { line-height: 1.2; margin: 0; }
 .pk-name { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .pk-sub { font-size: 12.5px; color: var(--text-2); }
 .pk-n { font-weight: 700; font-variant-numeric: tabular-nums; color: var(--text-2); }
+.cat-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.cat-tile .ct-l { font-size: 10.5px; }
+.geo.gcc { color: #0b1b3f; background: #fdf6e3; }
