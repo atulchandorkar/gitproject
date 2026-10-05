@@ -357,7 +357,6 @@
 
   // ---------- About ----------
   function renderAbout() {
-    const theme = document.documentElement.dataset.theme || "auto";
     app.innerHTML = `<div class="page-head"><h1>About</h1></div>
       <div class="card prose">
         <p>This tracker follows the <b>AI initiatives of ${CFG.banks.length} banks</b> across the UAE, Saudi Arabia, Qatar, Kuwait,
@@ -373,16 +372,8 @@
         qualifying items, summarises and categorises them, and sends new items to Telegram. Every item links to its original source.
         The history goes back 24 months.</p>
         <p style="font-size:13px">Summaries are AI-generated, so check the linked source before citing a figure.</p>
-        <h2>Appearance</h2>
-        <div class="theme-switch">${["auto", "light", "dark"].map((t) => `<button class="chip" data-theme-set="${t}" aria-pressed="${t === theme}">${t[0].toUpperCase() + t.slice(1)}</button>`).join("")}</div>
       </div>
       <p class="updated">${plural(DATA.items.length, "announcement")} tracked${DATA.updated_at ? " · updated " + new Date(DATA.updated_at).toLocaleString() : ""}</p>`;
-    app.querySelectorAll("[data-theme-set]").forEach((btn) => btn.onclick = () => {
-      const t = btn.dataset.themeSet;
-      if (t === "auto") delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = t;
-      try { localStorage.setItem("theme", t); } catch (_) {}
-      renderAbout();
-    });
   }
 
   // ---------- share ----------
@@ -393,7 +384,6 @@
   };
 
   // ---------- boot ----------
-  try { const t = localStorage.getItem("theme"); if (t && t !== "auto") document.documentElement.dataset.theme = t; } catch (_) {}
 
   Promise.all([
     fetch("data/banks.json", { cache: "no-cache" }).then((r) => r.json()),
