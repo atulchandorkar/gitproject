@@ -145,7 +145,8 @@
         <span class="dot"></span><span class="cat">${esc(i.category)}</span>${extraTopics}
       </div>
       <h3><a href="${esc(i.source_url)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>
-      ${i.summary ? `<p>${esc(i.summary)}</p>` : ""}
+      <p>${esc(i.summary && i.summary.trim().length >= 40 ? i.summary
+        : `${b.name}: ${(i.source_title || i.title).replace(/\.$/, "")}. Reported by ${srcs[0].name || "the source"} on ${fmtDate(i.date)}; open the source for full details.`)}</p>
       ${i.impact ? `<div class="impact">📈 ${esc(i.impact)}</div>` : ""}
       ${tags || (i.partners && i.partners.length) ? `<div class="tags">${tags}${i.partners && i.partners.length ? `<span class="tag">🤝 ${esc(i.partners.join(", "))}</span>` : ""}</div>` : ""}
       <div class="sources">${badge}${orig}<div class="src-list"><span>${srcs.length > 1 ? "Sources" : "Source"}:</span>${srcLinks}</div></div>

@@ -495,6 +495,22 @@ class Tracker:
         self.state["seen"] = {}
         self.save()
 
+    def fill_missing_summaries(self) -> None:
+        """Published items without a proper two-line summary get one (from the article or original headline)."""
+        todo = [i for i in self.news["items"] if len((i.get("summary") or "").strip()) < 40]
+        if not todo:
+            return
+        print(f"Writing summaries for {len(todo)} items …")
+        staged = []
+        for it in todo:
+            got = verify.evidence_for(it, self.banks[it["bank_id"]])
+            if got:
+                staged.append((it, got[0], got[1]))
+            else:
+                it["summary"] = verify.fallback_summary(it, self.banks[it["bank_id"]])
+        verify.fill_summaries(staged, self.banks, self.checker)
+        self.save()
+
     def reverify_legacy(self) -> None:
         """Items saved before verification existed are re-checked once, like new ones."""
         legacy = [i for i in self.news["items"] if "verification" not in i]
@@ -526,6 +542,7 @@ class Tracker:
             s = e
         self.reverify_legacy()
         self.retag_missing()
+        self.fill_missing_summaries()
         added_all: list[dict] = []
         print(f"Loading history for {len(bank_ids)} banks since {start} ({len(windows)} windows each) …")
         for bid in bank_ids:
@@ -540,6 +557,7 @@ class Tracker:
     def update(self, screener: Screener) -> list[dict]:
         self.reverify_legacy()
         self.retag_missing()
+        self.fill_missing_summaries()
         print("Daily update (bank newsrooms + last 7 days of news) …")
         banks = list(self.banks.values())
         from_newsrooms = newsrooms.scan_all(banks, self.state, AI_RE, today())

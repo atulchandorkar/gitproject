@@ -67,6 +67,23 @@ class Checks(BaseModel):
     items: list[Check]
 
 
+class Summary(BaseModel):
+    i: int
+    summary: str
+
+
+class Summaries(BaseModel):
+    items: list[Summary]
+
+
+SUMMARY_PROMPT = """You write the two-line summary shown under each headline on a bank AI news dashboard.
+For each item, write exactly two short English sentences (about 25-45 words in total) using ONLY the evidence:
+1) what the bank announced, launched or achieved with AI; 2) the purpose, scope, partner or significance.
+If the evidence is only a headline, rephrase what it states and name the publisher and date in sentence 2
+(e.g. "The announcement was reported by Gulf Times on 3 Oct 2026."). Never add facts, numbers, names or
+dates that are not in the evidence. Translate Arabic to English. No marketing language."""
+
+
 FACT_CHECK_PROMPT = """You are a strict, sceptical fact-checker for a banking AI news tracker. For each item you get \
 EVIDENCE (either the article text or only the original headline) and the CLAIMS written by another AI.
 
@@ -96,7 +113,12 @@ def bank_mentioned(text: str, bank: dict) -> bool:
 
 
 def _nums(text: str) -> set[str]:
-    return {n.rstrip(".,").replace(",", "") for n in _NUM_RE.findall(text or "") if n.rstrip(".,")}
+    out = set()
+    for n in _NUM_RE.findall(text or ""):
+        n = n.rstrip(".,").replace(",", "")
+        if n:
+            out.add(str(int(n)) if n.isdigit() else n)  # "01" == "1" (dates like 2026-10-01 vs 1 Oct 2026)
+    return out
 
 
 def numbers_supported(claim: str, evidence: str) -> bool:
@@ -135,6 +157,21 @@ class FactChecker:
         self.model = model
         self.on_fatal = on_fatal
 
+    def summarize(self, rows: list[dict]) -> dict[int, str]:
+        body = "\n\n".join(json.dumps(r, ensure_ascii=False) for r in rows)
+        try:
+            resp = self.client.messages.parse(
+                model=self.model, max_tokens=4000, system=SUMMARY_PROMPT,
+                messages=[{"role": "user", "content": f"Items:\n\n{body}"}], output_format=Summaries,
+            )
+        except (anthropic.AuthenticationError, anthropic.PermissionDeniedError, anthropic.BadRequestError) as exc:
+            if isinstance(exc, anthropic.BadRequestError) and "credit balance" not in str(exc).lower():
+                raise
+            raise self.on_fatal(exc) from exc
+        if resp.stop_reason == "refusal" or resp.parsed_output is None:
+            return {}
+        return {x.i: x.summary.strip() for x in resp.parsed_output.items}
+
     def check(self, rows: list[dict]) -> dict[int, Check]:
         body = "\n\n".join(json.dumps(r, ensure_ascii=False) for r in rows)
         try:
@@ -153,10 +190,51 @@ class FactChecker:
         return {c.i: c for c in resp.parsed_output.items}
 
 
+def fallback_summary(it: dict, bank: dict) -> str:
+    """Plain, factual two-line summary built only from the source when nothing better passes the checks."""
+    head = (it.get("source_title") or it["title"]).strip().rstrip(".")
+    src = (it.get("sources") or [{}])[0].get("name") or it.get("source_name") or "the source"
+    when = dt.date.fromisoformat(it["date"]).strftime("%-d %b %Y")
+    return f"{bank['name']}: {head}. Reported by {src} on {when}; open the source for full details."
+
+
+def evidence_for(it: dict, bank: dict) -> tuple[str, str] | None:
+    """(evidence text, kind) for an item: article text when the page can be read, else its original headline."""
+    text = page_text(it["source_url"])
+    if text and bank_mentioned(text, bank):
+        names = [n for n in [bank["name"], bank["short"]] if n.lower() in text.lower()]
+        pos = max(0, min((text.lower().find(n.lower()) for n in names), default=0) - 1500)
+        return text[pos:pos + ARTICLE_CHARS], "article"
+    if it.get("source_title"):
+        src = (it.get("sources") or [{}])[0].get("name") or it.get("source_name", "")
+        return f'{it["source_title"]} ({src}, {it["date"]})', "headline"
+    return None
+
+
+def fill_summaries(staged: list[tuple[dict, str, str]], banks: dict, checker: FactChecker) -> None:
+    """Every item gets a two-line summary: written from the evidence, number-checked, else a factual fallback."""
+    todo = [(it, ev) for it, ev, _ in staged if len((it.get("summary") or "").strip()) < 40]
+    for start in range(0, len(todo), 8):
+        chunk = todo[start:start + 8]
+        rows = [{"i": n, "bank": banks[it["bank_id"]]["name"], "title": it["title"], "evidence": ev}
+                for n, (it, ev) in enumerate(chunk)]
+        try:
+            written = checker.summarize(rows)
+        except Exception as exc:
+            if exc.__class__.__name__ == "FatalAPIError":
+                raise
+            print(f"  ! summary batch failed, using fallback summaries: {exc!r}", file=sys.stderr)
+            written = {}
+        for n, (it, ev) in enumerate(chunk):
+            text = written.get(n, "")
+            ok = len(text) >= 40 and numbers_supported(text, ev) and bank_mentioned(text + " " + ev, banks[it["bank_id"]])
+            it["summary"] = text if ok else fallback_summary(it, banks[it["bank_id"]])
+
+
 def verify(items: list[dict], banks: dict, checker: FactChecker, today: dt.date) -> tuple[list, list, list]:
     """Return (publish, pending, rejected); rejected entries carry a 'rejected_reason'."""
     publish, pending, rejected = [], [], []
-    staged = []
+    staged, accepted = [], []
     for it in items:
         bank = banks[it["bank_id"]]
         url = it["source_url"]
@@ -223,4 +301,6 @@ def verify(items: list[dict], banks: dict, checker: FactChecker, today: dt.date)
             level = trust_level(it, banks[it["bank_id"]])
             it["verification"] = {"level": level or "pending", "evidence": kind, "checked": today.isoformat()}
             (publish if level else pending).append(it)
+            accepted.append((it, ev, kind))
+    fill_summaries(accepted, banks, checker)
     return publish, pending, rejected
