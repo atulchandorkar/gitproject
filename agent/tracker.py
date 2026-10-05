@@ -32,6 +32,8 @@ from typing import Literal
 import anthropic
 from pydantic import BaseModel, Field
 
+import newsrooms
+
 ROOT = Path(__file__).resolve().parent.parent
 BANKS_FILE = ROOT / "config" / "banks.json"
 NEWS_FILE = ROOT / "data" / "news.json"
@@ -191,9 +193,14 @@ def bank_queries(b: dict, window: tuple[dt.date, dt.date] | None) -> list[tuple[
     return qs
 
 
-def discover(banks: list[dict], windows: list[tuple[dt.date, dt.date] | None]) -> list[dict]:
-    """Fetch headlines for each bank/window, pre-filter for AI words, collapse duplicate stories."""
-    found: list[dict] = []
+def discover(banks: list[dict], windows: list[tuple[dt.date, dt.date] | None],
+             extra: list[dict] | None = None) -> list[dict]:
+    """Fetch headlines for each bank/window, pre-filter for AI words, collapse duplicate stories.
+
+    `extra` are already-filtered candidates from other sources (bank newsrooms); they win as the
+    primary link when the same story also appears in the news.
+    """
+    found: list[dict] = list(extra or [])
     for b in banks:
         for w in windows:
             for q, lang in bank_queries(b, w):
@@ -204,7 +211,7 @@ def discover(banks: list[dict], windows: list[tuple[dt.date, dt.date] | None]) -
                 time.sleep(FEED_PAUSE)
     # Drop exact repeats, then collapse the same story from several outlets (same bank, similar title, ≤7 days).
     found = list({(c["bank_hint"], c["url"]): c for c in found}.values())
-    found.sort(key=lambda c: c["date"])
+    found.sort(key=lambda c: (c["date"], not c["source"].endswith("newsroom")))
     clusters: list[dict] = []
     for c in found:
         for k in clusters:
@@ -372,8 +379,10 @@ class Tracker:
         return added_all
 
     def update(self, screener: Screener) -> list[dict]:
-        print("Daily update (last 7 days of headlines) …")
-        added = self.process(discover(list(self.banks.values()), [None]), screener, today() - dt.timedelta(days=30))
+        print("Daily update (bank newsrooms + last 7 days of news) …")
+        banks = list(self.banks.values())
+        from_newsrooms = newsrooms.scan_all(banks, self.state, AI_RE, today())
+        added = self.process(discover(banks, [None], from_newsrooms), screener, today() - dt.timedelta(days=60))
         self.state["last_update"] = now_iso()
         self.save()
         return added

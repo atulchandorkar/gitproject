@@ -2,7 +2,7 @@
 
 A mobile-first dashboard and Telegram alert service that tracks **AI initiatives by banks in the GCC**: strategy, investments, GenAI deployments, partnerships, talent programmes, awards and measurable outcomes. It covers the UAE, Saudi Arabia, Qatar, Kuwait, Oman and Bahrain.
 
-- **75 institutions**: conventional, Islamic, digital and development banks, plus the 6 central banks (`config/banks.json`)
+- **74 institutions**: conventional, Islamic, digital and development banks, plus the 6 central banks (`config/banks.json`)
 - **Bank news only.** Free Google News feeds find candidate headlines. Claude Haiku, the cheapest Claude model, keeps only items about a listed bank's own use of AI and drops fintech news, general AI news and generic "digital" stories.
 - **English and Arabic sources.** Summaries are written in English, and every item links to its original source.
 - **2 years of history**, loaded automatically on the first run, then **checked once a day**
@@ -62,6 +62,7 @@ History is saved bank by bank. If a run stops partway, the next run picks up whe
 |---|---|
 | Re-load history for a country or bank | Run workflow with `mode = backfill`, plus `country = QA` or `banks = qnb,qib`, and tick `force` |
 | Add a bank | Add an entry to `config/banks.json`. Its history loads on the next run. |
+| Fix or set a bank's newsroom page | Add `"newsroom": "https://…"` to that bank in `config/banks.json`. The status of every newsroom is saved in `data/state.json` under `newsrooms`. |
 | Publish the dashboard only | Run workflow with `mode = deploy` |
 | Run locally | `pip install -r agent/requirements.txt && ANTHROPIC_API_KEY=… python agent/tracker.py update` |
 
@@ -80,11 +81,13 @@ History is saved bank by bank. If a run stops partway, the next run picks up whe
 
   To be safe, set a **monthly spend limit** in the Anthropic Console. If credit runs out, the run stops at once, sends you a Telegram alert, and continues from the same point after you top up.
 
-  **Trade-off:** discovery relies on news coverage, so an announcement that appears only on a bank's own website, with no news article, can be missed. Summaries are based on the headline, not the full article.
+  **Trade-off:** an announcement on a bank's own website is caught only if that bank's newsroom page can be read automatically. Some bank sites need JavaScript or block automated visitors. Summaries are based on the headline, not the full article.
 
 ## How the agent decides what counts
 Each run works in three steps:
-1. **Find (free).** For every bank, the code queries Google News RSS in English (bank name, aliases and AI terms) and in Arabic (the Arabic bank name plus "الذكاء الاصطناعي"). Daily runs look at the last 7 days. The history load searches quarter by quarter over 24 months.
+1. **Find (free).** Two sources are used:
+   - **The banks' own newsrooms** (daily runs). For each bank, the tracker finds the "Newsroom / Media Centre / المركز الإعلامي" page from the bank's homepage, remembers it, and reads the latest press releases. Release dates come from the link or the article page. To fix a bank's newsroom address by hand, add `"newsroom": "https://…"` to that bank in `config/banks.json`. Pages that need JavaScript, or that block automated visitors, cannot be read; the run log reports how many newsrooms were readable.
+   - **Google News RSS.** For every bank, the code queries it in English (bank name, aliases and AI terms) and in Arabic (the Arabic bank name plus "الذكاء الاصطناعي"). Daily runs look at the last 7 days. The history load searches quarter by quarter over 24 months.
 2. **Filter (free).** Headlines without AI-related words are dropped. Duplicate stories are merged. Headlines screened in an earlier run are skipped.
 3. **Screen (Claude Haiku).** The remaining headlines go to Claude in batches. Claude keeps only a bank's own AI news, names the bank, and assigns a category, tags, partners and any stated impact. It also writes a short English summary that sticks to what the headline says. The inclusion rules are in `system_prompt()` in `agent/tracker.py`.
 
