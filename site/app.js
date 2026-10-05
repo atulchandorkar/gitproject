@@ -3,6 +3,26 @@
   "use strict";
 
   const app = document.getElementById("app");
+
+  // Brand
+  const BRAND = { name: "GCC Banking", word: "AI Pulse Monitor", tagline: "Tracking AI in Gulf banks, daily" };
+  document.title = `${BRAND.name} – ${BRAND.word}`;
+
+  const ICONS = {
+    news: '<path d="M5 5h11v14H6a1 1 0 0 1-1-1V5zM16 9h3v9a1 1 0 0 1-1 1h-2M8 9h5M8 12h5M8 15h3"/>',
+    bank: '<path d="M3 10l9-6 9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"/>',
+    globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
+    bolt: '<path d="M13 3 5 13h6l-1 8 8-10h-6l1-8z"/>',
+  };
+  const icon = (k) => `<svg viewBox="0 0 24 24" aria-hidden="true">${ICONS[k]}</svg>`;
+  // Decorative AI-network pattern for the hero.
+  const NETWORK = (() => {
+    const pts = [[30,40],[90,20],[150,55],[210,25],[260,70],[60,100],[130,115],[200,105],[250,140],[95,165],[175,170],[235,200],[40,190]];
+    const edges = [[0,1],[1,2],[2,3],[3,4],[0,5],[5,6],[6,2],[6,7],[7,4],[7,8],[5,9],[9,6],[9,10],[10,7],[10,11],[8,11],[12,9],[1,6],[2,7]];
+    return `<svg class="hero-net" viewBox="0 0 280 220" aria-hidden="true">${edges.map(([a, b]) =>
+      `<line x1="${pts[a][0]}" y1="${pts[a][1]}" x2="${pts[b][0]}" y2="${pts[b][1]}"/>`).join("")}${pts.map(([x, y], i) =>
+      `<circle cx="${x}" cy="${y}" r="${i % 3 ? 3 : 5}"/>`).join("")}</svg>`;
+  })();
   const PAGE = 25;
   const PERIODS = [
     ["all", "All time"], ["30d", "Last 30 days"], ["6m", "Last 6 months"], ["12m", "Last 12 months"], ["24m", "Last 24 months"],
@@ -213,11 +233,23 @@
     const countryChips = [["", "All GCC", DATA.items.length]].concat(
       CFG.countries.map((c) => [c.code, `${flag(c)} ${esc(c.name)}`, DATA.items.filter((i) => i.country === c.code).length]));
 
+    const maxC = Math.max(1, ...countryChips.slice(1).map(([, , n]) => n));
+    const updated = DATA.updated_at ? new Date(DATA.updated_at).toLocaleString([], { day: "numeric", month: "short", hour: "numeric", minute: "2-digit" }) : "";
     app.innerHTML = `
-      <div class="page-head"><h1>Bank AI news</h1>
-        <div class="sub">AI initiatives, investments and outcomes from GCC banks</div></div>
-      <div class="chips" id="countryChips">${countryChips.map(([code, label, n]) =>
-        `<button class="chip" data-country="${code}" aria-pressed="${st.country === code}">${label}<span class="n">${n}</span></button>`).join("")}</div>
+      <section class="hero">
+        ${NETWORK}
+        <div class="hero-eyebrow"><span class="live-dot"></span>Live${updated ? ` · updated ${esc(updated)}` : ""}</div>
+        <h1 class="hero-title"><span class="hero-kicker">${esc(BRAND.name)}</span><b>${esc(BRAND.word)}</b></h1>
+        <p class="hero-tag">${esc(BRAND.tagline)}</p>
+        <div class="hero-kpis" id="heroKpis"></div>
+        <div class="hero-countries" id="countryChips">
+          <button class="hc" data-country="" aria-pressed="${!st.country}"><span class="hc-all">GCC</span><span class="hc-n">${DATA.items.length}</span><span class="hc-l">All</span></button>
+          ${CFG.countries.map((c) => {
+            const n = DATA.items.filter((i) => i.country === c.code).length;
+            return `<button class="hc" data-country="${c.code}" aria-pressed="${st.country === c.code}">${flag(c, "hc-flag")}<span class="hc-n">${n}</span><span class="hc-l">${esc(c.name)}</span><span class="hc-bar"><span style="width:${(n / maxC) * 100}%"></span></span></button>`;
+          }).join("")}
+        </div>
+      </section>
       <div class="filters">
         <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
           <input id="fq" type="search" placeholder="Search news, partners, tags…" value="${esc(st.q)}" aria-label="Search"></label>
@@ -225,7 +257,6 @@
         <select id="fcat" aria-label="Theme"><option value="">All themes</option>${CATEGORIES.map((c) => `<option ${c === st.cat ? "selected" : ""}>${esc(c)}</option>`).join("")}</select>
         <select id="fperiod" aria-label="Period">${PERIODS.map(([v, l]) => `<option value="${v}" ${v === st.period ? "selected" : ""}>${l}</option>`).join("")}</select>
       </div>
-      <div id="feedStats"></div>
       <div style="margin-top:10px">${chartBlock("feedChart", "Activity")}</div>
       <div class="insights">
         <div class="card"><div class="chart-head"><b>AI themes</b><span>tap to filter</span></div><div id="themeBars"></div></div>
@@ -259,7 +290,10 @@
       const list = base.filter((i) => !st.cat || hasTopic(i, st.cat));
       const banksActive = new Set(list.map((i) => i.bank_id)).size;
       const last30 = list.filter((i) => i.date >= isoDaysAgo(30)).length;
-      $("#feedStats").innerHTML = stats([[list.length.toLocaleString(), "Announcements"], [banksActive, "Banks active"], [last30, "Last 30 days"]]);
+      const countries = new Set(list.map((i) => i.country)).size;
+      $("#heroKpis").innerHTML = [["news", list.length.toLocaleString(), "AI announcements"], ["bank", banksActive, "banks active"],
+        ["globe", countries, "countries"], ["bolt", last30, "in the last 30 days"]]
+        .map(([k, v, l]) => `<div class="kpi">${icon(k)}<b>${v}</b><span>${l}</span></div>`).join("");
       $("#resCount").textContent = list.length ? `Showing ${Math.min(shown, list.length)} of ${plural(list.length, "item")}` : "";
       $("#clearBtn").hidden = !(st.country || st.bank || st.cat || st.q || st.period !== "all");
       $("#feedList").innerHTML = list.length ? list.slice(0, shown).map((i) => newsCard(i)).join("") : emptyState();
@@ -282,7 +316,7 @@
     $("#countryChips").addEventListener("click", (e) => {
       const btn = e.target.closest("[data-country]"); if (!btn) return;
       st.country = btn.dataset.country;
-      document.querySelectorAll("#countryChips .chip").forEach((c) => c.setAttribute("aria-pressed", c === btn));
+      document.querySelectorAll("#countryChips [data-country]").forEach((c) => c.setAttribute("aria-pressed", c === btn));
       fillBanks(); update();
     });
     $("#fbank").onchange = (e) => { st.bank = e.target.value; update(); };
@@ -291,7 +325,7 @@
     let t; $("#fq").oninput = (e) => { clearTimeout(t); t = setTimeout(() => { st.q = e.target.value; update(); }, 180); };
     $("#clearBtn").onclick = () => { location.hash = "#/"; };
     fillBanks(); update();
-    const active = $("#countryChips [aria-pressed=true]"); if (active) active.scrollIntoView({ inline: "center", block: "nearest" });
+
   }
 
   // ---------- Countries ----------
