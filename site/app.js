@@ -58,6 +58,9 @@
   }
 
   // ---------- shared components ----------
+  // Country flag as an image (emoji flags don't render on Windows).
+  const flag = (c, cls = "") => `<img class="flag-img ${cls}" src="flags/${c.code.toLowerCase()}.svg" alt="${esc(c.name)} flag" title="${esc(c.name)}">`;
+
   // Bank logo (downloaded by the tracker into logos/) with the initials badge as fallback.
   function avatar(b, cls = "avatar") {
     const file = LOGOS[b.id] && LOGOS[b.id].file;
@@ -71,7 +74,7 @@
     const more = i.other_sources && i.other_sources.length ? ` <span class="tag">+${i.other_sources.length} more</span>` : "";
     return `<article class="card news-card">
       <div class="meta">
-        ${showBank ? `<a class="bank-chip" href="#/bank/${b.id}">${avatar(b, "avatar sm")}<span class="bank">${esc(b.short)}</span></a><span title="${esc(c.name)}">${c.flag}</span><span class="dot"></span>` : ""}
+        ${showBank ? `<a class="bank-chip" href="#/bank/${b.id}">${avatar(b, "avatar sm")}<span class="bank">${esc(b.short)}</span></a>${flag(c)}<span class="dot"></span>` : ""}
         <time datetime="${i.date}">${fmtDate(i.date)}</time>
         <span class="dot"></span><span class="cat">${esc(i.category)}</span>
       </div>
@@ -164,7 +167,7 @@
       period: q.get("period") || "all", q: q.get("q") || "",
     };
     const countryChips = [["", "All GCC", DATA.items.length]].concat(
-      CFG.countries.map((c) => [c.code, `${c.flag} ${c.name}`, DATA.items.filter((i) => i.country === c.code).length]));
+      CFG.countries.map((c) => [c.code, `${flag(c)} ${esc(c.name)}`, DATA.items.filter((i) => i.country === c.code).length]));
 
     app.innerHTML = `
       <div class="page-head"><h1>Bank AI news</h1>
@@ -190,7 +193,7 @@
         .sort((a, b) => a.country.localeCompare(b.country) || a.short.localeCompare(b.short));
       if (st.bank && !banks.some((b) => b.id === st.bank)) st.bank = "";
       $("#fbank").innerHTML = `<option value="">All banks</option>` + banks.map((b) =>
-        `<option value="${b.id}" ${b.id === st.bank ? "selected" : ""}>${st.country ? "" : COUNTRIES[b.country].flag + " "}${esc(b.short)}</option>`).join("");
+        `<option value="${b.id}" ${b.id === st.bank ? "selected" : ""}>${esc(b.short)}${st.country ? "" : " · " + esc(COUNTRIES[b.country].name)}</option>`).join("");
     };
 
     let shown = PAGE;
@@ -240,7 +243,7 @@
       const active = new Set(items.map((i) => i.bank_id)).size;
       const latest = items[0];
       return `<a class="card country-card" href="#/country/${c.code}">
-        <div class="row"><span class="flag">${c.flag}</span><div><h2>${esc(c.name)}</h2>
+        <div class="row">${flag(c, "lg")}<div><h2>${esc(c.name)}</h2>
           <div class="nums">${plural(items.length, "announcement")} · ${active}/${banks.length} banks active</div></div><span class="chev">›</span></div>
         ${latest ? `<div class="latest">Latest: <b>${esc(BANKS[latest.bank_id].short)}</b> — ${esc(latest.title)} <span style="color:var(--text-3)">(${fmtDate(latest.date)})</span></div>` : ""}
       </a>`;
@@ -269,7 +272,7 @@
       .sort((a, b) => (counts[b.id] || 0) - (counts[a.id] || 0) || TYPE_ORDER[a.type] - TYPE_ORDER[b.type]);
     const y1 = items.filter((i) => i.date >= isoDaysAgo(365)).length;
     app.innerHTML = `<a class="back" href="#/countries">‹ Countries</a>
-      <div class="page-head"><h1>${c.flag} ${esc(c.name)}</h1><div class="sub">AI activity of ${banks.length} tracked banks</div></div>
+      <div class="page-head"><h1>${flag(c, "md")} ${esc(c.name)}</h1><div class="sub">AI activity of ${banks.length} tracked banks</div></div>
       ${stats([[items.length, "Announcements"], [Object.keys(counts).length, "Banks active"], [y1, "Last 12 months"]])}
       <div style="margin-top:10px">${chartBlock("cChart", `${c.name} activity`)}</div>
       <div class="section-title">Banks by AI activity</div>${bankRows(banks, counts)}
@@ -285,7 +288,7 @@
     let needle = "";
     const counts = countsByBank(DATA.items);
     app.innerHTML = `<div class="page-head"><h1>Banks</h1><div class="sub">${CFG.banks.length} banks, Islamic banks, digital banks and central banks</div></div>
-      <div class="chips" id="bChips">${[["", "All"]].concat(CFG.countries.map((c) => [c.code, `${c.flag} ${c.name}`]))
+      <div class="chips" id="bChips">${[["", "All"]].concat(CFG.countries.map((c) => [c.code, `${flag(c)} ${esc(c.name)}`]))
         .map(([v, l]) => `<button class="chip" data-country="${v}" aria-pressed="${v === country}">${l}</button>`).join("")}</div>
       <div class="filters"><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
         <input id="bq" type="search" placeholder="Find a bank…" aria-label="Find a bank"></label></div>
@@ -295,7 +298,7 @@
         const banks = CFG.banks.filter((b) => b.country === c.code &&
           (!needle || `${b.name} ${b.short} ${b.name_ar || ""} ${(b.aliases || []).join(" ")}`.toLowerCase().includes(needle)))
           .sort((a, b) => (counts[b.id] || 0) - (counts[a.id] || 0) || a.short.localeCompare(b.short));
-        return banks.length ? `<div class="section-title">${c.flag} ${esc(c.name)}</div>${bankRows(banks, counts)}` : "";
+        return banks.length ? `<div class="section-title">${flag(c)} ${esc(c.name)}</div>${bankRows(banks, counts)}` : "";
       }).join("");
       $("#bankGroups").innerHTML = groups || `<div class="empty">No bank matches “${esc(needle)}”.</div>`;
     };
@@ -319,10 +322,10 @@
     const first = all.length ? all[all.length - 1].date : null;
     const partners = [...new Set(all.flatMap((i) => i.partners || []))];
 
-    app.innerHTML = `<a class="back" href="#/country/${b.country}">‹ ${c.flag} ${esc(c.name)}</a>
+    app.innerHTML = `<a class="back" href="#/country/${b.country}">‹ ${flag(c)} ${esc(c.name)}</a>
       <div class="profile">${avatar(b)}<div>
         <h1>${esc(b.name)}</h1>
-        <div class="sub">${c.flag} ${esc(c.name)} · ${esc(CFG.types[b.type] || b.type)}${b.name_ar ? ` · <span class="ar">${esc(b.name_ar)}</span>` : ""}</div>
+        <div class="sub">${flag(c)} ${esc(c.name)} · ${esc(CFG.types[b.type] || b.type)}${b.name_ar ? ` · <span class="ar">${esc(b.name_ar)}</span>` : ""}</div>
         <div class="sub"><a href="https://${esc(b.domain)}" target="_blank" rel="noopener">${esc(b.domain)} ↗</a></div></div></div>
       ${stats([[all.length, "AI announcements"], [all.filter((i) => i.date >= isoDaysAgo(365)).length, "Last 12 months"], [first ? first.slice(0, 4) : "–", "Tracked since"]])}
       <div style="margin-top:10px">${chartBlock("bChart", `${b.short} activity`)}</div>

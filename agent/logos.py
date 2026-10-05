@@ -1,7 +1,7 @@
 """Download each bank's logo into data/logos/ so the dashboard can show it without hotlinking.
 
 Order of preference: a "logo" URL in config/banks.json, the bank site's apple-touch-icon,
-its largest <link rel="icon">, then Google's favicon service. Refreshed every REFRESH_DAYS.
+its largest <link rel="icon">, then Google's and DuckDuckGo's favicon services. Refreshed every REFRESH_DAYS.
 """
 
 from __future__ import annotations
@@ -73,7 +73,8 @@ def _icon_candidates(domain: str) -> list[str]:
 
 def fetch_logo(b: dict) -> tuple[bytes, str, str] | None:
     candidates = ([b["logo"]] if b.get("logo") else []) + _icon_candidates(b["domain"]) + [
-        f"https://www.google.com/s2/favicons?domain={b['domain']}&sz=256"]
+        f"https://www.google.com/s2/favicons?domain={b['domain']}&sz=256",
+        f"https://icons.duckduckgo.com/ip3/{b['domain']}.ico"]
     for url in candidates:
         got = _download(url)
         if got:
