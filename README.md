@@ -131,6 +131,34 @@ These themes come from what the collected news actually covers. Each item has on
 
 The dashboard charts the share of each theme and the top tech partners, overall and per country. Tap a bar to filter. The definitions are in `CATEGORY_GUIDE` in `agent/tracker.py`.
 
+## Bank annual reports (📘)
+The agent also reads each bank's own **annual report**, a PDF on the bank's website, for the last two fiscal years. It extracts the concrete AI implementations the report discloses. Each disclosure becomes a card tagged to that bank, with:
+- the exact quote and page number
+- a **📘 Annual Report (PDF)** button that opens the official file at that page
+
+The bank's page lists all of its annual reports found so far.
+
+**Finding the report:**
+1. `annual_reports` (direct PDF links) or `annual_reports_pages` in `config/banks.json`, if set
+2. the investor-relations pages linked from the bank's homepage
+3. a DuckDuckGo search restricted to the bank's own domain
+
+**Reading it:**
+- `pypdf` extracts the text, and only the sentences that mention AI (plus one sentence of context) go to Claude Haiku. That's roughly 30k characters per report.
+
+**Checks on every disclosure:**
+- The quote must appear word for word in the PDF; the page number is corrected if it is wrong.
+- Every number must be on that page.
+- The independent fact-check must confirm the claims against the page text.
+- Failures are logged in `data/rejected.json`.
+
+**Schedule:**
+- Up to 30 minutes per daily run; banks not reached continue the next day.
+- A report that isn't out yet is looked for again every 14 days.
+- `data/annual_reports.json` lists the PDFs found.
+
+PDFs are linked, not copied. 74 banks × 2 years would be several GB, more than GitHub Pages allows.
+
 ## GCC Banking Sector Insights (the Sector tab)
 This tab covers AI across GCC banking as a whole, rather than one bank's own news. It holds the last 12 months, in six categories:
 **Studies & Surveys**, **Maturity & Rankings**, **Regulation & Guidance**, **Market Data**, **Expert Views** and **Events & Initiatives**.
@@ -155,6 +183,8 @@ agent/tracker.py             news finder + Claude screener + Telegram notifier
 agent/verify.py              accuracy checks (bank named, numbers, AI fact-check, trusted/corroborated source)
 agent/newsrooms.py           reads the banks' own newsroom pages
 agent/logos.py               downloads bank logos
+agent/annual_reports.py      finds and reads banks' annual reports, extracts AI disclosures
+agent/dedupe.py              merges copies of the same story
 agent/sector.py              GCC Banking Sector Insights (studies, rankings, regulation …)
 config/sector_sources.json   sector categories and publishers (consultancies, research firms, regulators)
 data/sector.json             sector insights database (last 12 months)
