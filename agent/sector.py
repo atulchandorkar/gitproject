@@ -184,6 +184,23 @@ PUBLISHERS = CFG["publishers"]
 CATEGORY_TEXT = "\n".join(f"- {c['id']}: {c['guide']}" for c in CFG["categories"])
 
 
+PDF_LINK_RE = re.compile(r"\.pdf($|[?#])", re.I)
+PDF_TEXT_RE = re.compile(r"download|report|pdf|full study|read the|تحميل|التقرير|تقرير|الدراسة", re.I)
+
+
+def is_pdf(url: str) -> bool:
+    """The link really serves a PDF (not a sign-up page): checks the first bytes of the file."""
+    req = newsrooms.urllib.request.Request(url, headers={**newsrooms.HEADERS, "Range": "bytes=0-1023",
+                                                         "Accept-Encoding": "identity"})
+    try:
+        with newsrooms.urllib.request.urlopen(req, timeout=20) as resp:
+            head = resp.read(1024)
+            return head.startswith(b"%PDF") or ("pdf" in (resp.headers.get("Content-Type") or "").lower()
+                                                and b"<html" not in head.lower())
+    except Exception:
+        return False
+
+
 # --------------------------------------------------------------------------- #
 # Sector tracker
 # --------------------------------------------------------------------------- #
@@ -329,6 +346,43 @@ class Sector:
         if len({s["name"].lower() for s in it["sources"] if s.get("name")}) >= 2:
             return "corroborated"
         return None
+
+    def official_domains(self, it: dict) -> list[str]:
+        p = self._publisher_cfg(it.get("publisher", ""))
+        return ([p["domain"]] if p else []) + [b["domain"] for b in self.central]
+
+    def find_pdf(self, it: dict) -> dict | None:
+        """Link to the official report PDF on the publisher's / regulator's own site, if a source page links to it."""
+        official = self.official_domains(it)
+        pages = [s["url"] for s in it["sources"] if "news.google.com" not in s["url"]][:4]
+        for page in pages:
+            if PDF_LINK_RE.search(page) and any(verify._domain(page).endswith(d) for d in official):
+                links = [(page, "")]
+            else:
+                try:
+                    final, raw = newsrooms.fetch(page, timeout=20)
+                except Exception:
+                    continue
+                links = [(u, t) for u, t in newsrooms.parse(raw, final).links if PDF_LINK_RE.search(u)]
+            links = [(u, t or "") for u, t in links if u.startswith("http")
+                     and any(verify._domain(u) == d or verify._domain(u).endswith("." + d) for d in official)]
+            links.sort(key=lambda l: not PDF_TEXT_RE.search(l[1] + " " + l[0]))   # "Download the report" first
+            for url, _ in links[:3]:
+                if is_pdf(url):
+                    return {"url": url, "host": verify._domain(url)}
+        return None
+
+    def attach_pdfs(self) -> None:
+        """Look once for each published item's official PDF (free; no AI calls)."""
+        todo = [i for i in self.data["items"] if "pdf_checked" not in i]
+        for it in todo:
+            pdf = self.find_pdf(it)
+            if pdf:
+                it["pdf"] = pdf
+            it["pdf_checked"] = self.today.isoformat()
+        if todo:
+            print(f"  sector: looked for official PDFs on {len(todo)} items, "
+                  f"{sum(1 for i in todo if i.get('pdf'))} found")
 
     def evidence(self, it: dict) -> tuple[str, str] | None:
         text = verify.page_text(it["source_url"])
@@ -505,10 +559,12 @@ class Sector:
             print(f"Sector insights: loading the last {MONTHS_BACK} months ({len(windows)} windows) …")
             added = self.process(self.discover(windows, with_pages=True), start)
             self.state["sector_history"] = self.today.isoformat()
+            self.attach_pdfs()
             self.save()
             return added
         print("Sector insights: daily update …")
         added = self.process(self.discover([None], with_pages=True), self.today - dt.timedelta(days=60))
+        self.attach_pdfs()
         self.save()
         return added
 
@@ -520,6 +576,8 @@ def format_telegram(it: dict, dashboard: str, countries: dict) -> str:
     for st in it.get("key_stats", []):
         lines.append(f"• <b>{esc(st['value'])}</b> {esc(st['label'])}")
     link = f'<a href="{esc(it["source_url"], quote=True)}">{esc(it["source_name"] or "Source")}</a>'
+    if it.get("pdf"):
+        link += f' · <a href="{esc(it["pdf"]["url"], quote=True)}">📄 Report PDF</a>'
     if dashboard:
         link += f' · <a href="{dashboard}/#/sector">All sector insights</a>'
     lines.append(f"🗓 {it['date']} · {link}")

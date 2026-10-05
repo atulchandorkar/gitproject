@@ -314,3 +314,8 @@ h1, h2, h3 { line-height: 1.2; margin: 0; }
 .kstat { background: var(--surface-2); border-radius: 10px; padding: 8px 9px; min-width: 0; }
 .kstat b { display: block; font-size: 19px; font-weight: 800; color: #0b1b3f; line-height: 1.1; }
 .kstat span { display: block; font-size: 11.5px; color: var(--text-2); line-height: 1.3; margin-top: 2px; }
+.pdf-btn { display: flex; align-items: center; gap: 8px; margin-top: 10px; padding: 10px 12px; border-radius: 11px;
+  background: #0b1b3f; color: #fff; min-height: 44px; }
+.pdf-btn b { font-size: 14px; }
+.pdf-btn small { font-size: 11.5px; opacity: .75; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.pdf-btn .pdf-go { margin-left: auto; color: var(--accent); font-weight: 700; }

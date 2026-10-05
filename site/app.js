@@ -524,6 +524,7 @@
       <p>${esc(i.summary)}</p>
       ${stats.length ? `<div class="kstats kstats-${stats.length}">${stats.map((st) =>
         `<div class="kstat" title="${esc(st.quote)}"><b>${esc(st.value)}</b><span>${esc(st.label)}</span></div>`).join("")}</div>` : ""}
+      ${i.pdf ? `<a class="pdf-btn" href="${esc(i.pdf.url)}" target="_blank" rel="noopener"><span>📄</span><b>Report PDF</b><small>official file · ${esc(i.pdf.host)}</small><span class="pdf-go">↗</span></a>` : ""}
       ${sourceBlock(i, SECTOR_LABEL)}
     </article>`;
   }
