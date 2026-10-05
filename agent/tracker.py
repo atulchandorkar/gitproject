@@ -427,6 +427,9 @@ class Tracker:
         keep, promoted = [], []
         cutoff = (today() - dt.timedelta(days=verify.PENDING_DAYS)).isoformat()
         for p in self.state["pending"]:
+            level = verify.trust_level(p, self.banks[p["bank_id"]])   # the trusted list may have grown
+            if level:
+                p["verification"]["level"] = level
             names = {s["name"].lower() for s in p["sources"]}
             for c in cands:
                 if (c["bank_hint"] == p["bank_id"] and c["source"].lower() not in names
@@ -436,6 +439,8 @@ class Tracker:
                     p["verification"]["level"] = verify.trust_level(p, self.banks[p["bank_id"]]) or "corroborated"
                     break
             if p["verification"]["level"] != "pending":
+                if len((p.get("summary") or "").strip()) < 40:
+                    p["summary"] = ""   # filled by fill_missing_summaries
                 if not self.merge_into_existing(p):
                     self.news["items"].append(p)
                     promoted.append(p)
@@ -478,6 +483,22 @@ class Tracker:
                 if 0 <= t.i < len(batch):
                     batch[t.i]["category"] = t.category
                     batch[t.i]["topics"] = list(dict.fromkeys([t.category, *t.topics]))[:3]
+        self.save()
+
+    def recheck_name_rejections(self) -> None:
+        """One-time: items rejected only because an Arabic headline used the bank's short Arabic name are
+        rediscovered (their banks' history is reloaded) and checked again with the improved name matching."""
+        done = self.state.setdefault("migrations", [])
+        if "arabic-names-v1" in done:
+            return
+        hit = [r for r in self.rejected if "is not named in the source" in r["reason"]]
+        for r in hit:
+            self.state["seen"].pop(key_of(r["title"]), None)
+            self.state["history_loaded"].pop(r["bank_id"], None)
+        self.rejected = [r for r in self.rejected if r not in hit]
+        done.append("arabic-names-v1")
+        if hit:
+            print(f"Re-checking {len(hit)} items rejected over Arabic bank names ({len({r['bank_id'] for r in hit})} banks)")
         self.save()
 
     def reload_unverifiable_history(self) -> None:
@@ -562,6 +583,7 @@ class Tracker:
         banks = list(self.banks.values())
         from_newsrooms = newsrooms.scan_all(banks, self.state, AI_RE, today())
         added = self.process(discover(banks, [None], from_newsrooms), screener, today() - dt.timedelta(days=60))
+        self.fill_missing_summaries()   # items published in this run (incl. newly confirmed ones)
         self.state["last_update"] = now_iso()
         self.save()
         return added
@@ -684,6 +706,7 @@ def main() -> None:
             return
 
         tracker.reload_unverifiable_history()
+        tracker.recheck_name_rejections()
         pending = [b for b in tracker.banks if b not in tracker.state["history_loaded"]]
         if pending:
             hist = tracker.history(pending, args.months, screener)

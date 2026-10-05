@@ -43,10 +43,31 @@ TRUSTED_PUBLISHERS = [
     "tradearabia", "mubasher", "economy middle east", "forbes middle east", "meed", "asharq al-awsat",
     "asharq business", "finance middle east", "the banker", "the asian banker", "the digital banker", "euromoney",
     "global finance", "ibs intelligence", "fintech news middle east", "finextra", "business wire", "pr newswire",
-    "globenewswire", "consultancy-me", "middle east economic digest",
+    "globenewswire", "consultancy-me", "middle east economic digest", "gulf daily news", "gdnonline", "news of bahrain",
+    "akhbar al khaleej", "al bayan", "aletihad", "al khaleej", "emarat al youm", "al eqtisadiah", "okaz", "al riyadh",
+    "al sharq", "al raya", "al watan", "al qabas", "al rai", "al jarida", "al anba", "al ayam", "oman daily",
+    "al arabiya", "cnbc arabia", "sky news arabia", "fintech futures", "ff news", "retail banker international",
+    "the paypers", "computer weekly", "itp", "arabian gulf business insight", "gulf business", "khaleej times",
+    "saudi press agency", "kuwait news agency", "bahrain news agency", "qatar news agency", "al-sharq",
+    # technology vendors' own announcements about their bank deals
+    "microsoft", "oracle", "accenture", "ibm", "google cloud", "aws", "amazon web services", "sap", "salesforce",
+    "servicenow", "sas", "infosys", "intellect", "temenos", "presight", "g42", "core42", "visa", "mastercard",
+    "hcltech", "capgemini", "pwc", "deloitte", "kpmg", "ey", "mckinsey", "mozn", "finastra",
     # regional Arabic
     "البيان", "الخليج", "الاتحاد", "الإمارات اليوم", "الاقتصادية", "عكاظ", "الرياض", "الشرق", "الراية", "الوطن",
     "القبس", "الراي", "الأنباء", "جريدة عمان", "الأيام", "أخبار الخليج", "الشرق الأوسط", "أرقام", "مباشر",
+]
+# The same outlets as web addresses (Google News sometimes names the source by its domain).
+TRUSTED_DOMAINS = [
+    "wam.ae", "spa.gov.sa", "qna.org.qa", "kuna.net.kw", "omannews.gov.om", "bna.bh", "reuters.com", "bloomberg.com",
+    "thenationalnews.com", "gulfnews.com", "khaleejtimes.com", "arabianbusiness.com", "zawya.com", "agbi.com",
+    "arabnews.com", "saudigazette.com.sa", "argaam.com", "thepeninsulaqatar.com", "gulf-times.com", "qatar-tribune.com",
+    "arabtimesonline.com", "kuwaittimes.com", "timesofoman.com", "muscatdaily.com", "omanobserver.om",
+    "gdnonline.com", "newsofbahrain.com", "akhbar-alkhaleej.com", "alayam.com", "albayan.ae", "aletihad.ae",
+    "alkhaleej.ae", "emaratalyoum.com", "aleqt.com", "okaz.com.sa", "alriyadh.com", "al-sharq.com", "raya.com",
+    "alqabas.com", "alraimedia.com", "aljarida.com", "alanba.com.kw", "omandaily.om", "aawsat.com", "alarabiya.net",
+    "fintechfutures.com", "finextra.com", "businesswire.com", "prnewswire.com", "theasianbanker.com",
+    "thedigitalbanker.com", "euromoney.com", "ibsintelligence.com", "fintechnews.ae", "tradearabia.com",
 ]
 _TRUSTED_RE = re.compile(r"(?<![\w])(" + "|".join(re.escape(p) for p in TRUSTED_PUBLISHERS) + r")(?![\w])", re.I)
 _NUM_RE = re.compile(r"\d[\d,.]*")
@@ -99,10 +120,30 @@ name or date not in the evidence makes the claim unsupported.
 Judge only against the evidence given, never against your own knowledge."""
 
 
+# Arabic words too generic to identify a bank on their own (e.g. «الوطني» could be any "National" bank).
+_GENERIC_AR = {"الوطني", "الأهلي", "التجاري", "الدولي", "الخليج", "الإسلامي", "المركزي", "الأول", "العربي", "المتحد"}
+
+
+def arabic_names(bank: dict) -> list[str]:
+    """Full Arabic name plus its core without the 'bank' word, as Arabic headlines usually write it."""
+    full = bank.get("name_ar", "").strip()
+    if not full:
+        return []
+    core = re.sub(r"^(?:مجموعة\s+)?(?:البنك|بنك|مصرف|المصرف)\s+", "", full).strip()
+    names = [full]
+    if core != full and len(core) >= 4 and core not in _GENERIC_AR:
+        names.append(core)
+    return names + list(bank.get("aliases_ar", []))
+
+
+_QUOTES = re.compile(r"[«»“”„\"'‘’`]")
+
+
 def bank_mentioned(text: str, bank: dict) -> bool:
     if not text:
         return False
-    names = [bank["name"], bank["short"], bank.get("name_ar", ""), *bank.get("aliases", [])]
+    text = re.sub(r"\s+", " ", _QUOTES.sub(" ", text))   # «الإمارات دبي الوطني» / “المركزي” السعودي
+    names = [bank["name"], bank["short"], *arabic_names(bank), *bank.get("aliases", [])]
     for n in filter(None, names):
         if len(n) <= 4 and n.isascii():   # short codes like QNB / FAB must match as a whole word
             if re.search(rf"(?<![A-Za-z]){re.escape(n)}(?![A-Za-z])", text):
@@ -141,11 +182,22 @@ def page_text(url: str) -> str | None:
     return text if len(text) > 200 else None
 
 
+def _domain(url: str) -> str:
+    m = re.match(r"https?://(?:www\.)?([^/]+)", url or "")
+    return m.group(1).lower() if m else ""
+
+
 def trust_level(item: dict, bank: dict) -> str | None:
-    if any(s["name"].endswith("newsroom") or bank["domain"] in s["url"] for s in item["sources"]):
-        return "official"
-    if any(_TRUSTED_RE.search(s["name"] or "") for s in item["sources"]):
-        return "trusted"
+    own = [n.lower() for n in [bank["name"], bank["short"], *bank.get("aliases", [])] if len(n) > 2]
+    for s in item["sources"]:
+        name = (s.get("name") or "").lower()
+        if name.endswith("newsroom") or bank["domain"] in s["url"] or _domain(s["url"]).endswith(bank["domain"]) \
+                or any(name.startswith(o) for o in own):   # e.g. "Mashreq on X", "ADCB newsroom"
+            return "official"
+    for s in item["sources"]:
+        name = (s.get("name") or "").strip()
+        if _TRUSTED_RE.search(name) or name.lower() in TRUSTED_DOMAINS or _domain(s["url"]) in TRUSTED_DOMAINS:
+            return "trusted"
     if len({s["name"].lower() for s in item["sources"] if s["name"]}) >= 2:
         return "corroborated"
     return None

@@ -64,7 +64,7 @@
     { "id": "qcb", "name": "Qatar Central Bank", "short": "QCB", "country": "QA", "type": "central", "domain": "qcb.gov.qa", "name_ar": "مصرف قطر المركزي", "aliases": ["QCB"] },
 
     { "id": "nbk", "name": "National Bank of Kuwait", "short": "NBK", "country": "KW", "type": "conventional", "domain": "nbk.com", "name_ar": "بنك الكويت الوطني", "aliases": ["NBK", "Weyay"] },
-    { "id": "kfh", "name": "Kuwait Finance House", "short": "KFH", "country": "KW", "type": "islamic", "domain": "kfh.com", "name_ar": "بيت التمويل الكويتي", "aliases": ["KFH", "Bayt Al Tamweel"] },
+    { "id": "kfh", "name": "Kuwait Finance House", "short": "KFH", "country": "KW", "type": "islamic", "domain": "kfh.com", "name_ar": "بيت التمويل الكويتي", "aliases_ar": ["بيت التمويل", "بيتك"], "aliases": ["KFH", "Bayt Al Tamweel"] },
     { "id": "boubyan", "name": "Boubyan Bank", "short": "Boubyan", "country": "KW", "type": "islamic", "domain": "bankboubyan.com", "name_ar": "بنك بوبيان", "aliases": ["Nomo"] },
     { "id": "gulfbank", "name": "Gulf Bank", "short": "Gulf Bank", "country": "KW", "type": "conventional", "domain": "e-gulfbank.com", "name_ar": "بنك الخليج", "aliases": [] },
     { "id": "burgan", "name": "Burgan Bank", "short": "Burgan", "country": "KW", "type": "conventional", "domain": "burgan.com", "name_ar": "بنك برقان", "aliases": [] },
