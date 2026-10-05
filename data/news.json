@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-05T18:26:29+00:00",
+ "updated_at": "2026-10-05T18:40:14+00:00",
  "items": [
   {
    "id": "c6d5639013d1",
@@ -51,7 +51,7 @@
    "country": "AE",
    "date": "2026-09-25",
    "title": "Emirates NBD partners with Techstars to accelerate AI adoption",
-   "summary": "",
+   "summary": "Emirates NBD partnered with startup accelerator Techstars to connect AI and fintech companies with the bank's business units across the Middle East, North Africa and Turkey region. The initiative identifies technologies addressing operational and customer-facing challenges tested within existing infrastructure for areas like customer experience, compliance, risk management and operational efficiency.",
    "category": "Tech Vendor Partnerships",
    "tags": [
     "Techstars",
@@ -162,7 +162,7 @@
    "country": "AE",
    "date": "2026-08-21",
    "title": "ADIB appoints Chief AI Officer as it advances Vision 2035 through AI-powered banking",
-   "summary": "",
+   "summary": "Abu Dhabi Islamic Bank appointed Pedro Uria-Recio as Chief AI Officer to advance Vision 2035 strategy by embedding AI across the organisation. The role focuses on accelerating responsible AI deployment to enhance customer experiences, strengthen risk management, improve operational efficiency and build necessary capabilities and governance to scale AI across the Group.",
    "category": "AI Strategy & Leadership",
    "tags": [
     "Chief AI Officer",
@@ -396,7 +396,7 @@
    "country": "AE",
    "date": "2026-07-23",
    "title": "ADIB becomes first bank globally to deploy Visa Threat Intelligence Platform",
-   "summary": "",
+   "summary": "Abu Dhabi Islamic Bank became the first bank globally to deploy Visa's Threat Intelligence Platform, co-designing initial use cases and operational framework. The platform integrates payment fraud intelligence with cyber intelligence to enable real-time detection of emerging risks and faster fraud prevention.",
    "category": "Fraud, Risk & Compliance",
    "tags": [
     "VTIP",
@@ -551,7 +551,7 @@
    "country": "AE",
    "date": "2026-07-06",
    "title": "Techstars and Emirates NBD partner to accelerate enterprise-grade AI and FinTech solutions across MENAT",
-   "summary": "",
+   "summary": "Techstars and Emirates NBD partnered to accelerate enterprise-grade AI and fintech solutions across the MENAT region. The announcement was reported by PR Newswire on 6 July 2026.",
    "category": "Tech Vendor Partnerships",
    "topics": [
     "Tech Vendor Partnerships",
@@ -1063,7 +1063,7 @@
    "country": "AE",
    "date": "2026-03-12",
    "title": "ADCB Egypt and Network International roll out AI/ML fraud detection with FICO Falcon",
-   "summary": "",
+   "summary": "Network International and ADCB Egypt launched FICO Falcon Fraud Manager, an AI and machine learning solution delivering real-time fraud detection. The advanced analytics platform creates unique behavioral profiles and analyzes millions of transactions to instantly identify and prevent fraudulent activity.",
    "category": "Fraud, Risk & Compliance",
    "tags": [
     "Fraud detection",
@@ -1464,7 +1464,7 @@
    "country": "AE",
    "date": "2026-01-29",
    "title": "FY2025 results: ADCB advances AI transformation and rolls out new use cases in Q4'25",
-   "summary": "",
+   "summary": "ADCB launched a comprehensive AI programme in 2025 with more than 150 use cases, supported by investments in data, cloud infrastructure and advanced analytics capabilities. The initiative is expected to enhance customer experience through faster, personalised interactions while driving productivity and sustainable value creation.",
    "category": "AI Adoption in Operations",
    "tags": [
     "Earnings",
@@ -1985,7 +1985,7 @@
    "country": "KW",
    "date": "2025-09-13",
    "title": "NBK organizes AI masterclasses for bank's executives",
-   "summary": "",
+   "summary": "National Bank of Kuwait organized AI masterclasses for the bank's executives. The announcement was reported by Kuwait Times on 13 September 2025.",
    "category": "AI Skills & Talent",
    "topics": [
     "AI Skills & Talent"
@@ -2316,7 +2316,7 @@
    "country": "AE",
    "date": "2025-05-15",
    "title": "Emirates NBD pilots AI compliance platform for payments and trade",
-   "summary": "",
+   "summary": "Emirates NBD piloted an AI-driven compliance platform developed with UK RegTech company Global Screening Services to strengthen compliance checks on payments and trade transactions. The network-based sanctions screening platform uses shared intelligence and adaptive algorithms to detect risks in real-time and support compliance with international standards like ISO 20022.",
    "category": "Fraud, Risk & Compliance",
    "tags": [
     "AI compliance",
@@ -2550,7 +2550,7 @@
    "country": "SA",
    "date": "2025-02-12",
    "title": "Saudi Fransi Capital and MIS form AI joint venture",
-   "summary": "",
+   "summary": "Saudi Fransi Capital and MIS established a joint venture focused on artificial intelligence. The announcement was reported by meed.com on 12 Feb 2025.",
    "category": "Tech Vendor Partnerships",
    "topics": [
     "Tech Vendor Partnerships",
@@ -2587,7 +2587,7 @@
    "country": "SA",
    "date": "2025-02-02",
    "title": "D360 first Saudi digital bank: 600k customers and AI-powered financing programmes",
-   "summary": "",
+   "summary": "D360 Bank: D360 أول بنك سعودي رقمي: لدينا 600 ألف عميل وبرامج تمويلية بالذكاء الاصطناعي. Reported by صحيفة الاقتصادية السعودية on 2 Feb 2025; open the source for full details.",
    "category": "AI Adoption in Operations",
    "topics": [
     "AI Adoption in Operations",
