@@ -182,7 +182,7 @@ config/banks.json            bank universe (names, Arabic names, domains, aliase
 agent/tracker.py             news finder + Claude screener + Telegram notifier
 agent/verify.py              accuracy checks (bank named, numbers, AI fact-check, trusted/corroborated source)
 agent/newsrooms.py           reads the banks' own newsroom pages
-agent/logos.py               downloads bank logos
+agent/logos.py               downloads bank logos (site icons, Wikidata, Wikipedia, homepage logo, favicons; checked by file content)
 agent/annual_reports.py      finds and reads banks' annual reports, extracts AI disclosures
 agent/dedupe.py              merges copies of the same story
 agent/sector.py              GCC Banking Sector Insights (studies, rankings, regulation …)

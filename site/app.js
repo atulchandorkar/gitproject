@@ -261,7 +261,7 @@
       const groups = CFG.countries.filter((c) => !country || c.code === country).map((c) => {
         const banks = CFG.banks.filter((b) => b.country === c.code && (!needle ||
           `${b.name} ${b.short} ${b.name_ar || ""} ${(b.aliases || []).join(" ")}`.toLowerCase().includes(needle)))
-          .sort((a, b) => (counts[b.id] || 0) - (counts[a.id] || 0) || a.short.localeCompare(b.short));
+          .sort((a, b) => featuredFirst(a, b) || (counts[b.id] || 0) - (counts[a.id] || 0) || a.short.localeCompare(b.short));
         return banks.length ? `<div class="pk-group">${flag(c)} ${esc(c.name)}</div>${banks.map(row).join("")}` : "";
       }).join("");
       sheet.querySelector(".sheet-list").innerHTML = (needle ? "" : `<button class="pk-row pk-all" data-id="" aria-pressed="${!selected}">
@@ -434,6 +434,8 @@
         <span class="count">${n}</span><span class="chev">›</span></a>`;
     }).join("")}</div>`;
   }
+  // Featured banks (config "featured": true, e.g. QIB) are listed first everywhere.
+  const featuredFirst = (a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0);
   const countsByBank = (items) => items.reduce((m, i) => ((m[i.bank_id] = (m[i.bank_id] || 0) + 1), m), {});
 
   function renderCountry(code) {
@@ -441,7 +443,7 @@
     const items = DATA.items.filter((i) => i.country === code);
     const counts = countsByBank(items);
     const banks = CFG.banks.filter((b) => b.country === code)
-      .sort((a, b) => (counts[b.id] || 0) - (counts[a.id] || 0) || TYPE_ORDER[a.type] - TYPE_ORDER[b.type]);
+      .sort((a, b) => featuredFirst(a, b) || (counts[b.id] || 0) - (counts[a.id] || 0) || TYPE_ORDER[a.type] - TYPE_ORDER[b.type]);
     const y1 = items.filter((i) => i.date >= isoDaysAgo(365)).length;
     app.innerHTML = `<a class="back" href="#/countries">‹ Countries</a>
       <div class="page-head"><h1>${flag(c, "md")} ${esc(c.name)}</h1><div class="sub">AI activity of ${banks.length} tracked banks</div></div>
@@ -475,7 +477,7 @@
       const groups = CFG.countries.filter((c) => !country || c.code === country).map((c) => {
         const banks = CFG.banks.filter((b) => b.country === c.code &&
           (!needle || `${b.name} ${b.short} ${b.name_ar || ""} ${(b.aliases || []).join(" ")}`.toLowerCase().includes(needle)))
-          .sort((a, b) => (counts[b.id] || 0) - (counts[a.id] || 0) || a.short.localeCompare(b.short));
+          .sort((a, b) => featuredFirst(a, b) || (counts[b.id] || 0) - (counts[a.id] || 0) || a.short.localeCompare(b.short));
         return banks.length ? `<div class="section-title">${flag(c)} ${esc(c.name)}</div>${bankRows(banks, counts)}` : "";
       }).join("");
       $("#bankGroups").innerHTML = groups || `<div class="empty">No bank matches “${esc(needle)}”.</div>`;
