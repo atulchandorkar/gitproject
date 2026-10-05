@@ -112,7 +112,12 @@
     const badge = v ? `<div class="verified" title="Passed the bank-name, numbers and AI fact-checks">✓ ${esc(i.verification.level === "corroborated" ? `Confirmed by ${outlets} outlets` : v)}${i.verification.evidence === "article" ? " · checked against full article" : " · checked against headline"}</div>` : "";
     const orig = i.source_title && i.source_title.trim() !== i.title.trim()
       ? `<div class="orig"><span>Original headline:</span> <span dir="auto">${esc(i.source_title)}</span></div>` : "";
-    const srcLinks = srcs.map((s, n) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name || `Source ${n + 1}`)} ↗</a>`).join("");
+    const label = (s, n) => {
+      if (s.name) return s.name;
+      try { const h = new URL(s.url).hostname.replace(/^www\./, ""); return h === "news.google.com" ? `News source ${n + 1}` : h; }
+      catch (_) { return `Source ${n + 1}`; }
+    };
+    const srcLinks = srcs.map((s, n) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(label(s, n))} ↗</a>`).join("");
     return `<article class="card news-card">
       <div class="meta">
         ${showBank ? `<a class="bank-chip" href="#/bank/${b.id}">${avatar(b, "avatar sm")}<span class="bank">${esc(b.short)}</span></a>${flag(c)}<span class="dot"></span>` : ""}

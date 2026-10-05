@@ -480,6 +480,21 @@ class Tracker:
                     batch[t.i]["topics"] = list(dict.fromkeys([t.category, *t.topics]))[:3]
         self.save()
 
+    def reload_unverifiable_history(self) -> None:
+        """Headlines saved before the original headline was recorded cannot be fact-checked (their Google News
+        links can't be opened). Drop them and reload history, so they come back through the full checks."""
+        stale = lambda i: "news.google.com" in i["source_url"] and not i.get("source_title")
+        n = sum(map(stale, self.news["items"])) + sum(map(stale, self.state["retry"])) + sum(map(stale, self.state["pending"]))
+        if not n:
+            return
+        print(f"Reloading history: {n} earlier headlines had no original headline to verify against")
+        self.news["items"] = [i for i in self.news["items"] if not stale(i)]
+        self.state["retry"] = [i for i in self.state["retry"] if not stale(i)]
+        self.state["pending"] = [i for i in self.state["pending"] if not stale(i)]
+        self.state["history_loaded"] = {}
+        self.state["seen"] = {}
+        self.save()
+
     def reverify_legacy(self) -> None:
         """Items saved before verification existed are re-checked once, like new ones."""
         legacy = [i for i in self.news["items"] if "verification" not in i]
@@ -650,6 +665,7 @@ def main() -> None:
             print(f"Done. {len(added)} items added.")
             return
 
+        tracker.reload_unverifiable_history()
         pending = [b for b in tracker.banks if b not in tracker.state["history_loaded"]]
         if pending:
             hist = tracker.history(pending, args.months, screener)
