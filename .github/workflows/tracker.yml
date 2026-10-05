@@ -29,8 +29,10 @@ permissions:
   pages: write
   id-token: write
 
+# Publish-only runs (pushes) get their own queue: GitHub keeps one waiting run per group,
+# so sharing a group would let a merge cancel a waiting news-collection run.
 concurrency:
-  group: tracker
+  group: tracker-${{ github.event_name == 'push' && 'publish' || 'collect' }}
   cancel-in-progress: false
 
 jobs:
@@ -79,6 +81,9 @@ jobs:
 
   deploy:
     needs: collect
+    concurrency:
+      group: pages
+      cancel-in-progress: false
     if: always() && inputs.mode != 'telegram-test' && (needs.collect.result == 'success' || needs.collect.result == 'failure' || needs.collect.result == 'skipped')
     runs-on: ubuntu-latest
     environment:
