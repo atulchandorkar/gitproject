@@ -127,7 +127,10 @@ h1, h2, h3 { line-height: 1.2; margin: 0; }
 @media (min-width: 640px) { .grid-2 { grid-template-columns: 1fr 1fr; } }
 .country-card { display: block; color: inherit; }
 .country-card .row { display: flex; align-items: center; gap: 10px; }
-.flag { font-size: 26px; line-height: 1; }
+.flag-img { height: 0.95em; width: auto; aspect-ratio: 4 / 3; border-radius: 2px; vertical-align: -0.1em; box-shadow: 0 0 0 1px rgba(0,0,0,.14); flex: none; }
+.flag-img.md { height: 0.8em; margin-right: 4px; }
+.flag-img.lg { height: 30px; border-radius: 4px; }
+.chip .flag-img { margin-right: 3px; }
 .country-card h2 { font-size: 17px; font-weight: 700; }
 .country-card .nums { color: var(--text-2); font-size: 13px; }
 .country-card .latest { margin-top: 10px; font-size: 13.5px; color: var(--text-2); border-top: 1px solid var(--border); padding-top: 10px; }
