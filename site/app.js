@@ -33,6 +33,7 @@
   let DATA = { items: [], updated_at: null };
   let CFG = { countries: [], banks: [], types: {} };
   let BANKS = {}, COUNTRIES = {}, CATEGORIES = [], LOGOS = {};
+  let REPORTS = {};
   let SECTOR = { items: [], updated_at: null }, SECTOR_CFG = { categories: [], publishers: [] };
 
   // ---------- utils ----------
@@ -136,18 +137,24 @@
         <time datetime="${i.date}">${fmtDate(i.date)}</time>
         <span class="dot"></span><span class="cat">${esc(i.category)}</span>${extraTopics}
       </div>
+      ${isAR(i) ? `<div class="ar-chip">📘 From ${esc(b.short)}'s Annual Report ${i.report.year} · p. ${i.report.page}</div>` : ""}
       <h3><a href="${esc(i.source_url)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>
       <p>${esc(i.summary && i.summary.trim().length >= 40 ? i.summary
         : `${b.name}: ${(i.source_title || i.title).replace(/\.$/, "")}. Reported by ${srcs[0].name || "the source"} on ${fmtDate(i.date)}; open the source for full details.`)}</p>
       ${i.impact ? `<div class="impact">📈 ${esc(i.impact)}</div>` : ""}
       ${tags || (i.partners && i.partners.length) ? `<div class="tags">${tags}${i.partners && i.partners.length ? `<span class="tag">🤝 ${esc(i.partners.join(", "))}</span>` : ""}</div>` : ""}
+      ${isAR(i) ? `<blockquote class="ar-quote" dir="auto">“${esc(i.report.quote)}”</blockquote>
+        <a class="pdf-btn" href="${esc(i.source_url)}" target="_blank" rel="noopener"><span>📘</span><b>Annual Report ${i.report.year} (PDF)</b><small>opens p. ${i.report.page} · ${esc(b.domain)}</small><span class="pdf-go">↗</span></a>` : ""}
       ${sourceBlock(i, VERIFY_LABEL)}
     </article>`;
   }
 
+  const AR_FILTER = "annual-reports";
+  const isAR = (i) => i.source_type === "annual_report" && i.report;
   // Verification badge, original headline and every source link (shared by bank news and sector cards).
   function sourceBlock(i, labels) {
     const srcs = sourcesOf(i);
+    if (isAR(i)) return `<div class="sources"><div class="verified" title="The quote was found word for word in the report and every claim was fact-checked against that page">✓ Bank's own annual report · quote checked on p. ${i.report.page}</div></div>`;
     const v = i.verification && labels[i.verification.level];
     const outlets = new Set(srcs.map((s) => (s.name || "").toLowerCase()).filter(Boolean)).size;
     const badge = v ? `<div class="verified" title="Passed the source, numbers and AI fact-checks">✓ ${esc(i.verification.level === "corroborated" ? `Confirmed by ${outlets} outlets` : v)}${i.verification.evidence === "article" ? " · checked against full article" : " · checked against headline"}</div>` : "";
@@ -264,7 +271,7 @@
         <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
           <input id="fq" type="search" placeholder="Search news, partners, tags…" value="${esc(st.q)}" aria-label="Search"></label>
         <select id="fbank" aria-label="Bank"></select>
-        <select id="fcat" aria-label="Theme"><option value="">All themes</option>${CATEGORIES.map((c) => `<option ${c === st.cat ? "selected" : ""}>${esc(c)}</option>`).join("")}</select>
+        <select id="fcat" aria-label="Theme"><option value="">All themes</option><option value="${AR_FILTER}" ${st.cat === AR_FILTER ? "selected" : ""}>📘 Annual reports</option>${CATEGORIES.map((c) => `<option ${c === st.cat ? "selected" : ""}>${esc(c)}</option>`).join("")}</select>
         <select id="fperiod" aria-label="Period">${PERIODS.map(([v, l]) => `<option value="${v}" ${v === st.period ? "selected" : ""}>${l}</option>`).join("")}</select>
       </div>
       <div class="seg" role="tablist" id="viewSwitch">
@@ -276,6 +283,7 @@
         <div class="insights">
           <div class="card"><div class="chart-head"><b>AI themes</b><span>tap to filter</span></div><div id="themeBars"></div></div>
           <div class="card"><div class="chart-head"><b>Top tech partners</b><span>tap to filter</span></div><div id="partnerBars"></div></div>
+          <div class="card"><div class="chart-head"><b>Where it comes from</b><span>tap to filter</span></div><div id="srcBars"></div></div>
         </div>
       </div>
       <div id="newsPane" ${st.view === "insights" ? "hidden" : ""}>
@@ -305,7 +313,7 @@
         (!st.country || i.country === st.country) && (!st.bank || i.bank_id === st.bank) && (!start || i.date >= start) &&
         (!needle || [i.title, i.source_title, i.summary, i.source_name, BANKS[i.bank_id].name, BANKS[i.bank_id].short,
           ...(i.tags || []), ...(i.partners || []), ...partnersOf(i), ...topicsOf(i)].join(" ").toLowerCase().includes(needle)));
-      const list = base.filter((i) => !st.cat || hasTopic(i, st.cat));
+      const list = base.filter((i) => !st.cat || (st.cat === AR_FILTER ? isAR(i) : hasTopic(i, st.cat)));
       const banksActive = new Set(list.map((i) => i.bank_id)).size;
       const last30 = list.filter((i) => i.date >= isoDaysAgo(30)).length;
       const countries = new Set(list.map((i) => i.country)).size;
@@ -322,6 +330,8 @@
       // Themes are counted on everything except the theme filter itself, so all bars stay comparable.
       $("#themeBars").innerHTML = barList("themeList", countBy(base, topicsOf), st.cat, "theme", base.length);
       $("#partnerBars").innerHTML = barList("partnerList", countBy(list, partnersOf).slice(0, 8), st.q, "partner");
+      $("#srcBars").innerHTML = barList("srcList", countBy(base, (i) => [isAR(i) ? "📘 Bank annual reports" : "📰 News & bank releases"]),
+        st.cat === AR_FILTER ? "📘 Bank annual reports" : "", "src", base.length);
     };
     const showView = (v) => {
       st.view = v;
@@ -334,6 +344,10 @@
     $("#themeBars").addEventListener("click", (e) => {
       const x = e.target.closest("[data-theme]"); if (!x) return;
       st.cat = x.dataset.theme === st.cat ? "" : x.dataset.theme; $("#fcat").value = st.cat; showView("");
+    });
+    $("#srcBars").addEventListener("click", (e) => {
+      const x = e.target.closest("[data-src]"); if (!x) return;
+      st.cat = x.dataset.src.includes("annual") && st.cat !== AR_FILTER ? AR_FILTER : ""; $("#fcat").value = st.cat; showView("");
     });
     $("#partnerBars").addEventListener("click", (e) => {
       const x = e.target.closest("[data-partner]"); if (!x) return;
@@ -457,6 +471,8 @@
       ${cats.length ? `<div class="section-title">Focus areas</div><div class="card"><div class="cat-bars" id="catBars">${cats.map(([k, n]) =>
         `<button class="cat-bar" data-cat="${esc(k)}" aria-pressed="${k === cat}"><span class="lbl">${esc(k)}</span><span class="cnt">${n}</span>
           <span class="track"><span class="fill" style="display:block;width:${(n / maxCat) * 100}%"></span></span></button>`).join("")}</div></div>` : ""}
+      ${(REPORTS[id] || []).length ? `<div class="section-title">📘 Annual reports</div><div class="ar-list">${REPORTS[id].map((r) =>
+        `<a class="pdf-btn" href="${esc(r.url)}" target="_blank" rel="noopener"><span>📘</span><b>Annual Report ${r.year}</b><small>${r.items} AI disclosure${r.items === 1 ? "" : "s"} · ${r.pages} pages · PDF</small><span class="pdf-go">↗</span></a>`).join("")}</div>` : ""}
       ${partners.length ? `<div class="section-title">Technology partners</div><div class="tags">${partners.map((p) => `<span class="tag">${esc(p)}</span>`).join("")}</div>` : ""}
       <div class="section-title" id="tlTitle">AI timeline</div><div id="timeline"></div>`;
 
@@ -660,6 +676,11 @@
           <li><b>Trusted source:</b> the bank's own newsroom, an official news agency or a reputable outlet; anything else is published only after a second outlet confirms it.</li>
         </ul>
         <p>Each card shows the result (e.g. "✓ Trusted outlet · checked against full article"), the original headline and every source.</p>
+        <h2>Bank annual reports</h2>
+        <p>The tracker also reads each bank's own <b>annual report</b> (the last two years, PDF from the bank's website) and extracts the concrete AI
+        implementations it discloses. Each one appears as a 📘 card tagged to the bank, with the exact quote and a button that opens the official PDF at
+        that page. A disclosure is shown only if its quote is found word for word in the report, its numbers are on that page, and an independent
+        AI fact-check confirms it. Filter with “📘 Annual reports” in the theme menu; each bank page lists its report PDFs.</p>
         <h2>GCC Banking Sector Insights</h2>
         <p>A separate tab for AI across GCC banking as a whole rather than one bank: <b>studies &amp; surveys</b> (McKinsey, BCG, PwC,
         Deloitte, Accenture, EY, KPMG, IDC, Gartner …), <b>maturity indices &amp; rankings</b>, <b>regulation &amp; guidance</b> from GCC
@@ -688,7 +709,9 @@
     fetch("data/logos.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : {}).catch(() => ({})),
     fetch("data/sector.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : { items: [] }).catch(() => ({ items: [] })),
     fetch("data/sector_sources.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : null).catch(() => null),
-  ]).then(([cfg, news, logos, sector, sectorCfg]) => {
+    fetch("data/annual_reports.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : {}).catch(() => ({})),
+  ]).then(([cfg, news, logos, sector, sectorCfg, reports]) => {
+    REPORTS = reports || {};
     CFG = cfg; DATA = news; LOGOS = logos || {};
     SECTOR = sector || { items: [] }; SECTOR.items = (SECTOR.items || []).sort((a, b) => b.date.localeCompare(a.date));
     if (sectorCfg) SECTOR_CFG = sectorCfg;

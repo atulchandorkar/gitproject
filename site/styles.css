@@ -319,3 +319,16 @@ h1, h2, h3 { line-height: 1.2; margin: 0; }
 .pdf-btn b { font-size: 14px; }
 .pdf-btn small { font-size: 11.5px; opacity: .75; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
 .pdf-btn .pdf-go { margin-left: auto; color: var(--accent); font-weight: 700; }
+
+/* Annual-report disclosures */
+.ar-chip { display: inline-block; margin-top: 8px; font-size: 11.5px; font-weight: 650; color: #0b1b3f; background: #eef2fb;
+  border: 1px solid #d7e0f3; padding: 2px 8px; border-radius: 999px; }
+.ar-quote { margin: 10px 0 0; padding: 8px 10px; border-left: 3px solid var(--accent); background: #fdfaf1; border-radius: 0 8px 8px 0;
+  font-size: 13px; color: var(--text-2); font-style: italic; }
+.ar-list { display: grid; gap: 8px; }
+.ar-list .pdf-btn { margin-top: 0; }
+.pdf-btn { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; column-gap: 10px; row-gap: 1px; align-items: center; }
+.pdf-btn > span:first-child { grid-row: 1 / 3; font-size: 18px; }
+.pdf-btn b { grid-column: 2; }
+.pdf-btn small { grid-column: 2; grid-row: 2; }
+.pdf-btn .pdf-go { grid-column: 3; grid-row: 1 / 3; }

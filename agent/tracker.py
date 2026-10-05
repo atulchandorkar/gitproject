@@ -33,6 +33,8 @@ import anthropic
 from pydantic import BaseModel, Field
 
 import logos
+import annual_reports
+import dedupe
 import newsrooms
 import sector
 import verify
@@ -380,11 +382,25 @@ class Tracker:
             "language": c["language"], "added_at": now_iso(),
         }
 
+    def bank_names(self, bank_id: str) -> list[str]:
+        b = self.banks[bank_id]
+        extra = ["central bank"] if b["type"] == "central" else []
+        return [b["name"], b["short"], *b.get("aliases", []), *verify.arabic_names(b), *extra]
+
     def _same_story(self, a: dict, b: dict) -> bool:
-        return (a["bank_id"] == b["bank_id"]
+        return (a["bank_id"] == b["bank_id"] and a.get("source_type") == b.get("source_type")
                 and abs((dt.date.fromisoformat(a["date"]) - dt.date.fromisoformat(b["date"])).days) <= 10
-                and (similar(a["title"], b["title"], 0.45) or a["source_url"] == b["source_url"]
-                     or similar(a.get("source_title", ""), b.get("source_title", "x"), 0.5)))
+                and (a["source_url"] == b["source_url"]
+                     or dedupe.lexical_same([a["title"], a.get("source_title") or a["title"]],
+                                            [b["title"], b.get("source_title") or b["title"]], self.bank_names(a["bank_id"]))))
+
+    def dedupe_news(self) -> None:
+        """Merge copies of the same story (word match, then a cheap AI check on close pairs)."""
+        before = len(self.news["items"])
+        self.news["items"] = dedupe.dedupe(self.news["items"], lambda i: f'{i["bank_id"]}|{i.get("source_type", "news")}', lambda i: self.bank_names(i["bank_id"]),
+                                           self.checker.ask, self.state.setdefault("dup_verdicts", {}))
+        if len(self.news["items"]) < before:
+            print(f"  merged {before - len(self.news['items'])} duplicate stories")
 
     def merge_into_existing(self, d: dict) -> bool:
         """A story already on the dashboard: just record the extra outlets."""
@@ -584,6 +600,9 @@ class Tracker:
         banks = list(self.banks.values())
         from_newsrooms = newsrooms.scan_all(banks, self.state, AI_RE, today())
         added = self.process(discover(banks, [None], from_newsrooms), screener, today() - dt.timedelta(days=60))
+        self.dedupe_news()
+        live = {id(i) for i in self.news["items"]}
+        added = [a for a in added if id(a) in live]   # a merged copy is not news
         self.fill_missing_summaries()   # items published in this run (incl. newly confirmed ones)
         self.state["last_update"] = now_iso()
         self.save()
@@ -667,6 +686,21 @@ class Telegram:
             self.send(chunk)
 
 
+    def notify_reports(self, items: list[dict]) -> None:
+        """One message per bank report: how many AI disclosures it contained, with the top ones."""
+        if not self.enabled or not items:
+            return
+        by_report: dict[tuple, list[dict]] = {}
+        for i in items:
+            by_report.setdefault((i["bank_id"], i["report"]["year"]), []).append(i)
+        lines, esc = [f"📘 <b>AI in bank annual reports</b> · {len(items)} disclosures from {len(by_report)} reports"], html.escape
+        for (bid, year), its in sorted(by_report.items(), key=lambda kv: -len(kv[1]))[:15]:
+            b, c = self.banks[bid], self.countries[self.banks[bid]["country"]]
+            link = f' · <a href="{self.dashboard}/#/bank/{bid}">view</a>' if self.dashboard else ""
+            lines.append(f"\n{c['flag']} <b>{esc(b['short'])}</b> Annual Report {year}: {len(its)}{link}")
+            lines += [f"• {esc(i['title'])}" for i in its[:3]]
+        self.send("\n".join(lines)[:3900])
+
     def notify_sector(self, items: list[dict], first_load: bool, countries: dict) -> None:
         if not self.enabled or not items:
             return
@@ -730,6 +764,25 @@ def main() -> None:
         fresh = [i for i in added if i["date"] >= (today() - dt.timedelta(days=30)).isoformat()]
         tg.notify(fresh)
         print(f"Done. {len(added)} new items ({len(fresh)} recent, sent to Telegram).")
+
+        # AI implementations disclosed in the banks' own annual reports (separate source type, tagged to the bank)
+        reports = annual_reports.AnnualReports(tracker.banks, tracker.state, tracker.checker, CATEGORY_GUIDE, today(), now_iso)
+        try:
+            ar_added = reports.run(tracker.rejected)
+        except FatalAPIError:
+            raise
+        except Exception as exc:   # never lose the bank-news run over this source
+            print(f"  ! annual reports failed: {exc!r}", file=sys.stderr)
+            ar_added = []
+        if ar_added:
+            tracker.news["items"] += ar_added
+            tracker.dedupe_news()
+            live = {id(i) for i in tracker.news["items"]}
+            ar_added = [a for a in ar_added if id(a) in live]
+        reports.export(ROOT / "data" / "annual_reports.json")
+        tracker.save()
+        tg.notify_reports(ar_added)
+        print(f"Annual reports: {len(ar_added)} AI disclosures added.")
 
         # GCC Banking Sector Insights (studies, rankings, regulation … about AI across GCC banks)
         sec = sector.Sector(ROOT, tracker.banks, tracker.state, tracker.news["items"], tracker.checker, gnews,
