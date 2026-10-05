@@ -3,7 +3,7 @@
   "short_name": "AI Pulse",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f6f5f1",
+  "background_color": "#ffffff",
   "theme_color": "#0b1b3f",
   "icons": [
     {
