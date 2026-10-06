@@ -5,8 +5,10 @@ Officer as it advances Vision 2035 …", "CBUAE issues guidance …" vs "UAE Cen
 Two passes:
   1. word match – bank names removed, words stemmed; a pair is the same story when the headlines overlap
      strongly (Jaccard ≥ 0.45, or ≥ 75 % of the shorter headline's words appear in the other);
-  2. AI judge – remaining close pairs (same bank or topic, ≤ 10 days apart, some word overlap or same day)
-     are asked once "same news event?" (verdicts cached, so each pair costs one cheap call only once).
+  2. AI judge – remaining close pairs (same bank, ≤ 7 days apart; for sector items some word overlap, same day or
+     same publisher) are asked once "same news event?" (verdicts cached). Because wrongly merging two different
+     announcements is worse than a duplicate, a pair is merged only if the AI says same event with HIGH confidence
+     AND names a shared detail (person, product, partner, figure, document or event) that is really in both items.
 Duplicates are merged into one item: the best-sourced copy stays, all outlets are kept as its sources.
 """
 
@@ -16,7 +18,7 @@ import datetime as dt
 import json
 import re
 import sys
-from typing import Callable, Iterable
+from typing import Callable, Iterable, Literal
 
 from pydantic import BaseModel
 
@@ -64,17 +66,38 @@ def lexical_same(titles_a: list[str], titles_b: list[str], names: Iterable[str] 
 class Verdict(BaseModel):
     pair: int
     same_event: bool
+    confidence: Literal["high", "medium", "low"]
+    anchor: str          # the specific detail both items name: person, product, partner, figure, document or event
 
 
 class Verdicts(BaseModel):
     items: list[Verdict]
 
 
-JUDGE_PROMPT = """You remove duplicate stories from a news dashboard. For each numbered pair of items, decide \
-same_event: true only if both items report the SAME specific news event (the same announcement, appointment, \
+JUDGE_PROMPT = """You remove duplicate stories from a news dashboard. Wrongly merging two different stories is \
+worse than leaving a duplicate, so be conservative. For each numbered pair of items decide:
+- same_event: true only if both items report the SAME specific news event (the same announcement, appointment, \
 launch, partnership, award, study, report, rule or results release), even if worded differently or by different \
-outlets. Different events by the same organisation (e.g. two different products, two different studies, or a \
-follow-up months later) are NOT the same event."""
+outlets. Different events by the same organisation in the same week (e.g. two different products, two partnerships, \
+an appointment and a product launch, two different studies, an event and a follow-up) are NOT the same event.
+- confidence: "high" only if the two items clearly describe the same event; otherwise "medium" or "low".
+- anchor: the specific detail that BOTH items name and that identifies the event – a person's name, product, \
+partner company, figure, document title or event name – copied as written in one of the items. "" if there is none.
+Judge only from the text given."""
+
+
+def _text(i: dict) -> str:
+    return " ".join(str(i.get(k) or "") for k in ("title", "source_title", "summary", "impact")) + " " + \
+        " ".join(i.get("partners") or [])
+
+
+def anchor_in_both(anchor: str, a: dict, b: dict, names: Iterable[str] = ()) -> bool:
+    """The detail the AI says both stories share must really be in both (bank names don't count)."""
+    words = tokens(anchor, names)
+    if not words:
+        return False
+    ta, tb = tokens(_text(a), names), tokens(_text(b), names)
+    return bool(words & ta & tb)
 
 
 def _titles(i: dict) -> list[str]:
@@ -85,7 +108,11 @@ def _days(a: dict, b: dict) -> int:
     return abs((dt.date.fromisoformat(a["date"]) - dt.date.fromisoformat(b["date"])).days)
 
 
-def _merge(keep: dict, drop: dict) -> None:
+def _merge(keep: dict, drop: dict, how: str = "words", anchor: str = "") -> None:
+    # keep the merged copy (so a merge can be reviewed and undone)
+    keep.setdefault("merged", []).append({k: drop.get(k) for k in ("id", "date", "title", "source_title", "source_url",
+                                                                    "source_name", "summary")} | {"how": how, "anchor": anchor})
+    keep["merged"] += drop.pop("merged", [])
     have = {s["url"] for s in keep.get("sources", [])}
     keep.setdefault("sources", [])
     keep["sources"] += [s for s in drop.get("sources", []) if s["url"] not in have][: max(0, 8 - len(keep["sources"]))]
@@ -129,8 +156,8 @@ def dedupe(items: list[dict], group: Callable[[dict], str], names: Callable[[dic
             if lexical_same(_titles(k), _titles(it), names(it)):
                 dup = k
                 break
-            key = "|".join(sorted((k["id"], it["id"])))
-            if cache.get(key) is True:
+            key = "v2|" + "|".join(sorted((k["id"], it["id"])))
+            if (cache.get(key) or {}).get("merge"):
                 dup = k
                 break
             if key not in cache:
@@ -140,7 +167,7 @@ def dedupe(items: list[dict], group: Callable[[dict], str], names: Callable[[dic
                 if cont >= 0.25 or _days(k, it) <= near_days or (related and related(k, it)):
                     doubtful.append((k, it))
         if dup:
-            _merge(dup, it)
+            _merge(dup, it, "words" if lexical_same(_titles(dup), _titles(it), names(it)) else "ai (cached)")
         else:
             kept.append(it)
     if not doubtful or ask is None:
@@ -159,12 +186,17 @@ def dedupe(items: list[dict], group: Callable[[dict], str], names: Callable[[dic
                 raise
             print(f"  ! duplicate check failed, will retry next run: {exc!r}", file=sys.stderr)
             continue
-        got = {v.pair: v.same_event for v in (out.items if out else [])}
+        got = {v.pair: v for v in (out.items if out else [])}
         for n, (a, b) in enumerate(chunk):
-            if n in got:
-                cache["|".join(sorted((a["id"], b["id"])))] = got[n]
-                if got[n]:
-                    confirmed.append((a, b))
+            v = got.get(n)
+            if v is None:
+                continue
+            # merge only when the AI is sure AND the shared detail it names is really in both stories
+            ok = v.same_event and v.confidence == "high" and anchor_in_both(v.anchor, a, b, names(a))
+            cache["v2|" + "|".join(sorted((a["id"], b["id"])))] = {"merge": ok, "anchor": v.anchor,
+                                                                    "confidence": v.confidence, "same": v.same_event}
+            if ok:
+                confirmed.append((a, b, v.anchor))
     owner: dict[int, dict] = {}          # merged item -> the item that absorbed it (A=B and B=C → one item)
 
     def root(x: dict) -> dict:
@@ -172,10 +204,10 @@ def dedupe(items: list[dict], group: Callable[[dict], str], names: Callable[[dic
             x = owner[id(x)]
         return x
 
-    for a, b in confirmed:
+    for a, b, anchor in confirmed:
         ra, rb = root(a), root(b)
         if ra is not rb:
             keep, drop = sorted((ra, rb), key=_rank)
-            _merge(keep, drop)
+            _merge(keep, drop, "ai", anchor)
             owner[id(drop)] = keep
     return [k for k in kept if id(k) not in owner]

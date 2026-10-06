@@ -114,6 +114,7 @@ Outlets word the same story differently, so each story is shown once:
 - **Word match:** the bank's own names are ignored and words are reduced to their stems. Two headlines count as the same story when they overlap strongly.
 - **AI check:** close pairs that are still unclear get one cheap Haiku question, "same event?", and the answer is cached.
 - **Merging:** copies are merged into the best-sourced card (the bank's own release first), and every outlet is kept as a source.
+- **No wrong merges:** a pair is merged on the AI's word only when it is **highly confident** *and* names a specific shared detail (a person, product, partner, figure, document or event) that is really in both stories; the bank's name doesn't count. Each merge is recorded on the card (`merged`), so it can be reviewed or undone.
 
 The same logic applies to Sector Insights; there, two items from the same publisher are always checked.
 
