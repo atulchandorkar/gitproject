@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-06T02:20:37+00:00",
+ "updated_at": "2026-10-06T02:27:10+00:00",
  "items": [
   {
    "id": "2cb90a93bd54",
@@ -87,6 +87,64 @@
    "added_at": "2026-10-06T02:16:25+00:00",
    "verification": {
     "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "41a74ca1ed22",
+   "date": "2026-10-01",
+   "category": "Case Studies & Use Cases",
+   "publisher": "Deloitte",
+   "countries": [
+    "Global"
+   ],
+   "title": "Unicaja's move to conversational AI gives banking a human voice",
+   "summary": "Spanish bank Unicaja deployed conversational AI to improve customer interactions. The case study demonstrates how natural language AI enhances customer engagement in retail banking.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRWF2UFg2SVVoSXdqVG9PYjUxaXhTOUE0cFFMOTE3S0I0bWh4RGFqazBESkRYVzhsZWFTV0hIUGpCWUtqdElMdlpTTHEwcWRhc1YwQ0ZGZWdJbHZTSWlSZ2V1ZFRneDltU3pQVEczekYtMUJqRXA2SlBYM0wtbFRxd0NCY24tWk5XOTBsbG5XUUlORDA?oc=5",
+   "source_name": "Deloitte",
+   "source_title": "Giving banking a human voice: Unicaja’s move to conversational AI",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRWF2UFg2SVVoSXdqVG9PYjUxaXhTOUE0cFFMOTE3S0I0bWh4RGFqazBESkRYVzhsZWFTV0hIUGpCWUtqdElMdlpTTHEwcWRhc1YwQ0ZGZWdJbHZTSWlSZ2V1ZFRneDltU3pQVEczekYtMUJqRXA2SlBYM0wtbFRxd0NCY24tWk5XOTBsbG5XUUlORDA?oc=5",
+     "name": "Deloitte"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:26:51+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "695b453e11d8",
+   "date": "2026-09-30",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Bank of Åland and Doconomy leverage AI for global sustainability research initiative",
+   "summary": "A bank deployed AI in partnership with Doconomy to support sustainability research at scale. The initiative demonstrates how AI can be applied to environmental and social impact measurement in banking.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaTllSnNTSmwtOWZqSk5pS3E5d2lWVDlBS0xYT2tjQjEwS3kxc05LLVJ6UkxNcVlycXdHeFNjVTI3RGtqbEdDb1UtT1l3MmJveE55aTdZaVhNTzZQbjdCLXZIYVUxV3F3WUk5bWRMUjRPa0pDcVIydjVHcGFPVllCOU10QVdBQlJsdFVaZC1sNTBHT3BxOUhQS3pqTFY2NXBNMFZnbmduaWtjLWlObXhHVUZ0Zw?oc=5",
+   "source_name": "FF News",
+   "source_title": "Bank of Åland and Doconomy Leverage AI for Global Sustainability Research Initiative",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaTllSnNTSmwtOWZqSk5pS3E5d2lWVDlBS0xYT2tjQjEwS3kxc05LLVJ6UkxNcVlycXdHeFNjVTI3RGtqbEdDb1UtT1l3MmJveE55aTdZaVhNTzZQbjdCLXZIYVUxV3F3WUk5bWRMUjRPa0pDcVIydjVHcGFPVllCOU10QVdBQlJsdFVaZC1sNTBHT3BxOUhQS3pqTFY2NXBNMFZnbmduaWtjLWlObXhHVUZ0Zw?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:26:51+00:00",
+   "verification": {
+    "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-06"
    },
@@ -265,6 +323,39 @@
    "added_at": "2026-10-06T02:16:25+00:00",
    "verification": {
     "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "5d8ba72f7e30",
+   "date": "2026-08-31",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Bank of England warns of artificial intelligence risks to the global financial system",
+   "summary": "Bank of England warned of systemic risks from advanced AI models to global financial stability. The alert reflects central bank concerns about AI's impact on financial system resilience.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBcFlmemVhWlNIZGQtUEJrZHFuWVRsblRVN1hvM3dRQmMwSjRPWEJ5c3FFNUdnbE5KVjZsQzUtMkpQdGN6WXFfS2hSR0RXZFBmcUV3WjlndEdSVlpycXdFYUtvTmVlUE9tU2s4QU1UVVBwZkRtaFBvVEYyU3ZMQdIBgwFBVV95cUxOSnpsMFFySm5qZGkwMVozTEdhZ21NU1NDTmtoaWl3NUwxakRyaWxVUmRmSkdQZ3Zwb0diQTR4N0JuSzhud1NQZEIzMGNvOEVrTGJCZU5MSE9GemFsUWZZdXVwSnNpRGZad2FfSndyOVVGRm01TThEaHFhOG9MRnl0ZEoxWQ?oc=5",
+   "source_name": "aljazeera.net",
+   "source_title": "بنك إنجلترا يحذر من مخاطر الذكاء الاصطناعي على النظام المالي العالمي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBcFlmemVhWlNIZGQtUEJrZHFuWVRsblRVN1hvM3dRQmMwSjRPWEJ5c3FFNUdnbE5KVjZsQzUtMkpQdGN6WXFfS2hSR0RXZFBmcUV3WjlndEdSVlpycXdFYUtvTmVlUE9tU2s4QU1UVVBwZkRtaFBvVEYyU3ZMQdIBgwFBVV95cUxOSnpsMFFySm5qZGkwMVozTEdhZ21NU1NDTmtoaWl3NUwxakRyaWxVUmRmSkdQZ3Zwb0diQTR4N0JuSzhud1NQZEIzMGNvOEVrTGJCZU5MSE9GemFsUWZZdXVwSnNpRGZad2FfSndyOVVGRm01TThEaHFhOG9MRnl0ZEoxWQ?oc=5",
+     "name": "aljazeera.net"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5OeDRJbHBBaFJDdFFWNHhVZ0RVRDhleG5YX3hxSEgtSTVwLVRTdnhrcXUyRmxZWkpuSFJoWFl3LS15S3gtREtUZGQ0STg3enpLU0HSAVBBVV95cUxNcXppeWJqanQxS2pvRkFDN2J5U3dqc0JwRk9XUlhmT2RyWTRpcWZvV01fNmxkZ0pHNGJ3RGRGQ2YzVldEbF96OGphTXh4Z1VVaQ?oc=5",
+     "name": "المشهد العربي"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "corroborated",
     "evidence": "headline",
     "checked": "2026-10-06"
    },
@@ -1718,6 +1809,72 @@
    "pdf_checked": "2026-10-06"
   },
   {
+   "id": "9f471b3b0471",
+   "date": "2026-03-23",
+   "category": "Events & Initiatives",
+   "publisher": "Islamic Development Bank Institute and Arab Monetary Fund",
+   "countries": [
+    "Global"
+   ],
+   "title": "Islamic Development Bank Institute and Arab Monetary Fund deliver training on using artificial intelligence in Islamic financial industry",
+   "summary": "The Islamic Development Bank Institute and Arab Monetary Fund jointly conducted training to help Islamic finance professionals leverage AI capabilities. The initiative builds technical capacity for AI adoption in Sharia-compliant financial services.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQNER5SWdtaWk5Y1NIWjRhRGZxZTJGLW1fclcyNW94azRpYkZTQVBDc05xNk1iT0p5UWpNeFJNVTktWlY5bTZlV0Izcm41bGF1ZXhzeHg2cnNQUTJfVm1yZXhfekZqNDNSTUJIN2p5c3ktSWxpYzRlbFhQWEZkTXY3M0F1SVYzZnpBdWNDOU5XaDZjMDZCM2xESDRFVGZNdGp2enRLRWtNV0FPd3M4QWJCUUh0SzU0RkFvb2kyR0ZpOEl2U2lucHJQQ0V5V0hLWGVMNTZUWlA1S1ZLVmVhQWFuTGlDVEdRa2RVZWd1X3JHVWhOX3NjWTRCTjZaR1EyZTh4VjhxVTdVV3ZMQ3lTSHJjNldrRFI?oc=5",
+   "source_name": "Africa24 TV",
+   "source_title": "The Islamic Development Bank Institute (IsDBI) and Arab Monetary Fund (AMF) Deliver Training on Using Artificial Intelligence to Foster the Islamic Financial Industry",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQNER5SWdtaWk5Y1NIWjRhRGZxZTJGLW1fclcyNW94azRpYkZTQVBDc05xNk1iT0p5UWpNeFJNVTktWlY5bTZlV0Izcm41bGF1ZXhzeHg2cnNQUTJfVm1yZXhfekZqNDNSTUJIN2p5c3ktSWxpYzRlbFhQWEZkTXY3M0F1SVYzZnpBdWNDOU5XaDZjMDZCM2xESDRFVGZNdGp2enRLRWtNV0FPd3M4QWJCUUh0SzU0RkFvb2kyR0ZpOEl2U2lucHJQQ0V5V0hLWGVMNTZUWlA1S1ZLVmVhQWFuTGlDVEdRa2RVZWd1X3JHVWhOX3NjWTRCTjZaR1EyZTh4VjhxVTdVV3ZMQ3lTSHJjNldrRFI?oc=5",
+     "name": "Africa24 TV"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SZW1vMGJJNE5vYzFpMzZmSk14TFpRNUc5T0tmY093VE9kSEtxdXd2SnFXRC1DNWJXYi1JWVNpLS1Xd0lCQ0VZbkE5RUFmX0JlQ1dFNEJFbG1tRE1KZGpB?oc=5",
+     "name": "SKNVibes"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "81a1e7ee11a2",
+   "date": "2026-03-17",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "AI defending AI: How Commonwealth Bank is redefining cyber defence",
+   "summary": "Commonwealth Bank describes its approach to using AI systems to counter AI-driven cybersecurity threats. The bank's strategy demonstrates emerging defenses against sophisticated AI-powered attacks.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNYnJBMkxra1gtaUp5a21KUFN1N1oza0E1QWFMTms5Q2pqRU8zZXdHXzA0SE11R3IzV2tWOExESUNoclZzdERGSXNiNm41NEw1M3hKYkhtYVFUMk1BMHFYeU9WMDlfNW1acG1XTV9pendWNWlfelE4Sk5ZZ3hscWE2ekI3ZGo1Mk82TG8zTmRFTmt5UDJ1X2NVZENtLTZNenJmQ0RNU1M0MmUzZXdfbGlLRVJWWElhT2o0WHliSlVSMGdpZnlPa2piSF9INkJUQjFScVRwNFlUTUZpNDAtcnpzdEJEYXh6cDNBbWhPWmVEQWJRRjgzVVRtTDkxT0ZVVXdfQzdLRzM2ZW9wYzZFa0ZwdDJWVQ?oc=5",
+   "source_name": "Gartner",
+   "source_title": "Executive Story: AI Defending AI — How Commonwealth Bank is Redefining Cyber Defence",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNYnJBMkxra1gtaUp5a21KUFN1N1oza0E1QWFMTms5Q2pqRU8zZXdHXzA0SE11R3IzV2tWOExESUNoclZzdERGSXNiNm41NEw1M3hKYkhtYVFUMk1BMHFYeU9WMDlfNW1acG1XTV9pendWNWlfelE4Sk5ZZ3hscWE2ekI3ZGo1Mk82TG8zTmRFTmt5UDJ1X2NVZENtLTZNenJmQ0RNU1M0MmUzZXdfbGlLRVJWWElhT2o0WHliSlVSMGdpZnlPa2piSF9INkJUQjFScVRwNFlUTUZpNDAtcnpzdEJEYXh6cDNBbWhPWmVEQWJRRjgzVVRtTDkxT0ZVVXdfQzdLRzM2ZW9wYzZFa0ZwdDJWVQ?oc=5",
+     "name": "Gartner"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNYnJBMkxra1gtaUp5a21KUFN1N1oza0E1QWFMTms5Q2pqRU8zZXdHXzA0SE11R3IzV2tWOExESUNoclZzdERGSXNiNm41NEw1M3hKYkhtYVFUMk1BMHFYeU9WMDlfNW1acG1XTV9pendWNWlfelE4Sk5ZZ3hscWE2ekI3ZGo1Mk82TG8zTmRFTmt5UDJ1X2NVZENtLTZNenJmQ0RNU1M0MmUzZXdfbGlLRVJWWElhT2o0WHliSlVSMGdpZnlPa2piSF9INkJUQjFScVRwNFlUTUZpNDAtcnpzdEJEYXh6cDNBbWhPWmVEQWJRRjgzVVRtTDkxT0ZVVXdfQzdLRzM2ZW9wYzZFa0ZwdDJWVQ?oc=5",
+     "name": "gartner.com"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
+  },
+  {
    "id": "7727a3cf0acd",
    "date": "2026-03-09",
    "category": "Expert Views",
@@ -1799,6 +1956,39 @@
    "added_at": "2026-10-06T02:16:25+00:00",
    "verification": {
     "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "2b7045554485",
+   "date": "2026-03-02",
+   "category": "Studies & Surveys",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "McKinsey Reports Banks are Poised to Gain Most from Agentic AI",
+   "summary": "A McKinsey report indicates banks are positioned to capture significant value from agentic AI deployment. The research analyzes banking sector opportunities in adopting AI agent technologies.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ1NvcWJiWDA1V2dDN2t2c3hhcTJIdzVlMVZLajVjQ0U0Mm1EdW1pbzFxZ0NyYWlGVll1LVdtMHpiYzZHU1lwRnRhZm4xWUNwdnNaSmMtenVVc05iaTFjZzhXRWRIOVZyaGhuYXFSeVdZSXNGejRPeHNhdFNqRnFVZHF0TXhvcXhia2lLeWlDZnczU1FKY0pQcjBWcm4yXzRrRVNqcm1NdFBfMW1CcjFvd0JEWl9Vdw?oc=5",
+   "source_name": "Banking Exchange",
+   "source_title": "McKinsey Reports Banks are Poised to Gain Most from Agentic AI",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ1NvcWJiWDA1V2dDN2t2c3hhcTJIdzVlMVZLajVjQ0U0Mm1EdW1pbzFxZ0NyYWlGVll1LVdtMHpiYzZHU1lwRnRhZm4xWUNwdnNaSmMtenVVc05iaTFjZzhXRWRIOVZyaGhuYXFSeVdZSXNGejRPeHNhdFNqRnFVZHF0TXhvcXhia2lLeWlDZnczU1FKY0pQcjBWcm4yXzRrRVNqcm1NdFBfMW1CcjFvd0JEWl9Vdw?oc=5",
+     "name": "Banking Exchange"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ1NvcWJiWDA1V2dDN2t2c3hhcTJIdzVlMVZLajVjQ0U0Mm1EdW1pbzFxZ0NyYWlGVll1LVdtMHpiYzZHU1lwRnRhZm4xWUNwdnNaSmMtenVVc05iaTFjZzhXRWRIOVZyaGhuYXFSeVdZSXNGejRPeHNhdFNqRnFVZHF0TXhvcXhia2lLeWlDZnczU1FKY0pQcjBWcm4yXzRrRVNqcm1NdFBfMW1CcjFvd0JEWl9Vdw?oc=5",
+     "name": "bankingexchange.com"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "corroborated",
     "evidence": "headline",
     "checked": "2026-10-06"
    },
@@ -2231,6 +2421,72 @@
    "pdf_checked": "2026-10-06"
   },
   {
+   "id": "60ce872f41c6",
+   "date": "2026-01-09",
+   "category": "Studies & Surveys",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Embracing AI in Europe: New evidence from harmonised central bank business surveys",
+   "summary": "Harmonized central bank business surveys provide new data on AI adoption and attitudes across European financial institutions. The research offers insights into how European banks and financial firms are embracing artificial intelligence.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSDhxaTBka05OaG9rblhSUGhYUW5tMzF1MllDeTBHZ0lEWFY1dE5WLWUwOFpOM2M3Z0gzUzZLU0N6S1d6QjhzVzcxdnF4TVVaQVdSLW45aHVxVGlaSzdqSlNHNFlHWU9xUUoxeXRqa2t4ellWcVhyRWl6NzRveXNuTzBlQ2pMeXpvQ2oybFV3bVE1MHZLNF9ISmFlR3JwVTE4a2prdmlZTQ?oc=5",
+   "source_name": "cepr.org",
+   "source_title": "Embracing AI in Europe: New evidence from harmonised central bank business surveys",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSDhxaTBka05OaG9rblhSUGhYUW5tMzF1MllDeTBHZ0lEWFY1dE5WLWUwOFpOM2M3Z0gzUzZLU0N6S1d6QjhzVzcxdnF4TVVaQVdSLW45aHVxVGlaSzdqSlNHNFlHWU9xUUoxeXRqa2t4ellWcVhyRWl6NzRveXNuTzBlQ2pMeXpvQ2oybFV3bVE1MHZLNF9ISmFlR3JwVTE4a2prdmlZTQ?oc=5",
+     "name": "cepr.org"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSDhxaTBka05OaG9rblhSUGhYUW5tMzF1MllDeTBHZ0lEWFY1dE5WLWUwOFpOM2M3Z0gzUzZLU0N6S1d6QjhzVzcxdnF4TVVaQVdSLW45aHVxVGlaSzdqSlNHNFlHWU9xUUoxeXRqa2t4ellWcVhyRWl6NzRveXNuTzBlQ2pMeXpvQ2oybFV3bVE1MHZLNF9ISmFlR3JwVTE4a2prdmlZTQ?oc=5",
+     "name": "CEPR"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "521e0a8a465b",
+   "date": "2025-12-22",
+   "category": "Expert Views",
+   "publisher": "Emerj Artificial Intelligence Research",
+   "countries": [
+    "Global"
+   ],
+   "title": "Scaling auditable agentic workflows in financial services",
+   "summary": "Emerj discusses how to scale autonomous AI workflows in financial services while maintaining auditability and oversight, featuring insights from leaders at Moody's and Prudential Insurance. The analysis addresses governance and control challenges in deploying agentic systems.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRzhlYlFOOVRtM2lLOE83UEdrTDhhOWhXRHpZWmQ3cHdFNUFXb3lBOGhGcmFjQldwUC1VdVdKckllbjRUb3FGX1huUUFxTFVIVXdfYi1kQWhhVFRIV0FqNHhscklLOC1pbU1kNGcycndNclZXcWxuLXlYTzlvZk9TZGl5SVk1VEVjSkRaVm00OHNNV2FCZEllSWZtOFNRMEs4aTNNQmZ1ZlJNU1U2WjhhYU1kN3gtSjQ?oc=5",
+   "source_name": "Emerj Artificial Intelligence Research",
+   "source_title": "Scaling Auditable Agentic Workflows in Financial Services – with Leaders from Moody's and Prudential Insurance",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRzhlYlFOOVRtM2lLOE83UEdrTDhhOWhXRHpZWmQ3cHdFNUFXb3lBOGhGcmFjQldwUC1VdVdKckllbjRUb3FGX1huUUFxTFVIVXdfYi1kQWhhVFRIV0FqNHhscklLOC1pbU1kNGcycndNclZXcWxuLXlYTzlvZk9TZGl5SVk1VEVjSkRaVm00OHNNV2FCZEllSWZtOFNRMEs4aTNNQmZ1ZlJNU1U2WjhhYU1kN3gtSjQ?oc=5",
+     "name": "Emerj Artificial Intelligence Research"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRzhlYlFOOVRtM2lLOE83UEdrTDhhOWhXRHpZWmQ3cHdFNUFXb3lBOGhGcmFjQldwUC1VdVdKckllbjRUb3FGX1huUUFxTFVIVXdfYi1kQWhhVFRIV0FqNHhscklLOC1pbU1kNGcycndNclZXcWxuLXlYTzlvZk9TZGl5SVk1VEVjSkRaVm00OHNNV2FCZEllSWZtOFNRMEs4aTNNQmZ1ZlJNU1U2WjhhYU1kN3gtSjQ?oc=5",
+     "name": "emerj.com"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
+  },
+  {
    "id": "607639db19be",
    "date": "2025-12-18",
    "category": "Expert Views",
@@ -2471,6 +2727,39 @@
    "pdf_checked": "2026-10-06"
   },
   {
+   "id": "b737f5bab60d",
+   "date": "2025-12-05",
+   "category": "Events & Initiatives",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Islamic Development Bank Institute and Arab Monetary Fund deliver AI training for Islamic finance",
+   "summary": "The Islamic Development Bank Institute and Arab Monetary Fund conducted training programs on AI applications to advance the Islamic financial industry. The initiative supports capacity building for AI adoption in Islamic banking across the region.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SZW1vMGJJNE5vYzFpMzZmSk14TFpRNUc5T0tmY093VE9kSEtxdXd2SnFXRC1DNWJXYi1JWVNpLS1Xd0lCQ0VZbkE5RUFmX0JlQ1dFNEJFbG1tRE1KZGpB?oc=5",
+   "source_name": "SKNVibes",
+   "source_title": "The Islamic Development Bank Institute (IsDBI) and Arab Monetary Fund (AMF) Deliver Training on Using Artificial Intelligence to Foster the Islamic Financial Industry",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SZW1vMGJJNE5vYzFpMzZmSk14TFpRNUc5T0tmY093VE9kSEtxdXd2SnFXRC1DNWJXYi1JWVNpLS1Xd0lCQ0VZbkE5RUFmX0JlQ1dFNEJFbG1tRE1KZGpB?oc=5",
+     "name": "SKNVibes"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQNER5SWdtaWk5Y1NIWjRhRGZxZTJGLW1fclcyNW94azRpYkZTQVBDc05xNk1iT0p5UWpNeFJNVTktWlY5bTZlV0Izcm41bGF1ZXhzeHg2cnNQUTJfVm1yZXhfekZqNDNSTUJIN2p5c3ktSWxpYzRlbFhQWEZkTXY3M0F1SVYzZnpBdWNDOU5XaDZjMDZCM2xESDRFVGZNdGp2enRLRWtNV0FPd3M4QWJCUUh0SzU0RkFvb2kyR0ZpOEl2U2lucHJQQ0V5V0hLWGVMNTZUWlA1S1ZLVmVhQWFuTGlDVEdRa2RVZWd1X3JHVWhOX3NjWTRCTjZaR1EyZTh4VjhxVTdVV3ZMQ3lTSHJjNldrRFI?oc=5",
+     "name": "Africa24 TV"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
+  },
+  {
    "id": "cef5ebb4245e",
    "date": "2025-12-02",
    "category": "Expert Views",
@@ -2558,6 +2847,39 @@
    "pdf_checked": "2026-10-06"
   },
   {
+   "id": "2f2ad0f1cd8b",
+   "date": "2025-11-18",
+   "category": "Studies & Surveys",
+   "publisher": "Centre for Economic Policy Research",
+   "countries": [
+    "Global"
+   ],
+   "title": "AI for financial sector supervision in emerging markets and developing economies",
+   "summary": "A study by CEPR examines how AI can enhance financial sector supervision in emerging market and developing economies. The research provides evidence-based insights on AI applications for regulatory oversight.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ0lzWVdER1BVTXJzNXE1M3VQRmFUNzhQdEVaaGh2YXpxRjdtWkYwOTgyZ1R5dFc0WUpZSWZtNjBzX2Z5cF9TZXBReUtxRTZiaFlVclpSZUxiUkw4X055RXk1NlRMc0tKWXlxUjJKSFgtUFZsZi1jVzh1dWw0d21kd3B1cHZ2ZzlyaWYtNF9aLWdRMkxzaHZrTkRXMUNLX1ZldEZJT250c1Bnck50SXNTOFpreW83YkE?oc=5",
+   "source_name": "cepr.org",
+   "source_title": "AI for financial sector supervision: New evidence from emerging market and developing economies",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ0lzWVdER1BVTXJzNXE1M3VQRmFUNzhQdEVaaGh2YXpxRjdtWkYwOTgyZ1R5dFc0WUpZSWZtNjBzX2Z5cF9TZXBReUtxRTZiaFlVclpSZUxiUkw4X055RXk1NlRMc0tKWXlxUjJKSFgtUFZsZi1jVzh1dWw0d21kd3B1cHZ2ZzlyaWYtNF9aLWdRMkxzaHZrTkRXMUNLX1ZldEZJT250c1Bnck50SXNTOFpreW83YkE?oc=5",
+     "name": "cepr.org"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ0lzWVdER1BVTXJzNXE1M3VQRmFUNzhQdEVaaGh2YXpxRjdtWkYwOTgyZ1R5dFc0WUpZSWZtNjBzX2Z5cF9TZXBReUtxRTZiaFlVclpSZUxiUkw4X055RXk1NlRMc0tKWXlxUjJKSFgtUFZsZi1jVzh1dWw0d21kd3B1cHZ2ZzlyaWYtNF9aLWdRMkxzaHZrTkRXMUNLX1ZldEZJT250c1Bnck50SXNTOFpreW83YkE?oc=5",
+     "name": "CEPR"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
+  },
+  {
    "id": "210029fa34d8",
    "date": "2025-11-13",
    "category": "Market Data",
@@ -2616,6 +2938,14 @@
     {
      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcDBYaFgwdlNHN1kzenllNDBveUdQd0lJTERnOGFaQnhRdWRoYmJIS2R4RjFnZGNSeno4QmtGSGExQjYyc1JmOW1mY01DRHNIaGs2dW1oTE1aU0E4X0phR0tTZ1E0TlVfTXUxdTNlSVZNVGJvX2RBbHBXNjk3Uk9mSjk1TUt0UjB0djlXVHItUERMdw?oc=5",
      "name": "Boston Consulting Group"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONDZ6Vlh0cllUaDZqWlZEUkw0eU1qamFSUzhtNUcyZkxuTW1hQzZoZHhzeHpKWlRVWm5PVGhlV1V2VEVac1JZRHdodTRYaXYxemlIMEk1ajlEZWlxREpTcWs5ZFkyTS03R3EyM0lhOTVheUxYLXFxN3pUYm1hdFVQd0RmbUZHSVYzSHhWY3VSUG5lbnhQZklETktySUdlc0hrVEoyUDRPTG1FWVJSNllPM2FOdFZxQQ?oc=5",
+     "name": "Banking Exchange"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONDZ6Vlh0cllUaDZqWlZEUkw0eU1qamFSUzhtNUcyZkxuTW1hQzZoZHhzeHpKWlRVWm5PVGhlV1V2VEVac1JZRHdodTRYaXYxemlIMEk1ajlEZWlxREpTcWs5ZFkyTS03R3EyM0lhOTVheUxYLXFxN3pUYm1hdFVQd0RmbUZHSVYzSHhWY3VSUG5lbnhQZklETktySUdlc0hrVEoyUDRPTG1FWVJSNllPM2FOdFZxQQ?oc=5",
+     "name": "bankingexchange.com"
     }
    ],
    "language": "en",
@@ -2796,6 +3126,45 @@
    "added_at": "2026-10-06T02:16:25+00:00",
    "verification": {
     "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "7247d50cf65a",
+   "date": "2025-10-23",
+   "category": "Market Data",
+   "publisher": "McKinsey & Company",
+   "countries": [
+    "Global"
+   ],
+   "title": "McKinsey warns banks face profit hit from rise of AI",
+   "summary": "McKinsey quantifies AI's potential $170 billion profit impact on banks. The study projects significant financial disruption from AI's competitive effects on banking profitability.",
+   "key_stats": [
+    {
+     "value": "$170 billion",
+     "label": "Potential profit hit from AI disruption",
+     "quote": "$170 billion profit hit from rise of AI"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaVNqVHlPdmRUQ0U4c2lwcGNrUXBQTk5yT2ZfbzlSR2hhSTBjWkR3U3lCQU5oU1pzQjUtWk5heE5Qc3FTcGtJZy1kalV2N2c1c3ZPbUNXS3c3WnJYS3RzZGNVbHdIWDVBWnYyMXdENng3UjEzcEhCUjIwSV82TGVscXRzVGlOQVZ2Tk5OYmZoVlNyZ0Rxa2VkRjRfbVhISHRTWWF1RUhFSFBVdw?oc=5",
+   "source_name": "Payments Industry Intelligence",
+   "source_title": "McKinsey warns banks face $170 billion profit hit from rise of AI",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaVNqVHlPdmRUQ0U4c2lwcGNrUXBQTk5yT2ZfbzlSR2hhSTBjWkR3U3lCQU5oU1pzQjUtWk5heE5Qc3FTcGtJZy1kalV2N2c1c3ZPbUNXS3c3WnJYS3RzZGNVbHdIWDVBWnYyMXdENng3UjEzcEhCUjIwSV82TGVscXRzVGlOQVZ2Tk5OYmZoVlNyZ0Rxa2VkRjRfbVhISHRTWWF1RUhFSFBVdw?oc=5",
+     "name": "Payments Industry Intelligence"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaVNqVHlPdmRUQ0U4c2lwcGNrUXBQTk5yT2ZfbzlSR2hhSTBjWkR3U3lCQU5oU1pzQjUtWk5heE5Qc3FTcGtJZy1kalV2N2c1c3ZPbUNXS3c3WnJYS3RzZGNVbHdIWDVBWnYyMXdENng3UjEzcEhCUjIwSV82TGVscXRzVGlOQVZ2Tk5OYmZoVlNyZ0Rxa2VkRjRfbVhISHRTWWF1RUhFSFBVdw?oc=5",
+     "name": "paymentsindustryintelligence.com"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "corroborated",
     "evidence": "headline",
     "checked": "2026-10-06"
    },

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-06T02:20:37+00:00",
+ "updated_at": "2026-10-06T02:27:10+00:00",
  "items": [
   {
    "id": "c6d5639013d1",
@@ -1730,7 +1730,9 @@
    "tags": [
     "fraud detection",
     "machine learning",
-    "digital security"
+    "digital security",
+    "facial recognition",
+    "security"
    ],
    "partners": [],
    "impact": "Automated fraud detection on KFHOnline platform",
@@ -1740,6 +1742,10 @@
    "sources": [
     {
      "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=35",
+     "name": "KFH Annual Report 2025"
+    },
+    {
+     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=9",
      "name": "KFH Annual Report 2025"
     }
    ],
@@ -1756,7 +1762,20 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-05"
-   }
+   },
+   "merged": [
+    {
+     "id": "3da8d6487c1c",
+     "date": "2026-04-21",
+     "title": "KFH Facial Recognition and Fraud Detection Features",
+     "source_title": "",
+     "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=9",
+     "source_name": "KFH Annual Report 2025",
+     "summary": "KFH deployed facial recognition technology and fraud detection features as part of advanced systems launched during its digital transformation. These systems enhance security and operational efficiency.",
+     "how": "ai",
+     "anchor": "fraud detection"
+    }
+   ]
   },
   {
    "id": "3a6c878cc631",
@@ -1922,48 +1941,6 @@
     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
     "page": 32,
     "quote": "the Group's key strategies are developed based on three pillars: AI-driven digital transformation, customer centricity and Group synergy."
-   },
-   "verification": {
-    "level": "official",
-    "evidence": "annual report",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "3da8d6487c1c",
-   "bank_id": "kfh",
-   "country": "KW",
-   "date": "2026-04-21",
-   "title": "KFH Facial Recognition and Fraud Detection Features",
-   "summary": "KFH deployed facial recognition technology and fraud detection features as part of advanced systems launched during its digital transformation. These systems enhance security and operational efficiency.",
-   "category": "Fraud, Risk & Compliance",
-   "topics": [
-    "Fraud, Risk & Compliance"
-   ],
-   "tags": [
-    "facial recognition",
-    "fraud detection",
-    "security"
-   ],
-   "partners": [],
-   "impact": "Enhanced security through facial recognition and fraud detection capabilities",
-   "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=9",
-   "source_name": "KFH Annual Report 2025",
-   "source_title": "",
-   "sources": [
-    {
-     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf#page=9",
-     "name": "KFH Annual Report 2025"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T21:23:41+00:00",
-   "source_type": "annual_report",
-   "report": {
-    "year": 2025,
-    "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
-    "page": 9,
-    "quote": "features like facial recognition and a fraud detection model"
    },
    "verification": {
     "level": "official",
@@ -4937,7 +4914,8 @@
    "tags": [
     "Conversational AI",
     "AI Avatar",
-    "Branch Experience"
+    "Branch Experience",
+    "Branch Banking"
    ],
    "partners": [
     "NCR Atleos"
@@ -4950,6 +4928,14 @@
     {
      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPWE11NkRBemdfQy1ELU1IcDB3SFg1Ny1HUnRwYzdBTFFOZjJVYmU3Z3VnZ1V0cmVkS2ZMOEF4Zld5UjJlLTQ4YXFETG91Y3AwZlpHMU91N1k1c2ZRTDZaUDI3bTBTajQ5cW1mN2h4cjFZRmxQdUNEUlV6eFFTZ3Y1TS1EVnBSaVR5Yzg3bTdqRktibWFHcktCWC1zSzhxT0xlZ19PUXJabUhIREFlNFNUS3Q5MjRiRUliV2doNjNsTDZBMndDS2wtbEVNeW01YmxpT1ZSRzRNTjBsMTlmT0FSR2VhVFk0NDdDbFI4bm1RUmR6Y3lUMF8yUlNuTWxTMmxDTzU5dkNjRUpZRngzOVI0RQ?oc=5",
      "name": "Business Wire"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZUNrQ3dxZUtZWVlJSVJMTnpDdVY5a2wtdk1DbXJhNVJiS2JNcGRyemZERzNqdGRmbHRacUpKSnJBbFVVSkl0MmhBUFRtbG9jRnQ0clcwb19JTFl2Sko1MUdUa2dTMU5ncTM1TGxEZmhlSWJuYTIyMWZ3bEkxSy1LRGphZHJPMXZFUWxOQnl3SkxoR2I2S2VyXzJGc0NST2VydmZNQ29B?oc=5",
+     "name": "ATM Marketplace"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZUNrQ3dxZUtZWVlJSVJMTnpDdVY5a2wtdk1DbXJhNVJiS2JNcGRyemZERzNqdGRmbHRacUpKSnJBbFVVSkl0MmhBUFRtbG9jRnQ0clcwb19JTFl2Sko1MUdUa2dTMU5ncTM1TGxEZmhlSWJuYTIyMWZ3bEkxSy1LRGphZHJPMXZFUWxOQnl3SkxoR2I2S2VyXzJGc0NST2VydmZNQ29B?oc=5",
+     "name": "atmmarketplace.com"
     }
    ],
    "language": "en",
@@ -4958,7 +4944,20 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "merged": [
+    {
+     "id": "b95ea0a53ccf",
+     "date": "2025-11-04",
+     "title": "Kuwait Finance House Partners with NCR Atleos to Add AI Avatar at Kiosks",
+     "source_title": "Kuwait Finance House selects NCR Atleos to add AI avatar at kiosks",
+     "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZUNrQ3dxZUtZWVlJSVJMTnpDdVY5a2wtdk1DbXJhNVJiS2JNcGRyemZERzNqdGRmbHRacUpKSnJBbFVVSkl0MmhBUFRtbG9jRnQ0clcwb19JTFl2Sko1MUdUa2dTMU5ncTM1TGxEZmhlSWJuYTIyMWZ3bEkxSy1LRGphZHJPMXZFUWxOQnl3SkxoR2I2S2VyXzJGc0NST2VydmZNQ29B?oc=5",
+     "source_name": "ATM Marketplace",
+     "summary": "Kuwait Finance House selected NCR Atleos to deploy an AI avatar at branch kiosks.",
+     "how": "ai",
+     "anchor": "NCR Atleos"
+    }
+   ]
   },
   {
    "id": "2731f9456f3f",
@@ -5955,6 +5954,49 @@
     "AI Adoption in Operations",
     "Customer-Facing AI"
    ]
+  },
+  {
+   "id": "891374ff7440",
+   "bank_id": "mashreq",
+   "country": "AE",
+   "date": "2025-05-16",
+   "title": "Mashreq Partners with Clari5 to Launch GenAI-Powered Fraud Detection Platform",
+   "summary": "Mashreq has partnered with Clari5 to launch a generative AI-powered fraud detection platform.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance",
+    "Tech Vendor Partnerships",
+    "Generative AI & Copilots"
+   ],
+   "tags": [
+    "GenAI",
+    "Fraud detection",
+    "Partnership"
+   ],
+   "partners": [
+    "Clari5"
+   ],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYTZnNkp6VzVXQ1BQV3BKZDZ5RFduTTJSYmxEdGJBcUhfUlhDd3RMWTdSNW1qejVjcDBPbl9kRm5VYXBCWmZlbVhtdnRzU0NiT0lPME00VFZFMk1WY29aNU41YlRSdVRmSjRwS2R2b1hhZl9tLTZZa05DVUNfS2stMmN0b1BBNlNQTTljTkFJaEUwVEdKbkJwa1c3bUIyWjBlM0o5U2dDQmRoa3U0empXNWdoOGFGSGc?oc=5",
+   "source_name": "TechAfrica News",
+   "source_title": "Mashreq Partners with Clari5 to Launch GenAI-Powered Fraud Detection Platform",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYTZnNkp6VzVXQ1BQV3BKZDZ5RFduTTJSYmxEdGJBcUhfUlhDd3RMWTdSNW1qejVjcDBPbl9kRm5VYXBCWmZlbVhtdnRzU0NiT0lPME00VFZFMk1WY29aNU41YlRSdVRmSjRwS2R2b1hhZl9tLTZZa05DVUNfS2stMmN0b1BBNlNQTTljTkFJaEUwVEdKbkJwa1c3bUIyWjBlM0o5U2dDQmRoa3U0empXNWdoOGFGSGc?oc=5",
+     "name": "TechAfrica News"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYTZnNkp6VzVXQ1BQV3BKZDZ5RFduTTJSYmxEdGJBcUhfUlhDd3RMWTdSNW1qejVjcDBPbl9kRm5VYXBCWmZlbVhtdnRzU0NiT0lPME00VFZFMk1WY29aNU41YlRSdVRmSjRwS2R2b1hhZl9tLTZZa05DVUNfS2stMmN0b1BBNlNQTTljTkFJaEUwVEdKbkJwa1c3bUIyWjBlM0o5U2dDQmRoa3U0empXNWdoOGFGSGc?oc=5",
+     "name": "techafricanews.com"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T17:58:15+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-05"
+   }
   },
   {
    "id": "6c5db3e3b63d",

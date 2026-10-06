@@ -1,5 +1,5 @@
 {
- "last_update": "2026-10-06T01:57:45+00:00",
+ "last_update": "2026-10-06T02:25:39+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -904,7 +904,8 @@
   "d0b6f430ca68a7": "2026-10-04",
   "3270452931b158": "2026-10-05",
   "bd07dbd083043b": "2026-10-05",
-  "2c25b98434dfa8": "2026-10-05"
+  "2c25b98434dfa8": "2026-10-05",
+  "5d2b0cc305d080": "2026-10-06"
  },
  "history_loaded": {
   "adcb": "2026-10-05",
@@ -1252,45 +1253,6 @@
    ],
    "language": "ar",
    "added_at": "2026-10-05T17:57:50+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "891374ff7440",
-   "bank_id": "mashreq",
-   "country": "AE",
-   "date": "2025-05-16",
-   "title": "Mashreq Partners with Clari5 to Launch GenAI-Powered Fraud Detection Platform",
-   "summary": "Mashreq has partnered with Clari5 to launch a generative AI-powered fraud detection platform.",
-   "category": "Fraud, Risk & Compliance",
-   "topics": [
-    "Fraud, Risk & Compliance",
-    "Tech Vendor Partnerships",
-    "Generative AI & Copilots"
-   ],
-   "tags": [
-    "GenAI",
-    "Fraud detection",
-    "Partnership"
-   ],
-   "partners": [
-    "Clari5"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYTZnNkp6VzVXQ1BQV3BKZDZ5RFduTTJSYmxEdGJBcUhfUlhDd3RMWTdSNW1qejVjcDBPbl9kRm5VYXBCWmZlbVhtdnRzU0NiT0lPME00VFZFMk1WY29aNU41YlRSdVRmSjRwS2R2b1hhZl9tLTZZa05DVUNfS2stMmN0b1BBNlNQTTljTkFJaEUwVEdKbkJwa1c3bUIyWjBlM0o5U2dDQmRoa3U0empXNWdoOGFGSGc?oc=5",
-   "source_name": "TechAfrica News",
-   "source_title": "Mashreq Partners with Clari5 to Launch GenAI-Powered Fraud Detection Platform",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYTZnNkp6VzVXQ1BQV3BKZDZ5RFduTTJSYmxEdGJBcUhfUlhDd3RMWTdSNW1qejVjcDBPbl9kRm5VYXBCWmZlbVhtdnRzU0NiT0lPME00VFZFMk1WY29aNU41YlRSdVRmSjRwS2R2b1hhZl9tLTZZa05DVUNfS2stMmN0b1BBNlNQTTljTkFJaEUwVEdKbkJwa1c3bUIyWjBlM0o5U2dDQmRoa3U0empXNWdoOGFGSGc?oc=5",
-     "name": "TechAfrica News"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T17:58:15+00:00",
    "verification": {
     "level": "pending",
     "evidence": "headline",
@@ -1763,44 +1725,6 @@
    ],
    "language": "en",
    "added_at": "2026-10-05T18:12:19+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "b95ea0a53ccf",
-   "bank_id": "kfh",
-   "country": "KW",
-   "date": "2025-11-04",
-   "title": "Kuwait Finance House Partners with NCR Atleos to Add AI Avatar at Kiosks",
-   "summary": "Kuwait Finance House selected NCR Atleos to deploy an AI avatar at branch kiosks.",
-   "category": "Tech Vendor Partnerships",
-   "topics": [
-    "Tech Vendor Partnerships",
-    "Customer-Facing AI"
-   ],
-   "tags": [
-    "AI Avatar",
-    "Branch Banking",
-    "Conversational AI"
-   ],
-   "partners": [
-    "NCR Atleos"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZUNrQ3dxZUtZWVlJSVJMTnpDdVY5a2wtdk1DbXJhNVJiS2JNcGRyemZERzNqdGRmbHRacUpKSnJBbFVVSkl0MmhBUFRtbG9jRnQ0clcwb19JTFl2Sko1MUdUa2dTMU5ncTM1TGxEZmhlSWJuYTIyMWZ3bEkxSy1LRGphZHJPMXZFUWxOQnl3SkxoR2I2S2VyXzJGc0NST2VydmZNQ29B?oc=5",
-   "source_name": "ATM Marketplace",
-   "source_title": "Kuwait Finance House selects NCR Atleos to add AI avatar at kiosks",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZUNrQ3dxZUtZWVlJSVJMTnpDdVY5a2wtdk1DbXJhNVJiS2JNcGRyemZERzNqdGRmbHRacUpKSnJBbFVVSkl0MmhBUFRtbG9jRnQ0clcwb19JTFl2Sko1MUdUa2dTMU5ncTM1TGxEZmhlSWJuYTIyMWZ3bEkxSy1LRGphZHJPMXZFUWxOQnl3SkxoR2I2S2VyXzJGc0NST2VydmZNQ29B?oc=5",
-     "name": "ATM Marketplace"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T18:13:17+00:00",
    "verification": {
     "level": "pending",
     "evidence": "headline",
@@ -2800,8 +2724,8 @@
    "scanned": "2026-10-06",
    "known": [
     "0c9fb2af54b5",
-    "7b80d2c3cb92",
     "cb0f30100d55",
+    "7b80d2c3cb92",
     "ab0f93aae110",
     "1ba12c1486bd",
     "2cd659e90f31",
@@ -3165,9 +3089,9 @@
   "ahlioman": {
    "checked": "2026-10-05",
    "url": "https://ahlibank.om/Ahlibank/news/",
-   "status": "unreachable (TimeoutError)",
+   "status": "ok",
    "links": 9,
-   "scanned": "2026-10-05",
+   "scanned": "2026-10-06",
    "known": [
     "af5f08321e09",
     "0611da646956",
@@ -3724,7 +3648,33 @@
   "3cf2331316108c": "2026-10-05",
   "749751b0f73ae5": "2026-10-05",
   "eeaee4d5a1b6c8": "2026-10-05",
-  "6263064641238d": "2026-10-05"
+  "6263064641238d": "2026-10-05",
+  "7e04f57484ff86": "2026-09-29",
+  "d17a982c9a6f14": "2026-09-29",
+  "847e657a8b0b6e": "2026-09-30",
+  "c02fc8f1baa74f": "2026-09-30",
+  "6120a78901cd5c": "2026-09-30",
+  "7356b01d076cba": "2026-09-30",
+  "e29b7cbda4175e": "2026-09-30",
+  "4f3ad9e43fde2b": "2026-09-30",
+  "f5a128b595073d": "2026-10-01",
+  "0a3bbad835c81a": "2026-10-01",
+  "dfa403d78271a1": "2026-10-01",
+  "858d55382a7914": "2026-10-01",
+  "6d41ec23ceff23": "2026-10-01",
+  "bed4fe4dceb04a": "2026-10-01",
+  "b96c105f292f6a": "2026-10-01",
+  "cbccc494d157a3": "2026-10-02",
+  "b991bdc3f72e67": "2026-10-02",
+  "d1d4f40fa8d6ae": "2026-10-02",
+  "96bc4d63059e38": "2026-10-02",
+  "5422736537b4f6": "2026-10-02",
+  "fc0a0903cd3e46": "2026-10-03",
+  "bf502cddc102e0": "2026-10-05",
+  "4a34b55de7b717": "2026-10-05",
+  "a59f08126e0057": "2026-10-05",
+  "2c4b8beed7addb": "2026-10-05",
+  "71eea74402f325": "2026-10-05"
  },
  "sector_known": {},
  "sector_pending": [
@@ -4015,40 +3965,6 @@
    }
   },
   {
-   "id": "7247d50cf65a",
-   "date": "2025-10-23",
-   "category": "Market Data",
-   "publisher": "McKinsey & Company",
-   "countries": [
-    "Global"
-   ],
-   "title": "McKinsey warns banks face profit hit from rise of AI",
-   "summary": "McKinsey quantifies AI's potential $170 billion profit impact on banks. The study projects significant financial disruption from AI's competitive effects on banking profitability.",
-   "key_stats": [
-    {
-     "value": "$170 billion",
-     "label": "Potential profit hit from AI disruption",
-     "quote": "$170 billion profit hit from rise of AI"
-    }
-   ],
-   "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaVNqVHlPdmRUQ0U4c2lwcGNrUXBQTk5yT2ZfbzlSR2hhSTBjWkR3U3lCQU5oU1pzQjUtWk5heE5Qc3FTcGtJZy1kalV2N2c1c3ZPbUNXS3c3WnJYS3RzZGNVbHdIWDVBWnYyMXdENng3UjEzcEhCUjIwSV82TGVscXRzVGlOQVZ2Tk5OYmZoVlNyZ0Rxa2VkRjRfbVhISHRTWWF1RUhFSFBVdw?oc=5",
-   "source_name": "Payments Industry Intelligence",
-   "source_title": "McKinsey warns banks face $170 billion profit hit from rise of AI",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaVNqVHlPdmRUQ0U4c2lwcGNrUXBQTk5yT2ZfbzlSR2hhSTBjWkR3U3lCQU5oU1pzQjUtWk5heE5Qc3FTcGtJZy1kalV2N2c1c3ZPbUNXS3c3WnJYS3RzZGNVbHdIWDVBWnYyMXdENng3UjEzcEhCUjIwSV82TGVscXRzVGlOQVZ2Tk5OYmZoVlNyZ0Rxa2VkRjRfbVhISHRTWWF1RUhFSFBVdw?oc=5",
-     "name": "Payments Industry Intelligence"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   }
-  },
-  {
    "id": "53c9ee286ffc",
    "date": "2025-10-28",
    "category": "Regulation & Guidance",
@@ -4066,40 +3982,6 @@
     {
      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMm1hWFlocUZyeU05RHhXTWFkNDdib3NBUjI4OVl2VnhfSUo2bVBvMlRnVzk2ZFJVNzBrN251NEpiUHdWdlEtSE9TNUFKVWtKemxzN3NjOWMwN1I0Ymxzcm1maUExQWhzc0F1V2Y1UDVJblN4OEo3OUQ3aVA5S2V1d0lR?oc=5",
      "name": "Bank Policy Institute"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   }
-  },
-  {
-   "id": "cc6bb77afca4",
-   "date": "2025-11-05",
-   "category": "Market Data",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "AI could unlock significant profit potential for retail banks by 2030",
-   "summary": "Market analysis projecting substantial profit opportunity from AI adoption in retail banking. Quantifies financial upside of AI implementation over coming years.",
-   "key_stats": [
-    {
-     "value": "$300 billion",
-     "label": "Profit potential from AI for retail banks by 2030",
-     "quote": "AI Could Unlock $300 Billion In Profit For Retail Banks by 2030"
-    }
-   ],
-   "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONDZ6Vlh0cllUaDZqWlZEUkw0eU1qamFSUzhtNUcyZkxuTW1hQzZoZHhzeHpKWlRVWm5PVGhlV1V2VEVac1JZRHdodTRYaXYxemlIMEk1ajlEZWlxREpTcWs5ZFkyTS03R3EyM0lhOTVheUxYLXFxN3pUYm1hdFVQd0RmbUZHSVYzSHhWY3VSUG5lbnhQZklETktySUdlc0hrVEoyUDRPTG1FWVJSNllPM2FOdFZxQQ?oc=5",
-   "source_name": "Banking Exchange",
-   "source_title": "AI Could Unlock $300 Billion In Profit For Retail Banks by 2030",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONDZ6Vlh0cllUaDZqWlZEUkw0eU1qamFSUzhtNUcyZkxuTW1hQzZoZHhzeHpKWlRVWm5PVGhlV1V2VEVac1JZRHdodTRYaXYxemlIMEk1ajlEZWlxREpTcWs5ZFkyTS03R3EyM0lhOTVheUxYLXFxN3pUYm1hdFVQd0RmbUZHSVYzSHhWY3VSUG5lbnhQZklETktySUdlc0hrVEoyUDRPTG1FWVJSNllPM2FOdFZxQQ?oc=5",
-     "name": "Banking Exchange"
     }
    ],
    "language": "en",
@@ -4235,34 +4117,6 @@
    }
   },
   {
-   "id": "2f2ad0f1cd8b",
-   "date": "2025-11-18",
-   "category": "Studies & Surveys",
-   "publisher": "Centre for Economic Policy Research",
-   "countries": [
-    "Global"
-   ],
-   "title": "AI for financial sector supervision in emerging markets and developing economies",
-   "summary": "A study by CEPR examines how AI can enhance financial sector supervision in emerging market and developing economies. The research provides evidence-based insights on AI applications for regulatory oversight.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ0lzWVdER1BVTXJzNXE1M3VQRmFUNzhQdEVaaGh2YXpxRjdtWkYwOTgyZ1R5dFc0WUpZSWZtNjBzX2Z5cF9TZXBReUtxRTZiaFlVclpSZUxiUkw4X055RXk1NlRMc0tKWXlxUjJKSFgtUFZsZi1jVzh1dWw0d21kd3B1cHZ2ZzlyaWYtNF9aLWdRMkxzaHZrTkRXMUNLX1ZldEZJT250c1Bnck50SXNTOFpreW83YkE?oc=5",
-   "source_name": "cepr.org",
-   "source_title": "AI for financial sector supervision: New evidence from emerging market and developing economies",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ0lzWVdER1BVTXJzNXE1M3VQRmFUNzhQdEVaaGh2YXpxRjdtWkYwOTgyZ1R5dFc0WUpZSWZtNjBzX2Z5cF9TZXBReUtxRTZiaFlVclpSZUxiUkw4X055RXk1NlRMc0tKWXlxUjJKSFgtUFZsZi1jVzh1dWw0d21kd3B1cHZ2ZzlyaWYtNF9aLWdRMkxzaHZrTkRXMUNLX1ZldEZJT250c1Bnck50SXNTOFpreW83YkE?oc=5",
-     "name": "cepr.org"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   }
-  },
-  {
    "id": "37b86d3536ee",
    "date": "2025-11-20",
    "category": "Regulation & Guidance",
@@ -4370,34 +4224,6 @@
     {
      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTEhCWnZHRTRsNmx3NXMydzZmSTE0TXZOcXhreV91aFc3YndhZzNwOWFTOHY0NkVvakRIQ0VmRmVMeFd3QUxWdE51bG0yU0xjd3pFYlR0Q1g5WnFPYUNvcjlyWWo0ajhtTEZ5Sk93WmlBckg0Z1lTZTZCZC1FbWZBZDc1RUNkM2dORDNpamlIMUU3TU4xeXJvSUh0NTloRnczRFZWeUF2WW1VQXM?oc=5",
      "name": "PYMNTS.com"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   }
-  },
-  {
-   "id": "b737f5bab60d",
-   "date": "2025-12-05",
-   "category": "Events & Initiatives",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "Islamic Development Bank Institute and Arab Monetary Fund deliver AI training for Islamic finance",
-   "summary": "The Islamic Development Bank Institute and Arab Monetary Fund conducted training programs on AI applications to advance the Islamic financial industry. The initiative supports capacity building for AI adoption in Islamic banking across the region.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SZW1vMGJJNE5vYzFpMzZmSk14TFpRNUc5T0tmY093VE9kSEtxdXd2SnFXRC1DNWJXYi1JWVNpLS1Xd0lCQ0VZbkE5RUFmX0JlQ1dFNEJFbG1tRE1KZGpB?oc=5",
-   "source_name": "SKNVibes",
-   "source_title": "The Islamic Development Bank Institute (IsDBI) and Arab Monetary Fund (AMF) Deliver Training on Using Artificial Intelligence to Foster the Islamic Financial Industry",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SZW1vMGJJNE5vYzFpMzZmSk14TFpRNUc5T0tmY093VE9kSEtxdXd2SnFXRC1DNWJXYi1JWVNpLS1Xd0lCQ0VZbkE5RUFmX0JlQ1dFNEJFbG1tRE1KZGpB?oc=5",
-     "name": "SKNVibes"
     }
    ],
    "language": "en",
@@ -4521,34 +4347,6 @@
    }
   },
   {
-   "id": "521e0a8a465b",
-   "date": "2025-12-22",
-   "category": "Expert Views",
-   "publisher": "Emerj Artificial Intelligence Research",
-   "countries": [
-    "Global"
-   ],
-   "title": "Scaling auditable agentic workflows in financial services",
-   "summary": "Emerj discusses how to scale autonomous AI workflows in financial services while maintaining auditability and oversight, featuring insights from leaders at Moody's and Prudential Insurance. The analysis addresses governance and control challenges in deploying agentic systems.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRzhlYlFOOVRtM2lLOE83UEdrTDhhOWhXRHpZWmQ3cHdFNUFXb3lBOGhGcmFjQldwUC1VdVdKckllbjRUb3FGX1huUUFxTFVIVXdfYi1kQWhhVFRIV0FqNHhscklLOC1pbU1kNGcycndNclZXcWxuLXlYTzlvZk9TZGl5SVk1VEVjSkRaVm00OHNNV2FCZEllSWZtOFNRMEs4aTNNQmZ1ZlJNU1U2WjhhYU1kN3gtSjQ?oc=5",
-   "source_name": "Emerj Artificial Intelligence Research",
-   "source_title": "Scaling Auditable Agentic Workflows in Financial Services – with Leaders from Moody's and Prudential Insurance",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRzhlYlFOOVRtM2lLOE83UEdrTDhhOWhXRHpZWmQ3cHdFNUFXb3lBOGhGcmFjQldwUC1VdVdKckllbjRUb3FGX1huUUFxTFVIVXdfYi1kQWhhVFRIV0FqNHhscklLOC1pbU1kNGcycndNclZXcWxuLXlYTzlvZk9TZGl5SVk1VEVjSkRaVm00OHNNV2FCZEllSWZtOFNRMEs4aTNNQmZ1ZlJNU1U2WjhhYU1kN3gtSjQ?oc=5",
-     "name": "Emerj Artificial Intelligence Research"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   }
-  },
-  {
    "id": "5bc6bbf6977c",
    "date": "2025-12-23",
    "category": "Market Data",
@@ -4606,34 +4404,6 @@
     {
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeTBUblk2djdQSTg2VzhLQmt0MkNtaHRkb0tKTng3OElMRUZxVXpvdkF2cnVPSFZrbjFCWTMzSVFjTnVaRTk3b2lhYmxVemNNMWVMb2tBbmRYNE9PM3F3NEk3VGJrbE0ydmx1OFhhQmI4TG9CTWZ4aGlROFE0U0NEVEpMY2JnSFBmR2FmNjg4YXd1SVdlM2ZqeXI4YzVIaWEtZXVWSVJoMS1VS1E4RGxKOFFvLW1ET0FnTnI0ZlR3?oc=5",
      "name": "Luxembourg Times"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   }
-  },
-  {
-   "id": "60ce872f41c6",
-   "date": "2026-01-09",
-   "category": "Studies & Surveys",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "Embracing AI in Europe: New evidence from harmonised central bank business surveys",
-   "summary": "Harmonized central bank business surveys provide new data on AI adoption and attitudes across European financial institutions. The research offers insights into how European banks and financial firms are embracing artificial intelligence.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSDhxaTBka05OaG9rblhSUGhYUW5tMzF1MllDeTBHZ0lEWFY1dE5WLWUwOFpOM2M3Z0gzUzZLU0N6S1d6QjhzVzcxdnF4TVVaQVdSLW45aHVxVGlaSzdqSlNHNFlHWU9xUUoxeXRqa2t4ellWcVhyRWl6NzRveXNuTzBlQ2pMeXpvQ2oybFV3bVE1MHZLNF9ISmFlR3JwVTE4a2prdmlZTQ?oc=5",
-   "source_name": "cepr.org",
-   "source_title": "Embracing AI in Europe: New evidence from harmonised central bank business surveys",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSDhxaTBka05OaG9rblhSUGhYUW5tMzF1MllDeTBHZ0lEWFY1dE5WLWUwOFpOM2M3Z0gzUzZLU0N6S1d6QjhzVzcxdnF4TVVaQVdSLW45aHVxVGlaSzdqSlNHNFlHWU9xUUoxeXRqa2t4ellWcVhyRWl6NzRveXNuTzBlQ2pMeXpvQ2oybFV3bVE1MHZLNF9ISmFlR3JwVTE4a2prdmlZTQ?oc=5",
-     "name": "cepr.org"
     }
    ],
    "language": "en",
@@ -4897,34 +4667,6 @@
    }
   },
   {
-   "id": "2b7045554485",
-   "date": "2026-03-02",
-   "category": "Studies & Surveys",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "McKinsey Reports Banks are Poised to Gain Most from Agentic AI",
-   "summary": "A McKinsey report indicates banks are positioned to capture significant value from agentic AI deployment. The research analyzes banking sector opportunities in adopting AI agent technologies.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ1NvcWJiWDA1V2dDN2t2c3hhcTJIdzVlMVZLajVjQ0U0Mm1EdW1pbzFxZ0NyYWlGVll1LVdtMHpiYzZHU1lwRnRhZm4xWUNwdnNaSmMtenVVc05iaTFjZzhXRWRIOVZyaGhuYXFSeVdZSXNGejRPeHNhdFNqRnFVZHF0TXhvcXhia2lLeWlDZnczU1FKY0pQcjBWcm4yXzRrRVNqcm1NdFBfMW1CcjFvd0JEWl9Vdw?oc=5",
-   "source_name": "Banking Exchange",
-   "source_title": "McKinsey Reports Banks are Poised to Gain Most from Agentic AI",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ1NvcWJiWDA1V2dDN2t2c3hhcTJIdzVlMVZLajVjQ0U0Mm1EdW1pbzFxZ0NyYWlGVll1LVdtMHpiYzZHU1lwRnRhZm4xWUNwdnNaSmMtenVVc05iaTFjZzhXRWRIOVZyaGhuYXFSeVdZSXNGejRPeHNhdFNqRnFVZHF0TXhvcXhia2lLeWlDZnczU1FKY0pQcjBWcm4yXzRrRVNqcm1NdFBfMW1CcjFvd0JEWl9Vdw?oc=5",
-     "name": "Banking Exchange"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   }
-  },
-  {
    "id": "2f9a7f1fbc5f",
    "date": "2026-03-02",
    "category": "Market Data",
@@ -5093,34 +4835,6 @@
    }
   },
   {
-   "id": "81a1e7ee11a2",
-   "date": "2026-03-17",
-   "category": "Case Studies & Use Cases",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "AI defending AI: How Commonwealth Bank is redefining cyber defence",
-   "summary": "Commonwealth Bank describes its approach to using AI systems to counter AI-driven cybersecurity threats. The bank's strategy demonstrates emerging defenses against sophisticated AI-powered attacks.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNYnJBMkxra1gtaUp5a21KUFN1N1oza0E1QWFMTms5Q2pqRU8zZXdHXzA0SE11R3IzV2tWOExESUNoclZzdERGSXNiNm41NEw1M3hKYkhtYVFUMk1BMHFYeU9WMDlfNW1acG1XTV9pendWNWlfelE4Sk5ZZ3hscWE2ekI3ZGo1Mk82TG8zTmRFTmt5UDJ1X2NVZENtLTZNenJmQ0RNU1M0MmUzZXdfbGlLRVJWWElhT2o0WHliSlVSMGdpZnlPa2piSF9INkJUQjFScVRwNFlUTUZpNDAtcnpzdEJEYXh6cDNBbWhPWmVEQWJRRjgzVVRtTDkxT0ZVVXdfQzdLRzM2ZW9wYzZFa0ZwdDJWVQ?oc=5",
-   "source_name": "Gartner",
-   "source_title": "Executive Story: AI Defending AI — How Commonwealth Bank is Redefining Cyber Defence",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNYnJBMkxra1gtaUp5a21KUFN1N1oza0E1QWFMTms5Q2pqRU8zZXdHXzA0SE11R3IzV2tWOExESUNoclZzdERGSXNiNm41NEw1M3hKYkhtYVFUMk1BMHFYeU9WMDlfNW1acG1XTV9pendWNWlfelE4Sk5ZZ3hscWE2ekI3ZGo1Mk82TG8zTmRFTmt5UDJ1X2NVZENtLTZNenJmQ0RNU1M0MmUzZXdfbGlLRVJWWElhT2o0WHliSlVSMGdpZnlPa2piSF9INkJUQjFScVRwNFlUTUZpNDAtcnpzdEJEYXh6cDNBbWhPWmVEQWJRRjgzVVRtTDkxT0ZVVXdfQzdLRzM2ZW9wYzZFa0ZwdDJWVQ?oc=5",
-     "name": "Gartner"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   }
-  },
-  {
    "id": "a0d4affce51a",
    "date": "2026-03-22",
    "category": "Expert Views",
@@ -5138,34 +4852,6 @@
     {
      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYm1adURuWU94TGF1QlJpS0U2TjZQUktlbnJBMmZ6ZlBFVlR4eGdnQS16eGVlY1dYOVY3QlowMGZQRDlMQkJqRkF6TTBubG81Z003Z3NFeHZ1NVE2d0NORXFNdG1zMm40bS1aYkNkT3VseFZtcUNiWTdzVGVDdjhnN19UY0NvYVlFUmpRUHkzd1p5TkNTcUFkNUQ2bVdLOEVNOEtSU3RkMDd2SXJDeHI3VmJoR0V4QQ?oc=5",
      "name": "Curinos"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   }
-  },
-  {
-   "id": "9f471b3b0471",
-   "date": "2026-03-23",
-   "category": "Events & Initiatives",
-   "publisher": "Islamic Development Bank Institute and Arab Monetary Fund",
-   "countries": [
-    "Global"
-   ],
-   "title": "Islamic Development Bank Institute and Arab Monetary Fund deliver training on using artificial intelligence in Islamic financial industry",
-   "summary": "The Islamic Development Bank Institute and Arab Monetary Fund jointly conducted training to help Islamic finance professionals leverage AI capabilities. The initiative builds technical capacity for AI adoption in Sharia-compliant financial services.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQNER5SWdtaWk5Y1NIWjRhRGZxZTJGLW1fclcyNW94azRpYkZTQVBDc05xNk1iT0p5UWpNeFJNVTktWlY5bTZlV0Izcm41bGF1ZXhzeHg2cnNQUTJfVm1yZXhfekZqNDNSTUJIN2p5c3ktSWxpYzRlbFhQWEZkTXY3M0F1SVYzZnpBdWNDOU5XaDZjMDZCM2xESDRFVGZNdGp2enRLRWtNV0FPd3M4QWJCUUh0SzU0RkFvb2kyR0ZpOEl2U2lucHJQQ0V5V0hLWGVMNTZUWlA1S1ZLVmVhQWFuTGlDVEdRa2RVZWd1X3JHVWhOX3NjWTRCTjZaR1EyZTh4VjhxVTdVV3ZMQ3lTSHJjNldrRFI?oc=5",
-   "source_name": "Africa24 TV",
-   "source_title": "The Islamic Development Bank Institute (IsDBI) and Arab Monetary Fund (AMF) Deliver Training on Using Artificial Intelligence to Foster the Islamic Financial Industry",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQNER5SWdtaWk5Y1NIWjRhRGZxZTJGLW1fclcyNW94azRpYkZTQVBDc05xNk1iT0p5UWpNeFJNVTktWlY5bTZlV0Izcm41bGF1ZXhzeHg2cnNQUTJfVm1yZXhfekZqNDNSTUJIN2p5c3ktSWxpYzRlbFhQWEZkTXY3M0F1SVYzZnpBdWNDOU5XaDZjMDZCM2xESDRFVGZNdGp2enRLRWtNV0FPd3M4QWJCUUh0SzU0RkFvb2kyR0ZpOEl2U2lucHJQQ0V5V0hLWGVMNTZUWlA1S1ZLVmVhQWFuTGlDVEdRa2RVZWd1X3JHVWhOX3NjWTRCTjZaR1EyZTh4VjhxVTdVV3ZMQ3lTSHJjNldrRFI?oc=5",
-     "name": "Africa24 TV"
     }
    ],
    "language": "en",
@@ -7151,34 +6837,6 @@
    }
   },
   {
-   "id": "5d8ba72f7e30",
-   "date": "2026-08-31",
-   "category": "Regulation & Guidance",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "Bank of England warns of artificial intelligence risks to the global financial system",
-   "summary": "Bank of England warned of systemic risks from advanced AI models to global financial stability. The alert reflects central bank concerns about AI's impact on financial system resilience.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBcFlmemVhWlNIZGQtUEJrZHFuWVRsblRVN1hvM3dRQmMwSjRPWEJ5c3FFNUdnbE5KVjZsQzUtMkpQdGN6WXFfS2hSR0RXZFBmcUV3WjlndEdSVlpycXdFYUtvTmVlUE9tU2s4QU1UVVBwZkRtaFBvVEYyU3ZMQdIBgwFBVV95cUxOSnpsMFFySm5qZGkwMVozTEdhZ21NU1NDTmtoaWl3NUwxakRyaWxVUmRmSkdQZ3Zwb0diQTR4N0JuSzhud1NQZEIzMGNvOEVrTGJCZU5MSE9GemFsUWZZdXVwSnNpRGZad2FfSndyOVVGRm01TThEaHFhOG9MRnl0ZEoxWQ?oc=5",
-   "source_name": "aljazeera.net",
-   "source_title": "بنك إنجلترا يحذر من مخاطر الذكاء الاصطناعي على النظام المالي العالمي",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBcFlmemVhWlNIZGQtUEJrZHFuWVRsblRVN1hvM3dRQmMwSjRPWEJ5c3FFNUdnbE5KVjZsQzUtMkpQdGN6WXFfS2hSR0RXZFBmcUV3WjlndEdSVlpycXdFYUtvTmVlUE9tU2s4QU1UVVBwZkRtaFBvVEYyU3ZMQdIBgwFBVV95cUxOSnpsMFFySm5qZGkwMVozTEdhZ21NU1NDTmtoaWl3NUwxakRyaWxVUmRmSkdQZ3Zwb0diQTR4N0JuSzhud1NQZEIzMGNvOEVrTGJCZU5MSE9GemFsUWZZdXVwSnNpRGZad2FfSndyOVVGRm01TThEaHFhOG9MRnl0ZEoxWQ?oc=5",
-     "name": "aljazeera.net"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   }
-  },
-  {
    "id": "d9dc02e3e2c5",
    "date": "2026-09-06",
    "category": "Regulation & Guidance",
@@ -7788,6 +7446,158 @@
     "evidence": "headline",
     "checked": "2026-10-06"
    }
+  },
+  {
+   "id": "d7d3470bb3cc",
+   "date": "2026-09-30",
+   "category": "Market Data",
+   "publisher": "Visa",
+   "countries": [
+    "Global"
+   ],
+   "title": "Over 90% of European banks are already using AI",
+   "summary": "Visa reports that the vast majority of European banks have adopted AI in their operations. This data point reflects significant AI penetration across the European banking sector.",
+   "key_stats": [
+    {
+     "value": "90%",
+     "label": "European banks using AI",
+     "quote": "Over 90% of European banks are already using AI"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdU5QUVppR2pwYjdiWGY1SGs2enVuZ0FMNGdqbzBrLWxESFl5eXk2QnVkRjRGX25sWjFDek9KX3k0UTZ1QTF3a3NWejVSeDItRng4NTYtWVRLM3VTOGlfN0NuaVpGeVRjUVlqY1k5MVBFd1hjRVhiRGxpMHJWdTRGVnNHSjJpSTV5Rm5NS2NaRl9UcnlyS2F0TkdCYVBybFZY?oc=5",
+   "source_name": "Business Review",
+   "source_title": "Visa: Over 90% of European banks are already using AI",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdU5QUVppR2pwYjdiWGY1SGs2enVuZ0FMNGdqbzBrLWxESFl5eXk2QnVkRjRGX25sWjFDek9KX3k0UTZ1QTF3a3NWejVSeDItRng4NTYtWVRLM3VTOGlfN0NuaVpGeVRjUVlqY1k5MVBFd1hjRVhiRGxpMHJWdTRGVnNHSjJpSTV5Rm5NS2NaRl9UcnlyS2F0TkdCYVBybFZY?oc=5",
+     "name": "Business Review"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:26:51+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   }
+  },
+  {
+   "id": "8ef5a7c20138",
+   "date": "2026-10-01",
+   "category": "Expert Views",
+   "publisher": "Bank of England",
+   "countries": [
+    "Global"
+   ],
+   "title": "AI boom could trigger market shocks, Bank of England boss warns",
+   "summary": "The Bank of England's leadership warns of potential systemic risks from rapid AI adoption in financial markets. The assessment highlights regulatory concerns about AI-driven market volatility.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45bVJ0cDhPOWNsbndsN0FHTURoM3VnWGhUY2ZtaEoxbGd2cFh4NlpRelFTVi1CUkRTWjZGeVRBM1YwSDZkdFowQ1dBa3p5UWFZaklSMzZqRkplR1E?oc=5",
+   "source_name": "BBC",
+   "source_title": "AI boom could trigger market shocks, Bank of England boss warns",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45bVJ0cDhPOWNsbndsN0FHTURoM3VnWGhUY2ZtaEoxbGd2cFh4NlpRelFTVi1CUkRTWjZGeVRBM1YwSDZkdFowQ1dBa3p5UWFZaklSMzZqRkplR1E?oc=5",
+     "name": "BBC"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:26:51+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   }
+  },
+  {
+   "id": "6b489a8064a4",
+   "date": "2026-10-01",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Infosys deepens ABN AMRO partnership to embed AI across banking operations",
+   "summary": "Dutch bank ABN AMRO partnered with Infosys to integrate AI throughout its operations. The deployment spans multiple banking functions to improve efficiency and decision-making.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcC05aGpneEliZTJNUzhaR2FiZDlHUVV2ckVHOVZMTF9vUEtWdWxWRDZKSEJmNlhubDBtTHI4dFh1SlhreU9LTFhpbFFwV3d0SkZRTDIxdS13UDhrWk5RV0wwbHROZzRDd3JJbnhEZ0NGZ1BGZWQ0WS01eVRPZHY0NnhQeDJQbkZNVFczTVJuVVJmYzk4X1lKOFBHOWZfY0c1aU05eWs3NENjelpYeWc?oc=5",
+   "source_name": "konsulteer.com",
+   "source_title": "Infosys Deepens ABN AMRO Partnership to Embed AI Across Banking Operations",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcC05aGpneEliZTJNUzhaR2FiZDlHUVV2ckVHOVZMTF9vUEtWdWxWRDZKSEJmNlhubDBtTHI4dFh1SlhreU9LTFhpbFFwV3d0SkZRTDIxdS13UDhrWk5RV0wwbHROZzRDd3JJbnhEZ0NGZ1BGZWQ0WS01eVRPZHY0NnhQeDJQbkZNVFczTVJuVVJmYzk4X1lKOFBHOWZfY0c1aU05eWs3NENjelpYeWc?oc=5",
+     "name": "konsulteer.com"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:26:51+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   }
+  },
+  {
+   "id": "3d7e1fdadc71",
+   "date": "2026-10-02",
+   "category": "Market Data",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Bank AI job postings jump 49% as agents go to work",
+   "summary": "Job postings for AI roles in banking increased significantly, reflecting growing demand for AI expertise. The surge indicates banks are rapidly scaling their AI capabilities and teams.",
+   "key_stats": [
+    {
+     "value": "49%",
+     "label": "Jump in bank AI job postings",
+     "quote": "Bank AI Job Postings Jump 49%"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdVBzNXFxMVZ0aXUxR2IwQTlLWFZ5bExLdkQyVk45NGk3SmRwbGlOaDB2RGdtRC1paUY0dGlmWnJDblY1OHM1U2pTaktSVGFpTHM0VUFHRmJXWXI0UkYtaTdGUzJsRGtOTTd5aGp3c0J6ZkRvN0Nha3RGSFR2V09wYW42YXc4WkRRb1NjQ3hXcDJIR3BnXzljemd2NzRqRWIzZ1Z2Y1UwWmVyVDNW?oc=5",
+   "source_name": "PYMNTS.com",
+   "source_title": "Bank AI Job Postings Jump 49% as Agents Go to Work",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdVBzNXFxMVZ0aXUxR2IwQTlLWFZ5bExLdkQyVk45NGk3SmRwbGlOaDB2RGdtRC1paUY0dGlmWnJDblY1OHM1U2pTaktSVGFpTHM0VUFHRmJXWXI0UkYtaTdGUzJsRGtOTTd5aGp3c0J6ZkRvN0Nha3RGSFR2V09wYW42YXc4WkRRb1NjQ3hXcDJIR3BnXzljemd2NzRqRWIzZ1Z2Y1UwWmVyVDNW?oc=5",
+     "name": "PYMNTS.com"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:26:51+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   }
+  },
+  {
+   "id": "bdd45f10fe5a",
+   "date": "2026-10-03",
+   "category": "Market Data",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Agent orchestration emerges as critical AI skill that Wall Street banks increasingly seek amid hiring surge",
+   "summary": "Wall Street banks are actively recruiting for agent orchestration expertise as demand for advanced AI capabilities accelerates. The hiring trend reflects the industry's shift toward more sophisticated AI systems.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPckZSR2w0YzhfT3Q1cklsc1E4ZEM0VzVZa2VyQmZqeFJ4dU91OWR0RklmaF9RMGNOdVBVRVM4VDZ3TXlvS1lMQnRQdWJMX3BncnZIR3FWbVFMdV9JN0ZvZTNzWGtJMjhUUWNMNjFDUVFoU0xzRzFZWndpbVQ1SHVkY2VJUVMwWjI2V0R4dUR4d0UyV3Y5VXZZSFZnTkVhNjVoVzFsekJoYm9YSmhGMGZad1lGdk1SMzBnb1l1ajNyU1UtdXJqcm9sRXRHWTR6VlQwRmktN1FKeDV4eHBrem9obllRb2VBaWZ5NzYxWldzREp0SHJIX2JoR21KWF9saGZQbU92QmNsS0tSLXBXcFplZNIBlgJBVV95cUxNajZMS1U1RElqZGVsMTlMbGh1dGs1bENjSEFOWnBiMWgwbFRxMjNRQlg4S01CM0thN1BMcFZKWVNGTTJfM0taQ2pMUjZPM1FHOGZSdGhhaFhzWnVEOXVQd090Rk9OTDV6Y1NxenRveGlaekhIUGFicE41eXdPMUYzb2t0S3RUYzFuQ24zQ3lLNG10RkVDZnY0VTlnaWF6QVVjNFpXYkY5QVNBb3R6cjVTUVFjcUktcXlrS1h6SzBZeWxVbUVjSVE1RmxCMERlWERVaGptdHFEbVVXVG5LamtQUjF6Umd0V3dMVDRXaU1pZXVKLThsQnNLeGRjNlpCUG14QXZiUm4wQWk1THFrTXF5c256WGxRZw?oc=5",
+   "source_name": "Livemint",
+   "source_title": "What is agent orchestration? The AI skill that Wall Street banks are increasingly seeking amid a surge in hiring",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPckZSR2w0YzhfT3Q1cklsc1E4ZEM0VzVZa2VyQmZqeFJ4dU91OWR0RklmaF9RMGNOdVBVRVM4VDZ3TXlvS1lMQnRQdWJMX3BncnZIR3FWbVFMdV9JN0ZvZTNzWGtJMjhUUWNMNjFDUVFoU0xzRzFZWndpbVQ1SHVkY2VJUVMwWjI2V0R4dUR4d0UyV3Y5VXZZSFZnTkVhNjVoVzFsekJoYm9YSmhGMGZad1lGdk1SMzBnb1l1ajNyU1UtdXJqcm9sRXRHWTR6VlQwRmktN1FKeDV4eHBrem9obllRb2VBaWZ5NzYxWldzREp0SHJIX2JoR21KWF9saGZQbU92QmNsS0tSLXBXcFplZNIBlgJBVV95cUxNajZMS1U1RElqZGVsMTlMbGh1dGs1bENjSEFOWnBiMWgwbFRxMjNRQlg4S01CM0thN1BMcFZKWVNGTTJfM0taQ2pMUjZPM1FHOGZSdGhhaFhzWnVEOXVQd090Rk9OTDV6Y1NxenRveGlaekhIUGFicE41eXdPMUYzb2t0S3RUYzFuQ24zQ3lLNG10RkVDZnY0VTlnaWF6QVVjNFpXYkY5QVNBb3R6cjVTUVFjcUktcXlrS1h6SzBZeWxVbUVjSVE1RmxCMERlWERVaGptdHFEbVVXVG5LamtQUjF6Umd0V3dMVDRXaU1pZXVKLThsQnNLeGRjNlpCUG14QXZiUm4wQWk1THFrTXF5c256WGxRZw?oc=5",
+     "name": "Livemint"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:26:51+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   }
   }
  ],
  "sector_retry": [],
@@ -8043,7 +7853,1321 @@
   "1b3075946697|b465dff75109": false,
   "491549744914|fbf07164ea42": false,
   "399c0966d2da|fbf07164ea42": false,
-  "399c0966d2da|491549744914": false
+  "399c0966d2da|491549744914": false,
+  "v2|0996dcc5757a|50f6651308a8": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|0996dcc5757a|4772b16fceb5": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|4772b16fceb5|50f6651308a8": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|0996dcc5757a|7fc798042559": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|50f6651308a8|7fc798042559": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|4772b16fceb5|7fc798042559": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|019ff0fb6da4|0996dcc5757a": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|019ff0fb6da4|50f6651308a8": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|019ff0fb6da4|4772b16fceb5": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|019ff0fb6da4|7fc798042559": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|940c38ff3bc1|c0a3e1c2472f": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|940c38ff3bc1|f9f4cf5a33d8": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|c0a3e1c2472f|f9f4cf5a33d8": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|940c38ff3bc1|fa5ad7d9675d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|c0a3e1c2472f|fa5ad7d9675d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|f9f4cf5a33d8|fa5ad7d9675d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|3af1ff3e7c12|940c38ff3bc1": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3af1ff3e7c12|c0a3e1c2472f": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3af1ff3e7c12|f9f4cf5a33d8": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3af1ff3e7c12|fa5ad7d9675d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|940c38ff3bc1|9f4a73e4a3b7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|9f4a73e4a3b7|c0a3e1c2472f": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|9f4a73e4a3b7|f9f4cf5a33d8": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|9f4a73e4a3b7|fa5ad7d9675d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|3af1ff3e7c12|9f4a73e4a3b7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|541a852810c9|77be85e1ee58": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|2b06bc3a8ae0|3ba0b1a8e120": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|34d1b8587145|3ba0b1a8e120": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|2b06bc3a8ae0|34d1b8587145": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3ba0b1a8e120|96e594a09261": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|2b06bc3a8ae0|96e594a09261": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|34d1b8587145|96e594a09261": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|2b6de742e893|e21800a35053": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|2b6de742e893|55375ea1dd0e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|55375ea1dd0e|e21800a35053": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|0ad423c18e89|2b6de742e893": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|0ad423c18e89|e21800a35053": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|0ad423c18e89|55375ea1dd0e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1e75e2ea5828|2b6de742e893": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1e75e2ea5828|e21800a35053": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1e75e2ea5828|55375ea1dd0e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|0ad423c18e89|1e75e2ea5828": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|73659d3825d7|a27ac7a5091e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|290cdffcf9df|73659d3825d7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|290cdffcf9df|a27ac7a5091e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|470367db329a|a43891e4b30e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|a43891e4b30e|fd5daca1f256": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|470367db329a|fd5daca1f256": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|865d8d169ee3|a43891e4b30e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|470367db329a|865d8d169ee3": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|865d8d169ee3|fd5daca1f256": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|10bccbad7dbc|a43891e4b30e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|10bccbad7dbc|470367db329a": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|10bccbad7dbc|fd5daca1f256": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|10bccbad7dbc|865d8d169ee3": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|888cfef47638|a43891e4b30e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|470367db329a|888cfef47638": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|888cfef47638|fd5daca1f256": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|865d8d169ee3|888cfef47638": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|10bccbad7dbc|888cfef47638": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|a43891e4b30e|ea425835fc79": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|470367db329a|ea425835fc79": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|ea425835fc79|fd5daca1f256": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|865d8d169ee3|ea425835fc79": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|10bccbad7dbc|ea425835fc79": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|888cfef47638|ea425835fc79": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|dbd3ed8a1399|e60b4f3f8acf": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|9ec832be4367|dbd3ed8a1399": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|9ec832be4367|e60b4f3f8acf": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|998746456dac|a7cbb129deb1": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|a7cbb129deb1|c8516cf58ac2": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|998746456dac|c8516cf58ac2": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|a7cbb129deb1|e7b4502fb402": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|998746456dac|e7b4502fb402": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|c8516cf58ac2|e7b4502fb402": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|b6d6f35051b5|c34d5404a27d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|46dafd037388|b6d6f35051b5": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|46dafd037388|c34d5404a27d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|a0c9bf3cd9b7|b6d6f35051b5": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|a0c9bf3cd9b7|c34d5404a27d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|46dafd037388|a0c9bf3cd9b7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|735e0e819414|b6d6f35051b5": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|735e0e819414|c34d5404a27d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|46dafd037388|735e0e819414": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|735e0e819414|a0c9bf3cd9b7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|50ffd0efb88b|b6d6f35051b5": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|50ffd0efb88b|c34d5404a27d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|46dafd037388|50ffd0efb88b": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|50ffd0efb88b|a0c9bf3cd9b7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|50ffd0efb88b|735e0e819414": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|1ad059c4ec88|8ed48a8bd35a": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|1ad059c4ec88|22e250d7ef40": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|22e250d7ef40|8ed48a8bd35a": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1ad059c4ec88|336c85126c0c": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|336c85126c0c|8ed48a8bd35a": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|22e250d7ef40|336c85126c0c": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|38134f7b05a1|e63ed14c0266": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|38134f7b05a1|e63fd0ae7758": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|e63ed14c0266|e63fd0ae7758": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|38134f7b05a1|ddfbded0bc45": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|ddfbded0bc45|e63ed14c0266": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|ddfbded0bc45|e63fd0ae7758": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|38134f7b05a1|7648d5489259": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|7648d5489259|e63ed14c0266": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|7648d5489259|e63fd0ae7758": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|7648d5489259|ddfbded0bc45": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1588d13e9675|38134f7b05a1": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1588d13e9675|e63ed14c0266": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1588d13e9675|e63fd0ae7758": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1588d13e9675|ddfbded0bc45": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1588d13e9675|7648d5489259": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|6807cf791bc7|b78e91a0ad7d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3229927a5ac9|6807cf791bc7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3229927a5ac9|b78e91a0ad7d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|6807cf791bc7|7b088c3461a7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|7b088c3461a7|b78e91a0ad7d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3229927a5ac9|7b088c3461a7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|6807cf791bc7|8a45c64f0055": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|8a45c64f0055|b78e91a0ad7d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3229927a5ac9|8a45c64f0055": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|7b088c3461a7|8a45c64f0055": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|6807cf791bc7|d0478b1f6eca": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|b78e91a0ad7d|d0478b1f6eca": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3229927a5ac9|d0478b1f6eca": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|7b088c3461a7|d0478b1f6eca": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|8a45c64f0055|d0478b1f6eca": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|6807cf791bc7|975f00dbab6c": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|975f00dbab6c|b78e91a0ad7d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3229927a5ac9|975f00dbab6c": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|7b088c3461a7|975f00dbab6c": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|8a45c64f0055|975f00dbab6c": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|975f00dbab6c|d0478b1f6eca": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|5e259da47d4b|6807cf791bc7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|5e259da47d4b|b78e91a0ad7d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3229927a5ac9|5e259da47d4b": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|5e259da47d4b|7b088c3461a7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|5e259da47d4b|8a45c64f0055": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|5e259da47d4b|d0478b1f6eca": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|5e259da47d4b|975f00dbab6c": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|6807cf791bc7|ebb7fea057d2": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|b78e91a0ad7d|ebb7fea057d2": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3229927a5ac9|ebb7fea057d2": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|7b088c3461a7|ebb7fea057d2": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|8a45c64f0055|ebb7fea057d2": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|d0478b1f6eca|ebb7fea057d2": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|975f00dbab6c|ebb7fea057d2": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|5e259da47d4b|ebb7fea057d2": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|99023bfa2d80|e6e24eecbe85": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|5d394f2d7d6d|e6e24eecbe85": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|5d394f2d7d6d|99023bfa2d80": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|24af60586b2f|99889c17c349": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|99889c17c349|d660dcf86a28": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|24af60586b2f|d660dcf86a28": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|38867c1c5d45|99889c17c349": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|24af60586b2f|38867c1c5d45": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|38867c1c5d45|d660dcf86a28": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|99889c17c349|b465dff75109": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|24af60586b2f|b465dff75109": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|b465dff75109|d660dcf86a28": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|38867c1c5d45|b465dff75109": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1b3075946697|99889c17c349": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1b3075946697|24af60586b2f": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1b3075946697|d660dcf86a28": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1b3075946697|38867c1c5d45": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1b3075946697|b465dff75109": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3283c734ae25|9c4dc08cc86e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3283c734ae25|7d2a2faef196": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|7d2a2faef196|9c4dc08cc86e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3283c734ae25|40b7d6d83cf1": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|40b7d6d83cf1|9c4dc08cc86e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|40b7d6d83cf1|7d2a2faef196": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3283c734ae25|9b17f092dca1": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|9b17f092dca1|9c4dc08cc86e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|7d2a2faef196|9b17f092dca1": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|40b7d6d83cf1|9b17f092dca1": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|491549744914|fbf07164ea42": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|399c0966d2da|fbf07164ea42": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|399c0966d2da|491549744914": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1e5d586b28e9|f770742e5038": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|f4eaadb55a19|f770742e5038": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1e5d586b28e9|f4eaadb55a19": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3a6c878cc631|f770742e5038": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1e5d586b28e9|3a6c878cc631": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3a6c878cc631|f4eaadb55a19": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|30c24f9e18cc|f770742e5038": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1e5d586b28e9|30c24f9e18cc": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|30c24f9e18cc|f4eaadb55a19": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|30c24f9e18cc|3a6c878cc631": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|cceb1598fefe|f770742e5038": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1e5d586b28e9|cceb1598fefe": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|cceb1598fefe|f4eaadb55a19": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3a6c878cc631|cceb1598fefe": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|30c24f9e18cc|cceb1598fefe": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|b36d53b8e5ff|f770742e5038": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1e5d586b28e9|b36d53b8e5ff": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|b36d53b8e5ff|f4eaadb55a19": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3a6c878cc631|b36d53b8e5ff": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|30c24f9e18cc|b36d53b8e5ff": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|b36d53b8e5ff|cceb1598fefe": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3da8d6487c1c|f770742e5038": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1e5d586b28e9|3da8d6487c1c": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3da8d6487c1c|f4eaadb55a19": {
+   "merge": true,
+   "anchor": "fraud detection",
+   "confidence": "high",
+   "same": true
+  },
+  "v2|3a6c878cc631|3da8d6487c1c": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|30c24f9e18cc|3da8d6487c1c": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3da8d6487c1c|cceb1598fefe": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3da8d6487c1c|b36d53b8e5ff": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|51929f1b0b58|70ebf901aa70": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|51929f1b0b58|f976154b856a": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|70ebf901aa70|f976154b856a": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|51929f1b0b58|7b747acfd76c": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|70ebf901aa70|7b747acfd76c": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|7b747acfd76c|f976154b856a": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|0edb49204011|d015319b4712": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|000a8d5e6ac7|7bc6581fdb2c": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|73c2772db9b3|7bc6581fdb2c": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|0161dd3893d0|ac37443610ca": {
+   "merge": false,
+   "anchor": "Evident AI Index",
+   "confidence": "high",
+   "same": true
+  },
+  "v2|0161dd3893d0|0295107b1774": {
+   "merge": false,
+   "anchor": "Evident",
+   "confidence": "high",
+   "same": true
+  },
+  "v2|0295107b1774|ac37443610ca": {
+   "merge": false,
+   "anchor": "Evident AI Index",
+   "confidence": "medium",
+   "same": true
+  },
+  "v2|338419965276|b95ea0a53ccf": {
+   "merge": true,
+   "anchor": "NCR Atleos",
+   "confidence": "high",
+   "same": true
+  }
  },
  "annual_reports": {
   "fab": {
@@ -8687,6 +9811,354 @@
   "2cb90a93bd54|b4855b3c173f": false,
   "4504ac0d20b9|bdbaddd49785": false,
   "2cb90a93bd54|c813e4e53244": false,
-  "b4855b3c173f|c813e4e53244": false
+  "b4855b3c173f|c813e4e53244": false,
+  "v2|3d883c803485|4523eb94cc50": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|53968e8a2ab8|d2c792f5906f": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1e112aaab291|cef5ebb4245e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1e112aaab291|958a7422d509": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|958a7422d509|cef5ebb4245e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|94fdbfe643af|cef5ebb4245e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|94fdbfe643af|958a7422d509": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|7da19d6eef13|a82985dd9ef2": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|7da19d6eef13|a730e72db274": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|7727a3cf0acd|a730e72db274": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3c50e0ce36ef|a730e72db274": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|615ffb8e1d88|9a6e18dbe274": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|9a6e18dbe274|bdc94e93909b": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|615ffb8e1d88|bdc94e93909b": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|05793123e517|bdc94e93909b": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|05793123e517|fff716a08e78": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|20be96801753|6bd8604328c6": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|08585abe8194|5612c7fa8154": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|08585abe8194|6bd8604328c6": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1c0a0fd5e89f|a6912ec6940b": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1da48cf5961f|3d883c803485": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|b9e59cbf0423|da8a74e4a631": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|13c736d502e1|85cb05d88d55": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|454760b14088|b9e59cbf0423": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|958a7422d509|e244416111dd": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|94fdbfe643af|e244416111dd": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|6c072e7915fd|94fdbfe643af": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|2afe6d6c8796|6c072e7915fd": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|00bdfc1deaf2|85edb4c70099": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|85edb4c70099|8ebc80a6d80c": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|164d4661ebdf|2b5f79a2338f": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1dc4015bb3c7|7727a3cf0acd": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3e9a9369f147|4c3de078e45e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|d1d2ac08788a|fff716a08e78": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|78a8b1473406|dea3ce1f64ec": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|d1d2ac08788a|dea3ce1f64ec": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|78a8b1473406|d6f144023371": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|d6f144023371|dea3ce1f64ec": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|08585abe8194|e18f90c936b4": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|040cbba92e41|b3825bd288a2": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|040cbba92e41|c78aef28ce8b": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|485d448bb1d0|6cbfb193b709": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|0eb6047ab7a3|de1bd2d64f1f": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|5f2dd03d75dd|f95db569dc21": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|5f2dd03d75dd|695b453e11d8": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|695b453e11d8|f95db569dc21": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|2cb90a93bd54|b4855b3c173f": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|7247d50cf65a|d2c792f5906f": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3d883c803485|7247d50cf65a": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|7247d50cf65a|f7cf193f2c1a": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|2f2ad0f1cd8b|b737f5bab60d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|521e0a8a465b|94fdbfe643af": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|81a1e7ee11a2|a82985dd9ef2": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|4504ac0d20b9|bdbaddd49785": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|5d8ba72f7e30|de1bd2d64f1f": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|17d88b201db3|5d8ba72f7e30": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|2cb90a93bd54|c813e4e53244": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|b4855b3c173f|c813e4e53244": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  }
  }
 }
