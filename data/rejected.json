@@ -718,5 +718,50 @@
   "source_url": "https://www.bbkonline.com/wp-content/uploads/2026/04/BBK-2025-Annual-Report-English-Spread.pdf",
   "source": "BBK Annual Report 2025",
   "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-06",
+  "bank_id": "dib",
+  "date": "2026-03-13",
+  "title": "DIB partnership with Finshape for AI-enabled digital banking platform",
+  "source_url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf",
+  "source": "DIB Annual Report 2025",
+  "reason": "fact-check: Title claims 'AI-enabled' platform but evidence states Finshape partnership is for 'Digital Bank Operating System' with no mention of AI enablement in that partnership description."
+ },
+ {
+  "checked": "2026-10-06",
+  "bank_id": "adib",
+  "date": "2025-02-28",
+  "title": "ADIB Transition to Fully AI-Powered Bank via 2035 Vision",
+  "source_url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf",
+  "source": "ADIB Annual Report 2024",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-06",
+  "bank_id": "adib",
+  "date": "2025-02-28",
+  "title": "ADIB AI/ML for Personalized Customer Offers and Cross-Selling",
+  "source_url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf",
+  "source": "ADIB Annual Report 2024",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-06",
+  "bank_id": "adib",
+  "date": "2025-02-28",
+  "title": "ADIB Advanced Analytics for Customer Journey Intelligence",
+  "source_url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf",
+  "source": "ADIB Annual Report 2024",
+  "reason": "fact-check: Evidence describes advanced analytics, ML and AI for customer insights, not specifically 'Customer Journey Intelligence'; summary adds unsupported claim about 'generative AI' not mentioned in evidence."
+ },
+ {
+  "checked": "2026-10-06",
+  "bank_id": "kfh",
+  "date": "2026-04-21",
+  "title": "KFH Robotics Process Automation for Operations Efficiency",
+  "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+  "source": "KFH Annual Report 2025",
+  "reason": "fact-check: Evidence mentions RPA implementation generally but does not mention 'Ministry of Justice' or 'due collection process for customer legal notices' as stated in summary."
  }
 ]

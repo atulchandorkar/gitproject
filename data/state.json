@@ -1,5 +1,5 @@
 {
- "last_update": "2026-10-06T02:25:39+00:00",
+ "last_update": "2026-10-06T02:43:44+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -905,7 +905,8 @@
   "3270452931b158": "2026-10-05",
   "bd07dbd083043b": "2026-10-05",
   "2c25b98434dfa8": "2026-10-05",
-  "5d2b0cc305d080": "2026-10-06"
+  "5d2b0cc305d080": "2026-10-06",
+  "94880ee22b3c53": "2026-10-05"
  },
  "history_loaded": {
   "adcb": "2026-10-05",
@@ -1078,40 +1079,6 @@
    ],
    "language": "en",
    "added_at": "2026-10-05T17:56:29+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "b718f68dc149",
-   "bank_id": "adcb",
-   "country": "AE",
-   "date": "2025-10-20",
-   "title": "Abu Dhabi Commercial Bank Appoints Shameek Kundu as Chief AI Officer",
-   "summary": "Abu Dhabi Commercial Bank appointed Shameek Kundu as Chief AI Officer.",
-   "category": "AI Strategy & Leadership",
-   "topics": [
-    "AI Strategy & Leadership"
-   ],
-   "tags": [
-    "Chief AI Officer",
-    "Leadership"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMGpNVkZabC1xOEI5Yk1CUW1yUGNsLUdleDlCZjlKYUZBUHRVajhPbHRqY25zN1I5ZDVqZEFpY2JqZDM3TUJ3eWtZcXpGdC1FSmhsSFdnWFFEMmI0bU5WQWxXQ3hMWkp4cXN6WDkwTXpqMWt2VG05OWdFcG8xbnV6SkJzenBOdzhPODg2WGRXMEx5NVFIbGVvbElwMTg0S0J2blN6RUprMWd5X2lXczRqMkU1Yk0?oc=5",
-   "source_name": "CDO Magazine",
-   "source_title": "Abu Dhabi Commercial Bank Appoints Shameek Kundu as Chief AI Officer",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMGpNVkZabC1xOEI5Yk1CUW1yUGNsLUdleDlCZjlKYUZBUHRVajhPbHRqY25zN1I5ZDVqZEFpY2JqZDM3TUJ3eWtZcXpGdC1FSmhsSFdnWFFEMmI0bU5WQWxXQ3hMWkp4cXN6WDkwTXpqMWt2VG05OWdFcG8xbnV6SkJzenBOdzhPODg2WGRXMEx5NVFIbGVvbElwMTg0S0J2blN6RUprMWd5X2lXczRqMkU1Yk0?oc=5",
-     "name": "CDO Magazine"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T17:56:58+00:00",
    "verification": {
     "level": "pending",
     "evidence": "headline",
@@ -2641,7 +2608,7 @@
   "riyad": {
    "checked": "2026-10-06",
    "url": "https://www.riyadbank.com/personal-banking/media-center?p_p_id=com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath=%2Fdisplay_article.jsp&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId=6385919&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_shareURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fdisplay_article.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId%3D6385919%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL%3Dhttps%253A%252F%252Fwww.riyadbank.com%252Fpersonal-banking%252Fmedia-center%253Fp_p_id%253Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%2526p_p_lifecycle%253D0%2526p_p_state%253Dnormal%2526p_p_mode%253Dview%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%253D%25252Fview.jsp%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%253D2%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%253D10&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fview.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%3D2%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%3D10",
-   "status": "ok",
+   "status": "unreachable (IncompleteRead)",
    "links": 11,
    "scanned": "2026-10-06",
    "known": [
@@ -3106,7 +3073,8 @@
   }
  },
  "migrations": [
-  "arabic-names-v1"
+  "arabic-names-v1",
+  "ar-unmerge-v1"
  ],
  "sector_seen": {
   "881f682db56fb6": "2025-10-06",
@@ -3674,7 +3642,10 @@
   "4a34b55de7b717": "2026-10-05",
   "a59f08126e0057": "2026-10-05",
   "2c4b8beed7addb": "2026-10-05",
-  "71eea74402f325": "2026-10-05"
+  "71eea74402f325": "2026-10-05",
+  "56882a068bf541": "2026-10-01",
+  "f9a3efb6d769b8": "2026-10-01",
+  "26f492ac442da0": "2026-10-05"
  },
  "sector_known": {},
  "sector_pending": [
@@ -4016,34 +3987,6 @@
     {
      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOU21lQjIwRjNlVE1CQjRJZTRLZDZQRXMwcy0weklJUkNaZFJRdWRlRlhhbDJmNWFDcXJqSVRkSFBfMWhIbGRLRnBYZEJQaTFITWtZNEpsenRRZ1dQNkhaYm41elp3U3NXRzNzZDRjNVNkQUFvbnl2dUtLVTBnNWp0clhKWnM5U1kzdVNtNExja2NIdWNuN25JMHdiVGlPS1lrQmw0bmtwVVdWTUxTTFJJSHM4M0NjT1B4MEctTEhNUlBNSnNYN1dmSE5RSmp5cEc3YTJmUXZ5MTFRVm9URzNOdEtLYw?oc=5",
      "name": "Fortune"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   }
-  },
-  {
-   "id": "23536b92a18a",
-   "date": "2025-11-06",
-   "category": "Expert Views",
-   "publisher": "Asian Banking and Finance",
-   "countries": [
-    "Global"
-   ],
-   "title": "Banks' AI adoption to shape competitive advantage in cost and revenue",
-   "summary": "AI adoption by banks is becoming a critical differentiator for cost efficiency and revenue generation across the industry. Banks that effectively implement AI capabilities are gaining strategic advantages over competitors.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRVZ6bDRYbVkzelZJN1pXVHE5Y2VMZHBFbk1rdEpON2hlMFotd2tBWG9oQW0zSXk5VDFiLXRLTE5tbHFSQjlGRzA0a3psRlctQjR5UDU0SXhGdlprZkZUT3FqZERiMTNCVlJaSC0zdXFVSTdjQjVrY1RvUkhzWnNBdEVxc2JNRlJReHZTUGUydktrLXRWNFlUcjZjWm9HQXNxYkZ6XzByR0tuemc2UnY1ZDdjcw?oc=5",
-   "source_name": "asianbankingandfinance.net",
-   "source_title": "Banks’ AI adoption to shape cost and revenue advantage",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRVZ6bDRYbVkzelZJN1pXVHE5Y2VMZHBFbk1rdEpON2hlMFotd2tBWG9oQW0zSXk5VDFiLXRLTE5tbHFSQjlGRzA0a3psRlctQjR5UDU0SXhGdlprZkZUT3FqZERiMTNCVlJaSC0zdXFVSTdjQjVrY1RvUkhzWnNBdEVxc2JNRlJReHZTUGUydktrLXRWNFlUcjZjWm9HQXNxYkZ6XzByR0tuemc2UnY1ZDdjcw?oc=5",
-     "name": "asianbankingandfinance.net"
     }
    ],
    "language": "en",
@@ -7448,40 +7391,6 @@
    }
   },
   {
-   "id": "d7d3470bb3cc",
-   "date": "2026-09-30",
-   "category": "Market Data",
-   "publisher": "Visa",
-   "countries": [
-    "Global"
-   ],
-   "title": "Over 90% of European banks are already using AI",
-   "summary": "Visa reports that the vast majority of European banks have adopted AI in their operations. This data point reflects significant AI penetration across the European banking sector.",
-   "key_stats": [
-    {
-     "value": "90%",
-     "label": "European banks using AI",
-     "quote": "Over 90% of European banks are already using AI"
-    }
-   ],
-   "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdU5QUVppR2pwYjdiWGY1SGs2enVuZ0FMNGdqbzBrLWxESFl5eXk2QnVkRjRGX25sWjFDek9KX3k0UTZ1QTF3a3NWejVSeDItRng4NTYtWVRLM3VTOGlfN0NuaVpGeVRjUVlqY1k5MVBFd1hjRVhiRGxpMHJWdTRGVnNHSjJpSTV5Rm5NS2NaRl9UcnlyS2F0TkdCYVBybFZY?oc=5",
-   "source_name": "Business Review",
-   "source_title": "Visa: Over 90% of European banks are already using AI",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdU5QUVppR2pwYjdiWGY1SGs2enVuZ0FMNGdqbzBrLWxESFl5eXk2QnVkRjRGX25sWjFDek9KX3k0UTZ1QTF3a3NWejVSeDItRng4NTYtWVRLM3VTOGlfN0NuaVpGeVRjUVlqY1k5MVBFd1hjRVhiRGxpMHJWdTRGVnNHSjJpSTV5Rm5NS2NaRl9UcnlyS2F0TkdCYVBybFZY?oc=5",
-     "name": "Business Review"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:26:51+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   }
-  },
-  {
    "id": "8ef5a7c20138",
    "date": "2026-10-01",
    "category": "Expert Views",
@@ -9188,17 +9097,17 @@
   },
   "dib": {
    "done": {
-    "2025": {
-     "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf",
-     "pages": 205,
-     "items": 10,
-     "date": "2026-03-13"
-    },
     "2024": {
      "url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15",
      "pages": 186,
      "items": 6,
      "date": "2025-03-03"
+    },
+    "2025": {
+     "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf",
+     "pages": 205,
+     "items": 9,
+     "date": "2026-03-13"
     }
    },
    "pages": [
@@ -9206,7 +9115,7 @@
     "https://dib.ae/about-us/investor-relations",
     "https://www.dib.ae/about-us/investor-relations/home"
    ],
-   "checked": "2026-10-05"
+   "checked": "2026-10-06"
   },
   "adib": {
    "done": {
@@ -9226,7 +9135,7 @@
    "pages": [
     "https://www.adib.ae/en/investor-relations/reports-and-presentations/annual-reports"
    ],
-   "checked": "2026-10-05"
+   "checked": "2026-10-06"
   },
   "mashreq": {
    "done": {},
@@ -9543,17 +9452,17 @@
   },
   "kfh": {
    "done": {
-    "2025": {
-     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
-     "pages": 120,
-     "items": 9,
-     "date": "2026-04-21"
-    },
     "2024": {
      "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2024/document_en/KFH%20Annual%20Report%20En%202024%20(Draft-16).pdf.pdf",
      "pages": 115,
      "items": 4,
      "date": "2025-03-14"
+    },
+    "2025": {
+     "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+     "pages": 120,
+     "items": 8,
+     "date": "2026-04-21"
     }
    },
    "pages": [
@@ -9561,7 +9470,7 @@
     "https://www.kfh.com/en/home/Investor-Relations/Annual-Reports/Annual-Reports.html",
     "https://www.kfh.com/home/Investor-Relations/Annual-Reports.html"
    ],
-   "checked": "2026-10-05"
+   "checked": "2026-10-06"
   },
   "boubyan": {
    "done": {},
@@ -10155,6 +10064,24 @@
    "same": false
   },
   "v2|b4855b3c173f|c813e4e53244": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|5f2dd03d75dd|d7d3470bb3cc": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|695b453e11d8|d7d3470bb3cc": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|d7d3470bb3cc|f95db569dc21": {
    "merge": false,
    "anchor": "",
    "confidence": "high",

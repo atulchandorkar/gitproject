@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-06T02:27:10+00:00",
+ "updated_at": "2026-10-06T02:48:43+00:00",
  "items": [
   {
    "id": "2cb90a93bd54",
@@ -145,6 +145,45 @@
    "added_at": "2026-10-06T02:26:51+00:00",
    "verification": {
     "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "d7d3470bb3cc",
+   "date": "2026-09-30",
+   "category": "Market Data",
+   "publisher": "Visa",
+   "countries": [
+    "Global"
+   ],
+   "title": "Over 90% of European banks are already using AI",
+   "summary": "Visa reports that the vast majority of European banks have adopted AI in their operations. This data point reflects significant AI penetration across the European banking sector.",
+   "key_stats": [
+    {
+     "value": "90%",
+     "label": "European banks using AI",
+     "quote": "Over 90% of European banks are already using AI"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdU5QUVppR2pwYjdiWGY1SGs2enVuZ0FMNGdqbzBrLWxESFl5eXk2QnVkRjRGX25sWjFDek9KX3k0UTZ1QTF3a3NWejVSeDItRng4NTYtWVRLM3VTOGlfN0NuaVpGeVRjUVlqY1k5MVBFd1hjRVhiRGxpMHJWdTRGVnNHSjJpSTV5Rm5NS2NaRl9UcnlyS2F0TkdCYVBybFZY?oc=5",
+   "source_name": "Business Review",
+   "source_title": "Visa: Over 90% of European banks are already using AI",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdU5QUVppR2pwYjdiWGY1SGs2enVuZ0FMNGdqbzBrLWxESFl5eXk2QnVkRjRGX25sWjFDek9KX3k0UTZ1QTF3a3NWejVSeDItRng4NTYtWVRLM3VTOGlfN0NuaVpGeVRjUVlqY1k5MVBFd1hjRVhiRGxpMHJWdTRGVnNHSjJpSTV5Rm5NS2NaRl9UcnlyS2F0TkdCYVBybFZY?oc=5",
+     "name": "Business Review"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdU5QUVppR2pwYjdiWGY1SGs2enVuZ0FMNGdqbzBrLWxESFl5eXk2QnVkRjRGX25sWjFDek9KX3k0UTZ1QTF3a3NWejVSeDItRng4NTYtWVRLM3VTOGlfN0NuaVpGeVRjUVlqY1k5MVBFd1hjRVhiRGxpMHJWdTRGVnNHSjJpSTV5Rm5NS2NaRl9UcnlyS2F0TkdCYVBybFZY?oc=5",
+     "name": "business-review.eu"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:26:51+00:00",
+   "verification": {
+    "level": "corroborated",
     "evidence": "headline",
     "checked": "2026-10-06"
    },
@@ -2909,6 +2948,39 @@
    "added_at": "2026-10-06T02:16:25+00:00",
    "verification": {
     "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "23536b92a18a",
+   "date": "2025-11-06",
+   "category": "Expert Views",
+   "publisher": "Asian Banking and Finance",
+   "countries": [
+    "Global"
+   ],
+   "title": "Banks' AI adoption to shape competitive advantage in cost and revenue",
+   "summary": "AI adoption by banks is becoming a critical differentiator for cost efficiency and revenue generation across the industry. Banks that effectively implement AI capabilities are gaining strategic advantages over competitors.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRVZ6bDRYbVkzelZJN1pXVHE5Y2VMZHBFbk1rdEpON2hlMFotd2tBWG9oQW0zSXk5VDFiLXRLTE5tbHFSQjlGRzA0a3psRlctQjR5UDU0SXhGdlprZkZUT3FqZERiMTNCVlJaSC0zdXFVSTdjQjVrY1RvUkhzWnNBdEVxc2JNRlJReHZTUGUydktrLXRWNFlUcjZjWm9HQXNxYkZ6XzByR0tuemc2UnY1ZDdjcw?oc=5",
+   "source_name": "asianbankingandfinance.net",
+   "source_title": "Banks’ AI adoption to shape cost and revenue advantage",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRVZ6bDRYbVkzelZJN1pXVHE5Y2VMZHBFbk1rdEpON2hlMFotd2tBWG9oQW0zSXk5VDFiLXRLTE5tbHFSQjlGRzA0a3psRlctQjR5UDU0SXhGdlprZkZUT3FqZERiMTNCVlJaSC0zdXFVSTdjQjVrY1RvUkhzWnNBdEVxc2JNRlJReHZTUGUydktrLXRWNFlUcjZjWm9HQXNxYkZ6XzByR0tuemc2UnY1ZDdjcw?oc=5",
+     "name": "asianbankingandfinance.net"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRVZ6bDRYbVkzelZJN1pXVHE5Y2VMZHBFbk1rdEpON2hlMFotd2tBWG9oQW0zSXk5VDFiLXRLTE5tbHFSQjlGRzA0a3psRlctQjR5UDU0SXhGdlprZkZUT3FqZERiMTNCVlJaSC0zdXFVSTdjQjVrY1RvUkhzWnNBdEVxc2JNRlJReHZTUGUydktrLXRWNFlUcjZjWm9HQXNxYkZ6XzByR0tuemc2UnY1ZDdjcw?oc=5",
+     "name": "Asian Banking & Finance"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "corroborated",
     "evidence": "headline",
     "checked": "2026-10-06"
    },
