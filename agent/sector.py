@@ -1,13 +1,14 @@
-"""GCC Banking Sector Insights: AI across GCC banking as a whole, not one bank's own announcement.
+"""Banking Sector Insights: AI across the banking sector worldwide (with GCC items flagged), not one GCC
+bank's own announcement (those are in the main news feed).
 
-Covers studies & surveys (McKinsey, BCG, PwC, …), maturity indices & rankings, regulation & guidance,
-market data, expert views and sector-wide events/initiatives from the last 12 months.
+Covers studies & surveys (McKinsey, BCG, Accenture, PwC, …), case studies & use cases, maturity indices &
+rankings, regulation & guidance, market data, expert views and sector events/initiatives, last 12 months.
 
 Same low-cost pipeline as the bank news: free Google News RSS (EN + AR) and the publishers' own
 press/insight pages → cheap keyword pre-filter → Claude screening → strict verification:
   1. real source (feed / publisher page, never the AI)
-  2. about GCC + banking + AI (deterministic word check on the evidence, then the AI fact-check)
-  3. sector-wide, not a single bank's own news (those stay in the main feed)
+  2. about AI in banking / financial services (deterministic word check, then the AI fact-check)
+  3. not a GCC bank's own news (those stay in the main feed, so nothing is shown twice)
   4. every number and key figure must appear verbatim in the source text
   5. trusted / official publisher or a second outlet; otherwise held back for 21 days
 """
@@ -34,9 +35,10 @@ MONTHS_BACK = 12
 FEED_PAUSE = 0.8
 PENDING_DAYS = 21
 
-CountryCode = Literal["GCC", "QA", "AE", "SA", "KW", "OM", "BH"]
-SectorCategory = Literal["Studies & Surveys", "Maturity & Rankings", "Regulation & Guidance", "Market Data",
-                         "Expert Views", "Events & Initiatives"]
+CountryCode = Literal["Global", "GCC", "QA", "AE", "SA", "KW", "OM", "BH"]
+SectorCategory = Literal["Studies & Surveys", "Case Studies & Use Cases", "Maturity & Rankings", "Regulation & Guidance",
+                         "Market Data", "Expert Views", "Events & Initiatives"]
+MAX_VERIFY_PER_RUN = 250   # fact-checks per run; the rest wait for the next run (keeps runs short and cheap)
 
 AI_EN = '"artificial intelligence" OR AI OR "generative AI" OR GenAI OR "machine learning" OR "agentic AI"'
 AI_AR = '"الذكاء الاصطناعي" OR "ذكاء اصطناعي" OR "التعلم الآلي"'
@@ -45,6 +47,9 @@ GEO_AR = "الخليج OR الخليجية OR السعودية OR الإمارا
 SECTOR_EN = ('"GCC banks" OR "Gulf banks" OR "GCC banking" OR "Gulf banking" OR "Middle East banks" OR "Saudi banks" '
              'OR "UAE banks" OR "Qatari banks" OR "Kuwaiti banks" OR "Omani banks" OR "Bahraini banks" '
              'OR "banking sector" OR "banks in the GCC" OR "regional banks"')
+GLOBAL_REG_EN = ('"Bank for International Settlements" OR BIS OR "Financial Stability Board" OR FSB OR "European '
+                 'Banking Authority" OR EBA OR ECB OR "Federal Reserve" OR OCC OR FCA OR "Bank of England" OR MAS '
+                 'OR "Monetary Authority of Singapore" OR HKMA OR IMF OR "Basel Committee"')
 REGULATORS_EN = ('"central bank" OR SAMA OR CBUAE OR QCB OR "Central Bank of Kuwait" OR "Central Bank of Oman" '
                  'OR "Central Bank of Bahrain" OR DFSA OR FSRA OR QFCRA OR "Saudi Central Bank"')
 
@@ -72,19 +77,29 @@ def queries(when: str) -> list[tuple[str, str]]:
     firms = [p["short"] if " " not in p["short"] else f'"{p["short"]}"' for p in PUBLISHERS
              if p["kind"] in ("consultancy", "research", "ratings", "institution")]
     groups = [firms[i:i + 8] for i in range(0, len(firms), 8)]
-    qs = [(f"({' OR '.join(g)}) (bank OR banks OR banking OR \"financial services\") ({AI_EN}) ({GEO_EN}){when}", "en")
+    banking = '(bank OR banks OR banking OR "financial services")'
+    # Global: the firms' banking-AI studies, case studies/use cases, research, regulation, market data
+    qs = [(f"({' OR '.join(g)}) {banking} ({AI_EN}) (report OR survey OR study OR research OR index OR insights){when}", "en")
           for g in groups]
     qs += [
+        (f'("case study" OR "use case" OR "use cases" OR deploys OR "rolled out") (bank OR banks) '
+         f'("generative AI" OR "agentic AI" OR "AI assistant" OR "machine learning" OR "AI agents"){when}', "en"),
+        (f"(report OR survey OR study OR research OR index OR ranking OR benchmark OR maturity) (banks OR banking) "
+         f"(\"generative AI\" OR \"artificial intelligence\" OR \"agentic AI\"){when}", "en"),
+        (f"({GLOBAL_REG_EN}) (\"artificial intelligence\" OR AI OR \"generative AI\") (banks OR banking OR \"financial "
+         f"services\" OR supervision){when}", "en"),
+        (f"(market OR spending OR investment OR forecast OR adoption OR ROI OR productivity) (banks OR banking) "
+         f"(\"generative AI\" OR \"agentic AI\" OR \"artificial intelligence\"){when}", "en"),
+    ]
+    # GCC: kept so Gulf studies, regulation and initiatives are never missed
+    qs += [(f"({' OR '.join(g)}) {banking} ({AI_EN}) ({GEO_EN}){when}", "en") for g in groups]
+    qs += [
         (f"({SECTOR_EN}) ({AI_EN}){when}", "en"),
-        (f"(report OR survey OR study OR index OR ranking OR benchmark OR maturity OR readiness) (banks OR banking) "
-         f"({AI_EN}) ({GEO_EN}){when}", "en"),
         (f"({REGULATORS_EN}) ({AI_EN}) (guidelines OR framework OR principles OR regulation OR rules OR sandbox "
          f"OR consultation OR policy){when}", "en"),
-        (f"(market OR spending OR investment OR forecast OR adoption) (banks OR banking OR \"financial services\") "
-         f"(\"generative AI\" OR \"artificial intelligence\") ({GEO_EN}){when}", "en"),
         (f"(summit OR forum OR conference OR initiative OR programme OR consortium) (banks OR banking) ({AI_EN}) "
          f"({GEO_EN}){when}", "en"),
-        (f"(البنوك OR المصارف OR \"القطاع المصرفي\") ({AI_AR}) ({GEO_AR}){when}", "ar"),
+        (f"(البنوك OR المصارف OR \"القطاع المصرفي\") ({AI_AR}){when}", "ar"),
         (f"(تقرير OR دراسة OR استطلاع OR مؤشر OR تصنيف) (البنوك OR المصارف OR \"القطاع المصرفي\") ({AI_AR}){when}", "ar"),
         (f"(\"البنك المركزي\" OR \"المصرف المركزي\" OR ساما) ({AI_AR}) (إرشادات OR إطار OR مبادئ OR تنظيم OR ضوابط){when}", "ar"),
     ]
@@ -98,7 +113,7 @@ class SKept(BaseModel):
     i: int
     category: SectorCategory
     publisher: str        # organisation behind the study/rule/data (as named in the headline), "" if not named
-    countries: list[CountryCode]
+    countries: list[CountryCode]   # ["Global"] unless it is about the GCC or specific GCC countries
     title: str            # clear English headline, only facts in the original headline
     summary: str          # two short sentences, only facts in the headline
 
@@ -115,8 +130,8 @@ class Stat(BaseModel):
 
 class SCheck(BaseModel):
     i: int
-    about_gcc_banking_ai: bool
-    single_bank_announcement: bool
+    about_banking_ai: bool
+    gcc_bank_own_news: bool
     category_correct: bool
     publisher_supported: bool
     title_supported: bool
@@ -130,41 +145,43 @@ class SChecks(BaseModel):
     items: list[SCheck]
 
 
-SCREEN_PROMPT = """You screen headlines for the "GCC Banking Sector Insights" section of a bank AI tracker.
+SCREEN_PROMPT = """You screen headlines for the "Banking Sector Insights" section of a bank AI tracker used by \
+the Head of AI of a GCC bank.
 
-KEEP a headline only if it is about ARTIFICIAL INTELLIGENCE in BANKING / BANKS in the GCC (Qatar, UAE, Saudi \
-Arabia, Kuwait, Oman, Bahrain) as a sector or market, e.g.:
+KEEP a headline only if it is substantive information about ARTIFICIAL INTELLIGENCE in BANKING / financial services \
+anywhere in the world, e.g.:
 {categories}
 
-Middle East / MENA studies count if they cover GCC banks. REJECT:
-- one named bank's own announcement, product, partnership, award or result (that belongs to the bank news feed);
+Prefer depth: research reports, surveys, indices, regulatory guidance, market figures, expert analysis, and case \
+studies / use cases that say what a bank built or deployed and (ideally) the result. REJECT:
+- a GCC bank's own announcement, product, partnership, award or result (Qatar, UAE, Saudi Arabia, Kuwait, Oman, \
+Bahrain banks – those are in the bank news feed); a non-GCC bank's concrete AI deployment IS a case study;
 - AI news not about banking/financial services, or banking news without AI;
-- global studies with no GCC/Gulf/Middle East angle; fintech start-up funding; adverts; job posts.
+- stock tips, share-price moves, adverts, webinars/sign-up pages, job posts, generic listicles, crypto promotions.
 
-For each kept headline return: i; category; publisher = the organisation that produced the study, ranking, rule \
-or data if the headline names it (e.g. "PwC", "Saudi Central Bank"), else ""; countries = GCC country codes it \
-covers, or ["GCC"] when it is Gulf/Middle East-wide; title = a clear English headline; summary = two short English \
-sentences. Use ONLY facts in the headline: never add numbers, names or dates. Translate Arabic to English.
+For each kept headline return: i; category; publisher = the organisation that produced the study, ranking, rule, \
+data or (for case studies) the bank, if the headline names it, else ""; countries = ["Global"] unless it is about \
+the GCC: then GCC country codes, or ["GCC"] when Gulf/Middle East-wide; title = a clear English headline; summary = \
+two short English sentences. Use ONLY facts in the headline: never add numbers, names or dates. Translate Arabic.
 
 Known publishers: {publishers}"""
 
-CHECK_PROMPT = """You are a strict, sceptical fact-checker for the "GCC Banking Sector Insights" section of a \
+CHECK_PROMPT = """You are a strict, sceptical fact-checker for the "Banking Sector Insights" section of a \
 banking AI tracker. For each item you get EVIDENCE (the article text, or only the original headline) and CLAIMS.
 
 Decide, judging ONLY against the evidence (never your own knowledge):
-- about_gcc_banking_ai: the evidence is substantially about AI in banking/financial services in the GCC or \
-Gulf/Middle East (not just a passing mention).
-- single_bank_announcement: true if it is really one named bank's own announcement/product/award rather than a \
-sector-wide study, ranking, rule, market figure, expert view or initiative.
+- about_banking_ai: the evidence is substantially about AI in banking/financial services (not a passing mention).
+- gcc_bank_own_news: true if it is really one GCC bank's own announcement/product/award (Qatar, UAE, Saudi, \
+Kuwait, Oman, Bahrain); false for studies, rules, market data, views, sector initiatives, and non-GCC banks' use cases.
 - category_correct: the claimed category fits.
-- publisher_supported: the claimed publisher is named in the evidence as the source of the study/rule/data \
-(empty publisher counts as supported).
+- publisher_supported: the claimed publisher is named in the evidence as the source of the study/rule/data or as \
+the bank in a case study (empty publisher counts as supported).
 - title_supported / summary_supported: true only if every statement is in the evidence.
-- summary_from_evidence: two short English sentences (25-45 words) using only the evidence: what was found or \
-announced, and why it matters for GCC banks. Never add facts or numbers.
-- key_stats: up to 3 headline figures about AI in GCC banking found in the evidence (e.g. adoption %, spend, \
-value). value = the figure; label = what it measures (short English phrase); quote = the exact words from the \
-evidence that contain the figure, copied character for character (Arabic stays Arabic). Return [] if none.
+- summary_from_evidence: two short English sentences (25-45 words) using only the evidence: what was found, \
+built or announced, and why it matters for banks. Never add facts or numbers.
+- key_stats: up to 3 headline figures about AI in banking found in the evidence (adoption %, spend, value, \
+productivity, results). value = the figure; label = what it measures (short English phrase); quote = the exact \
+words from the evidence that contain the figure, copied character for character (Arabic stays Arabic). [] if none.
 - reason: one short sentence explaining any problem (empty if none)."""
 
 
@@ -316,7 +333,8 @@ class Sector:
         return {
             "id": hashlib.sha1(f"sector|{c['url']}".encode()).hexdigest()[:12],
             "date": c["date"], "category": k.category, "publisher": k.publisher.strip(),
-            "countries": list(dict.fromkeys(k.countries)) or ["GCC"],
+            "countries": (["Global"] if "Global" in k.countries or not k.countries
+                          else [c for c in dict.fromkeys(k.countries)]),
             "title": k.title.strip(), "summary": k.summary.strip(), "key_stats": [],
             "source_url": c["url"], "source_name": c["source"], "source_title": c["title"],
             "sources": [{"url": c["url"], "name": c["source"]}] + list(c.get("other_sources", [])),
@@ -391,7 +409,7 @@ class Sector:
 
     def evidence(self, it: dict) -> tuple[str, str] | None:
         text = verify.page_text(it["source_url"])
-        if text and STRICT_AI_RE.search(text) and GEO_RE.search(text):
+        if text and STRICT_AI_RE.search(text):
             m = STRICT_AI_RE.search(text)
             pos = max(0, m.start() - 2500)
             return text[pos:pos + verify.ARTICLE_CHARS], "article"
@@ -418,10 +436,8 @@ class Sector:
                 it["rejected_reason"] = "source is not about AI in banking"
                 rejected.append(it)
                 continue
-            if not GEO_RE.search(ev):
-                it["rejected_reason"] = "source has no GCC / Gulf angle"
-                rejected.append(it)
-                continue
+            if "Global" not in it["countries"] and not GEO_RE.search(ev):
+                it["countries"] = ["Global"]   # claimed GCC angle not in the source
             if not verify.numbers_supported(it["summary"], ev):
                 it["summary"] = ""
             if not verify.numbers_supported(it["title"], ev):
@@ -448,10 +464,10 @@ class Sector:
                     it["rejected_reason"] = "fact-check returned no verdict (retry)"
                     rejected.append(it)
                     continue
-                if not c.about_gcc_banking_ai or c.single_bank_announcement:
-                    it["rejected_reason"] = "fact-check: " + (c.reason or ("one bank's own news (kept in the bank feed)"
-                                                                           if c.single_bank_announcement else
-                                                                           "not about AI in GCC banking"))
+                if not c.about_banking_ai or c.gcc_bank_own_news:
+                    it["rejected_reason"] = "fact-check: " + (c.reason or ("a GCC bank's own news (kept in the bank feed)"
+                                                                           if c.gcc_bank_own_news else
+                                                                           "not about AI in banking"))
                     rejected.append(it)
                     continue
                 if not c.publisher_supported:
@@ -537,6 +553,11 @@ class Sector:
         drafts = [d for d in (self.draft(c, k) for c, k in kept) if not self._merge(d)]
         drafts += [r for r in self.state["sector_retry"] if r.get("tries", 0) < 3]
         self.state["sector_retry"] = []
+        if len(drafts) > MAX_VERIFY_PER_RUN:      # newest first; the rest wait for the next run
+            drafts.sort(key=lambda d: d["date"], reverse=True)
+            self.state["sector_retry"] = drafts[MAX_VERIFY_PER_RUN:]
+            drafts = drafts[:MAX_VERIFY_PER_RUN]
+            print(f"  sector: {len(self.state['sector_retry'])} items wait for the next run")
         if not drafts:
             return promoted
         publish, pending, rejected = self.verify(drafts)
@@ -574,10 +595,24 @@ class Sector:
             print(f"Sector insights: re-checking {len(geo)} items with the extended GCC place list")
         done.append("geo-v2")
 
+    def open_to_global(self) -> None:
+        """One-time: the section now covers banking AI worldwide, so every headline is screened again under the new
+        rules (the 12-month reload), and items rejected only for being global or a single bank are cleared."""
+        done = self.state.setdefault("sector_migrations", [])
+        if "global-v1" in done:
+            return
+        self.state["sector_seen"] = {}
+        self.rejected = [r for r in self.rejected if "GCC" not in r["reason"] and "single bank" not in r["reason"]
+                         and "one bank" not in r["reason"]]
+        self.state["sector_history"] = None
+        print("Sector insights: opened to banking AI worldwide – re-screening the last 12 months")
+        done.append("global-v1")
+
     def run(self) -> list[dict]:
         """Daily: last 7 days + publisher pages. First run (or after a reset): load the last 12 months."""
         start = self.today - dt.timedelta(days=int(MONTHS_BACK * 30.5))
         self.recheck_geo_rejections()
+        self.open_to_global()
         if not self.state.get("sector_history"):
             windows, s = [], start
             while s < self.today:
@@ -601,7 +636,8 @@ class Sector:
 
 def format_telegram(it: dict, dashboard: str, countries: dict) -> str:
     esc = html.escape
-    flags = " ".join(countries[c]["flag"] for c in it["countries"] if c in countries) or "🌍 GCC"
+    flags = (" ".join(countries[c]["flag"] for c in it["countries"] if c in countries)
+             or ("🌐 Global" if "Global" in it["countries"] else "GCC"))
     lines = [f"📊 <b>Sector insight</b> · {esc(it['category'])} · {flags}", f"<b>{esc(it['title'])}</b>", esc(it["summary"])]
     for st in it.get("key_stats", []):
         lines.append(f"• <b>{esc(st['value'])}</b> {esc(st['label'])}")

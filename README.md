@@ -159,22 +159,23 @@ The bank's page lists all of its annual reports found so far.
 
 PDFs are linked, not copied. 74 banks × 2 years would be several GB, more than GitHub Pages allows.
 
-## GCC Banking Sector Insights (the Sector tab)
-This tab covers AI across GCC banking as a whole, rather than one bank's own news. It holds the last 12 months, in six categories:
-**Studies & Surveys**, **Maturity & Rankings**, **Regulation & Guidance**, **Market Data**, **Expert Views** and **Events & Initiatives**.
+## Banking Sector Insights (the Sector tab)
+This tab covers AI across the **banking sector worldwide**, with GCC items flagged. It holds the last 12 months, in seven categories:
+**Studies & Surveys**, **Case Studies & Use Cases**, **Maturity & Rankings**, **Regulation & Guidance**, **Market Data**, **Expert Views** and **Events & Initiatives**.
 
+- **Region filter:** All, 🌐 Global, GCC (all), GCC-wide, or a single GCC country.
 - **Where items come from:**
-  - Google News searches (English and Arabic) that combine consultancy, research and ratings firms, GCC bank groups and regulators with AI terms
-  - the press and insight pages of the firms listed in `config/sector_sources.json`, read on a best-effort basis (many firms block automated readers)
-- **When it runs:** the first daily run loads the last 12 months. After that, every run adds new items.
+  - Google News searches (English and Arabic) for global studies (McKinsey, BCG, Accenture, PwC, Deloitte, EY, KPMG, Gartner, IDC …), bank AI case studies and use cases, global regulators (BIS, FSB, EBA, ECB, Fed, FCA, MAS …) and market data
+  - GCC-specific searches, so Gulf items are never missed
+  - the publishers' own press pages, read on a best-effort basis
+- **What stays out:** a GCC bank's own news stays in the News tab, so nothing appears twice. AI deployments by non-GCC banks are kept as use cases.
 - **Checks on every item:**
-  - The source must mention AI, banking and a GCC country or the Gulf.
-  - The AI fact-check confirms the item is sector-wide. One bank's own news stays in the News tab.
+  - The source must be about AI in banking.
   - Every number must appear in the source.
-  - A **key figure** is shown only when its exact quote appears in the source text.
+  - A **key figure** is shown only when its exact quote is in the source text.
   - The source must be official, trusted or confirmed by a second outlet; otherwise the item is held back for 21 days.
   - Rejected items are logged in `data/sector_rejected.json`.
-- **Telegram:** new items are sent with a 📊 *Sector insight* tag.
+- **Limits:** up to 250 items are fact-checked per run; the rest wait for the next run.
 
 ## Project layout
 ```

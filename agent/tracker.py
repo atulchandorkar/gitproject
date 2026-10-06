@@ -398,7 +398,7 @@ class Tracker:
         """Merge copies of the same story (word match, then a cheap AI check on close pairs)."""
         before = len(self.news["items"])
         self.news["items"] = dedupe.dedupe(self.news["items"], lambda i: f'{i["bank_id"]}|{i.get("source_type", "news")}', lambda i: self.bank_names(i["bank_id"]),
-                                           self.checker.ask, self.state.setdefault("dup_verdicts", {}))
+                                           self.checker.ask, self.state.setdefault("dup_verdicts", {}), near_days=7)
         if len(self.news["items"]) < before:
             print(f"  merged {before - len(self.news['items'])} duplicate stories")
 
