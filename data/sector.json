@@ -1,6 +1,35 @@
 {
- "updated_at": "2026-10-06T02:48:43+00:00",
+ "updated_at": "2026-10-06T10:20:59+00:00",
  "items": [
+  {
+   "id": "496a380f662f",
+   "date": "2026-10-06",
+   "category": "Maturity & Rankings",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "JP Morgan Chase leads UK banks in artificial intelligence capabilities",
+   "summary": "JP Morgan Chase is identified as the most advanced in AI compared to a group of UK banks. The ranking assesses relative AI maturity and deployment across major banking institutions.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRkdUVFVtOVJ0YXMxYjBfU0ZHQVpEN2RHUkNpdkNfM2I3VXNybG9RbzJhN0szbkpJUFNDVkFXUk8tc3VtV1RDUXRzX2FZTk9jUGJMeHdjRXc5Qmd5NXZ3TUx4N0gtbk9zUXZ3NkRjVWJvRzhXSzRfMjc5Z2lsaUtYc2RjU19uWFNZSUx4LVl5clh5QTMzYy1tYW9nMzVmdHh2ajNWOVp1cGJrWmk2eUJtWDJmLXlIdw?oc=5",
+   "source_name": "Computer Weekly",
+   "source_title": "JP Morgan Chase most advanced in AI as UK banks group in chasing pack",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRkdUVFVtOVJ0YXMxYjBfU0ZHQVpEN2RHUkNpdkNfM2I3VXNybG9RbzJhN0szbkpJUFNDVkFXUk8tc3VtV1RDUXRzX2FZTk9jUGJMeHdjRXc5Qmd5NXZ3TUx4N0gtbk9zUXZ3NkRjVWJvRzhXSzRfMjc5Z2lsaUtYc2RjU19uWFNZSUx4LVl5clh5QTMzYy1tYW9nMzVmdHh2ajNWOVp1cGJrWmk2eUJtWDJmLXlIdw?oc=5",
+     "name": "Computer Weekly"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T10:20:46+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
+  },
   {
    "id": "2cb90a93bd54",
    "date": "2026-10-05",
@@ -93,6 +122,39 @@
    "pdf_checked": "2026-10-06"
   },
   {
+   "id": "0468ab2505f9",
+   "date": "2026-10-04",
+   "category": "Expert Views",
+   "publisher": "Bank for International Settlements",
+   "countries": [
+    "Global"
+   ],
+   "title": "Central bank warns of macroeconomic risks from interconnected AI company investments",
+   "summary": "The Bank for International Settlements highlights risks posed by concentrated investments in artificial intelligence companies that create systemic financial exposure. The analysis points to potential macroeconomic vulnerabilities from excessive AI sector interconnectedness.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNX3RHWGJXdmFFZzJoc0Mwbi1wSXh1a0t3dXVxV2lIczNCM1RoT1BVMUpUel9JMzB1enBmOEJ5Um5ncnpVUGtVZ182aUNkd2R0WjQ1dm5yZjYzMmxCV1RNMnFxdXJBWkhfNnRjZldRdzZBbm1oTXJCci01Q192VG1qd3FpNERMb0Z6ckZ5RGtUMV9xaElyVFFleUIydW9leTlOVk1UY2JYRjZvZHBCNkREa0tDdlZ0QVpuTmt0YWNvTUFTNEFiLUxiSnVEM1k2YXdKeFJxcm1hd1luUGxtZ3RaZkVla2dpenlZb2FhZ2JQaEZ1d0c2dTMwMTNRa1RWSWw1dnFDb1JyNDFRV3RVVHd1T1FxNW4zTTZyTWlmRXh3Q0Vnc3pIT2ZMaGpGSHN1bGxoVFQ1ZmJ3d2N5RmZ4REJtV3lVS203TURDSURYS2wwZFZLZlRETG5PVEIzUFJfbzd0bEU1MVhnNC02Y1NyN3djODZYMmJmdEZGM29ydW43WmVfNFJzRXlRbUoyU3JFZzRFRFdhYWNCb3JRcUc4SnlMMGhYZkdBdw?oc=5",
+   "source_name": "جريدة المال",
+   "source_title": "بنك التسويات الدولية: تشابك استثمارات شركات الذكاء الاصطناعي يرفع مخاطر الاقتصاد الكلي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNX3RHWGJXdmFFZzJoc0Mwbi1wSXh1a0t3dXVxV2lIczNCM1RoT1BVMUpUel9JMzB1enBmOEJ5Um5ncnpVUGtVZ182aUNkd2R0WjQ1dm5yZjYzMmxCV1RNMnFxdXJBWkhfNnRjZldRdzZBbm1oTXJCci01Q192VG1qd3FpNERMb0Z6ckZ5RGtUMV9xaElyVFFleUIydW9leTlOVk1UY2JYRjZvZHBCNkREa0tDdlZ0QVpuTmt0YWNvTUFTNEFiLUxiSnVEM1k2YXdKeFJxcm1hd1luUGxtZ3RaZkVla2dpenlZb2FhZ2JQaEZ1d0c2dTMwMTNRa1RWSWw1dnFDb1JyNDFRV3RVVHd1T1FxNW4zTTZyTWlmRXh3Q0Vnc3pIT2ZMaGpGSHN1bGxoVFQ1ZmJ3d2N5RmZ4REJtV3lVS203TURDSURYS2wwZFZLZlRETG5PVEIzUFJfbzd0bEU1MVhnNC02Y1NyN3djODZYMmJmdEZGM29ydW43WmVfNFJzRXlRbUoyU3JFZzRFRFdhYWNCb3JRcUc4SnlMMGhYZkdBdw?oc=5",
+     "name": "جريدة المال"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNX3RHWGJXdmFFZzJoc0Mwbi1wSXh1a0t3dXVxV2lIczNCM1RoT1BVMUpUel9JMzB1enBmOEJ5Um5ncnpVUGtVZ182aUNkd2R0WjQ1dm5yZjYzMmxCV1RNMnFxdXJBWkhfNnRjZldRdzZBbm1oTXJCci01Q192VG1qd3FpNERMb0Z6ckZ5RGtUMV9xaElyVFFleUIydW9leTlOVk1UY2JYRjZvZHBCNkREa0tDdlZ0QVpuTmt0YWNvTUFTNEFiLUxiSnVEM1k2YXdKeFJxcm1hd1luUGxtZ3RaZkVla2dpenlZb2FhZ2JQaEZ1d0c2dTMwMTNRa1RWSWw1dnFDb1JyNDFRV3RVVHd1T1FxNW4zTTZyTWlmRXh3Q0Vnc3pIT2ZMaGpGSHN1bGxoVFQ1ZmJ3d2N5RmZ4REJtV3lVS203TURDSURYS2wwZFZLZlRETG5PVEIzUFJfbzd0bEU1MVhnNC02Y1NyN3djODZYMmJmdEZGM29ydW43WmVfNFJzRXlRbUoyU3JFZzRFRFdhYWNCb3JRcUc4SnlMMGhYZkdBdw?oc=5",
+     "name": "almalnews.com"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
+  },
+  {
    "id": "41a74ca1ed22",
    "date": "2026-10-01",
    "category": "Case Studies & Use Cases",
@@ -116,6 +178,39 @@
    "added_at": "2026-10-06T02:26:51+00:00",
    "verification": {
     "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "8ef5a7c20138",
+   "date": "2026-10-01",
+   "category": "Expert Views",
+   "publisher": "Bank of England",
+   "countries": [
+    "Global"
+   ],
+   "title": "AI boom could trigger market shocks, Bank of England boss warns",
+   "summary": "The Bank of England's leadership warns of potential systemic risks from rapid AI adoption in financial markets. The assessment highlights regulatory concerns about AI-driven market volatility.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45bVJ0cDhPOWNsbndsN0FHTURoM3VnWGhUY2ZtaEoxbGd2cFh4NlpRelFTVi1CUkRTWjZGeVRBM1YwSDZkdFowQ1dBa3p5UWFZaklSMzZqRkplR1E?oc=5",
+   "source_name": "BBC",
+   "source_title": "AI boom could trigger market shocks, Bank of England boss warns",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45bVJ0cDhPOWNsbndsN0FHTURoM3VnWGhUY2ZtaEoxbGd2cFh4NlpRelFTVi1CUkRTWjZGeVRBM1YwSDZkdFowQ1dBa3p5UWFZaklSMzZqRkplR1E?oc=5",
+     "name": "BBC"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45bVJ0cDhPOWNsbndsN0FHTURoM3VnWGhUY2ZtaEoxbGd2cFh4NlpRelFTVi1CUkRTWjZGeVRBM1YwSDZkdFowQ1dBa3p5UWFZaklSMzZqRkplR1E?oc=5",
+     "name": "bbc.com"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:26:51+00:00",
+   "verification": {
+    "level": "corroborated",
     "evidence": "headline",
     "checked": "2026-10-06"
    },
@@ -871,6 +966,39 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "c76bb2a6eb7d",
+   "date": "2026-07-13",
+   "category": "Regulation & Guidance",
+   "publisher": "Dentons",
+   "countries": [
+    "QA"
+   ],
+   "title": "Qatar Central Bank FinTech Strategy and AI Infrastructure Investment Implications for Financial Institutions",
+   "summary": "Qatar's central bank outlines AI infrastructure investment strategy and fintech priorities for financial institutions. The initiative provides a framework for how banks should prepare for AI integration.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOXzNVdTVLTXRTeUtSNXNXZkRFSjBoekpNU2ZWRmJoamp2YVlKRXoteUVYM2ttckRKTnlHd3c0R2VzX2YwNFdYUEtCbXRsc2dTSUxrbnltbDU3NUJER2VTbWpsSjZhQ1FERmIzX0JUMThfeDZPVE1uVWlwaHJiNEJib1NDbXluQmNjb2ZiSXUwNk1NdUR5c3V4eFMtMll0QQ?oc=5",
+   "source_name": "Dentons",
+   "source_title": "Qatar Central Bank FinTech Strategy x Qai: what Qatar's AI infrastructure investment means for financial institutions",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOXzNVdTVLTXRTeUtSNXNXZkRFSjBoekpNU2ZWRmJoamp2YVlKRXoteUVYM2ttckRKTnlHd3c0R2VzX2YwNFdYUEtCbXRsc2dTSUxrbnltbDU3NUJER2VTbWpsSjZhQ1FERmIzX0JUMThfeDZPVE1uVWlwaHJiNEJib1NDbXluQmNjb2ZiSXUwNk1NdUR5c3V4eFMtMll0QQ?oc=5",
+     "name": "Dentons"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOXzNVdTVLTXRTeUtSNXNXZkRFSjBoekpNU2ZWRmJoamp2YVlKRXoteUVYM2ttckRKTnlHd3c0R2VzX2YwNFdYUEtCbXRsc2dTSUxrbnltbDU3NUJER2VTbWpsSjZhQ1FERmIzX0JUMThfeDZPVE1uVWlwaHJiNEJib1NDbXluQmNjb2ZiSXUwNk1NdUR5c3V4eFMtMll0QQ?oc=5",
+     "name": "dentons.com"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-05T20:31:11+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-05"
    },
    "pdf_checked": "2026-10-06"
   },

@@ -1,5 +1,5 @@
 {
- "last_update": "2026-10-06T02:43:44+00:00",
+ "last_update": "2026-10-06T10:19:31+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -906,7 +906,21 @@
   "bd07dbd083043b": "2026-10-05",
   "2c25b98434dfa8": "2026-10-05",
   "5d2b0cc305d080": "2026-10-06",
-  "94880ee22b3c53": "2026-10-05"
+  "94880ee22b3c53": "2026-10-05",
+  "04b69a6858826a": "2026-08-17",
+  "2711071a46fd71": "2026-09-30",
+  "21297ae8f7398c": "2026-10-01",
+  "78e80b4f0b45af": "2026-10-04",
+  "5e2d8de0abc9c8": "2026-10-05",
+  "e98fac368e2a82": "2026-10-06",
+  "bd1ddc30168485": "2026-10-06",
+  "642b3b39d7691d": "2026-10-06",
+  "f73215aa884578": "2026-10-06",
+  "16f0c282da9ccc": "2026-10-06",
+  "e84540e56f1d13": "2026-10-06",
+  "499f80b6d034d4": "2026-10-06",
+  "b07c482ab24570": "2026-10-06",
+  "86d79cc76ab4ea": "2026-10-06"
  },
  "history_loaded": {
   "adcb": "2026-10-05",
@@ -2285,6 +2299,7 @@
    "links": 19,
    "scanned": "2026-10-06",
    "known": [
+    "4fbec03647b0",
     "88e4cbd4e727",
     "eec7a1b7854d",
     "6763e3878012",
@@ -2302,8 +2317,7 @@
     "82f842568830",
     "3586893d3acf",
     "7adaecf6c4f9",
-    "513d44af9ed5",
-    "0a369e031a3e"
+    "513d44af9ed5"
    ]
   },
   "cbd": {
@@ -2451,9 +2465,9 @@
   "alinma": {
    "checked": "2026-10-05",
    "url": "https://www.alinma.com/About-the-Bank/The-Bank/News",
-   "status": "unreachable (URLError)",
+   "status": "ok",
    "links": 30,
-   "scanned": "2026-10-05",
+   "scanned": "2026-10-06",
    "known": [
     "fcd05613e808",
     "023777113541",
@@ -2714,6 +2728,7 @@
    "links": 12,
    "scanned": "2026-10-06",
    "known": [
+    "bee17f6c2e1f",
     "8bbeca5fc9d7",
     "2ced2c8e8447",
     "a053f20c7092",
@@ -2724,8 +2739,7 @@
     "ec80ad60b9c8",
     "48c447fe08e6",
     "2ad2f56f8f92",
-    "35d94e2578ff",
-    "30e8476f4d95"
+    "35d94e2578ff"
    ]
   },
   "kib": {
@@ -3645,7 +3659,21 @@
   "71eea74402f325": "2026-10-05",
   "56882a068bf541": "2026-10-01",
   "f9a3efb6d769b8": "2026-10-01",
-  "26f492ac442da0": "2026-10-05"
+  "26f492ac442da0": "2026-10-05",
+  "ed4e8963030471": "2026-08-10",
+  "8e81e08184ba11": "2026-10-06",
+  "18e34d26f9c438": "2026-10-06",
+  "5908903d51820d": "2026-10-06",
+  "1d8278eac08099": "2026-10-06",
+  "b08c748abf308f": "2026-10-06",
+  "a7e873bec411e2": "2026-10-06",
+  "c32a83eb1c7bd6": "2026-10-06",
+  "56659d8db49b2f": "2026-10-06",
+  "fd4ecb3fe5b745": "2026-10-06",
+  "642b3b39d7691d": "2026-10-06",
+  "ab16ddd5fe3e16": "2026-10-06",
+  "d7b9700c1a9c3c": "2026-10-06",
+  "aef2c02791071e": "2026-10-06"
  },
  "sector_known": {},
  "sector_pending": [
@@ -3757,34 +3785,6 @@
     {
      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZENxNExKM2JUMGdRRkZMcVc5N3RyV0RIbVFnMmFlSEtYZDNmX095MEJoLV9jTGdjckNGRDFrM1loWmU1cml0VFZIdjVUT2toWk8wbU5nYXROdElXcVV2T3FWZk9zbldnYzRRQlAzZ1JFTGRIR2E0aDdvVlBIb2Q0N0tBbnVrNUtXNncyT1dVMS05X2otdTRkcl9xSlVncW5rU2d1LXc1RVFWQVBWNHREZ3NUUnU4OFVGdlpQMFZ4b3VmWWUwN29KZHZ3ajFNX1JRNWJZLTk0QUFWVTdJSUp1dnVkbTVWQ01Q0gHuAUFVX3lxTFB1ZVRtUXRkTGNEQkpOa3JCa2RCRzA5MVJiYlhLOTBZREhlUjlTRjgxM3lxTVZTU2JoZWJUWVBZOVZIS2l6WEMtTWt2YmJFLVBGaEc4b1RsYmd6YmIwV1RLVFBOaUpNNDNpNmxDMm5BQVB6eFRSbFNCU28wT3M1TURXdzg2WVp4d2RnN2tWSFBlaWxMdjV0OFYxRmNMNTdjQjVaUmdvcXVieDNxalpFWW1VbDg1OUFRM01rbmhxWTdNOUpTTmhMYm1sTUR5bG9XSWpvOE1UcXN2NG5URHM4ektveXV6cG9MTENBaGd6OGc?oc=5",
      "name": "The Economic Times"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T20:31:11+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "c76bb2a6eb7d",
-   "date": "2026-07-13",
-   "category": "Regulation & Guidance",
-   "publisher": "Dentons",
-   "countries": [
-    "QA"
-   ],
-   "title": "Qatar Central Bank FinTech Strategy and AI Infrastructure Investment Implications for Financial Institutions",
-   "summary": "Qatar's central bank outlines AI infrastructure investment strategy and fintech priorities for financial institutions. The initiative provides a framework for how banks should prepare for AI integration.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOXzNVdTVLTXRTeUtSNXNXZkRFSjBoekpNU2ZWRmJoamp2YVlKRXoteUVYM2ttckRKTnlHd3c0R2VzX2YwNFdYUEtCbXRsc2dTSUxrbnltbDU3NUJER2VTbWpsSjZhQ1FERmIzX0JUMThfeDZPVE1uVWlwaHJiNEJib1NDbXluQmNjb2ZiSXUwNk1NdUR5c3V4eFMtMll0QQ?oc=5",
-   "source_name": "Dentons",
-   "source_title": "Qatar Central Bank FinTech Strategy x Qai: what Qatar's AI infrastructure investment means for financial institutions",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOXzNVdTVLTXRTeUtSNXNXZkRFSjBoekpNU2ZWRmJoamp2YVlKRXoteUVYM2ttckRKTnlHd3c0R2VzX2YwNFdYUEtCbXRsc2dTSUxrbnltbDU3NUJER2VTbWpsSjZhQ1FERmIzX0JUMThfeDZPVE1uVWlwaHJiNEJib1NDbXluQmNjb2ZiSXUwNk1NdUR5c3V4eFMtMll0QQ?oc=5",
-     "name": "Dentons"
     }
    ],
    "language": "en",
@@ -7363,62 +7363,6 @@
    }
   },
   {
-   "id": "0468ab2505f9",
-   "date": "2026-10-04",
-   "category": "Expert Views",
-   "publisher": "Bank for International Settlements",
-   "countries": [
-    "Global"
-   ],
-   "title": "Central bank warns of macroeconomic risks from interconnected AI company investments",
-   "summary": "The Bank for International Settlements highlights risks posed by concentrated investments in artificial intelligence companies that create systemic financial exposure. The analysis points to potential macroeconomic vulnerabilities from excessive AI sector interconnectedness.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNX3RHWGJXdmFFZzJoc0Mwbi1wSXh1a0t3dXVxV2lIczNCM1RoT1BVMUpUel9JMzB1enBmOEJ5Um5ncnpVUGtVZ182aUNkd2R0WjQ1dm5yZjYzMmxCV1RNMnFxdXJBWkhfNnRjZldRdzZBbm1oTXJCci01Q192VG1qd3FpNERMb0Z6ckZ5RGtUMV9xaElyVFFleUIydW9leTlOVk1UY2JYRjZvZHBCNkREa0tDdlZ0QVpuTmt0YWNvTUFTNEFiLUxiSnVEM1k2YXdKeFJxcm1hd1luUGxtZ3RaZkVla2dpenlZb2FhZ2JQaEZ1d0c2dTMwMTNRa1RWSWw1dnFDb1JyNDFRV3RVVHd1T1FxNW4zTTZyTWlmRXh3Q0Vnc3pIT2ZMaGpGSHN1bGxoVFQ1ZmJ3d2N5RmZ4REJtV3lVS203TURDSURYS2wwZFZLZlRETG5PVEIzUFJfbzd0bEU1MVhnNC02Y1NyN3djODZYMmJmdEZGM29ydW43WmVfNFJzRXlRbUoyU3JFZzRFRFdhYWNCb3JRcUc4SnlMMGhYZkdBdw?oc=5",
-   "source_name": "جريدة المال",
-   "source_title": "بنك التسويات الدولية: تشابك استثمارات شركات الذكاء الاصطناعي يرفع مخاطر الاقتصاد الكلي",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNX3RHWGJXdmFFZzJoc0Mwbi1wSXh1a0t3dXVxV2lIczNCM1RoT1BVMUpUel9JMzB1enBmOEJ5Um5ncnpVUGtVZ182aUNkd2R0WjQ1dm5yZjYzMmxCV1RNMnFxdXJBWkhfNnRjZldRdzZBbm1oTXJCci01Q192VG1qd3FpNERMb0Z6ckZ5RGtUMV9xaElyVFFleUIydW9leTlOVk1UY2JYRjZvZHBCNkREa0tDdlZ0QVpuTmt0YWNvTUFTNEFiLUxiSnVEM1k2YXdKeFJxcm1hd1luUGxtZ3RaZkVla2dpenlZb2FhZ2JQaEZ1d0c2dTMwMTNRa1RWSWw1dnFDb1JyNDFRV3RVVHd1T1FxNW4zTTZyTWlmRXh3Q0Vnc3pIT2ZMaGpGSHN1bGxoVFQ1ZmJ3d2N5RmZ4REJtV3lVS203TURDSURYS2wwZFZLZlRETG5PVEIzUFJfbzd0bEU1MVhnNC02Y1NyN3djODZYMmJmdEZGM29ydW43WmVfNFJzRXlRbUoyU3JFZzRFRFdhYWNCb3JRcUc4SnlMMGhYZkdBdw?oc=5",
-     "name": "جريدة المال"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   }
-  },
-  {
-   "id": "8ef5a7c20138",
-   "date": "2026-10-01",
-   "category": "Expert Views",
-   "publisher": "Bank of England",
-   "countries": [
-    "Global"
-   ],
-   "title": "AI boom could trigger market shocks, Bank of England boss warns",
-   "summary": "The Bank of England's leadership warns of potential systemic risks from rapid AI adoption in financial markets. The assessment highlights regulatory concerns about AI-driven market volatility.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45bVJ0cDhPOWNsbndsN0FHTURoM3VnWGhUY2ZtaEoxbGd2cFh4NlpRelFTVi1CUkRTWjZGeVRBM1YwSDZkdFowQ1dBa3p5UWFZaklSMzZqRkplR1E?oc=5",
-   "source_name": "BBC",
-   "source_title": "AI boom could trigger market shocks, Bank of England boss warns",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45bVJ0cDhPOWNsbndsN0FHTURoM3VnWGhUY2ZtaEoxbGd2cFh4NlpRelFTVi1CUkRTWjZGeVRBM1YwSDZkdFowQ1dBa3p5UWFZaklSMzZqRkplR1E?oc=5",
-     "name": "BBC"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:26:51+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   }
-  },
-  {
    "id": "6b489a8064a4",
    "date": "2026-10-01",
    "category": "Case Studies & Use Cases",
@@ -7502,6 +7446,192 @@
    ],
    "language": "en",
    "added_at": "2026-10-06T02:26:51+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   }
+  },
+  {
+   "id": "798d2ba07a17",
+   "date": "2026-10-06",
+   "category": "Regulation & Guidance",
+   "publisher": "Reserve Bank of India",
+   "countries": [
+    "Global"
+   ],
+   "title": "Central bank pushes banks to scale AI adoption while addressing risk management gaps",
+   "summary": "The RBI encourages banks to expand AI implementation but raises concerns about potential risk oversight blind spots. The guidance reflects central bank efforts to balance AI advancement with prudent risk management.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM0dJckNIWjZTeEhNSlkwYkZ0V0xxVWtzekNiSWhLNXVCUFEyRzNveG9lOXN5dThxTDJIYkp1bExmWGVwMG53SVFZTEw3RU80bnkxU01yQUFoU2t5TDR3dVIwYTBxNTJfTFV3X09HcE56ZjhFVVM5MzhBMmZWWkZwUkhuNl9zUENJajNQZnJ1UEhOdE9rLVJ1VnVueE1fQkxWX3ZmTzJscw?oc=5",
+   "source_name": "analyticsindiamag.com",
+   "source_title": "RBI Wants Banks to Scale AI. But Does It Have a Risk Blind Spot?",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM0dJckNIWjZTeEhNSlkwYkZ0V0xxVWtzekNiSWhLNXVCUFEyRzNveG9lOXN5dThxTDJIYkp1bExmWGVwMG53SVFZTEw3RU80bnkxU01yQUFoU2t5TDR3dVIwYTBxNTJfTFV3X09HcE56ZjhFVVM5MzhBMmZWWkZwUkhuNl9zUENJajNQZnJ1UEhOdE9rLVJ1VnVueE1fQkxWX3ZmTzJscw?oc=5",
+     "name": "analyticsindiamag.com"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T10:20:46+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   }
+  },
+  {
+   "id": "d1666d1408bc",
+   "date": "2026-10-06",
+   "category": "Market Data",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Global banking sector faces $66 billion investment wave as AI reduces fraud losses",
+   "summary": "Banks are investing heavily in AI technology as artificial intelligence proves effective at detecting and preventing banking fraud. The market data reflects the scale of AI spending driven by fraud mitigation benefits.",
+   "key_stats": [
+    {
+     "value": "$66 billion",
+     "label": "global banking AI investment",
+     "quote": "Banks face $66bn global arms race as AI eases banking fraud"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR3NNY3hhWlBINm10YjRtV1g0ZGVZWENBZ3hDc1hOX2hSWXlpSGpDNkE2US1EdnJobHhNc1dHUUI0QTBueGFpTjNib0lHMTFDeFY4NVFUUThVUDdCZVRGZmg5aV9sY2NSaWc0d0szSGdYQUtRbHFaclhQa2o4MS1QSkUzQVdKRnVodzRRQm91RQ?oc=5",
+   "source_name": "Businessamlive",
+   "source_title": "Banks face $66bn global arms race as AI eases banking fraud",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR3NNY3hhWlBINm10YjRtV1g0ZGVZWENBZ3hDc1hOX2hSWXlpSGpDNkE2US1EdnJobHhNc1dHUUI0QTBueGFpTjNib0lHMTFDeFY4NVFUUThVUDdCZVRGZmg5aV9sY2NSaWc0d0szSGdYQUtRbHFaclhQa2o4MS1QSkUzQVdKRnVodzRRQm91RQ?oc=5",
+     "name": "Businessamlive"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T10:20:46+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   }
+  },
+  {
+   "id": "31589dc85ace",
+   "date": "2026-10-06",
+   "category": "Market Data",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Banks compete for Asia GPU capacity as global AI spending reaches $8 trillion",
+   "summary": "Financial institutions are securing GPU loans across Asia to support massive artificial intelligence infrastructure buildouts. The market figures show banking sector participation in an $8 trillion global AI spending surge.",
+   "key_stats": [
+    {
+     "value": "$8 trillion",
+     "label": "global AI spending",
+     "quote": "Global Banks Pile Into Asia GPU Loans as AI Spending Tops $8 Trillion"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE52RkV4VTc1aFNYdkV2MVZzLTRVNTFid2wxWE1iM0JiR0xydmVZQ3pFblV5SnJ3WkRIc3pxSVMyVURma1k0T2VTY1U3VVdUTXVqc1FoZm5KS0poU1B6OTN1MWFtQ0c1SHFkNzVTU2VLTERfNHZoS1E?oc=5",
+   "source_name": "finance.biggo.com",
+   "source_title": "Global Banks Pile Into Asia GPU Loans as AI Spending Tops $8 Trillion",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE52RkV4VTc1aFNYdkV2MVZzLTRVNTFid2wxWE1iM0JiR0xydmVZQ3pFblV5SnJ3WkRIc3pxSVMyVURma1k0T2VTY1U3VVdUTXVqc1FoZm5KS0poU1B6OTN1MWFtQ0c1SHFkNzVTU2VLTERfNHZoS1E?oc=5",
+     "name": "finance.biggo.com"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T10:20:46+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   }
+  },
+  {
+   "id": "95c5db44fd81",
+   "date": "2026-10-06",
+   "category": "Expert Views",
+   "publisher": "World Bank",
+   "countries": [
+    "Global"
+   ],
+   "title": "World Bank warns of economic concentration risks from artificial intelligence dependency",
+   "summary": "The World Bank cautions against over-reliance on AI products for economic growth and productivity. The expert guidance highlights systemic risks of widespread AI adoption across economies.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQdzB6eHZiSjJSNFRackxwWTJRSk5ZbWRZbXJ4bmh1VTFILXhsa3hNbWdRLUxyUE5qeV9SY19yVG8xemg2RGhpTmNQc1RKSTg2RDZuU3RyT3lHdnJ4SEhBRjFDWGE2aTlFZ2tGdVMtTVJaVzBNRFJsRXVMaWZFRGNWSXhNR2xqeEhkNzdQLW4zTG5xSU1jVG1EclpmaGRTWXh5c1ZBT0R0OXR3a2F0WkwyYzViUU1DaWs1Q1Q2ME1rYWY2RUM1NkJBSldJSURTOGJtSFJnUkhxSVFoZFljcWJ6OUJ3RnRlbnBwa3BpNU9FTU95Wkxq?oc=5",
+   "source_name": "صحيفة مال",
+   "source_title": "البنك الدولي يحذر من مخاطر اعتماد الاقتصاد منتجات الذكاء الاصطناعي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQdzB6eHZiSjJSNFRackxwWTJRSk5ZbWRZbXJ4bmh1VTFILXhsa3hNbWdRLUxyUE5qeV9SY19yVG8xemg2RGhpTmNQc1RKSTg2RDZuU3RyT3lHdnJ4SEhBRjFDWGE2aTlFZ2tGdVMtTVJaVzBNRFJsRXVMaWZFRGNWSXhNR2xqeEhkNzdQLW4zTG5xSU1jVG1EclpmaGRTWXh5c1ZBT0R0OXR3a2F0WkwyYzViUU1DaWs1Q1Q2ME1rYWY2RUM1NkJBSldJSURTOGJtSFJnUkhxSVFoZFljcWJ6OUJ3RnRlbnBwa3BpNU9FTU95Wkxq?oc=5",
+     "name": "صحيفة مال"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-06T10:20:46+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   }
+  },
+  {
+   "id": "568950808958",
+   "date": "2026-10-06",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Norway's largest bank deploys AI to automate operations and reduce workforce",
+   "summary": "A major Norwegian bank implemented artificial intelligence systems that replaced over 400 staff positions. The case study demonstrates large-scale AI automation in banking operations.",
+   "key_stats": [
+    {
+     "value": "400+ employees",
+     "label": "staff positions automated",
+     "quote": "الذكاء الاصطناعي يحل محل أكثر من 400 موظف في أكبر بنك نرويجي"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNWWZfdXJlaHRBT1NRcHd5R0Jvay1mV1czQTFVcWNPMmNzQVRNcmZURElHdjIzM05MbU5KUmt2OGlhTmVfZnl1ZWFheHJXcEY3eXFsSWpFY2VrUFBZNU8yMXlTRzd2OExqYXlCcVg5Z0VTLVdNLUE2d1A0YW5lQVRNdWpER3ZkX1hjOXJabmVES1paYlR5MXg1UUlGY05oM0xUS3lNSkpwVkVUeHpydmlmV0dfWFhRbjlhbHM3R2pleTJ5bkdZRDBkVkMyT1N2SmV1OFZzRXpqMXRNN3ZVWksyZmMzOVVhUUtITDREbm4yUUhza0xKQXRRYU5hd3VYbWFNSk9CV1Y2eVA0YnVhUlNFMTV4cVdJenlRd1ZXbTdvNTJaekpsZm1kajNEbmk3Q3M4eGR0eHJzOWNJY1VGRk1hZ1d3?oc=5",
+   "source_name": "followict",
+   "source_title": "الذكاء الاصطناعي يحل محل أكثر من 400 موظف في أكبر بنك نرويجي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNWWZfdXJlaHRBT1NRcHd5R0Jvay1mV1czQTFVcWNPMmNzQVRNcmZURElHdjIzM05MbU5KUmt2OGlhTmVfZnl1ZWFheHJXcEY3eXFsSWpFY2VrUFBZNU8yMXlTRzd2OExqYXlCcVg5Z0VTLVdNLUE2d1A0YW5lQVRNdWpER3ZkX1hjOXJabmVES1paYlR5MXg1UUlGY05oM0xUS3lNSkpwVkVUeHpydmlmV0dfWFhRbjlhbHM3R2pleTJ5bkdZRDBkVkMyT1N2SmV1OFZzRXpqMXRNN3ZVWksyZmMzOVVhUUtITDREbm4yUUhza0xKQXRRYU5hd3VYbWFNSk9CV1Y2eVA0YnVhUlNFMTV4cVdJenlRd1ZXbTdvNTJaekpsZm1kajNEbmk3Q3M4eGR0eHJzOWNJY1VGRk1hZ1d3?oc=5",
+     "name": "followict"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-06T10:20:46+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   }
+  },
+  {
+   "id": "a369e80cdb5d",
+   "date": "2026-10-06",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "South Korea identifies AI-powered cyberattacks targeting banks with customer data breaches",
+   "summary": "رئيس كوريا الجنوبية: استخدام الذكاء الاصطناعي في تنفيذ هجمات على بنوك وتسريب بيانات أكثر من 42 ألف عميل. Reported by followict on 6 Oct 2026; open the source for full details.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPajRSblpvWGJuZmppV1pHMENNekJWSkpGTE94NGpqMHUtd0ZCWUF2MllWTXZrSXpWN1Y2UFpCQUhRSkxTbTJuVFhJUXFrbkd1ZU5OTHdqa01kdkJ1WEkybU9WSWxPOHg5TWZ4dHgxZDF4b3dKbklxd0FLcldqUW9KY0RlWkcwZjV5bk82QlRzbGxrOTdtWHJIanA3MWZTRkJfSnNDWkNNT2pFdktjbTFlNmFwaVRra3JqWnk2T2duQXpuTkJVNzJ0X1I5WGdMcFJKQkgwNHRub2NwUFFKdWJ6UzVDaGYzUEl0LXFUR0NvcnNZaFhTSEtfdWJVMFV4bF9UVlNGMjBJcTZaQUtEMFlKeGVjT3R1THFFanVYZEJfYW84Y1pvdnRmeWlsVGQwcEg5SU9VQ1ppWXJid2NPNVRmN3VKMA?oc=5",
+   "source_name": "followict",
+   "source_title": "رئيس كوريا الجنوبية: استخدام الذكاء الاصطناعي في تنفيذ هجمات على بنوك وتسريب بيانات أكثر من 42 ألف عميل",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPajRSblpvWGJuZmppV1pHMENNekJWSkpGTE94NGpqMHUtd0ZCWUF2MllWTXZrSXpWN1Y2UFpCQUhRSkxTbTJuVFhJUXFrbkd1ZU5OTHdqa01kdkJ1WEkybU9WSWxPOHg5TWZ4dHgxZDF4b3dKbklxd0FLcldqUW9KY0RlWkcwZjV5bk82QlRzbGxrOTdtWHJIanA3MWZTRkJfSnNDWkNNT2pFdktjbTFlNmFwaVRra3JqWnk2T2duQXpuTkJVNzJ0X1I5WGdMcFJKQkgwNHRub2NwUFFKdWJ6UzVDaGYzUEl0LXFUR0NvcnNZaFhTSEtfdWJVMFV4bF9UVlNGMjBJcTZaQUtEMFlKeGVjT3R1THFFanVYZEJfYW84Y1pvdnRmeWlsVGQwcEg5SU9VQ1ppWXJid2NPNVRmN3VKMA?oc=5",
+     "name": "followict"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-06T10:20:46+00:00",
    "verification": {
     "level": "pending",
     "evidence": "headline",
@@ -10082,6 +10212,24 @@
    "same": false
   },
   "v2|d7d3470bb3cc|f95db569dc21": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|b3825bd288a2|c76bb2a6eb7d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|a4029e6dae4c|c76bb2a6eb7d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|41a74ca1ed22|8ef5a7c20138": {
    "merge": false,
    "anchor": "",
    "confidence": "high",
