@@ -112,10 +112,12 @@ def _rank(i: dict) -> tuple:
 
 def dedupe(items: list[dict], group: Callable[[dict], str], names: Callable[[dict], list[str]],
            ask: Callable | None, cache: dict, max_days: int = 10,
-           related: Callable[[dict, dict], bool] | None = None) -> list[dict]:
+           related: Callable[[dict, dict], bool] | None = None, near_days: int = 0) -> list[dict]:
     """Return items with duplicates merged. `group` keeps comparisons within one bank (or one sector topic),
     `names` gives words to ignore (the bank's own names), `ask` is FactChecker.ask (None = word match only),
-    `cache` stores AI verdicts by pair id, `related` flags extra pairs worth asking about (e.g. same publisher)."""
+    `cache` stores AI verdicts by pair id, `related` flags extra pairs worth asking about (e.g. same publisher),
+    `near_days`: pairs in the same group at most this many days apart are always asked about, because the same
+    event is often worded with no words in common ("hires Pedro Uria-Recio" vs "appoints Chief AI Officer")."""
     items = sorted(items, key=_rank)                  # best-sourced copy first, so it is the one kept
     kept: list[dict] = []
     doubtful: list[tuple[dict, dict]] = []
@@ -135,7 +137,7 @@ def dedupe(items: list[dict], group: Callable[[dict], str], names: Callable[[dic
                 ta = set().union(*(tokens(t, names(it)) for t in _titles(k)))
                 tb = set().union(*(tokens(t, names(it)) for t in _titles(it)))
                 jac, cont = overlap(ta, tb)
-                if cont >= 0.25 or k["date"] == it["date"] or (related and related(k, it)):
+                if cont >= 0.25 or _days(k, it) <= near_days or (related and related(k, it)):
                     doubtful.append((k, it))
         if dup:
             _merge(dup, it)
