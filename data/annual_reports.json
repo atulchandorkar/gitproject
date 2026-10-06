@@ -185,5 +185,64 @@
    "items": 3,
    "date": "2026-03-17"
   }
+ ],
+ "ibk": [
+  {
+   "year": 2024,
+   "url": "https://www.ibkuwt.com/en/documents/129/Annual_Report_English_2024_Web_version.pdf",
+   "pages": 130,
+   "items": 0,
+   "date": "2025-07-27"
+  }
+ ],
+ "bankdhofar": [
+  {
+   "year": 2024,
+   "url": "https://bankdhofar.com/media/gqmiu4xa/annual-report-2024_v2_english.pdf",
+   "pages": 176,
+   "items": 1,
+   "date": "2026-01-28"
+  }
+ ],
+ "ahlioman": [
+  {
+   "year": 2025,
+   "url": "https://ahlibank.om/ahlibank/wp-content/uploads/2026/04/Ahlibank-Annual-Report-2025-English.pdf",
+   "pages": 151,
+   "items": 6,
+   "date": "2026-03-18"
+  },
+  {
+   "year": 2024,
+   "url": "https://ahlibank.om/Ahlibank/assets/uploads/2025/03/Ahlibank-Annual-Report-2024-English.pdf",
+   "pages": 278,
+   "items": 5,
+   "date": "2025-03-17"
+  }
+ ],
+ "nbb": [
+  {
+   "year": 2024,
+   "url": "https://nbbonline.com/wp-content/uploads/2025/03/NBB-AR-2024_GRI-Bahrain-Bourse-Content-Index_Eng.pdf",
+   "pages": 13,
+   "items": 0,
+   "date": "2025-03-25"
+  }
+ ],
+ "bbk": [
+  {
+   "year": 2025,
+   "url": "https://www.bbkonline.com/wp-content/uploads/2026/04/BBK-2025-Annual-Report-English-Spread.pdf",
+   "pages": 59,
+   "items": 3,
+   "date": "2026-04-07"
+  },
+  {
+   "year": 2024,
+   "url": "https://www.bbkonline.com/wp-content/uploads/2025/03/BBK-Annual-Report-2024-Full-English-7.pdf",
+   "pages": 110,
+   "items": 3,
+   "date": "2025-03-24"
+  }
  ]
 }
