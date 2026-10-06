@@ -397,8 +397,15 @@ class Tracker:
     def dedupe_news(self) -> None:
         """Merge copies of the same story (word match, then a cheap AI check on close pairs)."""
         before = len(self.news["items"])
-        self.news["items"] = dedupe.dedupe(self.news["items"], lambda i: f'{i["bank_id"]}|{i.get("source_type", "news")}', lambda i: self.bank_names(i["bank_id"]),
-                                           self.checker.ask, self.state.setdefault("dup_verdicts", {}), near_days=7)
+        names = lambda i: self.bank_names(i["bank_id"])
+        news = [i for i in self.news["items"] if i.get("source_type") != "annual_report"]
+        reports = [i for i in self.news["items"] if i.get("source_type") == "annual_report"]
+        news = dedupe.dedupe(news, lambda i: i["bank_id"], names, self.checker.ask,
+                             self.state.setdefault("dup_verdicts", {}), near_days=7)
+        # Annual-report items are different disclosures from one report (repeats are already combined when the
+        # report is read), so they are never merged on the AI's judgement – only exact word-for-word repeats.
+        reports = dedupe.dedupe(reports, lambda i: f'{i["bank_id"]}|{i["report"]["year"]}', names, None, {})
+        self.news["items"] = news + reports
         if len(self.news["items"]) < before:
             print(f"  merged {before - len(self.news['items'])} duplicate stories")
 
@@ -767,6 +774,7 @@ def main() -> None:
 
         # AI implementations disclosed in the banks' own annual reports (separate source type, tagged to the bank)
         reports = annual_reports.AnnualReports(tracker.banks, tracker.state, tracker.checker, CATEGORY_GUIDE, today(), now_iso)
+        tracker.news["items"] = reports.repair_merged(tracker.news["items"])
         try:
             ar_added = reports.run(tracker.rejected)
         except FatalAPIError:

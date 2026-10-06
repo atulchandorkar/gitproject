@@ -251,6 +251,7 @@ class AnnualReports:
     def __init__(self, banks: dict, state: dict, checker: verify.FactChecker, themes: dict[str, str],
                  today: dt.date, now_iso: Callable[[], str]):
         self.banks, self.checker, self.themes, self.today, self.now_iso = banks, checker, themes, today, now_iso
+        self.root_state = state
         self.state = state.setdefault("annual_reports", {})
 
     def years(self) -> list[int]:
@@ -336,6 +337,30 @@ class AnnualReports:
                 it["verification"] = {"level": "official", "evidence": "annual report", "checked": self.today.isoformat()}
                 published.append(it)
         return published, rejected
+
+    def repair_merged(self, news_items: list[dict]) -> list[dict]:
+        """One-time: an earlier duplicate rule merged some different disclosures from the same report. Reports that
+        now show fewer items than were verified are read again (their items are replaced by a fresh extraction)."""
+        done = self.root_state.setdefault("migrations", [])
+        if "ar-unmerge-v1" in done:
+            return news_items
+        shown: dict[tuple, int] = {}
+        for i in news_items:
+            if i.get("source_type") == "annual_report":
+                k = (i["bank_id"], str(i["report"]["year"]))
+                shown[k] = shown.get(k, 0) + 1
+        redo = [(bid, y) for bid, st in self.state.items()
+                for y, d in st.get("done", {}).items() if shown.get((bid, y), 0) < d.get("items", 0)]
+        for bid, y in redo:
+            self.state[bid]["done"].pop(y, None)
+            self.state[bid]["checked"] = None
+        keep = [i for i in news_items if not (i.get("source_type") == "annual_report"
+                                              and (i["bank_id"], str(i["report"]["year"])) in redo)]
+        if redo:
+            print(f"Annual reports: re-reading {len(redo)} reports where items had been merged: "
+                  + ", ".join(f"{b} {y}" for b, y in redo))
+        done.append("ar-unmerge-v1")
+        return keep
 
     def export(self, path) -> None:
         """Report list for the dashboard (each bank's annual report PDFs, linked to the bank's own site)."""
