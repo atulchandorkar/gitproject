@@ -1,5 +1,5 @@
 {
- "last_update": "2026-10-07T03:05:11+00:00",
+ "last_update": "2026-10-07T03:17:08+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -3101,7 +3101,7 @@
   "ahlioman": {
    "checked": "2026-10-05",
    "url": "https://ahlibank.om/Ahlibank/news/",
-   "status": "ok",
+   "status": "unreachable (TimeoutError)",
    "links": 9,
    "scanned": "2026-10-07",
    "known": [

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-07T03:06:58+00:00",
+ "updated_at": "2026-10-07T03:18:19+00:00",
  "items": [
   {
    "id": "7aeb950c6feb",
@@ -407,39 +407,6 @@
    "pdf_checked": "2026-10-06"
   },
   {
-   "id": "5f2dd03d75dd",
-   "date": "2026-09-30",
-   "category": "Maturity & Rankings",
-   "publisher": "Everest Group",
-   "countries": [
-    "Global"
-   ],
-   "title": "Everest Group Innovation Watch ranks providers in agentic AI for banking",
-   "summary": "Everest Group released an Innovation Watch assessment ranking technology providers' capabilities in agentic AI for banking. Tuum was identified as a Fast Follower in the category.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNTA5dVRqbmwyaVNqTGRzYU5XYXQ2NWhFeWdValV6SGVKRWlURkEycXcyNDZ0UlN4Uy1YZUhVSm8wand5VVhyZFlFLXBPUC1oNEtKNzJ6ZUx5dHVaSFRwbW1Sa1ZYQ3A3QUtFS0VzOElTVlFGZzBibEJ5UWVrWWxZT0VvTEJwV1pRVmk2dzk4ZUNhalhETU96aDl3bjltZUZCcW9QZU9oejEtUEhFcVA0MkdtUXBTM3F3a002SGNqREY3N256MGQ5UDFLYw?oc=5",
-   "source_name": "EIN Presswire",
-   "source_title": "Tuum named a Fast Follower in Everest Group’s Innovation Watch: Agentic AI in Banking",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNTA5dVRqbmwyaVNqTGRzYU5XYXQ2NWhFeWdValV6SGVKRWlURkEycXcyNDZ0UlN4Uy1YZUhVSm8wand5VVhyZFlFLXBPUC1oNEtKNzJ6ZUx5dHVaSFRwbW1Sa1ZYQ3A3QUtFS0VzOElTVlFGZzBibEJ5UWVrWWxZT0VvTEJwV1pRVmk2dzk4ZUNhalhETU96aDl3bjltZUZCcW9QZU9oejEtUEhFcVA0MkdtUXBTM3F3a002SGNqREY3N256MGQ5UDFLYw?oc=5",
-     "name": "EIN Presswire"
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaTg1Ym16WG5QS1YtY3YxWXkzTUItNk16Z0F2SVY4RVhlMm9lMmQ3VFYtN2I2MHQzODBZeVRxOXVpV1RTM2ZWZDZkdzRfVnpkNGN2V1RrNDhCYXJON1p1Z0Mwb0pJYTdVZ2NaNXAzZ3djakdwdXktZjQ0bVpWTi1fZzgycnNwOEJObFhLb3F0cmRLdlVQYlg5LWdfaVIyTnE2c2hIWG9KWHRJMGdGSjB3U2o0bw?oc=5",
-     "name": "FF News"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-06"
-  },
-  {
    "id": "f95db569dc21",
    "date": "2026-09-30",
    "category": "Case Studies & Use Cases",
@@ -488,6 +455,39 @@
      "anchor": "Infosys and ABN AMRO"
     }
    ]
+  },
+  {
+   "id": "5f2dd03d75dd",
+   "date": "2026-09-30",
+   "category": "Maturity & Rankings",
+   "publisher": "Everest Group",
+   "countries": [
+    "Global"
+   ],
+   "title": "Everest Group Innovation Watch ranks providers in agentic AI for banking",
+   "summary": "Everest Group released an Innovation Watch assessment ranking technology providers' capabilities in agentic AI for banking. Tuum was identified as a Fast Follower in the category.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNTA5dVRqbmwyaVNqTGRzYU5XYXQ2NWhFeWdValV6SGVKRWlURkEycXcyNDZ0UlN4Uy1YZUhVSm8wand5VVhyZFlFLXBPUC1oNEtKNzJ6ZUx5dHVaSFRwbW1Sa1ZYQ3A3QUtFS0VzOElTVlFGZzBibEJ5UWVrWWxZT0VvTEJwV1pRVmk2dzk4ZUNhalhETU96aDl3bjltZUZCcW9QZU9oejEtUEhFcVA0MkdtUXBTM3F3a002SGNqREY3N256MGQ5UDFLYw?oc=5",
+   "source_name": "EIN Presswire",
+   "source_title": "Tuum named a Fast Follower in Everest Group’s Innovation Watch: Agentic AI in Banking",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNTA5dVRqbmwyaVNqTGRzYU5XYXQ2NWhFeWdValV6SGVKRWlURkEycXcyNDZ0UlN4Uy1YZUhVSm8wand5VVhyZFlFLXBPUC1oNEtKNzJ6ZUx5dHVaSFRwbW1Sa1ZYQ3A3QUtFS0VzOElTVlFGZzBibEJ5UWVrWWxZT0VvTEJwV1pRVmk2dzk4ZUNhalhETU96aDl3bjltZUZCcW9QZU9oejEtUEhFcVA0MkdtUXBTM3F3a002SGNqREY3N256MGQ5UDFLYw?oc=5",
+     "name": "EIN Presswire"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaTg1Ym16WG5QS1YtY3YxWXkzTUItNk16Z0F2SVY4RVhlMm9lMmQ3VFYtN2I2MHQzODBZeVRxOXVpV1RTM2ZWZDZkdzRfVnpkNGN2V1RrNDhCYXJON1p1Z0Mwb0pJYTdVZ2NaNXAzZ3djakdwdXktZjQ0bVpWTi1fZzgycnNwOEJObFhLb3F0cmRLdlVQYlg5LWdfaVIyTnE2c2hIWG9KWHRJMGdGSjB3U2o0bw?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-06"
   },
   {
    "id": "98714c94bf6e",

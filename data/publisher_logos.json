@@ -304,6 +304,11 @@
   "file": "logos/pub-google-cloud.png",
   "source": "https://www.gstatic.com/cgc/super_cloud_gradient.png"
  },
+ "pub-gulf-business": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-gulf-business.png",
+  "source": "https://www.google.com/s2/favicons?domain=gulfbusiness.com&sz=256"
+ },
  "pub-gulf-news": {
   "checked": "2026-10-07",
   "file": "logos/pub-gulf-news.png",
