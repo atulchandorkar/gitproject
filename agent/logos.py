@@ -15,6 +15,8 @@ import datetime as dt
 import json
 import re
 import sys
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -74,14 +76,20 @@ def usable(data: bytes, min_px: int = MIN_PIXELS) -> str | None:
 
 
 def _download(url: str, headers: dict | None = None, min_px: int = MIN_PIXELS) -> tuple[bytes, str] | None:
-    try:
-        req = urllib.request.Request(url, headers={**HEADERS, "Accept": "image/*,*/*;q=0.5", "Accept-Encoding": "identity",
-                                                   **(headers or {})})
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            ctype = (resp.headers.get_content_type() or "").lower()
-            data = resp.read(2_000_000)
-    except Exception:
-        return None
+    data = b""
+    for attempt in range(2):
+        try:
+            req = urllib.request.Request(url, headers={**HEADERS, "Accept": "image/*,*/*;q=0.5",
+                                                       "Accept-Encoding": "identity", **(headers or {})})
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                data = resp.read(2_000_000)
+            break
+        except urllib.error.HTTPError as exc:
+            if attempt or exc.code not in (429, 502, 503, 504):   # busy server (Wikimedia rate limit): wait, try once more
+                return None
+            time.sleep(5)
+        except Exception:
+            return None
     ext = usable(data, min_px)   # judged by the bytes, not the server's content type or the file name
     return (data, ext) if ext else None
 

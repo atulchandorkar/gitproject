@@ -700,13 +700,17 @@ class Telegram:
         by_report: dict[tuple, list[dict]] = {}
         for i in items:
             by_report.setdefault((i["bank_id"], i["report"]["year"]), []).append(i)
-        lines, esc = [f"📘 <b>AI in bank annual reports</b> · {len(items)} disclosures from {len(by_report)} reports"], html.escape
+        esc = html.escape
+        msg = f"📘 <b>AI in bank annual reports</b> · {len(items)} disclosures from {len(by_report)} reports"
         for (bid, year), its in sorted(by_report.items(), key=lambda kv: -len(kv[1]))[:15]:
             b, c = self.banks[bid], self.countries[self.banks[bid]["country"]]
             link = f' · <a href="{self.dashboard}/#/bank/{bid}">view</a>' if self.dashboard else ""
-            lines.append(f"\n{c['flag']} <b>{esc(b['short'])}</b> Annual Report {year}: {len(its)}{link}")
-            lines += [f"• {esc(i['title'])}" for i in its[:3]]
-        self.send("\n".join(lines)[:3900])
+            block = "\n".join([f"\n{c['flag']} <b>{esc(b['short'])}</b> Annual Report {year}: {len(its)}{link}"]
+                               + [f"• {esc(i['title'][:160])}" for i in its[:3]])
+            if len(msg) + len(block) > 3900:     # whole blocks only, so no HTML tag is ever cut (Telegram limit 4096)
+                break
+            msg += "\n" + block
+        self.send(msg)
 
     def notify_sector(self, items: list[dict], first_load: bool, countries: dict) -> None:
         if not self.enabled or not items:
