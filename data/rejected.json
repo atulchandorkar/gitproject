@@ -1132,5 +1132,257 @@
   "source_url": "https://marblobstorage.blob.core.windows.net/files/arbfiles/AnnualReports2019/AR/ARB-Annual-Report-2024_ar.pdf",
   "source": "Al Rayan Annual Report 2024",
   "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "burgan",
+  "date": "2026-03-17",
+  "title": "Burgan Digital Skills Training for Ministry of Interior",
+  "source_url": "https://burgan.com/en/documents/157/BBAnnualReport2025.pdf",
+  "source": "Burgan Annual Report 2025",
+  "reason": "fact-check: Training program is for external national talent development, not Burgan's own AI activity."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "abk",
+  "date": "2026-03-31",
+  "title": "ABK Robotic Process Automation (RPA) Platform Deployment",
+  "source_url": "https://abk.eahli.com/media/files/En.pdf",
+  "source": "ABK Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "abk",
+  "date": "2026-03-31",
+  "title": "ABK AI and Cloud Technology Risk Assessment Framework",
+  "source_url": "https://abk.eahli.com/media/files/En.pdf",
+  "source": "ABK Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "abk",
+  "date": "2026-03-31",
+  "title": "ABK Bot Customer Chatbot Launch (ABK-Egypt)",
+  "source_url": "https://abk.eahli.com/media/files/En.pdf",
+  "source": "ABK Annual Report 2025",
+  "reason": "fact-check: Evidence describes ABK-Egypt (separate entity), not Al Ahli Bank of Kuwait; ABK Bot is a chatbot, not an AI activity in the sense of strategy/investment/deployment by the bank itself for its operations."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "abk",
+  "date": "2026-03-31",
+  "title": "ABK Global Finance Digital Banking Award (Second Consecutive)",
+  "source_url": "https://abk.eahli.com/media/files/En.pdf",
+  "source": "ABK Annual Report 2025",
+  "reason": "fact-check: Award from Global Finance is recognition, not the bank's own AI activity; summary incorrectly claims award acknowledges 'AI-driven and automation-enabled digital transformation' which is not stated in evidence."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "abk",
+  "date": "2025-04-03",
+  "title": "ABK RPA Solution Replacement with CyberMAK",
+  "source_url": "https://abk.eahli.com/media/files/10508_-_ABK_Corporate_-_Annual_Report_2025_En_-_2503_26_web_lower.pdf",
+  "source": "ABK Annual Report 2024",
+  "reason": "fact-check: Evidence identifies the RPA vendor as 'CyberMAK' not 'CyberMAK' as a replacement partner; the claim correctly names CyberMAK but evidence describes it as replacing 'Automation Anywhere' (mentioned on page 8), creating confusion about which vendor is the new solution."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "abk",
+  "date": "2025-04-03",
+  "title": "ABK Retail Loans Originating System (RLOS) Performance Improvement",
+  "source_url": "https://abk.eahli.com/media/files/10508_-_ABK_Corporate_-_Annual_Report_2025_En_-_2503_26_web_lower.pdf",
+  "source": "ABK Annual Report 2024",
+  "reason": "fact-check: RLOS performance improvement is not an AI activity; it is a system optimization/automation improvement, not AI deployment or strategy."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "bankabc",
+  "date": "2026-04-30",
+  "title": "Bank ABC deployed first AI Assistant to employees",
+  "source_url": "https://www.bank-abc.com/ar/ShareholderRelations/Annual%20Reports/Annual%20Report%202025.pdf",
+  "source": "Bank ABC Annual Report 2025",
+  "reason": "fact-check: Evidence states ABCIB (a subsidiary) deployed first AI Assistant, not Bank ABC Group itself."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "bankabc",
+  "date": "2026-04-30",
+  "title": "Bank ABC organized AI Innovation Weeks and hackathons across six units",
+  "source_url": "https://www.bank-abc.com/ar/ShareholderRelations/Annual%20Reports/Annual%20Report%202025.pdf",
+  "source": "Bank ABC Annual Report 2025",
+  "reason": "fact-check: Evidence says 'hackathons across six units' but title and summary claim they 'organized Innovation Weeks and hackathons across six units' - hackathons were one type of training event, not separate organized initiatives alongside Innovation Weeks."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "bankabc",
+  "date": "2026-04-30",
+  "title": "Bank ABC received World's Best Financial Innovation Labs award",
+  "source_url": "https://www.bank-abc.com/ar/ShareholderRelations/Annual%20Reports/Annual%20Report%202025.pdf",
+  "source": "Bank ABC Annual Report 2025",
+  "reason": "fact-check: Evidence states 'World's Best Financial Innovation Labs award' (plural 'Labs') but claims state 'World's Best Financial Innovation Lab Award' (singular 'Lab')."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "bisb",
+  "date": "2026-03-14",
+  "title": "BisB AI Training Academy and Employee Certification Programme",
+  "source_url": "https://www.bisb.com/sites/default/files/2026-03/BH2601021%20-%20BisB%20Annual%20Report%20-%20ENGLISH%20-%20V14-Digital.pdf",
+  "source": "BisB Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "bisb",
+  "date": "2026-03-14",
+  "title": "BisB AI-Powered Chatbot for Customer Support",
+  "source_url": "https://www.bisb.com/sites/default/files/2026-03/BH2601021%20-%20BisB%20Annual%20Report%20-%20ENGLISH%20-%20V14-Digital.pdf",
+  "source": "BisB Annual Report 2025",
+  "reason": "fact-check: Evidence mentions 'Chatbot' as a service offering but does not describe it as 'AI-powered' or characterize it as a distinct AI activity/initiative of the bank."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "bisb",
+  "date": "2026-03-14",
+  "title": "BisB CISO Advanced AI Security Management Certification",
+  "source_url": "https://www.bisb.com/sites/default/files/2026-03/BH2601021%20-%20BisB%20Annual%20Report%20-%20ENGLISH%20-%20V14-Digital.pdf",
+  "source": "BisB Annual Report 2025",
+  "reason": "fact-check: The CISO's achievement is about AI security management certification and award, not the bank's own AI activity deployment or strategy."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "nbk",
+  "date": "2026-03-04",
+  "title": "NBK e-KYC Digital Identity and Customer Lifecycle Automation",
+  "source_url": "https://www.nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
+  "source": "NBK Annual Report 2025",
+  "reason": "fact-check: e-KYC is a digital identity/authentication technology, not AI activity."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "nbk",
+  "date": "2026-03-04",
+  "title": "NBK Tech Academy Wave 2 with AI and Data Analytics Training",
+  "source_url": "https://www.nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
+  "source": "NBK Annual Report 2025",
+  "reason": "fact-check: Evidence only mentions graduation of Wave 2; no details about curriculum content (cybersecurity, software development, AI, data analytics) are provided in the cited page 25."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "nbk",
+  "date": "2026-03-04",
+  "title": "NBK Hyper-Personalization Strategy Leveraging Data and AI",
+  "source_url": "https://www.nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
+  "source": "NBK Annual Report 2025",
+  "reason": "fact-check: Evidence mentions hyper-personalization with data analytics and AI but does not mention the specific 'Five Rights framework' terminology or details attributed to it in the summary."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "nbk",
+  "date": "2026-03-04",
+  "title": "NBK Operational Data Store and Enterprise Data Warehouse for Analytics",
+  "source_url": "https://www.nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
+  "source": "NBK Annual Report 2025",
+  "reason": "fact-check: ODS and EDW are general data infrastructure, not AI activity; no AI mentioned in this section of the evidence."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "nbk",
+  "date": "2025-03-13",
+  "title": "NBK Implementing Predictive Analytics for Talent Sustainability",
+  "source_url": "https://www.nbk.com/dam/jcr:374076fd-2bb1-4b60-ad6a-df7fae2d25ae/nbk-annual-report-2024-e.pdf",
+  "source": "NBK Annual Report 2024",
+  "reason": "fact-check: Predictive analytics for talent is an HR practice, not an AI activity or AI strategy deployment by the bank."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "kfh",
+  "date": "2026-04-21",
+  "title": "KFH AI Virtual Assistant Fahad for Customer Inquiries",
+  "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+  "source": "KFH Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "kfh",
+  "date": "2026-04-21",
+  "title": "KFH In-House Credit Card Collection Automation System",
+  "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+  "source": "KFH Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "kfh",
+  "date": "2026-04-21",
+  "title": "KFH Integrated Operational Platform with Real-Time Data Insights",
+  "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+  "source": "KFH Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "kfh",
+  "date": "2026-04-21",
+  "title": "KFH Automation of Credit Card Collection and Profit Distribution",
+  "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+  "source": "KFH Annual Report 2025",
+  "reason": "fact-check: Evidence mentions 'automation of credit card collection and profit distribution' but does not specifically state these leverage AI technology as claimed."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "kfh",
+  "date": "2026-04-21",
+  "title": "KFH MENA's Most Innovative Private Bank Award 2025",
+  "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+  "source": "KFH Annual Report 2025",
+  "reason": "fact-check: Award recognition is not AI activity; it is an external award won by the bank."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "kfh",
+  "date": "2026-04-21",
+  "title": "KFH Information Technology Sector Completion of 40+ Strategic AI and Automation Projects",
+  "source_url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
+  "source": "KFH Annual Report 2025",
+  "reason": "fact-check: Evidence states 'over 40 strategic projects' but does not specify all were AI and automation focused; some projects mentioned involve other technologies and improvements."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "ahlioman",
+  "date": "2026-03-18",
+  "title": "Ahli Bank conducts AI Citizen Program training",
+  "source_url": "https://ahlibank.om/ahlibank/wp-content/uploads/2026/04/Ahlibank-Annual-Report-2025-English.pdf",
+  "source": "Ahli Bank Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "ahlioman",
+  "date": "2026-03-18",
+  "title": "Ahli Bank certifies staff in AI and emerging technologies",
+  "source_url": "https://ahlibank.om/ahlibank/wp-content/uploads/2026/04/Ahlibank-Annual-Report-2025-English.pdf",
+  "source": "Ahli Bank Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "bbk",
+  "date": "2026-04-07",
+  "title": "BBK AI Training Programme for Employees",
+  "source_url": "https://www.bbkonline.com/wp-content/uploads/2026/04/BBK-2025-Annual-Report-English-Spread.pdf",
+  "source": "BBK Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "bbk",
+  "date": "2025-03-24",
+  "title": "BBK Natural Language Processing (NLP) Models for Customer Interactions",
+  "source_url": "https://www.bbkonline.com/wp-content/uploads/2025/03/BBK-Annual-Report-2024-Full-English-7.pdf",
+  "source": "BBK Annual Report 2024",
+  "reason": "fact-check: NLP models mentioned for Invita (a BBK group company), not BBK itself; summary states BBK implemented them but evidence attributes them to Invita."
  }
 ]

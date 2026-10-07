@@ -183,40 +183,45 @@
    "date": "2025-05-26"
   }
  ],
+ "ahlibankqa": [
+  {
+   "year": 2024,
+   "url": "https://www.ahlibank.com.qa/Library/Assets/Ahli%20Bank%20Annual%20Report%202024-EN-010841.pdf",
+   "pages": 109,
+   "items": 3,
+   "date": "2025-08-18"
+  }
+ ],
  "lesha": [
   {
    "year": 2025,
    "url": "https://www.leshabank.com/wp-content/uploads/Lesha-Bank-Annual-Report-2025-FINAL-ENGLISH-Low-Res.pdf",
    "pages": 76,
    "items": 0,
-   "date": "2026-02-25",
-   "redo": true
+   "date": "2026-02-25"
   },
   {
    "year": 2024,
    "url": "https://www.leshabank.com/wp-content/uploads/Annual-Report-English-2024.pdf",
    "pages": 72,
    "items": 0,
-   "date": "2025-02-22",
-   "redo": true
+   "date": "2025-02-22"
   }
  ],
  "nbk": [
   {
    "year": 2025,
-   "url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
+   "url": "https://www.nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
    "pages": 226,
-   "items": 6,
-   "date": "2026-03-04",
-   "redo": true
+   "items": 14,
+   "date": "2026-03-04"
   },
   {
    "year": 2024,
-   "url": "https://nbk.com/dam/jcr:374076fd-2bb1-4b60-ad6a-df7fae2d25ae/nbk-annual-report-2024-e.pdf",
+   "url": "https://www.nbk.com/dam/jcr:374076fd-2bb1-4b60-ad6a-df7fae2d25ae/nbk-annual-report-2024-e.pdf",
    "pages": 204,
    "items": 2,
-   "date": "2025-03-13",
-   "redo": true
+   "date": "2025-03-13"
   }
  ],
  "kfh": [
@@ -224,17 +229,40 @@
    "year": 2025,
    "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
    "pages": 120,
-   "items": 8,
-   "date": "2026-04-21",
-   "redo": true
+   "items": 14,
+   "date": "2026-04-21"
   },
   {
    "year": 2024,
    "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2024/document_en/KFH%20Annual%20Report%20En%202024%20(Draft-16).pdf.pdf",
    "pages": 115,
+   "items": 7,
+   "date": "2025-03-14"
+  }
+ ],
+ "boubyan": [
+  {
+   "year": 2025,
+   "url": "https://www.bankboubyan.com/media/filer_public/67/e2/67e2e79a-c6a0-40e1-aeeb-6c6fc73df37a/view_report.pdf",
+   "pages": 65,
    "items": 4,
-   "date": "2025-03-14",
-   "redo": true
+   "date": "2026-02-14"
+  }
+ ],
+ "gulfbank": [
+  {
+   "year": 2025,
+   "url": "https://www.e-gulfbank.com/media/fdf6b0ce8f70bf9132467903e37f8ab2.pdf",
+   "pages": 183,
+   "items": 1,
+   "date": "2026-03-01"
+  },
+  {
+   "year": 2024,
+   "url": "https://www.e-gulfbank.com/media/c01f4511b83dc72860a8540762e318bb.pdf",
+   "pages": 181,
+   "items": 0,
+   "date": "2025-03-11"
   }
  ],
  "burgan": [
@@ -243,8 +271,23 @@
    "url": "https://burgan.com/en/documents/157/BBAnnualReport2025.pdf",
    "pages": 103,
    "items": 3,
-   "date": "2026-03-17",
-   "redo": true
+   "date": "2026-03-17"
+  }
+ ],
+ "abk": [
+  {
+   "year": 2025,
+   "url": "https://abk.eahli.com/media/files/En.pdf",
+   "pages": 105,
+   "items": 7,
+   "date": "2026-03-31"
+  },
+  {
+   "year": 2024,
+   "url": "https://abk.eahli.com/media/files/10508_-_ABK_Corporate_-_Annual_Report_2025_En_-_2503_26_web_lower.pdf",
+   "pages": 98,
+   "items": 3,
+   "date": "2025-04-03"
   }
  ],
  "ibk": [
@@ -253,8 +296,7 @@
    "url": "https://www.ibkuwt.com/en/documents/129/Annual_Report_English_2024_Web_version.pdf",
    "pages": 130,
    "items": 0,
-   "date": "2025-07-27",
-   "redo": true
+   "date": "2025-07-27"
   }
  ],
  "bankdhofar": [
@@ -263,8 +305,7 @@
    "url": "https://bankdhofar.com/media/gqmiu4xa/annual-report-2024_v2_english.pdf",
    "pages": 176,
    "items": 1,
-   "date": "2026-01-28",
-   "redo": true
+   "date": "2026-01-28"
   }
  ],
  "ahlioman": [
@@ -273,16 +314,14 @@
    "url": "https://ahlibank.om/ahlibank/wp-content/uploads/2026/04/Ahlibank-Annual-Report-2025-English.pdf",
    "pages": 151,
    "items": 6,
-   "date": "2026-03-18",
-   "redo": true
+   "date": "2026-03-18"
   },
   {
    "year": 2024,
    "url": "https://ahlibank.om/Ahlibank/assets/uploads/2025/03/Ahlibank-Annual-Report-2024-English.pdf",
    "pages": 278,
-   "items": 5,
-   "date": "2025-03-17",
-   "redo": true
+   "items": 6,
+   "date": "2025-03-17"
   }
  ],
  "nbb": [
@@ -291,8 +330,7 @@
    "url": "https://nbbonline.com/wp-content/uploads/2025/03/NBB-AR-2024_GRI-Bahrain-Bourse-Content-Index_Eng.pdf",
    "pages": 13,
    "items": 0,
-   "date": "2025-03-25",
-   "redo": true
+   "date": "2025-03-25"
   }
  ],
  "bbk": [
@@ -301,16 +339,39 @@
    "url": "https://www.bbkonline.com/wp-content/uploads/2026/04/BBK-2025-Annual-Report-English-Spread.pdf",
    "pages": 59,
    "items": 3,
-   "date": "2026-04-07",
-   "redo": true
+   "date": "2026-04-07"
   },
   {
    "year": 2024,
    "url": "https://www.bbkonline.com/wp-content/uploads/2025/03/BBK-Annual-Report-2024-Full-English-7.pdf",
    "pages": 110,
    "items": 3,
-   "date": "2025-03-24",
-   "redo": true
+   "date": "2025-03-24"
+  }
+ ],
+ "bankabc": [
+  {
+   "year": 2025,
+   "url": "https://www.bank-abc.com/ar/ShareholderRelations/Annual%20Reports/Annual%20Report%202025.pdf",
+   "pages": 220,
+   "items": 11,
+   "date": "2026-04-30"
+  }
+ ],
+ "bisb": [
+  {
+   "year": 2025,
+   "url": "https://www.bisb.com/sites/default/files/2026-03/BH2601021%20-%20BisB%20Annual%20Report%20-%20ENGLISH%20-%20V14-Digital.pdf",
+   "pages": 424,
+   "items": 8,
+   "date": "2026-03-14"
+  },
+  {
+   "year": 2024,
+   "url": "https://www.bisb.com/sites/default/files/2025-03/bh2407088_-_bisb_-_annual_report_faw_single_pages_english.pdf",
+   "pages": 388,
+   "items": 8,
+   "date": "2025-03-23"
   }
  ]
 }
