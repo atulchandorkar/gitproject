@@ -41,7 +41,8 @@ def _context():
         _pw = sync_playwright().start()
         exe = os.environ.get("BROWSER_PATH") or None   # e.g. a pre-installed Chromium
         _browser = _pw.chromium.launch(headless=True, executable_path=exe,
-                                       args=["--disable-blink-features=AutomationControlled"])
+                                       args=["--disable-blink-features=AutomationControlled",
+                                             "--disable-http2"])
         _ctx = _browser.new_context(user_agent=HEADERS["User-Agent"], locale="en-US",
                                     viewport={"width": 1366, "height": 900}, accept_downloads=True)
         _ctx.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")

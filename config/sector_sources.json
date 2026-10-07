@@ -10,7 +10,7 @@
  ],
  "publishers": [
   {"name": "McKinsey & Company", "short": "McKinsey", "domain": "mckinsey.com", "kind": "consultancy", "pages": ["https://www.mckinsey.com/ar/our-insights", "https://www.mckinsey.com/middle-east/our-insights"]},
-  {"name": "Boston Consulting Group", "short": "BCG", "domain": "bcg.com", "kind": "consultancy", "aliases": ["BCG"], "pages": ["https://www.bcg.com/press"]},
+  {"name": "Boston Consulting Group", "short": "BCG", "domain": "bcg.com", "kind": "consultancy", "aliases": ["BCG"], "pages": ["https://www.bcg.com/about/corporate-newsroom"]},
   {"name": "Accenture", "short": "Accenture", "domain": "accenture.com", "kind": "consultancy", "pages": ["https://newsroom.accenture.com/news"]},
   {"name": "Deloitte", "short": "Deloitte", "domain": "deloitte.com", "kind": "consultancy", "pages": ["https://www.deloitte.com/middle-east/en/about/press-room.html"]},
   {"name": "PwC Middle East", "short": "PwC", "domain": "pwc.com", "kind": "consultancy", "aliases": ["PwC", "PricewaterhouseCoopers"], "pages": ["https://www.pwc.com/m1/en/media-centre.html"]},
@@ -18,7 +18,7 @@
   {"name": "EY", "short": "EY", "domain": "ey.com", "kind": "consultancy", "aliases": ["Ernst & Young"], "pages": ["https://www.ey.com/en_ae/newsroom"]},
   {"name": "KPMG", "short": "KPMG", "domain": "kpmg.com", "kind": "consultancy", "pages": ["https://kpmg.com/ae/en/home/media/press-releases.html"]},
   {"name": "Oliver Wyman", "short": "Oliver Wyman", "domain": "oliverwyman.com", "kind": "consultancy", "pages": ["https://www.oliverwyman.com/media-center.html"]},
-  {"name": "Kearney", "short": "Kearney", "domain": "kearney.com", "kind": "consultancy", "pages": ["https://www.kearney.com/about/news"]},
+  {"name": "Kearney", "short": "Kearney", "domain": "kearney.com", "kind": "consultancy", "pages": ["https://www.kearney.com/about/kearney-in-the-media", "https://www.middle-east.kearney.com/media-center/news-releases"]},
   {"name": "Roland Berger", "short": "Roland Berger", "domain": "rolandberger.com", "kind": "consultancy", "pages": []},
   {"name": "Bain & Company", "short": "Bain", "domain": "bain.com", "kind": "consultancy", "aliases": ["Bain"], "pages": []},
   {"name": "Arthur D. Little", "short": "ADL", "domain": "adlittle.com", "kind": "consultancy", "pages": []},
