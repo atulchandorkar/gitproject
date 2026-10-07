@@ -735,6 +735,14 @@ def main() -> None:
     tracker = Tracker()
     tg = Telegram(tracker.banks, tracker.countries)
 
+    # Two daily schedules (06:17 and a 07:45 Qatar-time backup, because GitHub sometimes starts scheduled runs
+    # late or skips them): a scheduled run does nothing if an update already ran in the last 12 hours.
+    if args.mode == "update" and os.environ.get("SCHEDULED_RUN") == "true" and tracker.state.get("last_update"):
+        last = dt.datetime.fromisoformat(tracker.state["last_update"])
+        if dt.datetime.now(dt.timezone.utc) - last < dt.timedelta(hours=12):
+            print(f"Already updated at {tracker.state['last_update']} – nothing to do for this scheduled run.")
+            return
+
     if args.mode == "telegram-test":
         if not tg.enabled:
             sys.exit("Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID first.")

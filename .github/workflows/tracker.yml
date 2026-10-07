@@ -2,7 +2,8 @@ name: GCC Bank AI Tracker
 
 on:
   schedule:
-    - cron: "17 3 * * *"   # once a day (07:17 Gulf time)
+    - cron: "17 3 * * *"   # daily at 06:17 Qatar time
+    - cron: "45 4 * * *"   # backup at 07:45 Qatar time: does nothing if today's run already happened
   workflow_dispatch:
     inputs:
       mode:
@@ -46,6 +47,7 @@ jobs:
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
       TRACKER_MODEL: ${{ vars.TRACKER_MODEL || 'claude-haiku-4-5' }}
+      SCHEDULED_RUN: ${{ github.event_name == 'schedule' }}
     steps:
       # Always start from the newest data on the branch, not the commit the run was queued on;
       # otherwise a queued run redoes work an earlier run already saved.
