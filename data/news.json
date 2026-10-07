@@ -1,6 +1,41 @@
 {
- "updated_at": "2026-10-06T10:20:59+00:00",
+ "updated_at": "2026-10-07T03:06:58+00:00",
  "items": [
+  {
+   "id": "38abf2dd9df2",
+   "bank_id": "nbb",
+   "country": "BH",
+   "date": "2026-10-06",
+   "title": "NBB Advances AI Transformation Through AI@NBB Initiative",
+   "summary": "National Bank of Bahrain is advancing AI transformation through an AI@NBB initiative.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "AI Transformation",
+    "AI Initiative"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMkNVQko3SVZVT3hGb0tvZkVNUG1lSGpvYlFCYXoxczNyVTAybmpSNi1qS0xDVzd3UVpvU0E1Q0ZOS2Z1SXVkeGdDWWpGcV82QlUzc1BuNHhHNEdWQzN6ZzhtbktHeEo4OXFPclBRdmVmeS1mY3otYlNqTG1WUldkSW1aNC11QjdQNHI5dFVyRGQ?oc=5",
+   "source_name": "Gulf Daily News (Bahrain)",
+   "source_title": "Bahrain Business: NBB advances AI transformation through AI@NBB",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMkNVQko3SVZVT3hGb0tvZkVNUG1lSGpvYlFCYXoxczNyVTAybmpSNi1qS0xDVzd3UVpvU0E1Q0ZOS2Z1SXVkeGdDWWpGcV82QlUzc1BuNHhHNEdWQzN6ZzhtbktHeEo4OXFPclBRdmVmeS1mY3otYlNqTG1WUldkSW1aNC11QjdQNHI5dFVyRGQ?oc=5",
+     "name": "Gulf Daily News (Bahrain)"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T03:05:08+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-07"
+   }
+  },
   {
    "id": "c6d5639013d1",
    "bank_id": "enbd",

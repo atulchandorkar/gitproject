@@ -1,6 +1,56 @@
 {
- "updated_at": "2026-10-06T10:20:59+00:00",
+ "updated_at": "2026-10-07T03:06:58+00:00",
  "items": [
+  {
+   "id": "7aeb950c6feb",
+   "date": "2026-10-06",
+   "category": "Maturity & Rankings",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "JPMorgan ranked first globally for AI maturity in banking for consecutive years",
+   "summary": "JPMorgan Chase has topped a global AI banking index for multiple consecutive years. The ranking assesses the AI capabilities and maturity of banks worldwide.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Ia1Z4ZjlTVUJLclJMSUtVQlhYWnJ4Y2FySGJxbWRtUWotYU9nQTl2NzlMRFJEZEc0cHE0dURLcmRucW5HYkttcl8zRW93QXNpdW1OWkZmS2RBbV82aFc0MDNlbGlEa3dZT2lXQmlIb096RVVu?oc=5",
+   "source_name": "Quartz",
+   "source_title": "JPMorgan topped the global AI banking index for a fifth straight year",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Ia1Z4ZjlTVUJLclJMSUtVQlhYWnJ4Y2FySGJxbWRtUWotYU9nQTl2NzlMRFJEZEc0cHE0dURLcmRucW5HYkttcl8zRW93QXNpdW1OWkZmS2RBbV82aFc0MDNlbGlEa3dZT2lXQmlIb096RVVu?oc=5",
+     "name": "Quartz"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM3RRNjduT3V1andySy0xbmVZc09LemQwRDVTRXFQcjliVEZJMGhpQmtZd3VyLVcwTDIycFpTNXpwUDk4Q1l6VGNCOHhSNFBodS1acE9UbkFmaWV2UnlnSDd6czdxQUhRbUlLQW5zXzJLMFRpMWJ6ZjgwWnY0NjdNUnoybW1rdjlkVmtHcnNzWmhVV0tlNmhxMFN2RkRpdnpXblgzSFhObVVnX1ZmTWxwS1ZB?oc=5",
+     "name": "Bloomberg.com"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOUZvWmxpM0dtOEJqcDF4YllqVHg0Ql9ybUlWV0cyaHlsQ0JfbzEtN2hMelc5SGc2LUd3S0RmV0kweXZxRlVMUkZkNE1WVDUxQUt4MnotbnpFVURiU1NNWHR4VG44VzFvRlcxQ3AzTU5tM1FiSFhNQ3RZSUxrdk5OVDBUVHU4cGlaM0p6M1NCVnFkQWZQSlo5V2plQTlYemdhR3RKbg?oc=5",
+     "name": "Finextra Research"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T03:06:38+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-07"
+   },
+   "merged": [
+    {
+     "id": "20aed4676bb4",
+     "date": "2026-10-06",
+     "title": "JPMorgan Chase extends lead as world's most AI-advanced bank",
+     "source_title": "JPMorgan Chase extends lead as world's most AI-advanced bank",
+     "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOUZvWmxpM0dtOEJqcDF4YllqVHg0Ql9ybUlWV0cyaHlsQ0JfbzEtN2hMelc5SGc2LUd3S0RmV0kweXZxRlVMUkZkNE1WVDUxQUt4MnotbnpFVURiU1NNWHR4VG44VzFvRlcxQ3AzTU5tM1FiSFhNQ3RZSUxrdk5OVDBUVHU4cGlaM0p6M1NCVnFkQWZQSlo5V2plQTlYemdhR3RKbg?oc=5",
+     "source_name": "Finextra Research",
+     "summary": "JPMorgan Chase is recognized as the world's most AI-advanced bank according to Finextra Research. The bank extends its lead in AI maturity and deployment across financial services.",
+     "how": "ai",
+     "anchor": "JPMorgan Chase extends lead as world's most AI-advanced bank"
+    }
+   ],
+   "pdf_checked": "2026-10-07"
+  },
   {
    "id": "496a380f662f",
    "date": "2026-10-06",
@@ -29,6 +79,45 @@
     "checked": "2026-10-06"
    },
    "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "568950808958",
+   "date": "2026-10-06",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Norway's largest bank deploys AI to automate operations and reduce workforce",
+   "summary": "A major Norwegian bank implemented artificial intelligence systems that replaced over 400 staff positions. The case study demonstrates large-scale AI automation in banking operations.",
+   "key_stats": [
+    {
+     "value": "400+ employees",
+     "label": "staff positions automated",
+     "quote": "الذكاء الاصطناعي يحل محل أكثر من 400 موظف في أكبر بنك نرويجي"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNWWZfdXJlaHRBT1NRcHd5R0Jvay1mV1czQTFVcWNPMmNzQVRNcmZURElHdjIzM05MbU5KUmt2OGlhTmVfZnl1ZWFheHJXcEY3eXFsSWpFY2VrUFBZNU8yMXlTRzd2OExqYXlCcVg5Z0VTLVdNLUE2d1A0YW5lQVRNdWpER3ZkX1hjOXJabmVES1paYlR5MXg1UUlGY05oM0xUS3lNSkpwVkVUeHpydmlmV0dfWFhRbjlhbHM3R2pleTJ5bkdZRDBkVkMyT1N2SmV1OFZzRXpqMXRNN3ZVWksyZmMzOVVhUUtITDREbm4yUUhza0xKQXRRYU5hd3VYbWFNSk9CV1Y2eVA0YnVhUlNFMTV4cVdJenlRd1ZXbTdvNTJaekpsZm1kajNEbmk3Q3M4eGR0eHJzOWNJY1VGRk1hZ1d3?oc=5",
+   "source_name": "followict",
+   "source_title": "الذكاء الاصطناعي يحل محل أكثر من 400 موظف في أكبر بنك نرويجي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNWWZfdXJlaHRBT1NRcHd5R0Jvay1mV1czQTFVcWNPMmNzQVRNcmZURElHdjIzM05MbU5KUmt2OGlhTmVfZnl1ZWFheHJXcEY3eXFsSWpFY2VrUFBZNU8yMXlTRzd2OExqYXlCcVg5Z0VTLVdNLUE2d1A0YW5lQVRNdWpER3ZkX1hjOXJabmVES1paYlR5MXg1UUlGY05oM0xUS3lNSkpwVkVUeHpydmlmV0dfWFhRbjlhbHM3R2pleTJ5bkdZRDBkVkMyT1N2SmV1OFZzRXpqMXRNN3ZVWksyZmMzOVVhUUtITDREbm4yUUhza0xKQXRRYU5hd3VYbWFNSk9CV1Y2eVA0YnVhUlNFMTV4cVdJenlRd1ZXbTdvNTJaekpsZm1kajNEbmk3Q3M4eGR0eHJzOWNJY1VGRk1hZ1d3?oc=5",
+     "name": "followict"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaQjA5NmF4b1dZc1FjQ2Zhd2RmVGJfUmtNd3M5ZUU0bXBBb2NUeXdGUWh2R05lOG1pSDY2TVoyLUZIclMwdWE5aEFaMlhYX0NhZ1B2U2hQWm1wU1NsYVNyZ0VLMTBwYzFKZ2c?oc=5",
+     "name": "ارقام : اخبار ومعلومات سوق الأسهم السعودي - تاسي"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-06T10:20:46+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-07"
   },
   {
    "id": "2cb90a93bd54",
@@ -217,6 +306,39 @@
    "pdf_checked": "2026-10-06"
   },
   {
+   "id": "630de192c5a4",
+   "date": "2026-09-30",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "بنك إنجلترا يحذر من مخاطر ديون الذكاء الاصطناعي على الأسواق العالمية",
+   "summary": "The Bank of England has warned about risks posed by AI-related debt to global financial market stability. This highlights systemic concerns regulators have about AI's impact on financial system resilience.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE85TzRqUVNWYkdRVWxMTFpjblRmbHhMWUpxVjBBUXI2Z3NqR3BnRk1HXzVzZTB3cEt1bDFfR3BNRE9IMjJqeU9USw?oc=5",
+   "source_name": "Economy Plus -",
+   "source_title": "بنك إنجلترا يحذر من مخاطر ديون الذكاء الاصطناعي على الأسواق العالمية",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE85TzRqUVNWYkdRVWxMTFpjblRmbHhMWUpxVjBBUXI2Z3NqR3BnRk1HXzVzZTB3cEt1bDFfR3BNRE9IMjJqeU9USw?oc=5",
+     "name": "Economy Plus -"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5OeDRJbHBBaFJDdFFWNHhVZ0RVRDhleG5YX3hxSEgtSTVwLVRTdnhrcXUyRmxZWkpuSFJoWFl3LS15S3gtREtUZGQ0STg3enpLU0HSAVBBVV95cUxNcXppeWJqanQxS2pvRkFDN2J5U3dqc0JwRk9XUlhmT2RyWTRpcWZvV01fNmxkZ0pHNGJ3RGRGQ2YzVldEbF96OGphTXh4Z1VVaQ?oc=5",
+     "name": "المشهد العربي"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-07T03:06:38+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-07"
+   },
+   "pdf_checked": "2026-10-07"
+  },
+  {
    "id": "695b453e11d8",
    "date": "2026-09-30",
    "category": "Case Studies & Use Cases",
@@ -335,6 +457,14 @@
     {
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYlhqanBBT0VfSGpZTlFuenp5QmM2WGJFc2tOekV5SHdNZnRsdU4zdDY0eXFBalpoQ2ItaVdiSGp4cXlkNUc3SFhsZ2NUOHFlQ29yWmExclhtR182VzA1Ynd2cV92bHJaZEtKTWdfWHVVT0xrSm94dG44V2NEaXJfdkg3UURhX1pNWEN3ZDFaS0FoNjFXR0ttdVdYbEJ5ZWJYNE92QTZYcHJfb1Z3cVloM29PMA?oc=5",
      "name": "FF News"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcC05aGpneEliZTJNUzhaR2FiZDlHUVV2ckVHOVZMTF9vUEtWdWxWRDZKSEJmNlhubDBtTHI4dFh1SlhreU9LTFhpbFFwV3d0SkZRTDIxdS13UDhrWk5RV0wwbHROZzRDd3JJbnhEZ0NGZ1BGZWQ0WS01eVRPZHY0NnhQeDJQbkZNVFczTVJuVVJmYzk4X1lKOFBHOWZfY0c1aU05eWs3NENjelpYeWc?oc=5",
+     "name": "konsulteer.com"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcC05aGpneEliZTJNUzhaR2FiZDlHUVV2ckVHOVZMTF9vUEtWdWxWRDZKSEJmNlhubDBtTHI4dFh1SlhreU9LTFhpbFFwV3d0SkZRTDIxdS13UDhrWk5RV0wwbHROZzRDd3JJbnhEZ0NGZ1BGZWQ0WS01eVRPZHY0NnhQeDJQbkZNVFczTVJuVVJmYzk4X1lKOFBHOWZfY0c1aU05eWs3NENjelpYeWc?oc=5",
+     "name": "Konsulteer"
     }
    ],
    "language": "en",
@@ -344,7 +474,20 @@
     "evidence": "headline",
     "checked": "2026-10-06"
    },
-   "pdf_checked": "2026-10-06"
+   "pdf_checked": "2026-10-06",
+   "merged": [
+    {
+     "id": "6b489a8064a4",
+     "date": "2026-10-01",
+     "title": "Infosys deepens ABN AMRO partnership to embed AI across banking operations",
+     "source_title": "Infosys Deepens ABN AMRO Partnership to Embed AI Across Banking Operations",
+     "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcC05aGpneEliZTJNUzhaR2FiZDlHUVV2ckVHOVZMTF9vUEtWdWxWRDZKSEJmNlhubDBtTHI4dFh1SlhreU9LTFhpbFFwV3d0SkZRTDIxdS13UDhrWk5RV0wwbHROZzRDd3JJbnhEZ0NGZ1BGZWQ0WS01eVRPZHY0NnhQeDJQbkZNVFczTVJuVVJmYzk4X1lKOFBHOWZfY0c1aU05eWs3NENjelpYeWc?oc=5",
+     "source_name": "konsulteer.com",
+     "summary": "Dutch bank ABN AMRO partnered with Infosys to integrate AI throughout its operations. The deployment spans multiple banking functions to improve efficiency and decision-making.",
+     "how": "ai",
+     "anchor": "Infosys and ABN AMRO"
+    }
+   ]
   },
   {
    "id": "98714c94bf6e",
@@ -403,6 +546,45 @@
     "checked": "2026-10-05"
    },
    "pdf_checked": "2026-10-05"
+  },
+  {
+   "id": "1c11569344f8",
+   "date": "2026-09-23",
+   "category": "Market Data",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Report projects AI-enabled banking fraud to reach 2.2 billion transactions by 2031",
+   "summary": "A market analysis projects that AI-powered fraud attack methods will drive banking fraud to 2.2 billion transactions annually by 2031. The report highlights the escalating threat landscape as attackers leverage artificial intelligence capabilities.",
+   "key_stats": [
+    {
+     "value": "2.2 billion transactions",
+     "label": "Projected annual banking fraud by 2031",
+     "quote": "AI-enabled attacks to drive banking fraud to 2.2 billion transactions by 2031"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTzM1UXZJdlRXUFl5TG9mbDNQWGlkLVQtM3EtcUIxUlpnOEZrSjI2VjhINHBPR0MzUG9mRmpFMzZPN0FONkZmeFdPcWVoRkNibGtVQUl4SnYzMFRGbUprSklHbGx5eGdpZ09xelFFRm5OczRFSnpwZnl1ZThYU3BLbE1Ydm9CWVd1WE5fRVBPcXFQWmxhNkhtc3g3djhidHVfbU9IYUoxdEo4M0U?oc=5",
+   "source_name": "FutureCFO",
+   "source_title": "Report: AI-enabled attacks to drive banking fraud to 2.2 billion transactions by 2031",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTzM1UXZJdlRXUFl5TG9mbDNQWGlkLVQtM3EtcUIxUlpnOEZrSjI2VjhINHBPR0MzUG9mRmpFMzZPN0FONkZmeFdPcWVoRkNibGtVQUl4SnYzMFRGbUprSklHbGx5eGdpZ09xelFFRm5OczRFSnpwZnl1ZThYU3BLbE1Ydm9CWVd1WE5fRVBPcXFQWmxhNkhtc3g3djhidHVfbU9IYUoxdEo4M0U?oc=5",
+     "name": "FutureCFO"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVjF5MEZJTXJGaks3NUxFSEVOY1FaelIxTS1NVC1LQUQxZ2hDbnVoRFRvWVZSeWxSNFluYWtSanRDdEFkMnZZeFpRUGJ1YWRwcEwwWVBnSWs2VnloSU5HZzZiR1lESkJWdWprUzNsOVBsSVZiM1dfUllaSG1LMmNPNG1EYW5lYUhhXzNqTmJoY2FVb2J4OHZWelJjWTdxRGNjd0hLOGtSNlFEUV96S2pDZS1qSHZid2hWTHZUYUctRTNLelR2RWtFOWVWMzh6eGRkWFlBTS1TNTI5QlpVeW1zR3dGTU94QS12OHYzWmlNaEI1YnR4NDNwYw?oc=5",
+     "name": "GlobeNewswire"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-07"
   },
   {
    "id": "17d88b201db3",
@@ -523,6 +705,35 @@
     "checked": "2026-10-06"
    },
    "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "4cf444dc9247",
+   "date": "2026-08-25",
+   "category": "Case Studies & Use Cases",
+   "publisher": "Deutsche Bank",
+   "countries": [
+    "Global"
+   ],
+   "title": "Deutsche Bank helps shape Google Cloud's new AI solution for financial services",
+   "summary": "Deutsche Bank collaborated with Google Cloud to develop an AI solution designed for the financial services industry. The partnership demonstrates how major banks are co-creating specialized AI tools with technology providers.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQM3EzbG5BeWxuTkl5M2NjTmg1QWFQUVI4Q2NzN0VNa2stNS12OGMwOV9CMnc3UHhKUzRVQWpOaFQ1cHNYaEs0cDluaDJjVzN3bXhfRkgzUy1nMWY3TlVZbDlyM2RmemxQRFNoa05zNThWaDVuM1pEdGxyRHR2cTZCVHJEemFXRjZ5NENlWnc2dkJVMS1IWHFUOThGcXhVekF3WXplNk9FQ2VlamNIRTc3NXU1czVpY1dVcWVMV2M4Rk4xWm5SWGNwUG9tZDlWZw?oc=5",
+   "source_name": "Deutsche Bank AG",
+   "source_title": "Deutsche Bank helps shape Google Cloud’s new AI solution for financial services",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQM3EzbG5BeWxuTkl5M2NjTmg1QWFQUVI4Q2NzN0VNa2stNS12OGMwOV9CMnc3UHhKUzRVQWpOaFQ1cHNYaEs0cDluaDJjVzN3bXhfRkgzUy1nMWY3TlVZbDlyM2RmemxQRFNoa05zNThWaDVuM1pEdGxyRHR2cTZCVHJEemFXRjZ5NENlWnc2dkJVMS1IWHFUOThGcXhVekF3WXplNk9FQ2VlamNIRTc3NXU1czVpY1dVcWVMV2M4Rk4xWm5SWGNwUG9tZDlWZw?oc=5",
+     "name": "Deutsche Bank AG"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-07"
   },
   {
    "id": "9c7a41143bcb",
@@ -1001,6 +1212,39 @@
     "checked": "2026-10-05"
    },
    "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "a21a6eb52771",
+   "date": "2026-07-09",
+   "category": "Expert Views",
+   "publisher": "Wavestone",
+   "countries": [
+    "Global"
+   ],
+   "title": "Agentic AI in financial services",
+   "summary": "Wavestone analyzes agentic AI applications and implications for financial services. The report examines autonomous AI systems reshaping banking operations and strategy.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9VdDluYkxWQ3dIMDE3U1p6N2xDUmpIdVhIYmZGZFFlQnByUjhiNnhMeDdCM1Q1YUZsWFFYeWc0UkVMZF9uemtuRkJVeFEwU3BtaEFnZXV6cW8yWDdCLWFCekpGaWs3NXNHb3Q1djA1eW10RkMxT2hPaHRzY0Q?oc=5",
+   "source_name": "Wavestone",
+   "source_title": "Agentic AI in Financial Services",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9VdDluYkxWQ3dIMDE3U1p6N2xDUmpIdVhIYmZGZFFlQnByUjhiNnhMeDdCM1Q1YUZsWFFYeWc0UkVMZF9uemtuRkJVeFEwU3BtaEFnZXV6cW8yWDdCLWFCekpGaWs3NXNHb3Q1djA1eW10RkMxT2hPaHRzY0Q?oc=5",
+     "name": "Wavestone"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ2hpa2l1SXNrdDVacDhXYU92QnA2dEUyQmFqdTdLSVFsSjdMajFOQVpHdmZkSXNBbklHUktUelVyR0NVWGVKdkFrVXpIQkpzUWVkWEV2OVNGYnNESlkwUGJtODlnZHZQSFJMekdMWm8zcC11SmZTUVFLdUZTTzhOR0trYTB3RWxfZGN1TUpCc1FJdTl4NVpxbEhsbFVJQkpQ?oc=5",
+     "name": "Capgemini"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-07"
   },
   {
    "id": "6f9e20cdf0a9",
@@ -3014,6 +3258,39 @@
    "pdf_checked": "2026-10-06"
   },
   {
+   "id": "37b86d3536ee",
+   "date": "2025-11-20",
+   "category": "Regulation & Guidance",
+   "publisher": "European Banking Authority",
+   "countries": [
+    "Global"
+   ],
+   "title": "Banking supervisor guidance on AI impact for credit scoring and fraud detection",
+   "summary": "European banking supervisors provide guidance on AI's impact and use cases in credit scoring and fraud detection operations. The regulatory guidance addresses implementation considerations and supervisory expectations.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZXduZG5ReWQtbHQwNnVfYy1NWU8yY2RWUHpGc1c0RHhveWcyLW1saTRNWHNQdE9sS3pHSkhUR09KQTQ4OTZwcTRMRzFiSkxQTTZzTWFxbWhIeUdSMnRMbjhrWERhbzI3WWZHUjNfWk9ILTFodEJXVWFVMllvbnljUGdWQ0FNcnh0VE1TeFlFdXBsT2hpSDl5ZkJpMEc0S1BRS3k5Y3dJdGxCcEZ2VlpxVUdLdVo?oc=5",
+   "source_name": "bankingsupervision.europa.eu",
+   "source_title": "AI’s impact on banking: use cases for credit scoring and fraud detection",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZXduZG5ReWQtbHQwNnVfYy1NWU8yY2RWUHpGc1c0RHhveWcyLW1saTRNWHNQdE9sS3pHSkhUR09KQTQ4OTZwcTRMRzFiSkxQTTZzTWFxbWhIeUdSMnRMbjhrWERhbzI3WWZHUjNfWk9ILTFodEJXVWFVMllvbnljUGdWQ0FNcnh0VE1TeFlFdXBsT2hpSDl5ZkJpMEc0S1BRS3k5Y3dJdGxCcEZ2VlpxVUdLdVo?oc=5",
+     "name": "bankingsupervision.europa.eu"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZXduZG5ReWQtbHQwNnVfYy1NWU8yY2RWUHpGc1c0RHhveWcyLW1saTRNWHNQdE9sS3pHSkhUR09KQTQ4OTZwcTRMRzFiSkxQTTZzTWFxbWhIeUdSMnRMbjhrWERhbzI3WWZHUjNfWk9ILTFodEJXVWFVMllvbnljUGdWQ0FNcnh0VE1TeFlFdXBsT2hpSDl5ZkJpMEc0S1BRS3k5Y3dJdGxCcEZ2VlpxVUdLdVo?oc=5",
+     "name": "ECB Banking Supervision"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-07"
+  },
+  {
    "id": "2f2ad0f1cd8b",
    "date": "2025-11-18",
    "category": "Studies & Surveys",
@@ -3185,6 +3462,41 @@
     "checked": "2026-10-06"
    },
    "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "7733bd0d0ecf",
+   "date": "2025-11-05",
+   "category": "Expert Views",
+   "publisher": "Fortune",
+   "countries": [
+    "Global"
+   ],
+   "title": "Bank of America increases annual technology spending with focus on larger AI initiatives",
+   "summary": "Bank of America has prioritized bigger AI initiatives as part of a 44% increase in annual technology spending over the past decade. The bank's investment strategy reflects broader industry trends toward larger-scale artificial intelligence deployments.",
+   "key_stats": [
+    {
+     "value": "44%",
+     "label": "Increase in Bank of America annual technology spending over past decade",
+     "quote": "annual spending on new tech increased by 44% over the past decade"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOU21lQjIwRjNlVE1CQjRJZTRLZDZQRXMwcy0weklJUkNaZFJRdWRlRlhhbDJmNWFDcXJqSVRkSFBfMWhIbGRLRnBYZEJQaTFITWtZNEpsenRRZ1dQNkhaYm41elp3U3NXRzNzZDRjNVNkQUFvbnl2dUtLVTBnNWp0clhKWnM5U1kzdVNtNExja2NIdWNuN25JMHdiVGlPS1lrQmw0bmtwVVdWTUxTTFJJSHM4M0NjT1B4MEctTEhNUlBNSnNYN1dmSE5RSmp5cEc3YTJmUXZ5MTFRVm9URzNOdEtLYw?oc=5",
+   "source_name": "Fortune",
+   "source_title": "Bank of America prioritizes bigger AI initiatives, as annual spending on new tech increased by 44% over the past decade",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOU21lQjIwRjNlVE1CQjRJZTRLZDZQRXMwcy0weklJUkNaZFJRdWRlRlhhbDJmNWFDcXJqSVRkSFBfMWhIbGRLRnBYZEJQaTFITWtZNEpsenRRZ1dQNkhaYm41elp3U3NXRzNzZDRjNVNkQUFvbnl2dUtLVTBnNWp0clhKWnM5U1kzdVNtNExja2NIdWNuN25JMHdiVGlPS1lrQmw0bmtwVVdWTUxTTFJJSHM4M0NjT1B4MEctTEhNUlBNSnNYN1dmSE5RSmp5cEc3YTJmUXZ5MTFRVm9URzNOdEtLYw?oc=5",
+     "name": "Fortune"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-07"
   },
   {
    "id": "4523eb94cc50",
@@ -3485,6 +3797,35 @@
     "checked": "2026-10-06"
    },
    "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "a00d7d3906c5",
+   "date": "2025-10-15",
+   "category": "Regulation & Guidance",
+   "publisher": "Bank of England",
+   "countries": [
+    "Global"
+   ],
+   "title": "Central bank's approach to innovation in artificial intelligence, distributed ledger technology, and quantum computing",
+   "summary": "Bank of England outlines its approach to innovation in AI, distributed ledger technology, and quantum computing. The guidance sets regulatory perspective on emerging technology adoption.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORkN6ZGpmRDBqSFdRQ3BzTjQ5MnkyLVNsNTlkbk1rSmVFc0QwWVkyLUxqcTA0OTNNTGY2UnZCbWlQTnZuV0JKYmI0NVNLN2FLRjU0X296Q0tvazRwVkk5UTFoVm5mUDN4RTN2aW83ZTdWUHlNNy1SME8tNFFvNmhGNmxILUdYeFdoZTFpYWcwdlhRdTRnWjFpcHMyV0s4V3gzczVpWlhn?oc=5",
+   "source_name": "Bank of England",
+   "source_title": "The Bank of England’s approach to innovation in artificial intelligence, distributed ledger technology, and quantum computing",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORkN6ZGpmRDBqSFdRQ3BzTjQ5MnkyLVNsNTlkbk1rSmVFc0QwWVkyLUxqcTA0OTNNTGY2UnZCbWlQTnZuV0JKYmI0NVNLN2FLRjU0X296Q0tvazRwVkk5UTFoVm5mUDN4RTN2aW83ZTdWUHlNNy1SME8tNFFvNmhGNmxILUdYeFdoZTFpYWcwdlhRdTRnWjFpcHMyV0s4V3gzczVpWlhn?oc=5",
+     "name": "Bank of England"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-07"
   },
   {
    "id": "0073aa9a6c99",

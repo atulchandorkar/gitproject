@@ -1,0 +1,607 @@
+{
+ "pub-abn-amro": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-abn-amro.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/ABN_AMRO_logo.svg?width=256"
+ },
+ "pub-abu-dhabi-global-market": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-abu-dhabi-global-market.gif",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Abu_Dhabi_Global_Market_logo.gif?width=256"
+ },
+ "pub-accenture": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-accenture.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Accenture.svg?width=256"
+ },
+ "pub-al-jazeera": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-al-jazeera.ico",
+  "source": "https://www.aljazeera.net/favicon_aja.ico"
+ },
+ "pub-amazon-web-services": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-amazon-web-services.png",
+  "source": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-iphone-114-smile.png"
+ },
+ "pub-american-banker": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-american-banker.png",
+  "source": "https://www.americanbanker.com/apple-touch-icon.png"
+ },
+ "pub-anthropic": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-anthropic.png",
+  "source": "https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/67d31dd7aa394792257596c5_webclip.png"
+ },
+ "pub-arab-monetary-fund": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-arab-monetary-fund.ico",
+  "source": "https://www.amf.org.ae/themes/amf9/amf9theme/favicon.ico"
+ },
+ "pub-arabian-business": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-arabian-business.png",
+  "source": "https://www.google.com/s2/favicons?domain=arabianbusiness.com&sz=256"
+ },
+ "pub-arthur-d-little": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-arthur-d-little.jpg",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Arthur_D._Little_Logo_2021.jpg?width=256"
+ },
+ "pub-asian-banking-and-finance": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-asian-banking-and-finance.png",
+  "source": "https://www.cmgassets.com/s3fs-public/styles/thumbnail/public/2024-09/sap-logo.png?itok=vzYpNxV0"
+ },
+ "pub-bain-company": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-bain-company.png",
+  "source": "https://www.bain.com/Static/images/icons/apple-touch-icon-114x114-precomposed.png"
+ },
+ "pub-banco-do-brasil": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-banco-do-brasil.png",
+  "source": "https://www.google.com/s2/favicons?domain=bb.com.br&sz=256"
+ },
+ "pub-bank-for-international-settlements": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-bank-for-international-settlements.ico",
+  "source": "https://www.bis.org/themes/custom/bis/favicon.ico"
+ },
+ "pub-bank-of-america": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-bank-of-america.png",
+  "source": "https://www.bankofamerica.com/homepage/spa-assets/images/assets-images-global-favicon-apple-touch-icon-CSX889b28c.png"
+ },
+ "pub-bank-of-england": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-bank-of-england.png",
+  "source": "https://www.bankofengland.co.uk/apple-touch-icon.png?ver=98f91"
+ },
+ "pub-barclays": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-barclays.png",
+  "source": "https://home.barclays/content/dam/icons/favicons/barclays/apple-touch-icon-180x180.png"
+ },
+ "pub-bbva": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-bbva.ico",
+  "source": "https://www.bbva.com/wp-content/themes/coronita-bbvacom/assets/images/comun/favicon.ico"
+ },
+ "pub-bloomberg": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-bloomberg.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Bloomberg_News_logo.svg?width=256"
+ },
+ "pub-bnp-paribas": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-bnp-paribas.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/BNP_Paribas.svg?width=256"
+ },
+ "pub-boston-consulting-group": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-boston-consulting-group.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/BCG_Corporate_Logo.svg?width=256"
+ },
+ "pub-brand-finance": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-brand-finance.png",
+  "source": "https://static.brandfinance.com/wp-content/uploads/2020/07/BF_COA_ICON_BLUE_RGB_square.png"
+ },
+ "pub-business-wire": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-business-wire.png",
+  "source": "https://www.google.com/s2/favicons?domain=businesswire.com&sz=256"
+ },
+ "pub-capgemini": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-capgemini.png",
+  "source": "https://www.capgemini.com/wp-content/uploads/2025/10/cropped-Capgemini_spade_32x32.png?w=180"
+ },
+ "pub-cb-insights": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-cb-insights.png",
+  "source": "https://www.cbinsights.com/favicon.png"
+ },
+ "pub-celent": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-celent.png",
+  "source": "https://www.celent.com/img/apple-touch-icon.png"
+ },
+ "pub-centre-for-economic-policy-research": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-centre-for-economic-policy-research.png",
+  "source": "https://cepr.org/themes/custom/cepr/assets/favicon/apple-touch-icon.png?v=1"
+ },
+ "pub-citi": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-citi.png",
+  "source": "https://www.citigroup.com/global/citigroup-ui/akpublic/images/gpa_favicon.ico"
+ },
+ "pub-cognizant": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-cognizant.png",
+  "source": "https://www.cognizant.com/content/dam/cognizant-dot-com/favicon/default-favicon/120x120.png"
+ },
+ "pub-commonwealth-bank": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-commonwealth-bank.png",
+  "source": "https://www.commbank.com.au/apple-touch-icon.png"
+ },
+ "pub-computer-weekly": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-computer-weekly.png",
+  "source": "https://www.computerweekly.com/apple-touch-icon-144x144.png"
+ },
+ "pub-connectone-bank": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-connectone-bank.webp",
+  "source": "https://cdn.prod.website-files.com/6645c05fc60bab424a196a46/665f569025469db9a0c68418_cob-webclip.webp"
+ },
+ "pub-dbs-bank": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-dbs-bank.ico",
+  "source": "https://www.dbs.com/group/_next/public/favicon.ico"
+ },
+ "pub-deloitte": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-deloitte.ico",
+  "source": "https://www.deloitte.com/content/dam/assets-shared/icons/us/favicon.ico"
+ },
+ "pub-dentons": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-dentons.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Dentons_Logo_Purple_RGB_150.png?width=256"
+ },
+ "pub-deutsche-bank": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-deutsche-bank.png",
+  "source": "https://prod2.master.dwebcms.db.com/application/themes/default/favicon/apple-touch-icon.png"
+ },
+ "pub-dubai-international-financial-centre": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-dubai-international-financial-centre.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/DIFC_logo.png?width=256"
+ },
+ "pub-emerj-artificial-intelligence-research": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-emerj-artificial-intelligence-research.png",
+  "source": "https://emerj.com/wp-content/uploads/2025/02/cropped-apple-touch-icon-180x180.png"
+ },
+ "pub-emirates-institute-of-finance": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-emirates-institute-of-finance.png",
+  "source": "https://eif.gov.ae/wp-content/uploads/2023/03/cropped-EIF-Logo-Copy-180x180.png"
+ },
+ "pub-european-banking-authority": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-european-banking-authority.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/European_Banking_Authority_logo_2023.svg?width=256"
+ },
+ "pub-european-central-bank": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-european-central-bank.png",
+  "source": "https://www.ecb.europa.eu/favicon-152.png"
+ },
+ "pub-everest-group": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-everest-group.svg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/7/71/Everest_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original"
+ },
+ "pub-evident": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-evident.ico",
+  "source": "https://evidentinsights.com/favicondark.ico"
+ },
+ "pub-express-computer": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-express-computer.ico",
+  "source": "https://cdn1.expresscomputer.in/wp-content/uploads/2018/11/20124906/ecfavicon57.ico"
+ },
+ "pub-ey": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-ey.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/EY_logo_2019.svg?width=256"
+ },
+ "pub-federal-reserve": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-federal-reserve.svg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Seal_of_the_United_States_Federal_Reserve_System.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original"
+ },
+ "pub-ff-news": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-ff-news.png",
+  "source": "https://ffnews.com/favicon-ffnews-180.png"
+ },
+ "pub-financial-conduct-authority": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-financial-conduct-authority.png",
+  "source": "https://www.fca.org.uk/themes/custom/fca/images/logo.png"
+ },
+ "pub-financial-stability-board": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-financial-stability-board.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Financial_Stability_Board_logo.svg?width=256"
+ },
+ "pub-financial-times": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-financial-times.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Financial_Times_corporate_logo_%28no_background%29.svg?width=256"
+ },
+ "pub-finastra": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-finastra.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Finastra_Logo_2024.png?width=256"
+ },
+ "pub-finextra-research": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-finextra-research.jpg",
+  "source": "https://www.google.com/s2/favicons?domain=finextra.com&sz=256"
+ },
+ "pub-fitch-ratings": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-fitch-ratings.png",
+  "source": "https://www.fitchratings.com/icons/icon-512x512.png?v=b699907ea1d10d61f36bdbb9f4d8a203"
+ },
+ "pub-forbes-middle-east": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-forbes-middle-east.png",
+  "source": "https://www.forbesmiddleeast.com/images/8c39779b8a6abda8731e8d2ab94e288f-favicon.png"
+ },
+ "pub-forrester": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-forrester.png",
+  "source": "https://go.forrester.com/wp-content/uploads/2021/10/cropped-icon_512.c2nfSw_xZ0-300x300.png"
+ },
+ "pub-fortune": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-fortune.png",
+  "source": "https://www.fortune.com/apple-touch-icon.png"
+ },
+ "pub-gartner": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-gartner.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Gartner_logo.svg?width=256"
+ },
+ "pub-genpact": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-genpact.png",
+  "source": "https://www.genpact.com/etc.clientlibs/genpact/clientlibs/clientlib-site/resources/icon-192x192.png"
+ },
+ "pub-global-finance": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-global-finance.png",
+  "source": "https://s44650.pcdn.co/wp-content/uploads/2023/08/favicon.png"
+ },
+ "pub-goldman-sachs": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-goldman-sachs.png",
+  "source": "https://cdn.gs.com/images/goldman-sachs/v2/gs-favicon-180.png"
+ },
+ "pub-google-cloud": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-google-cloud.png",
+  "source": "https://www.gstatic.com/cgc/super_cloud_gradient.png"
+ },
+ "pub-gulf-news": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-gulf-news.png",
+  "source": "https://assets.gulfnews.com/gn_favicon_180x180.png"
+ },
+ "pub-hcltech": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-hcltech.ico",
+  "source": "https://www.hcltech.com/themes/custom/hcltech/hcltech.ico"
+ },
+ "pub-hong-kong-monetary-authority": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-hong-kong-monetary-authority.jpg",
+  "source": "https://www.hkma.gov.hk/favicon.jpg"
+ },
+ "pub-hsbc": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-hsbc.png",
+  "source": "https://www.hsbc.com/apple-touch-icon.png"
+ },
+ "pub-ibm": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-ibm.png",
+  "source": "https://www.ibm.com/content/dam/adobe-cms/default-images/apple-touch-icon-57x57.png"
+ },
+ "pub-ibs-intelligence": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-ibs-intelligence.jpg",
+  "source": "https://www.google.com/s2/favicons?domain=ibsintelligence.com&sz=256"
+ },
+ "pub-idc": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-idc.png",
+  "source": "https://www.idc.com/wp-content/uploads/2025/01/cropped-favicon.png?w=180"
+ },
+ "pub-infosys": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-infosys.png",
+  "source": "https://www.google.com/s2/favicons?domain=infosys.com&sz=256"
+ },
+ "pub-ing": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-ing.ico",
+  "source": "https://ing.com/webfiles/1788951119972/images/favicon.ico"
+ },
+ "pub-international-monetary-fund": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-international-monetary-fund.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/IMF-Seal_ENG_RGB.svg?width=256"
+ },
+ "pub-islamic-development-bank": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-islamic-development-bank.png",
+  "source": "https://www.isdb.org/apple-touch-icon.png"
+ },
+ "pub-ita-unibanco": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-ita-unibanco.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Ita%C3%BA_Unibanco_logo_2023.svg?width=256"
+ },
+ "pub-jpmorgan-chase": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-jpmorgan-chase.png",
+  "source": "https://www.jpmorganchase.com/etc.clientlibs/cws/clientlibs/clientlib-base/resources/jpmc/images/jpmc-favicon-57.png"
+ },
+ "pub-juniper-research": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-juniper-research.svg",
+  "source": "https://www.juniperresearch.com/media/ajlfdw0f/logo.svg"
+ },
+ "pub-kearney": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-kearney.png",
+  "source": "https://www.kearney.com/o/atk-dot-com-theme/images/favicon.ico"
+ },
+ "pub-khaleej-times": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-khaleej-times.svg",
+  "source": "https://images.assettype.com/khaleejtimes-english/2026-03-06/ac2101vo/logo.svg"
+ },
+ "pub-kpmg": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-kpmg.png",
+  "source": "https://kpmg.com/etc.clientlibs/kpmg/clientlibs/clientlib-site/resources/images/favicons/apple-touch-icon-180x180.png"
+ },
+ "pub-lhv-bank": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-lhv-bank.ico",
+  "source": "https://www.lhv.ee/favicon.ico"
+ },
+ "pub-lloyds-banking-group": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-lloyds-banking-group.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Lloyds_2024_wordmark.svg?width=256"
+ },
+ "pub-mastercard": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-mastercard.png",
+  "source": "https://www.mastercard.com/etc.clientlibs/marts/clientlibs/clientlib-site/resources/icons/mastercard-apple-touch-icon.png"
+ },
+ "pub-mckinsey-company": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-mckinsey-company.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/McKinsey_Script_Mark_2019.svg?width=256"
+ },
+ "pub-microsoft": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-microsoft.ico",
+  "source": "https://www.microsoft.com/favicon.ico?v2"
+ },
+ "pub-monetary-authority-of-singapore": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-monetary-authority-of-singapore.png",
+  "source": "https://www.mas.gov.sg/html/site/_favicon/apple-touch-icon.png"
+ },
+ "pub-moody-s": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-moody-s.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Moody%27s_new_logo.png?width=256"
+ },
+ "pub-morgan-stanley": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-morgan-stanley.png",
+  "source": "https://www.morganstanley.com/etc.clientlibs/msdotcomr4/clientlibs/components/site/resources/img/favicon-196x196.png"
+ },
+ "pub-natwest": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-natwest.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Natwest_2014_logo.svg?width=256"
+ },
+ "pub-nubank": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-nubank.ico",
+  "source": "https://nubank.com.br/favicon.ico"
+ },
+ "pub-nvidia": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-nvidia.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/NVIDIA_logo.svg?width=256"
+ },
+ "pub-oecd": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-oecd.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/OECD_logo.svg?width=256"
+ },
+ "pub-oliver-wyman": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-oliver-wyman.jpg",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/OliverWyman-logo-2021.jpg?width=256"
+ },
+ "pub-openai": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-openai.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/OpenAI_Blossom_and_wordmark_combination_2025.svg?width=256"
+ },
+ "pub-oracle": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-oracle.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Oracle_logo.svg?width=256"
+ },
+ "pub-pr-newswire": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-pr-newswire.png",
+  "source": "https://www.prnewswire.com/content/dam/prnewswire/miscellaneous/martech-logo.png"
+ },
+ "pub-pwc-middle-east": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-pwc-middle-east.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/PricewaterhouseCoopers.svg?width=256"
+ },
+ "pub-qatar-financial-centre": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-qatar-financial-centre.jpg",
+  "source": "https://www.qfc.qa/media/wovlahpa/favicon.jpg"
+ },
+ "pub-reuters": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-reuters.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Reuters_logo.svg?width=256"
+ },
+ "pub-revolut": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-revolut.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Revolut_logo.svg?width=256"
+ },
+ "pub-roland-berger": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-roland-berger.png",
+  "source": "https://www.rolandberger.com/apple-touch-icon.png"
+ },
+ "pub-s-p-global": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-s-p-global.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/McGraw-Hill_wordmark.svg?width=256"
+ },
+ "pub-salesforce": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-salesforce.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Salesforce.com_logo.svg?width=256"
+ },
+ "pub-santander": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-santander.png",
+  "source": "https://www.santander.com/content/dam/santander-com/resources/favicon/apple-touch-icon.png"
+ },
+ "pub-sas": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-sas.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Scandinavian_Airlines_logo.svg?width=256"
+ },
+ "pub-servicenow": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-servicenow.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/ServiceNow_logo.svg?width=256"
+ },
+ "pub-standard-chartered": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-standard-chartered.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Standard_Chartered.png?width=256"
+ },
+ "pub-strategy": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-strategy.png",
+  "source": "https://www.strategyand.pwc.com/content/pwc/script/network/apple-touch-icon.png"
+ },
+ "pub-tata-consultancy-services": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-tata-consultancy-services.jpg",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/TCS_Logo_%28cropped%29.jpg?width=256"
+ },
+ "pub-temenos": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-temenos.png",
+  "source": "https://www.temenos.com/wp-content/uploads/2025/04/favicon.png"
+ },
+ "pub-the-asian-banker": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-the-asian-banker.png",
+  "source": "https://www.theasianbanker.com/uploads/images/tab-global-logo-1.png"
+ },
+ "pub-the-banker": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-the-banker.png",
+  "source": "https://www.google.com/s2/favicons?domain=thebanker.com&sz=256"
+ },
+ "pub-the-national": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-the-national.jpg",
+  "source": "https://www.thenationalnews.com/pf/resources/favicon.jpeg?d=1167"
+ },
+ "pub-times-of-india": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-times-of-india.ico",
+  "source": "https://timesofindia.indiatimes.com/icons/toifavicon.ico"
+ },
+ "pub-ubs": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-ubs.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/UBS_Logo.png?width=256"
+ },
+ "pub-uk-government": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-uk-government.png",
+  "source": "https://www.gov.uk/assets/frontend/govuk-icon-180-d45a306f0549414cfa5085f16e4a3816a77558b139e5bc226f23162d1d0decb0.png"
+ },
+ "pub-union-of-arab-banks": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-union-of-arab-banks.jpg",
+  "source": "https://uabonline.org/wp-content/uploads/2024/03/uab-logo-2.jpg"
+ },
+ "pub-visa": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-visa.ico",
+  "source": "https://www.visa.com/vcom-assets/content/dam/visa/favicon.ico"
+ },
+ "pub-wells-fargo": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-wells-fargo.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Wells_Fargo_Logo_%282020%29.svg?width=256"
+ },
+ "pub-wipro": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-wipro.png",
+  "source": "https://www.wipro.com/content/dam/nexus/en/images/wipro_logo.png"
+ },
+ "pub-world-bank": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-world-bank.png",
+  "source": "https://www.worldbank.org/content/dam/wbr-redesign/logos/wbg-favicon.png"
+ },
+ "pub-world-economic-forum": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-world-economic-forum.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/World_Economic_Forum_logo.svg?width=256"
+ },
+ "pub-zawya": {
+  "checked": "2026-10-07",
+  "file": "logos/pub-zawya.png",
+  "source": "https://assets.zawya.com/prod/assets/favicon-180x180.07463bd2.png"
+ }
+}
