@@ -441,3 +441,10 @@ h1, h2, h3 { line-height: 1.2; margin: 0; }
   .news-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .tl-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
+
+/* Header tiles are buttons */
+button.kpi { font: inherit; color: inherit; cursor: pointer; transition: border-color .15s, box-shadow .15s, transform .1s; }
+button.kpi:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(11,27,63,.12); }
+button.kpi:active { transform: scale(.97); }
+button.kpi:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+button.kpi[aria-pressed="true"] { border-color: var(--accent); background: #fffaeb; }

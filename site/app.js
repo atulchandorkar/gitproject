@@ -395,9 +395,10 @@
       const banksActive = new Set(list.map((i) => i.bank_id)).size;
       const last30 = list.filter((i) => i.date >= isoDaysAgo(30)).length;
       const countries = new Set(list.map((i) => i.country)).size;
-      $("#heroKpis").innerHTML = [["news", list.length.toLocaleString(), "AI news"], ["bank", banksActive, "banks"],
-        ["globe", countries, "countries"], ["bolt", last30, "last 30 days"]]
-        .map(([k, v, l]) => `<div class="kpi">${icon(k)}<b>${v}</b><span>${l}</span></div>`).join("");
+      $("#heroKpis").innerHTML = [["news", list.length.toLocaleString(), "AI news", "list", "Show the news list"],
+        ["bank", banksActive, "banks", "banks", "Open the Banks page"], ["globe", countries, "countries", "countries", "Open the Countries page"],
+        ["bolt", last30, "last 30 days", "30d", "Show the last 30 days"]]
+        .map(([k, v, l, act, tip]) => `<button class="kpi" data-kpi="${act}" title="${tip}" aria-pressed="${act === "30d" && st.period === "30d"}">${icon(k)}<b>${v}</b><span>${l}</span></button>`).join("");
       $("#resCount").textContent = list.length ? `Showing ${Math.min(shown, list.length)} of ${plural(list.length, "item")}` : "";
       $("#clearBtn").hidden = !(st.country || st.bank || st.cat || st.q || st.period !== "all");
       $("#feedList").innerHTML = list.length ? list.slice(0, shown).map((i) => newsCard(i)).join("") : emptyState();
@@ -441,6 +442,15 @@
     $("#fbank").onclick = pickBank;
     $("#fcat").onchange = (e) => { st.cat = e.target.value; update(); };
     $("#fperiod").onchange = (e) => { st.period = e.target.value; update(); };
+    $("#heroKpis").addEventListener("click", (e) => {
+      const x = e.target.closest("[data-kpi]"); if (!x) return;
+      const act = x.dataset.kpi;
+      if (act === "banks") { location.hash = st.country ? `#/banks?country=${st.country}` : "#/banks"; return; }
+      if (act === "countries") { location.hash = st.country ? `#/country/${st.country}` : "#/countries"; return; }
+      if (act === "30d") { st.period = st.period === "30d" ? "all" : "30d"; $("#fperiod").value = st.period; }
+      showView("");
+      document.querySelector("#newsPane").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
     let t; $("#fq").oninput = (e) => { clearTimeout(t); t = setTimeout(() => { st.q = e.target.value; update(); }, 180); };
     $("#clearBtn").onclick = () => { location.hash = "#/"; };
     fillBanks(); update();
@@ -705,12 +715,10 @@
       const list = base.filter((i) => !st.cat || i.category === st.cat);
       last = list;
       const figures = list.flatMap((i) => (i.key_stats || []).map((k) => ({ ...k, i })));
-      $("#secKpis").innerHTML = [["news", list.length, "insights"], ["bank", new Set(list.map(pubShort).filter(Boolean)).size, "publishers"],
-        ["bolt", figures.length, "key figures"], ["star", list.filter(isGCC).length, "GCC items"]]
-        .map(([k, v, l]) => k === "star"
-          ? `<button class="kpi kpi-gcc" id="kpiGcc" aria-label="Show GCC items only">${icon(k)}<b>${v}</b><span>${l}</span></button>`
-          : `<div class="kpi">${icon(k)}<b>${v}</b><span>${l}</span></div>`).join("");
-      $("#kpiGcc").onclick = () => setRegion("GCCALL");
+      $("#secKpis").innerHTML = [["news", list.length, "insights", "list", "Show the insights list"],
+        ["bank", new Set(list.map(pubShort).filter(Boolean)).size, "publishers", "pubs", "Show the publishers chart"],
+        ["bolt", figures.length, "key figures", "figures", "Show the key figures"], ["star", list.filter(isGCC).length, "GCC items", "gcc", "Show GCC items only"]]
+        .map(([k, v, l, act, tip]) => `<button class="kpi${act === "gcc" ? " kpi-gcc" : ""}" data-kpi="${act}" title="${tip}">${icon(k)}<b>${v}</b><span>${l}</span></button>`).join("");
       // All · Global · GCC switch, counted on everything except the region itself
       const others = all.filter((i) => (!st.pub || pubShort(i) === st.pub) && (!st.cat || i.category === st.cat));
       const reg = st.country === "GCCALL" ? "GCCALL" : st.country === "Global" ? "Global" : st.country ? "x" : "";
@@ -755,6 +763,12 @@
     $("#scountry").onchange = (e) => { st.country = e.target.value; update(); };
     const setRegion = (v) => { st.country = v; $("#scountry").value = v; showView(""); };
     $("#regionSwitch").addEventListener("click", (e) => { const x = e.target.closest("[data-region]"); if (x) setRegion(x.dataset.region); });
+    $("#secKpis").addEventListener("click", (e) => {
+      const x = e.target.closest("[data-kpi]"); if (!x) return;
+      const go = (sel) => { const el = document.querySelector(sel); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); };
+      ({ list: () => { showView(""); go("#secList"); }, pubs: () => { showView("charts"); go("#secPubBars"); },
+         figures: () => go("#statRailWrap"), gcc: () => { setRegion("GCCALL"); go("#secList"); } })[x.dataset.kpi]();
+    });
     $("#spub").onchange = (e) => { st.pub = e.target.value; update(); };
     $("#scat").onchange = (e) => { st.cat = e.target.value; update(); };
     let t; $("#sq").oninput = (e) => { clearTimeout(t); t = setTimeout(() => { st.q = e.target.value; update(); }, 180); };
