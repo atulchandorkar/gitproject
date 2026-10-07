@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-07T12:48:20+00:00",
+ "updated_at": "2026-10-07T15:58:10+00:00",
  "items": [
   {
    "id": "38abf2dd9df2",
@@ -16268,6 +16268,814 @@
     "url": "https://www.nbk.com/dam/jcr:374076fd-2bb1-4b60-ad6a-df7fae2d25ae/nbk-annual-report-2024-e.pdf",
     "page": 28,
     "quote": "NBK is also exploring AI solutions to add value for both customers and the Bank, ensuring continuous innovation and adapting to the evolving digital landscape."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "6c5dda5831b3",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB AI Strategy with Five Strategic Pillars",
+   "summary": "ADCB has developed a comprehensive AI strategy centered around five pillars: profitability, hyper-personalised customer experience, data-first culture, agility and innovation, and creating an integrated banking ecosystem. The strategy is guided by four implementation priorities: Technology & data, Operating model & talent, Responsible AI, and Partnerships and ecosystems.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "Strategy",
+    "Governance",
+    "Framework"
+   ],
+   "partners": [],
+   "impact": "More than 30 AI use cases introduced in 2024, with more in the pipeline for 2025 and beyond",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=74",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=74",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 74,
+    "quote": "To achieve these objectives, the Bank has developed a comprehensive AI strategy, centred around five pillars: profitability, hyper-personalised customer experience, data-first culture, agility and innovation, and creating an integrated banking ecosystem. Underlying this approach are four priorities that guide the implementation of AI across the Bank: › Technology & data: Establishing the foundational tools, processes, AI and data products to rapidly deploy use cases › Operating model & talent : Empowering a cross-functional team to deploy use cases while building AI foundations › Responsible AI: Implementing guardrails and governance across AI to deliver use cases safely and securely › Partnerships and ecosystems : Creating value beyond the Bank through investments and partnerships"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "b886c8854d20",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB Deployment of 30+ AI Use Cases in 2024",
+   "summary": "ADCB introduced more than 30 AI use cases in 2024 across various business areas including fraud detection, credit underwriting, customer engagement, and HR operations. The Bank prioritised use cases that generate immediate productivity gains focusing on process automation, risk management and growth.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Use cases",
+    "Implementation",
+    "Productivity",
+    "Operations"
+   ],
+   "partners": [],
+   "impact": "More than 30 AI use cases introduced in 2024, with more in the pipeline for 2025 and beyond",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=74",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=74",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 74,
+    "quote": "In 2024 there was a significant acceleration in ADCB's adoption of AI across every aspect of its operations, with the Bank prioritising use cases that generate immediate productivity gains. More than 30 AI use cases were introduced in 2024, and more are in the pipeline for 2025 and beyond. These applications focus on high value AI solutions, encompassing process automation, risk management and growth."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "a2ce7ee54085",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB AI-Powered Fraud Detection and Money Laundering Prevention",
+   "summary": "ADCB's Compliance function has deployed advanced AI systems to identify money laundering activities and detect mule accounts. This proactive approach strengthens security measures and safeguards the Bank and its customers from financial crime.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "Compliance",
+    "Risk management",
+    "Security"
+   ],
+   "partners": [],
+   "impact": "Advanced AI systems deployed for money laundering detection and mule account identification",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=74",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=74",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 74,
+    "quote": "ADCB's Compliance function has deployed advanced AI systems that play a crucial role in identifying money laundering activities and detecting mule accounts. This proactive approach strengthens security measures and safeguards the Bank and its customers from the risk of financial crime."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "d9e7cb09e963",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB AI-Enhanced Credit Underwriting and Risk Assessment",
+   "summary": "ADCB is leveraging AI to improve decision-making processes in credit underwriting, allowing for faster and more accurate approvals. This initiative, which began in September 2023, is expected to significantly reduce workload and improve efficiency.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Credit",
+    "Risk",
+    "Efficiency"
+   ],
+   "partners": [],
+   "impact": "Expected to significantly reduce workload and improve efficiency in credit approvals",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=74",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=74",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 74,
+    "quote": "AI is being leveraged to improve decision-making processes in credit underwriting, allowing for faster and more accurate approvals. This initiative, which began in September 2023, is expected to significantly reduce workload and improve efficiency."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "1cebae78d041",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB AI for Customer Behavior Analysis and Cross-Sell Optimization",
+   "summary": "ADCB's Retail Banking Group has leveraged AI to analyse customer behaviour and refine cross-selling and engagement strategies. This AI-driven approach has yielded impressive results, with cross-sell campaign conversion rates increasing significantly.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "Customer experience",
+    "Marketing",
+    "Analytics"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=74",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=74",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 74,
+    "quote": "The Retail Banking Group has leveraged AI to analyse customer behaviour and refine its cross-selling and engagement strategies. This AI-driven approach has yielded impressive results, with cross-sell campaign conversion rates increasing significantly."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "4e3ed8f0f074",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB Generative AI for Personalisation in Mobile and Digital Platforms",
+   "summary": "ADCB is utilising generative AI for enhanced personalisation and support across all channels in its mobile banking app, as well as the new Corporate and Investment Banking digital platform. The technology enhances customer experience across multiple touchpoints.",
+   "category": "Generative AI & Copilots",
+   "topics": [
+    "Generative AI & Copilots"
+   ],
+   "tags": [
+    "Generative AI",
+    "Customer experience",
+    "Digital"
+   ],
+   "partners": [],
+   "impact": "Enhanced personalisation and support across mobile banking app and Corporate and Investment Banking digital platform",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=74",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=74",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 74,
+    "quote": "ADCB is utilising generative AI for enhanced personalisation and support across all channels in its mobile banking app, as well as the new Corporate and Investment Banking digital platform."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "bd402bcff393",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB AI-Powered Contact Centre Analytics",
+   "summary": "ADCB has introduced an AI-powered tool to analyse customer requests and sentiment during calls to the contact centre. This automation helps rapidly identify opportunities to improve processes and the customer experience.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Operations",
+    "Customer service",
+    "Analytics"
+   ],
+   "partners": [],
+   "impact": "Automation helps rapidly identify opportunities to improve processes and customer experience",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=74",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=74",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 74,
+    "quote": "An AI-powered tool has been introduced to analyse customer requests and sentiment during calls to the contact centre. This automation has helped to rapidly identify opportunities to improve processes and the customer experience."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "58b3396bf289",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB AI-Powered HR Chatbot for Employee Support",
+   "summary": "ADCB is testing an AI-powered chatbot to handle HR-related queries, serving as a virtual help desk. The chatbot assists employees with questions about policies, onboarding processes, and internal vacancies, substantially reducing response times for inquiries.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "HR",
+    "Chatbot",
+    "Automation",
+    "Employee experience"
+   ],
+   "partners": [],
+   "impact": "Substantially reduces response time for HR inquiries",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=65",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=65",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 65,
+    "quote": "An AI-powered chatbot is already being tested to handle HR-related queries, serving as a virtual help desk. This chatbot is intended to assist employees with questions about policies, onboarding processes, and internal vacancies, substantially reducing the response time for inquiries."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "6c2cb4097fcb",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB AI Automation for HR Email Responses Outside Working Hours",
+   "summary": "ADCB is planning to extend AI usage to automate HR email responses during non-working hours, particularly for onboarding-related queries. This 24/7 support system is designed to handle inquiries that traditionally require round-the-clock coverage.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "HR",
+    "Automation",
+    "Chatbot"
+   ],
+   "partners": [],
+   "impact": "Extends AI usage to provide 24/7 support for onboarding-related queries",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=65",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=65",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 65,
+    "quote": "Plans are also in place to extend AI usage to automate HR email responses during non-working hours, particularly for onboarding-related queries, which often require 24/7 support."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "f4dff53c0c63",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB Quarterly Hackathons with Microsoft, AWS and Nvidia",
+   "summary": "ADCB organised quarterly hackathons during 2024 with Microsoft, Amazon Web Services and Nvidia, involving employees from across the organisation to explore new digital and AI banking solutions. These events brought subject matter experts together to support a culture of innovation and collaboration.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "Hackathons",
+    "Innovation",
+    "Collaboration",
+    "Training"
+   ],
+   "partners": [
+    "Microsoft",
+    "Amazon Web Services (AWS)",
+    "Nvidia"
+   ],
+   "impact": "Fostered culture of innovation and collaboration across the Bank",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=73",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=73",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 73,
+    "quote": "During 2024, the Bank organised quarterly hackathons with Microsoft, Amazon Web Services and Nvidia. Involving employees from across the organisation, these events brought a range of subject matter experts together to explore new digital and AI banking solutions, supporting a culture of innovation and collaboration across the Bank."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "0907fcbf04fa",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB Innovation Day Hackathon with Nvidia and AWS",
+   "summary": "ADCB organized an 'Innovation Day' hackathon with Nvidia and AWS that brought together 150 staff members to foster collaboration and deliver cutting-edge solutions to enhance customer service. The event resulted in the development of several high-potential AI-driven solutions for banking services and functions.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "Hackathons",
+    "Innovation",
+    "Training",
+    "Partnerships"
+   ],
+   "partners": [
+    "Nvidia",
+    "Amazon Web Services (AWS)"
+   ],
+   "impact": "Development of several high-potential AI-driven solutions for a range of ADCB's banking services and functions",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=73",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=73",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 73,
+    "quote": "An 'Innovation Day' hackathon with Nvidia and AWS brought together 150 staff members in a dynamic environment aimed at fostering collaboration and delivering cutting-edge solutions to enhance customer service. Nvidia supported the event by providing access to state-of-the-art GPUs, technical training materials, and dedicated on-site assistance. Meanwhile, AWS provided support to ADCB engineers and non-technical staff, aiding them in ideation and identification of business use cases for AI and cloud computing. The event resulted in the development of several high-potential AI-driven solutions for a range of ADCB's banking services and functions, strengthening the Bank's partnerships with leading tech firms and further advancing digital and AI capabilities."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "88a776900cb2",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB Partnership with Leading Consultancies for AI Framework Development",
+   "summary": "ADCB is partnering with specialists at leading consultancies to develop an AI framework to drive future growth and efficiency across areas such as data governance, ethics, platform engineering, neural networks, machine learning, model builds, and generative AI. The partnership includes efforts to mitigate algorithmic bias and ensure regulatory compliance.",
+   "category": "Tech Vendor Partnerships",
+   "topics": [
+    "Tech Vendor Partnerships"
+   ],
+   "tags": [
+    "Partnerships",
+    "AI governance",
+    "Framework"
+   ],
+   "partners": [],
+   "impact": "Development of comprehensive AI framework covering data governance, ethics, machine learning, and generative AI",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=74",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=74",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 74,
+    "quote": "ADCB is also partnering with specialists at leading consultancies to develop an AI framework to drive future growth and efficiency across areas such as data governance, ethics, platform engineering, neural networks, machine learning, model builds, and generative AI, while at the same time mitigating the risk of algorithmic bias and ensuring alignment with regulatory compliance."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "41ed3288f8fc",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB Cloud-Based Infrastructure for AI and Data Analytics",
+   "summary": "By the end of 2024, around 50% of ADCB's IT workload was hosted in the cloud. This cloud-based infrastructure supports AI-driven innovation by providing the necessary ecosystem for advanced data processing and analytics, enabling hyper-personalisation of service delivery.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Cloud",
+    "Infrastructure",
+    "AI foundations"
+   ],
+   "partners": [],
+   "impact": "Around 50% of the Bank's IT workload hosted in the cloud by end of 2024, supporting scalable AI-driven customer offering",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=72",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=72",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 72,
+    "quote": "By the end of 2024, around 50% of the Bank's IT workload was hosted in the cloud. The platform allows for the highly scalable and efficient expansion of the Bank's digital and AI-driven customer offering, with data analytics powering hyper-personalisation of service delivery."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "cd2d57110743",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB Framework for AI Adoption and Responsible AI Governance",
+   "summary": "Abu Dhabi Commercial Bank reports in its 2024 annual report (p. 72): “Framework for AI adoption established with roll-out of 30 initial use cases”",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "Governance",
+    "Responsible AI",
+    "Compliance"
+   ],
+   "partners": [],
+   "impact": "Framework established for AI adoption with roll-out of 30 initial use cases",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=72",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=72",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 72,
+    "quote": "Framework for AI adoption established with roll-out of 30 initial use cases"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "c2e176fe5e58",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB AI and Data Skills Training for Employees",
+   "summary": "ADCB introduced new learning programmes in 2024 to develop skills related to the deployment of AI and business intelligence across the organisation. Training spanned the use of new tools in early AI use cases introduced by the Bank, as well as broader awareness of opportunities and potential risks associated with the technology.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "Training",
+    "Skills development",
+    "Employee development"
+   ],
+   "partners": [],
+   "impact": "New learning programmes introduced to develop AI and business intelligence skills across the organisation",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=65",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=65",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 65,
+    "quote": "As digital and AI technology transform ADCB's operations and services, the Bank is equipping employees with the knowledge and tools required to drive innovation and change. In 2024, new learning programmes were introduced to develop skills related to the deployment of AI and business intelligence across the organisation. This training spanned the use of new tools, especially in early AI use cases introduced by the Bank, as well as broader awareness of the opportunities and potential risks associated with the technology."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "9aaefa1e19d3",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB UAE Nationals Academy AI and Cybersecurity Training",
+   "summary": "ADCB's UAE Nationals Academy equips Emiratis with leadership and technical skills including cybersecurity and AI. More than 2,000 Emiratis have been trained with a strong focus on key competencies in cybersecurity, AI, and financial technologies to prepare employees for leading in a rapidly evolving industry.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "Training",
+    "Talent development",
+    "Emiratisation"
+   ],
+   "partners": [],
+   "impact": "More than 2,000 Emiratis trained; participants completed more than 115,000 learning hours, averaging 57 hours per participant",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=70",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=70",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 70,
+    "quote": "ADCB places a particular emphasis on training via its UAE Nationals Academy, equipping more than 2,000 Emiratis with the necessary leadership and technical skills to thrive in the banking industry. With a strong focus on key competencies in cybersecurity, AI, and financial technologies, the training aims to prepare Emirati employees for leading and innovating in a rapidly evolving industry. In total, participants have completed more than 115,000 learning hours, averaging 57 hours per participant."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "6b27cac8b19e",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB Ethraa Training Programme in AI and Data Science",
+   "summary": "ADCB's Ethraa programme welcomed 121 participants who completed more than 19,000 hours of training in critical areas such as cybersecurity, AI, data science, and payments technology. The programme is designed for skill development in emerging banking technologies.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "Training",
+    "Skills development"
+   ],
+   "partners": [],
+   "impact": "121 participants completed more than 19,000 hours of training in cybersecurity, AI, data science, and payments technology",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=70",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=70",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 70,
+    "quote": "Ethraa 121 participants completed more than 19,000 hours of training in critical areas such as cybersecurity, AI, data science, and payments technology."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "7b498b43e447",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB Emirates Institute of Finance AI and Advanced Technology Training",
+   "summary": "The Emirates Institute of Finance (EIF) has trained more than 50 participants with more than 4,000 hours of training in advanced technologies such as cloud security, SQL, AI, and FinTech. The EIF plays a significant role in preparing Emirati employees for the digital transformation of the banking sector.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "Training",
+    "Skills development",
+    "FinTech"
+   ],
+   "partners": [],
+   "impact": "More than 50 participants trained with more than 4,000 hours of training in advanced technologies including AI",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=70",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=70",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 70,
+    "quote": "With more than 50 participants and more than 4,000 hours of training in advanced technologies such as cloud security, SQL, AI, and FinTech, the EIF is playing a significant role in preparing Emirati employees for the digital transformation of the banking sector."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "397586be19cc",
+   "bank_id": "adcb",
+   "country": "AE",
+   "date": "2025-03-11",
+   "title": "ADCB AI Integration in Credit Rating Process for Efficiency",
+   "summary": "Abu Dhabi Commercial Bank reports in its 2024 annual report (p. 71): “My team helped to integrate AI into the credit rating process to increase efficiency and help improve turnaround times.”",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Credit",
+    "Efficiency",
+    "Automation"
+   ],
+   "partners": [],
+   "impact": "Increased efficiency and improved turnaround times in credit decisions",
+   "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=71",
+   "source_name": "ADCB Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf#page=71",
+     "name": "ADCB Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:39:59+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+    "page": 71,
+    "quote": "My team helped to integrate AI into the credit rating process to increase efficiency and help improve turnaround times."
    },
    "verification": {
     "level": "official",

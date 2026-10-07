@@ -1510,5 +1510,14 @@
   "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBuLVdqWG1vQjh4SjNzcUlwZ0R1Z0FSNjlRU2hqOVl1VTV4SjVEWGtoOGpzT2JDb1FoaHdoVEI1MVVpN3h1?oc=5",
   "source": "بوابة التكنولوجيا المالية",
   "reason": "Wio is not named in the source"
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "adcb",
+  "date": "2025-03-11",
+  "title": "ADCB Enable & Protect Initiative with AI for Credit Decisions",
+  "source_url": "https://www.adcb.com/en/multimedia/pdfs/2025/february/adcb-2024-annual-report-english.pdf",
+  "source": "ADCB Annual Report 2024",
+  "reason": "fact-check: Evidence does not state that 'Enable & Protect' leveraged AI; AI integration in credit rating and the four-fold reduction are separate initiatives mentioned by different executives."
  }
 ]

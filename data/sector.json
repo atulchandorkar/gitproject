@@ -1,21 +1,25 @@
 {
- "updated_at": "2026-10-07T12:48:20+00:00",
+ "updated_at": "2026-10-07T15:58:10+00:00",
  "items": [
   {
-   "id": "6eaf525e9d06",
+   "id": "c25837c4a0a5",
    "date": "2026-10-07",
    "category": "Market Data",
    "publisher": "",
    "countries": [
     "Global"
    ],
-   "title": "Banks face new threat as 500 billion dollars at stake in artificial intelligence",
-   "summary": "Five hundred billion dollars in banking value is exposed to disruption and opportunity from artificial intelligence. The figure underscores the significant financial stakes as banks navigate AI-driven transformation.",
+   "title": "Can artificial intelligence agents eliminate $500 billion of bank value?",
+   "summary": "The headline questions whether AI agents could eliminate $500 billion in bank value, raising concerns about disruption to traditional banking models.",
    "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xZ1gySXJaSUdNOUlhYWMyc1FfZ3RaQ1JRQjNEY1JlTUphRFd1WG5xZm9GNVNhd2EwUldPQlI2U2NKdzA4blkwRWR1WFdkeTBOc3c?oc=5",
-   "source_name": "إرم نيوز",
-   "source_title": "البنوك تواجه تهديدًا جديدًا.. 500 مليار دولار في مهب الذكاء الاصطناعي",
+   "source_url": "https://news.google.com/rss/articles/CBMikARBVV95cUxOZXVPdm1jODlCYlRoby16akpzRHd3Qkw4TzdZbGc2Z01pSE5qZEpBYnpUempabHJiellUd3U1X2pra2JrZ3NpbVZfX2ZiajZfaks3aVgzLTZSeVBSbGFfMHFkTldTSWNrLWdIeGFHZG5yUGVCZnV1Zm8tQld6aTRtb19mbVEycFZ0QnhqdThiNEw0V3puOUpQODU1cG1fWDVtMXpGMzFPNTBiSDZvRlo5S3ZJbTczN1JVcHBqd2VQaERqRTZuSk5PMkQ4UGJJSG9Hb3EwbnVSakxqY19mNDBGbFUtUmFtbFMwVk05czNZRjExVnFrdVJEeG9nZkhsd19YeVFWMGJfUEswUVp4dGl3YVVwWlEwdFkyZ3haeFFYLVRjaV9yNXdlM1JNYVhOdU8zWkRSeUE3NnhmTy1KUUIzcHNlZU1XeEVEU0Vja2ZfV2dYMm12OHVJNUV4Z2J2ZEFMc1JUaUZRSWlOWFczelI0ZkNhdzdJQ0RwSkwwaXV6eklEcEs4dXREUmV5a0RjU0R3N0FvdzNmQnZPSFFzb3A3VHZyWlFNeF80emZwQUtLNm1MRzRKZUlxcGtUXzVJNzJQZFZtdk5DaEFGeUkzZlBYaUNCd0dxRUhIZFd3c1Y4b0hjMWZpWFlDTVdLeG5HbDFNSHJYNnJlUWVmQjk2TDV4SXdmTVoyOXNZNUhPQ254STY?oc=5",
+   "source_name": "CNN الاقتصادية",
+   "source_title": "هل يمكن لوكلاء الذكاء الاصطناعي محو 500 مليار دولار من قيمة البنوك؟",
    "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikARBVV95cUxOZXVPdm1jODlCYlRoby16akpzRHd3Qkw4TzdZbGc2Z01pSE5qZEpBYnpUempabHJiellUd3U1X2pra2JrZ3NpbVZfX2ZiajZfaks3aVgzLTZSeVBSbGFfMHFkTldTSWNrLWdIeGFHZG5yUGVCZnV1Zm8tQld6aTRtb19mbVEycFZ0QnhqdThiNEw0V3puOUpQODU1cG1fWDVtMXpGMzFPNTBiSDZvRlo5S3ZJbTczN1JVcHBqd2VQaERqRTZuSk5PMkQ4UGJJSG9Hb3EwbnVSakxqY19mNDBGbFUtUmFtbFMwVk05czNZRjExVnFrdVJEeG9nZkhsd19YeVFWMGJfUEswUVp4dGl3YVVwWlEwdFkyZ3haeFFYLVRjaV9yNXdlM1JNYVhOdU8zWkRSeUE3NnhmTy1KUUIzcHNlZU1XeEVEU0Vja2ZfV2dYMm12OHVJNUV4Z2J2ZEFMc1JUaUZRSWlOWFczelI0ZkNhdzdJQ0RwSkwwaXV6eklEcEs4dXREUmV5a0RjU0R3N0FvdzNmQnZPSFFzb3A3VHZyWlFNeF80emZwQUtLNm1MRzRKZUlxcGtUXzVJNzJQZFZtdk5DaEFGeUkzZlBYaUNCd0dxRUhIZFd3c1Y4b0hjMWZpWFlDTVdLeG5HbDFNSHJYNnJlUWVmQjk2TDV4SXdmTVoyOXNZNUhPQ254STY?oc=5",
+     "name": "CNN الاقتصادية"
+    },
     {
      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xZ1gySXJaSUdNOUlhYWMyc1FfZ3RaQ1JRQjNEY1JlTUphRFd1WG5xZm9GNVNhd2EwUldPQlI2U2NKdzA4blkwRWR1WFdkeTBOc3c?oc=5",
      "name": "إرم نيوز"
@@ -26,12 +30,25 @@
     }
    ],
    "language": "ar",
-   "added_at": "2026-10-07T12:33:59+00:00",
+   "added_at": "2026-10-07T15:58:02+00:00",
    "verification": {
-    "level": "corroborated",
+    "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-07"
    },
+   "merged": [
+    {
+     "id": "6eaf525e9d06",
+     "date": "2026-10-07",
+     "title": "Banks face new threat as 500 billion dollars at stake in artificial intelligence",
+     "source_title": "البنوك تواجه تهديدًا جديدًا.. 500 مليار دولار في مهب الذكاء الاصطناعي",
+     "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xZ1gySXJaSUdNOUlhYWMyc1FfZ3RaQ1JRQjNEY1JlTUphRFd1WG5xZm9GNVNhd2EwUldPQlI2U2NKdzA4blkwRWR1WFdkeTBOc3c?oc=5",
+     "source_name": "إرم نيوز",
+     "summary": "Five hundred billion dollars in banking value is exposed to disruption and opportunity from artificial intelligence. The figure underscores the significant financial stakes as banks navigate AI-driven transformation.",
+     "how": "ai",
+     "anchor": "$500 billion"
+    }
+   ],
    "pdf_checked": "2026-10-07"
   },
   {
@@ -906,6 +923,35 @@
     "checked": "2026-10-06"
    },
    "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "49107997b938",
+   "date": "2026-08-18",
+   "category": "Expert Views",
+   "publisher": "Roland Berger",
+   "countries": [
+    "Global"
+   ],
+   "title": "How AI is reshaping the bank–customer relationship in Europe",
+   "summary": "Roland Berger analyzes how artificial intelligence is transforming customer interactions and relationships in European banking, examining strategic implications for banks' engagement models.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObks2R1hQUnFsZGU0djFzdDQxbzA0aVFsNEJOb3NETmYzOFdPWUI2ZWNRd00xOFhXNVhWNWJLYU5OS3NiUTc2d1hmNGwwVEtrb3prT0F5Tk1wSVREWmhRN1hBVERCeWdjNFVGTDRjb3djeTVIQTNiTEdzcFZjUV9iak9uMnVjNlFMSDZSck9naVFMbmlXWHF3Qko3OWdKYkpvS1FNa1BmX202VFF2cE0tVUdFajEtWjhaUjFZ?oc=5",
+   "source_name": "Roland Berger",
+   "source_title": "How AI is reshaping the bank–customer relationship in Europe",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObks2R1hQUnFsZGU0djFzdDQxbzA0aVFsNEJOb3NETmYzOFdPWUI2ZWNRd00xOFhXNVhWNWJLYU5OS3NiUTc2d1hmNGwwVEtrb3prT0F5Tk1wSVREWmhRN1hBVERCeWdjNFVGTDRjb3djeTVIQTNiTEdzcFZjUV9iak9uMnVjNlFMSDZSck9naVFMbmlXWHF3Qko3OWdKYkpvS1FNa1BmX202VFF2cE0tVUdFajEtWjhaUjFZ?oc=5",
+     "name": "Roland Berger"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T15:58:02+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-07"
+   },
+   "pdf_checked": "2026-10-07"
   },
   {
    "id": "bdbaddd49785",
@@ -2150,6 +2196,39 @@
     "checked": "2026-10-06"
    },
    "pdf_checked": "2026-10-06"
+  },
+  {
+   "id": "a878248b3b89",
+   "date": "2026-04-27",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Artificial intelligence deployment at Lloyds Banking Group",
+   "summary": "Overview of how Lloyds Banking Group has built and implemented AI capabilities across its operations. Details the bank's AI strategy and applications.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5FY1JBSTU0QkR3RllOUDVqNEdSdGhTbVUwdjJvYkg5cmhnOUR2enMtTm9tNS1CQ2Z1TEIxSFB1dG42U0xMdzNscXNvdzQwRUhYUUlhVzlnZEhuaEhTVFlrUnptUVZqUzl3MzdiSkotRHA1T0w0?oc=5",
+   "source_name": "Emerj Artificial Intelligence Research",
+   "source_title": "Artificial Intelligence at Lloyds Banking Group",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5FY1JBSTU0QkR3RllOUDVqNEdSdGhTbVUwdjJvYkg5cmhnOUR2enMtTm9tNS1CQ2Z1TEIxSFB1dG42U0xMdzNscXNvdzQwRUhYUUlhVzlnZEhuaEhTVFlrUnptUVZqUzl3MzdiSkotRHA1T0w0?oc=5",
+     "name": "Emerj Artificial Intelligence Research"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcVlQQTJtUnJRVnVUdHlTbE5VNVNaTjhhRE8xeWRPS3A0dFlqMnVodGpOVGpLQWZORTFMR0pMQ2I0RW9tcXpmRVJNS2hyZG5qVEVHZkZ2eFlvS2tPNmFmV0VySXhwRkNkSWVEeVFFZGxuTzJSRm9tMU1EQVI3cEVFdi1XZ2tPMmpuWFZYV1Jfc1Y3ZzI5Y2RlUzJpaUVMT1F0TE5mUzlQdEJLQl9MdUhz?oc=5",
+     "name": "Roland Berger"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-06T02:16:25+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-07"
   },
   {
    "id": "9a6e18dbe274",
