@@ -175,15 +175,14 @@
     return `<article class="card news-card">
       <div class="meta">
         ${showBank ? `<a class="bank-chip" href="#/bank/${b.id}">${avatar(b, "avatar sm")}<span class="bank">${esc(b.short)}</span></a>${flag(c)}<span class="dot"></span>` : ""}
-        <time datetime="${i.date}">${fmtDate(i.date)}</time>
+        ${isAR(i) ? `<span class="ar-chip" title="From ${esc(b.short)}'s Annual Report ${i.report.year}">📘 Annual Report ${i.report.year} · ${arWhere(i)}</span>`
+          : `<time datetime="${i.date}">${fmtDate(i.date)}</time>`}
         <span class="dot"></span><span class="cat">${esc(i.category)}</span>${extraTopics}
       </div>
-      ${isAR(i) ? `<div class="ar-chip">📘 From ${esc(b.short)}'s Annual Report ${i.report.year} · ${arWhere(i)}</div>` : ""}
       <h3><a href="${esc(i.source_url)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>
       <p>${esc(i.summary && i.summary.trim().length >= 40 ? i.summary
         : `${b.name}: ${(i.source_title || i.title).replace(/\.$/, "")}. Reported by ${srcs[0].name || "the source"} on ${fmtDate(i.date)}; open the source for full details.`)}</p>
-      ${i.impact ? `<div class="impact">📈 ${esc(i.impact)}</div>` : ""}
-      ${tags || (i.partners && i.partners.length) ? `<div class="tags">${tags}${i.partners && i.partners.length ? `<span class="tag">🤝 ${esc(i.partners.join(", "))}</span>` : ""}</div>` : ""}
+      ${isAR(i) ? "" : `<div class="tags">${i.impact ? `<span class="tag impact-tag" title="${esc(i.impact)}">📈 ${esc(i.impact)}</span>` : ""}${tags}${i.partners && i.partners.length ? `<span class="tag">🤝 ${esc(i.partners.join(", "))}</span>` : ""}</div>`}
       ${isAR(i) ? `<blockquote class="ar-quote" dir="auto">“${esc(i.report.quote)}”</blockquote>
         <a class="pdf-btn" href="${esc(i.source_url)}" target="_blank" rel="noopener"><span>📘</span><b>Annual Report ${i.report.year} (${isWebAR(i) ? "online" : "PDF"})</b><small>opens ${arWhere(i)} · ${esc(b.domain)}</small><span class="pdf-go">↗</span></a>` : ""}
       ${sourceBlock(i, VERIFY_LABEL)}

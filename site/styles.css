@@ -469,3 +469,35 @@ button.kpi[aria-pressed="true"] { border-color: var(--accent); background: #fffa
   .card, .stat { box-shadow: none !important; break-inside: avoid; }
   a { color: inherit; text-decoration: none; }
 }
+
+/* ================= Standard card shape =================
+   Every card has the same structure: meta line, headline (max 2 lines), summary (max 3 lines), one row of tags,
+   and the sources block pinned to the bottom. Cards in a grid row share one height, so there are no holes. */
+.news-card { display: flex; flex-direction: column; min-width: 0; }
+.news-card .meta { flex-wrap: nowrap; overflow: hidden; white-space: nowrap; }
+.news-card .meta > * { flex-shrink: 0; }
+.news-card .meta .cat.sub { display: none; }               /* extra themes: shown in the filters, not on the card */
+.news-card h3, .news-card h3 a { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; }
+.news-card > p { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; }
+.news-card .impact { align-self: flex-start; max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.news-card .tags { flex-wrap: nowrap; overflow: hidden; -webkit-mask-image: linear-gradient(90deg, #000 85%, transparent); mask-image: linear-gradient(90deg, #000 85%, transparent); }
+.news-card .tags .tag { flex-shrink: 0; }
+.news-card .ar-quote { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden;
+  line-height: 1.45; padding-bottom: 0; border-bottom: 8px solid transparent; }   /* clipped text never shows in the padding */
+.news-card .meta .ar-chip { margin-top: 0; }
+.news-card .pdf-btn { display: flex; padding: 8px 12px; gap: 8px; }
+.news-card .pdf-btn > span:first-child { font-size: 15px; }
+.news-card .pdf-btn b { font-size: 13.5px; white-space: nowrap; }
+.news-card .pdf-btn small { flex: 1; }
+.news-card .sources { margin-top: auto; padding-top: 10px; }
+.news-card .orig { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.news-card .src-list { flex-wrap: nowrap; overflow: hidden; -webkit-mask-image: linear-gradient(90deg, #000 88%, transparent); mask-image: linear-gradient(90deg, #000 88%, transparent); }
+.news-list, .tl-cards { gap: 12px; align-items: stretch !important; }
+.news-list > .news-card, .tl-cards > .news-card { margin: 0 !important; height: 100%; }
+@media (min-width: 900px) { .news-list, .tl-cards { gap: 16px; } }
+/* fixed slots: every card has the same layout whatever the length of its text */
+.news-card h3 { line-height: 1.3; min-height: 2.6em; }
+.news-card > p { line-height: 1.45; min-height: 4.35em; }
+.news-card .tags { margin-top: 10px; min-height: 24px; }
+.news-card .impact-tag { font-weight: 650; color: var(--text); max-width: 60%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.news-card .meta .cat { flex-shrink: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
