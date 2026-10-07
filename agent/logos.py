@@ -219,7 +219,8 @@ def _icon_candidates(domain: str) -> list[str]:
 
 def fetch_logo(b: dict) -> tuple[bytes, str, str] | None:
     sources = [
-        lambda: [b["logo"]] if b.get("logo") else [],
+        # the configured link, then the full-size file (Wikimedia may refuse an uncached thumbnail size)
+        lambda: list(dict.fromkeys([b["logo"], b["logo"].split("?")[0]])) if b.get("logo") else [],
         lambda: _icon_candidates(b["domain"]),
         lambda: wikidata_logo_urls(b),
         lambda: wikipedia_logo_urls(b),
