@@ -14,6 +14,7 @@
     bank: '<path d="M3 10l9-6 9 6M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20h18"/>',
     globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
     bolt: '<path d="M13 3 5 13h6l-1 8 8-10h-6l1-8z"/>',
+    star: '<path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z"/>',
   };
   const icon = (k) => `<svg viewBox="0 0 24 24" aria-hidden="true">${ICONS[k]}</svg>`;
   // Decorative AI-network pattern for the hero.
@@ -617,7 +618,9 @@
   function sectorCard(i) {
     const pub = pubShort(i);
     const stats = (i.key_stats || []).slice(0, 3);
-    return `<article class="card news-card sector-card">
+    const gcc = isGCC(i);
+    return `<article class="card news-card sector-card${gcc ? " gcc-item" : ""}">
+      ${gcc ? `<span class="gcc-badge" title="About GCC banking and AI">★ GCC</span>` : ""}
       <div class="meta">
         <span class="bank-chip">${pubAvatar(i)}<span class="bank">${esc(pub || i.source_name || "")}</span></span><span class="dot"></span>
         <time datetime="${i.date}">${fmtDate(i.date)}</time><span class="dot"></span>${geoChips(i)}
@@ -651,6 +654,7 @@
             <span class="ct-ic">${SECTOR_ICON(c)}</span><b>${all.filter((i) => i.category === c).length}</b><span class="ct-l">${esc(SECTOR_SHORT[c] || c)}</span></button>`).join("")}
         </div>
       </section>
+      <div class="region-switch" role="tablist" id="regionSwitch" aria-label="Region"></div>
       <div id="statRailWrap"></div>
       <div class="filters">
         <label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
@@ -698,8 +702,17 @@
       last = list;
       const figures = list.flatMap((i) => (i.key_stats || []).map((k) => ({ ...k, i })));
       $("#secKpis").innerHTML = [["news", list.length, "insights"], ["bank", new Set(list.map(pubShort).filter(Boolean)).size, "publishers"],
-        ["bolt", figures.length, "key figures"], ["globe", list.filter((i) => i.date >= isoDaysAgo(90)).length, "last 90 days"]]
-        .map(([k, v, l]) => `<div class="kpi">${icon(k)}<b>${v}</b><span>${l}</span></div>`).join("");
+        ["bolt", figures.length, "key figures"], ["star", list.filter(isGCC).length, "GCC items"]]
+        .map(([k, v, l]) => k === "star"
+          ? `<button class="kpi kpi-gcc" id="kpiGcc" aria-label="Show GCC items only">${icon(k)}<b>${v}</b><span>${l}</span></button>`
+          : `<div class="kpi">${icon(k)}<b>${v}</b><span>${l}</span></div>`).join("");
+      $("#kpiGcc").onclick = () => setRegion("GCCALL");
+      // All · Global · GCC switch, counted on everything except the region itself
+      const others = all.filter((i) => (!st.pub || pubShort(i) === st.pub) && (!st.cat || i.category === st.cat));
+      const reg = st.country === "GCCALL" ? "GCCALL" : st.country === "Global" ? "Global" : st.country ? "x" : "";
+      $("#regionSwitch").innerHTML = [["", "All", others.length], ["Global", "🌐 Global", others.filter((i) => !isGCC(i)).length],
+        ["GCCALL", "★ GCC", others.filter(isGCC).length]].map(([v, l, n]) =>
+        `<button role="tab" data-region="${v}" class="${v === "GCCALL" ? "rs-gcc" : ""}" aria-selected="${reg === v}">${l} <span class="n">${n}</span></button>`).join("");
       document.querySelectorAll("#secCats .cat-tile").forEach((x) => {
         x.setAttribute("aria-pressed", x.dataset.cat === st.cat);
         x.querySelector("b").textContent = base.filter((i) => i.category === x.dataset.cat).length;
@@ -736,6 +749,8 @@
       const code = x.dataset.geo === "GCC-wide" ? "GCC" : x.dataset.geo === "🌐 Global" ? "Global" : (CFG.countries.find((c) => c.name === x.dataset.geo) || {}).code || "";
       st.country = code === st.country ? "" : code; $("#scountry").value = st.country; showView(""); });
     $("#scountry").onchange = (e) => { st.country = e.target.value; update(); };
+    const setRegion = (v) => { st.country = v; $("#scountry").value = v; showView(""); };
+    $("#regionSwitch").addEventListener("click", (e) => { const x = e.target.closest("[data-region]"); if (x) setRegion(x.dataset.region); });
     $("#spub").onchange = (e) => { st.pub = e.target.value; update(); };
     $("#scat").onchange = (e) => { st.cat = e.target.value; update(); };
     let t; $("#sq").oninput = (e) => { clearTimeout(t); t = setTimeout(() => { st.q = e.target.value; update(); }, 180); };
