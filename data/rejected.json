@@ -1501,5 +1501,14 @@
   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
   "source": "CBD Annual Report 2025",
   "reason": "fact-check: Dr. van Linder is CEO, not a Board member; the claim incorrectly identifies his Board role and his educational background in AI is personal credential, not CBD's own AI activity or strategy."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "wio",
+  "date": "2026-10-07",
+  "title": "«ويو بنك»: الذكاء الاصطناعي يقود موجة تغييرات في الخدمات المصرفية خلال عامين",
+  "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBuLVdqWG1vQjh4SjNzcUlwZ0R1Z0FSNjlRU2hqOVl1VTV4SjVEWGtoOGpzT2JDb1FoaHdoVEI1MVVpN3h1?oc=5",
+  "source": "بوابة التكنولوجيا المالية",
+  "reason": "Wio is not named in the source"
  }
 ]

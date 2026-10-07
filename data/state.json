@@ -1,5 +1,5 @@
 {
- "last_update": "2026-10-07T06:34:08+00:00",
+ "last_update": "2026-10-07T12:29:44+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -957,7 +957,17 @@
   "88d534b88843d3": "2026-10-07",
   "a7068f77549e59": "2026-10-07",
   "4d7e47532a7372": "2026-10-01",
-  "38819e9bcf85c3": "2026-10-07"
+  "38819e9bcf85c3": "2026-10-07",
+  "a2d69631d5a3c2": "2026-09-30",
+  "e33cababc0dd67": "2026-10-01",
+  "40c070f934f3bf": "2026-10-05",
+  "4b20fdc723cc65": "2026-10-05",
+  "8e33351713fa20": "2026-10-07",
+  "c15303f687dda9": "2026-10-07",
+  "44037ab138ecc3": "2026-10-07",
+  "e27a848694e77b": "2026-10-07",
+  "1aa644bfbe9f12": "2026-10-07",
+  "869754b8b4ae4a": "2026-10-07"
  },
  "history_loaded": {
   "adcb": "2026-10-05",
@@ -2659,7 +2669,7 @@
   "riyad": {
    "checked": "2026-10-06",
    "url": "https://www.riyadbank.com/personal-banking/media-center?p_p_id=com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath=%2Fdisplay_article.jsp&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId=6385919&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_shareURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fdisplay_article.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId%3D6385919%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL%3Dhttps%253A%252F%252Fwww.riyadbank.com%252Fpersonal-banking%252Fmedia-center%253Fp_p_id%253Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%2526p_p_lifecycle%253D0%2526p_p_state%253Dnormal%2526p_p_mode%253Dview%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%253D%25252Fview.jsp%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%253D2%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%253D10&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fview.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%3D2%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%3D10",
-   "status": "ok",
+   "status": "unreachable (IncompleteRead)",
    "links": 11,
    "scanned": "2026-10-07",
    "known": [
@@ -2741,6 +2751,7 @@
    "links": 15,
    "scanned": "2026-10-07",
    "known": [
+    "7ee98a0ba515",
     "25f3f42aefbd",
     "0c9fb2af54b5",
     "cb0f30100d55",
@@ -2754,8 +2765,7 @@
     "f589f86072d9",
     "3b766d9f8907",
     "f673e08686c7",
-    "65d8f99700c1",
-    "d102db797b98"
+    "65d8f99700c1"
    ]
   },
   "warba": {
@@ -3788,7 +3798,25 @@
   "04e0cfc42096a7": "2026-10-07",
   "7e761994067b48": "2026-10-05",
   "f1470f948186db": "2026-10-06",
-  "a9e4793334bfc1": "2026-10-07"
+  "a9e4793334bfc1": "2026-10-07",
+  "539de03e22c8a5": "2026-10-06",
+  "8b223adabaebac": "2026-10-06",
+  "fe6f83a8433051": "2026-10-06",
+  "e7bfcead9c11fe": "2026-10-06",
+  "542d5c8342a3e4": "2026-10-06",
+  "4371982af0b017": "2026-10-06",
+  "06aa7881c58bef": "2026-10-07",
+  "66be2ce599faa3": "2026-10-07",
+  "246a42699db55c": "2026-10-07",
+  "0d232d336212de": "2026-10-07",
+  "975568a0c31697": "2026-10-07",
+  "9eed8fa8efb53e": "2026-10-07",
+  "073902dc086807": "2026-10-07",
+  "3618443b1acf5e": "2026-10-07",
+  "079a593643ed54": "2026-10-07",
+  "1aa644bfbe9f12": "2026-10-07",
+  "6f2a118d6ea6a8": "2026-10-07",
+  "f62c7f141ab967": "2026-10-07"
  },
  "sector_known": {},
  "sector_pending": [
@@ -7630,34 +7658,6 @@
    }
   },
   {
-   "id": "28347d2a7ff9",
-   "date": "2026-10-07",
-   "category": "Maturity & Rankings",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "JPMorgan tops global AI banking index with jobs seen to grow",
-   "summary": "JPMorgan Chase leads global banks in AI capabilities according to a ranking index. The index projects AI adoption will expand banking sector employment despite automation risks.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObVJwMWlERHRqaFdTZ0k2VF9vOWpxZzFuQ1VUemZQbjBQVWI3c0x2YS10Tnp2cldZRmlOSHl5RXNUeFN1azNpdk0tSDlrVUVmZGNLd1ZNaVgtZlVLeXVCWG0yQWtha09TZmd2bnNjV2sydFdWTGZhc0ctWld6cW1SUnZDbDhldy1TeHpsUDdYSU83bFpNU1VkbWJYOA?oc=5",
-   "source_name": "The Edge Singapore",
-   "source_title": "JPMorgan tops global AI banking index with jobs seen to grow",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObVJwMWlERHRqaFdTZ0k2VF9vOWpxZzFuQ1VUemZQbjBQVWI3c0x2YS10Tnp2cldZRmlOSHl5RXNUeFN1azNpdk0tSDlrVUVmZGNLd1ZNaVgtZlVLeXVCWG0yQWtha09TZmd2bnNjV2sydFdWTGZhc0ctWld6cW1SUnZDbDhldy1TeHpsUDdYSU83bFpNU1VkbWJYOA?oc=5",
-     "name": "The Edge Singapore"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-07T05:27:59+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-07"
-   }
-  },
-  {
    "id": "d494df3b1617",
    "date": "2026-10-06",
    "category": "Regulation & Guidance",
@@ -7735,6 +7735,94 @@
    ],
    "language": "en",
    "added_at": "2026-10-07T06:38:06+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "55f7c0871a30",
+   "date": "2026-10-07",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Agentic AI in financial services: How banks are rethinking lending, risk and decision-making",
+   "summary": "Banks are adopting agentic AI to transform lending, risk management and decision-making processes. This represents a fundamental shift in how financial institutions automate complex operations.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQVzJBSEJwb3Q1emtMVGc0TEQ2TVBjVzlXOXJZRTRhLTV0dzZWdjAxYlV1S1BmVFdHY3Y3V2txby10bkdoRWVCcTdUSUJHNkZYTllRSXhVUG9NLXlDU3U5aHEwRHdLZFBFWk5LQk11UlVhdWhCb0JWeEZZb0NfV3F5VjZDcDVKcGpUUkl4a1hqaUN4UzJKZnpzT3FYNU9sT2N1bEJCVUV1aW9wMjhhTng4YklxdmRJVmJDUjBlcy1qREpQSjQ3OUpNaV96QWJKX08tbjRxRzVCWDVvQnJiRm5VRDg2ZV83TllVTWNYZzhsVGx3TG9abk95OXVjYWp1dlVtZGfSAYcCQVVfeXFMTzVxNzNpX2F1Y2VXOE02b2FYWWhfMGozU1V4a2JmWWo0ZDNORHRFVldLM2hmOWVpY3V0NmF1Y00xWjF4RnRBMWI0YjllSURvLUhzX1BKNmJSTGxNX2tzRDFRT1N0SU9ueVVJQzVyN2Q2aks0Nnotb3RuTkFOck51UnBHeFRPckdvSHBFQUIyeFdwWjhTS18zZFcyTURUb3YxWWhwZ2ZmN24wX3dsY1VESnk0V3FYR3daY2kxaDdhVTNNTC1yM05Ub09NWnlNR2tuRGkwbUJmUGl4SXZxbHYxb0lYcWhvSmpSOVpXXzMyeEp2dnRXSTNqNFZSRnBoWnd5d05sd3lISEE?oc=5",
+   "source_name": "The Economic Times",
+   "source_title": "Agentic AI in financial services: How banks are rethinking lending, risk and decision-making",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQVzJBSEJwb3Q1emtMVGc0TEQ2TVBjVzlXOXJZRTRhLTV0dzZWdjAxYlV1S1BmVFdHY3Y3V2txby10bkdoRWVCcTdUSUJHNkZYTllRSXhVUG9NLXlDU3U5aHEwRHdLZFBFWk5LQk11UlVhdWhCb0JWeEZZb0NfV3F5VjZDcDVKcGpUUkl4a1hqaUN4UzJKZnpzT3FYNU9sT2N1bEJCVUV1aW9wMjhhTng4YklxdmRJVmJDUjBlcy1qREpQSjQ3OUpNaV96QWJKX08tbjRxRzVCWDVvQnJiRm5VRDg2ZV83TllVTWNYZzhsVGx3TG9abk95OXVjYWp1dlVtZGfSAYcCQVVfeXFMTzVxNzNpX2F1Y2VXOE02b2FYWWhfMGozU1V4a2JmWWo0ZDNORHRFVldLM2hmOWVpY3V0NmF1Y00xWjF4RnRBMWI0YjllSURvLUhzX1BKNmJSTGxNX2tzRDFRT1N0SU9ueVVJQzVyN2Q2aks0Nnotb3RuTkFOck51UnBHeFRPckdvSHBFQUIyeFdwWjhTS18zZFcyTURUb3YxWWhwZ2ZmN24wX3dsY1VESnk0V3FYR3daY2kxaDdhVTNNTC1yM05Ub09NWnlNR2tuRGkwbUJmUGl4SXZxbHYxb0lYcWhvSmpSOVpXXzMyeEp2dnRXSTNqNFZSRnBoWnd5d05sd3lISEE?oc=5",
+     "name": "The Economic Times"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPNXE3M2lfYXVjZVc4TTZvYVhZaF8wajNTVXhrYmZZajRkM05EdEVWV0szaGY5ZWljdXQ2YXVjTTFaMXhGdEExYjRiOWVJRG8tSHNfUEo2YlJMbE1fa3NEMVFPU3RJT255VUlDNXI3ZDZqSzQ2ei1vdG5OQU5yTnVScEd4VE9yR29IcEVBQjJ4V3BaOFNLXzNkVzJNRFRvdjFZaHBnZmY3bjBfd2xjVURKeTRXcVhHd1pjaTFoN2FVM01MLXIzTlRvT01aeU1Ha25EaTBtQmZQaXhJdnFsdjFvSVhxaG9KalI5WldfMzJ4SnZ2dFdJM2o0VlJGcGhad3l3Tmx3eUhIQdIBhwJBVV95cUxPNXE3M2lfYXVjZVc4TTZvYVhZaF8wajNTVXhrYmZZajRkM05EdEVWV0szaGY5ZWljdXQ2YXVjTTFaMXhGdEExYjRiOWVJRG8tSHNfUEo2YlJMbE1fa3NEMVFPU3RJT255VUlDNXI3ZDZqSzQ2ei1vdG5OQU5yTnVScEd4VE9yR29IcEVBQjJ4V3BaOFNLXzNkVzJNRFRvdjFZaHBnZmY3bjBfd2xjVURKeTRXcVhHd1pjaTFoN2FVM01MLXIzTlRvT01aeU1Ha25EaTBtQmZQaXhJdnFsdjFvSVhxaG9KalI5WldfMzJ4SnZ2dFdJM2o0VlJGcGhad3l3Tmx3eUhIQQ?oc=5",
+     "name": "The Economic Times"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T12:33:59+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "b6a81dbd7b58",
+   "date": "2026-10-07",
+   "category": "Maturity & Rankings",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "UBS only European bank in top 10 of AI adoption as JPMorgan Chase leads",
+   "summary": "JPMorgan Chase leads global AI adoption rankings among banks, with UBS as the only European bank in the top ten. The ranking reflects relative progress in implementing AI capabilities.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPX0JPWGNOREY3UTBQNF95ZU5RN0hSb3g3eGZCaGI0QWRLbmt3UTI1b3VEQTFjVDRjalgwVl9ZVFhtNTlIaHRWZFJkeDBvd1hZVGJfcldoNFhFcWd2N1JsZy1FR3R2eHpacUVCQ3QwYm1ZTnBTR3ptREhjNkt1NVJVNA?oc=5",
+   "source_name": "Yahoo Finance Singapore",
+   "source_title": "UBS only European bank in top 10 of AI adoption as JPMorgan Chase leads",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPX0JPWGNOREY3UTBQNF95ZU5RN0hSb3g3eGZCaGI0QWRLbmt3UTI1b3VEQTFjVDRjalgwVl9ZVFhtNTlIaHRWZFJkeDBvd1hZVGJfcldoNFhFcWd2N1JsZy1FR3R2eHpacUVCQ3QwYm1ZTnBTR3ptREhjNkt1NVJVNA?oc=5",
+     "name": "Yahoo Finance Singapore"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T12:33:59+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "8ce0825f57d3",
+   "date": "2026-10-07",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "اللوائح المتعلقة بالسلامة وإدارة المخاطر لتطبيق الذكاء الاصطناعي في القطاع المصرفي.",
+   "summary": "Regulatory frameworks are being established for AI deployment in banking with safety and risk management protocols. Guidelines address controls required for AI systems in financial services.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZFlPajJhN2xQUklheENNaDdiQVNrR3JmTVVkQ2I5akRndjFVRmZ2bjd2d2JTZHVuakdjS3AzSWFmSDFIa3M0NWVxY0dSRndGMlA5ajgzb3lSb0tIZHF0VDZYeXYyQ1RaWDZ0ei15V2QxNGZoSmdnYUdNZzBIZURxZUNYM0NtekF6cHN6b1JVUThrRnVxLVkwXzRwamxtUTdMdEVn?oc=5",
+   "source_name": "Vietnam.vn",
+   "source_title": "اللوائح المتعلقة بالسلامة وإدارة المخاطر لتطبيق الذكاء الاصطناعي في القطاع المصرفي.",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZFlPajJhN2xQUklheENNaDdiQVNrR3JmTVVkQ2I5akRndjFVRmZ2bjd2d2JTZHVuakdjS3AzSWFmSDFIa3M0NWVxY0dSRndGMlA5ajgzb3lSb0tIZHF0VDZYeXYyQ1RaWDZ0ei15V2QxNGZoSmdnYUdNZzBIZURxZUNYM0NtekF6cHN6b1JVUThrRnVxLVkwXzRwamxtUTdMdEVn?oc=5",
+     "name": "Vietnam.vn"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-07T12:33:59+00:00",
    "verification": {
     "level": "pending",
     "evidence": "headline",
@@ -9486,7 +9574,7 @@
    "config": "[[{\"url\": \"https://www.ajmanbank.ae/site/files/Annual_Integrated_Report_2024_Ajman_Bank_compressed.pdf\", \"year\": 2024}], []]",
    "failed": {
     "2025": {
-     "n": 2,
+     "n": 3,
      "url": "https://www.ajmanbank.ae/site/files/AB - Integrated Annual Report 2025/Annual_Integrated_Report_2025_EN.pdf",
      "error": "HTTPError: HTTP Error 404: Not Found"
     }
@@ -9678,7 +9766,7 @@
    "config": "[[{\"url\": \"https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025\", \"year\": 2025}], [\"https://www.qnb.com/sites/qnb/qnbqatar/page/en/enannualreports.html\"]]",
    "failed": {
     "2025": {
-     "n": 2,
+     "n": 3,
      "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
      "error": "HTTPError: HTTP Error 403: Forbidden"
     }
@@ -10009,12 +10097,12 @@
    "config": "[[], []]",
    "failed": {
     "2025": {
-     "n": 2,
+     "n": 3,
      "url": "http://www.oman-arabbank.com/wp-content/uploads/OAB-ANNUAL-REPORT-2025-ENG.pdf",
      "error": "URLError: <urlopen error [Errno 101] Network is unreachable>"
     },
     "2024": {
-     "n": 2,
+     "n": 3,
      "url": "http://www.oman-arabbank.com/wp-content/uploads/OAB_ANNUAL_REPORT_2024_ENG-2.pdf",
      "error": "URLError: <urlopen error [Errno 101] Network is unreachable>"
     }
@@ -10775,6 +10863,36 @@
    "same": false
   },
   "v2|568950808958|798d2ba07a17": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|28347d2a7ff9|a284f49b7217": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|28347d2a7ff9|7aeb950c6feb": {
+   "merge": true,
+   "anchor": "JPMorgan tops global AI banking index",
+   "confidence": "high",
+   "same": true
+  },
+  "v2|6eaf525e9d06|a284f49b7217": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|6eaf525e9d06|c813e4e53244": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|28347d2a7ff9|6eaf525e9d06": {
    "merge": false,
    "anchor": "",
    "confidence": "high",

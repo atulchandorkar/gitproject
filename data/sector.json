@@ -1,6 +1,39 @@
 {
- "updated_at": "2026-10-07T06:38:10+00:00",
+ "updated_at": "2026-10-07T12:34:08+00:00",
  "items": [
+  {
+   "id": "6eaf525e9d06",
+   "date": "2026-10-07",
+   "category": "Market Data",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Banks face new threat as 500 billion dollars at stake in artificial intelligence",
+   "summary": "Five hundred billion dollars in banking value is exposed to disruption and opportunity from artificial intelligence. The figure underscores the significant financial stakes as banks navigate AI-driven transformation.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xZ1gySXJaSUdNOUlhYWMyc1FfZ3RaQ1JRQjNEY1JlTUphRFd1WG5xZm9GNVNhd2EwUldPQlI2U2NKdzA4blkwRWR1WFdkeTBOc3c?oc=5",
+   "source_name": "إرم نيوز",
+   "source_title": "البنوك تواجه تهديدًا جديدًا.. 500 مليار دولار في مهب الذكاء الاصطناعي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xZ1gySXJaSUdNOUlhYWMyc1FfZ3RaQ1JRQjNEY1JlTUphRFd1WG5xZm9GNVNhd2EwUldPQlI2U2NKdzA4blkwRWR1WFdkeTBOc3c?oc=5",
+     "name": "إرم نيوز"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1FclpKVnBUMENpQ296dlFSZG9UNjRWdlVpemdGTHlzZGFMbjhZYk1Td19OTEZnT0lYb0VHc0VLTkVhV2JqWGI5QllFV3BmTXgxb0g4?oc=5",
+     "name": "شبكة تواصل الإخبارية"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-07T12:33:59+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-07"
+   },
+   "pdf_checked": "2026-10-07"
+  },
   {
    "id": "a284f49b7217",
    "date": "2026-10-07",
@@ -56,6 +89,14 @@
     {
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOUZvWmxpM0dtOEJqcDF4YllqVHg0Ql9ybUlWV0cyaHlsQ0JfbzEtN2hMelc5SGc2LUd3S0RmV0kweXZxRlVMUkZkNE1WVDUxQUt4MnotbnpFVURiU1NNWHR4VG44VzFvRlcxQ3AzTU5tM1FiSFhNQ3RZSUxrdk5OVDBUVHU4cGlaM0p6M1NCVnFkQWZQSlo5V2plQTlYemdhR3RKbg?oc=5",
      "name": "Finextra Research"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObVJwMWlERHRqaFdTZ0k2VF9vOWpxZzFuQ1VUemZQbjBQVWI3c0x2YS10Tnp2cldZRmlOSHl5RXNUeFN1azNpdk0tSDlrVUVmZGNLd1ZNaVgtZlVLeXVCWG0yQWtha09TZmd2bnNjV2sydFdWTGZhc0ctWld6cW1SUnZDbDhldy1TeHpsUDdYSU83bFpNU1VkbWJYOA?oc=5",
+     "name": "The Edge Singapore"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ocUdWd1lFZW05dDdGNnoyeVAwVHp4Q1pNckpNdnRCY0k2T05pR1VKaVJpRHAtajV5b05uZlZockotNEhLMElwTnFMaHp4Qnct?oc=5",
+     "name": "The Edge Malaysia"
     }
    ],
    "language": "en",
@@ -76,6 +117,17 @@
      "summary": "JPMorgan Chase is recognized as the world's most AI-advanced bank according to Finextra Research. The bank extends its lead in AI maturity and deployment across financial services.",
      "how": "ai",
      "anchor": "JPMorgan Chase extends lead as world's most AI-advanced bank"
+    },
+    {
+     "id": "28347d2a7ff9",
+     "date": "2026-10-07",
+     "title": "JPMorgan tops global AI banking index with jobs seen to grow",
+     "source_title": "JPMorgan tops global AI banking index with jobs seen to grow",
+     "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObVJwMWlERHRqaFdTZ0k2VF9vOWpxZzFuQ1VUemZQbjBQVWI3c0x2YS10Tnp2cldZRmlOSHl5RXNUeFN1azNpdk0tSDlrVUVmZGNLd1ZNaVgtZlVLeXVCWG0yQWtha09TZmd2bnNjV2sydFdWTGZhc0ctWld6cW1SUnZDbDhldy1TeHpsUDdYSU83bFpNU1VkbWJYOA?oc=5",
+     "source_name": "The Edge Singapore",
+     "summary": "JPMorgan Chase leads global banks in AI capabilities according to a ranking index. The index projects AI adoption will expand banking sector employment despite automation risks.",
+     "how": "ai",
+     "anchor": "JPMorgan tops global AI banking index"
     }
    ],
    "pdf_checked": "2026-10-07"
