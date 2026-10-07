@@ -1,5 +1,5 @@
 {
- "last_update": "2026-10-07T05:50:30+00:00",
+ "last_update": "2026-10-07T06:34:08+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -955,7 +955,9 @@
   "1af09a75dabbe6": "2026-10-06",
   "94fe27873db2b1": "2026-10-03",
   "88d534b88843d3": "2026-10-07",
-  "a7068f77549e59": "2026-10-07"
+  "a7068f77549e59": "2026-10-07",
+  "4d7e47532a7372": "2026-10-01",
+  "38819e9bcf85c3": "2026-10-07"
  },
  "history_loaded": {
   "adcb": "2026-10-05",
@@ -2657,7 +2659,7 @@
   "riyad": {
    "checked": "2026-10-06",
    "url": "https://www.riyadbank.com/personal-banking/media-center?p_p_id=com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath=%2Fdisplay_article.jsp&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId=6385919&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_shareURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fdisplay_article.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId%3D6385919%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL%3Dhttps%253A%252F%252Fwww.riyadbank.com%252Fpersonal-banking%252Fmedia-center%253Fp_p_id%253Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%2526p_p_lifecycle%253D0%2526p_p_state%253Dnormal%2526p_p_mode%253Dview%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%253D%25252Fview.jsp%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%253D2%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%253D10&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fview.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%3D2%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%3D10",
-   "status": "unreachable (IncompleteRead)",
+   "status": "ok",
    "links": 11,
    "scanned": "2026-10-07",
    "known": [
@@ -2702,7 +2704,7 @@
   "ahlibankqa": {
    "checked": "2026-10-05",
    "url": "https://www.ahlibank.com.qa/en/media-center/news-press-releases",
-   "status": "unreachable (URLError)",
+   "status": "ok",
    "links": 24,
    "scanned": "2026-10-07",
    "known": [
@@ -3783,7 +3785,10 @@
   "103a3631cc83aa": "2026-10-06",
   "ef9bc51799bd84": "2026-10-06",
   "3794db0aac2deb": "2026-10-06",
-  "04e0cfc42096a7": "2026-10-07"
+  "04e0cfc42096a7": "2026-10-07",
+  "7e761994067b48": "2026-10-05",
+  "f1470f948186db": "2026-10-06",
+  "a9e4793334bfc1": "2026-10-07"
  },
  "sector_known": {},
  "sector_pending": [
@@ -7355,34 +7360,6 @@
    }
   },
   {
-   "id": "798d2ba07a17",
-   "date": "2026-10-06",
-   "category": "Regulation & Guidance",
-   "publisher": "Reserve Bank of India",
-   "countries": [
-    "Global"
-   ],
-   "title": "Central bank pushes banks to scale AI adoption while addressing risk management gaps",
-   "summary": "The RBI encourages banks to expand AI implementation but raises concerns about potential risk oversight blind spots. The guidance reflects central bank efforts to balance AI advancement with prudent risk management.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM0dJckNIWjZTeEhNSlkwYkZ0V0xxVWtzekNiSWhLNXVCUFEyRzNveG9lOXN5dThxTDJIYkp1bExmWGVwMG53SVFZTEw3RU80bnkxU01yQUFoU2t5TDR3dVIwYTBxNTJfTFV3X09HcE56ZjhFVVM5MzhBMmZWWkZwUkhuNl9zUENJajNQZnJ1UEhOdE9rLVJ1VnVueE1fQkxWX3ZmTzJscw?oc=5",
-   "source_name": "analyticsindiamag.com",
-   "source_title": "RBI Wants Banks to Scale AI. But Does It Have a Risk Blind Spot?",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM0dJckNIWjZTeEhNSlkwYkZ0V0xxVWtzekNiSWhLNXVCUFEyRzNveG9lOXN5dThxTDJIYkp1bExmWGVwMG53SVFZTEw3RU80bnkxU01yQUFoU2t5TDR3dVIwYTBxNTJfTFV3X09HcE56ZjhFVVM5MzhBMmZWWkZwUkhuNl9zUENJajNQZnJ1UEhOdE9rLVJ1VnVueE1fQkxWX3ZmTzJscw?oc=5",
-     "name": "analyticsindiamag.com"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T10:20:46+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   }
-  },
-  {
    "id": "d1666d1408bc",
    "date": "2026-10-06",
    "category": "Market Data",
@@ -7730,6 +7707,34 @@
    ],
    "language": "ar",
    "added_at": "2026-10-07T06:07:23+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "77430aa6048d",
+   "date": "2026-10-06",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Banks prioritize responsible AI governance as use soars",
+   "summary": "Banks are prioritizing responsible AI and governance as artificial intelligence use expands across the sector, reflecting the need for oversight alongside deployment.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE03aHhPUEZ2OXhKeS1WbElhV2kxZkZacWE0bEo1UW9Sb0lhVXVoT1BXbVlhd2VOcUpORzZQaF9tSkZEcVZ2T1hvUEkxY2hiUE9teDZwTlVOSE1qR09VdldpYnpJUlljLVhtQmRSMnVVZU9ib2FIQnc?oc=5",
+   "source_name": "CIO Dive",
+   "source_title": "Banks prioritize responsible AI, governance as use soars",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE03aHhPUEZ2OXhKeS1WbElhV2kxZkZacWE0bEo1UW9Sb0lhVXVoT1BXbVlhd2VOcUpORzZQaF9tSkZEcVZ2T1hvUEkxY2hiUE9teDZwTlVOSE1qR09VdldpYnpJUlljLVhtQmRSMnVVZU9ib2FIQnc?oc=5",
+     "name": "CIO Dive"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T06:38:06+00:00",
    "verification": {
     "level": "pending",
     "evidence": "headline",
@@ -9304,6 +9309,12 @@
    "anchor": "NCR Atleos",
    "confidence": "high",
    "same": true
+  },
+  "v2|6e5d43e89799|7b953b1ccd7f": {
+   "merge": false,
+   "anchor": "ISO/IEC 42001:2023",
+   "confidence": "high",
+   "same": true
   }
  },
  "annual_reports": {
@@ -9460,15 +9471,22 @@
    "checked": "2026-10-07"
   },
   "ajman": {
-   "done": {},
+   "done": {
+    "2024": {
+     "url": "https://www.ajmanbank.ae/site/files/Annual_Integrated_Report_2024_Ajman_Bank_compressed.pdf",
+     "pages": 223,
+     "items": 0,
+     "date": "2026-06-17"
+    }
+   },
    "pages": [
     "https://www.ajmanbank.ae/site/annual-integrated-reports.html",
     "https://www.ajmanbank.ae/site/ar/annual-integrated-reports.html"
    ],
-   "config": "[[], []]",
+   "config": "[[{\"url\": \"https://www.ajmanbank.ae/site/files/Annual_Integrated_Report_2024_Ajman_Bank_compressed.pdf\", \"year\": 2024}], []]",
    "failed": {
     "2025": {
-     "n": 1,
+     "n": 2,
      "url": "https://www.ajmanbank.ae/site/files/AB - Integrated Annual Report 2025/Annual_Integrated_Report_2025_EN.pdf",
      "error": "HTTPError: HTTP Error 404: Not Found"
     }
@@ -9660,7 +9678,7 @@
    "config": "[[{\"url\": \"https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025\", \"year\": 2025}], [\"https://www.qnb.com/sites/qnb/qnbqatar/page/en/enannualreports.html\"]]",
    "failed": {
     "2025": {
-     "n": 1,
+     "n": 2,
      "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
      "error": "HTTPError: HTTP Error 403: Forbidden"
     }
@@ -9991,12 +10009,12 @@
    "config": "[[], []]",
    "failed": {
     "2025": {
-     "n": 1,
+     "n": 2,
      "url": "http://www.oman-arabbank.com/wp-content/uploads/OAB-ANNUAL-REPORT-2025-ENG.pdf",
      "error": "URLError: <urlopen error [Errno 101] Network is unreachable>"
     },
     "2024": {
-     "n": 1,
+     "n": 2,
      "url": "http://www.oman-arabbank.com/wp-content/uploads/OAB_ANNUAL_REPORT_2024_ENG-2.pdf",
      "error": "URLError: <urlopen error [Errno 101] Network is unreachable>"
     }
@@ -10739,6 +10757,24 @@
    "same": false
   },
   "v2|98714c94bf6e|a284f49b7217": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|798d2ba07a17|7aeb950c6feb": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|496a380f662f|798d2ba07a17": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|568950808958|798d2ba07a17": {
    "merge": false,
    "anchor": "",
    "confidence": "high",

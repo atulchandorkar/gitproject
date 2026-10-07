@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-07T06:07:28+00:00",
+ "updated_at": "2026-10-07T06:38:10+00:00",
  "items": [
   {
    "id": "38abf2dd9df2",
@@ -26,6 +26,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMkNVQko3SVZVT3hGb0tvZkVNUG1lSGpvYlFCYXoxczNyVTAybmpSNi1qS0xDVzd3UVpvU0E1Q0ZOS2Z1SXVkeGdDWWpGcV82QlUzc1BuNHhHNEdWQzN6ZzhtbktHeEo4OXFPclBRdmVmeS1mY3otYlNqTG1WUldkSW1aNC11QjdQNHI5dFVyRGQ?oc=5",
      "name": "Gulf Daily News (Bahrain)"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi_gRBVV95cUxPVm5OdlljU1c2Zk1zZmF5YWhfcDJIcm9mM3JCcURNZ2o4RHhMRW9ObmxnMWVOWGc4eUZCbEI3TTBrdGRsVk1aak9BUy0tdkNYamdtQWtvbXdIR2J0SjFBd3BMV2o1UEJBQVdaSjQxbXA2MlFOcThHeHIzdktVZVJ0VHFYVjlod3Rtc2o5Q1ZUZGNFS18ySWJjMHlyMlZCQXRzdTF2MUxSQllVQjhVajlxenZIYmlxQlRwQ3k1bFBlaEpZNXB3SHFLS3hOY0ZDV1lpbWxjVGstOUJOREppTVZHNkFIM1lSZUxvNmhyeWNlUWczYmNUUFJkQjd2ZXcxN2Q4TVpVR3U3STRoWHhNZGxnN0FBX1JyNTd2MUdOcTlxeGJYMloyeGNod3V3WmYyUEtZUlZaeHpZUFdlWXpnRmxlczFQSWFpUUdYRi1LZnkxVjVqbVo0UkVhbWp0ZENLbGhrRlcwczhUTl93dFVveGoxRnVYOWpuQUVUNGliNE0zUVA4MVJsNWYwLTh3TmlxX1RfTXR2ckJWbnJFVUVlamlIclJrZGxlc2FtOWZVeWtnQ25HOFVNaG9SbkMySktIbUp6UmZpQkt3emNqb0JfeFBseE52aGhQbTBycmFvQW4zRlkzX0Z3bjRYamlzMkF1cXJzMVFmT0plNDdGRC1FZnE4N1ZqZS1pNzk2aXYteTlNOG5XQ3p5bmc5UjI1QVJyNlJRaFMyUW4zcjd5ZUR2bExXd3UyWGVLNHVybFQ0QnNmY1ZLZXMtNzVXWmMyWnJEc1lxUjJhaUpPV0FqUnJNSl9yd1VneGJPOEhIU0RXREc0R1QzcV8wVGRmcjZsMHV6UQ?oc=5",
+     "name": "Menafn"
     }
    ],
    "language": "en",
@@ -117,6 +121,39 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-06"
+   }
+  },
+  {
+   "id": "6e5d43e89799",
+   "bank_id": "alsalam",
+   "country": "BH",
+   "date": "2026-10-01",
+   "title": "Al Salam Bank achieves milestone AI certification",
+   "summary": "Al Salam Bank has obtained a significant AI certification.",
+   "category": "Awards & Rankings",
+   "topics": [
+    "Awards & Rankings"
+   ],
+   "tags": [
+    "AI certification"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObFI1WFFyVnRfV3YxTDhVYmZsVVYxV0Uyc3FybDVseVpSSFRVVHhydmZjV1Rwbm5Wbnd3U1pkZTMzQXFsVUkzSzRIaE9FUmVyWmE5eUNDTGx3N3d5OHJDZDFhTzktTDJjVmk3ZzQtQ2V6SkJLUWNaN0N3R0FyWENxZzR0M0lfb3V2RDlFNkNnaHg?oc=5",
+   "source_name": "GDNOnline",
+   "source_title": "Bahrain Business: Al Salam Bank bags milestone AI certification",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObFI1WFFyVnRfV3YxTDhVYmZsVVYxV0Uyc3FybDVseVpSSFRVVHhydmZjV1Rwbm5Wbnd3U1pkZTMzQXFsVUkzSzRIaE9FUmVyWmE5eUNDTGx3N3d5OHJDZDFhTzktTDJjVmk3ZzQtQ2V6SkJLUWNaN0N3R0FyWENxZzR0M0lfb3V2RDlFNkNnaHg?oc=5",
+     "name": "GDNOnline"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T06:34:05+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-07"
    }
   },
   {

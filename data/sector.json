@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-07T06:07:28+00:00",
+ "updated_at": "2026-10-07T06:38:10+00:00",
  "items": [
   {
    "id": "a284f49b7217",
@@ -140,6 +140,39 @@
     }
    ],
    "language": "ar",
+   "added_at": "2026-10-06T10:20:46+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-06"
+   },
+   "pdf_checked": "2026-10-07"
+  },
+  {
+   "id": "798d2ba07a17",
+   "date": "2026-10-06",
+   "category": "Regulation & Guidance",
+   "publisher": "Reserve Bank of India",
+   "countries": [
+    "Global"
+   ],
+   "title": "Central bank pushes banks to scale AI adoption while addressing risk management gaps",
+   "summary": "The RBI encourages banks to expand AI implementation but raises concerns about potential risk oversight blind spots. The guidance reflects central bank efforts to balance AI advancement with prudent risk management.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM0dJckNIWjZTeEhNSlkwYkZ0V0xxVWtzekNiSWhLNXVCUFEyRzNveG9lOXN5dThxTDJIYkp1bExmWGVwMG53SVFZTEw3RU80bnkxU01yQUFoU2t5TDR3dVIwYTBxNTJfTFV3X09HcE56ZjhFVVM5MzhBMmZWWkZwUkhuNl9zUENJajNQZnJ1UEhOdE9rLVJ1VnVueE1fQkxWX3ZmTzJscw?oc=5",
+   "source_name": "analyticsindiamag.com",
+   "source_title": "RBI Wants Banks to Scale AI. But Does It Have a Risk Blind Spot?",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM0dJckNIWjZTeEhNSlkwYkZ0V0xxVWtzekNiSWhLNXVCUFEyRzNveG9lOXN5dThxTDJIYkp1bExmWGVwMG53SVFZTEw3RU80bnkxU01yQUFoU2t5TDR3dVIwYTBxNTJfTFV3X09HcE56ZjhFVVM5MzhBMmZWWkZwUkhuNl9zUENJajNQZnJ1UEhOdE9rLVJ1VnVueE1fQkxWX3ZmTzJscw?oc=5",
+     "name": "analyticsindiamag.com"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM0dJckNIWjZTeEhNSlkwYkZ0V0xxVWtzekNiSWhLNXVCUFEyRzNveG9lOXN5dThxTDJIYkp1bExmWGVwMG53SVFZTEw3RU80bnkxU01yQUFoU2t5TDR3dVIwYTBxNTJfTFV3X09HcE56ZjhFVVM5MzhBMmZWWkZwUkhuNl9zUENJajNQZnJ1UEhOdE9rLVJ1VnVueE1fQkxWX3ZmTzJscw?oc=5",
+     "name": "Analytics India Magazine"
+    }
+   ],
+   "language": "en",
    "added_at": "2026-10-06T10:20:46+00:00",
    "verification": {
     "level": "corroborated",
