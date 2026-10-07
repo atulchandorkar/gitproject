@@ -224,10 +224,17 @@ def _icon_candidates(domain: str) -> list[str]:
     return urls
 
 
+def config_logos(b: dict) -> list[str]:
+    """Logo links set in the config (one link or a list to try in order), each also as the full-size file."""
+    links = b.get("logo") or []
+    links = [links] if isinstance(links, str) else links
+    return list(dict.fromkeys(u for link in links for u in (link, link.split("?")[0])))
+
+
 def fetch_logo(b: dict) -> tuple[bytes, str, str] | None:
     sources = [
         # the configured link, then the full-size file (Wikimedia may refuse an uncached thumbnail size)
-        lambda: list(dict.fromkeys([b["logo"], b["logo"].split("?")[0]])) if b.get("logo") else [],
+        lambda: config_logos(b),
         lambda: _icon_candidates(b["domain"]),
         lambda: wikidata_logo_urls(b),
         lambda: wikipedia_logo_urls(b),
@@ -266,7 +273,7 @@ def refresh(banks: list[dict], data_dir: Path, today: dt.date, force: bool = Fal
         entry = index.get(b["id"])
         if force or not entry or not entry.get("file") or not valid_file(entry):   # missing or broken
             return True
-        if b.get("logo") and entry.get("source") != b["logo"]:   # a logo link was set in the config
+        if b.get("logo") and entry.get("source") not in config_logos(b):   # a logo link was set in the config
             return True
         age = (today - dt.date.fromisoformat(entry["checked"])).days
         return age >= REFRESH_DAYS or (age >= SMALL_RETRY_DAYS and not valid_file(entry, MIN_PIXELS))
@@ -290,7 +297,7 @@ def refresh(banks: list[dict], data_dir: Path, today: dt.date, force: bool = Fal
                 entry.pop("file", None)
                 entry.pop("source", None)
             if not entry.get("file"):
-                for url in ([b["logo"], b["logo"].split("?")[0]] if b.get("logo") else []) + [u for u in ERRORS if b["domain"] in u][:2]:
+                for url in config_logos(b) + [u for u in ERRORS if b["domain"] in u][:2]:
                     if url in ERRORS:
                         print(f"  ! logo {b['short']}: {url} → {ERRORS[url]}", file=sys.stderr)
             index[b["id"]] = entry
