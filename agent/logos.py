@@ -126,7 +126,7 @@ def wikidata_logo_urls(b: dict) -> list[str]:
         # only accept entities that are clearly a bank / financial institution
         score = (2 if "bank" in desc or "مصرف" in desc or "بنك" in desc else
                  1 if any(w in desc for w in ("financ", "lender", "monetary", "islamic")) else 0)
-        if score:
+        if score or b.get("any_org"):   # publishers (consultancies, vendors, regulators) need not be banks
             ranked.append((score, files[-1]))  # newest logo is usually listed last
     ranked.sort(key=lambda r: -r[0])
     return [f"https://commons.wikimedia.org/wiki/Special:FilePath/{urllib.parse.quote(f.replace(' ', '_'))}?width=256"
@@ -235,10 +235,11 @@ def fetch_logo(b: dict) -> tuple[bytes, str, str] | None:
     return fallback                       # small icon, better than initials
 
 
-def refresh(banks: list[dict], data_dir: Path, today: dt.date, force: bool = False) -> None:
+def refresh(banks: list[dict], data_dir: Path, today: dt.date, force: bool = False,
+            index_name: str = "logos.json", label: str = "banks") -> None:
     out_dir = data_dir / "logos"
     out_dir.mkdir(parents=True, exist_ok=True)
-    index_file = data_dir / "logos.json"
+    index_file = data_dir / index_name
     index = json.loads(index_file.read_text()) if index_file.exists() else {}
 
     def valid_file(entry: dict, min_px: int = FALLBACK_PIXELS) -> bool:
@@ -277,7 +278,18 @@ def refresh(banks: list[dict], data_dir: Path, today: dt.date, force: bool = Fal
         print(f"  logos: only a small icon so far for {', '.join(small)}")
     have = sum(1 for e in index.values() if e.get("file"))
     missing = [b["short"] for b in banks if not index.get(b["id"], {}).get("file")]
-    print(f"  logos: {have}/{len(banks)} banks have a logo" + (f"; missing: {', '.join(missing)}" if missing else ""))
+    more = f" (+{len(missing) - 25} more)" if len(missing) > 25 else ""
+    print(f"  logos: {have}/{len(banks)} {label} have a logo" + (f"; missing: {', '.join(missing[:25])}{more}" if missing else ""))
+
+
+def publisher_id(name: str) -> str:
+    return "pub-" + re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+
+
+def refresh_publishers(publishers: list[dict], data_dir: Path, today: dt.date) -> None:
+    """Logos of the Sector Insights publishers and outlets (BCG, Accenture, Reuters …), same checks as bank logos."""
+    orgs = [{**p, "id": publisher_id(p["name"]), "any_org": True} for p in publishers if p.get("domain")]
+    refresh(orgs, data_dir, today, index_name="publisher_logos.json", label="publishers")
 
 
 if __name__ == "__main__":  # python agent/logos.py  → refresh all logos now
