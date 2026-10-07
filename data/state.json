@@ -1,5 +1,5 @@
 {
- "last_update": "2026-10-07T03:17:08+00:00",
+ "last_update": "2026-10-07T03:30:28+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -2737,8 +2737,8 @@
    "known": [
     "25f3f42aefbd",
     "0c9fb2af54b5",
-    "cb0f30100d55",
     "7b80d2c3cb92",
+    "cb0f30100d55",
     "ab0f93aae110",
     "1ba12c1486bd",
     "2cd659e90f31",
@@ -3101,7 +3101,7 @@
   "ahlioman": {
    "checked": "2026-10-05",
    "url": "https://ahlibank.om/Ahlibank/news/",
-   "status": "unreachable (TimeoutError)",
+   "status": "ok",
    "links": 9,
    "scanned": "2026-10-07",
    "known": [
