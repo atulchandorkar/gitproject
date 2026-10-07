@@ -75,7 +75,9 @@
   "source": "https://www.bankdhofar.com/media/wvffurdm/fav-icon.png?width=57&amp;height=57"
  },
  "bankmuscat": {
-  "checked": "2026-10-07"
+  "checked": "2026-10-07",
+  "file": "logos/bankmuscat.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/BM_logo.png?width=330"
  },
  "bbk": {
   "checked": "2026-10-05",
@@ -221,7 +223,9 @@
   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Khcb_logo.jpg?width=256"
  },
  "kib": {
-  "checked": "2026-10-07"
+  "checked": "2026-10-07",
+  "file": "logos/kib.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Kib_logo.png?width=330"
  },
  "lesha": {
   "checked": "2026-10-05",
