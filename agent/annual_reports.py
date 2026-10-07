@@ -129,6 +129,13 @@ def fetch_bytes(url: str, limit: int = MAX_PDF_BYTES, timeout: int = 60) -> tupl
                 except browser.Unavailable:
                     raise exc
             time.sleep(2)
+        except urllib.error.URLError as exc:
+            if "SSL" not in str(exc.reason):
+                raise
+            try:      # old server TLS settings that Python refuses but browsers accept (e.g. alahli.com)
+                return browser.download(url, limit)
+            except browser.Unavailable:
+                raise exc
     raise RuntimeError("unreachable")
 
 
