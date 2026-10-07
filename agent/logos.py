@@ -250,6 +250,8 @@ def refresh(banks: list[dict], data_dir: Path, today: dt.date, force: bool = Fal
         entry = index.get(b["id"])
         if force or not entry or not entry.get("file") or not valid_file(entry):   # missing or broken
             return True
+        if b.get("logo") and entry.get("source") != b["logo"]:   # a logo link was set in the config
+            return True
         age = (today - dt.date.fromisoformat(entry["checked"])).days
         return age >= REFRESH_DAYS or (age >= SMALL_RETRY_DAYS and not valid_file(entry, MIN_PIXELS))
 

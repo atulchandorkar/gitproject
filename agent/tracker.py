@@ -784,6 +784,7 @@ def main() -> None:
         # AI implementations disclosed in the banks' own annual reports (separate source type, tagged to the bank)
         reports = annual_reports.AnnualReports(tracker.banks, tracker.state, tracker.checker, CATEGORY_GUIDE, today(), now_iso)
         tracker.news["items"] = reports.repair_merged(tracker.news["items"])
+        reports.mark_all_for_reread()
         try:
             ar_added = reports.run(tracker.rejected)
         except FatalAPIError:
@@ -791,6 +792,11 @@ def main() -> None:
         except Exception as exc:   # never lose the bank-news run over this source
             print(f"  ! annual reports failed: {exc!r}", file=sys.stderr)
             ar_added = []
+        if reports.replaced:   # reports read again: their new items replace the old ones
+            new_ids = {id(a) for a in ar_added}
+            tracker.news["items"] = [i for i in tracker.news["items"] if not (
+                i.get("source_type") == "annual_report" and (i["bank_id"], i["report"]["year"]) in reports.replaced
+                and id(i) not in new_ids)]
         if ar_added:
             tracker.news["items"] += ar_added
             tracker.dedupe_news()

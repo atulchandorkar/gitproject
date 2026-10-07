@@ -33,7 +33,7 @@ import verify
 YEARS_BACK = 2                 # fiscal years to cover (matches the 2-year news history)
 MAX_PDF_BYTES = 80_000_000
 PASSAGE_CHARS = 30_000         # AI-related text sent to Claude per report
-MAX_ITEMS_PER_REPORT = 10
+MAX_ITEMS_PER_REPORT = 20     # keep every concrete AI item a report discloses (up to this many)
 RECHECK_DAYS = 14              # look again for a report that is not out yet
 RUN_BUDGET_S = 30 * 60         # time cap per daily run; remaining banks continue next run
 
@@ -75,8 +75,8 @@ Extract each CONCRETE AI implementation, initiative, investment, partnership, pr
 {bank} itself (AI/GenAI/ML models, assistants, chatbots, copilots, AI for fraud, credit, KYC, operations, AI \
 strategy or governance set up, AI training, AI-related awards). Skip: generic statements ("AI will transform \
 banking"), risk-factor boilerplate, market commentary, other companies' activities, and plain digital or IT \
-projects without AI. Merge repeated mentions of the same initiative into one item. At most {max_items} items, most \
-significant first.
+projects without AI. Merge repeated mentions of the same initiative into one item. Include EVERY concrete AI item you \
+find (up to {max_items}), not only the most significant ones, ordered by significance.
 
 For each item: title (clear English headline starting with "{short}"), summary (two short English sentences, only \
 what the passage states), category and topics from the theme list, tags, partners named, impact (a measurable \
@@ -172,13 +172,20 @@ def find_reports(bank: dict, cached_pages: list[str]) -> tuple[dict[int, str], l
         ranked = sorted(more, key=lambda u: (not AR_RE.search(u), not re.search(r"investor|المستثمرين", u, re.I)))
         queue += [u for u in ranked[:6] if u not in seen]
     by_year: dict[int, list[tuple[str, str]]] = {}
-    for url, text in found + [(u, "") for u in bank.get("annual_reports", [])]:
+    configured = {}   # links set in config/banks.json: {"year": 2025, "url": …} (or a plain URL with the year in it)
+    for entry in bank.get("annual_reports", []):
+        if isinstance(entry, dict):
+            configured[int(entry["year"])] = entry["url"]
+        else:
+            found.append((entry, ""))
+    for url, text in found:
         y = report_year(url, text)
         if y:
             by_year.setdefault(y, []).append((url, text))
     # prefer the English edition
     pick = {y: sorted(c, key=lambda c: (bool(re.search(r"[؀-ۿ]|/ar/|[-_]ar[-_.]|arabic", c[0] + c[1], re.I)),
                                         len(c[0])))[0][0] for y, c in by_year.items()}
+    pick.update(configured)          # a link checked by hand wins over one found automatically
     return pick, useful
 
 
@@ -252,17 +259,44 @@ class AnnualReports:
                  today: dt.date, now_iso: Callable[[], str]):
         self.banks, self.checker, self.themes, self.today, self.now_iso = banks, checker, themes, today, now_iso
         self.root_state = state
+        self.replaced: set[tuple[str, int]] = set()
         self.state = state.setdefault("annual_reports", {})
 
     def years(self) -> list[int]:
         latest = self.today.year - 1 if self.today.month >= 3 else self.today.year - 2
         return [latest - k for k in range(YEARS_BACK)]
 
+    def _todo_years(self, st: dict) -> list[int]:
+        done = st.get("done", {})
+        return [y for y in self.years() if str(y) not in done or done[str(y)].get("redo")]
+
+    @staticmethod
+    def _config_sig(bank: dict) -> str:
+        return json.dumps([bank.get("annual_reports", []), bank.get("annual_reports_pages", [])], sort_keys=True)
+
     def due(self, bid: str) -> bool:
         st = self.state.get(bid) or {}
-        missing = [y for y in self.years() if str(y) not in st.get("done", {})]
+        todo = self._todo_years(st)
+        if not todo:
+            return False
+        redo = any(st.get("done", {}).get(str(y), {}).get("redo") for y in todo)
+        new_links = st.get("config") != self._config_sig(self.banks[bid])   # links added/changed in the config
         last = st.get("checked")
-        return bool(missing) and (not last or (self.today - dt.date.fromisoformat(last)).days >= RECHECK_DAYS)
+        return redo or new_links or not last or (self.today - dt.date.fromisoformat(last)).days >= RECHECK_DAYS
+
+    def mark_all_for_reread(self) -> None:
+        """One-time: reports read under the old 'top 10 items' rule are read again to keep every AI item.
+        Their items are replaced only once the new reading has succeeded (no gap on the dashboard)."""
+        done = self.root_state.setdefault("migrations", [])
+        if "ar-all-items-v1" in done:
+            return
+        n = 0
+        for st in self.state.values():
+            for d in st.get("done", {}).values():
+                d["redo"] = True
+                n += 1
+        print(f"Annual reports: {n} reports will be read again to keep every AI item")
+        done.append("ar-all-items-v1")
 
     def extract(self, bank: dict, year: int, pages: list[str]) -> list[Disclosure]:
         text = passages(pages)
@@ -387,9 +421,7 @@ class AnnualReports:
                 reports, useful = {}, []
             if useful:
                 st["pages"] = useful[:3]
-            for y in self.years():
-                if str(y) in st["done"]:
-                    continue
+            for y in self._todo_years(st):
                 url = reports.get(y) or next((u for u, _ in ddg_pdfs(bank, y)), None)
                 if not url:
                     continue
@@ -420,11 +452,14 @@ class AnnualReports:
                     continue
                 for r in rejected:
                     rejected_log.append({"checked": self.today.isoformat(), **r})
+                if st["done"].get(str(y), {}).get("redo"):
+                    self.replaced.add((bank["id"], y))     # tracker drops this report's old items
                 st["done"][str(y)] = {"url": url, "pages": len(pages), "items": len(items), "date": date}
                 added += items
                 print(f"  {bank['short']} {y}: {len(pages)} pages, {len(found)} AI disclosures found, "
                       f"{len(items)} verified")
             st["checked"] = self.today.isoformat()
+            st["config"] = self._config_sig(bank)
         return added
 
 
