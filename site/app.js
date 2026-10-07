@@ -34,7 +34,7 @@
   let DATA = { items: [], updated_at: null };
   let CFG = { countries: [], banks: [], types: {} };
   let BANKS = {}, COUNTRIES = {}, CATEGORIES = [], LOGOS = {};
-  let REPORTS = {}, PUBLOGOS = {};
+  let REPORTS = {}, PUBLOGOS = {}, DIGESTS = [];
   let SECTOR = { items: [], updated_at: null }, SECTOR_CFG = { categories: [], publishers: [] };
 
   // ---------- utils ----------
@@ -78,6 +78,7 @@
     if (view === "bank" && BANKS[arg]) return setActiveTab("banks"), renderBank(arg, q);
     if (view === "sector") return setActiveTab("sector"), renderSector(q);
     if (view === "about") return setActiveTab("about"), renderAbout();
+    if (view === "weekly") return setActiveTab("weekly"), renderWeekly(arg);
     setActiveTab("feed");
     renderFeed(q);
   }
@@ -177,24 +178,26 @@
         <time datetime="${i.date}">${fmtDate(i.date)}</time>
         <span class="dot"></span><span class="cat">${esc(i.category)}</span>${extraTopics}
       </div>
-      ${isAR(i) ? `<div class="ar-chip">📘 From ${esc(b.short)}'s Annual Report ${i.report.year} · p. ${i.report.page}</div>` : ""}
+      ${isAR(i) ? `<div class="ar-chip">📘 From ${esc(b.short)}'s Annual Report ${i.report.year} · ${arWhere(i)}</div>` : ""}
       <h3><a href="${esc(i.source_url)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>
       <p>${esc(i.summary && i.summary.trim().length >= 40 ? i.summary
         : `${b.name}: ${(i.source_title || i.title).replace(/\.$/, "")}. Reported by ${srcs[0].name || "the source"} on ${fmtDate(i.date)}; open the source for full details.`)}</p>
       ${i.impact ? `<div class="impact">📈 ${esc(i.impact)}</div>` : ""}
       ${tags || (i.partners && i.partners.length) ? `<div class="tags">${tags}${i.partners && i.partners.length ? `<span class="tag">🤝 ${esc(i.partners.join(", "))}</span>` : ""}</div>` : ""}
       ${isAR(i) ? `<blockquote class="ar-quote" dir="auto">“${esc(i.report.quote)}”</blockquote>
-        <a class="pdf-btn" href="${esc(i.source_url)}" target="_blank" rel="noopener"><span>📘</span><b>Annual Report ${i.report.year} (PDF)</b><small>opens p. ${i.report.page} · ${esc(b.domain)}</small><span class="pdf-go">↗</span></a>` : ""}
+        <a class="pdf-btn" href="${esc(i.source_url)}" target="_blank" rel="noopener"><span>📘</span><b>Annual Report ${i.report.year} (${isWebAR(i) ? "online" : "PDF"})</b><small>opens ${arWhere(i)} · ${esc(b.domain)}</small><span class="pdf-go">↗</span></a>` : ""}
       ${sourceBlock(i, VERIFY_LABEL)}
     </article>`;
   }
 
   const AR_FILTER = "annual-reports";
   const isAR = (i) => i.source_type === "annual_report" && i.report;
+  const isWebAR = (i) => i.report && i.report.format === "web";
+  const arWhere = (i) => isWebAR(i) ? "online edition" : `p. ${i.report.page}`;
   // Verification badge, original headline and every source link (shared by bank news and sector cards).
   function sourceBlock(i, labels) {
     const srcs = sourcesOf(i);
-    if (isAR(i)) return `<div class="sources"><div class="verified" title="The quote was found word for word in the report and every claim was fact-checked against that page">✓ Bank's own annual report · quote checked on p. ${i.report.page}</div></div>`;
+    if (isAR(i)) return `<div class="sources"><div class="verified" title="The quote was found word for word in the report and every claim was fact-checked against that page">✓ Bank's own annual report · quote checked ${isWebAR(i) ? "in the online edition" : `on p. ${i.report.page}`}</div></div>`;
     const v = i.verification && labels[i.verification.level];
     const outlets = new Set(srcs.map((s) => (s.name || "").toLowerCase()).filter(Boolean)).size;
     const badge = v ? `<div class="verified" title="Passed the source, numbers and AI fact-checks">✓ ${esc(i.verification.level === "corroborated" ? `Confirmed by ${outlets} outlets` : v)}${i.verification.evidence === "article" ? " · checked against full article" : " · checked against headline"}</div>` : "";
@@ -562,7 +565,7 @@
         `<button class="cat-bar" data-cat="${esc(k)}" aria-pressed="${k === cat}"><span class="lbl">${esc(k)}</span><span class="cnt">${n}</span>
           <span class="track"><span class="fill" style="display:block;width:${(n / maxCat) * 100}%"></span></span></button>`).join("")}</div></div>` : ""}
       ${(REPORTS[id] || []).length ? `<div class="section-title">📘 Annual reports</div><div class="ar-list">${REPORTS[id].map((r) =>
-        `<a class="pdf-btn" href="${esc(r.url)}" target="_blank" rel="noopener"><span>📘</span><b>Annual Report ${r.year}</b><small>${r.items} AI disclosure${r.items === 1 ? "" : "s"} · ${r.pages} pages · PDF</small><span class="pdf-go">↗</span></a>`).join("")}</div>` : ""}
+        `<a class="pdf-btn" href="${esc(r.url)}" target="_blank" rel="noopener"><span>📘</span><b>Annual Report ${r.year}</b><small>${r.items} AI disclosure${r.items === 1 ? "" : "s"} · ${r.format === "web" ? `${r.pages} sections · online` : `${r.pages} pages · PDF`}</small><span class="pdf-go">↗</span></a>`).join("")}</div>` : ""}
       ${partners.length ? `<div class="section-title">Technology partners</div><div class="tags">${partners.map((p) => `<span class="tag">${esc(p)}</span>`).join("")}</div>` : ""}
       <div class="section-title" id="tlTitle">AI timeline</div><div id="timeline"></div>`;
 
@@ -777,6 +780,51 @@
   }
 
   // ---------- About ----------
+  // ---------- weekly digest (built every Sunday by the agent; print → Save as PDF) ----------
+  const fmtShort = (iso) => { const [, m, d] = iso.split("-"); return `${+d} ${MONTHS[+m - 1]}`; };
+  function renderWeekly(id) {
+    if (!DIGESTS.length) {
+      app.innerHTML = `<div class="page-head"><h1>Weekly digest</h1></div><div class="empty card"><div class="big">🗓</div>
+        <p><b>The first weekly digest arrives on Sunday</b></p><p>Every Sunday morning (Qatar time) the agent summarises the past week:
+        new bank AI stories, AI in annual reports, global studies, top themes and key takeaways. It is also sent to Telegram.</p></div>`;
+      return;
+    }
+    const d = DIGESTS.find((x) => x.id === id) || DIGESTS[0];
+    const byId = Object.fromEntries(DATA.items.map((i) => [i.id, i]));
+    const secById = Object.fromEntries(SECTOR.items.map((i) => [i.id, i]));
+    const c = d.counts;
+    const cite = (ids) => ids.map((x) => byId[x] || secById[x]).filter(Boolean).map((i) =>
+      `<a href="${esc(i.source_url)}" target="_blank" rel="noopener" title="${esc(i.title)}">${esc(i.bank_id && BANKS[i.bank_id] ? BANKS[i.bank_id].short : pubShort(i))} ↗</a>`).join("");
+    const top = d.top.map((x) => byId[x]).filter(Boolean);
+    const studies = d.studies_top.map((x) => secById[x]).filter(Boolean);
+    const ctry = Object.entries(d.countries).filter(([k]) => COUNTRIES[k]);
+    const idx = DIGESTS.indexOf(d);
+    app.innerHTML = `<div class="page-head weekly-head">
+        <div><h1>Weekly AI Pulse</h1><div class="sub">${fmtShort(d.start)} – ${fmtDate(d.end)} · GCC banks and AI, the week in one page</div></div>
+        <div class="weekly-actions no-print">
+          ${idx < DIGESTS.length - 1 ? `<a class="btn-ghost" href="#/weekly/${DIGESTS[idx + 1].id}" aria-label="Previous week">‹ Prev</a>` : ""}
+          ${idx > 0 ? `<a class="btn-ghost" href="#/weekly/${DIGESTS[idx - 1].id}" aria-label="Next week">Next ›</a>` : ""}
+          <button class="btn-ghost" id="printBtn">⤓ Save as PDF</button>
+        </div></div>
+      ${stats([[c.news, "new bank AI stories"], [c.banks, "banks active"], [c.annual_report_items, "annual-report disclosures"],
+               [c.studies, "global studies & insights"]].filter(([v], n) => v || n < 2))}
+      ${ctry.length ? `<div class="chips weekly-ctry">${ctry.map(([k, n]) => `<a class="chip" href="#/?country=${k}">${flag(COUNTRIES[k])} ${esc(COUNTRIES[k].name)}<span class="n">${n}</span></a>`).join("")}</div>` : ""}
+      ${d.takeaways.length ? `<div class="section-title">Key takeaways</div><div class="card takeaways"><ol>${d.takeaways.map((t) =>
+        `<li><span>${esc(t.text)}</span><span class="cites">${cite(t.ids)}</span></li>`).join("")}</ol>
+        <div class="fineprint">Written by AI only from this week's verified items; each point links to the items it is based on.</div></div>` : ""}
+      ${top.length ? `<div class="section-title">Top stories</div><div class="news-list">${top.map((i) => newsCard(i)).join("")}</div>` : ""}
+      ${c.annual_report_items ? `<div class="section-title">📘 AI in annual reports</div><div class="card"><p>${plural(c.annual_report_items, "AI disclosure")} added from the annual reports of
+        ${d.report_banks.filter((b) => BANKS[b]).map((b) => `<a href="#/?bank=${b}&cat=${AR_FILTER}">${esc(BANKS[b].short)}</a>`).join(", ")}.</p></div>` : ""}
+      ${studies.length ? `<div class="section-title">🌍 Global banking AI studies</div><div class="news-list">${studies.map(sectorCard).join("")}</div>` : ""}
+      ${d.themes.length || d.partners.length ? `<div class="grid-2">
+        ${d.themes.length ? `<div><div class="section-title">🔥 Top themes</div><div class="card"><div class="tags">${d.themes.map(([t, n]) => `<span class="tag">${esc(t)} · ${n}</span>`).join("")}</div></div></div>` : ""}
+        ${d.partners.length ? `<div><div class="section-title">🤝 Tech partners named</div><div class="card"><div class="tags">${d.partners.map(([t, n]) => `<span class="tag">${esc(t)} · ${n}</span>`).join("")}</div></div></div>` : ""}
+      </div>` : ""}
+      ${DIGESTS.length > 1 ? `<div class="section-title no-print">Earlier weeks</div><div class="chips no-print">${DIGESTS.slice(0, 12).map((x) =>
+        `<a class="chip" href="#/weekly/${x.id}" aria-pressed="${x.id === d.id}">${fmtShort(x.start)} – ${fmtShort(x.end)}</a>`).join("")}</div>` : ""}`;
+    $("#printBtn").onclick = () => window.print();
+  }
+
   function renderAbout() {
     app.innerHTML = `<div class="page-head"><h1>About</h1></div>
       <div class="card prose">
@@ -805,7 +853,11 @@
         <p>The tracker also reads each bank's own <b>annual report</b> (the last two years, PDF from the bank's website) and extracts the concrete AI
         implementations it discloses. Each one appears as a 📘 card tagged to the bank, with the exact quote and a button that opens the official PDF at
         that page. A disclosure is shown only if its quote is found word for word in the report, its numbers are on that page, and an independent
-        AI fact-check confirms it. Filter with “📘 Annual reports” in the theme menu; each bank page lists its report PDFs.</p>
+        AI fact-check confirms it. Interactive web reports are read too, section by section. Filter with “📘 Annual reports” in the theme menu; each bank page lists its reports.</p>
+        <h2>Weekly digest</h2>
+        <p>Every Sunday morning (Qatar time) the <a href="#/weekly">Weekly</a> page and Telegram get a one-page summary of the past week: new bank AI
+        stories by country, AI found in annual reports, global studies, top themes and partners, and 3–5 key takeaways. The takeaways are written
+        by AI only from that week's verified items and each links to the items it is based on. Use “Save as PDF” to forward it.</p>
         <h2>Banking Sector Insights</h2>
         <p>A separate tab for AI across the banking sector worldwide, with GCC items flagged: <b>studies &amp; surveys</b> (McKinsey, BCG,
         Accenture, PwC, Deloitte, EY, KPMG, IDC, Gartner …), <b>case studies &amp; use cases</b>, <b>maturity indices &amp; rankings</b>,
@@ -836,8 +888,9 @@
     fetch("data/sector_sources.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : null).catch(() => null),
     fetch("data/annual_reports.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : {}).catch(() => ({})),
     fetch("data/publisher_logos.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : {}).catch(() => ({})),
-  ]).then(([cfg, news, logos, sector, sectorCfg, reports, pubLogos]) => {
-    REPORTS = reports || {}; PUBLOGOS = pubLogos || {};
+    fetch("data/digests.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : {}).catch(() => ({})),
+  ]).then(([cfg, news, logos, sector, sectorCfg, reports, pubLogos, digests]) => {
+    REPORTS = reports || {}; PUBLOGOS = pubLogos || {}; DIGESTS = (digests && digests.digests) || [];
     CFG = cfg; DATA = news; LOGOS = logos || {};
     SECTOR = sector || { items: [] }; SECTOR.items = (SECTOR.items || []).sort((a, b) => b.date.localeCompare(a.date));
     if (sectorCfg) SECTOR_CFG = sectorCfg;

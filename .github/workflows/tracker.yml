@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "update = normal run, backfill = (re)load history, deploy = publish dashboard only, telegram-test"
+        description: "update = normal run, backfill = (re)load history, digest = send the weekly digest now, deploy = publish dashboard only, telegram-test"
         type: choice
-        options: [update, backfill, deploy, telegram-test]
+        options: [update, backfill, digest, deploy, telegram-test]
         default: update
       country:
         description: "Backfill only: country code (AE, SA, QA, KW, OM, BH) — leave empty for all"
@@ -60,6 +60,12 @@ jobs:
           cache: pip
           cache-dependency-path: agent/requirements.txt
       - run: pip install -r agent/requirements.txt
+      # Real browser for sites that refuse plain downloads or need JavaScript (optional: the agent works without it)
+      - name: Install headless Chromium
+        if: inputs.mode != 'telegram-test' && inputs.mode != 'digest'
+        continue-on-error: true
+        timeout-minutes: 10
+        run: python -m playwright install --with-deps chromium
 
       - name: Run agent
         run: |
@@ -108,6 +114,7 @@ jobs:
           cp config/sector_sources.json _site/data/sector_sources.json
           if [ -f data/sector.json ]; then cp data/sector.json _site/data/sector.json; fi
           if [ -f data/annual_reports.json ]; then cp data/annual_reports.json _site/data/annual_reports.json; fi
+          if [ -f data/digests.json ]; then cp data/digests.json _site/data/digests.json; fi
           if [ -f data/publisher_logos.json ]; then cp data/publisher_logos.json _site/data/publisher_logos.json; fi
           if [ -f data/logos.json ]; then cp data/logos.json _site/data/logos.json; cp -r data/logos _site/logos; fi
       - uses: actions/configure-pages@v5

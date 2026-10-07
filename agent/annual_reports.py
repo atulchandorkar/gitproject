@@ -16,6 +16,7 @@ from __future__ import annotations
 import datetime as dt
 import gzip
 import hashlib
+import html
 import io
 import json
 import re
@@ -28,6 +29,7 @@ from typing import Callable
 
 from pydantic import BaseModel
 
+import browser
 import newsrooms
 import verify
 
@@ -106,9 +108,9 @@ def fetch_bytes(url: str, limit: int = MAX_PDF_BYTES, timeout: int = 60) -> tupl
     parts = urllib.parse.urlsplit(url)
     base = {**newsrooms.HEADERS, "Accept": "application/pdf,*/*"}
     # some bank sites refuse files requested without a page of their own as referrer (403)
-    browser = {**base, "Referer": f"{parts.scheme}://{parts.netloc}/", "Accept-Language": "en-US,en;q=0.9",
+    as_browser = {**base, "Referer": f"{parts.scheme}://{parts.netloc}/", "Accept-Language": "en-US,en;q=0.9",
                "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin"}
-    for n, headers in enumerate((base, browser)):
+    for n, headers in enumerate((base, as_browser)):
         try:
             req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=timeout) as resp:
@@ -119,8 +121,13 @@ def fetch_bytes(url: str, limit: int = MAX_PDF_BYTES, timeout: int = 60) -> tupl
                     data = gzip.decompress(data)
                 return data, dict(resp.headers)
         except urllib.error.HTTPError as exc:
-            if n or exc.code not in (401, 403, 406, 429):
+            if exc.code not in (401, 403, 406, 429):
                 raise
+            if n:   # refused twice: fetch it the way a person's browser would (cookies, bot checks)
+                try:
+                    return browser.download(url, limit)
+                except browser.Unavailable:
+                    raise exc
             time.sleep(2)
     raise RuntimeError("unreachable")
 
@@ -134,10 +141,12 @@ def report_year(url: str, text: str) -> int | None:
     return None
 
 
-def pdf_links(page_url: str, domain: str) -> tuple[list[tuple[str, str]], list[str]]:
-    """(annual-report PDF links, further IR pages) found on one page of the bank's site."""
+def pdf_links(page_url: str, domain: str, use_browser: bool = False) -> tuple[list[tuple[str, str]], list[str]]:
+    """(annual-report PDF links, further IR pages) found on one page of the bank's site. `use_browser`: also
+    try a real browser when the site refuses robots or builds the page with JavaScript (hand-checked pages)."""
     try:
-        final, raw = newsrooms.fetch(page_url, timeout=25)
+        final, raw = browser.fetch_any(page_url, "reports", timeout=25) if use_browser \
+            else newsrooms.fetch(page_url, timeout=25)
     except Exception:
         return [], []
     links = newsrooms.parse(raw, final).links
@@ -178,6 +187,7 @@ def find_reports(bank: dict, cached_pages: list[str]) -> tuple[dict[int, str], l
     """{fiscal year: pdf url} for the bank, plus the IR pages that worked (cached for next time)."""
     domain = bank["domain"]
     seeds = list(bank.get("annual_reports_pages", [])) + list(cached_pages)
+    hand = set(bank.get("annual_reports_pages", []))      # checked by hand: worth a real browser if needed
     if not seeds:
         seeds = [f"https://www.{domain}/", f"https://www.{domain}/en", f"https://{domain}/"]
     found: list[tuple[str, str]] = []
@@ -188,7 +198,7 @@ def find_reports(bank: dict, cached_pages: list[str]) -> tuple[dict[int, str], l
         if page in seen:
             continue
         seen.add(page)
-        pdfs, more = pdf_links(page, domain)
+        pdfs, more = pdf_links(page, domain, use_browser=page in hand)
         if pdfs:
             found += pdfs
             useful.append(page)
@@ -210,6 +220,56 @@ def find_reports(bank: dict, cached_pages: list[str]) -> tuple[dict[int, str], l
                                         len(c[0])))[0][0] for y, c in by_year.items()}
     pick.update(configured)          # a link checked by hand wins over one found automatically
     return pick, useful
+
+
+MAX_WEB_SECTIONS = 30
+
+
+def _html_text(raw: str) -> str:
+    raw = re.sub(r"(?is)<(script|style|noscript|svg)[^>]*>.*?</\1>", " ", raw)
+    raw = re.sub(r"(?i)<br\s*/?>|</(p|div|li|h\d|tr|section)>", "\n", raw)
+    return html.unescape(re.sub(r"<[^>]+>", " ", raw))
+
+
+def _lines_to_sentences(text: str) -> str:
+    """Web pages put headings, bullets and figures on their own lines without full stops; end each line as a
+    sentence so only the AI-related ones are passed on (quote checks ignore punctuation)."""
+    lines = [re.sub(r"\s+", " ", ln).strip() for ln in (text or "").splitlines()]
+    return " ".join(ln if re.search(r"[.!?؟:;]$", ln) else ln + "." for ln in lines if ln)
+
+
+def _web_page(url: str) -> tuple[str, str, list[tuple[str, str]]]:
+    """(final url, visible text, links) of one page of an interactive report: real browser, else plain download."""
+    try:
+        return browser.page_text(url, "reports")
+    except browser.Unavailable:
+        final, raw = newsrooms.fetch(url, timeout=25)
+        return final, _html_text(raw), newsrooms.parse(raw, final).links
+
+
+def read_web_report(url: str) -> tuple[list[str], list[str]]:
+    """An interactive (HTML) annual report: the landing page plus its sections (links on the same site under the
+    report's own path). Returns (text of each section, url of each section) – sections play the role of PDF pages."""
+    final, text, links = _web_page(url)
+    parts = urllib.parse.urlsplit(final)
+    root = parts.path.rstrip("/").rsplit("/", 1)[0] if "." in parts.path.rsplit("/", 1)[-1] else parts.path.rstrip("/")
+    sections = []
+    for link, _ in links:
+        lp = urllib.parse.urlsplit(link)
+        if lp.netloc == parts.netloc and lp.path.startswith(root + "/") and lp.path.rstrip("/") != parts.path.rstrip("/") \
+                and not re.search(r"\.(pdf|jpg|jpeg|png|gif|svg|zip|xlsx?|mp4)$", lp.path, re.I):
+            sections.append(urllib.parse.urlunsplit(lp._replace(fragment="", query="")))
+    sections = list(dict.fromkeys(sections))[:MAX_WEB_SECTIONS]
+    pages, urls = [_lines_to_sentences(text)], [final]
+    for sec in sections:
+        try:
+            u, t, _ = _web_page(sec)
+        except Exception:
+            continue
+        if len(t.strip()) >= 200 and u not in urls:
+            pages.append(_lines_to_sentences(t))
+            urls.append(u)
+    return pages, urls
 
 
 # --------------------------------------------------------------------------- #
@@ -295,7 +355,8 @@ class AnnualReports:
 
     @staticmethod
     def _config_sig(bank: dict) -> str:
-        return json.dumps([bank.get("annual_reports", []), bank.get("annual_reports_pages", [])], sort_keys=True)
+        return json.dumps([bank.get("annual_reports", []), bank.get("annual_reports_pages", []),
+                           bank.get("annual_reports_web", [])], sort_keys=True)
 
     def due(self, bid: str) -> bool:
         st = self.state.get(bid) or {}
@@ -354,8 +415,10 @@ class AnnualReports:
         return list(out.items)[:MAX_ITEMS_PER_REPORT] if out else []
 
     def verify(self, bank: dict, year: int, url: str, pages: list[str], date: str,
-               found: list[Disclosure]) -> tuple[list[dict], list[dict]]:
+               found: list[Disclosure], page_urls: list[str] | None = None) -> tuple[list[dict], list[dict]]:
+        """`page_urls`: for an interactive (web) report, the link of each section (instead of PDF pages)."""
         staged, rejected = [], []
+        unit = "section" if page_urls else "page"
         for d in found:
             page = locate(d.quote, pages, d.page)
             base = {"bank_id": bank["id"], "date": date, "title": d.title, "source_url": url,
@@ -374,7 +437,7 @@ class AnnualReports:
                 continue
             cats = [c for c in d.topics if c in self.themes]
             cat = d.category if d.category in self.themes else (cats[0] if cats else "AI Adoption in Operations")
-            src = f"{url}#page={page}"
+            src = page_urls[page - 1] if page_urls else f"{url}#page={page}"
             item = {
                 "id": hashlib.sha1(f"ar|{bank['id']}|{url}|{_squash(d.quote)[:80]}".encode()).hexdigest()[:12],
                 "bank_id": bank["id"], "country": bank["country"], "date": date,
@@ -384,13 +447,14 @@ class AnnualReports:
                 "source_url": src, "source_name": f"{bank['short']} Annual Report {year}",
                 "source_title": "", "sources": [{"url": src, "name": f"{bank['short']} Annual Report {year}"}],
                 "language": "en", "added_at": self.now_iso(), "source_type": "annual_report",
-                "report": {"year": year, "url": url, "page": page, "quote": d.quote.strip()},
+                "report": {"year": year, "url": url, "page": page, "quote": d.quote.strip(),
+                           **({"format": "web", "section_url": src} if page_urls else {})},
             }
             staged.append((item, ev))
         published = []
         for s in range(0, len(staged), 6):          # independent fact-check against the page text
             chunk = staged[s:s + 6]
-            rows = [{"i": n, "bank": bank["name"], "evidence_type": f"page {it['report']['page']} of the bank's own "
+            rows = [{"i": n, "bank": bank["name"], "evidence_type": f"{unit} {it['report']['page']} of the bank's own "
                      f"annual report {year} (\"the Bank\", \"we\" and \"our\" refer to {bank['name']})",
                      "evidence": ev, "claims": {"title": it["title"], "summary": it["summary"],
                                                 "impact": it["impact"], "partners": it["partners"]}}
@@ -410,7 +474,8 @@ class AnnualReports:
                 if not c.partners_supported:
                     it["partners"] = []
                 if len(it["summary"]) < 40:
-                    it["summary"] = (f"{bank['name']} reports in its {year} annual report (p. {it['report']['page']}): "
+                    where = "online edition" if page_urls else f"p. {it['report']['page']}"
+                    it["summary"] = (f"{bank['name']} reports in its {year} annual report ({where}): "
                                      f"“{it['report']['quote'][:220].rstrip()}{'…' if len(it['report']['quote']) > 220 else ''}”")
                 it["verification"] = {"level": "official", "evidence": "annual report", "checked": self.today.isoformat()}
                 published.append(it)
@@ -465,16 +530,24 @@ class AnnualReports:
                 reports, useful = {}, []
             if useful:
                 st["pages"] = useful[:3]
+            web = {int(e["year"]): e["url"] for e in bank.get("annual_reports_web", [])}   # interactive editions
             for y in self._todo_years(st):
-                url = reports.get(y) or next((u for u, _ in ddg_pdfs(bank, y)), None)
+                url = reports.get(y) or web.get(y) or next((u for u, _ in ddg_pdfs(bank, y)), None)
                 if not url:
                     print(f"  · {bank['short']} {y}: no report PDF found yet")
                     continue
+                page_urls = None
                 try:
-                    data, headers = fetch_bytes(url)
-                    if not data.startswith(b"%PDF"):
-                        raise ValueError("not a PDF")
-                    pages, pdf_date = read_pdf(data)
+                    if url == web.get(y) and url != reports.get(y):
+                        pages, page_urls = read_web_report(url)
+                        headers, pdf_date = {}, None
+                        if sum(len(t) for t in pages) < 2000:
+                            raise ValueError(f"online report has almost no text ({len(pages)} sections)")
+                    else:
+                        data, headers = fetch_bytes(url)
+                        if not data.startswith(b"%PDF"):
+                            raise ValueError("not a PDF")
+                        pages, pdf_date = read_pdf(data)
                 except Exception as exc:
                     f = st.setdefault("failed", {}).setdefault(str(y), {"n": 0})
                     f.update(n=f["n"] + 1, url=url, error=f"{exc.__class__.__name__}: {exc}"[:200])
@@ -493,7 +566,7 @@ class AnnualReports:
                 date = min(date or f"{y + 1}-03-31", self.today.isoformat())
                 try:
                     found = self.extract(bank, y, pages)
-                    items, rejected = self.verify(bank, y, url, pages, date, found)
+                    items, rejected = self.verify(bank, y, url, pages, date, found, page_urls)
                 except Exception as exc:
                     if exc.__class__.__name__ == "FatalAPIError":
                         raise
@@ -503,9 +576,11 @@ class AnnualReports:
                     rejected_log.append({"checked": self.today.isoformat(), **r})
                 if st["done"].get(str(y), {}).get("redo"):
                     self.replaced.add((bank["id"], y))     # tracker drops this report's old items
-                st["done"][str(y)] = {"url": url, "pages": len(pages), "items": len(items), "date": date}
+                st["done"][str(y)] = {"url": url, "pages": len(pages), "items": len(items), "date": date,
+                                      **({"format": "web"} if page_urls else {})}
                 added += items
-                print(f"  {bank['short']} {y}: {len(pages)} pages, {len(found)} AI disclosures found, "
+                print(f"  {bank['short']} {y}: {len(pages)} {'sections (online report)' if page_urls else 'pages'}, "
+                      f"{len(found)} AI disclosures found, "
                       f"{len(items)} verified")
             st["checked"] = self.today.isoformat()
             st["config"] = self._config_sig(bank)

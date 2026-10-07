@@ -34,6 +34,7 @@ from pydantic import BaseModel, Field
 
 import logos
 import annual_reports
+import digest
 import dedupe
 import newsrooms
 import sector
@@ -727,9 +728,27 @@ class Telegram:
 # --------------------------------------------------------------------------- #
 # CLI
 # --------------------------------------------------------------------------- #
+DIGESTS = ROOT / "data" / "digests.json"
+
+
+def weekly_digest(tracker: "Tracker", tg: "Telegram", end: dt.date) -> None:
+    try:
+        sec_items = load_json(ROOT / "data" / "sector.json", {"items": []}).get("items", [])
+        d = digest.build(tracker.news["items"], sec_items, tracker.banks, tracker.checker.ask, end, now_iso())
+        digest.save(DIGESTS, d)
+        tg.send(digest.telegram(d, {i["id"]: i for i in tracker.news["items"]}, {i["id"]: i for i in sec_items},
+                                tracker.banks, tracker.countries, tg.dashboard))
+        print(f"Weekly digest {d['start']} – {d['end']}: {d['counts']['news']} stories, "
+              f"{len(d['takeaways'])} takeaways, sent to Telegram.")
+    except FatalAPIError:
+        raise
+    except Exception as exc:   # never lose the run over the digest
+        print(f"  ! weekly digest failed: {exc!r}", file=sys.stderr)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("mode", choices=["update", "backfill", "telegram-test"])
+    ap.add_argument("mode", choices=["update", "backfill", "telegram-test", "digest"])
     ap.add_argument("--country", help="Backfill only this country code (e.g. QA)")
     ap.add_argument("--banks", help="Comma-separated bank ids to backfill")
     ap.add_argument("--months", type=int, default=24)
@@ -751,6 +770,10 @@ def main() -> None:
         if not tg.enabled:
             sys.exit("Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID first.")
         tg.send("✅ GCC Banking – AI Pulse Monitor is connected. You'll receive new bank AI updates here.")
+        return
+
+    if args.mode == "digest":   # send the weekly digest now (for the 7 days ending yesterday)
+        weekly_digest(tracker, tg, digest.qatar_today() - dt.timedelta(days=1))
         return
 
     try:  # free: refresh bank logos for the dashboard (every 60 days per bank)
@@ -827,6 +850,10 @@ def main() -> None:
             tracker.save()
         tg.notify_sector(sec_added, first_load, tracker.countries)
         print(f"Sector insights: {len(sec_added)} new ({len(sec.data['items'])} in the last 12 months).")
+
+        end = digest.due(DIGESTS, digest.qatar_today())   # Sundays: the week that ended yesterday
+        if end:
+            weekly_digest(tracker, tg, end)
     except FatalAPIError as exc:
         tracker.save()
         tg.send(f"⚠️ <b>AI Pulse Monitor stopped</b>\n{html.escape(str(exc))}.\n"
