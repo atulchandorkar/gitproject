@@ -35,6 +35,7 @@ YEARS_BACK = 2                 # fiscal years to cover (matches the 2-year news 
 MAX_PDF_BYTES = 160_000_000   # some integrated reports are 100 MB+
 PASSAGE_CHARS = 30_000         # AI-related text sent to Claude per report
 MAX_ITEMS_PER_REPORT = 20     # keep every concrete AI item a report discloses (up to this many)
+MAX_FAILS = 5                  # a report that could not be downloaded/read is retried daily, up to this many runs
 RECHECK_DAYS = 14              # look again for a report that is not out yet
 COUNTRY_ORDER = ["QA", "AE", "SA", "KW", "OM", "BH"]
 RUN_BUDGET_S = 30 * 60         # time cap per daily run; remaining banks continue next run
@@ -302,17 +303,30 @@ class AnnualReports:
         if not todo:
             return False
         redo = any(st.get("done", {}).get(str(y), {}).get("redo") for y in todo)
+        # a report we found but could not read (site busy, refused, …) is tried again next run
+        retry = any(f["n"] < MAX_FAILS for y, f in st.get("failed", {}).items() if int(y) in todo)
         new_links = st.get("config") != self._config_sig(self.banks[bid])   # links added/changed in the config
         last = st.get("checked")
-        return redo or new_links or not last or (self.today - dt.date.fromisoformat(last)).days >= RECHECK_DAYS
+        return redo or retry or new_links or not last or (self.today - dt.date.fromisoformat(last)).days >= RECHECK_DAYS
 
     def _priority(self, bank: dict) -> tuple:
-        """Reports not read yet come before re-reads; then featured bank first, then country order."""
+        """Reports not read yet come before re-reads; then banks with hand-checked links, featured bank, country order."""
         st = self.state.get(bank["id"]) or {}
         done = st.get("done", {})
         new = any(str(y) not in done for y in self._todo_years(st))
-        return (not new, not bank.get("featured"), COUNTRY_ORDER.index(bank["country"])
+        hand = bool(bank.get("annual_reports") or bank.get("annual_reports_pages"))   # links checked by hand
+        return (not new, not hand, not bank.get("featured"), COUNTRY_ORDER.index(bank["country"])
                 if bank["country"] in COUNTRY_ORDER else len(COUNTRY_ORDER))
+
+    def retry_missing_now(self) -> None:
+        """One-time: reports that failed before failures were tracked are looked for again on the next run."""
+        done = self.root_state.setdefault("migrations", [])
+        if "ar-retry-v1" in done:
+            return
+        for st in self.state.values():
+            if self._todo_years(st):
+                st.pop("checked", None)
+        done.append("ar-retry-v1")
 
     def mark_all_for_reread(self) -> None:
         """One-time: reports read under the old 'top 10 items' rule are read again to keep every AI item.
@@ -454,6 +468,7 @@ class AnnualReports:
             for y in self._todo_years(st):
                 url = reports.get(y) or next((u for u, _ in ddg_pdfs(bank, y)), None)
                 if not url:
+                    print(f"  · {bank['short']} {y}: no report PDF found yet")
                     continue
                 try:
                     data, headers = fetch_bytes(url)
@@ -461,8 +476,12 @@ class AnnualReports:
                         raise ValueError("not a PDF")
                     pages, pdf_date = read_pdf(data)
                 except Exception as exc:
-                    print(f"  ! {bank['short']} {y}: report not readable ({exc.__class__.__name__}: {exc})", file=sys.stderr)
+                    f = st.setdefault("failed", {}).setdefault(str(y), {"n": 0})
+                    f.update(n=f["n"] + 1, url=url, error=f"{exc.__class__.__name__}: {exc}"[:200])
+                    print(f"  ! {bank['short']} {y}: report not readable ({f['error']}); attempt {f['n']}/{MAX_FAILS}",
+                          file=sys.stderr)
                     continue
+                st.get("failed", {}).pop(str(y), None)
                 date = pdf_date if pdf_date and pdf_date[:4] >= str(y) else None
                 if not date and headers.get("Last-Modified"):
                     try:
