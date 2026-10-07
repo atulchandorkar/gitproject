@@ -135,14 +135,17 @@ The dashboard charts the share of each theme and the top tech partners, overall 
 ## Bank annual reports (📘)
 The agent also reads each bank's own **annual report**, a PDF on the bank's website, for the last two fiscal years. It extracts the concrete AI implementations the report discloses. Each disclosure becomes a card tagged to that bank, with:
 - the exact quote and page number
-- a **📘 Annual Report (PDF)** button that opens the official file at that page
+- a **📘 Annual Report (PDF)** button that opens the official file at that page (or, for an interactive web report, the section it comes from)
 
 The bank's page lists all of its annual reports found so far.
 
 **Finding the report:**
-1. `annual_reports` (direct PDF links) or `annual_reports_pages` in `config/banks.json`, if set
+1. `annual_reports` (direct PDF links) or `annual_reports_pages` in `config/banks.json`, if set. Hand-checked pages are opened in a real browser when the site refuses robots or builds the page with JavaScript.
 2. the investor-relations pages linked from the bank's homepage
-3. a DuckDuckGo search restricted to the bank's own domain
+3. `annual_reports_web`: an **interactive (web) annual report**, e.g. `{"year": 2024, "url": "https://…/annual-report/2024"}`. The landing page and its sections (links under the same path, up to 30) are read in a real browser; each section plays the role of a PDF page, and quotes are checked against that section's text.
+4. a DuckDuckGo search restricted to the bank's own domain
+
+A PDF that the site refuses twice (403) is downloaded once more through the real browser, after visiting the bank's home page as a person would.
 
 **Reading it:**
 - `pypdf` extracts the text, and only the sentences that mention AI (plus one sentence of context) go to Claude Haiku. That's roughly 30k characters per report.
@@ -168,7 +171,8 @@ This tab covers AI across the **banking sector worldwide**, with GCC items flagg
 - **Where items come from:**
   - Google News searches (English and Arabic) for global studies (McKinsey, BCG, Accenture, PwC, Deloitte, EY, KPMG, Gartner, IDC …), bank AI case studies and use cases, global regulators (BIS, FSB, EBA, ECB, Fed, FCA, MAS …) and market data
   - GCC-specific searches, so Gulf items are never missed
-  - the publishers' own press pages, read on a best-effort basis
+  - the publishers' own press pages, opened in a real browser when they refuse robots or time out (McKinsey, BCG, PwC, Kearney …)
+  - Google News searches restricted to the consultancies' own sites, and to the press-release wires and Gulf news agencies that republish their studies (Zawya, PR Newswire, Business Wire, GlobeNewswire, WAM, QNA, SPA, KUNA, ONA, BNA)
 - **What stays out:** a GCC bank's own news stays in the News tab, so nothing appears twice. AI deployments by non-GCC banks are kept as use cases.
 - **Checks on every item:**
   - The source must be about AI in banking.
@@ -177,6 +181,18 @@ This tab covers AI across the **banking sector worldwide**, with GCC items flagg
   - The source must be official, trusted or confirmed by a second outlet; otherwise the item is held back for 21 days.
   - Rejected items are logged in `data/sector_rejected.json`.
 - **Limits:** up to 250 items are fact-checked per run; the rest wait for the next run.
+
+## Weekly digest (the Weekly tab)
+Every **Sunday morning (Qatar time)** the daily run also builds a one-page summary of the past week (Sunday–Saturday):
+- new bank AI stories, by country, with the top stories
+- AI disclosures added from annual reports, and the global banking-AI studies of the week
+- top themes and the tech partners named
+- **3–5 key takeaways** written by Claude only from the week's verified items. Each takeaway links to the items it is based on; one that cites unknown items or uses numbers not in those items is dropped.
+
+It is sent to Telegram and kept on the dashboard's **Weekly** page (`#/weekly`, earlier weeks selectable, 2 years kept in `data/digests.json`). **Save as PDF** prints a clean one-page version to forward by email. To send it at any time, run the workflow with mode `digest`.
+
+## Real browser (headless Chromium)
+The workflow installs Playwright's Chromium (about a minute). `agent/browser.py` uses it only as a fallback, after a plain download failed: up to 60 page loads per run for annual reports and 40 for sector pages. If Chromium can't be installed, everything else runs as before.
 
 ## Project layout
 ```
@@ -188,6 +204,9 @@ agent/logos.py               downloads bank logos (site icons, Wikidata, Wikiped
 agent/annual_reports.py      finds and reads banks' annual reports, extracts AI disclosures
 agent/dedupe.py              merges copies of the same story
 agent/sector.py              GCC Banking Sector Insights (studies, rankings, regulation …)
+agent/browser.py             headless-browser fallback for sites that refuse robots or need JavaScript
+agent/digest.py              weekly digest (Sundays): stats, top stories, AI takeaways, Telegram message
+data/digests.json            weekly digests (Weekly tab)
 config/sector_sources.json   sector categories and publishers (consultancies, research firms, regulators)
 data/sector.json             sector insights database (last 12 months)
 data/rejected.json           items that failed verification, with the reason

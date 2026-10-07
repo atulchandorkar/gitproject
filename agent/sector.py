@@ -28,6 +28,7 @@ from typing import Callable, Literal
 from pydantic import BaseModel
 
 import dedupe
+import browser
 import newsrooms
 import verify
 
@@ -52,6 +53,9 @@ GLOBAL_REG_EN = ('"Bank for International Settlements" OR BIS OR "Financial Stab
                  'OR "Monetary Authority of Singapore" OR HKMA OR IMF OR "Basel Committee"')
 REGULATORS_EN = ('"central bank" OR SAMA OR CBUAE OR QCB OR "Central Bank of Kuwait" OR "Central Bank of Oman" '
                  'OR "Central Bank of Bahrain" OR DFSA OR FSRA OR QFCRA OR "Saudi Central Bank"')
+
+WIRES = ["zawya.com", "prnewswire.com", "businesswire.com", "globenewswire.com", "wam.ae", "qna.org.qa",
+         "spa.gov.sa", "kuna.net.kw", "omannews.gov.om", "bna.bh"]
 
 # Deterministic relevance checks (strict AI words: no "analytics"/"automation" here).
 STRICT_AI_RE = re.compile(
@@ -91,6 +95,13 @@ def queries(when: str) -> list[tuple[str, str]]:
         (f"(market OR spending OR investment OR forecast OR adoption OR ROI OR productivity) (banks OR banking) "
          f"(\"generative AI\" OR \"agentic AI\" OR \"artificial intelligence\"){when}", "en"),
     ]
+    # Publishers whose own pages refuse robots: their studies via the news index of their own sites, and via the
+    # press-release wires and Gulf news agencies that republish them
+    sites = [p["domain"] for p in PUBLISHERS if p["kind"] == "consultancy"]
+    qs += [(f"({' OR '.join('site:' + d for d in sites[i:i + 8])}) {banking} ({AI_EN}){when}", "en")
+           for i in range(0, len(sites), 8)]
+    qs += [(f"({' OR '.join('site:' + d for d in WIRES)}) ({' OR '.join(g)}) {banking} ({AI_EN}){when}", "en")
+           for g in groups]
     # GCC: kept so Gulf studies, regulation and initiatives are never missed
     qs += [(f"({' OR '.join(g)}) {banking} ({AI_EN}) ({GEO_EN}){when}", "en") for g in groups]
     qs += [
@@ -267,9 +278,9 @@ class Sector:
         for p in PUBLISHERS:
             for page in p.get("pages", []):
                 try:
-                    final, raw = newsrooms.fetch(page, timeout=20)
+                    final, raw = browser.fetch_any(page, "sector", timeout=20)   # real browser if robots refused
                 except Exception as exc:
-                    print(f"  · {p['short']} page not readable ({exc.__class__.__name__})")
+                    print(f"  · {p['short']} page not readable ({exc.__class__.__name__}: {str(exc)[:80]})")
                     continue
                 links = newsrooms.parse(raw, final).links
                 found = 0
