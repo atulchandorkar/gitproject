@@ -1,0 +1,144 @@
+{
+ "digests": [
+  {
+   "id": "2026-10-06",
+   "start": "2026-09-30",
+   "end": "2026-10-06",
+   "created_at": "2026-10-07T15:59:00+00:00",
+   "counts": {
+    "news": 9,
+    "banks": 7,
+    "annual_report_items": 0,
+    "annual_report_banks": 0,
+    "studies": 21
+   },
+   "countries": {
+    "AE": 3,
+    "BH": 3,
+    "QA": 1,
+    "KW": 1,
+    "SA": 1
+   },
+   "themes": [
+    [
+     "AI Strategy & Leadership",
+     3
+    ],
+    [
+     "Awards & Rankings",
+     3
+    ],
+    [
+     "Customer-Facing AI",
+     2
+    ],
+    [
+     "Generative AI & Copilots",
+     2
+    ],
+    [
+     "AI Adoption in Operations",
+     2
+    ],
+    [
+     "Fraud, Risk & Compliance",
+     1
+    ]
+   ],
+   "partners": [
+    [
+     "Global Finance",
+     1
+    ],
+    [
+     "Techstars",
+     1
+    ]
+   ],
+   "banks": [
+    [
+     "enbd",
+     2
+    ],
+    [
+     "alsalam",
+     2
+    ],
+    [
+     "nbb",
+     1
+    ],
+    [
+     "qib",
+     1
+    ],
+    [
+     "investbank",
+     1
+    ],
+    [
+     "warba",
+     1
+    ]
+   ],
+   "top": [
+    "c6d5639013d1",
+    "38abf2dd9df2",
+    "7b953b1ccd7f",
+    "9e8e7178de87",
+    "e690b74dba68",
+    "99253906cde8",
+    "6e5d43e89799",
+    "65701ede68e5"
+   ],
+   "studies_top": [
+    "397483223489",
+    "7aeb950c6feb",
+    "f95db569dc21",
+    "568950808958",
+    "798d2ba07a17"
+   ],
+   "report_banks": [],
+   "takeaways": [
+    {
+     "text": "GCC banks are deploying AI across customer-facing and operational domains: travel assistants, banking robots, ecosystem partnerships, and formal AI governance frameworks.",
+     "ids": [
+      "c6d5639013d1",
+      "cfaaa8e5b53d",
+      "e690b74dba68",
+      "7b953b1ccd7f"
+     ]
+    },
+    {
+     "text": "Al Salam Bank achieved ISO/IEC 42001:2023 AI management system certification, becoming the first bank in the region with formal AI governance certification.",
+     "ids": [
+      "7b953b1ccd7f"
+     ]
+    },
+    {
+     "text": "Qatar Islamic Bank won top AI awards from Global Finance for the Middle East, while JPMorgan ranked first globally for AI maturity in banking for consecutive years.",
+     "ids": [
+      "9e8e7178de87",
+      "7aeb950c6feb"
+     ]
+    },
+    {
+     "text": "Central banks and regulators warn of systemic risks from rapid AI adoption: macroeconomic exposure from concentrated AI investments, potential market shocks, and risk management gaps.",
+     "ids": [
+      "0468ab2505f9",
+      "8ef5a7c20138",
+      "798d2ba07a17"
+     ]
+    },
+    {
+     "text": "Over 90% of European banks already use AI, and agentic AI is being scaled in partnerships like Infosys and ABN AMRO, while a major Norwegian bank automated operations replacing over 400 staff.",
+     "ids": [
+      "d7d3470bb3cc",
+      "f95db569dc21",
+      "568950808958"
+     ]
+    }
+   ]
+  }
+ ]
+}
