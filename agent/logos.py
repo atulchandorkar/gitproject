@@ -75,6 +75,9 @@ def usable(data: bytes, min_px: int = MIN_PIXELS) -> str | None:
     return None if px is not None and px < min_px else ext
 
 
+ERRORS: dict[str, str] = {}   # url -> why it gave no logo (shown in the run log for banks still without one)
+
+
 def _download(url: str, headers: dict | None = None, min_px: int = MIN_PIXELS) -> tuple[bytes, str] | None:
     data = b""
     for attempt in range(2):
@@ -86,11 +89,15 @@ def _download(url: str, headers: dict | None = None, min_px: int = MIN_PIXELS) -
             break
         except urllib.error.HTTPError as exc:
             if attempt or exc.code not in (429, 502, 503, 504):   # busy server (Wikimedia rate limit): wait, try once more
+                ERRORS[url] = f"HTTP {exc.code}"
                 return None
             time.sleep(5)
-        except Exception:
+        except Exception as exc:
+            ERRORS[url] = f"{exc.__class__.__name__}: {exc}"[:120]
             return None
     ext = usable(data, min_px)   # judged by the bytes, not the server's content type or the file name
+    if not ext:
+        ERRORS[url] = f"not a usable image ({len(data)} bytes, type {sniff(data) or 'unknown'}, starts {data[:24]!r})"
     return (data, ext) if ext else None
 
 
@@ -282,6 +289,10 @@ def refresh(banks: list[dict], data_dir: Path, today: dt.date, force: bool = Fal
                 (data_dir / entry["file"]).unlink(missing_ok=True)   # never serve a broken image
                 entry.pop("file", None)
                 entry.pop("source", None)
+            if not entry.get("file"):
+                for url in ([b["logo"], b["logo"].split("?")[0]] if b.get("logo") else []) + [u for u in ERRORS if b["domain"] in u][:2]:
+                    if url in ERRORS:
+                        print(f"  ! logo {b['short']}: {url} → {ERRORS[url]}", file=sys.stderr)
             index[b["id"]] = entry
     index_file.write_text(json.dumps(index, indent=1, sort_keys=True) + "\n")
     small = [b["short"] for b in banks if index.get(b["id"], {}).get("file") and not valid_file(index[b["id"]], MIN_PIXELS)]
