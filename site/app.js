@@ -512,13 +512,13 @@
         .map(([v, l]) => `<button class="chip" data-country="${v}" aria-pressed="${v === country}">${l}</button>`).join("")}</div>
       <div class="filters"><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
         <input id="bq" type="search" placeholder="Find a bank…" aria-label="Find a bank"></label></div>
-      <div id="bankGroups"></div>`;
+      <div id="bankGroups" class="bank-groups"></div>`;
     const draw = () => {
       const groups = CFG.countries.filter((c) => !country || c.code === country).map((c) => {
         const banks = CFG.banks.filter((b) => b.country === c.code &&
           (!needle || `${b.name} ${b.short} ${b.name_ar || ""} ${(b.aliases || []).join(" ")}`.toLowerCase().includes(needle)))
           .sort((a, b) => featuredFirst(a, b) || (counts[b.id] || 0) - (counts[a.id] || 0) || a.short.localeCompare(b.short));
-        return banks.length ? `<div class="section-title">${flag(c)} ${esc(c.name)}</div>${bankRows(banks, counts)}` : "";
+        return banks.length ? `<div class="bank-group"><div class="section-title">${flag(c)} ${esc(c.name)}</div>${bankRows(banks, counts)}</div>` : "";
       }).join("");
       $("#bankGroups").innerHTML = groups || `<div class="empty">No bank matches “${esc(needle)}”.</div>`;
     };
@@ -562,9 +562,13 @@
       if (!items.length) { $("#timeline").innerHTML = emptyState(`No AI announcements tracked for ${b.short} yet.`); return; }
       let html = "", year = "";
       items.forEach((i) => {
-        if (i.date.slice(0, 4) !== year) { year = i.date.slice(0, 4); html += `<div class="year-head">${year}</div>`; }
+        if (i.date.slice(0, 4) !== year) {
+          html += `${year ? "</div>" : ""}<div class="year-head">${i.date.slice(0, 4)}</div><div class="tl-cards">`;
+          year = i.date.slice(0, 4);
+        }
         html += newsCard(i, { showBank: false });
       });
+      html += "</div>";
       $("#timeline").innerHTML = `<div class="timeline">${html}</div>`;
       const clr = $("#clrCat"); if (clr) clr.onclick = () => setCat("");
     };
