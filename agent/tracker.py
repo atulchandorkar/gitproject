@@ -789,6 +789,7 @@ def main() -> None:
         reports = annual_reports.AnnualReports(tracker.banks, tracker.state, tracker.checker, CATEGORY_GUIDE, today(), now_iso)
         tracker.news["items"] = reports.repair_merged(tracker.news["items"])
         reports.mark_all_for_reread()
+        reports.retry_missing_now()
         try:
             ar_added = reports.run(tracker.rejected)
         except FatalAPIError:
