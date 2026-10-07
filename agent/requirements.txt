@@ -1,3 +1,4 @@
 anthropic>=1.11,<2
 pydantic>=2.7,<3
 pypdf>=4.2,<6
+cryptography>=42

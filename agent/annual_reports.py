@@ -21,6 +21,7 @@ import json
 import re
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from typing import Callable
@@ -31,10 +32,11 @@ import newsrooms
 import verify
 
 YEARS_BACK = 2                 # fiscal years to cover (matches the 2-year news history)
-MAX_PDF_BYTES = 80_000_000
+MAX_PDF_BYTES = 160_000_000   # some integrated reports are 100 MB+
 PASSAGE_CHARS = 30_000         # AI-related text sent to Claude per report
 MAX_ITEMS_PER_REPORT = 20     # keep every concrete AI item a report discloses (up to this many)
 RECHECK_DAYS = 14              # look again for a report that is not out yet
+COUNTRY_ORDER = ["QA", "AE", "SA", "KW", "OM", "BH"]
 RUN_BUDGET_S = 30 * 60         # time cap per daily run; remaining banks continue next run
 
 AI_RE = re.compile(
@@ -91,15 +93,35 @@ Themes:
 # --------------------------------------------------------------------------- #
 # Finding the report
 # --------------------------------------------------------------------------- #
+def _quote_url(url: str) -> str:
+    """Encode spaces and other unsafe characters in a link as written on the bank's page."""
+    parts = urllib.parse.urlsplit(url.strip())
+    return urllib.parse.urlunsplit(parts._replace(path=urllib.parse.quote(parts.path, safe="/%:@!$&'()*+,;=~-._"),
+                                                  query=urllib.parse.quote(parts.query, safe="=&%/:+,;?@~-._")))
+
+
 def fetch_bytes(url: str, limit: int = MAX_PDF_BYTES, timeout: int = 60) -> tuple[bytes, dict]:
-    req = urllib.request.Request(url, headers={**newsrooms.HEADERS, "Accept": "application/pdf,*/*"})
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        data = resp.read(limit + 1)
-        if len(data) > limit:
-            raise ValueError("file too large")
-        if resp.headers.get("Content-Encoding") == "gzip":
-            data = gzip.decompress(data)
-        return data, dict(resp.headers)
+    url = _quote_url(url)
+    parts = urllib.parse.urlsplit(url)
+    base = {**newsrooms.HEADERS, "Accept": "application/pdf,*/*"}
+    # some bank sites refuse files requested without a page of their own as referrer (403)
+    browser = {**base, "Referer": f"{parts.scheme}://{parts.netloc}/", "Accept-Language": "en-US,en;q=0.9",
+               "Sec-Fetch-Dest": "document", "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Site": "same-origin"}
+    for n, headers in enumerate((base, browser)):
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                data = resp.read(limit + 1)
+                if len(data) > limit:
+                    raise ValueError("file too large")
+                if resp.headers.get("Content-Encoding") == "gzip":
+                    data = gzip.decompress(data)
+                return data, dict(resp.headers)
+        except urllib.error.HTTPError as exc:
+            if n or exc.code not in (401, 403, 406, 429):
+                raise
+            time.sleep(2)
+    raise RuntimeError("unreachable")
 
 
 def report_year(url: str, text: str) -> int | None:
@@ -284,6 +306,14 @@ class AnnualReports:
         last = st.get("checked")
         return redo or new_links or not last or (self.today - dt.date.fromisoformat(last)).days >= RECHECK_DAYS
 
+    def _priority(self, bank: dict) -> tuple:
+        """Reports not read yet come before re-reads; then featured bank first, then country order."""
+        st = self.state.get(bank["id"]) or {}
+        done = st.get("done", {})
+        new = any(str(y) not in done for y in self._todo_years(st))
+        return (not new, not bank.get("featured"), COUNTRY_ORDER.index(bank["country"])
+                if bank["country"] in COUNTRY_ORDER else len(COUNTRY_ORDER))
+
     def mark_all_for_reread(self) -> None:
         """One-time: reports read under the old 'top 10 items' rule are read again to keep every AI item.
         Their items are replaced only once the new reading has succeeded (no gap on the dashboard)."""
@@ -407,7 +437,7 @@ class AnnualReports:
     def run(self, rejected_log: list[dict]) -> list[dict]:
         start = time.monotonic()
         added: list[dict] = []
-        todo = [b for b in self.banks.values() if self.due(b["id"])]
+        todo = sorted((b for b in self.banks.values() if self.due(b["id"])), key=self._priority)
         print(f"Annual reports: {len(todo)} banks to check (years {', '.join(map(str, self.years()))}) …")
         for bank in todo:
             if time.monotonic() - start > RUN_BUDGET_S:
