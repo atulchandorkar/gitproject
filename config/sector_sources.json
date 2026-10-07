@@ -125,6 +125,7 @@
   {"name": "Zawya", "short": "Zawya", "domain": "zawya.com", "kind": "media", "pages": []},
   {"name": "The National", "short": "The National", "domain": "thenationalnews.com", "kind": "media", "pages": []},
   {"name": "Gulf News", "short": "Gulf News", "domain": "gulfnews.com", "kind": "media", "pages": []},
+  {"name": "Gulf Business", "short": "Gulf Business", "domain": "gulfbusiness.com", "kind": "media", "pages": []},
   {"name": "Khaleej Times", "short": "Khaleej Times", "domain": "khaleejtimes.com", "kind": "media", "pages": []},
   {"name": "Arabian Business", "short": "Arabian Business", "domain": "arabianbusiness.com", "kind": "media", "pages": []},
   {"name": "Al Jazeera", "short": "Al Jazeera", "domain": "aljazeera.net", "kind": "media", "pages": [], "aliases": ["aljazeera.net"]},
