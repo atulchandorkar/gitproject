@@ -1384,5 +1384,122 @@
   "source_url": "https://www.bbkonline.com/wp-content/uploads/2025/03/BBK-Annual-Report-2024-Full-English-7.pdf",
   "source": "BBK Annual Report 2024",
   "reason": "fact-check: NLP models mentioned for Invita (a BBK group company), not BBK itself; summary states BBK implemented them but evidence attributes them to Invita."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "enbd",
+  "date": "2025-01-28",
+  "title": "Emirates NBD In-House 4X Platform for Foreign Exchange Operations",
+  "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+  "source": "Emirates NBD Annual Report 2024",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "enbd",
+  "date": "2025-01-28",
+  "title": "Emirates NBD Board Expertise in Technology/Cybersecurity/AI",
+  "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+  "source": "Emirates NBD Annual Report 2024",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "enbd",
+  "date": "2025-01-28",
+  "title": "Emirates NBD AI Machine Learning Model for AML Risk Rating with Advanced Analytics Centre of Excellence",
+  "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+  "source": "Emirates NBD Annual Report 2024",
+  "reason": "fact-check: The evidence states the model was developed 'in collaboration with the Advanced Analytics Centre of Excellence' but does not clearly identify this as a distinct partner entity separate from Emirates NBD's internal structure."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "enbd",
+  "date": "2025-01-28",
+  "title": "Emirates NBD AI-Driven Security Controls for Cloud Infrastructure",
+  "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+  "source": "Emirates NBD Annual Report 2024",
+  "reason": "fact-check: The evidence states the security controls were 'targeted' and aimed to 'protect cloud infrastructure and secure the integration of AI-driven tools' but does not state these controls were AI-driven themselves."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "enbd",
+  "date": "2025-01-28",
+  "title": "Emirates NBD Middle East Banking AI & Analytics Summit Award for Security and Compliance",
+  "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+  "source": "Emirates NBD Annual Report 2024",
+  "reason": "fact-check: The evidence lists this as an award received, not a description of Emirates NBD's own AI activity. Awards and accolades are recognition of past work but do not constitute the bank's own AI strategy or deployment activity."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "bankmuscat",
+  "date": "2026-03-13",
+  "title": "Bank Muscat Jadarah Artificial Intelligence Academy",
+  "source_url": "https://www.bankmuscat.om/en/investorrelations/AnnualReports/Annual_Report_EN_2025.pdf",
+  "source": "Bank Muscat Annual Report 2025",
+  "reason": "fact-check: Title says 'Jadarah' but evidence says 'Artificial Intelligence (AI) Academy' without the 'Jadarah' prefix in the AI Academy section."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "cbd",
+  "date": "2026-02-10",
+  "title": "CBD Data Literacy Programme",
+  "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+  "source": "CBD Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "cbd",
+  "date": "2026-02-10",
+  "title": "CBD Leadership Essentials Training Programme",
+  "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+  "source": "CBD Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "cbd",
+  "date": "2026-02-10",
+  "title": "CBD Board Digital and AI Expertise",
+  "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+  "source": "CBD Annual Report 2025",
+  "reason": "fact-check: Evidence does not mention an 'IT and Digitalisation Strategy Committee' - only Board Skills Matrix and competencies are described."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "cbd",
+  "date": "2026-02-10",
+  "title": "CBD Enhanced Governance Framework for AI and Digital Transformation",
+  "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+  "source": "CBD Annual Report 2025",
+  "reason": "fact-check: Title incorrectly names 'IT and Digitalisation Strategy Committee' when evidence refers to 'Board Strategy Committee'."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "cbd",
+  "date": "2026-02-10",
+  "title": "CBD IT and Digitalisation Strategy Committee Focus on AI",
+  "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+  "source": "CBD Annual Report 2025",
+  "reason": "fact-check: Title and summary misidentify the committee as 'IT and Digitalisation Strategy Committee' when it is actually the 'Board Strategy Committee'."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "cbd",
+  "date": "2026-02-10",
+  "title": "CBD Board Secretary AI Qualification from University of Oxford",
+  "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+  "source": "CBD Annual Report 2025",
+  "reason": "fact-check: Ahmed Al Jaziri's AI qualification is his personal professional development, not CBD's own AI activity or strategy."
+ },
+ {
+  "checked": "2026-10-07",
+  "bank_id": "cbd",
+  "date": "2026-02-10",
+  "title": "CBD Board Member AI Expertise from Netherlands",
+  "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+  "source": "CBD Annual Report 2025",
+  "reason": "fact-check: Dr. van Linder is CEO, not a Board member; the claim incorrectly identifies his Board role and his educational background in AI is personal credential, not CBD's own AI activity or strategy."
  }
 ]

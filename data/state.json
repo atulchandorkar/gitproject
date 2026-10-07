@@ -1,5 +1,5 @@
 {
- "last_update": "2026-10-07T05:02:00+00:00",
+ "last_update": "2026-10-07T05:50:30+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -954,7 +954,8 @@
   "04fd5a57094b4f": "2026-10-07",
   "1af09a75dabbe6": "2026-10-06",
   "94fe27873db2b1": "2026-10-03",
-  "88d534b88843d3": "2026-10-07"
+  "88d534b88843d3": "2026-10-07",
+  "a7068f77549e59": "2026-10-07"
  },
  "history_loaded": {
   "adcb": "2026-10-05",
@@ -2656,7 +2657,7 @@
   "riyad": {
    "checked": "2026-10-06",
    "url": "https://www.riyadbank.com/personal-banking/media-center?p_p_id=com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath=%2Fdisplay_article.jsp&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId=6385919&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_shareURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fdisplay_article.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId%3D6385919%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL%3Dhttps%253A%252F%252Fwww.riyadbank.com%252Fpersonal-banking%252Fmedia-center%253Fp_p_id%253Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%2526p_p_lifecycle%253D0%2526p_p_state%253Dnormal%2526p_p_mode%253Dview%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%253D%25252Fview.jsp%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%253D2%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%253D10&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fview.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%3D2%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%3D10",
-   "status": "ok",
+   "status": "unreachable (IncompleteRead)",
    "links": 11,
    "scanned": "2026-10-07",
    "known": [
@@ -2701,7 +2702,7 @@
   "ahlibankqa": {
    "checked": "2026-10-05",
    "url": "https://www.ahlibank.com.qa/en/media-center/news-press-releases",
-   "status": "ok",
+   "status": "unreachable (URLError)",
    "links": 24,
    "scanned": "2026-10-07",
    "known": [
@@ -3124,7 +3125,8 @@
  "migrations": [
   "arabic-names-v1",
   "ar-unmerge-v1",
-  "ar-all-items-v1"
+  "ar-all-items-v1",
+  "ar-retry-v1"
  ],
  "sector_seen": {
   "881f682db56fb6": "2025-10-06",
@@ -3777,7 +3779,11 @@
   "c7c69256ac9a74": "2026-10-07",
   "4a039891be4c0b": "2026-10-06",
   "4fd2134f37ca73": "2026-10-07",
-  "10a20360a341b0": "2026-10-07"
+  "10a20360a341b0": "2026-10-07",
+  "103a3631cc83aa": "2026-10-06",
+  "ef9bc51799bd84": "2026-10-06",
+  "3794db0aac2deb": "2026-10-06",
+  "04e0cfc42096a7": "2026-10-07"
  },
  "sector_known": {},
  "sector_pending": [
@@ -7673,6 +7679,62 @@
     "evidence": "headline",
     "checked": "2026-10-07"
    }
+  },
+  {
+   "id": "d494df3b1617",
+   "date": "2026-10-06",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "كوريا الجنوبية خففت قواعد أمن البنوك لمكافحة اختراقات الذكاء الاصطناعي، ثم تعرضت للاختراق بواسطة هجمات ذكاء اصطناعي",
+   "summary": "South Korea relaxed banking security rules targeting AI-based breaches but subsequently faced attacks using AI systems, revealing tensions between regulatory flexibility and cybersecurity.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55ZkpnQS1GNG13Tm11OHJvOURhQUdxNUFvRFRzZkdiNXBzT2JFbkJlY2R5Q0pRbUFwZ0h3MG9kSTFDR1RwZW82ZE5GVVRDMjVrMG5OOVVOUnVDd1A5RmxLNDZTaER5Qkc1THlWVUs5cFYzODhvUTI0?oc=5",
+   "source_name": "Cryptopolitan",
+   "source_title": "كوريا الجنوبية خففت قواعد أمن البنوك لمكافحة اختراقات الذكاء الاصطناعي، ثم تعرضت للاختراق بواسطة هجمات ذكاء اصطناعي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55ZkpnQS1GNG13Tm11OHJvOURhQUdxNUFvRFRzZkdiNXBzT2JFbkJlY2R5Q0pRbUFwZ0h3MG9kSTFDR1RwZW82ZE5GVVRDMjVrMG5OOVVOUnVDd1A5RmxLNDZTaER5Qkc1THlWVUs5cFYzODhvUTI0?oc=5",
+     "name": "Cryptopolitan"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-07T06:07:23+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "3bcf23c04d32",
+   "date": "2026-10-07",
+   "category": "Maturity & Rankings",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "\"يو بي إس\" البنك الأوروبي الوحيد بين أفضل 10 في تبني الذكاء الاصطناعي مع تصدر \"جي بي مورغان تشيس\"",
+   "summary": "UBS ranked among Europe's top AI-adopting banks while JPMorgan Chase leads globally, providing a regional and global benchmark of bank AI maturity.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnM4VUxzNG9nV1E4VG0yY20zSEY0QTczbVFXQjJRUjQ3djNCTkFjQkVDVkFlZGJGdVNmRERjMThUeU95T1NwZU1vME96NV9FLWtWWVNsMDRaeFJqeTBGclFZTnBxNjFQeUxKa3NBaVNCdXZIZ2dhLWtXYmF4S2ptMHUzQ0xhSlpOSGRvV0d1c25BSGZrNmRoREJHVHBzMkhQaDdiZEhKZ3AwX1gyRnYtb3gwWEdrdFBrRmtVcGNaM0xkWHlIZEhjVQ?oc=5",
+   "source_name": "Euronews.com",
+   "source_title": "\"يو بي إس\" البنك الأوروبي الوحيد بين أفضل 10 في تبني الذكاء الاصطناعي مع تصدر \"جي بي مورغان تشيس\"",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdnM4VUxzNG9nV1E4VG0yY20zSEY0QTczbVFXQjJRUjQ3djNCTkFjQkVDVkFlZGJGdVNmRERjMThUeU95T1NwZU1vME96NV9FLWtWWVNsMDRaeFJqeTBGclFZTnBxNjFQeUxKa3NBaVNCdXZIZ2dhLWtXYmF4S2ptMHUzQ0xhSlpOSGRvV0d1c25BSGZrNmRoREJHVHBzMkhQaDdiZEhKZ3AwX1gyRnYtb3gwWEdrdFBrRmtVcGNaM0xkWHlIZEhjVQ?oc=5",
+     "name": "Euronews.com"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-07T06:07:23+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-07"
+   }
   }
  ],
  "sector_retry": [],
@@ -9251,8 +9313,8 @@
     "https://www.bankfab.com/en-ae/about-fab/investor-relations/reports-and-presentations/quarterly-and-annual-reports",
     "https://www.bankfab.com/en-ae/about-fab/investor-relations/shareholder-information/agms"
    ],
-   "checked": "2026-10-07",
-   "config": "[[], [\"https://www.bankfab.com/en-ae/about-fab/investor-relations/reports-and-presentations/quarterly-and-annual-reports\"]]"
+   "config": "[[], [\"https://www.bankfab.com/en-ae/about-fab/investor-relations/reports-and-presentations/quarterly-and-annual-reports\"]]",
+   "checked": "2026-10-07"
   },
   "enbd": {
    "done": {
@@ -9261,20 +9323,26 @@
      "pages": 132,
      "items": 20,
      "date": "2026-01-27"
+    },
+    "2024": {
+     "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+     "pages": 121,
+     "items": 15,
+     "date": "2025-01-28"
     }
    },
-   "checked": "2026-10-07",
    "pages": [
     "https://www.emiratesnbd.com/en/investor-relations/financial-information/annual-reports",
     "https://www.emiratesnbd.com/ar/investor-relations/financial-information/annual-reports",
     "https://www.emiratesnbd.com/en/investor-relations/financial-information/annual-reports?source=quick-search"
    ],
-   "config": "[[{\"url\": \"https://cdn.emiratesnbd.com/en/assets/file/ir/annual_report_2025.pdf\", \"year\": 2025}], [\"https://www.emiratesnbd.com/en/investor-relations/financial-information/annual-reports\"]]"
+   "config": "[[{\"url\": \"https://cdn.emiratesnbd.com/en/assets/file/ir/annual_report_2025.pdf\", \"year\": 2025}, {\"url\": \"https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf\", \"year\": 2024}], [\"https://www.emiratesnbd.com/en/investor-relations/financial-information/annual-reports\"]]",
+   "checked": "2026-10-07"
   },
   "adcb": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], [\"https://www.adcb.com/en/about-us/investor-relations/financial-reports/\", \"https://www.adcb.com/en/about-us/investor-relations/annual-report/2024\"]]"
+   "config": "[[], [\"https://www.adcb.com/en/about-us/investor-relations/financial-reports/\", \"https://www.adcb.com/en/about-us/investor-relations/annual-report/2024\"]]",
+   "checked": "2026-10-07"
   },
   "dib": {
    "done": {
@@ -9329,8 +9397,8 @@
      "date": "2026-02-25"
     }
    },
-   "checked": "2026-10-07",
-   "config": "[[{\"url\": \"https://www.mashreq.com/-/jssmedia/pdfs/aboutus/investors/2026/2025-annual-report-en.ashx\", \"year\": 2025}], [\"https://www.mashreq.com/en/uae/about-us/investor-relations/financial-information/annual-reports/\"]]"
+   "config": "[[{\"url\": \"https://www.mashreq.com/-/jssmedia/pdfs/aboutus/investors/2026/2025-annual-report-en.ashx\", \"year\": 2025}], [\"https://www.mashreq.com/en/uae/about-us/investor-relations/financial-information/annual-reports/\"]]",
+   "checked": "2026-10-07"
   },
   "cbd": {
    "done": {
@@ -9339,18 +9407,24 @@
      "pages": 81,
      "items": 9,
      "date": "2025-03-24"
+    },
+    "2025": {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+     "pages": 182,
+     "items": 11,
+     "date": "2026-02-10"
     }
    },
    "pages": [
     "https://www.cbd.ae/aboutus/investor-relations"
    ],
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "rakbank": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], [\"https://www.rakbank.ae/en/about-us/investor-relations/financials/reports\"]]"
+   "config": "[[], [\"https://www.rakbank.ae/en/about-us/investor-relations/financials/reports\"]]",
+   "checked": "2026-10-07"
   },
   "ei": {
    "done": {
@@ -9377,13 +9451,13 @@
   },
   "nbf": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "sib": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "ajman": {
    "done": {},
@@ -9391,13 +9465,20 @@
     "https://www.ajmanbank.ae/site/annual-integrated-reports.html",
     "https://www.ajmanbank.ae/site/ar/annual-integrated-reports.html"
    ],
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "failed": {
+    "2025": {
+     "n": 1,
+     "url": "https://www.ajmanbank.ae/site/files/AB - Integrated Annual Report 2025/Annual_Integrated_Report_2025_EN.pdf",
+     "error": "HTTPError: HTTP Error 404: Not Found"
+    }
+   },
+   "checked": "2026-10-07"
   },
   "bos": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "uab": {
    "done": {
@@ -9424,28 +9505,28 @@
   },
   "investbank": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "wio": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "zand": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "edb": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "cbuae": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "alrajhi": {
    "done": {
@@ -9456,13 +9537,13 @@
      "date": "2026-03-28"
     }
    },
-   "checked": "2026-10-07",
-   "config": "[[{\"url\": \"https://www.alrajhibank.com.sa/ir25/services/pdf/Al_Rajhi_Bank_AR2025_English.pdf\", \"year\": 2025}], [\"https://www.alrajhibank.com.sa/en/About-alrajhi-bank/Investor-Relations\"]]"
+   "config": "[[{\"url\": \"https://www.alrajhibank.com.sa/ir25/services/pdf/Al_Rajhi_Bank_AR2025_English.pdf\", \"year\": 2025}], [\"https://www.alrajhibank.com.sa/en/About-alrajhi-bank/Investor-Relations\"]]",
+   "checked": "2026-10-07"
   },
   "snb": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], [\"https://www.alahli.com/en/pages/about-us/investor-relations/previous-annual-reports\"]]"
+   "config": "[[], [\"https://www.alahli.com/en/pages/about-us/investor-relations/previous-annual-reports\"]]",
+   "checked": "2026-10-07"
   },
   "riyad": {
    "done": {
@@ -9473,8 +9554,11 @@
      "date": "2026-06-18"
     }
    },
-   "checked": "2026-10-07",
-   "config": "[[{\"url\": \"https://www.riyadbank.com/documents/20121/8029796/Riyad+Bank+AR25+-+English.pdf/ee4fc166-57b1-6594-5a25-f1eaa0a6767a?t=1782385539524+&download=true\", \"year\": 2025}], [\"https://www.riyadbank.com/investor-relations/annual-reports\"]]"
+   "config": "[[{\"url\": \"https://www.riyadbank.com/documents/20121/8029796/Riyad+Bank+AR25+-+English.pdf/ee4fc166-57b1-6594-5a25-f1eaa0a6767a?t=1782385539524+&download=true\", \"year\": 2025}], [\"https://www.riyadbank.com/investor-relations/annual-reports\"]]",
+   "pages": [
+    "https://www.riyadbank.com/web/annual-reports-2025/download-center"
+   ],
+   "checked": "2026-10-07"
   },
   "sab": {
    "done": {
@@ -9485,18 +9569,18 @@
      "date": "2026-04-01"
     }
    },
-   "checked": "2026-10-07",
-   "config": "[[{\"url\": \"https://www.sab.com/content/dam/sabpws/files/reports-documents/en/category-reports/2025/other-reports/SAB%20Annual%20Report%202025%20English.pdf\", \"year\": 2025}], [\"https://www.sab.com/en/about-us/investor-relations/\"]]"
+   "config": "[[{\"url\": \"https://www.sab.com/content/dam/sabpws/files/reports-documents/en/category-reports/2025/other-reports/SAB%20Annual%20Report%202025%20English.pdf\", \"year\": 2025}], [\"https://www.sab.com/en/about-us/investor-relations/\"]]",
+   "checked": "2026-10-07"
   },
   "bsf": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "anb": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], [\"https://anb.com.sa/web/anb/annual-reports\"]]"
+   "config": "[[], [\"https://anb.com.sa/web/anb/annual-reports\"]]",
+   "checked": "2026-10-07"
   },
   "alinma": {
    "done": {
@@ -9510,18 +9594,18 @@
    "pages": [
     "https://ir.alinma.com/en/investor-relations/financial-information/?query=annual-reports"
    ],
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "aljazira": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "albilad": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "saib": {
    "done": {
@@ -9548,33 +9632,40 @@
   },
   "gibsa": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "stcbank": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "d360": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "visionbank": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "sama": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "qnb": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[{\"url\": \"https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025\", \"year\": 2025}], [\"https://www.qnb.com/sites/qnb/qnbqatar/page/en/enannualreports.html\"]]"
+   "config": "[[{\"url\": \"https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025\", \"year\": 2025}], [\"https://www.qnb.com/sites/qnb/qnbqatar/page/en/enannualreports.html\"]]",
+   "failed": {
+    "2025": {
+     "n": 1,
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+     "error": "HTTPError: HTTP Error 403: Forbidden"
+    }
+   },
+   "checked": "2026-10-07"
   },
   "qib": {
    "done": {
@@ -9600,9 +9691,16 @@
    "config": "[[], []]"
   },
   "cbq": {
-   "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], [\"https://www.cbq.qa/en/investor-relations/financial-information/annual-reports\"]]"
+   "done": {
+    "2025": {
+     "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf",
+     "pages": 158,
+     "items": 12,
+     "date": "2026-03-14"
+    }
+   },
+   "config": "[[{\"url\": \"https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf\", \"year\": 2025}], [\"https://www.cbq.qa/en/investor-relations/financial-information/annual-reports\"]]",
+   "checked": "2026-10-07"
   },
   "rayan": {
    "done": {
@@ -9629,8 +9727,8 @@
   },
   "dohabank": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "dukhan": {
    "done": {
@@ -9641,16 +9739,16 @@
      "date": "2025-05-26"
     }
    },
-   "checked": "2026-10-07",
    "pages": [
     "https://www.dukhanbank.com/ar/investor-relations/financial-information"
    ],
-   "config": "[[{\"url\": \"https://www.dukhanbank.com/sites/default/files/2026/pdfs/DB_ANNUALREPORT2024_EN-Combinedbook_20250526.pdf\", \"year\": 2024}], [\"https://www.dukhanbank.com/investor-relations/financial-information\"]]"
+   "config": "[[{\"url\": \"https://www.dukhanbank.com/sites/default/files/2026/pdfs/DB_ANNUALREPORT2024_EN-Combinedbook_20250526.pdf\", \"year\": 2024}], [\"https://www.dukhanbank.com/investor-relations/financial-information\"]]",
+   "checked": "2026-10-07"
   },
   "qiib": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], [\"https://www.qiib.com.qa/documents/list/financialreports\"]]"
+   "config": "[[], [\"https://www.qiib.com.qa/documents/list/financialreports\"]]",
+   "checked": "2026-10-07"
   },
   "ahlibankqa": {
    "done": {
@@ -9661,8 +9759,8 @@
      "date": "2025-08-18"
     }
    },
-   "checked": "2026-10-07",
-   "config": "[[{\"url\": \"https://www.ahlibank.com.qa/Library/Assets/Ahli%20Bank%20Annual%20Report%202024-EN-010841.pdf\", \"year\": 2024}], [\"https://www.ahlibank.com.qa/en/about-us/investor-relations/financial-reports\"]]"
+   "config": "[[{\"url\": \"https://www.ahlibank.com.qa/Library/Assets/Ahli%20Bank%20Annual%20Report%202024-EN-010841.pdf\", \"year\": 2024}], [\"https://www.ahlibank.com.qa/en/about-us/investor-relations/financial-reports\"]]",
+   "checked": "2026-10-07"
   },
   "lesha": {
    "done": {
@@ -9689,13 +9787,13 @@
   },
   "qdb": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "qcb": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "nbk": {
    "done": {
@@ -9752,8 +9850,8 @@
      "date": "2026-02-14"
     }
    },
-   "checked": "2026-10-07",
-   "config": "[[{\"url\": \"https://www.bankboubyan.com/media/filer_public/67/e2/67e2e79a-c6a0-40e1-aeeb-6c6fc73df37a/view_report.pdf\", \"year\": 2025}], []]"
+   "config": "[[{\"url\": \"https://www.bankboubyan.com/media/filer_public/67/e2/67e2e79a-c6a0-40e1-aeeb-6c6fc73df37a/view_report.pdf\", \"year\": 2025}], []]",
+   "checked": "2026-10-07"
   },
   "gulfbank": {
    "done": {
@@ -9785,16 +9883,16 @@
    "pages": [
     "https://burgan.com/en/investor-relations/investor-relations/"
    ],
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "cbk": {
    "done": {},
    "pages": [
     "https://www.cbk.com/ar/About-CBK/Investors-Relations/Financial-Statements"
    ],
-   "checked": "2026-10-07",
-   "config": "[[], [\"https://www.cbk.com/About-CBK/Investors-Relations\"]]"
+   "config": "[[], [\"https://www.cbk.com/About-CBK/Investors-Relations\"]]",
+   "checked": "2026-10-07"
   },
   "abk": {
    "done": {
@@ -9816,13 +9914,13 @@
   },
   "warba": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "kib": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "ibk": {
    "done": {
@@ -9838,28 +9936,35 @@
     "https://www.ibkuwt.com/en",
     "https://www.ibkuwt.com/en/annual-reports/"
    ],
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "cbkw": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "bankmuscat": {
-   "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], [\"https://www.bankmuscat.com/en/investorrelations\"]]"
+   "done": {
+    "2025": {
+     "url": "https://www.bankmuscat.om/en/investorrelations/AnnualReports/Annual_Report_EN_2025.pdf",
+     "pages": 286,
+     "items": 4,
+     "date": "2026-03-13"
+    }
+   },
+   "config": "[[{\"url\": \"https://www.bankmuscat.om/en/investorrelations/AnnualReports/Annual_Report_EN_2025.pdf\", \"year\": 2025}], [\"https://www.bankmuscat.com/en/investorrelations\"]]",
+   "checked": "2026-10-07"
   },
   "sohar": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "nbo": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "bankdhofar": {
    "done": {
@@ -9874,8 +9979,8 @@
     "https://www.bankdhofar.com/about-us/investor-relations/financial-reports/",
     "https://bankdhofar.com/about-us/investor-relations/financial-reports/"
    ],
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "oab": {
    "done": {},
@@ -9883,8 +9988,20 @@
     "https://www.oman-arabbank.com/home/about-us/investor-relations/",
     "https://www.oman-arabbank.com/home/about-us/investor-relations/?s="
    ],
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "failed": {
+    "2025": {
+     "n": 1,
+     "url": "http://www.oman-arabbank.com/wp-content/uploads/OAB-ANNUAL-REPORT-2025-ENG.pdf",
+     "error": "URLError: <urlopen error [Errno 101] Network is unreachable>"
+    },
+    "2024": {
+     "n": 1,
+     "url": "http://www.oman-arabbank.com/wp-content/uploads/OAB_ANNUAL_REPORT_2024_ENG-2.pdf",
+     "error": "URLError: <urlopen error [Errno 101] Network is unreachable>"
+    }
+   },
+   "checked": "2026-10-07"
   },
   "ahlioman": {
    "done": {
@@ -9911,13 +10028,13 @@
   },
   "nizwa": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "cbo": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "nbb": {
    "done": {
@@ -9933,8 +10050,8 @@
     "https://nbbonline.com/annual-report-2024/",
     "https://nbbonline.com/ar/about/investors/"
    ],
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "bbk": {
    "done": {
@@ -9960,8 +10077,8 @@
   },
   "aub": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "bankabc": {
    "done": {
@@ -9972,13 +10089,13 @@
      "date": "2026-04-30"
     }
    },
-   "checked": "2026-10-07",
-   "config": "[[{\"url\": \"https://www.bank-abc.com/ar/ShareholderRelations/Annual%20Reports/Annual%20Report%202025.pdf\", \"year\": 2025}], [\"https://www.bank-abc.com/en/ShareholderRelations/financial-results\"]]"
+   "config": "[[{\"url\": \"https://www.bank-abc.com/ar/ShareholderRelations/Annual%20Reports/Annual%20Report%202025.pdf\", \"year\": 2025}], [\"https://www.bank-abc.com/en/ShareholderRelations/financial-results\"]]",
+   "checked": "2026-10-07"
   },
   "gib": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "bisb": {
    "done": {
@@ -10003,23 +10120,23 @@
   },
   "alsalam": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "khcb": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "gfh": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   },
   "cbb": {
    "done": {},
-   "checked": "2026-10-07",
-   "config": "[[], []]"
+   "config": "[[], []]",
+   "checked": "2026-10-07"
   }
  },
  "sector_migrations": [

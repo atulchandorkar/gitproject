@@ -6,6 +6,13 @@
    "pages": 132,
    "items": 20,
    "date": "2026-01-27"
+  },
+  {
+   "year": 2024,
+   "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+   "pages": 121,
+   "items": 15,
+   "date": "2025-01-28"
   }
  ],
  "dib": [
@@ -50,6 +57,13 @@
   }
  ],
  "cbd": [
+  {
+   "year": 2025,
+   "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+   "pages": 182,
+   "items": 11,
+   "date": "2026-02-10"
+  },
   {
    "year": 2024,
    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2",
@@ -156,6 +170,15 @@
    "pages": 139,
    "items": 2,
    "date": "2025-07-04"
+  }
+ ],
+ "cbq": [
+  {
+   "year": 2025,
+   "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf",
+   "pages": 158,
+   "items": 12,
+   "date": "2026-03-14"
   }
  ],
  "rayan": [
@@ -297,6 +320,15 @@
    "pages": 130,
    "items": 0,
    "date": "2025-07-27"
+  }
+ ],
+ "bankmuscat": [
+  {
+   "year": 2025,
+   "url": "https://www.bankmuscat.om/en/investorrelations/AnnualReports/Annual_Report_EN_2025.pdf",
+   "pages": 286,
+   "items": 4,
+   "date": "2026-03-13"
   }
  ],
  "bankdhofar": [

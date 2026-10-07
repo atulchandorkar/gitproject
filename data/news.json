@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-07T05:28:04+00:00",
+ "updated_at": "2026-10-07T06:07:28+00:00",
  "items": [
   {
    "id": "38abf2dd9df2",
@@ -5977,6 +5977,514 @@
    }
   },
   {
+   "id": "4b8c0dda5856",
+   "bank_id": "cbq",
+   "country": "QA",
+   "date": "2026-03-14",
+   "title": "Commercial Bank launched AI initiatives with foundational capabilities and pilot programs",
+   "summary": "The Bank launched its AI initiatives in 2022 with a clear plan to build foundational capabilities, pilot high-impact use cases, and scale adoption delivering measurable business value. It has invested in foundational capabilities including data architecture and GPU compute and strengthened internal AI platforms.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "AI roadmap",
+    "foundational capabilities",
+    "GPU infrastructure"
+   ],
+   "partners": [],
+   "impact": "Measurable business value delivery across four core drivers",
+   "source_url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=24",
+   "source_name": "Commercial Bank Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=24",
+     "name": "Commercial Bank Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:51:25+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf",
+    "page": 24,
+    "quote": "The Bank launched its AI initiatives in 2022 with a clear plan: to build foundational capabilities, pilot high-impact use cases, and scale adoption in a way that delivers measurable business value. We have invested in foundational capabilities including data architecture and GPU compute and have strengthened our internal AI platforms."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "74c60f4fd4df",
+   "bank_id": "cbq",
+   "country": "QA",
+   "date": "2026-03-14",
+   "title": "Commercial Bank deployed AI-enabled Intelligent Character Recognition for document processing",
+   "summary": "The Bank's in-house Data Lab team deployed AI-enabled Intelligent Character Recognition to automate processing of documents including customer onboarding, trade finance, and loan applications. This solution contributed to significant operational savings.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "OCR",
+    "Intelligent Character Recognition",
+    "operational efficiency"
+   ],
+   "partners": [],
+   "impact": "Significant operational savings",
+   "source_url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=37",
+   "source_name": "Commercial Bank Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=37",
+     "name": "Commercial Bank Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:51:25+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf",
+    "page": 37,
+    "quote": "AI-enabled Intelligent Character Recognition automated the processing of a wide range of documents including customer onboarding, trade finance, and loan applications, contributing to significant operational savings."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "c1b5f2297829",
+   "bank_id": "cbq",
+   "country": "QA",
+   "date": "2026-03-14",
+   "title": "Commercial Bank deployed Smart Email solution using Large Language Models",
+   "summary": "The Bank built a Smart Email solution using Large Language Models and Retrieval-Augmented Generation that provides AI-generated response suggestions for customer emails. The solution reduces average response times and enhances customer experience.",
+   "category": "Generative AI & Copilots",
+   "topics": [
+    "Generative AI & Copilots"
+   ],
+   "tags": [
+    "Large Language Models",
+    "RAG",
+    "email automation",
+    "customer communication"
+   ],
+   "partners": [],
+   "impact": "Reduced average response times and enhanced customer experience",
+   "source_url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=37",
+   "source_name": "Commercial Bank Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=37",
+     "name": "Commercial Bank Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:51:25+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf",
+    "page": 37,
+    "quote": "The Smart Email solution, built using Large Language Models and Retrieval-Augmented Generation, now provides AI-generated response suggestions for a large portion of customer emails, reducing average response times and enhancing the customer experience."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "e68e0615b487",
+   "bank_id": "cbq",
+   "country": "QA",
+   "date": "2026-03-14",
+   "title": "Commercial Bank deployed automated Machine Learning for product interest prediction",
+   "summary": "The Bank deployed automated Machine Learning solutions to predict customer interest in banking products. This enables more relevant and timely offerings across credit cards and other retail products.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Machine Learning",
+    "product prediction",
+    "cross-sell",
+    "upsell"
+   ],
+   "partners": [],
+   "impact": "More relevant and timely product offerings",
+   "source_url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=37",
+   "source_name": "Commercial Bank Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=37",
+     "name": "Commercial Bank Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:51:25+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf",
+    "page": 37,
+    "quote": "The Bank also deployed automated Machine Learning solutions to predict customer interest in banking products, enabling more relevant and timely offerings across credit cards and other retail products."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "517c06a5b51b",
+   "bank_id": "cbq",
+   "country": "QA",
+   "date": "2026-03-14",
+   "title": "Commercial Bank deployed on-premises GPU cluster for secure AI development",
+   "summary": "The Bank deployed its own GPU cluster to ensure secure, on-premises AI development in compliance with regulatory requirements. This infrastructure runs several large language models enabling Agentic AI use cases with full control over data security, model performance, and governance.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "GPU cluster",
+    "on-premises",
+    "LLM infrastructure",
+    "compliance"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=37",
+   "source_name": "Commercial Bank Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=37",
+     "name": "Commercial Bank Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:51:25+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf",
+    "page": 37,
+    "quote": "To ensure secure, on-premises AI development in compliance with regulatory requirements, the Bank deployed its own GPU cluster. This infrastructure is currently running several large language models that will enable Agentic AI use cases, while providing full control over data security, model performance, and governance. This strategic investment, made proactively in early 2022, has accelerated the Bank's AI research and development capabilities."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "c949d48beadc",
+   "bank_id": "cbq",
+   "country": "QA",
+   "date": "2026-03-14",
+   "title": "Commercial Bank completed enterprise Data Lakehouse implementation",
+   "summary": "The Bank completed the go-live of its enterprise Data Lakehouse in 2025, establishing a unified data infrastructure enabling flexible big data processing, access, and analytical capabilities. This supports the Bank's foundational AI and analytics capabilities.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Data Lakehouse",
+    "big data",
+    "unified data infrastructure"
+   ],
+   "partners": [],
+   "impact": "Enables flexible big data processing and analytical capabilities across the organization",
+   "source_url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=37",
+   "source_name": "Commercial Bank Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=37",
+     "name": "Commercial Bank Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:51:25+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf",
+    "page": 37,
+    "quote": "The Bank completed the go-live of its enterprise Data Lakehouse in 2025, establishing a unified data infrastructure that enables flexible big data processing, access, and analytical capabilities across the organization."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "81824c0ce9e5",
+   "bank_id": "cbq",
+   "country": "QA",
+   "date": "2026-03-14",
+   "title": "Commercial Bank deployed real-time Data Streaming platform for operational use cases",
+   "summary": "The Bank's real-time Data Streaming platform powers multiple operational use cases including real-time fraud prevention, automated compliance notifications, and event-based customer engagement. This infrastructure forms the backbone for future Agentic AI capabilities.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Data Streaming",
+    "real-time processing",
+    "fraud prevention",
+    "compliance automation"
+   ],
+   "partners": [],
+   "impact": "Enables real-time fraud prevention, automated compliance notifications, and event-based customer engagement; forms backbone for Agentic AI",
+   "source_url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=37",
+   "source_name": "Commercial Bank Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=37",
+     "name": "Commercial Bank Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:51:25+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf",
+    "page": 37,
+    "quote": "Complementing this, the Bank's real-time Data Streaming platform, now powers multiple operational use cases including real-time fraud prevention, automated compliance notifications, and event-based customer engagement such as travel insurance prompts and personalized service reminders. This streaming infrastructure forms the backbone for the Bank's future Agentic AI capabilities, enabling AI systems to respond to events and trigger actions in real time across multiple channels."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "3d2ce8ec8802",
+   "bank_id": "cbq",
+   "country": "QA",
+   "date": "2026-03-14",
+   "title": "Commercial Bank identified four core AI product drivers for strategic execution",
+   "summary": "The Bank identified AI products with measurable value potential across four core drivers: operating income uplift, CX enhancement, process efficiency, and risk & compliance strengthening. These will be prioritized by strategic fit, quantifiable impact, and executional feasibility.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "AI product prioritization",
+    "strategic alignment"
+   ],
+   "partners": [],
+   "impact": "Help unlock income opportunities, reduce cost to income ratio, and strengthen risk management",
+   "source_url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=24",
+   "source_name": "Commercial Bank Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=24",
+     "name": "Commercial Bank Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:51:25+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf",
+    "page": 24,
+    "quote": "We have identified AI products with measurable value potential across four core drivers - and will prioritize them by strategic fit and quantifiable impact, and executional feasibility: Operating income uplift Using AI to identify and serve the right customers better with the right products at the right time (incl. cross / up-sell and next-best actions) CX enhancement Deploying AI assistants to increase personalization across engagements (incl. customer- facing conversational interfaces) Process efficiency Automating key operational workflows such as document processing, credit operations to improve speed, accuracy, and productivity at scale Risk & compliance strengthening Embedding AI in credit, fraud, and compliance processes to enhance detection, reduce manual effort, and proactively manage risk. Together these AI initiatives will help us to unlock income opportunities, reduce our cost to income ratio and strengthen our risk management."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "1d475ef2a73c",
+   "bank_id": "cbq",
+   "country": "QA",
+   "date": "2026-03-14",
+   "title": "Commercial Bank investing in future-critical skills in data science and artificial intelligence",
+   "summary": "As part of talent development and organizational simplification, the Bank is continuing investment in future-critical skills including data science and artificial intelligence. This is reinforced through a values-driven performance culture.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "data science",
+    "AI capabilities",
+    "future-critical skills"
+   ],
+   "partners": [],
+   "impact": "Strengthened internal talent base for AI execution",
+   "source_url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=24",
+   "source_name": "Commercial Bank Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=24",
+     "name": "Commercial Bank Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:51:25+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf",
+    "page": 24,
+    "quote": "Talent, Teamwork & Culture development will simplify the organization to enhance speed and accountability. This includes continued investment in future-critical skills including data science and artificial intelligence, while reinforcing a values-driven performance culture focused on accountability, collaboration, and execution."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "77cda8e4b029",
+   "bank_id": "cbq",
+   "country": "QA",
+   "date": "2026-03-14",
+   "title": "Commercial Bank leveraging AI-driven insights for customer personalization in retail banking",
+   "summary": "The Bank uses AI-driven insights to analyze customer behavior across branch interactions, mobile app usage, and card transactions to deliver timely and relevant offers. This includes targeted credit cards, loans, and insurance solutions.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "AI-driven insights",
+    "customer analytics",
+    "targeted offerings"
+   ],
+   "partners": [],
+   "impact": "Deliver timely and relevant product offers based on customer behavior",
+   "source_url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=31",
+   "source_name": "Commercial Bank Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=31",
+     "name": "Commercial Bank Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:51:25+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf",
+    "page": 31,
+    "quote": "By analyzing customer behavior across branch interactions, mobile app usage, and card transactions, we deliver timely and relevant offers, including targeted credit cards, loans, and insurance solutions."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "fd0ffbec20aa",
+   "bank_id": "cbq",
+   "country": "QA",
+   "date": "2026-03-14",
+   "title": "Commercial Bank deploying AI assistants for customer personalization and engagement",
+   "summary": "The Bank is deploying AI assistants to increase personalization across customer engagements including customer-facing conversational interfaces. This is identified as a key AI driver for CX enhancement.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "AI assistants",
+    "chatbots",
+    "conversational AI"
+   ],
+   "partners": [],
+   "impact": "Increase personalization across customer engagements",
+   "source_url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=24",
+   "source_name": "Commercial Bank Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=24",
+     "name": "Commercial Bank Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:51:25+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf",
+    "page": 24,
+    "quote": "CX enhancement Deploying AI assistants to increase personalization across engagements (incl. customer- facing conversational interfaces)"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "3b9bcf6e7571",
+   "bank_id": "cbq",
+   "country": "QA",
+   "date": "2026-03-14",
+   "title": "Commercial Bank embedding AI in credit, fraud, and compliance processes",
+   "summary": "The Bank is embedding AI in credit, fraud, and compliance processes to enhance detection, reduce manual effort, and proactively manage risk. This is identified as a strategic driver for risk & compliance strengthening.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "AI-driven detection",
+    "risk management",
+    "fraud prevention",
+    "compliance"
+   ],
+   "partners": [],
+   "impact": "Enhance detection, reduce manual effort, and proactively manage risk",
+   "source_url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=24",
+   "source_name": "Commercial Bank Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf#page=24",
+     "name": "Commercial Bank Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:51:25+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf",
+    "page": 24,
+    "quote": "Risk & compliance strengthening Embedding AI in credit, fraud, and compliance processes to enhance detection, reduce manual effort, and proactively manage risk."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
    "id": "2b8b0455aa8b",
    "bank_id": "bisb",
    "country": "BH",
@@ -6309,6 +6817,171 @@
     "url": "https://www.bisb.com/sites/default/files/2026-03/BH2601021%20-%20BisB%20Annual%20Report%20-%20ENGLISH%20-%20V14-Digital.pdf",
     "page": 21,
     "quote": "Strengthened the treasury team's expertise and enhanced regulatory compliance with specialised training sessions on Asset Liability Management (ALM) and Funds Transfer Pricing (FTP), Corporate Governance, Strategy Day-Out, and the Artificial Intelligence (AI) Readiness Program"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "cf4bcc5b5b2d",
+   "bank_id": "bankmuscat",
+   "country": "OM",
+   "date": "2026-03-13",
+   "title": "Bank Muscat AI Lab Program Employee Graduation",
+   "summary": "Bank Muscat reports in its 2025 annual report (p. 9): “The fourth quarter of 2025 witnessed major achievements, with the launch of the Jadarah Artificial Intelligence Academy, and the graduation of the first cohort of employees from the AI Lab program.”",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "Employee Development",
+    "Lab Program"
+   ],
+   "partners": [],
+   "impact": "First batch of employees graduated from AI Lab Programme",
+   "source_url": "https://www.bankmuscat.om/en/investorrelations/AnnualReports/Annual_Report_EN_2025.pdf#page=9",
+   "source_name": "Bank Muscat Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.bankmuscat.om/en/investorrelations/AnnualReports/Annual_Report_EN_2025.pdf#page=9",
+     "name": "Bank Muscat Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:56:48+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.bankmuscat.om/en/investorrelations/AnnualReports/Annual_Report_EN_2025.pdf",
+    "page": 9,
+    "quote": "The fourth quarter of 2025 witnessed major achievements, with the launch of the Jadarah Artificial Intelligence Academy, and the graduation of the first cohort of employees from the AI Lab program."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "304ecd0887f7",
+   "bank_id": "bankmuscat",
+   "country": "OM",
+   "date": "2026-03-13",
+   "title": "Bank Muscat Command Center with AI-Driven Monitoring",
+   "summary": "Bank Muscat inaugurated a state-of-the-art Command Center serving as a centralized hub for managing technology operations with AI-driven tools and predictive dashboards for real-time digital performance monitoring. The Command Center provides end-to-end visibility across channels, cybersecurity, service uptime, core-banking operations, and customer transaction flows, enabling proactive issue resolution and faster decision-making.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Command Center",
+    "Operations Management",
+    "Real-time Monitoring"
+   ],
+   "partners": [],
+   "impact": "end-to-end visibility, enabling proactive issue resolution, faster decision-making, and superior operational resilience",
+   "source_url": "https://www.bankmuscat.om/en/investorrelations/AnnualReports/Annual_Report_EN_2025.pdf#page=122",
+   "source_name": "Bank Muscat Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.bankmuscat.om/en/investorrelations/AnnualReports/Annual_Report_EN_2025.pdf#page=122",
+     "name": "Bank Muscat Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:56:48+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.bankmuscat.om/en/investorrelations/AnnualReports/Annual_Report_EN_2025.pdf",
+    "page": 122,
+    "quote": "the Bank inaugurated its state-of-the-art Command Center, which now serves as a fully integrated control station overseeing real-time digital performance across channels, cybersecurity posture, service uptime, core-banking operations, and customer transaction flows. Equipped with predictive dashboards and AI- driven monitoring capabilities, the Command Center provides end-to-end visibility, enabling proactive issue resolution, faster decision-making, and superior operational resilience."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "ce1d8c5f19cf",
+   "bank_id": "bankmuscat",
+   "country": "OM",
+   "date": "2026-03-13",
+   "title": "Bank Muscat AI-Driven Tools for Operational Management",
+   "summary": "Bank Muscat deployed AI-driven tools and monitoring capabilities in its centralized Command Center to manage technology operations around the clock with immediate response capabilities to operational challenges. These tools enhance service reliability and elevate customer experience through continuous system monitoring.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Automation",
+    "Monitoring Tools"
+   ],
+   "partners": [],
+   "impact": "immediate response capabilities to operational challenges, enhancing service reliability and elevating customer experience",
+   "source_url": "https://www.bankmuscat.om/en/investorrelations/AnnualReports/Annual_Report_EN_2025.pdf#page=9",
+   "source_name": "Bank Muscat Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.bankmuscat.om/en/investorrelations/AnnualReports/Annual_Report_EN_2025.pdf#page=9",
+     "name": "Bank Muscat Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:56:48+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.bankmuscat.om/en/investorrelations/AnnualReports/Annual_Report_EN_2025.pdf",
+    "page": 9,
+    "quote": "the launch of the first-of-its-kind Command Center, serving as a centralized hub for managing technology operations, ensuring digital readiness, and monitoring systems around the clock using AI-driven tools, with immediate response capabilities to operational challenges, enhancing service reliability and elevating customer experience."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "ca4b937661c8",
+   "bank_id": "bankmuscat",
+   "country": "OM",
+   "date": "2026-03-13",
+   "title": "Bank Muscat Advanced Machine-Learning Models Development",
+   "summary": "Bank Muscat's Jadarah AI Academy is dedicated to developing advanced machine-learning models and automating key internal workflows. These models are designed to improve services and support journey redesign across the Bank's operations.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Machine Learning",
+    "Internal Workflows"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.bankmuscat.om/en/investorrelations/AnnualReports/Annual_Report_EN_2025.pdf#page=122",
+   "source_name": "Bank Muscat Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.bankmuscat.om/en/investorrelations/AnnualReports/Annual_Report_EN_2025.pdf#page=122",
+     "name": "Bank Muscat Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:56:48+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.bankmuscat.om/en/investorrelations/AnnualReports/Annual_Report_EN_2025.pdf",
+    "page": 122,
+    "quote": "an innovation hub dedicated to developing advanced machine-learning models, automating key internal workflows, and piloting cutting-edge tools that improve services and journey redesign."
    },
    "verification": {
     "level": "official",
@@ -9849,6 +10522,483 @@
     "url": "https://www.bankboubyan.com/media/filer_public/67/e2/67e2e79a-c6a0-40e1-aeeb-6c6fc73df37a/view_report.pdf",
     "page": 28,
     "quote": "The EFMS leverages artificial intelligence & machine learning to achieve a 3600 view of the customer behaviour and profiles to enhance transaction level and account level fraud detection, investigation and prevention."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "619538c6443c",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2026-02-10",
+   "title": "CBD GenAI Supplier Risk Assessment in TPSA Framework",
+   "summary": "CBD revised its Third-Party Service Assessment (TPSA) framework to include a dedicated evaluation track for Generative AI suppliers, ensuring data handling, model integrity, and privacy safeguards meet enterprise-grade security standards. The assessment includes scrutiny of model training sources, prompt injection defences, and data residency compliance.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "TPSA framework",
+    "GenAI assessment",
+    "Security standards",
+    "Prompt injection"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=110",
+   "source_name": "CBD Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=110",
+     "name": "CBD Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:58:21+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+    "page": 110,
+    "quote": "In response to emerging technologies and evolving threat landscapes, the TPSA process now includes a dedicated evaluation track for Generative AI (GenAI) suppliers, ensuring that their data handling, model integrity, and privacy safeguards meet enterprise-grade security standards. This includes scrutiny of model training sources, prompt injection defences, and data residency compliance."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "3bcf4b2b4c78",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2026-02-10",
+   "title": "CBD AI-Driven Learning Experience Platform",
+   "summary": "CBD implemented a new AI-driven Learning Experience Platform to support comprehensive learning and development programmes for employee retention and upskilling. The platform is part of CBD's initiatives to equip employees with advanced skills in data and AI.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "Learning Experience Platform",
+    "AI-driven",
+    "Employee development"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=161",
+   "source_name": "CBD Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=161",
+     "name": "CBD Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:58:21+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+    "page": 161,
+    "quote": "We have introduced comprehensive learning and development programmes, a new AI-driven Learning Experience Platform, and offer competitive compensation packages."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "0294f5f34895",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2026-02-10",
+   "title": "CBD Strategic Investments in AI and Advanced Technologies",
+   "summary": "CBD continues to make strategic investments in artificial intelligence and advanced technologies aimed at enhancing operational efficiency, strengthening risk management, and delivering superior customer experiences. These initiatives are anchored in a robust governance framework that safeguards integrity and accountability.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "Strategic investment",
+    "AI technology",
+    "Governance framework"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=118",
+   "source_name": "CBD Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=118",
+     "name": "CBD Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:58:21+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+    "page": 118,
+    "quote": "CBD continues to make strategic investments in artificial intelligence and advanced technologies aimed at enhancing operational efficiency, strengthening risk management, and delivering superior customer experiences. These initiatives are firmly anchored in a robust governance framework that safeguards integrity and accountability."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "4a77baffe084",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2026-02-10",
+   "title": "CBD Service Culture Mindset Programme with Digital and AI Components",
+   "summary": "CBD launched a holistic Service Culture Mindset Programme to enhance customer centricity across the Bank, using a blended approach combining digital learning through the Bank's Learning Experience Platform with instructor-led workshops. The programme supports the Bank's broader digital transformation agenda and AI capabilities embedding.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "Service Culture",
+    "Mindset Programme",
+    "Customer centricity"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=94",
+   "source_name": "CBD Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=94",
+     "name": "CBD Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:58:21+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+    "page": 94,
+    "quote": "The Service Culture Mindset Programme is a holistic learning initiative designed to enhance customer centricity across CBD, supporting the Bank's broader transformation agenda. The programme uses a blended approach, combining digital learning through the Bank's Learning Experience Platform with short, instructor-led workshops, and culminates in CBD's flagship training intervention to embed the new Service Excellence Ecosystem."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "e40fc826e4e4",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2026-02-10",
+   "title": "CBD Partnerships for Digital Transformation and Analytics",
+   "summary": "CBD expanded partnerships including MoUs with Dubai Founders HQ, Tata Consultancy Services, Nexthink, and CODE81 to empower startups, strengthen core technology, enhance employee experience, and accelerate analytics capabilities. These partnerships support CBD's digital transformation and innovation agenda.",
+   "category": "Tech Vendor Partnerships",
+   "topics": [
+    "Tech Vendor Partnerships"
+   ],
+   "tags": [
+    "MoU",
+    "Partnerships",
+    "Vendor collaboration"
+   ],
+   "partners": [
+    "Dubai Founders HQ",
+    "Tata Consultancy Services",
+    "Nexthink",
+    "CODE81"
+   ],
+   "impact": "",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=5",
+   "source_name": "CBD Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=5",
+     "name": "CBD Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:58:21+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+    "page": 5,
+    "quote": "expanded partnerships, including MoUs with Dubai Founders HQ, Tata Consultancy Services, Nexthink, and CODE81, to empower startups, strengthen core technology, enhance employee experience, and accelerate analytics."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "6a87c5f980fc",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2026-02-10",
+   "title": "CBD Digital Banking Awards Recognition",
+   "summary": "CBD earned multiple regional awards recognizing its digital and AI transformation efforts, including Best Digital Bank for Trade Finance Services in the UAE and Middle East by Global Finance, Best Hybrid Cloud Implementation Award from MEA Finance, and Excellence in Digital Banking at Finnovex Middle East. These awards validate CBD's investment in digital and AI capabilities.",
+   "category": "Awards & Rankings",
+   "topics": [
+    "Awards & Rankings"
+   ],
+   "tags": [
+    "Awards",
+    "Regional recognition",
+    "Digital excellence"
+   ],
+   "partners": [
+    "Global Finance",
+    "MEA Finance",
+    "Finnovex Middle East"
+   ],
+   "impact": "Named Best Digital Bank for Trade Finance Services in the UAE and Middle East; won Best Hybrid Cloud Implementation Award and Excellence in Digital Banking award",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=5",
+   "source_name": "CBD Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=5",
+     "name": "CBD Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:58:21+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+    "page": 5,
+    "quote": "We earned multiple regional awards: We were named Best Digital Bank for Trade Finance Services in the UAE and Middle East by Global Finance; won the Best Hybrid Cloud Implementation Award from MEA Finance and Excellence in Digital Banking at Finnovex Middle East."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "c6fc24daaed8",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2026-02-10",
+   "title": "CBD Focus on AI in Customer Experience and Innovation at Dubai FinTech Summit",
+   "summary": "CBD participated as Strategic Banking Partner at Dubai FinTech Summit and contributed to discussions on the transformative role of AI in enhancing customer experiences and the potential of open finance and data-sharing to drive innovation. The Bank signed MoUs aimed at accelerating digital transformation.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "FinTech Summit",
+    "Customer experience",
+    "Open finance"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=98",
+   "source_name": "CBD Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=98",
+     "name": "CBD Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:58:21+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+    "page": 98,
+    "quote": "During the event, our senior executives contributed to high-impact discussions on: • The transformative role of AI in enhancing customer experiences • The potential of open finance and data-sharing to drive innovation"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "43a220da96d2",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2026-02-10",
+   "title": "CBD Equipping Employees with AI and Data Skills",
+   "summary": "CBD equipped employees with advanced skills in data and AI as part of its reinforcement as a default-digital Bank and its emiratization strategy to build a future-ready talent pipeline. The Bank launched service culture mindset programmes alongside AI and data capability development.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "Employee development",
+    "Data skills",
+    "AI capabilities"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=12",
+   "source_name": "CBD Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=12",
+     "name": "CBD Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:58:21+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+    "page": 12,
+    "quote": "reinforced our position as a 'default-digital' Bank by equipping employees with advanced skills in data and AI."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "e5d40e96e952",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2026-02-10",
+   "title": "CBD STREAM Programme for Customer-First Mindset",
+   "summary": "Commercial Bank of Dubai reports in its 2025 annual report (p. 4): “We embedded a customer-first mindset via Programme 'STREAM' and advanced our Default Digital strategy with a bank-wide rollout of Microsoft 365 Copilot and a Data Literacy Programme, bringing AI into everyday workflows t…”",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "STREAM Programme",
+    "Customer-first",
+    "Transformation"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=4",
+   "source_name": "CBD Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=4",
+     "name": "CBD Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:58:21+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+    "page": 4,
+    "quote": "We embedded a customer-first mindset via Programme 'STREAM' and advanced our Default Digital strategy with a bank-wide rollout of Microsoft 365 Copilot and a Data Literacy Programme, bringing AI into everyday workflows to boost productivity and innovation."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "3df92a47a528",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2026-02-10",
+   "title": "CBD Microsoft 365 Copilot Bank-Wide Rollout",
+   "summary": "CBD embedded Microsoft 365 Copilot across the entire Bank to enhance productivity and collaboration in everyday workflows. This represents a bank-wide generative AI implementation to boost efficiency and employee experience.",
+   "category": "Generative AI & Copilots",
+   "topics": [
+    "Generative AI & Copilots"
+   ],
+   "tags": [
+    "Microsoft 365 Copilot",
+    "GenAI rollout",
+    "Bank-wide deployment"
+   ],
+   "partners": [
+    "Microsoft"
+   ],
+   "impact": "Enhanced productivity and collaboration across the Bank",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=5",
+   "source_name": "CBD Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=5",
+     "name": "CBD Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:58:20+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+    "page": 5,
+    "quote": "embedded Microsoft 365 Copilot across the Bank to enhance productivity and collaboration"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "443d78e0d91f",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2026-02-10",
+   "title": "CBD 3C Programme for Microsoft Copilot Adoption",
+   "summary": "CBD launched the 3C Programme (Clarity, Control, Confidence) as a strategic initiative to embed Microsoft Copilot adoption across the organisation with department-specific, high-impact applications. The programme moves beyond basic usage metrics to ensure practical, problem-driven AI solutions and automates critical, labour-intensive tasks while maintaining governance and compliance standards.",
+   "category": "Generative AI & Copilots",
+   "topics": [
+    "Generative AI & Copilots"
+   ],
+   "tags": [
+    "Copilot",
+    "3C Programme",
+    "Adoption strategy",
+    "Compliance"
+   ],
+   "partners": [
+    "Microsoft"
+   ],
+   "impact": "Acceleration of automation of critical, labour-intensive tasks while upholding governance and compliance standards",
+   "source_url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=94",
+   "source_name": "CBD Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2#page=94",
+     "name": "CBD Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:58:20+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.cbd.ae/docs/default-source/revamp-doc/annualreports/cbd-integrated-report.pdf?sfvrsn=d633026b_2",
+    "page": 94,
+    "quote": "The 3C Programme is a strategic initiative aimed at embedding Clarity, Control, and Confidence in the adoption of Microsoft Copilot across the organisation. It moves beyond basic usage metrics to ensure Copilot is applied to high-impact, department-specific challenges. Designed to empower employees, the programme delivers practical, problem-driven, and people-focussed AI solutions that accelerate the automation of critical, labour-intensive tasks while upholding governance and compliance standards."
    },
    "verification": {
     "level": "official",
@@ -16336,6 +17486,659 @@
     "AI Skills & Talent",
     "Tech Vendor Partnerships"
    ]
+  },
+  {
+   "id": "ddf03ac5b946",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2025-01-28",
+   "title": "Emirates NBD Partnership with Microsoft for Generative AI Integration",
+   "summary": "Emirates NBD partnered with Microsoft to integrate generative AI across business operations, delivering results in efficiency, security, and customer experience. The partnership enables the bank to deploy AI and machine learning to analyse customer behaviour and identify foreign exchange and trade opportunities.",
+   "category": "Tech Vendor Partnerships",
+   "topics": [
+    "Tech Vendor Partnerships",
+    "Generative AI & Copilots",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "partnership",
+    "Microsoft",
+    "GenAI",
+    "business operations"
+   ],
+   "partners": [
+    "Microsoft"
+   ],
+   "impact": "Delivering tangible results in efficiency, security, and customer experience",
+   "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=9",
+   "source_name": "Emirates NBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=9",
+     "name": "Emirates NBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:53:39+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+    "page": 9,
+    "quote": "Our partnership with Microsoft has enabled the integration of generative AI across business operations, delivering tangible results in efficiency, security, and customer experience."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "264a0ce35d95",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2025-01-28",
+   "title": "Emirates NBD AI-Powered GenAI Document Extraction for SME Onboarding",
+   "summary": "Emirates NBD deployed GenAI-powered document extraction to streamline SME client onboarding. This innovation significantly reduces manual intervention and accelerates the onboarding process while enhancing the overall client experience.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations",
+    "Generative AI & Copilots",
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "GenAI",
+    "document extraction",
+    "SME onboarding",
+    "automation"
+   ],
+   "partners": [],
+   "impact": "Significantly reduces manual intervention, accelerates onboarding, and enhances the overall client experience",
+   "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=9",
+   "source_name": "Emirates NBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=9",
+     "name": "Emirates NBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:53:39+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+    "page": 9,
+    "quote": "streamline SME client onboarding through GenAI-powered document extraction. This significantly reduces manual intervention, accelerates onboarding, and enhances the overall client experience."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "7dec4e267dbd",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2025-01-28",
+   "title": "Emirates NBD AI and Machine Learning for Customer Behaviour Analysis and Opportunity Identification",
+   "summary": "Emirates NBD deploys AI and machine learning to analyse customer behaviour and identify foreign exchange and trade opportunities with greater precision. This capability enables the bank to predict client needs more accurately.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations",
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "AI",
+    "machine learning",
+    "customer behaviour",
+    "FX and trade opportunities"
+   ],
+   "partners": [],
+   "impact": "Predict client needs with greater precision",
+   "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=9",
+   "source_name": "Emirates NBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=9",
+     "name": "Emirates NBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:53:39+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+    "page": 9,
+    "quote": "We are deploying AI and machine learning to analyse customer behaviour and identify foreign exchange and trade opportunities, predict client needs with greater precision"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "6f25d2bd35a2",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2025-01-28",
+   "title": "Emirates NBD AI-Generated FX and Trade Opportunities for SMEs",
+   "summary": "AI has helped Emirates NBD identify and predict the need for foreign exchange and trade products among SME clients. This capability grew SME FX and trade opportunities through advanced analytics.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations",
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "AI",
+    "SME",
+    "FX",
+    "trade opportunities"
+   ],
+   "partners": [],
+   "impact": "Helped grow SME FX and trade opportunities",
+   "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=19",
+   "source_name": "Emirates NBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=19",
+     "name": "Emirates NBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:53:39+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+    "page": 19,
+    "quote": "Gen AI has helped grow SME FX and trade opportunities by identifying and predicting the need for FX and trade products."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "a287b083d8fc",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2025-01-28",
+   "title": "Emirates NBD Machine Learning for Anti-Money Laundering Alert Solutions",
+   "summary": "Emirates NBD enhanced its anti-money-laundering operations with machine-learning alert solutions. The system screens transactions for suspicious activity to combat increasingly sophisticated fraud.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "machine learning",
+    "AML",
+    "fraud detection",
+    "transaction monitoring"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=19",
+   "source_name": "Emirates NBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=19",
+     "name": "Emirates NBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:53:39+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+    "page": 19,
+    "quote": "In an era of increasingly sophisticated fraud, we have also enhanced our anti money-laundering operations with machine-learning alert solutions, screening transactions for suspicious activity."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "a358b326490e",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2025-01-28",
+   "title": "Emirates NBD AI-Powered Smart Customer Acquisition for Business Banking",
+   "summary": "Emirates NBD reports in its 2024 annual report (p. 27): “Developed new products and services such as the AI-powered Smart Customer Acquisition to enhance onboarding for Business Banking”",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "AI",
+    "customer acquisition",
+    "business banking",
+    "onboarding"
+   ],
+   "partners": [],
+   "impact": "Enhance onboarding for Business Banking",
+   "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=27",
+   "source_name": "Emirates NBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=27",
+     "name": "Emirates NBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:53:39+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+    "page": 27,
+    "quote": "Developed new products and services such as the AI-powered Smart Customer Acquisition to enhance onboarding for Business Banking"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "b6c46a280032",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2025-01-28",
+   "title": "Emirates NBD Real-Time Payment Tracker Launch",
+   "summary": "Emirates NBD launched the region's first Real-Time Payment Tracker to provide transaction transparency. This product enhances customer experience through real-time visibility into payment status.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "real-time tracking",
+    "payments",
+    "transparency"
+   ],
+   "partners": [],
+   "impact": "Region's first Real-Time Payment Tracker for transaction transparency",
+   "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=27",
+   "source_name": "Emirates NBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=27",
+     "name": "Emirates NBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:53:39+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+    "page": 27,
+    "quote": "launched the new EI+ and Liv X on the same scalable X platform for integrated and consistent banking experiences. Developed new products and services such as the AI-powered Smart Customer Acquisition to enhance onboarding for Business Banking, the region's first Real-Time Payment Tracker for transaction transparency"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "1fd8cfa11849",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2025-01-28",
+   "title": "Emirates NBD Advanced Testing Automation and Engineering Productivity Improvement",
+   "summary": "Emirates NBD adopted advanced technologies and fully automated testing across all platforms, achieving a 30% increase in in-house engineering productivity. This automation accelerates time-to-market and improves core system processing efficiency.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "automation",
+    "testing",
+    "engineering",
+    "productivity"
+   ],
+   "partners": [],
+   "impact": "Increased in-house engineering productivity by 30%, accelerated time-to-market for new products and services, improved core system processing time",
+   "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=27",
+   "source_name": "Emirates NBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=27",
+     "name": "Emirates NBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:53:39+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+    "page": 27,
+    "quote": "Accelerated time-to-market for new products and services, improved core system processing time and increased in-house engineering productivity by 30% with adoption of advanced technologies and fully automated testing across all platforms."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "9042014a68e0",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2025-01-28",
+   "title": "Emirates NBD Real-Time Risk Monitoring and Automated Compliance Tracking",
+   "summary": "Emirates NBD implemented advanced cybersecurity measures including real-time risk monitoring and automated compliance tracking. These systems mitigate risks from cloud environments and AI-driven tools.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "cybersecurity",
+    "risk monitoring",
+    "compliance",
+    "automation"
+   ],
+   "partners": [],
+   "impact": "Mitigate risks from cloud environments and AI-driven tools",
+   "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=27",
+   "source_name": "Emirates NBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=27",
+     "name": "Emirates NBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:53:39+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+    "page": 27,
+    "quote": "Implemented advanced measures including real-time risk monitoring, automated compliance tracking, and stringent controls to mitigate risks from cloud environments and AI-driven tools."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "a4e5d9a94421",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2025-01-28",
+   "title": "Emirates NBD Cybersecurity Awareness Training Program",
+   "summary": "Emirates NBD educated over 19,000 employees during Cybersecurity Awareness Month on the latest cyber threats and prevention strategies. The program included activities such as secure developer competitions and online gaming tournaments to foster security culture.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "training",
+    "cybersecurity",
+    "employee education"
+   ],
+   "partners": [],
+   "impact": "Educated over 19,000 employees",
+   "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=27",
+   "source_name": "Emirates NBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=27",
+     "name": "Emirates NBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:53:39+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+    "page": 27,
+    "quote": "Educated over 19,000 employees in Cybersecurity Awareness Month on the latest cyber threats and prevention strategies through various activities such as secure developer competitions and online gaming tournaments, fostering a more robust and proactive security culture across the organisation."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "7839714440b0",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2025-01-28",
+   "title": "Emirates NBD Robotic Process Automation Projects for Mortgage and Loan Operations",
+   "summary": "Emirates NBD implemented three key RPA projects: Mortgage Creation for Auto Products, Home Loan Valuation Initiation, and Staff Banking Data Entry Automation. These projects achieved significant savings, improved turnaround times, and enabled 24/7 BOT availability.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "RPA",
+    "automation",
+    "mortgage",
+    "home loan"
+   ],
+   "partners": [],
+   "impact": "Achieved significant savings, improved turnaround times, and enabled 24/7 BOT availability during peak month ends",
+   "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=28",
+   "source_name": "Emirates NBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=28",
+     "name": "Emirates NBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:53:39+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+    "page": 28,
+    "quote": "Implemented three key RPA projects: Mortgage Creation for Auto Products, Home Loan Valuation Initiation, and Staff Banking Data Entry Automation. Achieved significant savings, improved turnaround times, and enabled 24/7 BOT availability during peak month ends."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "2658ea1b9d08",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2025-01-28",
+   "title": "Emirates NBD AI/ML-Driven Cloud-Native Digital Banking Platform",
+   "summary": "Emirates NBD leveraged a next-generation cloud-native digital banking platform using AI/ML-driven architecture to streamline customer journeys and accelerate onboarding. The platform integrates real-time credit decisioning, pricing, fraud detection, and customer screening.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "AI/ML",
+    "cloud-native",
+    "credit decisioning",
+    "fraud detection"
+   ],
+   "partners": [],
+   "impact": "Delivered bundled banking solutions (accounts, credit cards, and loans) within seven minutes",
+   "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=28",
+   "source_name": "Emirates NBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=28",
+     "name": "Emirates NBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:53:39+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+    "page": 28,
+    "quote": "Leveraged the next-generation digital banking platform using cloud-native technologies to streamline customer journeys and accelerate onboarding. Delivered bundled banking solutions (accounts, credit cards, and loans) within seven minutes through a scalable, secure AI/ML -driven architecture. Integrated real-time credit decisioning, pricing, fraud detection, and customer screening to elevate the banking experience."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "9ff7975db9a3",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2025-01-28",
+   "title": "Emirates NBD Intelligent Character Recognition for Account Maintenance",
+   "summary": "Emirates NBD launched an intelligent character recognition solution combining robotic process automation with automated data extraction for account maintenance journeys. This innovation reduced manual tasks by directing extracted data into workflow systems.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "character recognition",
+    "RPA",
+    "data extraction",
+    "automation"
+   ],
+   "partners": [],
+   "impact": "Reduced manual tasks, optimised account opening processes",
+   "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=28",
+   "source_name": "Emirates NBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=28",
+     "name": "Emirates NBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:53:39+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+    "page": 28,
+    "quote": "Launched an intelligent character recognition solution, combining robotic process automation with automated data extraction for the account maintenance journey. This innovation reduced manual tasks by directing extracted data into a workflow system, optimising account opening processes."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "5c29951f58ec",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2025-01-28",
+   "title": "Emirates NBD Governance, Risk and Compliance Automation Solution",
+   "summary": "Emirates NBD enhanced its GRC solution by introducing automation to streamline cybersecurity risk monitoring, regulatory compliance tracking, and management of controls. This system provides integrated governance capabilities across the organization.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "GRC",
+    "automation",
+    "cybersecurity",
+    "compliance tracking"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=48",
+   "source_name": "Emirates NBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=48",
+     "name": "Emirates NBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:53:39+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+    "page": 48,
+    "quote": "Enhanced Governance, Risk and Compliance ('GRC') solution by introducing automation to streamline cybersecurity risk monitoring, regulatory compliance tracking, and management of controls."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
+  },
+  {
+   "id": "a995ef47fe17",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2025-01-28",
+   "title": "Emirates NBD Leveraging AI and Machine Learning for Risk Management and Customer Insights",
+   "summary": "Emirates NBD reports in its 2024 annual report (p. 47): “By leveraging AI and machine learning, Emirates NBD delivers rapid insights into customer behaviour, enhances risk management, and expands its offerings through innovative digital platforms and partnerships.”",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "AI",
+    "machine learning",
+    "risk management",
+    "customer insights"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=47",
+   "source_name": "Emirates NBD Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf#page=47",
+     "name": "Emirates NBD Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T05:53:39+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://cdn.emiratesnbd.com/assets/pdf/2024/annual_report_2024.pdf",
+    "page": 47,
+    "quote": "By leveraging AI and machine learning, Emirates NBD delivers rapid insights into customer behaviour, enhances risk management, and expands its offerings through innovative digital platforms and partnerships."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-10-07"
+   }
   },
   {
    "id": "3969bf344324",
