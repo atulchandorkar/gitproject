@@ -1,5 +1,5 @@
 {
- "last_update": "2026-10-07T03:30:28+00:00",
+ "last_update": "2026-10-07T04:08:05+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -951,7 +951,8 @@
   "f01dc43225f2ae": "2026-10-06",
   "74925295cf2881": "2026-10-06",
   "25eee125cda2e6": "2026-10-07",
-  "04fd5a57094b4f": "2026-10-07"
+  "04fd5a57094b4f": "2026-10-07",
+  "1af09a75dabbe6": "2026-10-06"
  },
  "history_loaded": {
   "adcb": "2026-10-05",
@@ -2653,7 +2654,7 @@
   "riyad": {
    "checked": "2026-10-06",
    "url": "https://www.riyadbank.com/personal-banking/media-center?p_p_id=com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath=%2Fdisplay_article.jsp&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId=6385919&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_shareURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fdisplay_article.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId%3D6385919%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL%3Dhttps%253A%252F%252Fwww.riyadbank.com%252Fpersonal-banking%252Fmedia-center%253Fp_p_id%253Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%2526p_p_lifecycle%253D0%2526p_p_state%253Dnormal%2526p_p_mode%253Dview%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%253D%25252Fview.jsp%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%253D2%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%253D10&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fview.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%3D2%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%3D10",
-   "status": "unreachable (IncompleteRead)",
+   "status": "unreachable (TimeoutError)",
    "links": 11,
    "scanned": "2026-10-06",
    "known": [
@@ -2737,8 +2738,8 @@
    "known": [
     "25f3f42aefbd",
     "0c9fb2af54b5",
-    "7b80d2c3cb92",
     "cb0f30100d55",
+    "7b80d2c3cb92",
     "ab0f93aae110",
     "1ba12c1486bd",
     "2cd659e90f31",
@@ -3119,7 +3120,8 @@
  },
  "migrations": [
   "arabic-names-v1",
-  "ar-unmerge-v1"
+  "ar-unmerge-v1",
+  "ar-all-items-v1"
  ],
  "sector_seen": {
   "881f682db56fb6": "2025-10-06",
@@ -3768,7 +3770,8 @@
   "3255f3eae8e5f9": "2026-10-06",
   "63a189895dcdef": "2026-10-06",
   "8be969370fb929": "2026-10-07",
-  "03fc430b9f92b0": "2026-10-07"
+  "03fc430b9f92b0": "2026-10-07",
+  "c7c69256ac9a74": "2026-10-07"
  },
  "sector_known": {},
  "sector_pending": [
@@ -9214,28 +9217,43 @@
     "https://www.bankfab.com/en-ae/about-fab/investor-relations/reports-and-presentations/quarterly-and-annual-reports",
     "https://www.bankfab.com/en-ae/about-fab/investor-relations/shareholder-information/agms"
    ],
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], [\"https://www.bankfab.com/en-ae/about-fab/investor-relations/reports-and-presentations/quarterly-and-annual-reports\"]]"
   },
   "enbd": {
-   "done": {},
-   "checked": "2026-10-05"
+   "done": {
+    "2025": {
+     "url": "https://cdn.emiratesnbd.com/en/assets/file/ir/annual_report_2025.pdf",
+     "pages": 132,
+     "items": 20,
+     "date": "2026-01-27"
+    }
+   },
+   "checked": "2026-10-07",
+   "pages": [
+    "https://www.emiratesnbd.com/en/investor-relations/financial-information/annual-reports",
+    "https://www.emiratesnbd.com/ar/investor-relations/financial-information/annual-reports",
+    "https://www.emiratesnbd.com/en/investor-relations/financial-information/annual-reports?source=quick-search"
+   ],
+   "config": "[[{\"url\": \"https://cdn.emiratesnbd.com/en/assets/file/ir/annual_report_2025.pdf\", \"year\": 2025}], [\"https://www.emiratesnbd.com/en/investor-relations/financial-information/annual-reports\"]]"
   },
   "adcb": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], [\"https://www.adcb.com/en/about-us/investor-relations/financial-reports/\", \"https://www.adcb.com/en/about-us/investor-relations/annual-report/2024\"]]"
   },
   "dib": {
    "done": {
     "2024": {
-     "url": "https://www.dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15",
+     "url": "https://dib.ae/docs/default-source/reports/dib-integrated-annual-report-2024.pdf?sfvrsn=19a94df3_15",
      "pages": 186,
-     "items": 6,
+     "items": 17,
      "date": "2025-03-03"
     },
     "2025": {
      "url": "https://dib.ae/docs/default-source/reports/dib-integrated-report-2025-en.pdf",
      "pages": 205,
-     "items": 9,
+     "items": 18,
      "date": "2026-03-13"
     }
    },
@@ -9244,56 +9262,68 @@
     "https://dib.ae/about-us/investor-relations",
     "https://www.dib.ae/about-us/investor-relations/home"
    ],
-   "checked": "2026-10-06"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "adib": {
    "done": {
     "2025": {
      "url": "https://www.adib.ae/-/media/project/adib/adibsite/docs/investor-relations/annual-reports/2026/annual-report-2025-en.pdf",
      "pages": 205,
-     "items": 4,
+     "items": 14,
      "date": "2026-02-20"
     },
     "2024": {
      "url": "https://www.adib.ae/en/SiteAssets/Annual%20Reports/integrated-annual-report_2024_en.pdf",
      "pages": 211,
-     "items": 6,
+     "items": 9,
      "date": "2025-02-28"
     }
    },
    "pages": [
     "https://www.adib.ae/en/investor-relations/reports-and-presentations/annual-reports"
    ],
-   "checked": "2026-10-06"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "mashreq": {
-   "done": {},
-   "checked": "2026-10-05"
+   "done": {
+    "2025": {
+     "url": "https://www.mashreq.com/-/jssmedia/pdfs/aboutus/investors/2026/2025-annual-report-en.ashx",
+     "pages": 129,
+     "items": 16,
+     "date": "2026-02-25"
+    }
+   },
+   "checked": "2026-10-07",
+   "config": "[[{\"url\": \"https://www.mashreq.com/-/jssmedia/pdfs/aboutus/investors/2026/2025-annual-report-en.ashx\", \"year\": 2025}], [\"https://www.mashreq.com/en/uae/about-us/investor-relations/financial-information/annual-reports/\"]]"
   },
   "cbd": {
    "done": {
     "2024": {
      "url": "https://www.cbd.ae/docs/default-source/revamp-doc/investor/cbd-annual-report-2024-final.pdf?sfvrsn=24273e6b_2",
      "pages": 81,
-     "items": 7,
+     "items": 9,
      "date": "2025-03-24"
     }
    },
    "pages": [
     "https://www.cbd.ae/aboutus/investor-relations"
    ],
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "rakbank": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], [\"https://www.rakbank.ae/en/about-us/investor-relations/financials/reports\"]]"
   },
   "ei": {
    "done": {
     "2025": {
      "url": "https://www.emiratesislamic.ae/-/media/ei/pdfs/financial-information/annual-report-pdf/2025/ei_annualreport_2025_eng.pdf",
      "pages": 72,
-     "items": 4,
+     "items": 9,
      "date": "2026-01-22"
     },
     "2024": {
@@ -9308,15 +9338,18 @@
     "https://www.emiratesislamic.ae/en/financial-information/integrated-reports/shareholder-information/general-assembly-meeting",
     "https://www.emiratesislamic.ae/ar/financial-information/annual-reports"
    ],
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "nbf": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "sib": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "ajman": {
    "done": {},
@@ -9324,18 +9357,20 @@
     "https://www.ajmanbank.ae/site/annual-integrated-reports.html",
     "https://www.ajmanbank.ae/site/ar/annual-integrated-reports.html"
    ],
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "bos": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "uab": {
    "done": {
     "2025": {
      "url": "https://www.uab.ae/-/media/project/uabasset/uab/content-authors/files/financial-information/annual-reports/uab-annual-report-2025_en_final-adx.pdf",
      "pages": 152,
-     "items": 6,
+     "items": 10,
      "date": "2026-02-20"
     },
     "2024": {
@@ -9350,131 +9385,175 @@
     "https://www.uab.ae/en/about-uab/investor-relations/shareholder-information",
     "https://www.uab.ae/ar-ae/about-uab/investor-relations/financial-information"
    ],
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "investbank": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "wio": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "zand": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "edb": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "cbuae": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "alrajhi": {
-   "done": {},
-   "checked": "2026-10-05"
+   "done": {
+    "2025": {
+     "url": "https://www.alrajhibank.com.sa/ir25/services/pdf/Al_Rajhi_Bank_AR2025_English.pdf",
+     "pages": 432,
+     "items": 17,
+     "date": "2026-03-28"
+    }
+   },
+   "checked": "2026-10-07",
+   "config": "[[{\"url\": \"https://www.alrajhibank.com.sa/ir25/services/pdf/Al_Rajhi_Bank_AR2025_English.pdf\", \"year\": 2025}], [\"https://www.alrajhibank.com.sa/en/About-alrajhi-bank/Investor-Relations\"]]"
   },
   "snb": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], [\"https://www.alahli.com/en/pages/about-us/investor-relations/previous-annual-reports\"]]"
   },
   "riyad": {
-   "done": {},
-   "checked": "2026-10-05"
+   "done": {
+    "2025": {
+     "url": "https://www.riyadbank.com/documents/20121/8029796/Riyad+Bank+AR25+-+English.pdf/ee4fc166-57b1-6594-5a25-f1eaa0a6767a?t=1782385539524+&download=true",
+     "pages": 143,
+     "items": 20,
+     "date": "2026-06-18"
+    }
+   },
+   "checked": "2026-10-07",
+   "config": "[[{\"url\": \"https://www.riyadbank.com/documents/20121/8029796/Riyad+Bank+AR25+-+English.pdf/ee4fc166-57b1-6594-5a25-f1eaa0a6767a?t=1782385539524+&download=true\", \"year\": 2025}], [\"https://www.riyadbank.com/investor-relations/annual-reports\"]]"
   },
   "sab": {
-   "done": {},
-   "checked": "2026-10-05"
+   "done": {
+    "2025": {
+     "url": "https://www.sab.com/content/dam/sabpws/files/reports-documents/en/category-reports/2025/other-reports/SAB%20Annual%20Report%202025%20English.pdf",
+     "pages": 142,
+     "items": 3,
+     "date": "2026-04-01"
+    }
+   },
+   "checked": "2026-10-07",
+   "config": "[[{\"url\": \"https://www.sab.com/content/dam/sabpws/files/reports-documents/en/category-reports/2025/other-reports/SAB%20Annual%20Report%202025%20English.pdf\", \"year\": 2025}], [\"https://www.sab.com/en/about-us/investor-relations/\"]]"
   },
   "bsf": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "anb": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], [\"https://anb.com.sa/web/anb/annual-reports\"]]"
   },
   "alinma": {
    "done": {
     "2025": {
      "url": "https://ir.alinma.com/media/2wldyfqb/alinma-2025-annual-report-en1.pdf",
      "pages": 176,
-     "items": 5,
+     "items": 16,
      "date": "2026-03-31"
     }
    },
    "pages": [
     "https://ir.alinma.com/en/investor-relations/financial-information/?query=annual-reports"
    ],
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "aljazira": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "albilad": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "saib": {
    "done": {
     "2025": {
      "url": "https://www.saib.com.sa/sites/default/files/2026-04/bod-2025-Ar.pdf",
      "pages": 41,
-     "items": 1,
+     "items": 2,
      "date": "2026-03-24"
     },
     "2024": {
      "url": "https://www.saib.com.sa/sites/default/files/2025-11/SAIB_Integrated_Report_2024_En.pdf",
      "pages": 126,
-     "items": 0,
+     "items": 2,
      "date": "2025-11-03"
     }
    },
    "pages": [
     "https://www.saib.com.sa/en/annual-report",
-    "https://www.saib.com.sa/ar/annual-report"
+    "https://www.saib.com.sa/ar/annual-report",
+    "https://www.saib.com.sa/integratedreport2018/en/introduction/about_this_report.html"
    ],
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "gibsa": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "stcbank": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "d360": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "visionbank": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "sama": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "qnb": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[{\"url\": \"https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025\", \"year\": 2025}], [\"https://www.qnb.com/sites/qnb/qnbqatar/page/en/enannualreports.html\"]]"
   },
   "qib": {
    "done": {
     "2025": {
      "url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib---annual-report-2025-english.pdf?rev=e5ea1a44acba4b088f35828fa8bc1e3d",
      "pages": 140,
-     "items": 4,
+     "items": 3,
      "date": "2026-05-07"
     },
     "2024": {
      "url": "https://www.qib.com.qa/-/media/project/qib/files/annual-reports/en/qib-annual-report-2024-english.pdf?rev=5fd1fcbb9c734ed4995da654cfe45694",
      "pages": 139,
-     "items": 1,
+     "items": 2,
      "date": "2025-07-04"
     }
    },
@@ -9483,11 +9562,13 @@
     "https://www.qib.com.qa/en/investors/financial-information/reports-and-updates/annual-reports",
     "https://www.qib.com.qa/ar/investors"
    ],
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "cbq": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], [\"https://www.cbq.qa/en/investor-relations/financial-information/annual-reports\"]]"
   },
   "rayan": {
    "done": {
@@ -9500,7 +9581,7 @@
     "2024": {
      "url": "https://marblobstorage.blob.core.windows.net/files/arbfiles/AnnualReports2019/AR/ARB-Annual-Report-2024_ar.pdf",
      "pages": 238,
-     "items": 3,
+     "items": 2,
      "date": "2025-03-26"
     }
    },
@@ -9509,15 +9590,28 @@
     "https://www.alrayan.com/investor-relations/financial-information/financial-statements",
     "https://www.alrayan.com/investor-relations/sustainability/esg-annual-reports"
    ],
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "dohabank": {
    "done": {},
-   "checked": "2026-10-05"
+   "checked": "2026-10-07",
+   "config": "[[], []]"
   },
   "dukhan": {
-   "done": {},
-   "checked": "2026-10-05"
+   "done": {
+    "2024": {
+     "url": "https://www.dukhanbank.com/sites/default/files/2026/pdfs/DB_ANNUALREPORT2024_EN-Combinedbook_20250526.pdf",
+     "pages": 112,
+     "items": 2,
+     "date": "2025-05-26"
+    }
+   },
+   "checked": "2026-10-07",
+   "pages": [
+    "https://www.dukhanbank.com/ar/investor-relations/financial-information"
+   ],
+   "config": "[[{\"url\": \"https://www.dukhanbank.com/sites/default/files/2026/pdfs/DB_ANNUALREPORT2024_EN-Combinedbook_20250526.pdf\", \"year\": 2024}], [\"https://www.dukhanbank.com/investor-relations/financial-information\"]]"
   },
   "qiib": {
    "done": {},
@@ -9533,13 +9627,15 @@
      "url": "https://www.leshabank.com/wp-content/uploads/Lesha-Bank-Annual-Report-2025-FINAL-ENGLISH-Low-Res.pdf",
      "pages": 76,
      "items": 0,
-     "date": "2026-02-25"
+     "date": "2026-02-25",
+     "redo": true
     },
     "2024": {
      "url": "https://www.leshabank.com/wp-content/uploads/Annual-Report-English-2024.pdf",
      "pages": 72,
      "items": 0,
-     "date": "2025-02-22"
+     "date": "2025-02-22",
+     "redo": true
     }
    },
    "pages": [
@@ -9563,13 +9659,15 @@
      "url": "https://nbk.com/dam/jcr:73b1509e-5280-4ef3-a29a-392c1b565299/nbk-annual-report-2025-e.pdf",
      "pages": 226,
      "items": 6,
-     "date": "2026-03-04"
+     "date": "2026-03-04",
+     "redo": true
     },
     "2024": {
      "url": "https://nbk.com/dam/jcr:374076fd-2bb1-4b60-ad6a-df7fae2d25ae/nbk-annual-report-2024-e.pdf",
      "pages": 204,
      "items": 2,
-     "date": "2025-03-13"
+     "date": "2025-03-13",
+     "redo": true
     }
    },
    "pages": [
@@ -9585,13 +9683,15 @@
      "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2024/document_en/KFH%20Annual%20Report%20En%202024%20(Draft-16).pdf.pdf",
      "pages": 115,
      "items": 4,
-     "date": "2025-03-14"
+     "date": "2025-03-14",
+     "redo": true
     },
     "2025": {
      "url": "https://www.kfh.com/en/reports/kuwait/Annual-Reports/Annual-Report-2025/document_en/KFH%20Annual%20Report%20En%202025%20(Draft-17)%20Web.pdf.pdf",
      "pages": 120,
      "items": 8,
-     "date": "2026-04-21"
+     "date": "2026-04-21",
+     "redo": true
     }
    },
    "pages": [
@@ -9615,7 +9715,8 @@
      "url": "https://burgan.com/en/documents/157/BBAnnualReport2025.pdf",
      "pages": 103,
      "items": 3,
-     "date": "2026-03-17"
+     "date": "2026-03-17",
+     "redo": true
     }
    },
    "pages": [
@@ -9648,7 +9749,8 @@
      "url": "https://www.ibkuwt.com/en/documents/129/Annual_Report_English_2024_Web_version.pdf",
      "pages": 130,
      "items": 0,
-     "date": "2025-07-27"
+     "date": "2025-07-27",
+     "redo": true
     }
    },
    "pages": [
@@ -9680,7 +9782,8 @@
      "url": "https://bankdhofar.com/media/gqmiu4xa/annual-report-2024_v2_english.pdf",
      "pages": 176,
      "items": 1,
-     "date": "2026-01-28"
+     "date": "2026-01-28",
+     "redo": true
     }
    },
    "pages": [
@@ -9703,13 +9806,15 @@
      "url": "https://ahlibank.om/ahlibank/wp-content/uploads/2026/04/Ahlibank-Annual-Report-2025-English.pdf",
      "pages": 151,
      "items": 6,
-     "date": "2026-03-18"
+     "date": "2026-03-18",
+     "redo": true
     },
     "2024": {
      "url": "https://ahlibank.om/Ahlibank/assets/uploads/2025/03/Ahlibank-Annual-Report-2024-English.pdf",
      "pages": 278,
      "items": 5,
-     "date": "2025-03-17"
+     "date": "2025-03-17",
+     "redo": true
     }
    },
    "pages": [
@@ -9733,7 +9838,8 @@
      "url": "https://nbbonline.com/wp-content/uploads/2025/03/NBB-AR-2024_GRI-Bahrain-Bourse-Content-Index_Eng.pdf",
      "pages": 13,
      "items": 0,
-     "date": "2025-03-25"
+     "date": "2025-03-25",
+     "redo": true
     }
    },
    "pages": [
@@ -9749,13 +9855,15 @@
      "url": "https://www.bbkonline.com/wp-content/uploads/2026/04/BBK-2025-Annual-Report-English-Spread.pdf",
      "pages": 59,
      "items": 3,
-     "date": "2026-04-07"
+     "date": "2026-04-07",
+     "redo": true
     },
     "2024": {
      "url": "https://www.bbkonline.com/wp-content/uploads/2025/03/BBK-Annual-Report-2024-Full-English-7.pdf",
      "pages": 110,
      "items": 3,
-     "date": "2025-03-24"
+     "date": "2025-03-24",
+     "redo": true
     }
    },
    "pages": [

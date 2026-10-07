@@ -40,7 +40,9 @@
   "source": "https://www.alinma.com/-/media/Project/AlinmaRevamp/shared/favicon.ico"
  },
  "aljazira": {
-  "checked": "2026-10-07"
+  "checked": "2026-10-07",
+  "file": "logos/aljazira.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Bank_Aljazira_New_Logo.png?width=256"
  },
  "alrajhi": {
   "checked": "2026-10-05",
@@ -96,7 +98,9 @@
   "source": "https://www.bankboubyan.com/logo.svg"
  },
  "bsf": {
-  "checked": "2026-10-07"
+  "checked": "2026-10-07",
+  "file": "logos/bsf.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Banque_Saudi_Fransi_Logo.svg?width=256"
  },
  "burgan": {
   "checked": "2026-10-05",
@@ -240,9 +244,9 @@
   "source": "https://nbf.ae/wp-content/uploads/2024/12/cropped-NBF-Logo-01-300x300.jpg"
  },
  "nbk": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-07",
   "file": "logos/nbk.png",
-  "source": "https://www.nbk.com/.resources/nbk-theme/images/favicon.png"
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/NBK.svg?width=256"
  },
  "nbo": {
   "checked": "2026-10-05",
@@ -278,9 +282,9 @@
   "source": "https://www.qiib.com.qa/favicon.ico"
  },
  "qnb": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-07",
   "file": "logos/qnb.png",
-  "source": "https://www.google.com/s2/favicons?domain=qnb.com&sz=256"
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/QNB_Logo.svg?width=256"
  },
  "rakbank": {
   "checked": "2026-10-05",
@@ -303,9 +307,9 @@
   "source": "https://www.sab.com/etc.clientlibs/sabpws/clientlibs/clientlib-site/resources/images/favicon.ico"
  },
  "saib": {
-  "checked": "2026-10-05",
-  "file": "logos/saib.ico",
-  "source": "https://www.saib.com.sa/themes/custom/saib/favicon.ico"
+  "checked": "2026-10-07",
+  "file": "logos/saib.png",
+  "source": "https://commons.wikimedia.org/wiki/Special:FilePath/SAIB_logo.png?width=256"
  },
  "sama": {
   "checked": "2026-10-05",
