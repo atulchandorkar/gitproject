@@ -743,6 +743,7 @@ def main() -> None:
 
     try:  # free: refresh bank logos for the dashboard (every 60 days per bank)
         logos.refresh(list(tracker.banks.values()), ROOT / "data", today())
+        logos.refresh_publishers(sector.PUBLISHERS, ROOT / "data", today())
     except Exception as exc:
         print(f"  ! logo refresh failed: {exc!r}", file=sys.stderr)
 

@@ -33,7 +33,7 @@
   let DATA = { items: [], updated_at: null };
   let CFG = { countries: [], banks: [], types: {} };
   let BANKS = {}, COUNTRIES = {}, CATEGORIES = [], LOGOS = {};
-  let REPORTS = {};
+  let REPORTS = {}, PUBLOGOS = {};
   let SECTOR = { items: [], updated_at: null }, SECTOR_CFG = { categories: [], publishers: [] };
 
   // ---------- utils ----------
@@ -132,11 +132,11 @@
     return [...m.entries()].sort((a, z) => z[1] - a[1] || a[0].localeCompare(z[0]));
   };
   // Horizontal bars (one hue = magnitude); each row is a button that filters.
-  function barList(id, rows, active, attr, total) {
+  function barList(id, rows, active, attr, total, iconOf) {
     if (!rows.length) return `<p class="muted">Nothing yet.</p>`;
     const max = Math.max(...rows.map(([, n]) => n));
     return `<div class="cat-bars" id="${id}">${rows.map(([k, n]) =>
-      `<button class="cat-bar" data-${attr}="${esc(k)}" aria-pressed="${k === active}"><span class="lbl">${esc(k)}</span>
+      `<button class="cat-bar" data-${attr}="${esc(k)}" aria-pressed="${k === active}"><span class="lbl">${iconOf ? iconOf(k) : ""}${esc(k)}</span>
         <span class="cnt">${n}${total ? ` <span class="pct">· ${Math.round((n / total) * 100)}%</span>` : ""}</span>
         <span class="track"><span class="fill" style="display:block;width:${(n / max) * 100}%"></span></span></button>`).join("")}</div>`;
   }
@@ -587,18 +587,24 @@
     const n = (name || "").toLowerCase();
     if (!n) return null;
     const p = SECTOR_CFG.publishers.find((x) => [x.name, x.short, ...(x.aliases || [])].some((a) => {
-      const l = a.toLowerCase(); return n === l || n.startsWith(l + " ") || l.startsWith(n + " ") || n.startsWith(l + ":"); }));
+      const l = a.toLowerCase(); return n === l || n.startsWith(l + " ") || l.startsWith(n + " ") || n.startsWith(l + ":") || n.startsWith(l + ","); })
+      || (x.domain && (n === x.domain || n === "www." + x.domain)));
     if (p) return p;
     const b = CFG.banks.find((x) => x.type === "central" && [x.name, x.short, ...(x.aliases || [])].some((a) => n === a.toLowerCase() || n.includes(a.toLowerCase())));
     return b ? { name: b.name, short: b.short, bank: b } : null;
   }
   const pubShort = (i) => { const p = publisherOf(i.publisher); return p ? p.short : (i.publisher || ""); };
-  function pubAvatar(i) {
-    const p = publisherOf(i.publisher);
-    if (p && p.bank) return avatar(p.bank, "avatar sm");
-    const ini = esc((pubShort(i) || i.source_name || "?").replace(/[^A-Za-z0-9&]/g, "").slice(0, 3).toUpperCase() || "📊");
-    const img = p && p.domain ? `<img src="https://www.google.com/s2/favicons?domain=${esc(p.domain)}&sz=64" alt="" loading="lazy" onerror="this.parentNode.classList.remove('has-logo');this.remove()">` : "";
-    return `<span class="avatar sm${img ? " has-logo" : ""}" aria-hidden="true">${img}<span class="ini">${ini}</span></span>`;
+  const pubId = (name) => "pub-" + name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  // Logo of the publisher (BCG, Accenture, a regulator, a bank …); if none is named, the outlet's logo.
+  function pubAvatar(i, cls = "avatar sm") {
+    const p = publisherOf(i.publisher) || publisherOf(i.source_name);
+    if (p && p.bank) return avatar(p.bank, cls);
+    const label = pubShort(i) || i.source_name || "?";
+    const ini = esc(label.replace(/[^A-Za-z0-9&]/g, "").slice(0, 3).toUpperCase() || "📊");
+    const saved = p && PUBLOGOS[pubId(p.name)] && PUBLOGOS[pubId(p.name)].file;
+    const src = saved || (p && p.domain ? `https://www.google.com/s2/favicons?domain=${p.domain}&sz=128` : "");
+    const img = src ? `<img src="${esc(src)}" alt="" loading="lazy" onerror="this.parentNode.classList.remove('has-logo');this.remove()">` : "";
+    return `<span class="${cls}${img ? " has-logo" : ""}" aria-hidden="true" title="${esc(p ? p.name : label)}">${img}<span class="ini">${ini}</span></span>`;
   }
   const geoOf = (i) => (i.countries && i.countries.length ? i.countries : ["GCC"]);
   const isGCC = (i) => !geoOf(i).includes("Global");
@@ -613,7 +619,7 @@
     const stats = (i.key_stats || []).slice(0, 3);
     return `<article class="card news-card sector-card">
       <div class="meta">
-        ${pub ? `<span class="bank-chip">${pubAvatar(i)}<span class="bank">${esc(pub)}</span></span><span class="dot"></span>` : ""}
+        <span class="bank-chip">${pubAvatar(i)}<span class="bank">${esc(pub || i.source_name || "")}</span></span><span class="dot"></span>
         <time datetime="${i.date}">${fmtDate(i.date)}</time><span class="dot"></span>${geoChips(i)}
       </div>
       <div class="sec-cat">${SECTOR_ICON(i.category)} ${esc(i.category)}</div>
@@ -700,7 +706,7 @@
       });
       $("#statRailWrap").innerHTML = figures.length ? `<div class="section-title">What the studies say</div>
         <div class="stat-rail">${figures.slice(0, 12).map((f) => `<a class="stat-card" href="${esc(f.i.source_url)}" target="_blank" rel="noopener" title="${esc(f.quote)}">
-          <b>${esc(f.value)}</b><span class="sl">${esc(f.label)}</span><span class="sp">${esc(pubShort(f.i) || f.i.source_name)} · ${fmtDate(f.i.date)}</span></a>`).join("")}</div>` : "";
+          <b>${esc(f.value)}</b><span class="sl">${esc(f.label)}</span><span class="sp">${pubAvatar(f.i, "avatar xs")}${esc(pubShort(f.i) || f.i.source_name)} · ${fmtDate(f.i.date)}</span></a>`).join("")}</div>` : "";
       $("#secCount").textContent = list.length ? `Showing ${Math.min(shown, list.length)} of ${plural(list.length, "insight")}` : "";
       $("#secClear").hidden = !(st.cat || st.country || st.pub || st.q);
       $("#secItems").innerHTML = list.length ? list.slice(0, shown).map(sectorCard).join("") : `<div class="empty card"><div class="big">${all.length ? "🔍" : "⏳"}</div>
@@ -709,7 +715,8 @@
       $("#secMore").hidden = list.length <= shown;
       $("#secMore").onclick = () => { shown += PAGE; update(false); };
       $("#secCatBars").innerHTML = barList("secCatList", cats.map((c) => [c, base.filter((i) => i.category === c).length]).filter(([, n]) => n), st.cat, "cat", base.length);
-      $("#secPubBars").innerHTML = barList("secPubList", countBy(list, (i) => [pubShort(i)]).slice(0, 8), st.pub, "pub");
+      $("#secPubBars").innerHTML = barList("secPubList", countBy(list, (i) => [pubShort(i)]).filter(([k]) => k).slice(0, 8), st.pub, "pub",
+        0, (k) => pubAvatar({ publisher: k }, "avatar xs"));
       $("#secGeoBars").innerHTML = barList("secGeoList", countBy(list, geoOf).map(([k, n]) => [geoName(k), n, k]), geoName(st.country), "geo");
       if (st.view === "charts") mountChart("secChart", list, 12, "insight");
     };
@@ -795,8 +802,9 @@
     fetch("data/sector.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : { items: [] }).catch(() => ({ items: [] })),
     fetch("data/sector_sources.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : null).catch(() => null),
     fetch("data/annual_reports.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : {}).catch(() => ({})),
-  ]).then(([cfg, news, logos, sector, sectorCfg, reports]) => {
-    REPORTS = reports || {};
+    fetch("data/publisher_logos.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : {}).catch(() => ({})),
+  ]).then(([cfg, news, logos, sector, sectorCfg, reports, pubLogos]) => {
+    REPORTS = reports || {}; PUBLOGOS = pubLogos || {};
     CFG = cfg; DATA = news; LOGOS = logos || {};
     SECTOR = sector || { items: [] }; SECTOR.items = (SECTOR.items || []).sort((a, b) => b.date.localeCompare(a.date));
     if (sectorCfg) SECTOR_CFG = sectorCfg;

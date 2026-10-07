@@ -363,3 +363,8 @@ h1, h2, h3 { line-height: 1.2; margin: 0; }
 .cat-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .cat-tile .ct-l { font-size: 10.5px; }
 .geo.gcc { color: #0b1b3f; background: #fdf6e3; }
+
+/* Publisher logos (Sector Insights) */
+.stat-card .sp { display: flex; align-items: center; gap: 6px; }
+.cat-bar .lbl { display: inline-flex; align-items: center; gap: 7px; min-width: 0; }
+.avatar.xs.has-logo img { padding: 4%; }
