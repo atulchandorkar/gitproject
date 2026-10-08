@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-07T15:58:10+00:00",
+ "updated_at": "2026-10-08T10:42:38+00:00",
  "items": [
   {
    "id": "38abf2dd9df2",
@@ -33,6 +33,10 @@
     },
     {
      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9PODNzME5wemd5b01MSExSY0Y2bnM2VEVhVU0yQjBMTnlaLXBLYTJBdE5ZY21BVVh1ZmlhS0p6NWV0NlAxVGdMdXdlRXdpRWZoMjFNMXhoMDZRS25XRkxz?oc=5",
+     "name": "News of Bahrain"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTWJ0NzUtWmZDNWJ0VWZuLXZMSDM5dDJYS05TSWhHRnVSUGEweDI2dm5Vb0tkdGoxOEZqSTRPdXoxTVhQR3ptNU5xRXNOemtuUFNmSE16Y3VoY1NWd0ROODdBTFZQNU15eUYteXladmV2WVJzZE1qSUhzbHRuMk9vZDRHbDNqZ0dFWVc0dEFRdndvcXdCTU1VbkpqVTY?oc=5",
      "name": "News of Bahrain"
     }
    ],
