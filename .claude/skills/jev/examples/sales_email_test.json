@@ -1,0 +1,36 @@
+{
+  "state": {
+    "email": "Subject: Pricing for 40 seats before end of quarter?\n\nHi there,\n\nI'm the Head of Operations at Northwind Logistics (about 350 staff). We've been trialling your scheduling tool with one team for three weeks and they love it. We'd like to roll it out to around 40 dispatchers before our budget closes on 31 October.\n\nCould you send me pricing for 40 seats on an annual plan, and let me know whether you offer SSO? Our CFO has signed off on the budget line; I just need a quote to get the PO raised. Happy to jump on a call this week.\n\nThanks,\nDana Reyes\nHead of Operations, Northwind Logistics"
+  },
+  "questions": {
+    "lead_strength": {
+      "type": "score",
+      "instructions": "How strong a sales lead is the sender of `email`?",
+      "criteria": [
+        "Not a lead: no buying interest, or not a potential customer",
+        "Cold: vague interest, no named need, budget, or timeline",
+        "Warm: a clear need, but budget, authority, or timeline is missing",
+        "Hot: a named need, approved budget, decision authority, and a near-term deadline"
+      ]
+    },
+    "email_type": {
+      "type": "choice",
+      "instructions": "What kind of email is `email`?",
+      "criteria": {
+        "purchase_inquiry": "The sender asks about pricing, a quote, or buying the product.",
+        "support_request": "The sender is an existing user asking for help with a problem.",
+        "partnership": "The sender proposes a partnership, reseller deal, or integration.",
+        "vendor_pitch": "The sender is trying to sell something to us.",
+        "spam_or_other": "Newsletters, spam, or anything that fits none of the other options."
+      }
+    },
+    "needs_personal_reply": {
+      "type": "noul",
+      "instructions": "Does `email` need a personal reply from a human, rather than a template or no reply?",
+      "criteria": {
+        "true": "The sender asks specific questions or requests a quote, call, or decision that a person should answer.",
+        "false": "A canned response, an automated acknowledgement, or no reply is enough."
+      }
+    }
+  }
+}
