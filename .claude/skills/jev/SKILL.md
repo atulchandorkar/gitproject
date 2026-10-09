@@ -29,7 +29,8 @@ python3 .claude/skills/jev/scripts/jev.py request.json --dry-run  # show exactly
 
 - Endpoint: `POST https://openrouter.ai/api/alpha/decisions`, model `typesafe/jev-1.13`
   (OpenRouter's Decisions route; if it moves, re-check https://openrouter.ai/docs/api/api-reference/alphadecisions/submit-a-decisions-request).
-- Key: env var `OPENROUTER_API_KEY`, else `~/.config/openrouter/key` (chmod 600). Never print,
+- Key: env var `OPENROUTER_API_KEY`, else `~/.config/openrouter/key` (chmod 600), else none — in a
+  Claude Code cloud environment a **network secret** for `openrouter.ai` adds it in transit (preferred). Never print,
   echo, commit, or paste the key anywhere; never ask the user to paste it into chat.
 - The script prints `answers`, `model`, `usage.cost` (USD), and `elapsed_ms`. On failure it prints
   the exact HTTP status + body or network error — show that to the user verbatim.

@@ -6,8 +6,9 @@ Usage:
   jev.py REQUEST.json --dry-run  # print the payload that would leave the machine, send nothing
 
 The OpenRouter key is read from the OPENROUTER_API_KEY environment variable, or
-failing that from ~/.config/openrouter/key (a file only you can read). It is never
-printed, logged, or written anywhere by this script.
+failing that from ~/.config/openrouter/key (a file only you can read). If neither
+exists, the request goes out without one, for a cloud environment whose network
+secret for openrouter.ai adds it in transit. The key is never printed or logged.
 
 Output (stdout, JSON): answers, model, provider, usage (incl. cost in USD), elapsed_ms.
 On failure: exits 1 and prints the HTTP status and the exact response body, or the
@@ -28,7 +29,7 @@ DEFAULT_MODEL = "typesafe/jev-1.13"
 KEY_FILE = Path.home() / ".config" / "openrouter" / "key"
 
 
-def load_key() -> str:
+def load_key() -> str | None:
     key = os.environ.get("OPENROUTER_API_KEY", "").strip()
     if key:
         return key
@@ -37,10 +38,9 @@ def load_key() -> str:
         if mode & (stat.S_IRWXG | stat.S_IRWXO):
             sys.exit(f"error: {KEY_FILE} is readable by other users; run: chmod 600 {KEY_FILE}")
         return KEY_FILE.read_text().strip()
-    sys.exit(
-        "error: no OpenRouter key found. Set OPENROUTER_API_KEY, or put the key in "
-        f"{KEY_FILE} (chmod 600). Get one at https://openrouter.ai/keys"
-    )
+    # No local key: in a Claude Code cloud environment with an openrouter.ai network secret,
+    # the agent proxy attaches the Authorization header after the request leaves the machine.
+    return None
 
 
 def main() -> None:
@@ -61,12 +61,11 @@ def main() -> None:
         print(json.dumps(payload, indent=2, ensure_ascii=False))
         return
 
-    req = urllib.request.Request(
-        ENDPOINT,
-        data=json.dumps(payload).encode(),
-        headers={"Authorization": f"Bearer {load_key()}", "Content-Type": "application/json"},
-        method="POST",
-    )
+    headers = {"Content-Type": "application/json"}
+    key = load_key()
+    if key:
+        headers["Authorization"] = f"Bearer {key}"
+    req = urllib.request.Request(ENDPOINT, data=json.dumps(payload).encode(), headers=headers, method="POST")
     start = time.perf_counter()
     try:
         with urllib.request.urlopen(req, timeout=args.timeout) as resp:
