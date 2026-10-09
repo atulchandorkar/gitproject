@@ -1,0 +1,8 @@
+{
+  "name": "skin",
+  "version": "0.1.0",
+  "description": "/skin <name>: switch Claude Code's colour theme; ships a Dracula theme",
+  "author": {
+    "name": "Atul Chandorkar"
+  }
+}
