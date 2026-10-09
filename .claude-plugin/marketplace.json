@@ -1,0 +1,14 @@
+{
+  "name": "gitproject",
+  "owner": {
+    "name": "Atul Chandorkar"
+  },
+  "plugins": [
+    {
+      "name": "skin",
+      "source": "./plugins/skin",
+      "description": "/skin <name>: switch Claude Code's colour theme; ships a Dracula theme"
+    }
+  ],
+  "description": "Atul's Claude Code mods"
+}
