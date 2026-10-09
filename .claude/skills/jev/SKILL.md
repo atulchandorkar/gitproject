@@ -34,6 +34,8 @@ python3 .claude/skills/jev/scripts/jev.py request.json --dry-run  # show exactly
   echo, commit, or paste the key anywhere; never ask the user to paste it into chat.
 - The script prints `answers`, `model`, `usage.cost` (USD), and `elapsed_ms`. On failure it prints
   the exact HTTP status + body or network error — show that to the user verbatim.
+- Verified 2026-10-09 in the cloud "Default" environment (network secret for `openrouter.ai`):
+  3 questions on one email → 701 ms round trip, $0.0000316 (752 input tokens).
 - Worked example: `examples/sales_email_test.json` (lead strength / email type / needs personal reply).
 
 ## The three question shapes (the only ones Jev has)
