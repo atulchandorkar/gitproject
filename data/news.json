@@ -1,6 +1,82 @@
 {
- "updated_at": "2026-10-08T10:42:38+00:00",
+ "updated_at": "2026-10-09T10:40:56+00:00",
  "items": [
+  {
+   "id": "cbbccca4d821",
+   "bank_id": "bbk",
+   "country": "BH",
+   "date": "2026-10-08",
+   "title": "BBK and Total CX collaborate to enhance customer experience with AI",
+   "summary": "Bank of Bahrain and Kuwait and Total CX are collaborating to develop customer experience using AI technologies.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI",
+    "Tech Vendor Partnerships"
+   ],
+   "tags": [
+    "Customer experience",
+    "AI partnership"
+   ],
+   "partners": [
+    "Total CX"
+   ],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9seE1uWUJKR0VEaDRxZDhQdTQ3TUtpWTdTblkxTVNELUZENnJuTFRldnQxcU9QekJieXJJMU1tR18yRXdQUlZkRUJveWJoZWdMRExfSVNKTlFqakJtOElyTXBUUS1xejU0VHlmd0lXTHJRdw?oc=5",
+   "source_name": "جريدة البلاد",
+   "source_title": "بنك البحرين والكويت وTotal CX يتعاونان لتطوير تجربة العملاء بتقنيات الذكاء الاصطناعي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9seE1uWUJKR0VEaDRxZDhQdTQ3TUtpWTdTblkxTVNELUZENnJuTFRldnQxcU9QekJieXJJMU1tR18yRXdQUlZkRUJveWJoZWdMRExfSVNKTlFqakJtOElyTXBUUS1xejU0VHlmd0lXTHJRdw?oc=5",
+     "name": "جريدة البلاد"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihgVBVV95cUxQTGNKcDcxYU1MWThNQlpnV2IyZF9VRDVRUml2LVNEMkpGV0VYTGtRTUhyaXRxNlRrYlJlQS1WQ0hPeG5NTW9aMW50M1FKNklkWUhxSjgxUEI5SVNjNzBPb3c2TVVYS3huQXA0N29OZWc5QXN4d3YzM1dnZXNaRklJeVBOb1hTQzk4czJFTWxqQnNQYUY5cDExNjNrck9qUy14Y25ZVGgzNlZESFBoLVJQSXVBXzIzemFaSk9RVWg0WE54YUhHVGxZRHZISWQ3dDZsMXVadjlieWF4S1JWSERUUzE5SDc4SXdfdTBPWTFnQ05feG12b0RTQ3ZwYUhLaUVsZXhmQmtOX3g2VE5xbHA3ajVTYThyaUZyaVNXQXd3WE1HV0w0TDVnZ3lTWGNKYlZSUEZLWUwwcXk3RXg1SHc2VWc1NHRhb0Flc2hneUFKa0ZIZnRPOFdzemlvQ1BDZmE0UWhtNUJYSDdnZFBMbGx2NEVsZDc0cnJEQmdvSElYSHpndzkxcERFelZzRk0weXVEYzUzTjRXRFFLaTlnMmp3ejV0akxrSmVvZmZSZFktWmFPdWxNRmNmOFVpeUNMYWRZNW5aQ1djUXpMNGx5WWVpQjJEZXV1bjl3ZjZuNEpwcVNBOFAtOVJXVjB3b3JnSUhscDk0RXVqSU9yMlo0NDRkVTVxbmduUFc2VUluRjlSQ2NHaVpScVA3MU9BYlR4UTJ5VHY2N0lRam91QW5HLUlxaWZQbmZIM3U4TGstLWhDUENCQUg0QWxybmZSb3RDSmcxSDZjV0tmYm9wbWx6bTAxWHZhVlJBNTRyOFBEcWlfM0ZaVnRsM0pzQnRDZGhOdG5vNEJFTWpR0gFUQVVfeXFMTlA3TjR2cFlWVE9FRkdzV2xaT0Y3YnlKZ2RkWW9DelVUaXlWNGRFcndsQkdjOGRqRmVURlF1dUhBS1F2RXBsLUI5ek5UVFhUSDdTWTdi?oc=5",
+     "name": "صحيفة الوطن"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-08T10:37:17+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-08"
+   }
+  },
+  {
+   "id": "0796f15e1ade",
+   "bank_id": "nbb",
+   "country": "BH",
+   "date": "2026-10-06",
+   "title": "National Bank of Bahrain strengthens institutional transformation in AI",
+   "summary": "National Bank of Bahrain is strengthening its institutional transformation in the field of artificial intelligence.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations",
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "AI transformation",
+    "Institutional change"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84YWV0RlNNTE9OTTV6bF9UREFqeGFFbmo0YWVtNVM4TVVfTXJEd1lubWU4ckdrT3ZXcmNEU0ZRVkpwNVhfY3hVem00enNfYl9Fd1ZHSFUxWWdJMWFWbDJLUmhoSmxJR2s?oc=5",
+   "source_name": "الأيام البحرينية",
+   "source_title": "بنك البحرين الوطني يعزّز التحول المؤسسي في مجال الذكاء الاصطناعي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84YWV0RlNNTE9OTTV6bF9UREFqeGFFbmo0YWVtNVM4TVVfTXJEd1lubWU4ckdrT3ZXcmNEU0ZRVkpwNVhfY3hVem00enNfYl9Fd1ZHSFUxWWdJMWFWbDJLUmhoSmxJR2s?oc=5",
+     "name": "الأيام البحرينية"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-09T10:35:27+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-09"
+   }
+  },
   {
    "id": "38abf2dd9df2",
    "bank_id": "nbb",
@@ -86,6 +162,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ReGtxX1o5dTRvX1FDSktuamg2R1ZvMlJYZVI4YnlQYzZZejM5NWphZ3pjQVZyb0piMmNxcW5sXzNndi00QjktSmdnOUw0V1dLRjNxN2kyOE10X2wxNTR4RWVWdGd5UUNwbGFRWE5lWV_SAXBBVV95cUxOUXhrcV9aOXU0b19RQ0pLbmpoNkdWbzJSWGVSOGJ5UGM2WXozOTVqYWd6Y0FWcm9KYjJjcXFubF8zZ3YtNEI5LUpnZzlMNFdXS0YzcTdpMjhNdF9sMTU0eEVlVnRneVFDcGxhUVhOZVlf?oc=5",
      "name": "البيان"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5VMFJic0p0RWZBcmFVUk95UUcteFJYY2RaV3NGU2tiOVZydHRRMzgwdG93R3hLd3VFZW82em90blVKUVBHS3lEcG1Iamo0X3NqaXdV?oc=5",
+     "name": "GDNOnline"
     }
    ],
    "language": "en",
