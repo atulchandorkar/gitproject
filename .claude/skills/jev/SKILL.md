@@ -55,8 +55,11 @@ sees them, so put the whole question in `instructions`.
   atomic questions and combine them in code with weights.
 - **Batch everything** for the same state into one request — questions run in parallel, extra ones
   are nearly free. Ask speculative questions and ignore the irrelevant answers.
-- **Many items?** Either one request per item (same questions), or put the items in the state as a
-  list and ask one question per item, pointing at it by path (``Is `items[3]` a complaint?``).
+- **Many items → one request per item.** Learned on a 74-email inbox (2026-10-09): packing all items into
+  one state and asking ``about `emails[i]` `` degraded badly after ~20 items (confidence collapsed, wrong
+  picks). One small request per item, same questions, run ~10 in parallel: 74 emails in 4.7 s wall,
+  median 0.37 s per call, ~$0.00003 per email, with clean answers. Keep the batched-list form only for
+  short lists (<15 items).
 - **Point at fields** in a JSON state with backticked paths: ``Does `ticket.messages[0].text` request a refund?``
 - **Score levels describe situations, not degrees** ("Broken, but a workaround exists", not
   "moderately severe"). No numbers-only levels. One dimension per Score.
