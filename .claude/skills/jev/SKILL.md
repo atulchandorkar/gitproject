@@ -9,6 +9,10 @@ Jev is a "System One" model: you hand it some text (the **state**) plus typed **
 returns calibrated, structured answers in well under a second, for a fraction of a cent.
 It never writes prose. Docs: https://docs.typesafe.ai/llms.txt
 
+**Also load the `typesafe-ai` skill** (TypeSafe's official guidance) when designing questions or any
+TypeSafe integration for this project; this `jev` skill adds the OpenRouter call, the user's rules,
+and lessons from real runs.
+
 ## The house rules (from the user)
 
 1. **Jev decides, Claude writes.** Use Jev for every sorting/deciding judgment; Claude writes any
