@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-09T10:40:56+00:00",
+ "updated_at": "2026-10-10T03:18:06+00:00",
  "items": [
   {
    "id": "cbbccca4d821",
@@ -43,41 +43,6 @@
    }
   },
   {
-   "id": "0796f15e1ade",
-   "bank_id": "nbb",
-   "country": "BH",
-   "date": "2026-10-06",
-   "title": "National Bank of Bahrain strengthens institutional transformation in AI",
-   "summary": "National Bank of Bahrain is strengthening its institutional transformation in the field of artificial intelligence.",
-   "category": "AI Adoption in Operations",
-   "topics": [
-    "AI Adoption in Operations",
-    "AI Strategy & Leadership"
-   ],
-   "tags": [
-    "AI transformation",
-    "Institutional change"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84YWV0RlNNTE9OTTV6bF9UREFqeGFFbmo0YWVtNVM4TVVfTXJEd1lubWU4ckdrT3ZXcmNEU0ZRVkpwNVhfY3hVem00enNfYl9Fd1ZHSFUxWWdJMWFWbDJLUmhoSmxJR2s?oc=5",
-   "source_name": "الأيام البحرينية",
-   "source_title": "بنك البحرين الوطني يعزّز التحول المؤسسي في مجال الذكاء الاصطناعي",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84YWV0RlNNTE9OTTV6bF9UREFqeGFFbmo0YWVtNVM4TVVfTXJEd1lubWU4ckdrT3ZXcmNEU0ZRVkpwNVhfY3hVem00enNfYl9Fd1ZHSFUxWWdJMWFWbDJLUmhoSmxJR2s?oc=5",
-     "name": "الأيام البحرينية"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-09T10:35:27+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-09"
-   }
-  },
-  {
    "id": "38abf2dd9df2",
    "bank_id": "nbb",
    "country": "BH",
@@ -91,7 +56,9 @@
    ],
    "tags": [
     "AI Transformation",
-    "AI Initiative"
+    "AI Initiative",
+    "AI transformation",
+    "Institutional change"
    ],
    "partners": [],
    "impact": "",
@@ -114,6 +81,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTWJ0NzUtWmZDNWJ0VWZuLXZMSDM5dDJYS05TSWhHRnVSUGEweDI2dm5Vb0tkdGoxOEZqSTRPdXoxTVhQR3ptNU5xRXNOemtuUFNmSE16Y3VoY1NWd0ROODdBTFZQNU15eUYteXladmV2WVJzZE1qSUhzbHRuMk9vZDRHbDNqZ0dFWVc0dEFRdndvcXdCTU1VbkpqVTY?oc=5",
      "name": "News of Bahrain"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84YWV0RlNNTE9OTTV6bF9UREFqeGFFbmo0YWVtNVM4TVVfTXJEd1lubWU4ckdrT3ZXcmNEU0ZRVkpwNVhfY3hVem00enNfYl9Fd1ZHSFUxWWdJMWFWbDJLUmhoSmxJR2s?oc=5",
+     "name": "الأيام البحرينية"
     }
    ],
    "language": "en",
@@ -122,7 +93,20 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-07"
-   }
+   },
+   "merged": [
+    {
+     "id": "0796f15e1ade",
+     "date": "2026-10-06",
+     "title": "National Bank of Bahrain strengthens institutional transformation in AI",
+     "source_title": "بنك البحرين الوطني يعزّز التحول المؤسسي في مجال الذكاء الاصطناعي",
+     "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84YWV0RlNNTE9OTTV6bF9UREFqeGFFbmo0YWVtNVM4TVVfTXJEd1lubWU4ckdrT3ZXcmNEU0ZRVkpwNVhfY3hVem00enNfYl9Fd1ZHSFUxWWdJMWFWbDJLUmhoSmxJR2s?oc=5",
+     "source_name": "الأيام البحرينية",
+     "summary": "National Bank of Bahrain is strengthening its institutional transformation in the field of artificial intelligence.",
+     "how": "ai (cached)",
+     "anchor": ""
+    }
+   ]
   },
   {
    "id": "c6d5639013d1",
@@ -212,39 +196,6 @@
    }
   },
   {
-   "id": "6e5d43e89799",
-   "bank_id": "alsalam",
-   "country": "BH",
-   "date": "2026-10-01",
-   "title": "Al Salam Bank achieves milestone AI certification",
-   "summary": "Al Salam Bank has obtained a significant AI certification.",
-   "category": "Awards & Rankings",
-   "topics": [
-    "Awards & Rankings"
-   ],
-   "tags": [
-    "AI certification"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObFI1WFFyVnRfV3YxTDhVYmZsVVYxV0Uyc3FybDVseVpSSFRVVHhydmZjV1Rwbm5Wbnd3U1pkZTMzQXFsVUkzSzRIaE9FUmVyWmE5eUNDTGx3N3d5OHJDZDFhTzktTDJjVmk3ZzQtQ2V6SkJLUWNaN0N3R0FyWENxZzR0M0lfb3V2RDlFNkNnaHg?oc=5",
-   "source_name": "GDNOnline",
-   "source_title": "Bahrain Business: Al Salam Bank bags milestone AI certification",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObFI1WFFyVnRfV3YxTDhVYmZsVVYxV0Uyc3FybDVseVpSSFRVVHhydmZjV1Rwbm5Wbnd3U1pkZTMzQXFsVUkzSzRIaE9FUmVyWmE5eUNDTGx3N3d5OHJDZDFhTzktTDJjVmk3ZzQtQ2V6SkJLUWNaN0N3R0FyWENxZzR0M0lfb3V2RDlFNkNnaHg?oc=5",
-     "name": "GDNOnline"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-07T06:34:05+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-07"
-   }
-  },
-  {
    "id": "7b953b1ccd7f",
    "bank_id": "alsalam",
    "country": "BH",
@@ -254,12 +205,14 @@
    "category": "Fraud, Risk & Compliance",
    "topics": [
     "Fraud, Risk & Compliance",
-    "AI Strategy & Leadership"
+    "AI Strategy & Leadership",
+    "Awards & Rankings"
    ],
    "tags": [
     "AI governance",
     "ISO certification",
-    "Risk management"
+    "Risk management",
+    "AI certification"
    ],
    "partners": [],
    "impact": "First in region",
@@ -274,6 +227,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BdnJHeTVvRGRSNkR2TVZTTlY2aldSSXBDY1Z4SU5hamdpWC0wYWZZVi1aVHhEY2JqUldFV0dxRVlvOURqUlRZMXQwQWIyeDFrbWVGd3Azem1nUVA0NGc?oc=5",
      "name": "أخبار الخليج"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObFI1WFFyVnRfV3YxTDhVYmZsVVYxV0Uyc3FybDVseVpSSFRVVHhydmZjV1Rwbm5Wbnd3U1pkZTMzQXFsVUkzSzRIaE9FUmVyWmE5eUNDTGx3N3d5OHJDZDFhTzktTDJjVmk3ZzQtQ2V6SkJLUWNaN0N3R0FyWENxZzR0M0lfb3V2RDlFNkNnaHg?oc=5",
+     "name": "GDNOnline"
     }
    ],
    "language": "en",
@@ -282,7 +239,20 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "merged": [
+    {
+     "id": "6e5d43e89799",
+     "date": "2026-10-01",
+     "title": "Al Salam Bank achieves milestone AI certification",
+     "source_title": "Bahrain Business: Al Salam Bank bags milestone AI certification",
+     "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObFI1WFFyVnRfV3YxTDhVYmZsVVYxV0Uyc3FybDVseVpSSFRVVHhydmZjV1Rwbm5Wbnd3U1pkZTMzQXFsVUkzSzRIaE9FUmVyWmE5eUNDTGx3N3d5OHJDZDFhTzktTDJjVmk3ZzQtQ2V6SkJLUWNaN0N3R0FyWENxZzR0M0lfb3V2RDlFNkNnaHg?oc=5",
+     "source_name": "GDNOnline",
+     "summary": "Al Salam Bank has obtained a significant AI certification.",
+     "how": "ai (cached)",
+     "anchor": ""
+    }
+   ]
   },
   {
    "id": "cfaaa8e5b53d",
@@ -1971,76 +1941,6 @@
    }
   },
   {
-   "id": "ac37443610ca",
-   "bank_id": "enbd",
-   "country": "AE",
-   "date": "2026-06-02",
-   "title": "Emirates NBD, FAB and Mashreq among GCC's most AI-advanced banks",
-   "summary": "Emirates NBD is recognized as one of the most AI-advanced banks in the GCC region.",
-   "category": "Awards & Rankings",
-   "topics": [
-    "Awards & Rankings",
-    "AI Strategy & Leadership"
-   ],
-   "tags": [
-    "AI Adoption",
-    "Regional Leadership"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOX3h4N0VBVnViaHcyVHY0MnlNeUt2SDlUbEVaOGtoNE5fcXl6TDFleTFlcmJwY2hnT0lUSEMyS3ZzdnNnVjJIY2RUdmlRNi1DcmZJdm5HNkNMREY3RkpvaENVUTRJOVdrUUZvczBlcWZEUEp6VGY3Rmh5b1Z3ZEl4RDF6bGFhSkNXYXJ2MDF5eWs4SUY2WFNTM2lGT2lrREtNbGpIMjc5N3nSAbABQVVfeXFMTWwzQ0UxMTdoRWlWaERBQ29NUURoaHFxNnVuTEY3c0htRXlBRzl6MG1qSUJaQTk2dG9GOWIzeGcwSzJxWmdCRWVzZ0xFZy1OSXl4T2F3NWxuSTFEQnRUM0hsR1pZWmpIZUw2T3YwcFVLY1BpQmw0aTFHdTNaQUZnZ1JPY2JJTUg2cWhoczlvZ21tUE9kTGduaDQzTWRxZTNBWlk0YXZsWFFhZy1ra2Qxejk?oc=5",
-   "source_name": "Khaleej Times",
-   "source_title": "Emirates NBD, FAB and Mashreq among GCC’s most AI-advanced banks",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOX3h4N0VBVnViaHcyVHY0MnlNeUt2SDlUbEVaOGtoNE5fcXl6TDFleTFlcmJwY2hnT0lUSEMyS3ZzdnNnVjJIY2RUdmlRNi1DcmZJdm5HNkNMREY3RkpvaENVUTRJOVdrUUZvczBlcWZEUEp6VGY3Rmh5b1Z3ZEl4RDF6bGFhSkNXYXJ2MDF5eWs4SUY2WFNTM2lGT2lrREtNbGpIMjc5N3nSAbABQVVfeXFMTWwzQ0UxMTdoRWlWaERBQ29NUURoaHFxNnVuTEY3c0htRXlBRzl6MG1qSUJaQTk2dG9GOWIzeGcwSzJxWmdCRWVzZ0xFZy1OSXl4T2F3NWxuSTFEQnRUM0hsR1pZWmpIZUw2T3YwcFVLY1BpQmw0aTFHdTNaQUZnZ1JPY2JJTUg2cWhoczlvZ21tUE9kTGduaDQzTWRxZTNBWlk0YXZsWFFhZy1ra2Qxejk?oc=5",
-     "name": "Khaleej Times"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T17:56:29+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "0295107b1774",
-   "bank_id": "enbd",
-   "country": "AE",
-   "date": "2026-06-02",
-   "title": "Emirates NBD and FAB lead responsible AI index as region's banks close gap with global peers",
-   "summary": "Emirates NBD and FAB ranked highest on a responsible AI index among regional banks.",
-   "category": "Awards & Rankings",
-   "topics": [
-    "Awards & Rankings",
-    "AI Strategy & Leadership"
-   ],
-   "tags": [
-    "Responsible AI",
-    "Rankings"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQTVscExZdVZCMXY3NVVGWjFZRmRRcHR4QllDamFHWk42ajA0VkgycGRfWU9RVXh0WFI5eW5IUXR3RlNpQlhkMWdocmt5OUliX3h1dTFlb2l2WUtKbTFpMDQzSlJMSktaaFBqU2x1d1h2bU9aUHBiVzMtX2VzWFFfOENVTnN5NG8ybk9fel9fUW5LaF9IbjNlV3k0UDRqMUNCNXExeTIteFcwbFZQcnZKWGozOUl1WFlmLWxqZkNsZ0JZMTVHbmpMRjBNT2dnMWVBeXk4Ym5oc2lwbEJoYm5SSmZyZThEdkE?oc=5",
-   "source_name": "thenationalnews.com",
-   "source_title": "Emirates NBD and FAB lead responsible AI index as region's banks close gap with global peers",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQTVscExZdVZCMXY3NVVGWjFZRmRRcHR4QllDamFHWk42ajA0VkgycGRfWU9RVXh0WFI5eW5IUXR3RlNpQlhkMWdocmt5OUliX3h1dTFlb2l2WUtKbTFpMDQzSlJMSktaaFBqU2x1d1h2bU9aUHBiVzMtX2VzWFFfOENVTnN5NG8ybk9fel9fUW5LaF9IbjNlV3k0UDRqMUNCNXExeTIteFcwbFZQcnZKWGozOUl1WFlmLWxqZkNsZ0JZMTVHbmpMRjBNT2dnMWVBeXk4Ym5oc2lwbEJoYm5SSmZyZThEdkE?oc=5",
-     "name": "thenationalnews.com"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T17:56:29+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
    "id": "7bc6581fdb2c",
    "bank_id": "fab",
    "country": "AE",
@@ -2086,7 +1986,11 @@
    "tags": [
     "Evident AI Index",
     "Benchmark",
-    "AI maturity"
+    "AI maturity",
+    "AI Adoption",
+    "Regional Leadership",
+    "Responsible AI",
+    "Rankings"
    ],
    "partners": [
     "Evident"
@@ -2100,6 +2004,14 @@
     {
      "url": "https://www.emiratesnbd.com/en/media-center/emirates-nbd-ranked-1-in-inaugural-evident-ai-index-for-banks",
      "name": "Emirates NBD newsroom"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOX3h4N0VBVnViaHcyVHY0MnlNeUt2SDlUbEVaOGtoNE5fcXl6TDFleTFlcmJwY2hnT0lUSEMyS3ZzdnNnVjJIY2RUdmlRNi1DcmZJdm5HNkNMREY3RkpvaENVUTRJOVdrUUZvczBlcWZEUEp6VGY3Rmh5b1Z3ZEl4RDF6bGFhSkNXYXJ2MDF5eWs4SUY2WFNTM2lGT2lrREtNbGpIMjc5N3nSAbABQVVfeXFMTWwzQ0UxMTdoRWlWaERBQ29NUURoaHFxNnVuTEY3c0htRXlBRzl6MG1qSUJaQTk2dG9GOWIzeGcwSzJxWmdCRWVzZ0xFZy1OSXl4T2F3NWxuSTFEQnRUM0hsR1pZWmpIZUw2T3YwcFVLY1BpQmw0aTFHdTNaQUZnZ1JPY2JJTUg2cWhoczlvZ21tUE9kTGduaDQzTWRxZTNBWlk0YXZsWFFhZy1ra2Qxejk?oc=5",
+     "name": "Khaleej Times"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQTVscExZdVZCMXY3NVVGWjFZRmRRcHR4QllDamFHWk42ajA0VkgycGRfWU9RVXh0WFI5eW5IUXR3RlNpQlhkMWdocmt5OUliX3h1dTFlb2l2WUtKbTFpMDQzSlJMSktaaFBqU2x1d1h2bU9aUHBiVzMtX2VzWFFfOENVTnN5NG8ybk9fel9fUW5LaF9IbjNlV3k0UDRqMUNCNXExeTIteFcwbFZQcnZKWGozOUl1WFlmLWxqZkNsZ0JZMTVHbmpMRjBNT2dnMWVBeXk4Ym5oc2lwbEJoYm5SSmZyZThEdkE?oc=5",
+     "name": "thenationalnews.com"
     }
    ],
    "verification": {
@@ -2110,6 +2022,30 @@
    "topics": [
     "Awards & Rankings",
     "AI Strategy & Leadership"
+   ],
+   "merged": [
+    {
+     "id": "ac37443610ca",
+     "date": "2026-06-02",
+     "title": "Emirates NBD, FAB and Mashreq among GCC's most AI-advanced banks",
+     "source_title": "Emirates NBD, FAB and Mashreq among GCC’s most AI-advanced banks",
+     "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOX3h4N0VBVnViaHcyVHY0MnlNeUt2SDlUbEVaOGtoNE5fcXl6TDFleTFlcmJwY2hnT0lUSEMyS3ZzdnNnVjJIY2RUdmlRNi1DcmZJdm5HNkNMREY3RkpvaENVUTRJOVdrUUZvczBlcWZEUEp6VGY3Rmh5b1Z3ZEl4RDF6bGFhSkNXYXJ2MDF5eWs4SUY2WFNTM2lGT2lrREtNbGpIMjc5N3nSAbABQVVfeXFMTWwzQ0UxMTdoRWlWaERBQ29NUURoaHFxNnVuTEY3c0htRXlBRzl6MG1qSUJaQTk2dG9GOWIzeGcwSzJxWmdCRWVzZ0xFZy1OSXl4T2F3NWxuSTFEQnRUM0hsR1pZWmpIZUw2T3YwcFVLY1BpQmw0aTFHdTNaQUZnZ1JPY2JJTUg2cWhoczlvZ21tUE9kTGduaDQzTWRxZTNBWlk0YXZsWFFhZy1ra2Qxejk?oc=5",
+     "source_name": "Khaleej Times",
+     "summary": "Emirates NBD is recognized as one of the most AI-advanced banks in the GCC region.",
+     "how": "ai (cached)",
+     "anchor": ""
+    },
+    {
+     "id": "0295107b1774",
+     "date": "2026-06-02",
+     "title": "Emirates NBD and FAB lead responsible AI index as region's banks close gap with global peers",
+     "source_title": "Emirates NBD and FAB lead responsible AI index as region's banks close gap with global peers",
+     "source_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQTVscExZdVZCMXY3NVVGWjFZRmRRcHR4QllDamFHWk42ajA0VkgycGRfWU9RVXh0WFI5eW5IUXR3RlNpQlhkMWdocmt5OUliX3h1dTFlb2l2WUtKbTFpMDQzSlJMSktaaFBqU2x1d1h2bU9aUHBiVzMtX2VzWFFfOENVTnN5NG8ybk9fel9fUW5LaF9IbjNlV3k0UDRqMUNCNXExeTIteFcwbFZQcnZKWGozOUl1WFlmLWxqZkNsZ0JZMTVHbmpMRjBNT2dnMWVBeXk4Ym5oc2lwbEJoYm5SSmZyZThEdkE?oc=5",
+     "source_name": "thenationalnews.com",
+     "summary": "Emirates NBD and FAB ranked highest on a responsible AI index among regional banks.",
+     "how": "ai (cached)",
+     "anchor": ""
+    }
    ]
   },
   {

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-09T10:40:56+00:00",
+ "updated_at": "2026-10-10T03:18:06+00:00",
  "items": [
   {
    "id": "c84cdb94f33c",
@@ -900,6 +900,35 @@
     "checked": "2026-10-06"
    },
    "pdf_checked": "2026-10-07"
+  },
+  {
+   "id": "6d9347f7e5e1",
+   "date": "2026-09-22",
+   "category": "Events & Initiatives",
+   "publisher": "",
+   "countries": [
+    "AE"
+   ],
+   "title": "MEBIS 2026 Concludes in Dubai as AI Takes Centre Stage Across the Future of Banking",
+   "summary": "MEBIS 2026, a banking sector event in Dubai, concluded with artificial intelligence as a central focus. The summit highlighted AI's role in shaping the future of banking.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTU1QSkVUT3pETGZHMlFYMFZUekN4R1p2SHhyOFNqYlZZaW9SekhuOEZXZjJ4U1BwWTcxMHl1SjlNWDA3OFYyTDdpeV82X3NxZDU1TmRKNnBnMXNrd2NCWDJNZ1JiLWYyc084b29VVllSX1h4a0QyYU94U194aS04Z2h0dWFSOHdPelNwUmhGYVd3cjgwcXQySndDREVSQUM0MUMybDRqbHBtajA?oc=5",
+   "source_name": "FF News",
+   "source_title": "MEBIS 2026 Concludes in Dubai as AI Takes Centre Stage Across the Future of Banking",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTU1QSkVUT3pETGZHMlFYMFZUekN4R1p2SHhyOFNqYlZZaW9SekhuOEZXZjJ4U1BwWTcxMHl1SjlNWDA3OFYyTDdpeV82X3NxZDU1TmRKNnBnMXNrd2NCWDJNZ1JiLWYyc084b29VVllSX1h4a0QyYU94U194aS04Z2h0dWFSOHdPelNwUmhGYVd3cjgwcXQySndDREVSQUM0MUMybDRqbHBtajA?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-10T03:17:58+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-10"
+   },
+   "pdf_checked": "2026-10-10"
   },
   {
    "id": "17d88b201db3",
