@@ -6,9 +6,10 @@ Two passes:
   1. word match – bank names removed, words stemmed; a pair is the same story when the headlines overlap
      strongly (Jaccard ≥ 0.45, or ≥ 75 % of the shorter headline's words appear in the other);
   2. AI judge – remaining close pairs (same bank, ≤ 7 days apart; for sector items some word overlap, same day or
-     same publisher) are asked once "same news event?" (verdicts cached). Because wrongly merging two different
-     announcements is worse than a duplicate, a pair is merged only if the AI says same event with HIGH confidence
-     AND names a shared detail (person, product, partner, figure, document or event) that is really in both items.
+     same publisher) are asked once "same news event?" (verdicts cached). A pair is merged only if the AI says
+     same event with HIGH confidence and names a shared detail (person, product, partner, figure, document or
+     event) that is really in the stories – in both, or in one if they are ≤ 2 days apart or one of them is the
+     bank's official source (≤ 7 days). See should_merge.
 Duplicates are merged into one item: the best-sourced copy stays, all outlets are kept as its sources.
 """
 
@@ -100,6 +101,36 @@ def anchor_in_both(anchor: str, a: dict, b: dict, names: Iterable[str] = ()) -> 
     return bool(words & ta & tb)
 
 
+def anchor_in_one(anchor: str, a: dict, b: dict, names: Iterable[str] = ()) -> bool:
+    """The shared detail named by the AI is really in at least one of the stories (not invented)."""
+    words = tokens(anchor)          # bank names kept: a programme like "AI@NBB" is a real detail
+    return bool(words and (words & (tokens(_text(a)) | tokens(_text(b)))))
+
+
+def is_official(i: dict) -> bool:
+    """The bank's (or publisher's) own source: its newsroom, website or annual report."""
+    return (i.get("verification") or {}).get("level") == "official"
+
+
+def should_merge(v: dict, a: dict, b: dict, names: Iterable[str] = ()) -> bool:
+    """Merge decision from the AI verdict (also re-applied to cached verdicts when these rules change).
+    Always required: the AI says SAME event with HIGH confidence. Then any one of:
+      - the shared detail it names is in both stories;
+      - the stories are ≤ 2 days apart and the detail is in at least one (outlets often leave details out:
+        "milestone AI certification" vs "ISO/IEC 42001 certification", or an Arabic article without "AI@NBB");
+      - one copy is the bank's official source and they are ≤ 7 days apart (outside reports of an official
+        announcement are folded into it; the official copy stays on top)."""
+    if not (v.get("same") and v.get("confidence") == "high"):
+        return False
+    anchor, names = v.get("anchor") or "", list(names)
+    if anchor_in_both(anchor, a, b, names):
+        return True
+    if not anchor_in_one(anchor, a, b, names):
+        return False
+    days = _days(a, b)
+    return days <= 2 or ((is_official(a) or is_official(b)) and days <= 7)
+
+
 def _titles(i: dict) -> list[str]:
     return list(dict.fromkeys(t for t in (i.get("title"), i.get("source_title")) if t))
 
@@ -157,7 +188,7 @@ def dedupe(items: list[dict], group: Callable[[dict], str], names: Callable[[dic
                 dup = k
                 break
             key = "v2|" + "|".join(sorted((k["id"], it["id"])))
-            if (cache.get(key) or {}).get("merge"):
+            if key in cache and should_merge(cache[key], k, it, names(it)):
                 dup = k
                 break
             if key not in cache:
@@ -191,10 +222,9 @@ def dedupe(items: list[dict], group: Callable[[dict], str], names: Callable[[dic
             v = got.get(n)
             if v is None:
                 continue
-            # merge only when the AI is sure AND the shared detail it names is really in both stories
-            ok = v.same_event and v.confidence == "high" and anchor_in_both(v.anchor, a, b, names(a))
-            cache["v2|" + "|".join(sorted((a["id"], b["id"])))] = {"merge": ok, "anchor": v.anchor,
-                                                                    "confidence": v.confidence, "same": v.same_event}
+            verdict = {"anchor": v.anchor, "confidence": v.confidence, "same": v.same_event}
+            ok = should_merge(verdict, a, b, names(a))
+            cache["v2|" + "|".join(sorted((a["id"], b["id"])))] = {"merge": ok, **verdict}
             if ok:
                 confirmed.append((a, b, v.anchor))
     owner: dict[int, dict] = {}          # merged item -> the item that absorbed it (A=B and B=C → one item)
