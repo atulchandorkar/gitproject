@@ -758,11 +758,13 @@ def main() -> None:
     tracker = Tracker()
     tg = Telegram(tracker.banks, tracker.countries)
 
-    # Two daily schedules (06:17 and a 07:45 Qatar-time backup, because GitHub sometimes starts scheduled runs
-    # late or skips them): a scheduled run does nothing if an update already ran in the last 12 hours.
+    # Two daily schedules (03:00 and a 04:00 Qatar-time backup, because GitHub sometimes starts scheduled runs
+    # late or skips them): a scheduled run does nothing if an update already ran today (Qatar time), so the backup
+    # skips after the 03:00 run, while a manual run the evening before never stops the next morning's run.
     if args.mode == "update" and os.environ.get("SCHEDULED_RUN") == "true" and tracker.state.get("last_update"):
-        last = dt.datetime.fromisoformat(tracker.state["last_update"])
-        if dt.datetime.now(dt.timezone.utc) - last < dt.timedelta(hours=12):
+        qatar = dt.timezone(dt.timedelta(hours=3))
+        last = dt.datetime.fromisoformat(tracker.state["last_update"]).astimezone(qatar).date()
+        if last == dt.datetime.now(qatar).date():
             print(f"Already updated at {tracker.state['last_update']} – nothing to do for this scheduled run.")
             return
 
