@@ -1,6 +1,194 @@
 {
  "digests": [
   {
+   "id": "2026-10-10",
+   "start": "2026-10-04",
+   "end": "2026-10-10",
+   "created_at": "2026-10-11T02:48:38+00:00",
+   "counts": {
+    "news": 10,
+    "banks": 8,
+    "annual_report_items": 353,
+    "annual_report_banks": 30,
+    "studies": 30
+   },
+   "countries": {
+    "BH": 4,
+    "AE": 4,
+    "QA": 1,
+    "SA": 1
+   },
+   "themes": [
+    [
+     "AI Adoption in Operations",
+     144
+    ],
+    [
+     "AI Strategy & Leadership",
+     53
+    ],
+    [
+     "Fraud, Risk & Compliance",
+     51
+    ],
+    [
+     "AI Skills & Talent",
+     46
+    ],
+    [
+     "Customer-Facing AI",
+     44
+    ],
+    [
+     "Generative AI & Copilots",
+     34
+    ]
+   ],
+   "partners": [
+    [
+     "Microsoft",
+     10
+    ],
+    [
+     "Global Finance",
+     2
+    ],
+    [
+     "NVIDIA",
+     2
+    ],
+    [
+     "Visa",
+     2
+    ],
+    [
+     "Finshape",
+     2
+    ],
+    [
+     "Emirates Institute of Finance",
+     2
+    ]
+   ],
+   "banks": [
+    [
+     "nbb",
+     2
+    ],
+    [
+     "enbd",
+     2
+    ],
+    [
+     "alsalam",
+     1
+    ],
+    [
+     "bbk",
+     1
+    ],
+    [
+     "qib",
+     1
+    ],
+    [
+     "cbd",
+     1
+    ]
+   ],
+   "top": [
+    "38abf2dd9df2",
+    "c6d5639013d1",
+    "7b953b1ccd7f",
+    "cbbccca4d821",
+    "9e8e7178de87",
+    "e690b74dba68",
+    "cf584c3e0ec8",
+    "e94747f1e551"
+   ],
+   "studies_top": [
+    "f6c90756d123",
+    "c84cdb94f33c",
+    "f1e8ab70eb53",
+    "397483223489",
+    "6d9347f7e5e1"
+   ],
+   "report_banks": [
+    "dib",
+    "enbd",
+    "adib",
+    "kfh",
+    "cbd",
+    "riyad",
+    "adcb",
+    "nbk",
+    "mashreq",
+    "bisb",
+    "alrajhi",
+    "alinma",
+    "ahlioman",
+    "cbq",
+    "uab",
+    "bankabc",
+    "abk",
+    "ei",
+    "bbk",
+    "qib",
+    "bankmuscat",
+    "saib",
+    "boubyan",
+    "sab",
+    "burgan",
+    "ahlibankqa",
+    "dukhan",
+    "rayan",
+    "bankdhofar",
+    "gulfbank"
+   ],
+   "takeaways": [
+    {
+     "text": "GCC banks deploy AI across customer-facing and operational domains: Emirates NBD launched travel assistant and contact centre platform reducing processing times 30%, while Riyad Bank deployed HR, fraud detection and trade finance automation.",
+     "ids": [
+      "c6d5639013d1",
+      "93fa6f9c858f",
+      "11e725900d1c",
+      "dac59c41f520"
+     ]
+    },
+    {
+     "text": "Bahrain banks advancing AI governance and certification: Al Salam Bank achieved first regional ISO/IEC 42001:2023 AI management system certification, while NBB and BBK launched AI initiatives with structured programmes and partnerships.",
+     "ids": [
+      "7b953b1ccd7f",
+      "38abf2dd9df2",
+      "cbbccca4d821"
+     ]
+    },
+    {
+     "text": "Qatar Islamic Bank deployed AI across retail, corporate and risk domains: customer behaviour analysis in mobile apps, corporate banking process streamlining, fraud management system and RegTech automation.",
+     "ids": [
+      "51929f1b0b58",
+      "f976154b856a",
+      "706f2532afa3",
+      "69f7eb9fe6e8"
+     ]
+    },
+    {
+     "text": "External partnerships accelerating AI adoption: Emirates NBD partnered with Techstars for AI testing across compliance and risk management; Al Rajhi Bank leveraged Ejada Systems for digital transformation.",
+     "ids": [
+      "e690b74dba68",
+      "7c57bb721a19"
+     ]
+    },
+    {
+     "text": "Riyad Bank achieved measurable AI results: trade finance document automation drove 19% growth in letters of credit issuance; ATM cash forecast model reduced operational costs and carbon footprint.",
+     "ids": [
+      "866fdfa49507",
+      "40543406251e"
+     ]
+    }
+   ]
+  },
+  {
    "id": "2026-10-06",
    "start": "2026-09-30",
    "end": "2026-10-06",

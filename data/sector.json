@@ -1,6 +1,41 @@
 {
- "updated_at": "2026-10-10T03:18:06+00:00",
+ "updated_at": "2026-10-11T02:48:36+00:00",
  "items": [
+  {
+   "id": "5c43e59b5efc",
+   "date": "2026-10-10",
+   "category": "Market Data",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Study estimates potential annual revenue impact on major American banks from artificial intelligence",
+   "summary": "Analysis projects significant annual financial impact to US banking sector profitability from artificial intelligence adoption. The research quantifies potential cost pressures facing large American financial institutions.",
+   "key_stats": [
+    {
+     "value": "79 مليار دولار",
+     "label": "potential annual revenue impact on US banks from AI",
+     "quote": "فاتورة محتملة بـ79 مليار دولار سنوياً"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMijgVBVV95cUxQZzdtU0dLQ3RBdXJVWHF3Tk1mM1Q3X01DbTZTUzdBSnVUU2FqSENKTWRzNHVqVEVVOTAyV2c5bGFiVHFseU82YkFKQkU5Zmx6X1Z3ZVVuTkt1dHJ1dVVzSm45eGZXNU5Oa0MtUFhJYzJIU2c0Ny1tem45QlRITVBwcW9JcEpUM29oRUVndUNEd3F6NVF6VzRfZTJ4dWpudnl5eGtUcThMbzFoLXVuSU4yN0ZJZjNQa0hKNEFZMm91UlZtTkVSaHRlSlVHM2xGNll3cWVtNVFXckhkajdoQjBaVXVDb2tkRzJtWFlzNWp4R0JycXZXYkRVb3pvMm5uQ3dBTWFqSWM0QW9SVVZSMzVmaUN3QzA1WnBsRGFGZ1VKVVotMjN1X3JKb0Utc2JEbUdqTDRxVGQyR05LaTJXX3pOQzZONGNJUFB6MGZ3cGJ1N3l5YWtzcjVZUkpyWlYybzBQUEV4S002RVE3Q1ExcC0tRk1fZ2dJcHZRUlBiUWpETFdWckdXYmtRb0RXNzE1Z29ZNjlHV3pxSE9UTUZzXzFZMGtIV1dnS0tZT0tVQzIxVUptRUJYTVFaVmNzUVAtQ1ZlTXZjNTJaTmllU3hmeTRZYTJMSFpXcGxsbUszVzNvcDFDUV9iMnRnLWhJTTJ3SnVyZnRjZy1RRm9iRXQ2V1VhQWtEQXpBS2xqNkcwMzJuRXN2eWo3VTJLTzZXMUR3eTlJc1dDSUtIMGdKMTJRbEVWWnhLSmRqa0ZkbkttSWxEZjJPa3hRUlJ5d3JPdlJvX29GVFF5RG5KcE1vQTB0c2xrTk14SFZuZEVpX09Qa3dhUXQwZTJGLU5WeEIxY1JuUDhsclo3dGxKTlJzMVhBV1E?oc=5",
+   "source_name": "CNN الاقتصادية",
+   "source_title": "الذكاء الاصطناعي يهدد أرباح البنوك الأميركية.. فاتورة محتملة بـ79 مليار دولار سنوياً",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMijgVBVV95cUxQZzdtU0dLQ3RBdXJVWHF3Tk1mM1Q3X01DbTZTUzdBSnVUU2FqSENKTWRzNHVqVEVVOTAyV2c5bGFiVHFseU82YkFKQkU5Zmx6X1Z3ZVVuTkt1dHJ1dVVzSm45eGZXNU5Oa0MtUFhJYzJIU2c0Ny1tem45QlRITVBwcW9JcEpUM29oRUVndUNEd3F6NVF6VzRfZTJ4dWpudnl5eGtUcThMbzFoLXVuSU4yN0ZJZjNQa0hKNEFZMm91UlZtTkVSaHRlSlVHM2xGNll3cWVtNVFXckhkajdoQjBaVXVDb2tkRzJtWFlzNWp4R0JycXZXYkRVb3pvMm5uQ3dBTWFqSWM0QW9SVVZSMzVmaUN3QzA1WnBsRGFGZ1VKVVotMjN1X3JKb0Utc2JEbUdqTDRxVGQyR05LaTJXX3pOQzZONGNJUFB6MGZ3cGJ1N3l5YWtzcjVZUkpyWlYybzBQUEV4S002RVE3Q1ExcC0tRk1fZ2dJcHZRUlBiUWpETFdWckdXYmtRb0RXNzE1Z29ZNjlHV3pxSE9UTUZzXzFZMGtIV1dnS0tZT0tVQzIxVUptRUJYTVFaVmNzUVAtQ1ZlTXZjNTJaTmllU3hmeTRZYTJMSFpXcGxsbUszVzNvcDFDUV9iMnRnLWhJTTJ3SnVyZnRjZy1RRm9iRXQ2V1VhQWtEQXpBS2xqNkcwMzJuRXN2eWo3VTJLTzZXMUR3eTlJc1dDSUtIMGdKMTJRbEVWWnhLSmRqa0ZkbkttSWxEZjJPa3hRUlJ5d3JPdlJvX29GVFF5RG5KcE1vQTB0c2xrTk14SFZuZEVpX09Qa3dhUXQwZTJGLU5WeEIxY1JuUDhsclo3dGxKTlJzMVhBV1E?oc=5",
+     "name": "CNN الاقتصادية"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-11T02:48:29+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-11"
+   },
+   "pdf_checked": "2026-10-11"
+  },
   {
    "id": "c84cdb94f33c",
    "date": "2026-10-09",
@@ -195,7 +230,13 @@
    ],
    "title": "Can artificial intelligence agents eliminate $500 billion of bank value?",
    "summary": "The headline questions whether AI agents could eliminate $500 billion in bank value, raising concerns about disruption to traditional banking models.",
-   "key_stats": [],
+   "key_stats": [
+    {
+     "value": "$500 billion",
+     "label": "Bank profit exposure at risk",
+     "quote": "500 مليار دولار في مرمى الخطر"
+    }
+   ],
    "source_url": "https://news.google.com/rss/articles/CBMikARBVV95cUxOZXVPdm1jODlCYlRoby16akpzRHd3Qkw4TzdZbGc2Z01pSE5qZEpBYnpUempabHJiellUd3U1X2pra2JrZ3NpbVZfX2ZiajZfaks3aVgzLTZSeVBSbGFfMHFkTldTSWNrLWdIeGFHZG5yUGVCZnV1Zm8tQld6aTRtb19mbVEycFZ0QnhqdThiNEw0V3puOUpQODU1cG1fWDVtMXpGMzFPNTBiSDZvRlo5S3ZJbTczN1JVcHBqd2VQaERqRTZuSk5PMkQ4UGJJSG9Hb3EwbnVSakxqY19mNDBGbFUtUmFtbFMwVk05czNZRjExVnFrdVJEeG9nZkhsd19YeVFWMGJfUEswUVp4dGl3YVVwWlEwdFkyZ3haeFFYLVRjaV9yNXdlM1JNYVhOdU8zWkRSeUE3NnhmTy1KUUIzcHNlZU1XeEVEU0Vja2ZfV2dYMm12OHVJNUV4Z2J2ZEFMc1JUaUZRSWlOWFczelI0ZkNhdzdJQ0RwSkwwaXV6eklEcEs4dXREUmV5a0RjU0R3N0FvdzNmQnZPSFFzb3A3VHZyWlFNeF80emZwQUtLNm1MRzRKZUlxcGtUXzVJNzJQZFZtdk5DaEFGeUkzZlBYaUNCd0dxRUhIZFd3c1Y4b0hjMWZpWFlDTVdLeG5HbDFNSHJYNnJlUWVmQjk2TDV4SXdmTVoyOXNZNUhPQ254STY?oc=5",
    "source_name": "CNN الاقتصادية",
    "source_title": "هل يمكن لوكلاء الذكاء الاصطناعي محو 500 مليار دولار من قيمة البنوك؟",
@@ -211,6 +252,14 @@
     {
      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1FclpKVnBUMENpQ296dlFSZG9UNjRWdlVpemdGTHlzZGFMbjhZYk1Td19OTEZnT0lYb0VHc0VLTkVhV2JqWGI5QllFV3BmTXgxb0g4?oc=5",
      "name": "شبكة تواصل الإخبارية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNaTlCMVNtXzItOU91am9fdWx4RnBrUnJjWWw5bjdCVWF2eDAwRkUtZHJTWjVZdVdnQ2ZiZmFLb1FRT1EzeUNGWlNMeEdsLWRTU2Q2dWY5YzBpdlN3R2c2UV9GYXdkX2VOd2lRMlNGZzBBMEs4aWRUNWE1TG43SlY3b05MbWNLS2V3Z2JKdWpaX2VZTlRCdUdHRVFEQVVLUk1uZzF4a1dJMm82cDVZVmlBYmw4UW4wRW5EMFJId1pYWmozRmc2U1BQbTZ1UTZIajBXWTVDVGZLekxDSVo4R2lUTVo4b1o5UlZlTmhlNFF3QWNTcnF4ZEo4c25RSjdVSGlISDVfREpPWkRySC1wSEVtQnJQb19TdUxQUFNHeG1hZzRoLTFaYkJ0QkNFUXhNNUwybnFyREFreU5QTjRTMlFJ?oc=5",
+     "name": "برلمان.كوم"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMijgVBVV95cUxQZzdtU0dLQ3RBdXJVWHF3Tk1mM1Q3X01DbTZTUzdBSnVUU2FqSENKTWRzNHVqVEVVOTAyV2c5bGFiVHFseU82YkFKQkU5Zmx6X1Z3ZVVuTkt1dHJ1dVVzSm45eGZXNU5Oa0MtUFhJYzJIU2c0Ny1tem45QlRITVBwcW9JcEpUM29oRUVndUNEd3F6NVF6VzRfZTJ4dWpudnl5eGtUcThMbzFoLXVuSU4yN0ZJZjNQa0hKNEFZMm91UlZtTkVSaHRlSlVHM2xGNll3cWVtNVFXckhkajdoQjBaVXVDb2tkRzJtWFlzNWp4R0JycXZXYkRVb3pvMm5uQ3dBTWFqSWM0QW9SVVZSMzVmaUN3QzA1WnBsRGFGZ1VKVVotMjN1X3JKb0Utc2JEbUdqTDRxVGQyR05LaTJXX3pOQzZONGNJUFB6MGZ3cGJ1N3l5YWtzcjVZUkpyWlYybzBQUEV4S002RVE3Q1ExcC0tRk1fZ2dJcHZRUlBiUWpETFdWckdXYmtRb0RXNzE1Z29ZNjlHV3pxSE9UTUZzXzFZMGtIV1dnS0tZT0tVQzIxVUptRUJYTVFaVmNzUVAtQ1ZlTXZjNTJaTmllU3hmeTRZYTJMSFpXcGxsbUszVzNvcDFDUV9iMnRnLWhJTTJ3SnVyZnRjZy1RRm9iRXQ2V1VhQWtEQXpBS2xqNkcwMzJuRXN2eWo3VTJLTzZXMUR3eTlJc1dDSUtIMGdKMTJRbEVWWnhLSmRqa0ZkbkttSWxEZjJPa3hRUlJ5d3JPdlJvX29GVFF5RG5KcE1vQTB0c2xrTk14SFZuZEVpX09Qa3dhUXQwZTJGLU5WeEIxY1JuUDhsclo3dGxKTlJzMVhBV1E?oc=5",
+     "name": "CNN الاقتصادية"
     }
    ],
    "language": "ar",
@@ -229,6 +278,17 @@
      "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xZ1gySXJaSUdNOUlhYWMyc1FfZ3RaQ1JRQjNEY1JlTUphRFd1WG5xZm9GNVNhd2EwUldPQlI2U2NKdzA4blkwRWR1WFdkeTBOc3c?oc=5",
      "source_name": "إرم نيوز",
      "summary": "Five hundred billion dollars in banking value is exposed to disruption and opportunity from artificial intelligence. The figure underscores the significant financial stakes as banks navigate AI-driven transformation.",
+     "how": "ai",
+     "anchor": "$500 billion"
+    },
+    {
+     "id": "c43905155eb4",
+     "date": "2026-10-07",
+     "title": "Artificial intelligence threatens bank profits with $500 billion at risk",
+     "source_title": "الذكاء الاصطناعي يهدد أرباح البنوك.. 500 مليار دولار في مرمى الخطر",
+     "source_url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNaTlCMVNtXzItOU91am9fdWx4RnBrUnJjWWw5bjdCVWF2eDAwRkUtZHJTWjVZdVdnQ2ZiZmFLb1FRT1EzeUNGWlNMeEdsLWRTU2Q2dWY5YzBpdlN3R2c2UV9GYXdkX2VOd2lRMlNGZzBBMEs4aWRUNWE1TG43SlY3b05MbWNLS2V3Z2JKdWpaX2VZTlRCdUdHRVFEQVVLUk1uZzF4a1dJMm82cDVZVmlBYmw4UW4wRW5EMFJId1pYWmozRmc2U1BQbTZ1UTZIajBXWTVDVGZLekxDSVo4R2lUTVo4b1o5UlZlTmhlNFF3QWNTcnF4ZEo4c25RSjdVSGlISDVfREpPWkRySC1wSEVtQnJQb19TdUxQUFNHeG1hZzRoLTFaYkJ0QkNFUXhNNUwybnFyREFreU5QTjRTMlFJ?oc=5",
+     "source_name": "برلمان.كوم",
+     "summary": "A report warns that AI poses significant financial risks to banking globally, with $500 billion in profit exposure identified. The analysis highlights potential disruption to traditional banking revenue streams from AI adoption.",
      "how": "ai",
      "anchor": "$500 billion"
     }
@@ -253,6 +313,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6R0dBckFhSXBTVXRqc29feTBlckI3QkEzanh4S2RLNXd5eFhSei12c0plUXpGZkVzMEt0aW5IOFNINlNwVFFPbU95cGFBY1VaYjBVSFgtZk85eFg4cnJTVGloak1IWkpHd1VJWFc2dWhQOXBtamNpbU1B?oc=5",
      "name": "The Banker"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVDVOQ0JaOFQ4Mk9FZWE0dFBFZUwyTUhUbHhSazR1V2kxVWVoeTlCd21SOWtPUlJkRDdxbHRCS2d0RUpRelZ2eDdjeFhGc3dSdHNzTWY0YU8wOFFIZ2tVMU5SOVBZblZMTzFpYjhLMmVkNVozbjVwOENGZzlibktZOW9yOWFBZEozaTU3Ynh6YkpvZjJPclZfdHE3VjZLT3pkUUZNeklwNnlqYkZHTno4QjRGVm1LSnFTVThmdVZJMkJkMm1XLWV5UFpIUUE5Nm5qdlBHR25xdkRsVmRxUXE1SWFZMA?oc=5",
+     "name": "Konsulteer"
     }
    ],
    "language": "en",
@@ -4251,35 +4315,6 @@
     {
      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9CZEFuUHFHemdMd2tCWHlzYmtSWS1qVU8zNEhLalhwaXZnQ1IzU3UzdUk3bFlZQmVPcHJ4OWt3VmFCRENwZElKMHV0b3V0WXlaZlpRSGxtUE1vX3hRNFFNVVNBVGZSakFKRG9xYmxOeGhzQ2hydmJLdjBn?oc=5",
      "name": "The Banker magazine"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-06"
-  },
-  {
-   "id": "1da48cf5961f",
-   "date": "2025-10-09",
-   "category": "Case Studies & Use Cases",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "Macquarie Bank Democratizes Agentic AI, Scaling Customer Innovation with Gemini Enterprise",
-   "summary": "Macquarie Bank implemented agentic AI using Gemini Enterprise to scale customer-facing innovation. The deployment enables democratization of AI agents for customer engagement.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdHRqd0tKSWp4cllWc3Q2Sm96N1dhMWt6ZFVmR1NPYlVuV0VZcF9mR2ZJb3J5VUl3ZTMyQjU0VVBJRTRKN1d1a1ZlY3RGa280bWlDbkhKM0kxai1OSm9KeFdKSlBpRnlfclFHWjYwZGFCTjdoUHRLTk1aV3ZncE9teldySFdaQkRiR01LQjBaS3g2WTlPVGJwNGozMVZ3ZHhOWmZnZXN6TlYwN3AtLXBmNnZ4eHpNV3Z1RFF1bk5tTkYxNE1JSDFKMC1PMkhsSi1RWElJUXh3OA?oc=5",
-   "source_name": "Google Cloud Press Corner",
-   "source_title": "Macquarie Bank Democratizes Agentic AI, Scaling Customer Innovation with Gemini Enterprise",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdHRqd0tKSWp4cllWc3Q2Sm96N1dhMWt6ZFVmR1NPYlVuV0VZcF9mR2ZJb3J5VUl3ZTMyQjU0VVBJRTRKN1d1a1ZlY3RGa280bWlDbkhKM0kxai1OSm9KeFdKSlBpRnlfclFHWjYwZGFCTjdoUHRLTk1aV3ZncE9teldySFdaQkRiR01LQjBaS3g2WTlPVGJwNGozMVZ3ZHhOWmZnZXN6TlYwN3AtLXBmNnZ4eHpNV3Z1RFF1bk5tTkYxNE1JSDFKMC1PMkhsSi1RWElJUXh3OA?oc=5",
-     "name": "Google Cloud Press Corner"
     }
    ],
    "language": "en",

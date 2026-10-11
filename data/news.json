@@ -1,6 +1,41 @@
 {
- "updated_at": "2026-10-10T03:18:06+00:00",
+ "updated_at": "2026-10-11T02:48:36+00:00",
  "items": [
+  {
+   "id": "cf584c3e0ec8",
+   "bank_id": "nbb",
+   "country": "BH",
+   "date": "2026-10-10",
+   "title": "National Bank of Bahrain launches AI project development programme",
+   "summary": "National Bank of Bahrain has launched a programme to develop artificial intelligence projects.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "AI projects",
+    "Development programme"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYdzJEdXVPZ05yUDNYSWFVRThsalh4T3ZiaWpRdHRJT0p5OXRmUGlRUWtXRUNkXzJQUUdwS2ZBc215dTZmTWVNYXZoQWhqdzd0QTJWTGRDdmR2TFdQMGhqQlZ3NkNCUjA?oc=5",
+   "source_name": "الأيام البحرينية",
+   "source_title": "«البحرين الوطني» يطلق برنامجًا لتطوير مشاريع الذكاء الاصطناعي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYdzJEdXVPZ05yUDNYSWFVRThsalh4T3ZiaWpRdHRJT0p5OXRmUGlRUWtXRUNkXzJQUUdwS2ZBc215dTZmTWVNYXZoQWhqdzd0QTJWTGRDdmR2TFdQMGhqQlZ3NkNCUjA?oc=5",
+     "name": "الأيام البحرينية"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-11T02:43:09+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-11"
+   }
+  },
   {
    "id": "cbbccca4d821",
    "bank_id": "bbk",
@@ -40,6 +75,41 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-08"
+   }
+  },
+  {
+   "id": "e94747f1e551",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2026-10-07",
+   "title": "Commercial Bank of Dubai strengthens digital banking with AI, onboarding and open finance",
+   "summary": "Commercial Bank of Dubai has strengthened its digital banking capabilities across AI, customer onboarding, and open finance.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Digital banking",
+    "AI capabilities",
+    "Onboarding"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc0hsSFcyOWxVZERwbDJNVHhNNWtnZWtnYkdUMDB3cHdSQ0dFS3NTbzQ1SkFYSVFoSll0Z1pIVVhtOF9nZlc0RlMtb01NNC1hdFJqV01DOHBXM0paNzJnY2paSWNSQmhOSEp3T1R3dFc5MURCWkZzclhYRVJhYlBTR0J2UXdtSWxxbjhTR2hJT2RqRHNsc2hJMklXOEZNTWJEQXJ4dFdubw?oc=5",
+   "source_name": "The Digital Banker",
+   "source_title": "CBD strengthens digital banking capabilities across AI, onboarding and open finance",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc0hsSFcyOWxVZERwbDJNVHhNNWtnZWtnYkdUMDB3cHdSQ0dFS3NTbzQ1SkFYSVFoSll0Z1pIVVhtOF9nZlc0RlMtb01NNC1hdFJqV01DOHBXM0paNzJnY2paSWNSQmhOSEp3T1R3dFc5MURCWkZzclhYRVJhYlBTR0J2UXdtSWxxbjhTR2hJT2RqRHNsc2hJMklXOEZNTWJEQXJ4dFdubw?oc=5",
+     "name": "The Digital Banker"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-11T02:43:09+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-11"
    }
   },
   {
