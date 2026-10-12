@@ -10,9 +10,9 @@
   "source": "https://www.google.com/s2/favicons?domain=adcb.com&sz=256"
  },
  "adib": {
-  "checked": "2026-10-05",
-  "file": "logos/adib.png",
-  "source": "https://www.adib.ae/-/media/project/adib/adibsite/common/favicon-32x32.png"
+  "checked": "2026-10-12",
+  "file": "logos/adib.svg",
+  "source": "https://www.adib.ae/-/media/project/adib/adibsite/header/brandlogo-mbl.svg?h=30&amp;iar=0&amp;w=153&amp;hash=B4F011C2EBC9A66F17193F2074693252"
  },
  "ahlibankqa": {
   "checked": "2026-10-05",
@@ -25,9 +25,9 @@
   "source": "https://ahlibank.om/ahlibank/wp-content/uploads/2025/07/Ahlibank-logo-2.png"
  },
  "ajman": {
-  "checked": "2026-10-05",
-  "file": "logos/ajman.ico",
-  "source": "https://www.ajmanbank.ae/site/favicon.ico"
+  "checked": "2026-10-12",
+  "file": "logos/ajman.png",
+  "source": "https://www.ajmanbank.ae/site/assets/img/logo/logo-white.png"
  },
  "albilad": {
   "checked": "2026-10-05",
@@ -145,14 +145,14 @@
   "source": "https://www.google.com/s2/favicons?domain=centralbank.ae&sz=256"
  },
  "d360": {
-  "checked": "2026-10-05",
-  "file": "logos/d360.ico",
-  "source": "https://d360.com/favicon.ico"
+  "checked": "2026-10-12",
+  "file": "logos/d360.svg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/4/4d/D360_Bank.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original"
  },
  "dib": {
-  "checked": "2026-10-05",
-  "file": "logos/dib.ico",
-  "source": "https://www.dib.ae/Assets/images/favicon.ico"
+  "checked": "2026-10-12",
+  "file": "logos/dib.png",
+  "source": "https://www.dib.ae/images/default-source/product-finder/question-icons/johara-logo-03.tmb-.png?Culture=en&amp;sfvrsn=1172086a_2"
  },
  "dohabank": {
   "checked": "2026-10-05",
@@ -160,12 +160,12 @@
   "source": "https://www.google.com/s2/favicons?domain=dohabank.qa&sz=256"
  },
  "dukhan": {
-  "checked": "2026-10-05",
-  "file": "logos/dukhan.ico",
-  "source": "https://www.dukhanbank.com/sites/default/files/favicon_1neww.ico"
+  "checked": "2026-10-12",
+  "file": "logos/dukhan.svg",
+  "source": "https://www.dukhanbank.com/themes/db_theme/assets/images/bb2020/dublogo-lg.svg"
  },
  "edb": {
-  "checked": "2026-10-11"
+  "checked": "2026-10-12"
  },
  "ei": {
   "checked": "2026-10-05",
@@ -188,12 +188,12 @@
   "source": "https://www.google.com/s2/favicons?domain=gfh.com&sz=256"
  },
  "gib": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "file": "logos/gib.png",
   "source": "https://www.google.com/s2/favicons?domain=gib.com&sz=256"
  },
  "gibsa": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "file": "logos/gibsa.png",
   "source": "https://www.google.com/s2/favicons?domain=gib.com&sz=256"
  },
@@ -208,7 +208,7 @@
   "source": "https://www.ibkuwt.com/static/img/favicon.ico"
  },
  "investbank": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "file": "logos/investbank.png",
   "source": "https://www.google.com/s2/favicons?domain=investbank.ae&sz=256"
  },
@@ -223,12 +223,12 @@
   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Khcb_logo.jpg?width=256"
  },
  "kib": {
-  "checked": "2026-10-11"
+  "checked": "2026-10-12"
  },
  "lesha": {
-  "checked": "2026-10-05",
-  "file": "logos/lesha.ico",
-  "source": "https://www.leshabank.com/wp-content/themes/lesha/assets/images/favicon.ico"
+  "checked": "2026-10-12",
+  "file": "logos/lesha.png",
+  "source": "https://www.leshabank.com/wp-content/uploads/2022/08/LEASHA_LOGO.png"
  },
  "mashreq": {
   "checked": "2026-10-05",
@@ -256,7 +256,7 @@
   "source": "https://www.nbo.om/Style%20Library/NBO3/images/favicons/apple-touch-icon-57x57.png"
  },
  "nizwa": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "file": "logos/nizwa.png",
   "source": "https://www.banknizwa.om/assets/images/favicon.png"
  },
@@ -266,7 +266,7 @@
   "source": "https://www.oman-arabbank.com/wp-content/uploads/cropped-OAB_512_icon-180x180.jpg"
  },
  "qcb": {
-  "checked": "2026-10-11"
+  "checked": "2026-10-12"
  },
  "qdb": {
   "checked": "2026-10-05",
@@ -319,7 +319,7 @@
   "source": "https://www.sama.gov.sa/_layouts/15/SAMA.Portal/assets/images/favicon.svg"
  },
  "sib": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "file": "logos/sib.png",
   "source": "https://www.google.com/s2/favicons?domain=sib.ae&sz=256"
  },
@@ -339,7 +339,7 @@
   "source": "https://www.google.com/s2/favicons?domain=stcbank.com.sa&sz=256"
  },
  "uab": {
-  "checked": "2026-10-11"
+  "checked": "2026-10-12"
  },
  "visionbank": {
   "checked": "2026-10-05",

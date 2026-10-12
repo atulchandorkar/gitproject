@@ -1,5 +1,5 @@
 {
- "last_update": "2026-10-11T02:43:14+00:00",
+ "last_update": "2026-10-12T03:07:13+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -1063,7 +1063,24 @@
   "ee7f55bf2094ef": "2026-10-10",
   "519d39fe2ade39": "2026-10-10",
   "4dd6d3c971d33f": "2026-10-10",
-  "a5d87a51e44faa": "2026-10-10"
+  "a5d87a51e44faa": "2026-10-10",
+  "6545005cf72d03": "2026-08-24",
+  "9564b444685d8d": "2026-10-05",
+  "f8cd2253f82275": "2026-10-08",
+  "419fe0e4e5eb7a": "2026-10-08",
+  "8f03cc52bb60ea": "2026-10-09",
+  "b95e84255fbeee": "2026-10-10",
+  "b18dc41ba74551": "2026-10-10",
+  "fefcac81aa2ab7": "2026-10-10",
+  "59ee1df4a31962": "2026-10-10",
+  "bf821142a9f612": "2026-10-11",
+  "060c96de82539d": "2026-10-11",
+  "dc7eeb284794f2": "2026-10-11",
+  "bee0a0778c478a": "2026-10-11",
+  "8baaf6d0eb5422": "2026-10-11",
+  "157dbece6e2397": "2026-10-11",
+  "6da2808317ab63": "2026-10-11",
+  "230cc28c899c85": "2026-10-11"
  },
  "history_loaded": {
   "adcb": "2026-10-05",
@@ -2430,42 +2447,42 @@
  "retry": [],
  "newsrooms": {
   "rakbank": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "adcb": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "mashreq": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "sib": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "ei": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "bos": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "enbd": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "investbank": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
@@ -2474,7 +2491,7 @@
    "url": "https://www.dib.ae/about-us/media-centre",
    "status": "ok",
    "links": 19,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "4fbec03647b0",
     "88e4cbd4e727",
@@ -2502,7 +2519,7 @@
    "url": "https://www.cbd.ae/aboutus/media-centre/press-room/news/id/3c0f77ff-458f-66de-b8c5-ff0b00b6b24a",
    "status": "ok",
    "links": 4,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "f75bc3c487c1",
     "211356b61edf",
@@ -2511,42 +2528,42 @@
    ]
   },
   "nbf": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "edb": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "cbuae": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "wio": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "adib": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "alrajhi": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "snb": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "ajman": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
@@ -2554,17 +2571,17 @@
    "checked": "2026-10-05",
    "url": "https://www.zand.ae/en/news",
    "status": "ok",
-   "links": 31,
-   "scanned": "2026-10-11",
+   "links": 29,
+   "scanned": "2026-10-12",
    "known": [
     "beb166c6b910",
     "837760b162de",
+    "3ded88f5d135",
+    "7ae63f8bba97",
     "e2f230beb9cf",
     "0bb3d4d0f828",
     "db9ef94ba53a",
     "af27241efa5e",
-    "ecc1635df63d",
-    "1bfcefd46bd0",
     "c3caaacb9438",
     "9771a06059b4",
     "2bad0d03f6a2",
@@ -2572,8 +2589,6 @@
     "bb726ffcf2a4",
     "13b7d98fe65d",
     "0422cbc07689",
-    "125acb584f47",
-    "4f56e37fe342",
     "023ad1f1f9c0",
     "d7447ce1ed2e",
     "7370d52a6e95",
@@ -2591,42 +2606,42 @@
    ]
   },
   "aljazira": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "sab": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "anb": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "gibsa": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "bsf": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "d360": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "fab": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "visionbank": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
@@ -2635,7 +2650,7 @@
    "status": "unreachable (HTTPError)"
   },
   "saib": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
@@ -2644,7 +2659,7 @@
    "url": "https://www.alinma.com/About-the-Bank/The-Bank/News",
    "status": "ok",
    "links": 30,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "ecd79199524f",
     "fcd05613e808",
@@ -2683,7 +2698,7 @@
    "url": "https://www.alrayan.com/en/press-release",
    "status": "ok",
    "links": 3,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "1722b361feb0",
     "8eea57958b29",
@@ -2691,17 +2706,17 @@
    ]
   },
   "dohabank": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "sama": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "cbq": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
@@ -2710,7 +2725,7 @@
    "url": "https://www.dukhanbank.com/media-center/press-release",
    "status": "ok",
    "links": 29,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "339f3c3d15c1",
     "b317b1e6b4f5",
@@ -2744,12 +2759,12 @@
    ]
   },
   "albilad": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "qdb": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
@@ -2758,7 +2773,7 @@
    "url": "https://www.uab.ae/en/media-center/awards",
    "status": "ok",
    "links": 15,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "4465122501be",
     "6dba8d618990",
@@ -2778,7 +2793,7 @@
    ]
   },
   "qcb": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
@@ -2787,7 +2802,7 @@
    "url": "https://www.qiib.com.qa/Press/List/Announcements",
    "status": "ok",
    "links": 5,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "452f6107a821",
     "98394071c36b",
@@ -2817,7 +2832,7 @@
    ]
   },
   "qib": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
@@ -2826,7 +2841,7 @@
    "url": "https://www.leshabank.com/media-center/news/",
    "status": "ok",
    "links": 6,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "c4082108dd5d",
     "4892329d219a",
@@ -2837,7 +2852,7 @@
    ]
   },
   "boubyan": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
@@ -2846,7 +2861,7 @@
    "url": "https://www.ahlibank.com.qa/en/media-center/news-press-releases",
    "status": "ok",
    "links": 24,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "6076ad97b3fb",
     "f6676a04db7f",
@@ -2879,7 +2894,7 @@
    "url": "https://www.kfh.com/home/Personal/news.html",
    "status": "ok",
    "links": 15,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "008bfa75ddda",
     "7ee98a0ba515",
@@ -2903,7 +2918,7 @@
    "url": "https://www.warbabank.com/english/news",
    "status": "ok",
    "links": 12,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "f868d0dcf1b7",
     "bee17f6c2e1f",
@@ -2920,12 +2935,12 @@
    ]
   },
   "kib": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "cbkw": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
@@ -2934,7 +2949,7 @@
    "url": "https://www.cbk.com/Media-Library/Press-Releases",
    "status": "ok",
    "links": 89,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "1f18717f27a9",
     "337f56518ee5",
@@ -3032,7 +3047,7 @@
    "url": "https://www.e-gulfbank.com/en/about-us/media/press-releases/",
    "status": "ok",
    "links": 9,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "3438add427f2",
     "f7209e917eaa",
@@ -3046,42 +3061,42 @@
    ]
   },
   "sohar": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "bankdhofar": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "ibk": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "bankmuscat": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "burgan": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "nizwa": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "cbo": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "abk": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
@@ -3090,7 +3105,7 @@
    "url": "https://www.nbk.com/news-and-insights/Media-Relations.html",
    "status": "ok",
    "links": 5,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "610cdb1a375d",
     "3dd1539d37be",
@@ -3100,37 +3115,37 @@
    ]
   },
   "oab": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "gib": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "stcbank": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "bankabc": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "khcb": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "gfh": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "aub": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
@@ -3139,7 +3154,7 @@
    "url": "https://www.nbo.om/en/Pages/News/Home.aspx",
    "status": "ok",
    "links": 57,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "1ce4089663e9",
     "d644291877af",
@@ -3205,7 +3220,7 @@
    "url": "https://www.alsalambank.com/press-releases/",
    "status": "ok",
    "links": 8,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "9b8c09f9af01",
     "40082e13deaa",
@@ -3218,12 +3233,12 @@
    ]
   },
   "cbb": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
   "bbk": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
@@ -3232,7 +3247,7 @@
    "url": "https://nbbonline.com/about/news/",
    "status": "ok",
    "links": 16,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "245733299cbb",
     "9e9ed4ac8849",
@@ -3253,7 +3268,7 @@
    ]
   },
   "bisb": {
-   "checked": "2026-10-11",
+   "checked": "2026-10-12",
    "url": null,
    "status": "not found"
   },
@@ -3262,7 +3277,7 @@
    "url": "https://ahlibank.om/Ahlibank/news/",
    "status": "ok",
    "links": 9,
-   "scanned": "2026-10-11",
+   "scanned": "2026-10-12",
    "known": [
     "af5f08321e09",
     "0611da646956",
@@ -4064,7 +4079,19 @@
   "7554b5a36f2217": "2026-10-10",
   "09080ba5e33be0": "2026-10-10",
   "89b9f587305baf": "2026-10-10",
-  "d86e660dbbdd53": "2026-10-10"
+  "d86e660dbbdd53": "2026-10-10",
+  "72a455757afbbc": "2026-09-15",
+  "ae5d34955ad63f": "2026-10-05",
+  "48cb27dc21d055": "2026-10-08",
+  "b0768926bde45c": "2026-10-11",
+  "7c253a2ab6f120": "2026-10-11",
+  "cbfded012f41d0": "2026-10-11",
+  "d5c730276c3eb7": "2026-10-11",
+  "77d451031ff2e2": "2026-10-11",
+  "2ccb432e3c0a32": "2026-10-11",
+  "1d9327d5bdd829": "2026-10-11",
+  "bee0a0778c478a": "2026-10-11",
+  "ed5f13f8e33422": "2026-10-11"
  },
  "sector_known": {},
  "sector_pending": [
@@ -8561,6 +8588,90 @@
     "level": "pending",
     "evidence": "headline",
     "checked": "2026-10-11"
+   }
+  },
+  {
+   "id": "5dc3377a6afd",
+   "date": "2026-10-11",
+   "category": "Maturity & Rankings",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "JPMorgan clinches top spot again: See 10 banks leading AI race in 2026",
+   "summary": "The Indian Express reports JPMorgan ranks top banks advancing AI capabilities. The assessment identifies leading institutions based on AI adoption and innovation positioning in the financial sector.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMjdGbVYyYm5QOEdTazBPNlJ4TjN2NGFqTUliYmN0MFRweXo4empVT29yZFhtTFVwSnIyWVdhS2VHTW8tTVVqYjRaOUVMV2lOX3FGcE9xRzJRckkxVUI3SkpULUpINUNaRkh5b193ZmwwRFNGcXJDZ1pSSmFoRFhTbHdZNkZoVVFrdFZWQXM5Q1N5aWZfakROTUJUVDlVeGF0b3RzdVAxdXk2VU5QaUdCWEE1MWdBMmpFcW42ZVdKZ0NzUWlKYW8wY1VIaGliVjRkMFlj0gHaAUFVX3lxTFBXRmg0MTRGOXZGeWNVSDNIemFlendVUUQyQWtYeDJnVkhFUDZUZ1BUYmlwWDJENklTeFIxeUg0dGhBN20xQnhrNDVGX2NVTUx0QmFtS3N5aW1EbGhlRjEwYVd0ZDZhSk44SWllQVpUWU9LcHVTNzRtZlNWNzdabDBsR1V1Szd5Rk1yYnA2Ym12Q01sVTFZbUdoWldMbzYzbUp5MUdJS2l3X3pxaTFSUDI5YmtHRldUX2JvZU5yU2ZuRlEzY1BMQ1pSWXk2M1V0TTg4akxzRC0xeWRn?oc=5",
+   "source_name": "The Indian Express",
+   "source_title": "JPMorgan clinches top spot again: See 10 banks leading AI race in 2026",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMjdGbVYyYm5QOEdTazBPNlJ4TjN2NGFqTUliYmN0MFRweXo4empVT29yZFhtTFVwSnIyWVdhS2VHTW8tTVVqYjRaOUVMV2lOX3FGcE9xRzJRckkxVUI3SkpULUpINUNaRkh5b193ZmwwRFNGcXJDZ1pSSmFoRFhTbHdZNkZoVVFrdFZWQXM5Q1N5aWZfakROTUJUVDlVeGF0b3RzdVAxdXk2VU5QaUdCWEE1MWdBMmpFcW42ZVdKZ0NzUWlKYW8wY1VIaGliVjRkMFlj0gHaAUFVX3lxTFBXRmg0MTRGOXZGeWNVSDNIemFlendVUUQyQWtYeDJnVkhFUDZUZ1BUYmlwWDJENklTeFIxeUg0dGhBN20xQnhrNDVGX2NVTUx0QmFtS3N5aW1EbGhlRjEwYVd0ZDZhSk44SWllQVpUWU9LcHVTNzRtZlNWNzdabDBsR1V1Szd5Rk1yYnA2Ym12Q01sVTFZbUdoWldMbzYzbUp5MUdJS2l3X3pxaTFSUDI5YmtHRldUX2JvZU5yU2ZuRlEzY1BMQ1pSWXk2M1V0TTg4akxzRC0xeWRn?oc=5",
+     "name": "The Indian Express"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-12T03:10:47+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-12"
+   }
+  },
+  {
+   "id": "b91cc9779a64",
+   "date": "2026-10-11",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "AI banking agent: How Artificial Intelligence is Transforming Global Finance",
+   "summary": "An analysis examines how AI agents automate banking processes and reduce operational inefficiencies. The piece explores intelligent automation's impact on financial services transformation and operational efficiency.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xaGtkU0VUNFkya290US1ZVXNIQlVUdnpGYlFXSEdQbFFJeUNaM1F0c3J3YWxlQWNXS3Jnai1qV0dhNzlfSGV0SDkwUVhVWGEta2VTRU0tN3dvNHRaVllNWWdPa1psYlVQaXN4c3I2VFlndw?oc=5",
+   "source_name": "The Korea Daily",
+   "source_title": "AI banking agent — How Artificial Intelligence Is Ending the Laziness Tax and Transforming Global Finance",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xaGtkU0VUNFkya290US1ZVXNIQlVUdnpGYlFXSEdQbFFJeUNaM1F0c3J3YWxlQWNXS3Jnai1qV0dhNzlfSGV0SDkwUVhVWGEta2VTRU0tN3dvNHRaVllNWWdPa1psYlVQaXN4c3I2VFlndw?oc=5",
+     "name": "The Korea Daily"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-12T03:10:47+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-12"
+   }
+  },
+  {
+   "id": "1de84650fb35",
+   "date": "2026-10-11",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "AI Applications in Banking Sector: Automation Essential, but Strict Oversight Required",
+   "summary": "An assessment of AI deployment in banking emphasizes the need for automation while establishing rigorous regulatory oversight. The analysis addresses balancing innovation benefits with appropriate governance and control frameworks.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcmJCOHktSFR3YkZZUktiLU9DU2wyVVBWN09IV3BnWFNtMmxodlV4V2lZMVgza0w4UktNeVgwV1N1OUJNN1RfNHZTa0g1Qmt0WlA1a1VTXzZZYXFLTmxDeU5Fd3RqMnJvb09LdnNKcmdiY2lUb0YtS1VaUHh6T0xWOG1rLXVleUllTW9JLThkN0ozOHVnZnpMMkJ6S291dw?oc=5",
+   "source_name": "Vietnam.vn",
+   "source_title": "تطبيقات الذكاء الاصطناعي في القطاع المصرفي: الأتمتة ضرورية، ولكن الرقابة الصارمة مطلوبة.",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcmJCOHktSFR3YkZZUktiLU9DU2wyVVBWN09IV3BnWFNtMmxodlV4V2lZMVgza0w4UktNeVgwV1N1OUJNN1RfNHZTa0g1Qmt0WlA1a1VTXzZZYXFLTmxDeU5Fd3RqMnJvb09LdnNKcmdiY2lUb0YtS1VaUHh6T0xWOG1rLXVleUllTW9JLThkN0ozOHVnZnpMMkJ6S291dw?oc=5",
+     "name": "Vietnam.vn"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-12T03:10:47+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-12"
    }
   }
  ],

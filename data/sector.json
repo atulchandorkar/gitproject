@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-11T02:48:36+00:00",
+ "updated_at": "2026-10-12T03:10:55+00:00",
  "items": [
   {
    "id": "5c43e59b5efc",
@@ -993,6 +993,35 @@
     "checked": "2026-10-10"
    },
    "pdf_checked": "2026-10-10"
+  },
+  {
+   "id": "a995c42d12bd",
+   "date": "2026-09-15",
+   "category": "Expert Views",
+   "publisher": "Gartner",
+   "countries": [
+    "Global"
+   ],
+   "title": "Banking Roundtable: Securing AI at Scale While Accelerating Innovation",
+   "summary": "Gartner convenes banking leaders to discuss securing AI deployments at scale while maintaining innovation velocity. The roundtable explores balancing robust security controls with rapid AI implementation in large institutions.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVVBFMkRIUDNTMEJaMUlRLWRDZzlEZ0htMHNTaTg5YlUtV0dmQjNOYWNnNnU3SG1NVzA4TENrd0t2eG51VHVZVlZ5azRNaDRKX0h6T0VOelBjSndZblVtODBpY3hhdThid2dSM2h6SlVZUmc0Uk5rUWZmaWQ4dExBVi01dXVuRFBibmM0OVVPNW4taE0tZFpQRVdCMDNCYVE3ZkRsNWpBbWQ3QUpacV9iWTFoeV9LZHl5WUppR2FTbE9BdGZyOHBsWnRFaFFYQ09YT00weDR3SUFmcHdxVGZnQWpWSFMxT2FNWHZicjhR?oc=5",
+   "source_name": "Gartner",
+   "source_title": "Banking Roundtable: Securing AI at Scale While Accelerating Innovation",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVVBFMkRIUDNTMEJaMUlRLWRDZzlEZ0htMHNTaTg5YlUtV0dmQjNOYWNnNnU3SG1NVzA4TENrd0t2eG51VHVZVlZ5azRNaDRKX0h6T0VOelBjSndZblVtODBpY3hhdThid2dSM2h6SlVZUmc0Uk5rUWZmaWQ4dExBVi01dXVuRFBibmM0OVVPNW4taE0tZFpQRVdCMDNCYVE3ZkRsNWpBbWQ3QUpacV9iWTFoeV9LZHl5WUppR2FTbE9BdGZyOHBsWnRFaFFYQ09YT00weDR3SUFmcHdxVGZnQWpWSFMxT2FNWHZicjhR?oc=5",
+     "name": "Gartner"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-12T03:10:47+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-12"
+   },
+   "pdf_checked": "2026-10-12"
   },
   {
    "id": "17d88b201db3",
@@ -4296,35 +4325,6 @@
     "checked": "2026-10-06"
    },
    "pdf_checked": "2026-10-07"
-  },
-  {
-   "id": "0073aa9a6c99",
-   "date": "2025-10-10",
-   "category": "Case Studies & Use Cases",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "Bank deploys AI agents for debt collection and credit card sales",
-   "summary": "Concrete deployment of AI agents to automate debt chase and credit card sales processes. Demonstrates application of agentic AI to banking operations.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9CZEFuUHFHemdMd2tCWHlzYmtSWS1qVU8zNEhLalhwaXZnQ1IzU3UzdUk3bFlZQmVPcHJ4OWt3VmFCRENwZElKMHV0b3V0WXlaZlpRSGxtUE1vX3hRNFFNVVNBVGZSakFKRG9xYmxOeGhzQ2hydmJLdjBn?oc=5",
-   "source_name": "The Banker magazine",
-   "source_title": "TBC Bank Uzbekistan deploys AI agents to chase debts and sell credit cards",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9CZEFuUHFHemdMd2tCWHlzYmtSWS1qVU8zNEhLalhwaXZnQ1IzU3UzdUk3bFlZQmVPcHJ4OWt3VmFCRENwZElKMHV0b3V0WXlaZlpRSGxtUE1vX3hRNFFNVVNBVGZSakFKRG9xYmxOeGhzQ2hydmJLdjBn?oc=5",
-     "name": "The Banker magazine"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-06"
   }
  ]
 }
