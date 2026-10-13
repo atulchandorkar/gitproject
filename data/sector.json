@@ -1,6 +1,64 @@
 {
- "updated_at": "2026-10-12T03:10:55+00:00",
+ "updated_at": "2026-10-13T04:27:13+00:00",
  "items": [
+  {
+   "id": "60778fbb59d4",
+   "date": "2026-10-12",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Partnership delivers sovereign artificial intelligence infrastructure for European banking sector",
+   "summary": "A collaboration has been established to provide independent artificial intelligence infrastructure specifically designed for European banks. The initiative addresses banking sector requirements for sovereign and secure AI capabilities.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV0oxMFFsNW9EbmduTHphbmd5ZGJRZkpBdVEyNzVyeFVnMXJONGZvN1BtcUJVOWZXck16NENDWVlZVHlkLUhweUZGOGJzRHBpZ1Z2RjlTRjVlM1NvdzFsUzRfRHhCU1kybElTWGZJZjM0LWJqenA3NE1MV3lFTWUwV3M3VWRtQ25Qd3o4MWFkR0M1NFZ4ME9zVWxVNEViLWJMMUdDRzluRExxdnppSXZadFFGTQ?oc=5",
+   "source_name": "FF News",
+   "source_title": "Vilja and evroc Partner to Deliver Sovereign AI Infrastructure for European Banking",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV0oxMFFsNW9EbmduTHphbmd5ZGJRZkpBdVEyNzVyeFVnMXJONGZvN1BtcUJVOWZXck16NENDWVlZVHlkLUhweUZGOGJzRHBpZ1Z2RjlTRjVlM1NvdzFsUzRfRHhCU1kybElTWGZJZjM0LWJqenA3NE1MV3lFTWUwV3M3VWRtQ25Qd3o4MWFkR0M1NFZ4ME9zVWxVNEViLWJMMUdDRzluRExxdnppSXZadFFGTQ?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-13T04:26:56+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-13"
+   },
+   "pdf_checked": "2026-10-13"
+  },
+  {
+   "id": "a2fa7f5f8431",
+   "date": "2026-10-11",
+   "category": "Studies & Surveys",
+   "publisher": "Saxo Bank",
+   "countries": [
+    "Global"
+   ],
+   "title": "Study on digital wealth futures reveals banks increasingly turning to external partners amid artificial intelligence pressures",
+   "summary": "A Saxo Bank study shows banks are increasingly outsourcing capabilities and partnering with external providers in response to artificial intelligence challenges. The research highlights strategic shifts in how financial institutions are adapting to AI-driven market changes.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9oWnFYbnJHVjdYVG5LclZoa3psM3Z2SU9xUzdlZjNSbE9qR2UxdklaeFk4bHlKclZWQVBtdFRMNA?oc=5",
+   "source_name": "مجلة أرقام",
+   "source_title": "دراسة لـ \"ساكسو بنك\" حول مستقبل الثروات الرقمية تكشف: البنوك تتجه بشكل متزايد نحو الشركاء الخارجيين في ظل ضغوط الذكاء الاصطناعي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9oWnFYbnJHVjdYVG5LclZoa3psM3Z2SU9xUzdlZjNSbE9qR2UxdklaeFk4bHlKclZWQVBtdFRMNA?oc=5",
+     "name": "مجلة أرقام"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-13T04:26:56+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-13"
+   },
+   "pdf_checked": "2026-10-13"
+  },
   {
    "id": "5c43e59b5efc",
    "date": "2026-10-10",
@@ -327,6 +385,39 @@
     "checked": "2026-10-07"
    },
    "pdf_checked": "2026-10-07"
+  },
+  {
+   "id": "77430aa6048d",
+   "date": "2026-10-06",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Banks prioritize responsible AI governance as use soars",
+   "summary": "Banks are prioritizing responsible AI and governance as artificial intelligence use expands across the sector, reflecting the need for oversight alongside deployment.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE03aHhPUEZ2OXhKeS1WbElhV2kxZkZacWE0bEo1UW9Sb0lhVXVoT1BXbVlhd2VOcUpORzZQaF9tSkZEcVZ2T1hvUEkxY2hiUE9teDZwTlVOSE1qR09VdldpYnpJUlljLVhtQmRSMnVVZU9ib2FIQnc?oc=5",
+   "source_name": "CIO Dive",
+   "source_title": "Banks prioritize responsible AI, governance as use soars",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE03aHhPUEZ2OXhKeS1WbElhV2kxZkZacWE0bEo1UW9Sb0lhVXVoT1BXbVlhd2VOcUpORzZQaF9tSkZEcVZ2T1hvUEkxY2hiUE9teDZwTlVOSE1qR09VdldpYnpJUlljLVhtQmRSMnVVZU9ib2FIQnc?oc=5",
+     "name": "CIO Dive"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE14aEZYQl9mcmIwd0Jwc3FqZS0tOEZBYWRDb0FYVE5qbnNLNUFHVWNMUDVYOVFkLVhxczhpQ2VUNmMwOTdad0had2J1QzVGeGQzY0VrUFdWUXRaWUU3cTBqZXk4Umpfb3IwUWxSeUZBTWsxVjdDdFE?oc=5",
+     "name": "ESG Dive"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-07T06:38:06+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-07"
+   },
+   "pdf_checked": "2026-10-13"
   },
   {
    "id": "7aeb950c6feb",

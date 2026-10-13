@@ -1537,5 +1537,23 @@
   "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84a0dxdGZWRFduUEhNWXRjb3FPTTRYb0tFRGpWNngtdHV6VkE0UmNoTkpaMnZ4dUxDVmlwNkRlekppZFhvS1FBdXd3WWU2dlpfWE14bEI0WDLSAVhBVV95cUxPOGtHcXRmVkRXblBITVl0Y29xT000WG9LRURqVjZ4LXR1elZBNFJjaE5KWjJ2eHVMQ1ZpcDZEZXpKaWRYb0tRQXV3d1llNnZaX1hNeGxCNFgy?oc=5",
   "source": "الراي",
   "reason": "KFH is not named in the source"
+ },
+ {
+  "checked": "2026-10-13",
+  "bank_id": "mashreq",
+  "date": "2026-10-12",
+  "title": "UAE bank partners with IBM on major Agentic AI pilot",
+  "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeWRSZi0tMEpIaHUzbG1oX1RXYlNHaDRReDFPRFlJa1kxVnBCWEVfY0h4VnI4dHpqb1VlS3VVal81a2pMXy1pajMxVnFxenNRYW9aTE50R2hIb3V3dWJQMWJtTHJGMXVXOXZJNXZyMnRXVkpwMnZidEpqVmYyV3NjeEs3YUdfcm1lbzVXU0Rmckh4clJrVVJCaWdmTzdUMkNFYkE?oc=5",
+  "source": "Arabian Business",
+  "reason": "Mashreq is not named in the source"
+ },
+ {
+  "checked": "2026-10-13",
+  "bank_id": "bbk",
+  "date": "2026-10-12",
+  "title": "«البحرين والكويت» يستكشف تطبيقات الذكاء الاصطناعي بالشراكة مع «ناصر العلمي»",
+  "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pNjZrcENmek1uTlp5S09BUG5TUTFJZ3k0U2JvNnhmYXRReWR5ckdpTnNUckh6SUZlRHJvaFQ3Z2pRM1BZb1hTYnI2M0dBbFMxOFJLQmJMekxOSTN1TFBOZzVUMkc2NVU?oc=5",
+  "source": "الأيام البحرينية",
+  "reason": "fact-check: Evidence refers to 'البحرين والكويت' (Bahrain and Kuwait entities), not specifically BBK, and partner name appears to be transliteration of Arabic text not clearly confirmed as 'Naser Al-Omari'."
  }
 ]

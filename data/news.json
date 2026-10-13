@@ -1,6 +1,49 @@
 {
- "updated_at": "2026-10-12T03:10:55+00:00",
+ "updated_at": "2026-10-13T04:27:13+00:00",
  "items": [
+  {
+   "id": "2fc821acf4cb",
+   "bank_id": "mashreq",
+   "country": "AE",
+   "date": "2026-10-12",
+   "title": "Mashreq Pilots IBM Bob to Advance Agentic AI for Integration Engineering",
+   "summary": "Mashreq is piloting IBM Bob, an agentic AI solution, to advance integration engineering capabilities.",
+   "category": "Generative AI & Copilots",
+   "topics": [
+    "Generative AI & Copilots",
+    "Tech Vendor Partnerships",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Agentic AI",
+    "IBM",
+    "Integration"
+   ],
+   "partners": [
+    "IBM"
+   ],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9XNTd5VmVXdTNRSllCeFcyLS1SM3RtT1I5dFJQS2pka29qLVc3Snd1aDdfRFd2U3pMcmZBQzFtdF83WEg0?oc=5",
+   "source_name": "بوابة التكنولوجيا المالية",
+   "source_title": "Mashreq Pilots IBM Bob to Advance Agentic AI for Integration Engineering",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9XNTd5VmVXdTNRSllCeFcyLS1SM3RtT1I5dFJQS2pka29qLVc3Snd1aDdfRFd2U3pMcmZBQzFtdF83WEg0?oc=5",
+     "name": "بوابة التكنولوجيا المالية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOcU1sVF9BRTNSejc4a2VEazFFZ25PVV9LSjFuamNDeWRTLXVqNDBmeUNQR0JsZy14Sk1wcmZmTnhROG9aRmc1d3VzMGdxQ2xFNXFrNlFUVHdIYzIxYmRxY29DU3Z3VE02STU5eG1qT1o5b2RvRTJ3MUpKVG9UbGh5RTNfTW5JZ2g0SDN0ZV8yaUxJbGc1c05YM2RDaDktUDhpNGttOS0tVUFVVkRfRjB2MjhzaUFaNU56ZGVZWlM0S0pUNVZZSTZleDJac044MHhUak16QmZYVmVOQQ?oc=5",
+     "name": "TradingView"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-13T04:23:13+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-13"
+   }
+  },
   {
    "id": "cf584c3e0ec8",
    "bank_id": "nbb",
@@ -220,6 +263,18 @@
     {
      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5VMFJic0p0RWZBcmFVUk95UUcteFJYY2RaV3NGU2tiOVZydHRRMzgwdG93R3hLd3VFZW82em90blVKUVBHS3lEcG1Iamo0X3NqaXdV?oc=5",
      "name": "GDNOnline"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcWtZcXMxX0thVE1jdlQwNDhlZ21McDRBdWpUeVNkc0Y5ZmE2eUl1M1A3cktDMVloUk9BdmVHRjJZY0NULWhqekwxYjd4LVMtdWcxTWY2cHhzNVZuczlmeDhRc2Vkd2FzN3RkWEZ1ZC1VdzA1Z3VmOVJWd29jVkNXM21BWDZJd0g2aVk1djl2VG1XT0RxcTZqZnBpSllUbmNFSmR5MUtZYzhLWjJVd3NkN3o2TQ?oc=5",
+     "name": "FF News"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnp2bU8xZGhvOHpRNzlINzdKck9xUVNvR3hlWVhEUDlwVzVXVTlrWnZrU3owYVgzX2JJMk0xV241aEhNUW40OGpqUmt1VHJZUzdiQ2s5aHFoNFVfdUItdkQ0ZXpNN2lCOV82U080azh4TDkyQk5MUlludmdwMHFyakptd21MdWJGNFB4MEpUY0FOQm5IVVItTFRldU4?oc=5",
+     "name": "The Fintech Times"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQcmFralUyQkVuZmRPNDNrOHJMWWgzeXhhd1pKdnZhMDlCMXNKVU0yRjRiTDBFWlpnODhFY25xYVdfYUlWWXhLc0V6ekFuTWFnYXlMam9hd1Q3ZE1YSmFkUFpONkRKU0lpM1c1YUNWRWt1RnBCU001MnFnRmotSm5fbmhyVVZtRjEwQTBaVHpkbmsxUzRSejFvQy1JbktsMU5YSVFkTDFiaVRfRXJDVDQySUxGYXVYdTB6b0ViSnlZQVBYN2d3QjkzVmNqTG5FV29lOEN4S295V1ZvRmxlV0h5V2d1WVFNbFRzTVp4NEozTC1tS1RjU29FQmNmbVoxckg3XzVlTFlTYzhWZlpIZUZlYVNSbWt0T3FZQ3J3YTM1VW8xdV8yQmw3UmF4S1lqaE9XYm9MUzFEVHNOaTRqenAwWUtPUXo3Y1phN3c4eVZWZkliZkZtNnB1ZTE3VQ?oc=5",
+     "name": "البوابة"
     }
    ],
    "language": "en",
