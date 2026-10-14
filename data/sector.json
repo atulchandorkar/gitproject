@@ -1,6 +1,309 @@
 {
- "updated_at": "2026-10-13T04:27:13+00:00",
+ "updated_at": "2026-10-14T02:38:34+00:00",
  "items": [
+  {
+   "id": "9a10a5c34b72",
+   "date": "2026-10-13",
+   "category": "Expert Views",
+   "publisher": "Finextra Research",
+   "countries": [
+    "Global"
+   ],
+   "title": "How Banks Can Safely Scale Agentic AI From Pilot to Production",
+   "summary": "Finextra Research provides guidance on scaling agentic AI in banking from pilot to production. The analysis addresses risk management and operational challenges banks face.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWGo1OXBYclp0d0Z6VTR0clZjZEJTRVp4SFVIOXFCbTUzS2V1ck5xc2NCUDI2NktmX2JKQko0ZnhfU2RlSVpZLVFBRUZDZ3p6bmFJVmhtdTZ5VDVtQWR2dXZqVWdmMVc3MDdaUmM1OXJ3cFBGN1N4TDM0RmJhZ2lfX2hBcDZwX2ZsVXBkQW15TkdPRXVGWDNJY3RscGJ0TF9pd1F5WGVib1M?oc=5",
+   "source_name": "Finextra Research",
+   "source_title": "How Banks Can Safely Scale Agentic AI From Pilot to Production",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWGo1OXBYclp0d0Z6VTR0clZjZEJTRVp4SFVIOXFCbTUzS2V1ck5xc2NCUDI2NktmX2JKQko0ZnhfU2RlSVpZLVFBRUZDZ3p6bmFJVmhtdTZ5VDVtQWR2dXZqVWdmMVc3MDdaUmM1OXJ3cFBGN1N4TDM0RmJhZ2lfX2hBcDZwX2ZsVXBkQW15TkdPRXVGWDNJY3RscGJ0TF9pd1F5WGVib1M?oc=5",
+     "name": "Finextra Research"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-14T02:37:54+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-14"
+   },
+   "pdf_checked": "2026-10-14"
+  },
+  {
+   "id": "1e2db01cb472",
+   "date": "2026-10-13",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Exclusive: Banking Regulators Intensify Scrutiny of Artificial Intelligence",
+   "summary": "Banking regulatory authorities are intensifying oversight of AI implementations in financial institutions. This regulatory focus addresses concerns about AI-related risks to financial stability.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZM0hvenNYNWlWV202Z2FiNWNhMzk1M2JNRjlCNXBwQzFxbklNbWRzZU9VV0N4Z3ZfYnROVG00a0lyUXJocWU4RDZWUG5INDZvRnV5MHRtMWY3RVNkWURGMGpLaHpYVkVXRlpFUzJtcW1yWDZVQkE2RlNJZFFVaUk?oc=5",
+   "source_name": "Reuters",
+   "source_title": "حصري-مصادر: جهات رقابة مصرفية تكثف التدقيق بشأن الذكاء الاصطناعي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZM0hvenNYNWlWV202Z2FiNWNhMzk1M2JNRjlCNXBwQzFxbklNbWRzZU9VV0N4Z3ZfYnROVG00a0lyUXJocWU4RDZWUG5INDZvRnV5MHRtMWY3RVNkWURGMGpLaHpYVkVXRlpFUzJtcW1yWDZVQkE2RlNJZFFVaUk?oc=5",
+     "name": "Reuters"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMigARBVV95cUxPNnEzYzJaNzloaHBIZTJNbkRGZ1RpSjE3eW1SbjRLZ2hodnZUajF5SGhpWDRxTEdtMWFOektLaGdVcmtUbUJaN3Zicy1wVUZXdWMxNldBcldWYlhSdkVNeFBYblJoeThON2FlclN6ZzRWU3dVMlhFQi1QWUV3clA0VGx0VDZBUG9XeUtPNkpZcjVOWTdFSDJHQTdWM0tWWFRzZ3o5SVF3YnpCcUJnVThuanZMcXhYbDdmSXVydlVhTGNpbV9iclMwWTVjZmdqbzd0MkVIdXZhMXltdFRDc0V4ZERXbl9QV2RybjIxOGlrT0oyOGhtQ3hVSjg5TWg2WXN0czVHWkFSQUlrWXR6Vm5GMlQtbjBvQ2Rfcmd6ZWVtNzA1YzVpNG5fZmhpODlTXzYzczRGVElVUlB3MjU2ZEJBbUMxbGlXWTlfa3hyYUFDYnUwZUJ5MThhLThnUVpUNDAtcG5Zb3ZDVURoRlhxcFdXNDZhdWtOT3FFalV2Nkh3bEtBb3VJTWtuWHJGV1B4VzVIZzN5NTk1Y1lJcmFzWUVjRTh5VC1EY2RmeXc3cWtHQUVEem84QjhqVHdldjF6bXAzX0swZmZFb3dJZDlKNzhCOXd1b2szZWd1d0M0SFpZQWVNRnJWdXpZTTBVZGNLRHY4ZDJJN0o1QmlUVTlqVGtketIBgARBVV95cUxPNnEzYzJaNzloaHBIZTJNbkRGZ1RpSjE3eW1SbjRLZ2hodnZUajF5SGhpWDRxTEdtMWFOektLaGdVcmtUbUJaN3Zicy1wVUZXdWMxNldBcldWYlhSdkVNeFBYblJoeThON2FlclN6ZzRWU3dVMlhFQi1QWUV3clA0VGx0VDZBUG9XeUtPNkpZcjVOWTdFSDJHQTdWM0tWWFRzZ3o5SVF3YnpCcUJnVThuanZMcXhYbDdmSXVydlVhTGNpbV9iclMwWTVjZmdqbzd0MkVIdXZhMXltdFRDc0V4ZERXbl9QV2RybjIxOGlrT0oyOGhtQ3hVSjg5TWg2WXN0czVHWkFSQUlrWXR6Vm5GMlQtbjBvQ2Rfcmd6ZWVtNzA1YzVpNG5fZmhpODlTXzYzczRGVElVUlB3MjU2ZEJBbUMxbGlXWTlfa3hyYUFDYnUwZUJ5MThhLThnUVpUNDAtcG5Zb3ZDVURoRlhxcFdXNDZhdWtOT3FFalV2Nkh3bEtBb3VJTWtuWHJGV1B4VzVIZzN5NTk1Y1lJcmFzWUVjRTh5VC1EY2RmeXc3cWtHQUVEem84QjhqVHdldjF6bXAzX0swZmZFb3dJZDlKNzhCOXd1b2szZWd1d0M0SFpZQWVNRnJWdXpZTTBVZGNLRHY4ZDJJN0o1QmlUVTlqVGtkeg?oc=5",
+     "name": "العربية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMitwRBVV95cUxQdEJpdkV5eUJSTUJWZW9EQnNZUVhubU1NWS1DUm1JRTVzWi1ubzFDOUZGR1FRd2QyQTJQMHJIVEtxQV9OalA3Z1BpeUFKSXVya00zajBfQnljelZ6NzBGX2lIZDZvMVd5U0FWMlNmM205dnNqcUpya0Nya3N3U0QwT2prY2VNN3ZieExFcnFjVkNaLU5BcFltbHJzeU1EZ1dlaXAxd3NPNHFTTk9wbVo4elE0ekVLMmFocUtmOTMzajI5dnRDdk5oMUtBazhfR3FyLU5aOG0ydG1ERDNhckNFcXkyQTA4Wmh4eHdEbzJ6WldSc29pRE1nQTRCV2ZRUzZQLWdSUWpTUzlIcGZ5bXp5azVzQ1c4UWh5RE5KZE54WUxheXNHNGxOcV9TdWFoUTdHM2xsRENtRDdDdnA4aklkOElORlVkOS1WWW9qbm5KcmhMVmdqUnBFQVlZUTN2MWpsZXczOVdJcEdsTU9seUFkQ01HU0J5eVpTczk2MWRfcVNRclNKcjE4RlNXRXpTVU1UWklHdGNBN0pRQ216Z3lwcEhCam5MaWFuRHlUYzNYNXh2ZHNGMkktT1QwSHRsNUgwU05XdjNkX0lzZGVEblFfaXdCcDVyVlIzcDlWVlQ1ZExSeXBUQnNBZTQtWlBnV01laVFHNExqcUFKMjluTTZYckdTTldyQWJiRExGZlZzMDZHQWpiMWpjRHFkR3MwRHFIVmhReEdvMXdndEVUV2dGbndhSUlzRnc?oc=5",
+     "name": "اندبندنت عربية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi7wRBVV95cUxPamxyTmpSTjVKRUpCTmY3RG03dmJ0X2ZpTHA4enVqVEtJNUJ5M3dpaXBRSjk4NnljQVJMWGZpUUdKOUw2V0VTcFB6d25JajRkalg0eHRxVVlWaXZDNmEzVGwzTGxBcGhvbkswLUZGVmFqdERlY09JdTJfWExfckhwWEVkMkdjajlzbzAwYTZOT0F0VG5yNFZuUm5aRHJjSzBrS2E4WklYU0pqeVJaTEJMV1A0aVk2NjBqVm13V1J3ZmlRNThKVUQ3M3QtcTVSY1piblA5b1F5S0VqUGx4OTV0TXZiSm01V1E1REJPN0tPOHlZVHNWbjlneGJ5SDZMOHJRNGFpNnBTLXpEeWltM0dtYWxvLU0wbzZmcFdjMEpsVFJPOUR3TXpXc095TURiWGp2ckpQS0c1SjQ0X25lTDZReEZDWXBuVnFEdnVBR2NTWUktTVhVZzl1OHNaNC1mMlFvS0ZnbnV1SXo1enBTb2VOQ3pJQnJhZ1hqczBFWXhYTHprd29SdUdTS0VBZGoxSE8tZ2FVUEI4Mk5nRkhLeDZUNWJJaUNEeFhhTEx2d1M5ckZpM1hhU2prR2pDVjM2VkhjNWloYXRvNjBBUjVsT3FHYl9HQTdKUlhRMkhjTVpvdllUWjhRLXM5QXdOYnk1R3h6ZjRPckMtNU5hd0g2Y0NkQ1Z1ZUtLWWtOOTR1NHcwSHJFVmp1MlFzRVppNWVhdmU0Zk5lb003TmZaMjNfdFN2T1Q2SVpCVmpZSzJXRHhmWVRxcVl2TnNtcS1NNXNjSHJTT3JOUWJPaDUxM1VLTHJLWlQ0RnZkMEpPLV8wdlFISQ?oc=5",
+     "name": "الشرق الأوسط"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE4xbGtXSWVHWGVGX2VTLVNzUU5DQlA2UUxTaU9qS05INWhuc3NyUE8xVEVrWTBTekFCeVRwNVduWG04VXBEV3BEWjAzSDc?oc=5",
+     "name": "قناة المملكة"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iNHVDT2tYV1ZKSndOeHZmaUdJU1NDdXhoOFNUM1ZKMDdDbVAybm55MG03MlZvWVhGVDk1eTY2anVjLTJBLVk0WE5qQzBpODA5Z2Vz?oc=5",
+     "name": "شبكة تواصل الإخبارية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMisgRBVV95cUxQNzdJLWhTaFFkbm9HWnVGRExla2ZwWUNaR3FJX3Bwc3R5bGNZR3JfTi0zc184SkVVQ20tTXVwTWdMM2JhVWJtc1A0OTBrZVEyNVpmMXNJLU1nSWhSd2Vld2VCMkxHQ3F2WlV6dWJDUnZTQWVkUS1oN2JBSVdHTkowVU54RVdPeWVmOHE5OUtOdUZfNWVlRzRneXQ3eHJfTFdoNHMwZ3dXRjBOQjlBd1hwTGl4MzVsamhYbWFaY2ZuRElNd1JxQmxmUEFWYlJnMUJneHBhendMQm5zWW5Ja252U2dySF81LThsclhOQ282TlMtaTAydWJ1bjJHc2xPSWtVUGdYRGZOdXMydUljSFJDS2NfRmVFcU12dkJnNE1LLW5aaE1MNExrT3RzVktpOVh4bHhSbnlMZkRfcFRpWjlrZm1vR2didGxlQURRdUlKTXlqdTY3V3RfZktUYWd4dXpyZXdPUl9iWXZRNEVCSTFubTlsV2w2U1h3NGhJMWNLT1c4SEQ2ZFRobmg2VlRUbzlpQnNxeDF4eEQ1bTlzcERLUVBlNUoxRzZndVJnSTBmZVJqUy1tUlhidkFKTVlzRnlDbjZEY0ZCbXJWZDEzZ1RTMUktYk5iZGd3T2I5MWt2dWlqRWhLUUV4RDg2aTJhX01vLUtCeVZHMXplMTd6MWFoRk5Ebkc0MHU2RjlEVndaNnU1LU5NU1lYX2ljUjRCZ00xRjhBaGZLT0ZvdlFzbVllTTBn?oc=5",
+     "name": "CNN الاقتصادية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9sQm1NRkFkcjlUNlFvYXRUZnFGT0lTN215UkUtUGZtcThMLVBoUjZzbVloQm81eHhCRk5wZl9tdUZaQlg5cmp3cTVpX0hUY3oyZVJR?oc=5",
+     "name": "شبكة تواصل الإخبارية"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-14T02:37:54+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-14"
+   },
+   "merged": [
+    {
+     "id": "7110bd5321b3",
+     "date": "2026-10-13",
+     "title": "Global Regulatory Authorities Intensify Scrutiny of Artificial Intelligence Risks in Banks",
+     "source_title": "جهات رقابية عالمية تشدد تدقيقها لمخاطر الذكاء الاصطناعي على البنوك",
+     "source_url": "https://news.google.com/rss/articles/CBMisgRBVV95cUxQNzdJLWhTaFFkbm9HWnVGRExla2ZwWUNaR3FJX3Bwc3R5bGNZR3JfTi0zc184SkVVQ20tTXVwTWdMM2JhVWJtc1A0OTBrZVEyNVpmMXNJLU1nSWhSd2Vld2VCMkxHQ3F2WlV6dWJDUnZTQWVkUS1oN2JBSVdHTkowVU54RVdPeWVmOHE5OUtOdUZfNWVlRzRneXQ3eHJfTFdoNHMwZ3dXRjBOQjlBd1hwTGl4MzVsamhYbWFaY2ZuRElNd1JxQmxmUEFWYlJnMUJneHBhendMQm5zWW5Ja252U2dySF81LThsclhOQ282TlMtaTAydWJ1bjJHc2xPSWtVUGdYRGZOdXMydUljSFJDS2NfRmVFcU12dkJnNE1LLW5aaE1MNExrT3RzVktpOVh4bHhSbnlMZkRfcFRpWjlrZm1vR2didGxlQURRdUlKTXlqdTY3V3RfZktUYWd4dXpyZXdPUl9iWXZRNEVCSTFubTlsV2w2U1h3NGhJMWNLT1c4SEQ2ZFRobmg2VlRUbzlpQnNxeDF4eEQ1bTlzcERLUVBlNUoxRzZndVJnSTBmZVJqUy1tUlhidkFKTVlzRnlDbjZEY0ZCbXJWZDEzZ1RTMUktYk5iZGd3T2I5MWt2dWlqRWhLUUV4RDg2aTJhX01vLUtCeVZHMXplMTd6MWFoRk5Ebkc0MHU2RjlEVndaNnU1LU5NU1lYX2ljUjRCZ00xRjhBaGZLT0ZvdlFzbVllTTBn?oc=5",
+     "source_name": "CNN الاقتصادية",
+     "summary": "Regulatory authorities worldwide are escalating their examination of artificial intelligence risks within the banking sector. The heightened scrutiny reflects global concerns about AI-related threats to financial institutions.",
+     "how": "ai",
+     "anchor": "Banking Regulators Intensify Scrutiny of Artificial Intelligence"
+    },
+    {
+     "id": "53d11cc63edb",
+     "date": "2026-10-13",
+     "title": "American and European regulators intensify oversight of artificial intelligence risks in banking",
+     "source_title": "جهات تنظيمية أميركية وأوروبية تكثّف رقابتها على مخاطر الذكاء الاصطناعي في القطاع المصرفي",
+     "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9sQm1NRkFkcjlUNlFvYXRUZnFGT0lTN215UkUtUGZtcThMLVBoUjZzbVloQm81eHhCRk5wZl9tdUZaQlg5cmp3cTVpX0hUY3oyZVJR?oc=5",
+     "source_name": "شبكة تواصل الإخبارية",
+     "summary": "Regulatory authorities in the US and Europe are strengthening supervision of AI-related risks in the banking sector. The oversight focuses on ensuring financial institutions properly manage AI implementation challenges.",
+     "how": "ai",
+     "anchor": "Banking Regulators Intensify Scrutiny of Artificial Intelligence"
+    },
+    {
+     "id": "bc631aa1b6bb",
+     "date": "2026-10-13",
+     "title": "Artificial intelligence prompts regulatory authorities to tighten banking scrutiny",
+     "source_title": "الذكاء الاصطناعي يدفع الجهات الرقابية لتشديد التدقيق المصرفي",
+     "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTVm5JOFF4c3ZNTGpzTHNHdWRLaXNxUDNYSm9hd3MweWkyblFaMGFwcW14Y1ZESlV6SWI4d3o0cjg3UHIyTldwOTE1al9KTjdvTklr?oc=5",
+     "source_name": "شبكة تواصل الإخبارية",
+     "summary": "Regulators are implementing stricter examination procedures in response to AI adoption across banking institutions. The enhanced oversight aims to mitigate emerging risks from artificial intelligence deployment.",
+     "how": "ai",
+     "anchor": "Banking regulators intensify scrutiny of artificial intelligence"
+    }
+   ],
+   "pdf_checked": "2026-10-14"
+  },
+  {
+   "id": "a087f10af90a",
+   "date": "2026-10-13",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "SBS Unveils Sovereign AI Platform for Core Banking",
+   "summary": "SBS unveiled a sovereign AI platform for core banking operations. The platform is designed to address security and data sovereignty requirements.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRE40eUpCWUdJdEd6alBYS2doYWFHX3M0UUJ4U0lWZnFHZ0pmQ09aZERvWEJGdEMyN3FtaXZvSk9CTFpiZ0h0b0tSbnRPVUMtVmFyV1h4djFrOWRHNU05elVGRlhidGRXQThQcFdJTjlERHQtZG1IbFA5MlB0Y3ZMcEpEUVVMTEdSMjF4dFRsVmlVUG9wbW9ZNw?oc=5",
+   "source_name": "Finextra Research",
+   "source_title": "SBS unveils sovereign AI platform for core banking",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRE40eUpCWUdJdEd6alBYS2doYWFHX3M0UUJ4U0lWZnFHZ0pmQ09aZERvWEJGdEMyN3FtaXZvSk9CTFpiZ0h0b0tSbnRPVUMtVmFyV1h4djFrOWRHNU05elVGRlhidGRXQThQcFdJTjlERHQtZG1IbFA5MlB0Y3ZMcEpEUVVMTEdSMjF4dFRsVmlVUG9wbW9ZNw?oc=5",
+     "name": "Finextra Research"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNVdKY2M4SW8wZnZyY1JQX1V6cmtwTXJYNTNKUmo0cUtRcm9zcVIyc2ppdllFSVFkUHE3Y3hfcTlUdnJJbWE2dC1fRnhzcWpwdzg3NWRyTm5WbXVyME5ZSG1YUU41YWZMUDZLTVowNFpsd2dmbTBjNHFCZF9uQzcxOGlVTVA2dFYyQThz?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-14T02:37:54+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-14"
+   },
+   "pdf_checked": "2026-10-14"
+  },
+  {
+   "id": "f1ac46bdcf64",
+   "date": "2026-10-13",
+   "category": "Maturity & Rankings",
+   "publisher": "Everest Group",
+   "countries": [
+    "Global"
+   ],
+   "title": "Everest Group Names Backbase a Luminary in Innovation Watch: Agentic AI in Banking",
+   "summary": "Everest Group has recognized Backbase as a leading innovator in agentic AI solutions for banking in its Innovation Watch research. The ranking highlights companies advancing agentic AI capabilities in financial services.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQX1drajJKSFRfYlhJWGxYZERFMUtlOGpiSFB3NXEyUGkxdnNpZmc5Tk42NFAzZEEwR0VhNW82cXlmWG5tRkw5VVdsY3djNHFCSUgzSjUwS1pCWXZrNDFWR1hRTklyNndxTjZlWVpLQ18yRzJBbldaYW5BRFREbDFDTzBtMFVxcjBJSjFuUUttNC1hOTBDVlQzcS1jSC1qdjdBSko3Z1Z4aDh0ekFkUmlwWVhjel9nYzFyLWtLNzg2M0lyTVFjbHV5N1MzUjEwYlRJcjBHNg?oc=5",
+   "source_name": "Business Wire",
+   "source_title": "Everest Group Names Backbase a Luminary in Innovation Watch: Agentic AI in Banking",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQX1drajJKSFRfYlhJWGxYZERFMUtlOGpiSFB3NXEyUGkxdnNpZmc5Tk42NFAzZEEwR0VhNW82cXlmWG5tRkw5VVdsY3djNHFCSUgzSjUwS1pCWXZrNDFWR1hRTklyNndxTjZlWVpLQ18yRzJBbldaYW5BRFREbDFDTzBtMFVxcjBJSjFuUUttNC1hOTBDVlQzcS1jSC1qdjdBSko3Z1Z4aDh0ekFkUmlwWVhjel9nYzFyLWtLNzg2M0lyTVFjbHV5N1MzUjEwYlRJcjBHNg?oc=5",
+     "name": "Business Wire"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOU2x6UmdfM1NYMGtQOXRJc3Y5MzhXbkJWLUJCendVTE93VFI2Sk1tZUdtcVRRc1dpWHpZTEhiN0l2bUN1Q09Ld0pkQ25QVHRvbEotbXhIcjUtUlpTMHVFY0twUEtjRVpXNnF5aC1ia3hPRExyZnJ1a1lnZm5BZ0ZyRzAzc3Jkd2hXTHRVU2cxS1ViLWF3WUJtSlVSaTh4a1ZydFdGVWk0VjA3RGZEangxaGtJa28wb0dXSFB0V2FmR0lYMGEzZHJiNi0zd1YwNDRMcUxBQW5fT1M4S3I4cjNUYXZBVEZyaXdLNWlEZmNkNVZDUkhsNktz?oc=5",
+     "name": "Bluefield Daily Telegraph"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-14T02:37:54+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-14"
+   },
+   "pdf_checked": "2026-10-14"
+  },
+  {
+   "id": "073fd9d99b51",
+   "date": "2026-10-13",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "TD Bank Deploys Agentic AI to Slash Mortgage Processing Times and Boost Productivity",
+   "summary": "TD Bank has deployed agentic AI technology to reduce mortgage processing times and increase operational productivity. The deployment shows efficiency gains in a core banking process.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTW5idHVGdWQ4amVESWtfajZmTzNIY0tDT1RScnFQdmowekctUUpuV3lYdXRBVkRRU0xSVFNVMFRrNV8tdnhsMmxyVGpkTTRrUnVtbWhBMnJ1T2Uwd0Q3dTRPQ0d5blkySmVOX1ZuVWpnVHA3MGNtSUJEb0VoQm5MR3ZZc0o3TzNTV01FTF9EUG9sX3A0YnJ5QmJYMTZBV3I3dVhDel9CZE1mMF80d2tSUHZCMA?oc=5",
+   "source_name": "FF News",
+   "source_title": "TD Bank Deploys Agentic AI to Slash Mortgage Processing Times and Boost Productivity",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTW5idHVGdWQ4amVESWtfajZmTzNIY0tDT1RScnFQdmowekctUUpuV3lYdXRBVkRRU0xSVFNVMFRrNV8tdnhsMmxyVGpkTTRrUnVtbWhBMnJ1T2Uwd0Q3dTRPQ0d5blkySmVOX1ZuVWpnVHA3MGNtSUJEb0VoQm5MR3ZZc0o3TzNTV01FTF9EUG9sX3A0YnJ5QmJYMTZBV3I3dVhDel9CZE1mMF80d2tSUHZCMA?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-14T02:37:54+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-14"
+   },
+   "pdf_checked": "2026-10-14"
+  },
+  {
+   "id": "995372e5e088",
+   "date": "2026-10-13",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Deutsche Bank Scales On-Premise AI Across Investment Banking and Capital Markets",
+   "summary": "Deutsche Bank has scaled on-premise AI infrastructure across investment banking and capital markets divisions using secure AI workflow technology. The deployment demonstrates enterprise-wide AI adoption in core banking.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTG5sc0tMSTM0TkpPWDhFV3NCbFgzeTBmRDJyNWUxcFlmc053UTM0Vk5vaHgwaVByRDhleURvU18xR2R3VjR3aXU5eld6V3BHMjRJWjVsVGRMeDh3VGY3ZWVBWVRMQkhHX0ZVQmZPUjhIazAwOC1jZUd5MHA5Tjg0X0ZCZkh6ck94WWRXZHpTcUUxU3oybjVyaXB4TDlnN1U2Vjc4dE92eWQ0OE5UNjBSVDNBUQ?oc=5",
+   "source_name": "FF News",
+   "source_title": "Deutsche Bank Scales On-Premise AI Across Investment Banking and Capital Markets with Farsight",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTG5sc0tMSTM0TkpPWDhFV3NCbFgzeTBmRDJyNWUxcFlmc053UTM0Vk5vaHgwaVByRDhleURvU18xR2R3VjR3aXU5eld6V3BHMjRJWjVsVGRMeDh3VGY3ZWVBWVRMQkhHX0ZVQmZPUjhIazAwOC1jZUd5MHA5Tjg0X0ZCZkh6ck94WWRXZHpTcUUxU3oybjVyaXB4TDlnN1U2Vjc4dE92eWQ0OE5UNjBSVDNBUQ?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-14T02:37:54+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-14"
+   },
+   "pdf_checked": "2026-10-14"
+  },
+  {
+   "id": "d6dcd5cb25ab",
+   "date": "2026-10-13",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Video: Microsoft at Sibos 2026 - How Banks Are Entering the Agentic AI Era",
+   "summary": "Microsoft presented insights at the Sibos banking conference on how financial institutions are adopting and deploying agentic AI technologies. The presentation reflects industry momentum in agentic AI adoption.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50ai1qVEFvZ1dQVGozUDhRMlQ2UUdPempWd1NTblFqYUVBNnZidkEwTTBLa214NElVZjBfaWxvVkMtQ1ZRb2tabzIyNU8yajFMWW1VUXE0YWg2WHdtMFZkVG9FMU02Y2pXck1JM0VJXzBTRk9pRmpQY3ZBYmtEbEk?oc=5",
+   "source_name": "FinTech Futures",
+   "source_title": "Video: Microsoft at Sibos 2026 - How banks are entering the agentic AI era",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50ai1qVEFvZ1dQVGozUDhRMlQ2UUdPempWd1NTblFqYUVBNnZidkEwTTBLa214NElVZjBfaWxvVkMtQ1ZRb2tabzIyNU8yajFMWW1VUXE0YWg2WHdtMFZkVG9FMU02Y2pXck1JM0VJXzBTRk9pRmpQY3ZBYmtEbEk?oc=5",
+     "name": "FinTech Futures"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-14T02:37:54+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-14"
+   },
+   "pdf_checked": "2026-10-14"
+  },
+  {
+   "id": "0926f76c564f",
+   "date": "2026-10-13",
+   "category": "Expert Views",
+   "publisher": "World Bank",
+   "countries": [
+    "Global"
+   ],
+   "title": "World Bank: Artificial Intelligence Financing Will Not Reduce Investment Flows to Developing Countries",
+   "summary": "The World Bank has provided analysis on the relationship between AI financing and capital flows to developing economies. The assessment indicates that increased AI investment will not diminish funds available for emerging markets.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiugVBVV95cUxPTnZ4T2V1Y2xlVDhnS0lGVXpQOTZWY3F2LTNhM0psM1VXM1JtWnhGTjBDNTRoTTZJTkYzTjRVc1phZ3RUVVB4ODhIcjlFYnU1YTFnR2QwZ19YeDgybFhTSGpXMjBuYk9xYUk5UU9HUmFndHZMTDV5T21BOURkQWg3RHZRZ3dEWXkwRTJ0ZGJzR296RUs1S0pXUkN2SnBIV1JqMS00NU1mN0NkSTdiWC1TN1E3RXByMUwxdElpSkRyNUxoenJlOXhja3o3cmRsZWtnSUVfdThUVTZXb1RzTXJOYV9MRW1FTENuVGFMWEs5bmVubkd0VWptUm54SHYxVXdwNUZvb19RNUdETTVyeDVsbzFUdXNQd2dUOU9jaXVWaFhpNXk0N1NpamJIeHdoTDdOaEVIX1JYbDkwamJrQVdBVmI1d3hLOVE1VlFldG5CdzAxOENyVUtlVVh5TzFFTDYxUU5VRzlmR0JheDlWenp2bVpXR0xxNTRpUm9HMFdQQUQ4NDZGYjVQMEp3MDk1ejlmUWRIclI5UThKQ2ZiZGZsYlktQlhuTXVvaHRNZDdseWhnQkVnTzBvQ21XdGc0WF9FLUhrVzFaN0RKRTlsLU8yd2hZMUU1RTZRbk1OeXVjNjNMbDg4SXE2NHQtQk4wT0NFWEdOUXBBbnpib3hzdVF1bDNkREpkWEJ1QmU2SlJoLWdhT0pXLTlzeHBCS196NEE5REhmRjBnTzh6RklEc0NqOVFlc2NFM1VQSU5POU5BXzhpa0lqTF9jd01laVhqTjlmU3JSTllnS19wQlhzM1BfcllsbjYtNDVUT3ZBNGk4MXNMWHlnaXNNSTZoUEJyYmQ1aHdVZ1VHTF9BR1Zfbnk3QUFCclVXR0VMOXJ6M0dOb1FQcTVUZDlrVHRROWg3Mjg1cEdrdkhPWUxBZw?oc=5",
+   "source_name": "الشرق الأوسط",
+   "source_title": "البنك الدولي: تمويل الذكاء الاصطناعي لن يحدّ من تدفقات الاستثمار إلى الدول النامية",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiugVBVV95cUxPTnZ4T2V1Y2xlVDhnS0lGVXpQOTZWY3F2LTNhM0psM1VXM1JtWnhGTjBDNTRoTTZJTkYzTjRVc1phZ3RUVVB4ODhIcjlFYnU1YTFnR2QwZ19YeDgybFhTSGpXMjBuYk9xYUk5UU9HUmFndHZMTDV5T21BOURkQWg3RHZRZ3dEWXkwRTJ0ZGJzR296RUs1S0pXUkN2SnBIV1JqMS00NU1mN0NkSTdiWC1TN1E3RXByMUwxdElpSkRyNUxoenJlOXhja3o3cmRsZWtnSUVfdThUVTZXb1RzTXJOYV9MRW1FTENuVGFMWEs5bmVubkd0VWptUm54SHYxVXdwNUZvb19RNUdETTVyeDVsbzFUdXNQd2dUOU9jaXVWaFhpNXk0N1NpamJIeHdoTDdOaEVIX1JYbDkwamJrQVdBVmI1d3hLOVE1VlFldG5CdzAxOENyVUtlVVh5TzFFTDYxUU5VRzlmR0JheDlWenp2bVpXR0xxNTRpUm9HMFdQQUQ4NDZGYjVQMEp3MDk1ejlmUWRIclI5UThKQ2ZiZGZsYlktQlhuTXVvaHRNZDdseWhnQkVnTzBvQ21XdGc0WF9FLUhrVzFaN0RKRTlsLU8yd2hZMUU1RTZRbk1OeXVjNjNMbDg4SXE2NHQtQk4wT0NFWEdOUXBBbnpib3hzdVF1bDNkREpkWEJ1QmU2SlJoLWdhT0pXLTlzeHBCS196NEE5REhmRjBnTzh6RklEc0NqOVFlc2NFM1VQSU5POU5BXzhpa0lqTF9jd01laVhqTjlmU3JSTllnS19wQlhzM1BfcllsbjYtNDVUT3ZBNGk4MXNMWHlnaXNNSTZoUEJyYmQ1aHdVZ1VHTF9BR1Zfbnk3QUFCclVXR0VMOXJ6M0dOb1FQcTVUZDlrVHRROWg3Mjg1cEdrdkhPWUxBZw?oc=5",
+     "name": "الشرق الأوسط"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-14T02:37:54+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-14"
+   },
+   "pdf_checked": "2026-10-14"
+  },
   {
    "id": "60778fbb59d4",
    "date": "2026-10-12",
@@ -93,6 +396,39 @@
     "checked": "2026-10-11"
    },
    "pdf_checked": "2026-10-11"
+  },
+  {
+   "id": "e665b51eb65d",
+   "date": "2026-10-09",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Standard Bank and US create guardrails and guidelines for AI developed",
+   "summary": "Standard Bank and US partners have developed guardrails and guidelines for artificial intelligence systems in banking. The collaborative effort establishes best practices for responsible AI deployment.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOejhVNjVaXzhjUDJEdUg3cmc5VVRBQmdaUVR5MjJ6bXJqTFVuZFI4V242X2NGN0NQeGF2WVpzdVNYRUdqMGQyZ1ZsWlZkb2JkcDFlLUZkYklnZ2t4aWV4Y3ctdGZmeldYTkMyZ0p2WTN0VVZvZUlzV1NHcjZVSjZOQnRZT3hubGJWM291OFlGaWJsejNJVkVmb01CY3dIaXJzZExzeXJRZWZ1Q2c?oc=5",
+   "source_name": "novanews.co.za",
+   "source_title": "Standard Bank and US create guardrails and guidelines for AI developed",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOejhVNjVaXzhjUDJEdUg3cmc5VVRBQmdaUVR5MjJ6bXJqTFVuZFI4V242X2NGN0NQeGF2WVpzdVNYRUdqMGQyZ1ZsWlZkb2JkcDFlLUZkYklnZ2t4aWV4Y3ctdGZmeldYTkMyZ0p2WTN0VVZvZUlzV1NHcjZVSjZOQnRZT3hubGJWM291OFlGaWJsejNJVkVmb01CY3dIaXJzZExzeXJRZWZ1Q2c?oc=5",
+     "name": "novanews.co.za"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOejhVNjVaXzhjUDJEdUg3cmc5VVRBQmdaUVR5MjJ6bXJqTFVuZFI4V242X2NGN0NQeGF2WVpzdVNYRUdqMGQyZ1ZsWlZkb2JkcDFlLUZkYklnZ2t4aWV4Y3ctdGZmeldYTkMyZ0p2WTN0VVZvZUlzV1NHcjZVSjZOQnRZT3hubGJWM291OFlGaWJsejNJVkVmb01CY3dIaXJzZExzeXJRZWZ1Q2c?oc=5",
+     "name": "https://novanews.co.za/"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-10T03:17:58+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-10"
+   },
+   "pdf_checked": "2026-10-14"
   },
   {
    "id": "c84cdb94f33c",

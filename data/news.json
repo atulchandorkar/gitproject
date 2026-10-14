@@ -1,13 +1,13 @@
 {
- "updated_at": "2026-10-13T04:27:13+00:00",
+ "updated_at": "2026-10-14T02:38:34+00:00",
  "items": [
   {
-   "id": "2fc821acf4cb",
+   "id": "019fb3b5cf85",
    "bank_id": "mashreq",
    "country": "AE",
    "date": "2026-10-12",
-   "title": "Mashreq Pilots IBM Bob to Advance Agentic AI for Integration Engineering",
-   "summary": "Mashreq is piloting IBM Bob, an agentic AI solution, to advance integration engineering capabilities.",
+   "title": "Mashreq and IBM Pilot Agentic AI to Revolutionize Software Engineering in Digital Banking",
+   "summary": "Mashreq has partnered with IBM to pilot agentic AI technology for software engineering in digital banking operations.",
    "category": "Generative AI & Copilots",
    "topics": [
     "Generative AI & Copilots",
@@ -16,6 +16,8 @@
    ],
    "tags": [
     "Agentic AI",
+    "Software engineering",
+    "Banking automation",
     "IBM",
     "Integration"
    ],
@@ -23,10 +25,18 @@
     "IBM"
    ],
    "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9XNTd5VmVXdTNRSllCeFcyLS1SM3RtT1I5dFJQS2pka29qLVc3Snd1aDdfRFd2U3pMcmZBQzFtdF83WEg0?oc=5",
-   "source_name": "بوابة التكنولوجيا المالية",
-   "source_title": "Mashreq Pilots IBM Bob to Advance Agentic AI for Integration Engineering",
+   "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR1RrdFpPNDViM3VCdXpqOVpRZ2tIOWx5bThIMlZpTF9QNjZpZmMzY0c0TVdfY2RqUWFfdkxPaXJ4Q216cjRaNTgwS0M5VGFCYjI0LWtyMlZJR0tSSXktNFpxZnpneFoxeGU1ZnJvUDdvMHZHNENhN1NOVHdMa1RCalJHVWg5UmY4eU5YSVJWcUJZYUpsLUlYVE9hQThuYlA3ZElTTFJIeVQ?oc=5",
+   "source_name": "FF News",
+   "source_title": "Mashreq and IBM Pilot Agentic AI to Revolutionize Software Engineering in Digital Banking",
    "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR1RrdFpPNDViM3VCdXpqOVpRZ2tIOWx5bThIMlZpTF9QNjZpZmMzY0c0TVdfY2RqUWFfdkxPaXJ4Q216cjRaNTgwS0M5VGFCYjI0LWtyMlZJR0tSSXktNFpxZnpneFoxeGU1ZnJvUDdvMHZHNENhN1NOVHdMa1RCalJHVWg5UmY4eU5YSVJWcUJZYUpsLUlYVE9hQThuYlA3ZElTTFJIeVQ?oc=5",
+     "name": "FF News"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNS3dxTHZqeVBfOTJWaUE1N2FMbzRGaTRMNXJ0YkVkQUtEbTkyN0U2NE1xX3BsVGU5SGlILU1QbkgzYTJTcTdJOFEzZU5PckNBX1FQMnA4RlhQT2pWcEN0WEpTcEhqVEl0VTJDbEVxYjMya2RMNkNSRWIweW00dmZYZTBXaDR1VTg5OGUxMjlzOXRrY2Y0dm53NHJXc20xQS1wTjRCeTlSTjZpTlR4bnZYa2VGeHRfSTk0?oc=5",
+     "name": "Fast Company Middle East"
+    },
     {
      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9XNTd5VmVXdTNRSllCeFcyLS1SM3RtT1I5dFJQS2pka29qLVc3Snd1aDdfRFd2U3pMcmZBQzFtdF83WEg0?oc=5",
      "name": "بوابة التكنولوجيا المالية"
@@ -37,12 +47,25 @@
     }
    ],
    "language": "en",
-   "added_at": "2026-10-13T04:23:13+00:00",
+   "added_at": "2026-10-14T02:34:04+00:00",
    "verification": {
-    "level": "corroborated",
+    "level": "trusted",
     "evidence": "headline",
-    "checked": "2026-10-13"
-   }
+    "checked": "2026-10-14"
+   },
+   "merged": [
+    {
+     "id": "2fc821acf4cb",
+     "date": "2026-10-12",
+     "title": "Mashreq Pilots IBM Bob to Advance Agentic AI for Integration Engineering",
+     "source_title": "Mashreq Pilots IBM Bob to Advance Agentic AI for Integration Engineering",
+     "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9XNTd5VmVXdTNRSllCeFcyLS1SM3RtT1I5dFJQS2pka29qLVc3Snd1aDdfRFd2U3pMcmZBQzFtdF83WEg0?oc=5",
+     "source_name": "بوابة التكنولوجيا المالية",
+     "summary": "Mashreq is piloting IBM Bob, an agentic AI solution, to advance integration engineering capabilities.",
+     "how": "ai",
+     "anchor": "Mashreq and IBM pilot agentic AI"
+    }
+   ]
   },
   {
    "id": "cf584c3e0ec8",

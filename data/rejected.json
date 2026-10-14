@@ -1555,5 +1555,14 @@
   "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9pNjZrcENmek1uTlp5S09BUG5TUTFJZ3k0U2JvNnhmYXRReWR5ckdpTnNUckh6SUZlRHJvaFQ3Z2pRM1BZb1hTYnI2M0dBbFMxOFJLQmJMekxOSTN1TFBOZzVUMkc2NVU?oc=5",
   "source": "الأيام البحرينية",
   "reason": "fact-check: Evidence refers to 'البحرين والكويت' (Bahrain and Kuwait entities), not specifically BBK, and partner name appears to be transliteration of Arabic text not clearly confirmed as 'Naser Al-Omari'."
+ },
+ {
+  "checked": "2026-10-14",
+  "bank_id": "nbb",
+  "date": "2026-10-13",
+  "title": "UOB and AWS ink MoU for cloud and AI capabilities",
+  "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11QXQwbHBEZzVZZHJfTlJIVHVvMTFuMGxVOUhmOU9wMjA2V2luWGVZR2JWQzNpeVRWZFVJamd1bWdyNjJ6b0UxQnRWS2N3T0d2RTh2aW5FYjNUY1hBbHFEcXZZdXFQYnIxZzFYUGRQd3M?oc=5",
+  "source": "FinTech Futures",
+  "reason": "NBB is not named in the source"
  }
 ]
