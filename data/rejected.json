@@ -1564,5 +1564,23 @@
   "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11QXQwbHBEZzVZZHJfTlJIVHVvMTFuMGxVOUhmOU9wMjA2V2luWGVZR2JWQzNpeVRWZFVJamd1bWdyNjJ6b0UxQnRWS2N3T0d2RTh2aW5FYjNUY1hBbHFEcXZZdXFQYnIxZzFYUGRQd3M?oc=5",
   "source": "FinTech Futures",
   "reason": "NBB is not named in the source"
+ },
+ {
+  "checked": "2026-10-15",
+  "bank_id": "cbkw",
+  "date": "2026-09-15",
+  "title": "CBK marks 60 years with AI conference, AACB meetings",
+  "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcldPMFE3VUZzallVdVJRNTlxRmczTlFBd05rbzZsQkoxNnJ0MEVobXowZEtiRzJabHhidzh3NWxEdHpva2dGMkhvTmlCWm5KQmhjb2RaanczZVB3UVI4dGNDYldnUTRLTlNDWXMycVVCSGFudEY3RE1vWHFLUWI2dDFpbWs?oc=5",
+  "source": "Sacco Review",
+  "reason": "CBK (Central) is not named in the source"
+ },
+ {
+  "checked": "2026-10-15",
+  "bank_id": "cbuae",
+  "date": "2026-10-14",
+  "title": "Ant International Obtains Key Licenses from the Central Bank of the UAE to Support Digital Payments in the AI Era",
+  "source_url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNWEZSYVU2MldwVW5odDlmUGJmOUNQNDNSRl9nMzRaU1NKS1VlYW5mTlNsM3pBR2RUcWpsalE2VzFHc1dqYmt1V1lKM01xb2lxSWZoV3R4U3ZTU1JCQXJpeWlIcXJkT1pvVnNybTBseWJHTWFKMGppVHFFbm9hNHMwSVlBclNLa2cxaXRNX1lpVUFJQjlEYjJlY2N0TTRNbmtKa1Zsb01EMG5LUVNOV1NBOG1QRDRKYjFTdnQxWXF5REloOVExVEF2SmllTkdrTG1LLXZ3NV81NG1iOWJLR080YUFUaVlYeVYwQ0hvRTFVc1FaX0tjcDgxTXlydFJTeVE5STE0?oc=5",
+  "source": "FinancialContent",
+  "reason": "fact-check: Summary claims the licenses are 'in the context of the AI era' but evidence does not establish this causal or contextual link; the headline only mentions AI era in framing digital payments support."
  }
 ]
