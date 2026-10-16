@@ -1,6 +1,109 @@
 {
- "updated_at": "2026-10-15T02:19:18+00:00",
+ "updated_at": "2026-10-16T02:09:30+00:00",
  "items": [
+  {
+   "id": "6ed365d707a5",
+   "date": "2026-10-15",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "HSBC's Head of Banking comments on increasing complexity of AI deals",
+   "summary": "HSBC's Head of Banking has noted that AI-related business transactions are becoming more complex. The observation reflects broader market challenges in implementing AI solutions.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMkxZeUV3WGNVb1c1dXI0Q29pdVdCd3BuemRJN2dBVnp0aURZZHRnNnV1Q0hCOEQ4NVNfaElza0J2dlRIZFpGcnZzaVFTTXVzZm1KbzlxYmhTTkw0d19IQ1J0RDNTa3hJa0xEOEFyX3NHNzZaM0o1aDJ0WWtHekJ6U0dUVmp2WXBGWjR1ZUp1VW1HOUNHdl9XQjBlQ1JhOTlCZHhoYVRUcjhVMXVQNDZKY3h2VjY?oc=5",
+   "source_name": "Bloomberg.com",
+   "source_title": "HSBC’s Head of Banking Says AI Deals Are Getting More Difficult",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMkxZeUV3WGNVb1c1dXI0Q29pdVdCd3BuemRJN2dBVnp0aURZZHRnNnV1Q0hCOEQ4NVNfaElza0J2dlRIZFpGcnZzaVFTTXVzZm1KbzlxYmhTTkw0d19IQ1J0RDNTa3hJa0xEOEFyX3NHNzZaM0o1aDJ0WWtHekJ6U0dUVmp2WXBGWjR1ZUp1VW1HOUNHdl9XQjBlQ1JhOTlCZHhoYVRUcjhVMXVQNDZKY3h2VjY?oc=5",
+     "name": "Bloomberg.com"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-16T02:09:13+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-16"
+   },
+   "pdf_checked": "2026-10-16"
+  },
+  {
+   "id": "6be1ef1d0300",
+   "date": "2026-10-15",
+   "category": "Regulation & Guidance",
+   "publisher": "Saudi Arabia Monetary Authority",
+   "countries": [
+    "Global"
+   ],
+   "title": "Saudi regulator highlights artificial intelligence and digital asset risks requiring enhanced financial oversight",
+   "summary": "SAMA identifies risks in AI and digital assets requiring stronger financial regulatory oversight. Enhanced monitoring of emerging technologies protects the banking system.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5zWXIybHRLa3ZEclhzWFZSbDliMXlaeFFhQmNNalJtZE1KY3NLN29mVjg3dWZFMXJMVTl5ZjdPenEyNUR3WVVDUnNMUkNrZW85Qnd5atIBVEFVX3lxTE54ZVVuQXpZTlptMkl0S0RvRjIwRF9Uc1k2RlVGT0dPemtlSjlzSXJpSC1uRnI1ZTI3R3ZHbFZXN3ZPX052RUxQSnJucnNQRE1pUjNiMw?oc=5",
+   "source_name": "عكاظ",
+   "source_title": "«ساما»: مخاطر الذكاء الاصطناعي والأصول الرقمية تتطلب تعزيز الرقابة المالية",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5zWXIybHRLa3ZEclhzWFZSbDliMXlaeFFhQmNNalJtZE1KY3NLN29mVjg3dWZFMXJMVTl5ZjdPenEyNUR3WVVDUnNMUkNrZW85Qnd5atIBVEFVX3lxTE54ZVVuQXpZTlptMkl0S0RvRjIwRF9Uc1k2RlVGT0dPemtlSjlzSXJpSC1uRnI1ZTI3R3ZHbFZXN3ZPX052RUxQSnJucnNQRE1pUjNiMw?oc=5",
+     "name": "عكاظ"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-16T02:09:13+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-16"
+   },
+   "pdf_checked": "2026-10-16"
+  },
+  {
+   "id": "96ee77558ba9",
+   "date": "2026-10-14",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Hong Kong Monetary Authority launches platform for responsible AI adoption in banking",
+   "summary": "The HKMA has launched a platform to support responsible AI adoption in banking. The initiative provides guidance and tools to help financial institutions manage AI risks.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5UTVmcU1kejEybmZMZFdKXzlNRW9RdERibHNZVmFVVTl5NHphWWRMMV80X2lIaVkzT2NXY2JtclRkajNoRjFwNzFocjl0ZVNSd1pvenFGX2FrUQ?oc=5",
+   "source_name": "chinadailyhk",
+   "source_title": "HKMA launches platform for responsible AI adoption in banking",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5UTVmcU1kejEybmZMZFdKXzlNRW9RdERibHNZVmFVVTl5NHphWWRMMV80X2lIaVkzT2NXY2JtclRkajNoRjFwNzFocjl0ZVNSd1pvenFGX2FrUQ?oc=5",
+     "name": "chinadailyhk"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQa2ZELWo0a29EQ3R4SjN6TktRVFFpblVERXptWkoxbzQ0eVJRLWxRV0RvNDh2QTJTSmV6RXVhYUZwU0xMMnVueUh0WGJrQUsyZWV1V1A0SXZtQ1NCVGxHcHVuM1R3U29Ba3NLY3d4ZmUxY0swY3B4Vi1xZDVyeFV0NU1GQmR6Wko3bE9NekFIaVladw?oc=5",
+     "name": "Blockchain News"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNFhPYXROMHBSa0dWU2Jpb080WTkxTjRJdUVnQm1nOXlXQ205aE9yb0dyMFJGWjFBRU9vaWljYk1BLUdudGZ3R3dxN25rNldxaExra2VyVDcyTUZHQlJzTGJwYllOOWxFVEV2R05hbzQ2TmFWRFNRUzUyd0tJcHY4VGhac2FKRVpJZ09GbnFGcG9KTHJadzhuZWFIcVpTc3pSdkVhdWRabjFqY1AzWkJaS3VlZi1ubVc3U0podQ?oc=5",
+     "name": "The Standard (HK)"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNEJVWU9vMjIzTDRhX0M3SWFybkRuRi1qYkZqZmNYMnlMUTJrblg5d3NQa1lpWFd3eEJ0MUp1U1JmekxtUFVKSHkwekprMWZPT0tBaEFEZXltR2hINDBxYUd1dDlrcnJnc281TDdaTkN6YkNMNlRZaExXd0JqbHE3SWNYQ1hfMGs?oc=5",
+     "name": "香港電台新聞網"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzR3MwdWhOLUpXNFE0bkNGSDh2VnFUcFlvWm1LQ0tSUTJCVjllaFdRWlYwTFg5ZHQwYnlJRUNGWGQzTmxSSmFMcWt1STNDak01RWw5bkFuYmNNcy1uUnd5bnV0Y1c3Y3ZoMHhoT3lERQ?oc=5",
+     "name": "香港電台新聞網"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-16T02:09:13+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-16"
+   },
+   "pdf_checked": "2026-10-16"
+  },
   {
    "id": "a6c0fde6d669",
    "date": "2026-10-14",
