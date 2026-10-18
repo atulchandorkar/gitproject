@@ -1,6 +1,123 @@
 {
  "digests": [
   {
+   "id": "2026-10-17",
+   "start": "2026-10-11",
+   "end": "2026-10-17",
+   "created_at": "2026-10-18T02:02:59+00:00",
+   "counts": {
+    "news": 5,
+    "banks": 4,
+    "annual_report_items": 0,
+    "annual_report_banks": 0,
+    "studies": 22
+   },
+   "countries": {
+    "AE": 4,
+    "BH": 1
+   },
+   "themes": [
+    [
+     "AI Adoption in Operations",
+     3
+    ],
+    [
+     "AI Strategy & Leadership",
+     2
+    ],
+    [
+     "AI Skills & Talent",
+     2
+    ],
+    [
+     "Generative AI & Copilots",
+     1
+    ],
+    [
+     "Tech Vendor Partnerships",
+     1
+    ],
+    [
+     "Fraud, Risk & Compliance",
+     1
+    ]
+   ],
+   "partners": [
+    [
+     "IBM",
+     1
+    ]
+   ],
+   "banks": [
+    [
+     "fab",
+     2
+    ],
+    [
+     "mashreq",
+     1
+    ],
+    [
+     "nbb",
+     1
+    ],
+    [
+     "cbd",
+     1
+    ]
+   ],
+   "top": [
+    "019fb3b5cf85",
+    "09d3537f1816",
+    "0128e9e6f9be",
+    "cf584c3e0ec8",
+    "e94747f1e551"
+   ],
+   "studies_top": [
+    "1e2db01cb472",
+    "96ee77558ba9",
+    "a087f10af90a",
+    "b4d0f3fb9746",
+    "4aaebdc9b5b4"
+   ],
+   "report_banks": [],
+   "takeaways": [
+    {
+     "text": "GCC banks are advancing practical AI deployment across engineering, digital banking, and project development, while regulators globally intensify scrutiny of AI risks.",
+     "ids": [
+      "019fb3b5cf85",
+      "e94747f1e551",
+      "cf584c3e0ec8",
+      "1e2db01cb472"
+     ]
+    },
+    {
+     "text": "UAE banks are establishing responsible AI governance frameworks through expert dialogue and structured adoption programmes alongside operational implementations.",
+     "ids": [
+      "09d3537f1816",
+      "0128e9e6f9be"
+     ]
+    },
+    {
+     "text": "Agentic AI emerges as strategic focus globally, with regulators addressing liability frameworks and BCG research projecting 40% middle and back-office capacity liberation by 2030.",
+     "ids": [
+      "019fb3b5cf85",
+      "f1ac46bdcf64",
+      "4aaebdc9b5b4",
+      "b4d0f3fb9746"
+     ]
+    },
+    {
+     "text": "GCC regulators identify AI and digital asset risks requiring enhanced oversight, while international platforms and guidance support responsible adoption amid growing implementation complexity.",
+     "ids": [
+      "6be1ef1d0300",
+      "96ee77558ba9",
+      "6ed365d707a5"
+     ]
+    }
+   ]
+  },
+  {
    "id": "2026-10-10",
    "start": "2026-10-04",
    "end": "2026-10-10",

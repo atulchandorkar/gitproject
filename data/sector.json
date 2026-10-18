@@ -1,6 +1,39 @@
 {
- "updated_at": "2026-10-17T02:05:33+00:00",
+ "updated_at": "2026-10-18T02:02:57+00:00",
  "items": [
+  {
+   "id": "b4d0f3fb9746",
+   "date": "2026-10-17",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Regulatory guidance addresses liability for AI errors in financial transactions",
+   "summary": "Following Bank of England warnings, regulators are clarifying responsibility when AI systems cause errors in financial transactions. The guidance establishes clear legal frameworks to protect consumers.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi5ARBVV95cUxPZDBlNjJqNFVFZks3WnFmNFNUaDlGQ0x1Y0x3MlVYSWp1Uk94WDViVy03M014eF96VGVwU3pydE41VTE3SWJTRExaYlFfUzkza2ZGVU04cXYtRVZIMkhKVHE2M3JSeHlaVFpPZEFRN29DYnY3SWFNMVBvRTNmazd5cGYwbTBJYUJHSXRvc2V5bGRFWEhWRTRhbEdNdW1BNnFFYkxsdkpwYUpfOWZtZXktOXc5SktfMF9OVXYxUjBTNlRpS0hqbkFjYlZDZC1hZi1MNl8tbWFyU21XaVdxdXN0Ql8wYzMwV1Itb0M0Q2d5RktCak5Rd0txNmtoUURXTHh1cUlqN2tsMTBoQkJVZ1RBeWY0UWlpT2ZoazZNMEZaYUQ5My1uelR2azZmTEdKMGdkY1dsX1VDMm1vZ2xyVXAxNDU5M0JDU2ZmRjB6dG5EV0FjbXI3d3JiWDZDQ3VvWTJVc0hSQnRRVEQxYnM0Y1dkMlVrbEc0TW8ydk9BTWFJZ2RyZ0tXM1ozRzE4TEdvbjdNVjRCSGVDa3FRSjBRYktfeWJLaGpRQW9BTjNmaWVSNE1XR0tQUHhMclAyU1RnX0xGQm1LUVVkc0d0SzFTY3oxWHdLcl92cjFjMkJoOU9lS3dGRlBsTWJmRUlXcU9fekFla1k3UWhraGcxcnd0N3lIam5vZ3NROW1FNDEyVVZuTFE3UWxEOWk0OFphS0VvOTlHblgzTDB4WVlhdWlHR2gweldqV1FwTktTSmRQejJQVHNRRDNjNGtwbFRuSTZ5Rk1UQndWaGdsSDE5QW9OY1BBdXA3TXc?oc=5",
+   "source_name": "CNN الاقتصادية",
+   "source_title": "بعد تحذير بنك إنجلترا.. من يتحمل أخطاء الذكاء الاصطناعي في المعاملات المالية؟",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi5ARBVV95cUxPZDBlNjJqNFVFZks3WnFmNFNUaDlGQ0x1Y0x3MlVYSWp1Uk94WDViVy03M014eF96VGVwU3pydE41VTE3SWJTRExaYlFfUzkza2ZGVU04cXYtRVZIMkhKVHE2M3JSeHlaVFpPZEFRN29DYnY3SWFNMVBvRTNmazd5cGYwbTBJYUJHSXRvc2V5bGRFWEhWRTRhbEdNdW1BNnFFYkxsdkpwYUpfOWZtZXktOXc5SktfMF9OVXYxUjBTNlRpS0hqbkFjYlZDZC1hZi1MNl8tbWFyU21XaVdxdXN0Ql8wYzMwV1Itb0M0Q2d5RktCak5Rd0txNmtoUURXTHh1cUlqN2tsMTBoQkJVZ1RBeWY0UWlpT2ZoazZNMEZaYUQ5My1uelR2azZmTEdKMGdkY1dsX1VDMm1vZ2xyVXAxNDU5M0JDU2ZmRjB6dG5EV0FjbXI3d3JiWDZDQ3VvWTJVc0hSQnRRVEQxYnM0Y1dkMlVrbEc0TW8ydk9BTWFJZ2RyZ0tXM1ozRzE4TEdvbjdNVjRCSGVDa3FRSjBRYktfeWJLaGpRQW9BTjNmaWVSNE1XR0tQUHhMclAyU1RnX0xGQm1LUVVkc0d0SzFTY3oxWHdLcl92cjFjMkJoOU9lS3dGRlBsTWJmRUlXcU9fekFla1k3UWhraGcxcnd0N3lIam5vZ3NROW1FNDEyVVZuTFE3UWxEOWk0OFphS0VvOTlHblgzTDB4WVlhdWlHR2gweldqV1FwTktTSmRQejJQVHNRRDNjNGtwbFRuSTZ5Rk1UQndWaGdsSDE5QW9OY1BBdXA3TXc?oc=5",
+     "name": "CNN الاقتصادية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipwVBVV95cUxPVjdpZ2FZYk9lV3JsdklhSTNBeWVySklhQVg0UTlsclBCRlEzTlhDZVJRVy15THV5NTljSFpMcGNxVnQ4UExsQ1ZvMFQ5c3hxYl9xdkRfM21vQ1htZjV4WmltMlE5aERBbS1ZZDNJRHlsYTRYWjdSZF95LW1oTDBIbkNtUWwyb3ZkM1NjRmNfenA5ckZnMlQ0TzQ0cm9XMUlLUFRtaUdjMl9xbllndkRod2lxd0ptejdvaXNMNFlVRVlYN1Z3T2R2UE1JOTZycFlIc2VteG9TSWhZWm5UZFYtRFlzVmdHcVBYV2l1ai1VMFZYVEg3bC1Fbl91Y2EybHI3QVZpMXFqY2owbGNTSkwyLW81NGRWaUJtd19ta3VpcktDaFZGZmlUNXVYY2FHQzNpc1UwR05JOVA5Q3Q4QXJJcFpvWlcteFM0RXdoT2F3V2VPeXdFdWV5UHAtVzh0NzhuMDhHYlNMNWUwZmRGczgyUFRQNGI0WnRJNXFoVWRIMzlSaGVCbnlHb004M3pQSUJ0ZjZWMTBOYjRGZkdqUTB5NVFzRUpyTDRPc1NxLXZHRV9PR2JWa0VrVmxZR1dlZzRNcXB4QktEaFR5dXhOaFdjbU1jXzdqaDFmTXcwY05pLXRCaEJKM2hYUHB3ZUdHMWREUzk0T2NpQktWeDJVM29DLXh6LTNLcDdJRmtYY2hyYnctNS1MdHpzb0EtTlp0eDVRQkdCbkxJYjNHeExIa0o4eVV2V1VLT1lvTEZVR29lb2p6SEJOaTJ6QWRMc0ZmY3RRSFNRSkpiV1lMdWhTUC1EbVZkTHVETmxvLW9nTlFwbVBMbTZtRkpGaFJ6WUx1QUdscTZQZXRRaEYyN0c2Wm1mVkFFRXY2dUd1enFUM2lJUU44alVKS1JB?oc=5",
+     "name": "الجريدة العقارية"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-18T02:02:41+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-18"
+   },
+   "pdf_checked": "2026-10-18"
+  },
   {
    "id": "6d632683e2ea",
    "date": "2026-10-16",
@@ -5064,35 +5097,6 @@
     {
      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVG44OTVMX25heFI5NnhqZXNnOFBHNGhWNjk3NVF0ckdRb1Y5Sm04c2NHczNGal9IdkxNOEwyVGFzN2EyNE5tOGs3REQ1RlFQa2hXZXRob044Mm8tMUhkd2QwYWx6QWJVMFJKSmQwME5XSTMyS3RXV0NXVjdyeUtHRk1fQWtBckNxbWM1aHVEclJvdl9acXlpUk84MktKenNxY2owTWZRLWt0Yk55QmpGWWZmN3JMY2JJMTdYRTU5NmEyT1V2Z0s1NUhSRWpxa0tmRXc5WFFtSE5xczkyOTFyclRlTlZpbmVwRk9nZjBmX2dqWGtI?oc=5",
      "name": "Microsoft"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-06"
-  },
-  {
-   "id": "b9e59cbf0423",
-   "date": "2025-10-16",
-   "category": "Expert Views",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "The future of banking: How AI is reshaping the industry",
-   "summary": "PwC examines AI's transformative impact on the banking industry through analysis of structural changes. The analysis explores future banking models shaped by AI adoption.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd1VxX2lfa2M0QllhOWFWNVZ3X1BoRURYamZEYTRPcERkaExqd0o2djVNN0oycUhXYmstZjFBX0F0S2F2YUZNaE0xS0lvR0E3SXVibFpLU3lNNGlrNm1DaXhlLUVVRVE4TUgwTFg5TURZNFB2ZlVQVm1wUWNzNkdzTm9xWlFiQUxFaUZxT2ZyeUpOVzFTX0ktelAwWE4?oc=5",
-   "source_name": "pwc.com",
-   "source_title": "The future of banking: How AI is reshaping the industry",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd1VxX2lfa2M0QllhOWFWNVZ3X1BoRURYamZEYTRPcERkaExqd0o2djVNN0oycUhXYmstZjFBX0F0S2F2YUZNaE0xS0lvR0E3SXVibFpLU3lNNGlrNm1DaXhlLUVVRVE4TUgwTFg5TURZNFB2ZlVQVm1wUWNzNkdzTm9xWlFiQUxFaUZxT2ZyeUpOVzFTX0ktelAwWE4?oc=5",
-     "name": "pwc.com"
     }
    ],
    "language": "en",
