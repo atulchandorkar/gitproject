@@ -1,6 +1,46 @@
 {
- "updated_at": "2026-10-18T02:02:57+00:00",
+ "updated_at": "2026-10-19T02:19:55+00:00",
  "items": [
+  {
+   "id": "1802cb36e6b1",
+   "bank_id": "boubyan",
+   "country": "KW",
+   "date": "2026-10-18",
+   "title": "Boubyan Bank uses AI to enhance young talent recruitment experience",
+   "summary": "Boubyan Bank deploys artificial intelligence to develop and improve its recruitment experience for young professionals.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations",
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "AI Recruitment",
+    "HR Automation",
+    "Talent Management"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE04N0ZqQnRVMWRka09JY0tmZkp5TzNXYWRRLXRMOEpuMDJhSm5QeGN1ZnJwT0oycjZCNHg0VjJ5WGZXeW9s?oc=5",
+   "source_name": "كويت نيوز -",
+   "source_title": "\"بوبيان\" يوظف الذكاء الاصطناعي لتطوير تجربة توظيف الكفاءات الشابة",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE04N0ZqQnRVMWRka09JY0tmZkp5TzNXYWRRLXRMOEpuMDJhSm5QeGN1ZnJwT0oycjZCNHg0VjJ5WGZXeW9s?oc=5",
+     "name": "كويت نيوز -"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBsdThMYV9kUFJhQWpHZEtXbTg4VmNpWk9FUV94OTI5dmFyNmUtVmJON01jNk01WjY5WDJTTVFuMVBvb1JrVWJ3Qg?oc=5",
+     "name": "جريدة الأنباء الكويتية"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-19T02:16:09+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-19"
+   }
+  },
   {
    "id": "09d3537f1816",
    "bank_id": "fab",
