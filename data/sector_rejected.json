@@ -62,5 +62,13 @@
   "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYndfSGtMbXIwQkJNTFRjUHJHMTMwWk1YOVRXY2htbDVaRXd6RHA4RnBRVUNMTC1ocnA3LVhOT01FTHU2VzNobk5zdktNVVo0UmJ4WE1sWkxzMUt3N2ZtcVJrNXBuVXRydy1xVjZGNzJuMDlxNWNKdTNSNWNsQ24tdmhBOWtHa1UxQ3JwWkFhN1NCT0Y0YzB4Rnd5SVdLZXQ3bTlYdEdWZ3ZIWm4yZUsxTA?oc=5",
   "source": "Konsulteer",
   "reason": "fact-check: a GCC bank's own news (kept in the bank feed)"
+ },
+ {
+  "checked": "2026-10-20",
+  "date": "2026-10-06",
+  "title": "World Bank: Saudi Arabia and UAE lead AI adoption in Middle East",
+  "source_url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9qSnlCNnNHWXRWVkFqWi05bThjZGFWdFJCVGdqNHBER3NOYVF6c2VqQkN4TmxBV0JWQkt5Qk5kdw?oc=5",
+  "source": "jawlah.co",
+  "reason": "fact-check: Summary claims financial sector focus but evidence does not specify financial sector."
  }
 ]

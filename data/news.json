@@ -1,6 +1,238 @@
 {
- "updated_at": "2026-10-19T02:19:55+00:00",
+ "updated_at": "2026-10-20T02:35:25+00:00",
  "items": [
+  {
+   "id": "840a834b6389",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2026-10-19",
+   "title": "Emirates NBD First MENA Bank to Run OpenAI GPT Models on UAE Infrastructure",
+   "summary": "Emirates NBD is the first MENA bank to run OpenAI's GPT models on UAE-based sovereign infrastructure.",
+   "category": "Tech Vendor Partnerships",
+   "topics": [
+    "Tech Vendor Partnerships",
+    "Customer-Facing AI",
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "OpenAI",
+    "sovereign AI",
+    "GPT",
+    "OpenAI partnership",
+    "customer AI"
+   ],
+   "partners": [
+    "OpenAI"
+   ],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdUFVZG5raE5qNlptYVk5U0I0SE5MdENBRE95Vnhpcm41SUZBWVNCeW9tX1J6Rl8taWMtdGREajBLSUt6X3RtR21EVWhqYW1kZXZBMEdrRVJlUHpyU2VRSEJ5V1ZYZUxOSGdYZ0pKUU5PV19yNFRMUkdQSW9mWGc5bjN1Z0M2elRKc2J0OWluWUdHY2RseGhKQThlNlFYakkxSEM4OFJkSGgtUmhHN0FBTzQ5XzVSdUhWakh3REZEU2w?oc=5",
+   "source_name": "PCMag Middle East",
+   "source_title": "Emirates NBD to Run OpenAI's GPT Models on UAE-Based Infrastructure, a First for a MENA Bank",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdUFVZG5raE5qNlptYVk5U0I0SE5MdENBRE95Vnhpcm41SUZBWVNCeW9tX1J6Rl8taWMtdGREajBLSUt6X3RtR21EVWhqYW1kZXZBMEdrRVJlUHpyU2VRSEJ5V1ZYZUxOSGdYZ0pKUU5PV19yNFRMUkdQSW9mWGc5bjN1Z0M2elRKc2J0OWluWUdHY2RseGhKQThlNlFYakkxSEM4OFJkSGgtUmhHN0FBTzQ5XzVSdUhWakh3REZEU2w?oc=5",
+     "name": "PCMag Middle East"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbmh6dlN0cFlzQjVRb0QxUGVGcC1vYjlRd1A5czBSVE1GLXU4ZER0WDJ4Y3YxdWZDOGhIR2tqZGJaQ3BpTVBWUEMyWUlVVENQUlFURzM0UjlqTkRvVTFSUmFya0ZyOTluREhMYW1nb2VzUkZnLTZhazl2MXdZWDBIWnpiZ2ZMV29SSGdOQ2JqQWlHRjJlLThJYXBiZHNYY2YxbUZpdjVIOUtSUUVPX19UWGdnOA?oc=5",
+     "name": "FF News"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9nLVhUdDlMZFI4NEQ5SEVwVDRyVlprczhXQ2pWTzdwd3REdXVqLTU5RHVqa3RfNm8yVWtsMTVRLUdwUmVX?oc=5",
+     "name": "بوابة التكنولوجيا المالية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPT1BSM2tMYU95STBZSjFvZ2ZTQURQUFVCRGVNZ09hS2pXRWRHRzN4Rl84TWZhZ29KOXRPUnZkMzJDVGFEVEhZSTVkUnJ6VTZCMVJhQXl5Zm5OU2VERjFuWk5JQ2hIVlpBenVILWMtTGhaTkl2bDE1cF9nZzJzelpwLVgzRFBkRmdONm1hM00zWTJLcTU5aXlxYUdpNS1Ybkltenh6Nk44N0lhNUY1cWRSekR6LUNPZUtLN1lRbkFCRlFmVy1wM0JjRGJtWFFsbEctakJuakFUcnpKM2djUm9oT3FzbjRnZ3VSX0NqaUZFbk8tZnR1SG0zanBuVThmd1k?oc=5",
+     "name": "Zawya"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1yU0pTT25sOWFDZ0lsVGwyeEtxRWNlM005anFtZlFOTUJNeWs0blZOQlVNYjFyUExmRGJDLUZsRGhweDdqUnptTFk1R0dzTlhCT2JqTTZCRVlxYW9BRUozR0czYVRRQmZtUmg1cFBsVF_SAXBBVV95cUxNclNKU09ubDlhQ2dJbFRsMnhLcUVjZTNNOWpxbWZRTk1CTXlrNG5WTkJVTWIxclBMZkRiQy1GbERocHg3alJ6bUxZNUdHc05YQk9iak02QkVZcWFvQUVKM0dHM2FUUUJmbVJoNXBQbFRf?oc=5",
+     "name": "البيان"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMitAVBVV95cUxQc1FQVFJlMjhWRVNfSHVuQXRidGthWVhxVWhvSDNTVDAzaHVya05CRGNsUUI5cXdveWg4Ny1kdnk1a2NVS21icEh6Vkpiem03aEhzaU43Qk52RFBudkMyeWRCQXR1NGF5NkRLSHJBMndlU05KZGZiRTNVQWhDdnhxNElETjVTTFdqYmJZLTJEQ01IZFJIbVFRNHRwUEg2azIyRTY5VnJwZlNDbVRsQkNzNWJXYmp1VzFOZUpxemNqT05zWWd4cE8xa2dNUkRJSGJWd0tIeXFXVzNGcHdjcVkwY1lYVXRfRnV4c093ekRiSE5iOHU2QjZXRlVOWHZRamtNeEpaTjQ2aEtMd0xfTEtobXFkc0xPR0tIa2JnYUhlZ1NEMm8yamp5VjRBVDdpYzhsN2gtam1EalNiR0dRbGxpMEpVdkNwUDZDNUtPYWhxWHY2dHJGaDhWanpRVk51S0FtQW5KR09OTndULXkySnNIbzRJOTVIRnhmQXVEeVh4bHZTWFlMbVMxZHBrZVdkVFVRMTlWTF9RNU9ybjRUNGtOUEdQVVdNcHR3WUlRcFBQSHEteWpSdnBmblFjRHFtZjlDTFJvYlp3aFRrYmxuWXAxN0Ezb1NLQklHNjdKd0QtQnYxdTRHbS1BelU0YjJTZFROd3ZPNzdyQ25CYTJuWXR2Y20zM1FtYzlxNDBCWFlISXJxWmhwSlV2aExOMTZnXy1YVmQ5c1c1RC1zWURRSWd3LUhrWVdiTS0xaGo0SmVfT1FLQTVEaThmSkNMZDlSTDNyS3BSblU1VlF2WUY4dkVTeTZzUnlIRmN0N3NMNjczcXhGQzVhOUl3WkxoandMTkFxeTctX3FPWDJrYmRiS0t6X3oxRl9sX2xUNWNOMEZ0WWMwWTBFZDZHZUR2aXJUNEQ2d25zNQ?oc=5",
+     "name": "صحيفة الخليج"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-20T02:31:24+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-20"
+   },
+   "merged": [
+    {
+     "id": "7c7babd529a4",
+     "date": "2026-10-19",
+     "title": "Emirates NBD becomes first MENA bank to harness OpenAI’s sovereign AI infrastructure for customers in the UAE",
+     "source_title": "Emirates NBD becomes first MENA bank to harness OpenAI’s sovereign AI infrastructure for customers in the UAE",
+     "source_url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPT1BSM2tMYU95STBZSjFvZ2ZTQURQUFVCRGVNZ09hS2pXRWRHRzN4Rl84TWZhZ29KOXRPUnZkMzJDVGFEVEhZSTVkUnJ6VTZCMVJhQXl5Zm5OU2VERjFuWk5JQ2hIVlpBenVILWMtTGhaTkl2bDE1cF9nZzJzelpwLVgzRFBkRmdONm1hM00zWTJLcTU5aXlxYUdpNS1Ybkltenh6Nk44N0lhNUY1cWRSekR6LUNPZUtLN1lRbkFCRlFmVy1wM0JjRGJtWFFsbEctakJuakFUcnpKM2djUm9oT3FzbjRnZ3VSX0NqaUZFbk8tZnR1SG0zanBuVThmd1k?oc=5",
+     "source_name": "Zawya",
+     "summary": "Emirates NBD has become the first MENA bank to harness OpenAI's sovereign AI infrastructure to serve customers in the UAE.",
+     "how": "ai",
+     "anchor": "Emirates NBD"
+    },
+    {
+     "id": "f7456f989e35",
+     "date": "2026-10-19",
+     "title": "Emirates NBD Partners with OpenAI to Deploy AI for Customer Services",
+     "source_title": "تعاون بين «الإمارات دبي الوطني» و«أوبن إيه آي» لتوظيف الذكاء الاصطناعي لخدمة العملاء",
+     "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1yU0pTT25sOWFDZ0lsVGwyeEtxRWNlM005anFtZlFOTUJNeWs0blZOQlVNYjFyUExmRGJDLUZsRGhweDdqUnptTFk1R0dzTlhCT2JqTTZCRVlxYW9BRUozR0czYVRRQmZtUmg1cFBsVF_SAXBBVV95cUxNclNKU09ubDlhQ2dJbFRsMnhLcUVjZTNNOWpxbWZRTk1CTXlrNG5WTkJVTWIxclBMZkRiQy1GbERocHg3alJ6bUxZNUdHc05YQk9iak02QkVZcWFvQUVKM0dHM2FUUUJmbVJoNXBQbFRf?oc=5",
+     "source_name": "البيان",
+     "summary": "Emirates NBD is partnering with OpenAI to deploy artificial intelligence to serve customers.",
+     "how": "ai",
+     "anchor": "Emirates NBD"
+    },
+    {
+     "id": "36d2348072c5",
+     "date": "2026-10-19",
+     "title": "Emirates NBD First Regional Bank to Adopt Sovereign AI",
+     "source_title": "«الإمارات دبي الوطني».. أول بنك إقليمي يعتمد الذكاء الاصطناعي السيادي",
+     "source_url": "https://news.google.com/rss/articles/CBMitAVBVV95cUxQc1FQVFJlMjhWRVNfSHVuQXRidGthWVhxVWhvSDNTVDAzaHVya05CRGNsUUI5cXdveWg4Ny1kdnk1a2NVS21icEh6Vkpiem03aEhzaU43Qk52RFBudkMyeWRCQXR1NGF5NkRLSHJBMndlU05KZGZiRTNVQWhDdnhxNElETjVTTFdqYmJZLTJEQ01IZFJIbVFRNHRwUEg2azIyRTY5VnJwZlNDbVRsQkNzNWJXYmp1VzFOZUpxemNqT05zWWd4cE8xa2dNUkRJSGJWd0tIeXFXVzNGcHdjcVkwY1lYVXRfRnV4c093ekRiSE5iOHU2QjZXRlVOWHZRamtNeEpaTjQ2aEtMd0xfTEtobXFkc0xPR0tIa2JnYUhlZ1NEMm8yamp5VjRBVDdpYzhsN2gtam1EalNiR0dRbGxpMEpVdkNwUDZDNUtPYWhxWHY2dHJGaDhWanpRVk51S0FtQW5KR09OTndULXkySnNIbzRJOTVIRnhmQXVEeVh4bHZTWFlMbVMxZHBrZVdkVFVRMTlWTF9RNU9ybjRUNGtOUEdQVVdNcHR3WUlRcFBQSHEteWpSdnBmblFjRHFtZjlDTFJvYlp3aFRrYmxuWXAxN0Ezb1NLQklHNjdKd0QtQnYxdTRHbS1BelU0YjJTZFROd3ZPNzdyQ25CYTJuWXR2Y20zM1FtYzlxNDBCWFlISXJxWmhwSlV2aExOMTZnXy1YVmQ5c1c1RC1zWURRSWd3LUhrWVdiTS0xaGo0SmVfT1FLQTVEaThmSkNMZDlSTDNyS3BSblU1VlF2WUY4dkVTeTZzUnlIRmN0N3NMNjczcXhGQzVhOUl3WkxoandMTkFxeTctX3FPWDJrYmRiS0t6X3oxRl9sX2xUNWNOMEZ0WWMwWTBFZDZHZUR2aXJUNEQ2d25zNQ?oc=5",
+     "source_name": "صحيفة الخليج",
+     "summary": "Emirates NBD is the first regional bank to adopt sovereign artificial intelligence.",
+     "how": "ai",
+     "anchor": "Emirates NBD"
+    }
+   ]
+  },
+  {
+   "id": "35fd1053396c",
+   "bank_id": "nbb",
+   "country": "BH",
+   "date": "2026-10-19",
+   "title": "National Bank of Bahrain strengthens AI capabilities through strategic programme with Rebott",
+   "summary": "National Bank of Bahrain is enhancing its artificial intelligence capabilities through a strategic programme in collaboration with Rebott.",
+   "category": "Tech Vendor Partnerships",
+   "topics": [
+    "Tech Vendor Partnerships",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "AI capabilities",
+    "Rebott partnership"
+   ],
+   "partners": [
+    "Rebott"
+   ],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMi1gVBVV95cUxNb3JhX2NSY2VpOEZoMDRXZ2pOZ0hZV19NMWdWSEdYNFlsa0VkdmJ4enQ0NkdnanNFMkNUQjl0UTB6SlR0eVFmckJ3cFc1ZDV3eElKZGpoMWs3UGNCOE4tSnZjUjUtYWFxejM4ejdPeV9tbHhhcmNza2Rxa2NZRTVMMDdLTHNmeUhqWU5JTTNiQmNPVVllTVppcUNVblpKelhhb2Q4TVh2cjNZYnJwckZmSzJ2SkhxZy00ZDJ4OUJ3TlVSSHdQUVZHSjZRNWxKZlFFM2E4MjI3MXZpWDRTQ2ZtZmRZdzFWbll3dkdXOXc0VWFMcklKcXEzSl9TRjk2YzdMXzBHYVhwLTJRX2FDaFVBRWdkbzJjVFBXQ1laR2lYblgxWjQyUHlqUlNkRXNyUDVmcHNQQTBHZ1cyT3ZYRXZtRXlDWVBnOFA3UElpYnFHQ0RaQ0Z0MUJnajNTRElmQnMwTEMyN052Mk8wOU1IWHRaamhKSzc1bUk0YnVINzhYLUtBWkRaZV9EbXRQQkU2em1tUHZlaVZBSjcyTVBZVDB0dFdzNmtKY1VrckQxTkUtbERhNERWV3J5Q2hCekpUM2trVm56YkgtbG41RXJINzhfenJfXzJqV0NnYS1XeHBZOW9zUzVoX2ZLVmVrZ1d6cW1RazVKTk5JcHM5ei1VM3hrOWhWeVA0LWhiZkduVGlrM2lwVUZlc2hObjJzSTFsMkVxM3ZXc2tpZ2xpdGlfdnU1QVJGTTFLbDIxdkhiNktfcDhVeWx2OURRLV9MRVVkSXdsVm5pWWs4aUpxdnhULTcyWVl2RXloZ3NTLUVhUUxCYUtxYlpsNXJ4UHpJWEVqbmlEMFNqMGZoZnFBY3l2cHdaN3dxd2V3cGVmNi1ENDZUN2Q1U1h0RkhPWkRWZDhJQkl3YnFpcWk1S3pWcDRsMzZTdElhdkp2VmZfQUpDRkZLeTdnTDdHVmfSAVRBVV95cUxNSDFpa0NuS21ONG9rS0hqUFY3d1lha3BVM3dBWDM0cjRFbllWa1NUX2hhM2s4NVp5V2FaQTdiQU1pN0JjZVZ1bFhwQlI1UTJLTW0wTkg?oc=5",
+   "source_name": "صحيفة الوطن",
+   "source_title": "البحرين الوطني تعزز قدراتها بمجال الذكاء الاصطناعي عبر برنامج استراتيجي بالتعاون مع ريبوت",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi1gVBVV95cUxNb3JhX2NSY2VpOEZoMDRXZ2pOZ0hZV19NMWdWSEdYNFlsa0VkdmJ4enQ0NkdnanNFMkNUQjl0UTB6SlR0eVFmckJ3cFc1ZDV3eElKZGpoMWs3UGNCOE4tSnZjUjUtYWFxejM4ejdPeV9tbHhhcmNza2Rxa2NZRTVMMDdLTHNmeUhqWU5JTTNiQmNPVVllTVppcUNVblpKelhhb2Q4TVh2cjNZYnJwckZmSzJ2SkhxZy00ZDJ4OUJ3TlVSSHdQUVZHSjZRNWxKZlFFM2E4MjI3MXZpWDRTQ2ZtZmRZdzFWbll3dkdXOXc0VWFMcklKcXEzSl9TRjk2YzdMXzBHYVhwLTJRX2FDaFVBRWdkbzJjVFBXQ1laR2lYblgxWjQyUHlqUlNkRXNyUDVmcHNQQTBHZ1cyT3ZYRXZtRXlDWVBnOFA3UElpYnFHQ0RaQ0Z0MUJnajNTRElmQnMwTEMyN052Mk8wOU1IWHRaamhKSzc1bUk0YnVINzhYLUtBWkRaZV9EbXRQQkU2em1tUHZlaVZBSjcyTVBZVDB0dFdzNmtKY1VrckQxTkUtbERhNERWV3J5Q2hCekpUM2trVm56YkgtbG41RXJINzhfenJfXzJqV0NnYS1XeHBZOW9zUzVoX2ZLVmVrZ1d6cW1RazVKTk5JcHM5ei1VM3hrOWhWeVA0LWhiZkduVGlrM2lwVUZlc2hObjJzSTFsMkVxM3ZXc2tpZ2xpdGlfdnU1QVJGTTFLbDIxdkhiNktfcDhVeWx2OURRLV9MRVVkSXdsVm5pWWs4aUpxdnhULTcyWVl2RXloZ3NTLUVhUUxCYUtxYlpsNXJ4UHpJWEVqbmlEMFNqMGZoZnFBY3l2cHdaN3dxd2V3cGVmNi1ENDZUN2Q1U1h0RkhPWkRWZDhJQkl3YnFpcWk1S3pWcDRsMzZTdElhdkp2VmZfQUpDRkZLeTdnTDdHVmfSAVRBVV95cUxNSDFpa0NuS21ONG9rS0hqUFY3d1lha3BVM3dBWDM0cjRFbllWa1NUX2hhM2s4NVp5V2FaQTdiQU1pN0JjZVZ1bFhwQlI1UTJLTW0wTkg?oc=5",
+     "name": "صحيفة الوطن"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-20T02:31:24+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-20"
+   }
+  },
+  {
+   "id": "873b4c878716",
+   "bank_id": "fab",
+   "country": "AE",
+   "date": "2026-10-19",
+   "title": "First Abu Dhabi Bank Egypt accelerates enterprise AI adoption via IBM watsonx",
+   "summary": "First Abu Dhabi Bank Egypt is accelerating the adoption of enterprise artificial intelligence through IBM watsonx partnership.",
+   "category": "Tech Vendor Partnerships",
+   "topics": [
+    "Tech Vendor Partnerships",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Enterprise AI",
+    "IBM partnership",
+    "AI adoption"
+   ],
+   "partners": [
+    "IBM watsonx"
+   ],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1iLW1mNVpiRDBrSEtIMHp5VkZubFQyYkNSSE84bUFnb0p0bUQ0dXd0bFAycWZCdW5zcExpS19mNi1KaW93emRB?oc=5",
+   "source_name": "بنوك اون لاين",
+   "source_title": "بنك أبوظبي الأول مصر يدفع نحو تسريع تبني الذكاء الاصطناعي المؤسسي عبر IBM watsonx",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1iLW1mNVpiRDBrSEtIMHp5VkZubFQyYkNSSE84bUFnb0p0bUQ0dXd0bFAycWZCdW5zcExpS19mNi1KaW93emRB?oc=5",
+     "name": "بنوك اون لاين"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xWkZPV1dvUzZfczRXNDFCT1RHdEFrWVMwS2hDdy1CNmt0TjN2MU80aU9WQWZia2c0QTA0ekxPd2V5TkdKcWhrdDYtUmViUQ?oc=5",
+     "name": "التعمير"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOWWVSNU9IZEFXVHdtaGcwVWF2X0lmcE9ZVFFDT1FlcVVDRnR1TFhpWUFTYkR0d0ZwZEdUV2w3Nm00eFJ1U0VDSTk2dlJhLW9WZ25UUDRlU1Z3cHFBV1kwUmJOSVc3d1VIWHNyRUpHV2Y5aEU2S3FjOW1iay1GajFJRmVfZ3UyQTdfRlBGbDF1aldTblVjUkJuSC1rY1U0LS1ma2phODk5Z2JDUDI1SkQ0SHFNaTZoWnlSenBIdjVUWmd3VlFJLUlDQ1BtLXFHeXZtaWlHVlBJTjgxd05aSGRIWUZ2R05jdmxrUGIxakVPRl9LNGlSd3ZDekpSRGNVQ20xdHRzSnQwUnNjM1liQWtZbDNsREs5MG1NaG5Hd1VIQ3NvLWZlYzIweTlFRUZnNFpabE9Jam5Ydy1lNGFBQWgw?oc=5",
+     "name": "yalla.business"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxPSzc3dlZvMjVRRlpkQ2pZSl9jTDdwdkRCMUd6dTI3S0doRURhT1BvNHBMUXN1bDBBUFNPSFNMeldHRDhzTTZ1UnloVExoRjlBN3dEMmk0NGNoaGNFT1hUaDZKS0hpZ3lWeUQtaENDcnZodktLSXhLQU5iZUlhNGpEWW02eHNJazZSWTVGblU2NGZselRBTHN1VTliWVZwUEhNMUVpZl9JYVRVQUQxSS1yMWxCdVRtU3c2VUlNZEZRVUFtVm10M2hkcDBON2k1QnQ3cTZrd3ZDRlEwdktkcEM3Z2NYNkJuRGpkVnc4ZWJDbm9JWndxV1hJZXdGZlZoek5vQVUwS3E0Ny16eDRxa3dLeFZyb3FORTRCN2VncFN3ZWpidXluVUFmZVdSekFtd0FjT29OTTRWVlc5cHdTRkZtdDN3bGhxWUZDd0tHeENn?oc=5",
+     "name": "جريدة المال"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80N3RwVFNva01JTWlwY0ZnaXd0R2VFY0ppTXdWNnFSZW1xQnM4SkQ2QTREdGpxZHN1ZVVpRDNac2U3eVdLQnl5UlNuVUhoTUlDRDZJ?oc=5",
+     "name": "شبكة تواصل الإخبارية"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-20T02:31:24+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-20"
+   }
+  },
+  {
+   "id": "acfa7ae38a07",
+   "bank_id": "fab",
+   "country": "AE",
+   "date": "2026-10-19",
+   "title": "FAB Egypt Adopts IBM AI Solutions to Advance Banking Operations",
+   "summary": "First Abu Dhabi Bank Egypt is adopting IBM artificial intelligence solutions to develop and improve banking operations.",
+   "category": "Tech Vendor Partnerships",
+   "topics": [
+    "Tech Vendor Partnerships",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "IBM partnership",
+    "operational AI"
+   ],
+   "partners": [
+    "IBM"
+   ],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPRUJMaGxXdmo2eFZHR1Zob0JhbnZoZDRNaV9RZENIR3d0OVp3cG1EeWh5aUpyV21PNzhMUWk1a0tBLUE4ZzAxdzc3RXRVUTVGdUUyZjlKX0VNT01GNDRxSWpkSlMwRUduWmtNVDBCV3FYN1NEc1hyWkhHRXVtQS04cXhCckVCaGdEV0FnODhDNXRJOVlhdlNLS1pfcUFDTWdkVVJQNGJ4UUFMRF8xLTVTQUNON0Z3RUFwbm0tZHNnVFpTaVQ4QTZici1vN1VGbzV3N1dvMnB5RWF2WVp1VkpsOGx4cWp5WGh6QlFOTmo1ZWItU05xUkRUX0kzdURleURROGszS2xjeDNWZm9keDVuRjBaYTJlYkN3dDZQTTlnVnhvTkFvcXJRNW9aQ29hM2tSOG9jNGNDbUg3bDgtdERRdW1Bb3N4eXU3R3Vwakc4cV9VazZo?oc=5",
+   "source_name": "جريدة حابي",
+   "source_title": "أبوظبي الأول مصر يعتمد حلول الذكاء الاصطناعي من IBM لتطوير العمليات المصرفية",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPRUJMaGxXdmo2eFZHR1Zob0JhbnZoZDRNaV9RZENIR3d0OVp3cG1EeWh5aUpyV21PNzhMUWk1a0tBLUE4ZzAxdzc3RXRVUTVGdUUyZjlKX0VNT01GNDRxSWpkSlMwRUduWmtNVDBCV3FYN1NEc1hyWkhHRXVtQS04cXhCckVCaGdEV0FnODhDNXRJOVlhdlNLS1pfcUFDTWdkVVJQNGJ4UUFMRF8xLTVTQUNON0Z3RUFwbm0tZHNnVFpTaVQ4QTZici1vN1VGbzV3N1dvMnB5RWF2WVp1VkpsOGx4cWp5WGh6QlFOTmo1ZWItU05xUkRUX0kzdURleURROGszS2xjeDNWZm9keDVuRjBaYTJlYkN3dDZQTTlnVnhvTkFvcXJRNW9aQ29hM2tSOG9jNGNDbUg3bDgtdERRdW1Bb3N4eXU3R3Vwakc4cV9VazZo?oc=5",
+     "name": "جريدة حابي"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFB0VTNSQUxkWjVubEV3SHFoR2NGVG5LaVZKRG4wdDdZVkgwNzA3dllYUDM2Mmd3LVVRMndRbXU1NE1Fc2JE?oc=5",
+     "name": "بوابة التكنولوجيا المالية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE80VWlIcjF1VkJBSHM1clhIWmpGWk5OSFZjZnRDYmxyTXIwQUx3N0dGLTUyc01VSHlJaFhTai13RVNVbEt6?oc=5",
+     "name": "خبري نيوز"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-20T02:31:24+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-20"
+   }
+  },
   {
    "id": "1802cb36e6b1",
    "bank_id": "boubyan",
@@ -75,6 +307,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1yY0RtcEoydDQ2ZEM4LVpVUE5rRGpoRDV4aFFlNHhfSWVVWFZxVjRDOFhsSXRzSEpqSEVjN0hTZkZMdDNkLXFMeUxfNVdoTU9ETUVlbWZ6aEl5UQ?oc=5",
      "name": "https://emirates24.net/"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilARBVV95cUxPTi1PLVkzajBUa0VWWG4zWEU4eFR0aVRMR3lPemx1VU54SVpzYlFZRXh3TUdLbG92XzB5azUyVy1ZVExpeFRKWUhoSnJyMjhFeTMyU0d2YUlvN2ZoMmVQRi0wakhIc2ctQkQ5N3ZtdXdYdjNpNVgwTHNXRVo0dUJjTENaNUFYbWVEcVFZU3FOUTdlb3RhOW9NSEhNc0dMRmJqMm5DNlVMdFpGNHFqUzA5WGtZdXktcFFmdVZtcmVtVTZOMGhEVEVMSzduMjNTNFhoeE1uSU9zLW1JeGt6T2hMLVI3OEpvaVZWbkU1VjlSUFBKTGxYZF8xUUVodjNaeGkxNWh5SWxsUTVkeU1scTZpTlVCejNSX1Axb2tCVXhvRHA3V0hVcWJxTU0wY2dISkp5VWI3SzZLQkVsR05xdlFOa3lmeXJ3SzY4bDdoWDF4T1N2M2ZhSWhDY0x0QlJSemdfSm9zM0NrZmFyQTZpN3JuWm92T05VRThEQWJiVzJveDRSSTkzT3FjaTFOSXZDVlVGamlCekx0WXVxMlU5VWdXUUwxTkV5NXQzMXprVTcwN0I5dFpLNENtVlk4ZFNCTldkSW5TeHYzbkMyNi1ScDJxd2JQcnRmbnRqU1h4OHlOdm1lWDRMUU91WElkTGlvcDFINnlqbWtuRENmV2JFR0tfWEVxUnAybkZxYWtPeldmcUliT2w3?oc=5",
+     "name": "الاتحاد للأخبار"
     }
    ],
    "language": "ar",
@@ -115,6 +351,14 @@
     {
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT3V1ZXUtbzJFeUxvdWxic1RuOEFZY0dxQWhnQVF5R2tHVDZTVUxDc3pvSlFCVEVmemNmeU9tUmxJM2tmbExab05NMWtoYXQzX0dKRUYxU3dvN0F5RElQY29yYXRIY3p2WlQ5bE1RSWt1NHJSa1Q4bnl4VEVJd3h1LUlrVU1aZEh6ZXM4bjlENXFFX0ZKZlEtQV91OWtySUFlZDQxMkRGUmx6d1pOcXdJQkpFSGhVWElwUWVINDdqd0hrX2Z1eTg4?oc=5",
      "name": "Menafn"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUmxacnJMN3FzX01nYUl1UXA2ZHNsMnR3cGJGTlVJOVhGbHlveFFLbjcwZEJPdXZLWlZtaVVNTkxZbF9rMi1LTkVFVEZSSHR0SDBXSWRfaEtvNUV1ZHI2SnhGdHU5VjRlbDAxMUEyS1RUY3BhZGUyLU1NWHBWSzFrc1R3UWY5T1BLT0JSWnZPLVpVR0JDNXlUdmZVb1pSUmM5N05CR1NTVTJlOTViSVdlZ3JtSWQ4WWZYMmNYUExKNVNYSUFmOHE3N1RwQkhvalVnbU4wSTNUWXk3Q0hs?oc=5",
+     "name": "TradingView"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaUhLZjZzcWVERzlNSmxkMzVVejVBNmtiM29pTHJuX0JZcV9KX2xESV8ybmxQTV9yUDZBU2FuYWNqU3lYaWZkMzEtLVBlQlI3anJCM1dFYXNlYWZQZF9pdVhHR2ZPRmltYW4tY2t1aFUzSUZVcVpuS2xrVUNlRDc0UThlT1duaUdmMXV2RnExOXRiSkxXaUR6d21hTjJKV1VlWUR6d2wzazdwOVlYN3F4d3BlWEY?oc=5",
+     "name": "Konsulteer"
     }
    ],
    "language": "en",

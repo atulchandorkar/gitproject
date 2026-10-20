@@ -1,6 +1,35 @@
 {
- "updated_at": "2026-10-19T02:19:55+00:00",
+ "updated_at": "2026-10-20T02:35:25+00:00",
  "items": [
+  {
+   "id": "1fadb4d26523",
+   "date": "2026-10-19",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "US banks limit AI agents' access to customer accounts",
+   "summary": "Major US banks are implementing restrictions on external AI agents' access to customer accounts and transaction capabilities. This reflects emerging industry practices and governance frameworks around agentic AI in banking.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY3lNNmVfaGRPZE5ZbHFNN3lTXzF0Y183eTRqV2g2b2JaY1B4RE5tOFhLR0c2ckx3VkJqdDE5YVZKV3gwV0djTHZheVF3QUI3RTJpLURZRS0xRFJtenNWbV83Sk9lVHBRMVBQNnVaYm5wTnZOeFpYYXUxa0ZReWtCWWJWM0hqQQ?oc=5",
+   "source_name": "Retail Banker International",
+   "source_title": "US banks limit AI agents’ access to customer accounts – report",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY3lNNmVfaGRPZE5ZbHFNN3lTXzF0Y183eTRqV2g2b2JaY1B4RE5tOFhLR0c2ckx3VkJqdDE5YVZKV3gwV0djTHZheVF3QUI3RTJpLURZRS0xRFJtenNWbV83Sk9lVHBRMVBQNnVaYm5wTnZOeFpYYXUxa0ZReWtCWWJWM0hqQQ?oc=5",
+     "name": "Retail Banker International"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-20T02:35:14+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-20"
+   },
+   "pdf_checked": "2026-10-20"
+  },
   {
    "id": "b4d0f3fb9746",
    "date": "2026-10-17",
@@ -33,6 +62,35 @@
     "checked": "2026-10-18"
    },
    "pdf_checked": "2026-10-18"
+  },
+  {
+   "id": "f41c4e564604",
+   "date": "2026-10-16",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Agentic AI and corporate banking self-service transformation",
+   "summary": "Expert analysis examines how agentic artificial intelligence can enhance and transform corporate banking self-service channels. The piece discusses potential capabilities and implications for customer experience and operational efficiency.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZUl6RDZWR1FIdWJXNTBSWkFxcHU1M3poM2g4YzN2b050Tk1BQldRWWRiczJ5MmtBVUFvVVBwQkxIaTJxZFdMMlpVTldLVGc2U1RnUVlTUXNXU1BRcmlpQWFuTXdWQjhjWnRVRTVFWklGZjliaWNmeHJteGJWNGNDWHN2aTJPbkxHNUFKTFUxbEtoM045UVQyaHNBUkw5X2t1b2k5ZmtIN2tFRHVUYjdR?oc=5",
+   "source_name": "Finextra Research",
+   "source_title": "Can Agentic AI Transform Corporate Banking Self-Service Experiences?",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZUl6RDZWR1FIdWJXNTBSWkFxcHU1M3poM2g4YzN2b050Tk1BQldRWWRiczJ5MmtBVUFvVVBwQkxIaTJxZFdMMlpVTldLVGc2U1RnUVlTUXNXU1BRcmlpQWFuTXdWQjhjWnRVRTVFWklGZjliaWNmeHJteGJWNGNDWHN2aTJPbkxHNUFKTFUxbEtoM045UVQyaHNBUkw5X2t1b2k5ZmtIN2tFRHVUYjdR?oc=5",
+     "name": "Finextra Research"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-20T02:35:14+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-20"
+   },
+   "pdf_checked": "2026-10-20"
   },
   {
    "id": "6d632683e2ea",
@@ -547,6 +605,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTW5idHVGdWQ4amVESWtfajZmTzNIY0tDT1RScnFQdmowekctUUpuV3lYdXRBVkRRU0xSVFNVMFRrNV8tdnhsMmxyVGpkTTRrUnVtbWhBMnJ1T2Uwd0Q3dTRPQ0d5blkySmVOX1ZuVWpnVHA3MGNtSUJEb0VoQm5MR3ZZc0o3TzNTV01FTF9EUG9sX3A0YnJ5QmJYMTZBV3I3dVhDel9CZE1mMF80d2tSUHZCMA?oc=5",
      "name": "FF News"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQd09ISUdzbldoQXFLWTBLdmxtNlVaWWFheGQ2OUdnWG44R2xVN3NPRVFadDFmSmpsdzFxZFMwcDFpb05hcXFRaUtFWFJjbnRfQTNQM0l1V0d2MHoyRnJiVlBHRnQ3Wm9yUXZLWVNnczR2MTNIdlpIN0RVR0hRa3hTU1VzRVlqbzd6TlM2elpOdWRLNEJpMlhMNEx1NWJFQXhpRUhrd3BSVmxFbW1T?oc=5",
+     "name": "Kalkine Media"
     }
    ],
    "language": "en",
