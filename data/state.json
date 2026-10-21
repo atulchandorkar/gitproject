@@ -1,5 +1,5 @@
 {
- "last_update": "2026-10-20T02:31:38+00:00",
+ "last_update": "2026-10-21T02:25:20+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -1322,7 +1322,41 @@
   "6b30ef2f32e995": "2026-10-19",
   "6946a4731bb771": "2026-10-19",
   "00353dba14a617": "2026-10-19",
-  "5fe73041b93e38": "2026-10-19"
+  "5fe73041b93e38": "2026-10-19",
+  "b625ec24aeee8c": "2026-10-05",
+  "5801dd19634ad7": "2026-10-14",
+  "ab3c50e1904d20": "2026-10-16",
+  "a21d68a992cb9a": "2026-10-16",
+  "a5596abc24c07b": "2026-10-18",
+  "f146071e9730f4": "2026-10-18",
+  "a6ac160676b436": "2026-10-19",
+  "a4b387458c0390": "2026-10-19",
+  "80cf4bf0142b48": "2026-10-19",
+  "604280e07b3c09": "2026-10-19",
+  "49c6aee38d372c": "2026-10-19",
+  "5b2df0bc955514": "2026-10-19",
+  "7b92b554911e79": "2026-10-20",
+  "c330d4777c78b3": "2026-10-20",
+  "30e50d6d9f4deb": "2026-10-20",
+  "d00a4b0f40b11e": "2026-10-20",
+  "9afa78619e9084": "2026-10-20",
+  "f8c27f713c772c": "2026-10-20",
+  "743b63ebec2d41": "2026-10-20",
+  "c8d1caf36081b9": "2026-10-20",
+  "a7f117ae6e4ef7": "2026-10-20",
+  "526551dcacf8d2": "2026-10-20",
+  "e2744da4e26448": "2026-10-20",
+  "3e3dd178680309": "2026-10-20",
+  "f3133f41ccf450": "2026-10-20",
+  "6ebb86171ba464": "2026-10-20",
+  "5f9d0a5c14f81f": "2026-10-20",
+  "3514205b2e8217": "2026-10-20",
+  "c7d01c79a4800e": "2026-10-20",
+  "6011e466785708": "2026-10-20",
+  "ccaab4bededdf5": "2026-10-20",
+  "a0b0a498be6de3": "2026-10-20",
+  "a398ee32af8424": "2026-10-20",
+  "d25d1807981e8c": "2026-10-20"
  },
  "history_loaded": {
   "adcb": "2026-10-05",
@@ -2973,44 +3007,6 @@
    }
   },
   {
-   "id": "05d814f8b050",
-   "bank_id": "fab",
-   "country": "AE",
-   "date": "2026-10-19",
-   "title": "First Abu Dhabi Bank Egypt adopts IBM AI solutions for banking operations",
-   "summary": "First Abu Dhabi Bank Egypt is adopting IBM artificial intelligence solutions to develop banking operations.",
-   "category": "Tech Vendor Partnerships",
-   "topics": [
-    "Tech Vendor Partnerships",
-    "AI Adoption in Operations"
-   ],
-   "tags": [
-    "AI solutions",
-    "IBM",
-    "Operations"
-   ],
-   "partners": [
-    "IBM"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE80VWlIcjF1VkJBSHM1clhIWmpGWk5OSFZjZnRDYmxyTXIwQUx3N0dGLTUyc01VSHlJaFhTai13RVNVbEt6?oc=5",
-   "source_name": "خبري نيوز",
-   "source_title": "بنك أبوظبي الأول مصر يعتمد حلول الذكاء الاصطناعي من IBM لتطوير العمليات المصرفية",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE80VWlIcjF1VkJBSHM1clhIWmpGWk5OSFZjZnRDYmxyTXIwQUx3N0dGLTUyc01VSHlJaFhTai13RVNVbEt6?oc=5",
-     "name": "خبري نيوز"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-20T02:31:24+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-20"
-   }
-  },
-  {
    "id": "5303cdb55378",
    "bank_id": "fab",
    "country": "AE",
@@ -3035,44 +3031,6 @@
     {
      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1PZ0I2Uy1COE1BTkpBN001M2xGbF80di1sTGUwVnZaWUN5T21LX2JBaEpDOVBUcEQ4eTRhd0lCRlFhcjg?oc=5",
      "name": "https://www.youlyou.com/"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-20T02:31:24+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-20"
-   }
-  },
-  {
-   "id": "05d814f8b050",
-   "bank_id": "fab",
-   "country": "AE",
-   "date": "2026-10-19",
-   "title": "First Abu Dhabi Bank Egypt adopts IBM AI solutions for banking operations",
-   "summary": "First Abu Dhabi Bank Egypt is adopting IBM artificial intelligence solutions to develop banking operations.",
-   "category": "Tech Vendor Partnerships",
-   "topics": [
-    "Tech Vendor Partnerships",
-    "AI Adoption in Operations"
-   ],
-   "tags": [
-    "AI solutions",
-    "IBM",
-    "Operations"
-   ],
-   "partners": [
-    "IBM"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE80VWlIcjF1VkJBSHM1clhIWmpGWk5OSFZjZnRDYmxyTXIwQUx3N0dGLTUyc01VSHlJaFhTai13RVNVbEt6?oc=5",
-   "source_name": "خبري نيوز",
-   "source_title": "بنك أبوظبي الأول مصر يعتمد حلول الذكاء الاصطناعي من IBM لتطوير العمليات المصرفية",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE80VWlIcjF1VkJBSHM1clhIWmpGWk5OSFZjZnRDYmxyTXIwQUx3N0dGLTUyc01VSHlJaFhTai13RVNVbEt6?oc=5",
-     "name": "خبري نيوز"
     }
    ],
    "language": "ar",
@@ -3157,47 +3115,120 @@
     "evidence": "headline",
     "checked": "2026-10-20"
    }
+  },
+  {
+   "id": "a8c4a55ed3c5",
+   "bank_id": "fab",
+   "country": "AE",
+   "date": "2026-10-19",
+   "title": "First Abu Dhabi Bank Egypt uses IBM technology to reshape banking operations with AI",
+   "summary": "First Abu Dhabi Bank Egypt is leveraging IBM technology to restructure its banking operations using artificial intelligence.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations",
+    "Tech Vendor Partnerships"
+   ],
+   "tags": [
+    "AI operations",
+    "IBM partnership"
+   ],
+   "partners": [
+    "IBM"
+   ],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBBTk0ybzRMeUZKSVphTW1fMTNHajlKWmQ1ejc5dUJpZFlycTdETTVCZlBRRVNNblc5UXdoeUZhUDNaXzRNdEZz?oc=5",
+   "source_name": "Pioneers Misr",
+   "source_title": "بنك أبوظبي الأول مصر يستعين بتكنولوجيا IBM لإعادة تشكيل عملياته المصرفية بالذكاء الاصطناعي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBBTk0ybzRMeUZKSVphTW1fMTNHajlKWmQ1ejc5dUJpZFlycTdETTVCZlBRRVNNblc5UXdoeUZhUDNaXzRNdEZz?oc=5",
+     "name": "Pioneers Misr"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-21T02:25:14+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-21"
+   }
+  },
+  {
+   "id": "e02dcd7e6aef",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2026-10-19",
+   "title": "Emirates NBD aims to be first MENA bank to deploy ChatGPT on in-country infrastructure",
+   "summary": "Emirates NBD wants to become the first bank in the MENA region to use ChatGPT on domestically-hosted infrastructure.",
+   "category": "Generative AI & Copilots",
+   "topics": [
+    "Generative AI & Copilots",
+    "Tech Vendor Partnerships"
+   ],
+   "tags": [
+    "ChatGPT",
+    "GenAI",
+    "MENA"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbVlKTy04UDhScDR0WWotcThDYVdvb1Q5dlFDbVFXOW5nNTVfZ3l5aWtoVTNlR0I2SnZSZ0NCdHh3aFJITVdSaFRWTVM5LUROYmxmVFZuOWowVUtuRGJxb0Q3VzVMdUNUMGNjcmJ5bWN1M2FGd1FaVWtnejMyTnRpdG91aHJVLU16aW9QRGJjaW1KTWtIc3BvOE1CWnNjcUZDS1JTZDQzd1ZmYzFIU2pVT01hUjVwSTVrVDlrZkpmUGZqOTBaQm5KT09vakRvczBFTUZEb0twOXRDaDcyYlhTenF0T0tPMW93QlJVSg?oc=5",
+   "source_name": "EnterpriseAM",
+   "source_title": "Emirates NBD wants to be the first MENA bank to use ChatGPT on in-country infra + AI-for-movies company lands USD 1 mn",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbVlKTy04UDhScDR0WWotcThDYVdvb1Q5dlFDbVFXOW5nNTVfZ3l5aWtoVTNlR0I2SnZSZ0NCdHh3aFJITVdSaFRWTVM5LUROYmxmVFZuOWowVUtuRGJxb0Q3VzVMdUNUMGNjcmJ5bWN1M2FGd1FaVWtnejMyTnRpdG91aHJVLU16aW9QRGJjaW1KTWtIc3BvOE1CWnNjcUZDS1JTZDQzd1ZmYzFIU2pVT01hUjVwSTVrVDlrZkpmUGZqOTBaQm5KT09vakRvczBFTUZEb0twOXRDaDcyYlhTenF0T0tPMW93QlJVSg?oc=5",
+     "name": "EnterpriseAM"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-21T02:25:14+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-21"
+   }
   }
  ],
  "retry": [],
  "newsrooms": {
   "rakbank": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "adcb": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "mashreq": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "sib": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "ei": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "bos": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "enbd": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "investbank": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
@@ -3206,8 +3237,9 @@
    "url": "https://www.dib.ae/about-us/media-centre",
    "status": "ok",
    "links": 19,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
+    "7064b8031185",
     "4fbec03647b0",
     "88e4cbd4e727",
     "eec7a1b7854d",
@@ -3225,8 +3257,7 @@
     "71f67151219a",
     "82f842568830",
     "3586893d3acf",
-    "7adaecf6c4f9",
-    "513d44af9ed5"
+    "7adaecf6c4f9"
    ]
   },
   "cbd": {
@@ -3234,7 +3265,7 @@
    "url": "https://www.cbd.ae/aboutus/media-centre/press-room/news/id/3c0f77ff-458f-66de-b8c5-ff0b00b6b24a",
    "status": "ok",
    "links": 3,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
     "f75bc3c487c1",
     "d7ef4db6cfce",
@@ -3242,42 +3273,42 @@
    ]
   },
   "nbf": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "edb": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "cbuae": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "wio": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "adib": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "alrajhi": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "snb": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "ajman": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
@@ -3286,7 +3317,7 @@
    "url": "https://www.zand.ae/en/news",
    "status": "ok",
    "links": 29,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
     "beb166c6b910",
     "837760b162de",
@@ -3320,42 +3351,42 @@
    ]
   },
   "aljazira": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "sab": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "anb": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "gibsa": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "bsf": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "d360": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "fab": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "visionbank": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
@@ -3364,7 +3395,7 @@
    "status": "unreachable (HTTPError)"
   },
   "saib": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
@@ -3373,7 +3404,7 @@
    "url": "https://www.alinma.com/About-the-Bank/The-Bank/News",
    "status": "ok",
    "links": 30,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
     "14582ad6136c",
     "ecd79199524f",
@@ -3412,7 +3443,7 @@
    "url": "https://www.alrayan.com/en/press-release",
    "status": "ok",
    "links": 3,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
     "1722b361feb0",
     "8eea57958b29",
@@ -3420,17 +3451,17 @@
    ]
   },
   "dohabank": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "sama": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "cbq": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
@@ -3439,7 +3470,7 @@
    "url": "https://www.dukhanbank.com/media-center/press-release",
    "status": "ok",
    "links": 29,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
     "fe0fc0810447",
     "a8e106894c28",
@@ -3473,12 +3504,12 @@
    ]
   },
   "albilad": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "qdb": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
@@ -3487,7 +3518,7 @@
    "url": "https://www.uab.ae/en/media-center/awards",
    "status": "ok",
    "links": 15,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
     "4465122501be",
     "6dba8d618990",
@@ -3507,7 +3538,7 @@
    ]
   },
   "qcb": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
@@ -3516,7 +3547,7 @@
    "url": "https://www.qiib.com.qa/Press/List/Announcements",
    "status": "ok",
    "links": 5,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
     "452f6107a821",
     "98394071c36b",
@@ -3528,9 +3559,9 @@
   "riyad": {
    "checked": "2026-10-06",
    "url": "https://www.riyadbank.com/personal-banking/media-center?p_p_id=com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath=%2Fdisplay_article.jsp&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId=6385919&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_shareURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fdisplay_article.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId%3D6385919%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL%3Dhttps%253A%252F%252Fwww.riyadbank.com%252Fpersonal-banking%252Fmedia-center%253Fp_p_id%253Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%2526p_p_lifecycle%253D0%2526p_p_state%253Dnormal%2526p_p_mode%253Dview%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%253D%25252Fview.jsp%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%253D2%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%253D10&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fview.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%3D2%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%3D10",
-   "status": "unreachable (IncompleteRead)",
+   "status": "ok",
    "links": 11,
-   "scanned": "2026-10-17",
+   "scanned": "2026-10-21",
    "known": [
     "aa5cf1170494",
     "8d3496c4d214",
@@ -3546,7 +3577,7 @@
    ]
   },
   "qib": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
@@ -3555,7 +3586,7 @@
    "url": "https://www.leshabank.com/media-center/news/",
    "status": "ok",
    "links": 6,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
     "dcf757b11209",
     "c4082108dd5d",
@@ -3566,7 +3597,7 @@
    ]
   },
   "boubyan": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
@@ -3575,8 +3606,10 @@
    "url": "https://www.ahlibank.com.qa/en/media-center/news-press-releases",
    "status": "ok",
    "links": 24,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
+    "e9793b0023c9",
+    "087038c6dfe6",
     "6076ad97b3fb",
     "f6676a04db7f",
     "cf6637fe0ef9",
@@ -3598,9 +3631,7 @@
     "f4f70ba0aff5",
     "2cdb5ef7fcaa",
     "9b47ba5b75bb",
-    "d704eae3b2f2",
-    "c188fc991f9f",
-    "9ed55d89b6c9"
+    "d704eae3b2f2"
    ]
   },
   "kfh": {
@@ -3608,23 +3639,23 @@
    "url": "https://www.kfh.com/home/Personal/news.html",
    "status": "ok",
    "links": 15,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
+    "882c184db046",
     "3ba9805d68e8",
     "0db97da1ee51",
-    "193256151cc6",
     "50b8807e44ab",
+    "193256151cc6",
     "be16840cf616",
     "083add66e64f",
     "008bfa75ddda",
     "7ee98a0ba515",
     "25f3f42aefbd",
     "0c9fb2af54b5",
-    "cb0f30100d55",
     "7b80d2c3cb92",
+    "cb0f30100d55",
     "ab0f93aae110",
-    "1ba12c1486bd",
-    "2cd659e90f31"
+    "1ba12c1486bd"
    ]
   },
   "warba": {
@@ -3632,7 +3663,7 @@
    "url": "https://www.warbabank.com/english/news",
    "status": "ok",
    "links": 12,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
     "26d158b4eb89",
     "cad7f6563d10",
@@ -3649,12 +3680,12 @@
    ]
   },
   "kib": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "cbkw": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
@@ -3663,7 +3694,7 @@
    "url": "https://www.cbk.com/Media-Library/Press-Releases",
    "status": "ok",
    "links": 99,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
     "68128689ff9e",
     "2db9601b061a",
@@ -3771,7 +3802,7 @@
    "url": "https://www.e-gulfbank.com/en/about-us/media/press-releases/",
    "status": "ok",
    "links": 8,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
     "3438add427f2",
     "f7209e917eaa",
@@ -3784,42 +3815,42 @@
    ]
   },
   "sohar": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "bankdhofar": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "ibk": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "bankmuscat": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "burgan": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "nizwa": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "cbo": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "abk": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
@@ -3828,7 +3859,7 @@
    "url": "https://www.nbk.com/news-and-insights/Media-Relations.html",
    "status": "ok",
    "links": 5,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
     "610cdb1a375d",
     "3dd1539d37be",
@@ -3838,37 +3869,37 @@
    ]
   },
   "oab": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "gib": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "stcbank": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "bankabc": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "khcb": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "gfh": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "aub": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
@@ -3877,7 +3908,7 @@
    "url": "https://www.nbo.om/en/Pages/News/Home.aspx",
    "status": "ok",
    "links": 57,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
     "1ce4089663e9",
     "d644291877af",
@@ -3943,7 +3974,7 @@
    "url": "https://www.alsalambank.com/press-releases/",
    "status": "ok",
    "links": 8,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
     "9e911d371be5",
     "89d8c7914ac7",
@@ -3956,12 +3987,12 @@
    ]
   },
   "cbb": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "bbk": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
@@ -3970,7 +4001,7 @@
    "url": "https://nbbonline.com/about/news/",
    "status": "ok",
    "links": 16,
-   "scanned": "2026-10-20",
+   "scanned": "2026-10-21",
    "known": [
     "245733299cbb",
     "9e9ed4ac8849",
@@ -3991,16 +4022,16 @@
    ]
   },
   "bisb": {
-   "checked": "2026-10-20",
+   "checked": "2026-10-21",
    "url": null,
    "status": "not found"
   },
   "ahlioman": {
    "checked": "2026-10-05",
    "url": "https://ahlibank.om/Ahlibank/news/",
-   "status": "unreachable (TimeoutError)",
+   "status": "ok",
    "links": 9,
-   "scanned": "2026-10-19",
+   "scanned": "2026-10-21",
    "known": [
     "af5f08321e09",
     "0611da646956",
@@ -5010,7 +5041,24 @@
   "60c790ef6b6708": "2026-10-19",
   "b69a3db963799c": "2026-10-19",
   "3b1ff5bb2c6efb": "2026-10-19",
-  "c09a3e1196a5fa": "2026-10-19"
+  "c09a3e1196a5fa": "2026-10-19",
+  "91da29af2359ea": "2026-09-09",
+  "16e1ec50c16585": "2026-10-14",
+  "ecd7c4f3b04ee3": "2026-10-14",
+  "37b3eebe1e25fc": "2026-10-14",
+  "5488a33d6c8fec": "2026-10-18",
+  "62605b7f794d90": "2026-10-19",
+  "411db9626b2bc4": "2026-10-20",
+  "66912427d5c7cf": "2026-10-20",
+  "60031476af1934": "2026-10-20",
+  "1e5bbe9163d07f": "2026-10-20",
+  "9e7d0bdcce3f54": "2026-10-20",
+  "23e41dd3d1ecff": "2026-10-20",
+  "8d2085d94d1cab": "2026-10-20",
+  "392b6dae01dca3": "2026-10-20",
+  "dd773d128f2b3e": "2026-10-20",
+  "297ed48643ee5a": "2026-10-20",
+  "39b3eb2f59a06d": "2026-10-20"
  },
  "sector_known": {},
  "sector_pending": [
@@ -10522,6 +10570,264 @@
     "evidence": "headline",
     "checked": "2026-10-20"
    }
+  },
+  {
+   "id": "fee3a7b6c4ad",
+   "date": "2026-10-14",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Banking Regulators Increase AI Scrutiny as Financial Stability Concerns Rise",
+   "summary": "Banking watchdogs globally are ramping up scrutiny of AI adoption as concerns about financial stability mount. Regulators are tightening oversight of banks' AI implementations to mitigate emerging risks.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeDdZb3RZUkFycmR5ZERRdjB4TWZlZXFTbEFvNTE4VmtKWHYtS3UwWjhIaWh1SnhYMmNzRTBUMTNxZ1JLR1JnaFBGdzIwQUFDRU1rWktpWjNiNm1ycEJwTEV1UUZPM2lFdFlQWVFKclZxYXRoTjRhSm9QeXZZVkZ4OFJLUjlkRWhRNzNGazJUeGFydDRiOEdwTks1bi14TmVTcnRTMUFfMEV1Q1N5N01TV01JcjBUTXF5RElZcVhwVHU4R2tzdHFMTElCUQ?oc=5",
+   "source_name": "Business Reporter",
+   "source_title": "News - Exclusive-Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeDdZb3RZUkFycmR5ZERRdjB4TWZlZXFTbEFvNTE4VmtKWHYtS3UwWjhIaWh1SnhYMmNzRTBUMTNxZ1JLR1JnaFBGdzIwQUFDRU1rWktpWjNiNm1ycEJwTEV1UUZPM2lFdFlQWVFKclZxYXRoTjRhSm9QeXZZVkZ4OFJLUjlkRWhRNzNGazJUeGFydDRiOEdwTks1bi14TmVTcnRTMUFfMEV1Q1N5N01TV01JcjBUTXF5RElZcVhwVHU4R2tzdHFMTElCUQ?oc=5",
+     "name": "Business Reporter"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-21T02:41:27+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-21"
+   }
+  },
+  {
+   "id": "8283f1e8ba0a",
+   "date": "2026-10-18",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Wall Street Banks Balance AI Infrastructure Investment Growth with Risk Management",
+   "summary": "Major Wall Street banks are navigating the tension between increasing AI infrastructure investment and managing associated risks. Financial institutions are weighing growth opportunities against stability and regulatory considerations.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5WdkpyUUhtUVFBMmdpaEZfOHRsZWZYT1RyRnFnYThhYm5xYkVrcTlEakVTd3ZuQXNVRUtxY29GbGtzWFY4TmNHVmFxNVRDU1l6QjAwOXdtcGV0R2JuMUZFLUZ5ZHl0dmpyRFJPMVNPR1VuZ0xFQjdmRDZEUm1SUQ?oc=5",
+   "source_name": "The Korea Daily",
+   "source_title": "AI Infrastructure Investment — Wall Street Banks Balance Growth with Risk",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5WdkpyUUhtUVFBMmdpaEZfOHRsZWZYT1RyRnFnYThhYm5xYkVrcTlEakVTd3ZuQXNVRUtxY29GbGtzWFY4TmNHVmFxNVRDU1l6QjAwOXdtcGV0R2JuMUZFLUZ5ZHl0dmpyRFJPMVNPR1VuZ0xFQjdmRDZEUm1SUQ?oc=5",
+     "name": "The Korea Daily"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-21T02:41:27+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-21"
+   }
+  },
+  {
+   "id": "bffea579de09",
+   "date": "2026-10-20",
+   "category": "Market Data",
+   "publisher": "World Bank",
+   "countries": [
+    "Global"
+   ],
+   "title": "Emerging Market Regulators Face Significant AI Regulatory Capacity Gap",
+   "summary": "Only 11% of emerging market financial regulators are equipped with AI tools, indicating a substantial capacity gap in AI governance. The World Bank highlights the disparity in regulatory preparedness for managing AI in banking systems.",
+   "key_stats": [
+    {
+     "value": "11%",
+     "label": "Emerging market regulators equipped with AI tools",
+     "quote": "Only 11% of Emerging Market Regulators Equipped With AI Tools"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RSFEtZXJSUFdJWTVDM1l2a3hXczBQUzZWZFNLdFBZS3M4dklZU09HbF90ZzFQTldkYkNyM0xvbWs0cnFIS2dqOXQxRjVYT3o4ZGllS0dBN2FTV2oySzhPN2lCTy1KQUhILVY4MlprQkczV1JIbkE?oc=5",
+   "source_name": "BigGo Finance",
+   "source_title": "World Bank Managing Director Zhang Wencai Warns of Stark AI Regulatory Capacity Gap, With Only 11% of Emerging Market Regulators Equipped With AI Tools",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RSFEtZXJSUFdJWTVDM1l2a3hXczBQUzZWZFNLdFBZS3M4dklZU09HbF90ZzFQTldkYkNyM0xvbWs0cnFIS2dqOXQxRjVYT3o4ZGllS0dBN2FTV2oySzhPN2lCTy1KQUhILVY4MlprQkczV1JIbkE?oc=5",
+     "name": "BigGo Finance"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-21T02:41:27+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-21"
+   }
+  },
+  {
+   "id": "c6602a4aa671",
+   "date": "2026-10-20",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Regional Banks Integrate AI into Core Operations as Business Lending Expands",
+   "summary": "Regional banks are embedding AI technologies into their core operational systems to support growing business lending portfolios. These implementations demonstrate how smaller financial institutions are adopting AI to enhance lending and operational efficiency.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOEtnelNhdFhfTDkzaHJsTzVTVmd2QnI4SDRZQVNqWldXQVF6RzIxRVRLX1EtdVZpZy1KdTJCaHhCOW1acWU1ajBzU05NSHVYdC1fN0ZHVVdpZDhPN3B1ZEdLc2M2ZURrSEo1bG1idzhIS0F5RUxKell5OWpoUC12X3hMREVfT0JMUFVSN3lvTVdQY1dYUTRJMVhjZkVpcmdvZjZIWEpteExXb0JwNUVR?oc=5",
+   "source_name": "PYMNTS.com",
+   "source_title": "Regional Banks Put AI Into Core Operations as Business Lending Grows",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOEtnelNhdFhfTDkzaHJsTzVTVmd2QnI4SDRZQVNqWldXQVF6RzIxRVRLX1EtdVZpZy1KdTJCaHhCOW1acWU1ajBzU05NSHVYdC1fN0ZHVVdpZDhPN3B1ZEdLc2M2ZURrSEo1bG1idzhIS0F5RUxKell5OWpoUC12X3hMREVfT0JMUFVSN3lvTVdQY1dYUTRJMVhjZkVpcmdvZjZIWEpteExXb0JwNUVR?oc=5",
+     "name": "PYMNTS.com"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-21T02:41:27+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-21"
+   }
+  },
+  {
+   "id": "e740d000b2ee",
+   "date": "2026-10-20",
+   "category": "Studies & Surveys",
+   "publisher": "European Central Bank",
+   "countries": [
+    "Global"
+   ],
+   "title": "ECB Study: Banks Assess AI-Exposed Firms More Favorably, Eroding Risk Differentiation",
+   "summary": "An ECB study finds that banks are assessing companies in AI-exposed sectors more favorably, reducing traditional risk premiums that once distinguished weaker competitors. The research highlights how AI adoption is reshaping credit assessment practices and risk perception in banking.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNMEcwX2dTdzV5SnlPR1hWMVZjSEhfVEtrRHR6S0NOazFpcFlfZXJzTFB5NWF1OFM2ZWxQNHFJcEJYQk5FQzZlazl5bXg3bzdabnRtYzRfVVlkRGtNc0g5ck9IZTRUYnE1MDZrcGgwUnhPaG12SWdkNnh4aXpBRzYtX3B4N1NwYXBwWU9saTNzWHkyOVhHTW0yQl8zbUJDNkJReVlnY3k2bVVYSlZ5ZFlLbWFhWGlzMWxtTjVtLTBSYXhRZzNNaFNVdVBubFNwblpDN2puVFh0cXZMaTBfWkh0VmR4NXZTaVFFVEVKUDY5RFl3WnQzTEM3cl9DMng2MkxXVXZoeFlGR0lvMk1zZzdF?oc=5",
+   "source_name": "Informat.ro",
+   "source_title": "ECB study: Banks assess firms in highly AI-exposed sectors more favorably, but leaders lose their relative risk advantage",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNMEcwX2dTdzV5SnlPR1hWMVZjSEhfVEtrRHR6S0NOazFpcFlfZXJzTFB5NWF1OFM2ZWxQNHFJcEJYQk5FQzZlazl5bXg3bzdabnRtYzRfVVlkRGtNc0g5ck9IZTRUYnE1MDZrcGgwUnhPaG12SWdkNnh4aXpBRzYtX3B4N1NwYXBwWU9saTNzWHkyOVhHTW0yQl8zbUJDNkJReVlnY3k2bVVYSlZ5ZFlLbWFhWGlzMWxtTjVtLTBSYXhRZzNNaFNVdVBubFNwblpDN2puVFh0cXZMaTBfWkh0VmR4NXZTaVFFVEVKUDY5RFl3WnQzTEM3cl9DMng2MkxXVXZoeFlGR0lvMk1zZzdF?oc=5",
+     "name": "Informat.ro"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-21T02:41:27+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-21"
+   }
+  },
+  {
+   "id": "d789b42ec268",
+   "date": "2026-10-20",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "الاستعداد للطوارئ المالية.. هل تستطيع البنوك احتواء كلفة هجمات الذكاء الاصطناعي؟",
+   "summary": "The headline discusses banks' readiness for financial emergencies from AI-related cyber attacks. It raises questions about whether institutions can contain costs from AI security threats.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi7gRBVV95cUxPcEMxNWtwcVQxU3NWXzZucE1wbXN5UWNUc1dfVE9yeThmNTNTM1NyQTdRYkMyOUs3dzF3emFZa3ZSMXZTbm56SnlJcFR6V21PVHpGdExFc3VxcU1zMXgtZTJ6NnU2cnJCYmMxc0p0cjBQRS1vOVV2Y3haamNzU09VNWp4bDZlMWMtX09kV2RCY1llajJMNjhHQ0hQNzBaeWxvUGkzUzFxNlNyR2QxSllmYlBpUDBpRXFUc1B1Nl9GMmJjclctUENUTFlTVl9adS1PcDdTb3oxQXYxV3ViVUdXS1dpVVFJM3dDTnZBWXZHU21XUThOOUVTUDFXdmhKNWVXa1VTLTQxUzY1T3pSN01pa0FEbTVYMVMzU0hydU1GUXVjdVNEdHJkM3FYd3pmcFVra1ZYQ3N4NmZWaXZNLUtwR2V3SG95X19ja29PZUtQVTdVUzg5MkdoaEZmLVJyTzRLREMtWEVyZURYaG8yRFN3aUg1WmQ2R2ltQUw1Q3dvUFc5dGNiYkdOU2FqQjRvWGlpREdYaVVyTGxZTldaa1FhYmZicVN6Ym9hWmljSVpEQ2U1S01UT3ZTZC1RTzRWWnpxdU5jQUNxNW9CaHlZLWNNc0YzS1lGRXpFckFMZkkza3lXNzVSeG5UOTBwLXVGQzVMcWs1UWtqdnY2a0hERGN1R0NGRDMxTVM0MTlfY0huY0oxX1J0VUR1WWY4T1MwaDNOMnRCdGtpMEtoUk1yd0lNY1FRdUlhbFVrTHJCSjdMX0I3MVVEUUNtU09BUk5yeUdsTWdDODRGZVBRZUxCZm5DbEpqT2d2c1dhempTcWZR?oc=5",
+   "source_name": "موقع 24",
+   "source_title": "الاستعداد للطوارئ المالية.. هل تستطيع البنوك احتواء كلفة هجمات الذكاء الاصطناعي؟",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi7gRBVV95cUxPcEMxNWtwcVQxU3NWXzZucE1wbXN5UWNUc1dfVE9yeThmNTNTM1NyQTdRYkMyOUs3dzF3emFZa3ZSMXZTbm56SnlJcFR6V21PVHpGdExFc3VxcU1zMXgtZTJ6NnU2cnJCYmMxc0p0cjBQRS1vOVV2Y3haamNzU09VNWp4bDZlMWMtX09kV2RCY1llajJMNjhHQ0hQNzBaeWxvUGkzUzFxNlNyR2QxSllmYlBpUDBpRXFUc1B1Nl9GMmJjclctUENUTFlTVl9adS1PcDdTb3oxQXYxV3ViVUdXS1dpVVFJM3dDTnZBWXZHU21XUThOOUVTUDFXdmhKNWVXa1VTLTQxUzY1T3pSN01pa0FEbTVYMVMzU0hydU1GUXVjdVNEdHJkM3FYd3pmcFVra1ZYQ3N4NmZWaXZNLUtwR2V3SG95X19ja29PZUtQVTdVUzg5MkdoaEZmLVJyTzRLREMtWEVyZURYaG8yRFN3aUg1WmQ2R2ltQUw1Q3dvUFc5dGNiYkdOU2FqQjRvWGlpREdYaVVyTGxZTldaa1FhYmZicVN6Ym9hWmljSVpEQ2U1S01UT3ZTZC1RTzRWWnpxdU5jQUNxNW9CaHlZLWNNc0YzS1lGRXpFckFMZkkza3lXNzVSeG5UOTBwLXVGQzVMcWs1UWtqdnY2a0hERGN1R0NGRDMxTVM0MTlfY0huY0oxX1J0VUR1WWY4T1MwaDNOMnRCdGtpMEtoUk1yd0lNY1FRdUlhbFVrTHJCSjdMX0I3MVVEUUNtU09BUk5yeUdsTWdDODRGZVBRZUxCZm5DbEpqT2d2c1dhempTcWZR?oc=5",
+     "name": "موقع 24"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-21T02:41:27+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-21"
+   }
+  },
+  {
+   "id": "a85c11168905",
+   "date": "2026-10-20",
+   "category": "Market Data",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "American Banks Hesitant Over AI Investment Risks",
+   "summary": "U.S. banks are exhibiting caution regarding artificial intelligence investment opportunities due to perceived risks and uncertainties. Financial institutions are re-evaluating the cost-benefit calculus of large-scale AI deployments.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMijwRBVV95cUxNSFpuVTl2QWpobTd6WHQ0c2Z6WU1ZZ1h5bVBFcVEtcllUd0NIMjVicTlhaG90V1l4RktLbVNOVk16RnRTdmxid191MG5GMnhDWm1QX2Q2akxXRXZaZ2tXMTRXVXJnQU0wYUVPbFVDbkprWFNxcmJEN25pcXRKMkdpV25adVNVMDRoTzlHNk9RMENLaWhSY2FoLWhkazR2RnVhVWFQQjVWT3ZScmppNTFzSWFOXzJZZldncXlqb1VaYlVwbWlpNHpOYkpRNGpaX0R6NDlQUElhbElfaEVLVktFdll3bElRRS1CcjRqTU5WVUU0XzVfMDRwQ0xwa1RGMHBUYmtHWlZOUzQtSXI4U1ZLLXlzVFgzbkRCQXIyYVpRTHlwTnpfaFpGZENqTVh2SWFhVXFZcm94OG9mcXZkU05BbnlobHZRRWZndjk0WVBUMnhXTzJXN3FiZHNMUFZkR2ZsWlljMXAyUEhIWW9lQzJnNmFMbEVSU2Z2REFlNFVlOXA2eXF0eVRRY29SUXJ3ZDV5TlBOVF9hZ19yal81TjZMUmNLVnJQckxaVzVqMjVZMU5PTFdaRFpPd3NpcEp2cnROQnotNi1ZWFA1SUlTdEVPRTA2ZWF0alg1aXA1clV5aG0wRmlkMVRBR0U3Sl9BcmdBbWtuZDFZX19jWXI4a3FBenk2UVVtdE9jU0pwUnZKWQ?oc=5",
+   "source_name": "نيو ترك بوست",
+   "source_title": "البنوك الأمريكية تتردد أمام مخاطر استثمارات الذكاء الاصطناعي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMijwRBVV95cUxNSFpuVTl2QWpobTd6WHQ0c2Z6WU1ZZ1h5bVBFcVEtcllUd0NIMjVicTlhaG90V1l4RktLbVNOVk16RnRTdmxid191MG5GMnhDWm1QX2Q2akxXRXZaZ2tXMTRXVXJnQU0wYUVPbFVDbkprWFNxcmJEN25pcXRKMkdpV25adVNVMDRoTzlHNk9RMENLaWhSY2FoLWhkazR2RnVhVWFQQjVWT3ZScmppNTFzSWFOXzJZZldncXlqb1VaYlVwbWlpNHpOYkpRNGpaX0R6NDlQUElhbElfaEVLVktFdll3bElRRS1CcjRqTU5WVUU0XzVfMDRwQ0xwa1RGMHBUYmtHWlZOUzQtSXI4U1ZLLXlzVFgzbkRCQXIyYVpRTHlwTnpfaFpGZENqTVh2SWFhVXFZcm94OG9mcXZkU05BbnlobHZRRWZndjk0WVBUMnhXTzJXN3FiZHNMUFZkR2ZsWlljMXAyUEhIWW9lQzJnNmFMbEVSU2Z2REFlNFVlOXA2eXF0eVRRY29SUXJ3ZDV5TlBOVF9hZ19yal81TjZMUmNLVnJQckxaVzVqMjVZMU5PTFdaRFpPd3NpcEp2cnROQnotNi1ZWFA1SUlTdEVPRTA2ZWF0alg1aXA1clV5aG0wRmlkMVRBR0U3Sl9BcmdBbWtuZDFZX19jWXI4a3FBenk2UVVtdE9jU0pwUnZKWQ?oc=5",
+     "name": "نيو ترك بوست"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-21T02:41:27+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-21"
+   }
+  },
+  {
+   "id": "5b41a8ddc50a",
+   "date": "2026-10-19",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "FABMISR Deploys IBM watsonx to Scale Governed Enterprise AI in Banking",
+   "summary": "FABMISR has implemented IBM watsonx to expand AI capabilities with enterprise governance and risk management frameworks in place. The deployment showcases how a financial institution is scaling AI while maintaining compliance and oversight.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS2twV0s5ZFgySTIyRnYwVElEREFnVjNJM1dRWWFZVEdfY2FyWlAzZFVGdHhfT0VvX1NrWEhOaTQyYVdvcjBOWXdWTzhwZzhGT3hBWWcxUlQ5NTVzN1pNcG9zcDl0amgwZFdONjczYTltbGpvd2JBd3AwWkRtT0ExTEJ0MHlIMzhwNHpTYk12VGdKMjV0OUs1MDY1TEtJYVdwQkNOM1lpSGs?oc=5",
+   "source_name": "Konsulteer",
+   "source_title": "FABMISR Deploys IBM watsonx to Scale Governed Enterprise AI in Banking",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS2twV0s5ZFgySTIyRnYwVElEREFnVjNJM1dRWWFZVEdfY2FyWlAzZFVGdHhfT0VvX1NrWEhOaTQyYVdvcjBOWXdWTzhwZzhGT3hBWWcxUlQ5NTVzN1pNcG9zcDl0amgwZFdONjczYTltbGpvd2JBd3AwWkRtT0ExTEJ0MHlIMzhwNHpTYk12VGdKMjV0OUs1MDY1TEtJYVdwQkNOM1lpSGs?oc=5",
+     "name": "Konsulteer"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-21T02:41:27+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-21"
+   }
+  },
+  {
+   "id": "7606f893dadc",
+   "date": "2026-10-20",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Commercial lenders facing heavier AI burden than central banks: ICBC president",
+   "summary": "ICBC's president states commercial lenders face heavier operational burdens from AI adoption than central banks. The commentary highlights different challenges in deploying AI across banking sectors.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZ1lBWTlKSzA0WUtQVDRYVmRIaVRKQ3NHcEVVNm5yYXIyd2Y0Z2gtWTNscGladWF3Y3Y0b2tYYUc1YndISVBXZDBzb01fbUpYUnJZb1F2ZmJJUEcxcEx2dC1PcVZLQk1KQXVsRjVJc3RXZEoyeGJoMkZQa3Bpd09zby14ektCcVFUXzUwRW5EVkpYMy1JTERNRU1peHlIcjdkVmZDUXNDRlNXMW1wQ2wxaVhIaVFaNFMybFZzc1JXVk5La1h2dGY2QjRLTFZwUFZWSFBKekVn0gHWAUFVX3lxTE1zRS0zb3BGelhHQmt1VUhsWkJDa3drMEFqZ3g5RXlqUWtPUUlxNHBoMnl4VXR2X2dIVXBiSnJmNklJMU9fVElMbG1MeU1uUTVFUUtNLVI3dGlRdkgyRGVuMTBOTkY5Z1JrMEFadlNub2RFWExjYUthTXk1MXBCOGdBdm94ZmJFbnVhRWpRRF9qRWlhTUQ5Nm5sZGJkcTRhM21sTHJQT01PMnJpNlBEOXdnYkVXOEh6dklweEg4X1RaajNGbHlickNNTWxPQW4wSTEwM2V4bVE?oc=5",
+   "source_name": "South China Morning Post",
+   "source_title": "Commercial lenders facing heavier AI burden than central banks: ICBC president",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZ1lBWTlKSzA0WUtQVDRYVmRIaVRKQ3NHcEVVNm5yYXIyd2Y0Z2gtWTNscGladWF3Y3Y0b2tYYUc1YndISVBXZDBzb01fbUpYUnJZb1F2ZmJJUEcxcEx2dC1PcVZLQk1KQXVsRjVJc3RXZEoyeGJoMkZQa3Bpd09zby14ektCcVFUXzUwRW5EVkpYMy1JTERNRU1peHlIcjdkVmZDUXNDRlNXMW1wQ2wxaVhIaVFaNFMybFZzc1JXVk5La1h2dGY2QjRLTFZwUFZWSFBKekVn0gHWAUFVX3lxTE1zRS0zb3BGelhHQmt1VUhsWkJDa3drMEFqZ3g5RXlqUWtPUUlxNHBoMnl4VXR2X2dIVXBiSnJmNklJMU9fVElMbG1MeU1uUTVFUUtNLVI3dGlRdkgyRGVuMTBOTkY5Z1JrMEFadlNub2RFWExjYUthTXk1MXBCOGdBdm94ZmJFbnVhRWpRRF9qRWlhTUQ5Nm5sZGJkcTRhM21sTHJQT01PMnJpNlBEOXdnYkVXOEh6dklweEg4X1RaajNGbHlickNNTWxPQW4wSTEwM2V4bVE?oc=5",
+     "name": "South China Morning Post"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-21T02:41:27+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-10-21"
+   }
   }
  ],
  "sector_retry": [],
@@ -12199,6 +12505,12 @@
    "anchor": "IBM",
    "confidence": "medium",
    "same": true
+  },
+  "v2|35fd1053396c|372d881236af": {
+   "merge": true,
+   "anchor": "National Bank of Bahrain advances AI capability through strategic partnership",
+   "confidence": "high",
+   "same": true
   }
  },
  "annual_reports": {
@@ -12209,7 +12521,7 @@
     "https://www.bankfab.com/en-ae/about-fab/investor-relations/shareholder-information/agms"
    ],
    "config": "[[], [\"https://www.bankfab.com/en-ae/about-fab/investor-relations/reports-and-presentations/quarterly-and-annual-reports\"], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "enbd": {
    "done": {
@@ -12244,7 +12556,7 @@
     }
    },
    "config": "[[], [\"https://www.adcb.com/en/about-us/investor-relations/financial-reports/\", \"https://www.adcb.com/en/about-us/investor-relations/annual-report/2024\"], [{\"url\": \"https://www.adcb.com/en/about-us/investor-relations/annual-report/2024\", \"year\": 2024}]]",
-   "checked": "2026-10-07",
+   "checked": "2026-10-21",
    "pages": [
     "https://www.adcb.com/en/about-us/investor-relations/annual-report/2024"
    ]
@@ -12303,7 +12615,7 @@
     }
    },
    "config": "[[{\"url\": \"https://www.mashreq.com/-/jssmedia/pdfs/aboutus/investors/2026/2025-annual-report-en.ashx\", \"year\": 2025}], [\"https://www.mashreq.com/en/uae/about-us/investor-relations/financial-information/annual-reports/\"], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "cbd": {
    "done": {
@@ -12329,7 +12641,7 @@
   "rakbank": {
    "done": {},
    "config": "[[], [\"https://www.rakbank.ae/en/about-us/investor-relations/financials/reports\"], []]",
-   "checked": "2026-10-07",
+   "checked": "2026-10-21",
    "pages": [
     "https://www.rakbank.ae/en/about-us/investor-relations/financials/reports"
    ]
@@ -12360,12 +12672,12 @@
   "nbf": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "sib": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "ajman": {
    "done": {
@@ -12374,6 +12686,12 @@
      "pages": 223,
      "items": 0,
      "date": "2026-06-17"
+    },
+    "2025": {
+     "url": "https://www.ajmanbank.ae/site/files/Annual_Integrated_Report_2025_EN.pdf",
+     "pages": 269,
+     "items": 3,
+     "date": "2026-02-18"
     }
    },
    "pages": [
@@ -12381,19 +12699,13 @@
     "https://www.ajmanbank.ae/site/ar/annual-integrated-reports.html"
    ],
    "config": "[[{\"url\": \"https://www.ajmanbank.ae/site/files/Annual_Integrated_Report_2024_Ajman_Bank_compressed.pdf\", \"year\": 2024}], [], []]",
-   "failed": {
-    "2025": {
-     "n": 5,
-     "url": "https://www.ajmanbank.ae/site/files/AB - Integrated Annual Report 2025/Annual_Integrated_Report_2025_EN.pdf",
-     "error": "HTTPError: HTTP Error 404: Not Found"
-    }
-   },
-   "checked": "2026-10-07"
+   "failed": {},
+   "checked": "2026-10-21"
   },
   "bos": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "uab": {
    "done": {
@@ -12421,27 +12733,27 @@
   "investbank": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "wio": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "zand": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "edb": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "cbuae": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "alrajhi": {
    "done": {
@@ -12495,9 +12807,10 @@
    },
    "config": "[[{\"url\": \"https://www.riyadbank.com/documents/20121/8029796/Riyad+Bank+AR25+-+English.pdf/ee4fc166-57b1-6594-5a25-f1eaa0a6767a?t=1782385539524+&download=true\", \"year\": 2025}], [\"https://www.riyadbank.com/investor-relations/annual-reports\"], []]",
    "pages": [
-    "https://www.riyadbank.com/web/annual-reports-2025/download-center"
+    "https://www.riyadbank.com/web/annual-reports-2025/download-center",
+    "https://www.riyadbank.com/ar/web/annual-reports-2025/download-center"
    ],
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "sab": {
    "done": {
@@ -12509,12 +12822,12 @@
     }
    },
    "config": "[[{\"url\": \"https://www.sab.com/content/dam/sabpws/files/reports-documents/en/category-reports/2025/other-reports/SAB%20Annual%20Report%202025%20English.pdf\", \"year\": 2025}], [\"https://www.sab.com/en/about-us/investor-relations/\"], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "bsf": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "anb": {
    "done": {},
@@ -12541,17 +12854,17 @@
     "https://ir.alinma.com/en/investor-relations/financial-information/?query=annual-reports"
    ],
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "aljazira": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "albilad": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "saib": {
    "done": {
@@ -12579,39 +12892,39 @@
   "gibsa": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "stcbank": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "d360": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "visionbank": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "sama": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "qnb": {
    "done": {},
    "config": "[[{\"url\": \"https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025\", \"year\": 2025}], [\"https://www.qnb.com/sites/qnb/qnbqatar/page/en/enannualreports.html\"], []]",
    "failed": {
     "2025": {
-     "n": 5,
+     "n": 6,
      "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
      "error": "RuntimeError: HTTP 403 in browser"
     }
    },
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "qib": {
    "done": {
@@ -12646,7 +12959,7 @@
     }
    },
    "config": "[[{\"url\": \"https://www.cbq.com.qa/-/media/project/cbq/cbqwebsite/documents/corporate-affairs/annual-reports-en/cbq-annual-report-2025--en.pdf\", \"year\": 2025}], [\"https://www.cbq.qa/en/investor-relations/financial-information/annual-reports\"], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "rayan": {
    "done": {
@@ -12674,7 +12987,7 @@
   "dohabank": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "dukhan": {
    "done": {
@@ -12689,12 +13002,12 @@
     "https://www.dukhanbank.com/ar/investor-relations/financial-information"
    ],
    "config": "[[{\"url\": \"https://www.dukhanbank.com/sites/default/files/2026/pdfs/DB_ANNUALREPORT2024_EN-Combinedbook_20250526.pdf\", \"year\": 2024}], [\"https://www.dukhanbank.com/investor-relations/financial-information\"], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "qiib": {
    "done": {},
    "config": "[[], [\"https://www.qiib.com.qa/documents/list/financialreports\"], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "ahlibankqa": {
    "done": {
@@ -12706,7 +13019,7 @@
     }
    },
    "config": "[[{\"url\": \"https://www.ahlibank.com.qa/Library/Assets/Ahli%20Bank%20Annual%20Report%202024-EN-010841.pdf\", \"year\": 2024}], [\"https://www.ahlibank.com.qa/en/about-us/investor-relations/financial-reports\"], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "lesha": {
    "done": {
@@ -12734,12 +13047,12 @@
   "qdb": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "qcb": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "nbk": {
    "done": {
@@ -12797,7 +13110,7 @@
     }
    },
    "config": "[[{\"url\": \"https://www.bankboubyan.com/media/filer_public/67/e2/67e2e79a-c6a0-40e1-aeeb-6c6fc73df37a/view_report.pdf\", \"year\": 2025}], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "gulfbank": {
    "done": {
@@ -12830,7 +13143,7 @@
     "https://burgan.com/en/investor-relations/investor-relations/"
    ],
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "cbk": {
    "done": {},
@@ -12838,7 +13151,7 @@
     "https://www.cbk.com/ar/About-CBK/Investors-Relations/Financial-Statements"
    ],
    "config": "[[], [\"https://www.cbk.com/About-CBK/Investors-Relations\"], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "abk": {
    "done": {
@@ -12861,12 +13174,12 @@
   "warba": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "kib": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "ibk": {
    "done": {
@@ -12883,12 +13196,12 @@
     "https://www.ibkuwt.com/en/annual-reports/"
    ],
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "cbkw": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "bankmuscat": {
    "done": {
@@ -12900,17 +13213,17 @@
     }
    },
    "config": "[[{\"url\": \"https://www.bankmuscat.om/en/investorrelations/AnnualReports/Annual_Report_EN_2025.pdf\", \"year\": 2025}], [\"https://www.bankmuscat.com/en/investorrelations\"], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "sohar": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "nbo": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "bankdhofar": {
    "done": {
@@ -12926,7 +13239,7 @@
     "https://bankdhofar.com/about-us/investor-relations/financial-reports/"
    ],
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "oab": {
    "done": {},
@@ -12937,17 +13250,17 @@
    "config": "[[], [], []]",
    "failed": {
     "2025": {
-     "n": 5,
+     "n": 6,
      "url": "http://www.oman-arabbank.com/wp-content/uploads/OAB-ANNUAL-REPORT-2025-ENG.pdf",
      "error": "URLError: <urlopen error [Errno 101] Network is unreachable>"
     },
     "2024": {
-     "n": 5,
+     "n": 6,
      "url": "http://www.oman-arabbank.com/wp-content/uploads/OAB_ANNUAL_REPORT_2024_ENG-2.pdf",
      "error": "URLError: <urlopen error [Errno 101] Network is unreachable>"
     }
    },
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "ahlioman": {
    "done": {
@@ -12975,12 +13288,12 @@
   "nizwa": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "cbo": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "nbb": {
    "done": {
@@ -12997,7 +13310,7 @@
     "https://nbbonline.com/ar/about/investors/"
    ],
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "bbk": {
    "done": {
@@ -13024,7 +13337,7 @@
   "aub": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "bankabc": {
    "done": {
@@ -13036,12 +13349,12 @@
     }
    },
    "config": "[[{\"url\": \"https://www.bank-abc.com/ar/ShareholderRelations/Annual%20Reports/Annual%20Report%202025.pdf\", \"year\": 2025}], [\"https://www.bank-abc.com/en/ShareholderRelations/financial-results\"], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "gib": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "bisb": {
    "done": {
@@ -13067,22 +13380,22 @@
   "alsalam": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "khcb": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "gfh": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   },
   "cbb": {
    "done": {},
    "config": "[[], [], []]",
-   "checked": "2026-10-07"
+   "checked": "2026-10-21"
   }
  },
  "sector_migrations": [
@@ -14567,6 +14880,42 @@
    "same": false
   },
   "v2|6d632683e2ea|f41c4e564604": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1dca78b550ae|9a10a5c34b72": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|05247076ca3d|1dca78b550ae": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1dca78b550ae|7eb5eb12f900": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1dca78b550ae|2cb90a93bd54": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1dca78b550ae|d6dcd5cb25ab": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1dca78b550ae|f41c4e564604": {
    "merge": false,
    "anchor": "",
    "confidence": "high",

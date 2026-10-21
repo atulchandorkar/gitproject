@@ -1,6 +1,64 @@
 {
- "updated_at": "2026-10-20T02:35:25+00:00",
+ "updated_at": "2026-10-21T02:41:47+00:00",
  "items": [
+  {
+   "id": "7eb5eb12f900",
+   "date": "2026-10-20",
+   "category": "Expert Views",
+   "publisher": "Oliver Wyman",
+   "countries": [
+    "Global"
+   ],
+   "title": "Seven Strategic Reasons AI in Banking Should Be a CEO Priority",
+   "summary": "Oliver Wyman presents key reasons why artificial intelligence in banking deserves immediate attention from bank executives and leadership. The analysis outlines strategic imperatives for banking leaders to address AI adoption and governance.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRkg5OVd0T1Y5YWJxS1JnU2o3VUFFQ0ctQWRVZ2xYNmxTYjFRb2xaNzhzTFJFYTBnS05qbUJtbEswY0ZEMDhTN1lUV1BUbXV0V1N2TklBLVFlcHdyNzVRZWdKVTRUUC12ckxjY1FEZ3hRNFBiZXo4ZGxJdHVndHpnOE9ZV0hoMWJtM1UwNldOWEV2cXNiZHE3N1o3NWR1WExO?oc=5",
+   "source_name": "Oliver Wyman",
+   "source_title": "7 reasons AI in banking should be on every CEO's mind now",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRkg5OVd0T1Y5YWJxS1JnU2o3VUFFQ0ctQWRVZ2xYNmxTYjFRb2xaNzhzTFJFYTBnS05qbUJtbEswY0ZEMDhTN1lUV1BUbXV0V1N2TklBLVFlcHdyNzVRZWdKVTRUUC12ckxjY1FEZ3hRNFBiZXo4ZGxJdHVndHpnOE9ZV0hoMWJtM1UwNldOWEV2cXNiZHE3N1o3NWR1WExO?oc=5",
+     "name": "Oliver Wyman"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-21T02:41:27+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-21"
+   },
+   "pdf_checked": "2026-10-21"
+  },
+  {
+   "id": "1dca78b550ae",
+   "date": "2026-10-20",
+   "category": "Expert Views",
+   "publisher": "Finextra Research",
+   "countries": [
+    "Global"
+   ],
+   "title": "Agentic AI and Instant Payments: How Can Banks Reduce Fragmentation?",
+   "summary": "Finextra Research examines how agentic AI and instant payment systems can reduce banks' operational fragmentation. The analysis explores autonomous AI agents and payment infrastructure modernization.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb3RFZmpfS3pMRnRjY2RrYm9GSUhtbXVWVFpyNVRWRjBqX1NLdHdPaXFCa2VJVHlpNnBXQVNrdF9xZmladWwzN0JMdFhXc1B3SHNDLUlTMmE0Y0o4VmQtekxlbnkzZkFWUjk2RDlFYmhIYzIzMzFGOFMzb2V5MVJVS0RPcnpUVnNOeXFFcG81RUlLcDlZbHlQb2dNZTJWNUdKM0ZJb3loTWtBV09DVGc?oc=5",
+   "source_name": "Finextra Research",
+   "source_title": "Agentic AI and Instant Payments: How Can Banks Reduce Fragmentation?",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb3RFZmpfS3pMRnRjY2RrYm9GSUhtbXVWVFpyNVRWRjBqX1NLdHdPaXFCa2VJVHlpNnBXQVNrdF9xZmladWwzN0JMdFhXc1B3SHNDLUlTMmE0Y0o4VmQtekxlbnkzZkFWUjk2RDlFYmhIYzIzMzFGOFMzb2V5MVJVS0RPcnpUVnNOeXFFcG81RUlLcDlZbHlQb2dNZTJWNUdKM0ZJb3loTWtBV09DVGc?oc=5",
+     "name": "Finextra Research"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-21T02:41:27+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-21"
+   },
+   "pdf_checked": "2026-10-21"
+  },
   {
    "id": "1fadb4d26523",
    "date": "2026-10-19",
@@ -638,6 +696,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTG5sc0tMSTM0TkpPWDhFV3NCbFgzeTBmRDJyNWUxcFlmc053UTM0Vk5vaHgwaVByRDhleURvU18xR2R3VjR3aXU5eld6V3BHMjRJWjVsVGRMeDh3VGY3ZWVBWVRMQkhHX0ZVQmZPUjhIazAwOC1jZUd5MHA5Tjg0X0ZCZkh6ck94WWRXZHpTcUUxU3oybjVyaXB4TDlnN1U2Vjc4dE92eWQ0OE5UNjBSVDNBUQ?oc=5",
      "name": "FF News"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZEphZjMyTWRTcndrS1c1SUZvTC1nN2VxNWhTeTRnbklCQTczLU9xb0ZjZTJaYVVfWVFJUC1CRkRiWTZsNWtELVZqU0xyNVJYOGVwY0RORndoeVpiaC1Idy1qbzg2TVhsLTlVQ3VTOWNYeGdDT1pHU3o2cEFNZzlyM1NyZ00xT0VfcDdMQlJPZnY?oc=5",
+     "name": "Markets Media"
     }
    ],
    "language": "en",
