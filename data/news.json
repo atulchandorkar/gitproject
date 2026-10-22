@@ -1,6 +1,42 @@
 {
- "updated_at": "2026-10-21T02:41:47+00:00",
+ "updated_at": "2026-10-22T02:23:46+00:00",
  "items": [
+  {
+   "id": "bb9536e5d03d",
+   "bank_id": "nbb",
+   "country": "BH",
+   "date": "2026-10-20",
+   "title": "NBB Group advances AI capability building through strategic programme with Reboot Coding Institute",
+   "summary": "National Bank of Bahrain is advancing AI capabilities through a strategic programme with Reboot Coding Institute.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "AI training",
+    "Capability building"
+   ],
+   "partners": [
+    "Reboot Coding Institute"
+   ],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN3d2SkN1UUhJUFFwNmthT21QdWw4b19VaXl2RWpycUdUTmhWeHp6Ykh6WWg3anRUS0VVVlZELVRrekpWNnlZMGRfUGNUNGNqVUVjOGVaOXRaN0NiZzV5ZTk3WXZBTjFuaC1aOTVjNEhKUGo0S2FfbjIwcjQ2NHBRbWhubnhYSFBJaXVzUXd0Mk1fTE5MQjYycWVpVnRNMTVlVGI3Uk9SeDRPRWxxdzlscURFOUdwd2I1Wm1ZWmhfV2hqWGE3RGw5UlJiaWRkSWNHVnY0MUlqTQ?oc=5",
+   "source_name": "Gulf Daily News (Bahrain)",
+   "source_title": "NBB Group advances AI capability building through strategic programme with Reboot Coding Institute",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN3d2SkN1UUhJUFFwNmthT21QdWw4b19VaXl2RWpycUdUTmhWeHp6Ykh6WWg3anRUS0VVVlZELVRrekpWNnlZMGRfUGNUNGNqVUVjOGVaOXRaN0NiZzV5ZTk3WXZBTjFuaC1aOTVjNEhKUGo0S2FfbjIwcjQ2NHBRbWhubnhYSFBJaXVzUXd0Mk1fTE5MQjYycWVpVnRNMTVlVGI3Uk9SeDRPRWxxdzlscURFOUdwd2I1Wm1ZWmhfV2hqWGE3RGw5UlJiaWRkSWNHVnY0MUlqTQ?oc=5",
+     "name": "Gulf Daily News (Bahrain)"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-22T02:19:43+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-22"
+   }
+  },
   {
    "id": "840a834b6389",
    "bank_id": "enbd",
@@ -243,6 +279,45 @@
     {
      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE80VWlIcjF1VkJBSHM1clhIWmpGWk5OSFZjZnRDYmxyTXIwQUx3N0dGLTUyc01VSHlJaFhTai13RVNVbEt6?oc=5",
      "name": "خبري نيوز"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-20T02:31:24+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-20"
+   }
+  },
+  {
+   "id": "5303cdb55378",
+   "bank_id": "fab",
+   "country": "AE",
+   "date": "2026-10-19",
+   "title": "First Abu Dhabi Bank Egypt balances AI and data security",
+   "summary": "First Abu Dhabi Bank Egypt is balancing artificial intelligence implementation with data security considerations.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Data security",
+    "AI governance"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1PZ0I2Uy1COE1BTkpBN001M2xGbF80di1sTGUwVnZaWUN5T21LX2JBaEpDOVBUcEQ4eTRhd0lCRlFhcjg?oc=5",
+   "source_name": "https://www.youlyou.com/",
+   "source_title": "كيف يوازن بنك أبوظبي الأول مصر بين الذكاء الاصطناعي وأمن البيانات؟",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1PZ0I2Uy1COE1BTkpBN001M2xGbF80di1sTGUwVnZaWUN5T21LX2JBaEpDOVBUcEQ4eTRhd0lCRlFhcjg?oc=5",
+     "name": "https://www.youlyou.com/"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5TT21NNEdsTEI2T0JIdGNjSlgxOFY0OXJ5T1FfMnlNNWNOTXMzTWV4dUJjdVBTb1Bwa242aTJrNEppU1hnaDFveUs3bXVKcmxjU2Fj?oc=5",
+     "name": "شبكة تواصل الإخبارية"
     }
    ],
    "language": "ar",

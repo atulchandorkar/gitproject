@@ -1,6 +1,64 @@
 {
- "updated_at": "2026-10-21T02:41:47+00:00",
+ "updated_at": "2026-10-22T02:23:46+00:00",
  "items": [
+  {
+   "id": "d5a628492e89",
+   "date": "2026-10-21",
+   "category": "Expert Views",
+   "publisher": "Finextra Research",
+   "countries": [
+    "Global"
+   ],
+   "title": "Bridging the execution gap in institutional banking AI deployment",
+   "summary": "Industry analysis on why banks struggle to move AI projects from sandbox environments to production at scale. Examines barriers to institutional AI adoption and implementation strategies.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNb0poRFQxRjd2OGo1V2RpTkNjM1lEWmt6bTZqZWR1dk93V0N5aXN0dEZFTGVIZ053MXdfT3FNX3dBOGVqYWJMY2h4bHVpMVBqeFZrb1lUX21LRldhMVFzMV9oaFA1TmZOU3FMc09OWk91TnF3TEpOQmVnRi1uNE1aUWU4eFRyTWE3ME1oU05TeGlNbXFETEhXRFpLUkFUdUp4Wk1hV0FxV01uTk0xd3hjRU9nemxBTVU?oc=5",
+   "source_name": "Finextra Research",
+   "source_title": "Beyond the Sandbox: Bridging the Execution Gap in Institutional Banking AI: By Nanne Parmar",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNb0poRFQxRjd2OGo1V2RpTkNjM1lEWmt6bTZqZWR1dk93V0N5aXN0dEZFTGVIZ053MXdfT3FNX3dBOGVqYWJMY2h4bHVpMVBqeFZrb1lUX21LRldhMVFzMV9oaFA1TmZOU3FMc09OWk91TnF3TEpOQmVnRi1uNE1aUWU4eFRyTWE3ME1oU05TeGlNbXFETEhXRFpLUkFUdUp4Wk1hV0FxV01uTk0xd3hjRU9nemxBTVU?oc=5",
+     "name": "Finextra Research"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-22T02:23:29+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-22"
+   },
+   "pdf_checked": "2026-10-22"
+  },
+  {
+   "id": "d7e25eab50a6",
+   "date": "2026-10-21",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Bank deploys AI agent for anti-money laundering alerts",
+   "summary": "A UK bank deployed an AI agent to automate anti-money laundering alert detection and investigation. The case demonstrates practical application of agentic AI to regulatory compliance in banking.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNakFmTHQtdXBSemlteml6TzRkWTdOMWlEQngzMTE4TE53Z3pPSENBZlU0Y2p5dlNyajVYanZOYmJtNVdTcS1uUnI1NVpYNUhQbjFMWm52S1lEWEhkdlpRdlFGT25EM01DRlRSZXFyNlhxNnRuTjJieXdtbGlGRkQ0enB4QkF6N0JSaFVrek5EcThjUmxiOUpHeUlHdzdaZ29TbTRYTjZyWnRFUQ?oc=5",
+   "source_name": "The Paypers",
+   "source_title": "Starling Bank deploys AI agent for AML alerts",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNakFmTHQtdXBSemlteml6TzRkWTdOMWlEQngzMTE4TE53Z3pPSENBZlU0Y2p5dlNyajVYanZOYmJtNVdTcS1uUnI1NVpYNUhQbjFMWm52S1lEWEhkdlpRdlFGT25EM01DRlRSZXFyNlhxNnRuTjJieXdtbGlGRkQ0enB4QkF6N0JSaFVrek5EcThjUmxiOUpHeUlHdzdaZ29TbTRYTjZyWnRFUQ?oc=5",
+     "name": "The Paypers"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-22T02:23:29+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-22"
+   },
+   "pdf_checked": "2026-10-22"
+  },
   {
    "id": "7eb5eb12f900",
    "date": "2026-10-20",
@@ -61,7 +119,7 @@
   },
   {
    "id": "1fadb4d26523",
-   "date": "2026-10-19",
+   "date": "2026-10-18",
    "category": "Regulation & Guidance",
    "publisher": "",
    "countries": [
@@ -77,6 +135,14 @@
     {
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY3lNNmVfaGRPZE5ZbHFNN3lTXzF0Y183eTRqV2g2b2JaY1B4RE5tOFhLR0c2ckx3VkJqdDE5YVZKV3gwV0djTHZheVF3QUI3RTJpLURZRS0xRFJtenNWbV83Sk9lVHBRMVBQNnVaYm5wTnZOeFpYYXUxa0ZReWtCWWJWM0hqQQ?oc=5",
      "name": "Retail Banker International"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi8ANBVV95cUxOR3lOTVFnenlBeWI0aEJxd3F4OFM4WTNiMUNpckJ2S3BxZzNLdlZlcVdPQy1xaUVxR3BNNm1HbGdYMGpkaS1JeVg5cDhOWEpKYzVJRExlRFhNSkJvWGZwbmJWYW5GRUFCWnZmd0VuNThEQWQ0TTVOMzZVR2wwU3dsdEpfcUh1Zno3TXo2eVB4amFaejEwZF9uRWZCZkVzWjBQVm1BS1pQZDhZWml4bVJhZE8zTDVyeXRhRmJPTkttWTA3U3lnc0VWVFdCNXhjQzR5dWRrczJYSWpSQ1hnbEs5NklTUFQtUExKcUtTYmRESW9OZnVxcldMeXhseTRhVGV2QXB2cWNrQmZKWXd0b180Y01tNEowdG4xV05JdjczSHRfY2FyZjhNODg1UmpTcmVtTmZHT0llRWNzaWpZTUtsUklMU1gwd29FR1A4VGY4cjhoSUYyb3ljTEdkZHNFczhJenRQelJKWVc0THRlREJhOUhPSDdCSmVxM3k2WDA5OUp2NHBfdTQwSEthNnNZVnlqNlZaLWp0WUhHZWZwNnBqUmpaM2ZZcloxSzBUN3BhbjRReGp0eFpORDd1MXhYRm9vQUVWdUZISDFCbS11UnEzVkhndFdDNTNIWVBlbHNBZ3JkSGRxMHVBMHBmbmdtOXUw0gHwA0FVX3lxTE5HeU5NUWd6eUF5YjRoQnF3cXg4UzhZM2IxQ2lyQnZLcHFnM0t2VmVxV09DLXFpRXFHcE02bUdsZ1gwamRpLUl5WDlwOE5YSkpjNUlETGVEWE1KQm9YZnBuYlZhbkZFQUJadmZ3RW41OERBZDRNNU4zNlVHbDBTd2x0Sl9xSHVmejdNejZ5UHhqYVp6MTBkX25FZkJmRXNaMFBWbUFLWlBkOFlaaXhtUmFkTzNMNXJ5dGFGYk9OS21ZMDdTeWdzRVZUV0I1eGNDNHl1ZGtzMlhJalJDWGdsSzk2SVNQVC1QTEpxS1NiZERJb05mdXFyV0x5eGx5NGFUZXZBcHZxY2tCZkpZd3RvXzRjTW00SjB0bjFXTkl2NzNIdF9jYXJmOE04ODVSalNyZW1OZkdPSWVFY3NpallNS2xSSUxTWDB3b0VHUDhUZjhyOGhJRjJveWNMR2Rkc0VzOEl6dFB6UkpZVzRMdGVEQmE5SE9IN0JKZXEzeTZYMDk5SnY0cF91NDBIS2E2c1lWeWo2VlotanRZSEdlZnA2cGpSalozZllyWjFLMFQ3cGFuNFF4anR4Wk5EN3UxeFhGb29BRVZ1RkhIMUJtLXVScTNWSGd0V0M1M0hZUGVsc0FncmRIZHEwdUEwcGZuZ205dTA?oc=5",
+     "name": "العربية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91cGpWUkFxX0ZsWjlFcUVWYXhDNkFGams2czVSdVEyLVFKZzk5UjBkWnJSY1ZlaGF2UTFnZHcyTDI1QmdDM0NFQWlfZmJ4WGl0cC0zWXhjWmQyUDFGaDRpdkdUcTZ5ckRwYm9jeHAzbUE?oc=5",
+     "name": "جريدة البلاد"
     }
    ],
    "language": "en",
@@ -86,7 +152,20 @@
     "evidence": "headline",
     "checked": "2026-10-20"
    },
-   "pdf_checked": "2026-10-20"
+   "pdf_checked": "2026-10-20",
+   "merged": [
+    {
+     "id": "b81ce8cee343",
+     "date": "2026-10-18",
+     "title": "American banks prevent AI agents from transferring customer funds",
+     "source_title": "بنوك أميركية تمنع وكلاء الذكاء الاصطناعي من تحويل أموالك",
+     "source_url": "https://news.google.com/rss/articles/CBMi8ANBVV95cUxOR3lOTVFnenlBeWI0aEJxd3F4OFM4WTNiMUNpckJ2S3BxZzNLdlZlcVdPQy1xaUVxR3BNNm1HbGdYMGpkaS1JeVg5cDhOWEpKYzVJRExlRFhNSkJvWGZwbmJWYW5GRUFCWnZmd0VuNThEQWQ0TTVOMzZVR2wwU3dsdEpfcUh1Zno3TXo2eVB4amFaejEwZF9uRWZCZkVzWjBQVm1BS1pQZDhZWml4bVJhZE8zTDVyeXRhRmJPTkttWTA3U3lnc0VWVFdCNXhjQzR5dWRrczJYSWpSQ1hnbEs5NklTUFQtUExKcUtTYmRESW9OZnVxcldMeXhseTRhVGV2QXB2cWNrQmZKWXd0b180Y01tNEowdG4xV05JdjczSHRfY2FyZjhNODg1UmpTcmVtTmZHT0llRWNzaWpZTUtsUklMU1gwd29FR1A4VGY4cjhoSUYyb3ljTEdkZHNFczhJenRQelJKWVc0THRlREJhOUhPSDdCSmVxM3k2WDA5OUp2NHBfdTQwSEthNnNZVnlqNlZaLWp0WUhHZWZwNnBqUmpaM2ZZcloxSzBUN3BhbjRReGp0eFpORDd1MXhYRm9vQUVWdUZISDFCbS11UnEzVkhndFdDNTNIWVBlbHNBZ3JkSGRxMHVBMHBmbmdtOXUw0gHwA0FVX3lxTE5HeU5NUWd6eUF5YjRoQnF3cXg4UzhZM2IxQ2lyQnZLcHFnM0t2VmVxV09DLXFpRXFHcE02bUdsZ1gwamRpLUl5WDlwOE5YSkpjNUlETGVEWE1KQm9YZnBuYlZhbkZFQUJadmZ3RW41OERBZDRNNU4zNlVHbDBTd2x0Sl9xSHVmejdNejZ5UHhqYVp6MTBkX25FZkJmRXNaMFBWbUFLWlBkOFlaaXhtUmFkTzNMNXJ5dGFGYk9OS21ZMDdTeWdzRVZUV0I1eGNDNHl1ZGtzMlhJalJDWGdsSzk2SVNQVC1QTEpxS1NiZERJb05mdXFyV0x5eGx5NGFUZXZBcHZxY2tCZkpZd3RvXzRjTW00SjB0bjFXTkl2NzNIdF9jYXJmOE04ODVSalNyZW1OZkdPSWVFY3NpallNS2xSSUxTWDB3b0VHUDhUZjhyOGhJRjJveWNMR2Rkc0VzOEl6dFB6UkpZVzRMdGVEQmE5SE9IN0JKZXEzeTZYMDk5SnY0cF91NDBIS2E2c1lWeWo2VlotanRZSEdlZnA2cGpSalozZllyWjFLMFQ3cGFuNFF4anR4Wk5EN3UxeFhGb29BRVZ1RkhIMUJtLXVScTNWSGd0V0M1M0hZUGVsc0FncmRIZHEwdUEwcGZuZ205dTA?oc=5",
+     "source_name": "العربية",
+     "summary": "U.S. banks are blocking artificial intelligence agents from executing financial transfers on behalf of customers. The restrictions aim to mitigate operational and security risks from autonomous AI systems.",
+     "how": "ai",
+     "anchor": "American banks prevent AI agents from transferring customer funds"
+    }
+   ]
   },
   {
    "id": "b4d0f3fb9746",
@@ -1895,6 +1974,35 @@
     "checked": "2026-10-06"
    },
    "pdf_checked": "2026-10-07"
+  },
+  {
+   "id": "3b4f59cdc468",
+   "date": "2026-09-22",
+   "category": "Expert Views",
+   "publisher": "EY",
+   "countries": [
+    "Global"
+   ],
+   "title": "From AI pilots to governed intelligence for agentic banking",
+   "summary": "EY analyzes moving agentic AI from experimental pilots to governed production systems in banking, addressing implementation challenges for intelligent agents in financial services.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOG5UTkNPZ2ZfMHhpWU83Z3hJSkp1R3pFQl9sbGVQZnd2VG9UT25xWWxCa3g1MG56cTAyQXpGSHgyQlFqSUx0SEUtaEhDVXpmb3lNbm5BZndNc2VMV0FSR1pBMTRWakQyZ2J3d1FMbDUtZGRaWmR0cEl1VjJick9BcnRHcTRTMzZnQ0NHY2RBLXZyQmMyQ0RadXRUNlRlOWF5YldaYU13dw?oc=5",
+   "source_name": "EY",
+   "source_title": "From AI pilots to governed intelligence for agentic banking",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOG5UTkNPZ2ZfMHhpWU83Z3hJSkp1R3pFQl9sbGVQZnd2VG9UT25xWWxCa3g1MG56cTAyQXpGSHgyQlFqSUx0SEUtaEhDVXpmb3lNbm5BZndNc2VMV0FSR1pBMTRWakQyZ2J3d1FMbDUtZGRaWmR0cEl1VjJick9BcnRHcTRTMzZnQ0NHY2RBLXZyQmMyQ0RadXRUNlRlOWF5YldaYU13dw?oc=5",
+     "name": "EY"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-22T02:23:29+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-22"
+   },
+   "pdf_checked": "2026-10-22"
   },
   {
    "id": "6d9347f7e5e1",
