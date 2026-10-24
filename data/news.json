@@ -1,6 +1,45 @@
 {
- "updated_at": "2026-10-23T02:31:45+00:00",
+ "updated_at": "2026-10-24T02:27:20+00:00",
  "items": [
+  {
+   "id": "51bdcd3d0a0a",
+   "bank_id": "mashreq",
+   "country": "AE",
+   "date": "2026-10-23",
+   "title": "Mashreq partners with IBM to pilot agentic AI in software engineering",
+   "summary": "Mashreq has partnered with IBM to pilot agentic AI in the software engineering domain.",
+   "category": "Tech Vendor Partnerships",
+   "topics": [
+    "Tech Vendor Partnerships",
+    "Generative AI & Copilots",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Agentic AI",
+    "IBM partnership",
+    "Software engineering"
+   ],
+   "partners": [
+    "IBM"
+   ],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMmdWcDVPcXFQRXluVk95LVMwSDNLRkpVdHN3VWtvODhOOElNMFFiOXNTcmRqajFfQld4LWRzMzd3RzYzam9ERE83dDhjbTE3T1ZXX1puVzhuY0JtY1J5SFJOUDUxS1RoR3EyTmdZQWJkQ0YzR3NYWEs2M3VJUXpWaUVMaWtrWWs3TGxIRnl4NEVlN2I1WEZscDZhUjRfWkxLN3JPbHZOZUwxRFduejZDTE9sUU50eDhkYVHSAb8BQVVfeXFMT2NGZVdmNHVUNnVzRnZsSTkyNUs4YjBxYzVaaGQ2blQwa1NLWlltMzBlOFJ6SGJvN29GQ0JTX0dqQi1OY2lOOWxJeDBvU05YMTdpcTdLVDNDbXBybkQ1MW1ybXg5X0htRUswV0o0dkRSUTh3MkRvTkZwdFFaX195XzhuckkwdVpwNEE5NEFzQjRiZzY1SlljOUNjLWU4anYxWW1obzlVenlSVmVwbG9SYU11UFZUczdSTmdHa1hHa00?oc=5",
+   "source_name": "Consultancy-me.com",
+   "source_title": "Mashreq partners with IBM to pilot agentic AI in software engineering domain",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMmdWcDVPcXFQRXluVk95LVMwSDNLRkpVdHN3VWtvODhOOElNMFFiOXNTcmRqajFfQld4LWRzMzd3RzYzam9ERE83dDhjbTE3T1ZXX1puVzhuY0JtY1J5SFJOUDUxS1RoR3EyTmdZQWJkQ0YzR3NYWEs2M3VJUXpWaUVMaWtrWWs3TGxIRnl4NEVlN2I1WEZscDZhUjRfWkxLN3JPbHZOZUwxRFduejZDTE9sUU50eDhkYVHSAb8BQVVfeXFMT2NGZVdmNHVUNnVzRnZsSTkyNUs4YjBxYzVaaGQ2blQwa1NLWlltMzBlOFJ6SGJvN29GQ0JTX0dqQi1OY2lOOWxJeDBvU05YMTdpcTdLVDNDbXBybkQ1MW1ybXg5X0htRUswV0o0dkRSUTh3MkRvTkZwdFFaX195XzhuckkwdVpwNEE5NEFzQjRiZzY1SlljOUNjLWU4anYxWW1obzlVenlSVmVwbG9SYU11UFZUczdSTmdHa1hHa00?oc=5",
+     "name": "Consultancy-me.com"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-24T02:23:25+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-24"
+   }
+  },
   {
    "id": "bb9536e5d03d",
    "bank_id": "nbb",
@@ -425,6 +464,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMilARBVV95cUxPTi1PLVkzajBUa0VWWG4zWEU4eFR0aVRMR3lPemx1VU54SVpzYlFZRXh3TUdLbG92XzB5azUyVy1ZVExpeFRKWUhoSnJyMjhFeTMyU0d2YUlvN2ZoMmVQRi0wakhIc2ctQkQ5N3ZtdXdYdjNpNVgwTHNXRVo0dUJjTENaNUFYbWVEcVFZU3FOUTdlb3RhOW9NSEhNc0dMRmJqMm5DNlVMdFpGNHFqUzA5WGtZdXktcFFmdVZtcmVtVTZOMGhEVEVMSzduMjNTNFhoeE1uSU9zLW1JeGt6T2hMLVI3OEpvaVZWbkU1VjlSUFBKTGxYZF8xUUVodjNaeGkxNWh5SWxsUTVkeU1scTZpTlVCejNSX1Axb2tCVXhvRHA3V0hVcWJxTU0wY2dISkp5VWI3SzZLQkVsR05xdlFOa3lmeXJ3SzY4bDdoWDF4T1N2M2ZhSWhDY0x0QlJSemdfSm9zM0NrZmFyQTZpN3JuWm92T05VRThEQWJiVzJveDRSSTkzT3FjaTFOSXZDVlVGamlCekx0WXVxMlU5VWdXUUwxTkV5NXQzMXprVTcwN0I5dFpLNENtVlk4ZFNCTldkSW5TeHYzbkMyNi1ScDJxd2JQcnRmbnRqU1h4OHlOdm1lWDRMUU91WElkTGlvcDFINnlqbWtuRENmV2JFR0tfWEVxUnAybkZxYWtPeldmcUliT2w3?oc=5",
      "name": "الاتحاد للأخبار"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihwhBVV95cUxNa0UteGk0eUNEdzFzcW9DdUpPUEV1M2NxVVBvam8xcHZXWmV0LUV6dGJaRTVHc0lPdWpNbkJ0c2s3clp1cE5pZ2JScm1YR3RBT0pteE5aNnRqaExfR1NZUFlBNHZsVkprOGZjTXFpbkhDamgzQ2tINjN6Ml9RMHhXTV9qeVJ0U2laMGZnZ0htNGtmSHV1ZHNpUG9DY1UzM19lU0pVOUVxUWthSVBrZ1RjNDJSRXRlMENjZk1POXdremxickw2MzVaRjI3b0tFbkRSSG1hWU1oR19adUxObG5nNGI4c0htTHFnOXI2Nmd2dlNpMUVTMGJlT193Y0ozNnhDZ3lfTnZzRXh5RTN1RFNhak1lUlZRaGF1QmxOR21qeGpxTENqOWluMnlCY3o5M0twZTdqTVJHODJkWU81anZBWFdqbzJXdHFJbHdjYjRna2tfaTNWeWNTdUN0LUlqaHVfNmx4WDdmamROcTlHMkNrZjRFY1NTQzdJU0NhZXVhdGJacGNRNHVWLXlpOVQweUVYdllha3VlSHo4eWt6S2hBVVBIUFIxeDJ0bnRIOFI0TjM5MFVud3VsS2RWbnVWNzdkd1dITS1rS29xdDQwVVZBeGpHU19rb1k3aWlDUWpVUTJkNUwteEFVNmdQa2lvd2tvdG1ZcUtBZjVueVEwY3NZeGk4N2tqN3RwcWRIejBsTWo1bmtLaFpoamRLVlNhOHlXVTlseWZOeW12aVc4R1BuUFBiQUJHUnp5b2lLQjhsNnhFSG80Q2VTUFRtZXotSXg2V3FucXM3RXQ1dVlyQ3BfeHRPRlphOG1SaGQ4RXh3OHRJLU54bXhUSk5HSWsyZTRNTFpUYWIzc241OTAxMTl1QzNoWTRubURmZm95SjYtaW41cEVYVkltTVpQOFd0S0xRUzB6T1NKbjRSajFyN3VaOG9lbmt4ZDc5c2RTdmdIM2I0cTA2S3BXQUJvdnQ2b0NsV2FKMkhpaUFNWkF6emZBZDYtM19SQU5fbzJKd1dfU3VPdnN4RWpnZUZTemhYVEtHOUtVTEdKcjlCVTR0YlNaVUgwUWU3Qlk1YlpFYng5TlVQd1dXZkVoS0hhZlhUSzMwWUpOVXRYV3VIdEZCSEdTSlhuTFF6X0x0WW1uSVNoMFhtUWs1MHRoVTFCZ0dlZHNvRDdXbFl2YkVCY0pwVGdIUk4wQlJlRU1fS0c3NDNqX3lOT0lDbzlFMjR5U3FzVzczZWV3RUxRVEVGa2d2MmFoTEx0WTdyY2xyMEVWLUd4TzMzQVlqU0VFeHZzOHU5MW9SNENkeTNPRUFmOXFfR3lKcVdEc3hFV1R1azhDSW5iQjR6Y25HOUNLc3IzU1FoUEFpUWVrbGJEZw?oc=5",
+     "name": "Menafn"
     }
    ],
    "language": "ar",

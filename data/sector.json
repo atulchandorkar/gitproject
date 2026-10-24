@@ -1,6 +1,35 @@
 {
- "updated_at": "2026-10-23T02:31:45+00:00",
+ "updated_at": "2026-10-24T02:27:20+00:00",
  "items": [
+  {
+   "id": "9feca54be941",
+   "date": "2026-10-23",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "بنك اليابان يحذّر من مخاطر الذكاء الاصطناعي على الأمن السيبراني والاستقرار المالي",
+   "summary": "The Bank of Japan warned about artificial intelligence risks to cybersecurity and financial stability in banking. This matters because it highlights regulatory concerns about AI deployment's impact on the sector.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiwAVBVV95cUxOcTlfQXBxVkd4Nzd2QzhkQXBQanE3aDdMQjFJWl9BNVFHamM5eGhsaXA5ZGY3Y0dVMTZSQkJEVDBHWWVXdnNyUjZEZ3QxQU85MGZMVVN2NmlvNHAwNWZiTTFLSk5HWVZIeWtfam8zM2h0dHloWm1Qd0ltdjRGdHYxT01ENF9uQ0JsSGUwLTJwM012WksxVUM4N2hqaXJuYUx6a1dIYjUxbGQ0dFIxcm5UV25tVHVTX3NvRjRjQ0xkRHdxZUR1M1pDRjVSZ2I1cjNmb2ZJT2MyM1p6VldSMGtLZk5lNk9wNC1FaUE5YnpISVhJVkpQeFNZWm15T1RFT2ZlUlJzR1JQVEQtaUFGLTlEQ1ZiWldLMTdZajlGUklLVDlQRkpRVTlDNjlVUGo5UTU4N2RINE9sZ240WDhCclV5Um94QUxtWl9rRVNLZVpzRGtvWXkzZUFTWnA3Mmdmb0daOGdrTnZlUk1FTDBtUDVFeHFrRDhNT29jWE9LbkhBQXRsRm1kcGgxQW0yNGVFLVNZa1RIYmNZQVNNLWZqcUZRMjJEOGVTLThpNTVoYTBjQlBCZ3Z4UkRaVHFwbFc2d3NGam5ENFhaSWs5OXBMb3BSYnJDaHp6VEtWeS0zVEY1ZmUwNHlpWU05UTNqcEctTmFoYmtUQUg5Uk5lT0hFQ0RPX1ZiUm1kNVdUYUVMNEpuQzAwNHZGcFZfN2ZpNGU3VEZjLV9hYjVoeF9DenIzRHp5a2Zmd2NTVlFmaUtzcWFTbV9nR1JuX1Fqd2FVM0RHNTladUo1MjNjemg4dEdVUlJram1EMVJSYXFPTFo4SEttZ0lZWUs3ZEZUNnJHSGlfQmJpMVhxY2JqRHZ5djZ1dDR3NjFLNEo1TU1wUlBEWEVSTTJLeW1YbHVnQjVhNTJTMjhyWUJQQzRyT2JmMFAwUlhrTQ?oc=5",
+   "source_name": "الشرق الأوسط",
+   "source_title": "بنك اليابان يحذّر من مخاطر الذكاء الاصطناعي على الأمن السيبراني والاستقرار المالي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwAVBVV95cUxOcTlfQXBxVkd4Nzd2QzhkQXBQanE3aDdMQjFJWl9BNVFHamM5eGhsaXA5ZGY3Y0dVMTZSQkJEVDBHWWVXdnNyUjZEZ3QxQU85MGZMVVN2NmlvNHAwNWZiTTFLSk5HWVZIeWtfam8zM2h0dHloWm1Qd0ltdjRGdHYxT01ENF9uQ0JsSGUwLTJwM012WksxVUM4N2hqaXJuYUx6a1dIYjUxbGQ0dFIxcm5UV25tVHVTX3NvRjRjQ0xkRHdxZUR1M1pDRjVSZ2I1cjNmb2ZJT2MyM1p6VldSMGtLZk5lNk9wNC1FaUE5YnpISVhJVkpQeFNZWm15T1RFT2ZlUlJzR1JQVEQtaUFGLTlEQ1ZiWldLMTdZajlGUklLVDlQRkpRVTlDNjlVUGo5UTU4N2RINE9sZ240WDhCclV5Um94QUxtWl9rRVNLZVpzRGtvWXkzZUFTWnA3Mmdmb0daOGdrTnZlUk1FTDBtUDVFeHFrRDhNT29jWE9LbkhBQXRsRm1kcGgxQW0yNGVFLVNZa1RIYmNZQVNNLWZqcUZRMjJEOGVTLThpNTVoYTBjQlBCZ3Z4UkRaVHFwbFc2d3NGam5ENFhaSWs5OXBMb3BSYnJDaHp6VEtWeS0zVEY1ZmUwNHlpWU05UTNqcEctTmFoYmtUQUg5Uk5lT0hFQ0RPX1ZiUm1kNVdUYUVMNEpuQzAwNHZGcFZfN2ZpNGU3VEZjLV9hYjVoeF9DenIzRHp5a2Zmd2NTVlFmaUtzcWFTbV9nR1JuX1Fqd2FVM0RHNTladUo1MjNjemg4dEdVUlJram1EMVJSYXFPTFo4SEttZ0lZWUs3ZEZUNnJHSGlfQmJpMVhxY2JqRHZ5djZ1dDR3NjFLNEo1TU1wUlBEWEVSTTJLeW1YbHVnQjVhNTJTMjhyWUJQQzRyT2JmMFAwUlhrTQ?oc=5",
+     "name": "الشرق الأوسط"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-24T02:27:03+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-24"
+   },
+   "pdf_checked": "2026-10-24"
+  },
   {
    "id": "bdb61939d5f6",
    "date": "2026-10-22",
@@ -182,6 +211,35 @@
     "checked": "2026-10-22"
    },
    "pdf_checked": "2026-10-22"
+  },
+  {
+   "id": "d35d9e4060ee",
+   "date": "2026-10-20",
+   "category": "Market Data",
+   "publisher": "S&P Global",
+   "countries": [
+    "Global"
+   ],
+   "title": "Banks increase tracking and disclosure of AI-driven gains as market interest grows",
+   "summary": "Banks are enhancing their monitoring and public reporting of productivity and financial gains from AI deployments. This reflects growing investor and stakeholder interest in quantifying AI's business impact across the sector.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQNkZGampQR0tqQmV0ME9nWkczRU5VUWlSVkpOcEJpSnVKZEVhTnlzSVVNSkxsYXRJVHg2dTRzVlpGNHVoWWViUnlmanBnZmxEbmw0OEtBWVpNeEo1dUtxekpTZ3ZxQnZ5d1ExanE4akhDZXh3V2kyR3Q5d2ZyYnpTcGFjVnJtN0tPNmNPY2lwbVU4dmFBT2RLTkFuUnVYaU1Dc0tnM2RVUTlSM1VnRkhXcmJKelAtR3ctc3ZveU5oLVVQTlUwSk9YTFpHR29KY2JaMGtndkljSENYRTNwOWNZQmFJYk9nQkdBS2JwTHRkYUh6bDQwMDBUendCOA?oc=5",
+   "source_name": "S&P Global",
+   "source_title": "Banks to boost tracking, disclosure of AI-driven gains as market interest grows",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQNkZGampQR0tqQmV0ME9nWkczRU5VUWlSVkpOcEJpSnVKZEVhTnlzSVVNSkxsYXRJVHg2dTRzVlpGNHVoWWViUnlmanBnZmxEbmw0OEtBWVpNeEo1dUtxekpTZ3ZxQnZ5d1ExanE4akhDZXh3V2kyR3Q5d2ZyYnpTcGFjVnJtN0tPNmNPY2lwbVU4dmFBT2RLTkFuUnVYaU1Dc0tnM2RVUTlSM1VnRkhXcmJKelAtR3ctc3ZveU5oLVVQTlUwSk9YTFpHR29KY2JaMGtndkljSENYRTNwOWNZQmFJYk9nQkdBS2JwTHRkYUh6bDQwMDBUendCOA?oc=5",
+     "name": "S&P Global"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-24T02:27:03+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-24"
+   },
+   "pdf_checked": "2026-10-24"
   },
   {
    "id": "7eb5eb12f900",
@@ -5376,35 +5434,6 @@
    "added_at": "2026-10-06T02:16:25+00:00",
    "verification": {
     "level": "corroborated",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-06"
-  },
-  {
-   "id": "da8a74e4a631",
-   "date": "2025-10-22",
-   "category": "Expert Views",
-   "publisher": "Bain & Company",
-   "countries": [
-    "Global"
-   ],
-   "title": "Generative AI in Financial Services: Eight Risks and How to Overcome Them",
-   "summary": "Bain analysis identifying and addressing key risks associated with generative AI adoption in financial services. Provides risk mitigation strategies for banks.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBWnBQbVFQX3JtRHdVYWRiSHZuWFBES0g0RE9aVGpNdkVjaF8xQkZmS29SaFMwZWhzUkNpb1JBQ2N4dTdqVjg2R2pLSzlXdXBJQmFrTFVCMDlXTG9BYTBQWUdDWlJuSmJmVkpnbFJvQmNlMjZR?oc=5",
-   "source_name": "Bain",
-   "source_title": "Generative AI in Financial Services: Eight Risks and How to Overcome Them",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBBWnBQbVFQX3JtRHdVYWRiSHZuWFBES0g0RE9aVGpNdkVjaF8xQkZmS29SaFMwZWhzUkNpb1JBQ2N4dTdqVjg2R2pLSzlXdXBJQmFrTFVCMDlXTG9BYTBQWUdDWlJuSmJmVkpnbFJvQmNlMjZR?oc=5",
-     "name": "Bain"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "official",
     "evidence": "headline",
     "checked": "2026-10-06"
    },
