@@ -1,5 +1,5 @@
 {
- "last_update": "2026-10-24T02:23:28+00:00",
+ "last_update": "2026-10-25T02:09:56+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -1468,7 +1468,21 @@
   "8130ba70e19c36": "2026-10-23",
   "442ac2cf886ba7": "2026-10-23",
   "10baa285ad3efc": "2026-10-23",
-  "57b1cb1d257743": "2026-10-23"
+  "57b1cb1d257743": "2026-10-23",
+  "297ed48643ee5a": "2026-10-20",
+  "82ba8abb5cd000": "2026-10-20",
+  "762fbc317ff2a5": "2026-10-22",
+  "3070b6f6b8da51": "2026-10-24",
+  "6913853abb1012": "2026-10-24",
+  "12414674e518b4": "2026-10-24",
+  "00ccdfaf4354bc": "2026-10-24",
+  "81cbd88c2e9a35": "2026-10-24",
+  "23bc0741346f23": "2026-10-24",
+  "edb8961451bc29": "2026-10-24",
+  "ce2d19527e1981": "2026-10-24",
+  "0e7353fda38483": "2026-10-24",
+  "5d3c40892ac016": "2026-10-24",
+  "8ac892d50276ca": "2026-10-24"
  },
  "history_loaded": {
   "adcb": "2026-10-05",
@@ -3312,42 +3326,42 @@
  "retry": [],
  "newsrooms": {
   "rakbank": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "adcb": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "mashreq": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "sib": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "ei": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "bos": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "enbd": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "investbank": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
@@ -3356,7 +3370,7 @@
    "url": "https://www.dib.ae/about-us/media-centre",
    "status": "ok",
    "links": 19,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "7064b8031185",
     "4fbec03647b0",
@@ -3384,7 +3398,7 @@
    "url": "https://www.cbd.ae/aboutus/media-centre/press-room/news/id/3c0f77ff-458f-66de-b8c5-ff0b00b6b24a",
    "status": "ok",
    "links": 4,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "f570533b4965",
     "211356b61edf",
@@ -3393,42 +3407,42 @@
    ]
   },
   "nbf": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "edb": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "cbuae": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "wio": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "adib": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "alrajhi": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "snb": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "ajman": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
@@ -3437,7 +3451,7 @@
    "url": "https://www.zand.ae/en/news",
    "status": "ok",
    "links": 29,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "beb166c6b910",
     "837760b162de",
@@ -3471,42 +3485,42 @@
    ]
   },
   "aljazira": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "sab": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "anb": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "gibsa": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "bsf": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "d360": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "fab": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "visionbank": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
@@ -3515,7 +3529,7 @@
    "status": "unreachable (HTTPError)"
   },
   "saib": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
@@ -3524,7 +3538,7 @@
    "url": "https://www.alinma.com/About-the-Bank/The-Bank/News",
    "status": "ok",
    "links": 30,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "0aacda7e2687",
     "9add22e1c8ec",
@@ -3563,7 +3577,7 @@
    "url": "https://www.alrayan.com/en/press-release",
    "status": "ok",
    "links": 3,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "1722b361feb0",
     "8eea57958b29",
@@ -3571,17 +3585,17 @@
    ]
   },
   "dohabank": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "sama": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "cbq": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
@@ -3590,7 +3604,7 @@
    "url": "https://www.dukhanbank.com/media-center/press-release",
    "status": "ok",
    "links": 29,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "fe0fc0810447",
     "a8e106894c28",
@@ -3624,12 +3638,12 @@
    ]
   },
   "albilad": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "qdb": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
@@ -3638,7 +3652,7 @@
    "url": "https://www.uab.ae/en/media-center/awards",
    "status": "ok",
    "links": 15,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "4465122501be",
     "6dba8d618990",
@@ -3658,7 +3672,7 @@
    ]
   },
   "qcb": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
@@ -3667,7 +3681,7 @@
    "url": "https://www.qiib.com.qa/Press/List/Announcements",
    "status": "ok",
    "links": 5,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "452f6107a821",
     "98394071c36b",
@@ -3697,7 +3711,7 @@
    ]
   },
   "qib": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
@@ -3706,7 +3720,7 @@
    "url": "https://www.leshabank.com/media-center/news/",
    "status": "ok",
    "links": 6,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "587062ba5695",
     "dcf757b11209",
@@ -3717,7 +3731,7 @@
    ]
   },
   "boubyan": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
@@ -3726,7 +3740,7 @@
    "url": "https://www.ahlibank.com.qa/en/media-center/news-press-releases",
    "status": "ok",
    "links": 24,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "e9793b0023c9",
     "087038c6dfe6",
@@ -3759,7 +3773,7 @@
    "url": "https://www.kfh.com/home/Personal/news.html",
    "status": "ok",
    "links": 15,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "6f0f709ea7c7",
     "5b476dff9104",
@@ -3783,7 +3797,7 @@
    "url": "https://www.warbabank.com/english/news",
    "status": "ok",
    "links": 12,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "ec83442c9236",
     "26d158b4eb89",
@@ -3800,12 +3814,12 @@
    ]
   },
   "kib": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "cbkw": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
@@ -3814,7 +3828,7 @@
    "url": "https://www.cbk.com/Media-Library/Press-Releases",
    "status": "ok",
    "links": 99,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "68128689ff9e",
     "2db9601b061a",
@@ -3922,7 +3936,7 @@
    "url": "https://www.e-gulfbank.com/en/about-us/media/press-releases/",
    "status": "ok",
    "links": 7,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "1974d5ec2715",
     "3438add427f2",
@@ -3934,42 +3948,42 @@
    ]
   },
   "sohar": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "bankdhofar": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "ibk": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "bankmuscat": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "burgan": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "nizwa": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "cbo": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "abk": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
@@ -3978,7 +3992,7 @@
    "url": "https://www.nbk.com/news-and-insights/Media-Relations.html",
    "status": "ok",
    "links": 5,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "610cdb1a375d",
     "3dd1539d37be",
@@ -3988,37 +4002,37 @@
    ]
   },
   "oab": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "gib": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "stcbank": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "bankabc": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "khcb": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "gfh": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "aub": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
@@ -4027,7 +4041,7 @@
    "url": "https://www.nbo.om/en/Pages/News/Home.aspx",
    "status": "ok",
    "links": 57,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "1ce4089663e9",
     "d644291877af",
@@ -4093,7 +4107,7 @@
    "url": "https://www.alsalambank.com/press-releases/",
    "status": "ok",
    "links": 8,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "9e911d371be5",
     "89d8c7914ac7",
@@ -4106,12 +4120,12 @@
    ]
   },
   "cbb": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
   "bbk": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
@@ -4120,7 +4134,7 @@
    "url": "https://nbbonline.com/about/news/",
    "status": "ok",
    "links": 16,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "245733299cbb",
     "9e9ed4ac8849",
@@ -4141,7 +4155,7 @@
    ]
   },
   "bisb": {
-   "checked": "2026-10-24",
+   "checked": "2026-10-25",
    "url": null,
    "status": "not found"
   },
@@ -4150,7 +4164,7 @@
    "url": "https://ahlibank.om/Ahlibank/news/",
    "status": "ok",
    "links": 9,
-   "scanned": "2026-10-24",
+   "scanned": "2026-10-25",
    "known": [
     "af5f08321e09",
     "0611da646956",
@@ -5286,7 +5300,21 @@
   "07ee992175a7d6": "2026-10-23",
   "44c73fe7aa1801": "2026-10-24",
   "4be94cc846da56": "2026-10-24",
-  "1199cb7515bced": "2026-10-24"
+  "1199cb7515bced": "2026-10-24",
+  "562b8cf7def36f": "2026-10-06",
+  "71af20d1f8c9f4": "2026-10-19",
+  "8144b9d3bf8ad1": "2026-10-20",
+  "d8e10c53c43cee": "2026-10-20",
+  "9fa4fe494c667c": "2026-10-22",
+  "beb77c02e2e0a2": "2026-10-23",
+  "7ad237c7f5df14": "2026-10-23",
+  "0956bd4609e266": "2026-10-24",
+  "2e9d437e8e65cc": "2026-10-24",
+  "9b951b4262cd39": "2026-10-24",
+  "8437d3390e7813": "2026-10-24",
+  "edb8961451bc29": "2026-10-24",
+  "be2fbeabc2e83e": "2026-10-24",
+  "985b810c25a020": "2026-10-24"
  },
  "sector_known": {},
  "sector_pending": [
@@ -13425,18 +13453,18 @@
   "snb": {
    "done": {},
    "config": "[[], [\"https://www.alahli.com/en/pages/about-us/investor-relations/previous-annual-reports\"], []]",
-   "checked": "2026-10-11",
+   "checked": "2026-10-25",
    "pages": [
     "https://www.alahli.com/en/pages/about-us/investor-relations/previous-annual-reports"
    ],
    "failed": {
     "2025": {
-     "n": 5,
+     "n": 6,
      "url": "https://www.alahli.com/-/media/project/snb/snb-web/about-us/02-9-previous-annual-reports/annual-reports-pdfs-en/snb-annual-report-2025-en.pdf?view=1",
      "error": "Error: APIRequestContext.get: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca\nCall log:\n  - → GET https://www.alahli.com/-/media/p"
     },
     "2024": {
-     "n": 5,
+     "n": 6,
      "url": "https://www.alahli.com/-/media/project/snb/snb-web/documents/2024/snb-annual-report-2024.pdf?view=1",
      "error": "Error: APIRequestContext.get: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca\nCall log:\n  - → GET https://www.alahli.com/-/media/p"
     }
@@ -13478,10 +13506,10 @@
   "anb": {
    "done": {},
    "config": "[[], [\"https://anb.com.sa/web/anb/annual-reports\"], [{\"url\": \"https://anb.com.sa/web/anb/interactive-annual-report\", \"year\": 2024}]]",
-   "checked": "2026-10-11",
+   "checked": "2026-10-25",
    "failed": {
     "2024": {
-     "n": 5,
+     "n": 6,
      "url": "https://anb.com.sa/web/anb/interactive-annual-report",
      "error": "ValueError: online report has almost no text (1 sections)"
     }
@@ -15796,6 +15824,84 @@
    "same": false
   },
   "v2|568950808958|9feca54be941": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|05247076ca3d|8afbae80311e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|7eb5eb12f900|8afbae80311e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|4d56f2057811|d35d9e4060ee": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|4d56f2057811|7eb5eb12f900": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1dca78b550ae|4d56f2057811": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|7aeb950c6feb|8afbae80311e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|073fd9d99b51|75384f54cd77": {
+   "merge": false,
+   "anchor": "TD Bank",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|8afbae80311e|b4855b3c173f": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|496a380f662f|8afbae80311e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|75384f54cd77|9feca54be941": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|77430aa6048d|8afbae80311e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|568950808958|8afbae80311e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|798d2ba07a17|8afbae80311e": {
    "merge": false,
    "anchor": "",
    "confidence": "high",

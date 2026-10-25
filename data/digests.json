@@ -1,6 +1,151 @@
 {
  "digests": [
   {
+   "id": "2026-10-24",
+   "start": "2026-10-18",
+   "end": "2026-10-24",
+   "created_at": "2026-10-25T02:14:58+00:00",
+   "counts": {
+    "news": 8,
+    "banks": 5,
+    "annual_report_items": 3,
+    "annual_report_banks": 1,
+    "studies": 16
+   },
+   "countries": {
+    "AE": 5,
+    "BH": 2,
+    "KW": 1
+   },
+   "themes": [
+    [
+     "AI Adoption in Operations",
+     7
+    ],
+    [
+     "Tech Vendor Partnerships",
+     5
+    ],
+    [
+     "AI Skills & Talent",
+     3
+    ],
+    [
+     "Customer-Facing AI",
+     2
+    ],
+    [
+     "Fraud, Risk & Compliance",
+     2
+    ],
+    [
+     "AI Strategy & Leadership",
+     1
+    ]
+   ],
+   "partners": [
+    [
+     "IBM",
+     2
+    ],
+    [
+     "OpenAI",
+     1
+    ],
+    [
+     "Rebott",
+     1
+    ],
+    [
+     "Reboot",
+     1
+    ],
+    [
+     "Reboot Coding Institute",
+     1
+    ],
+    [
+     "IBM watsonx",
+     1
+    ]
+   ],
+   "banks": [
+    [
+     "fab",
+     3
+    ],
+    [
+     "nbb",
+     2
+    ],
+    [
+     "enbd",
+     1
+    ],
+    [
+     "boubyan",
+     1
+    ],
+    [
+     "mashreq",
+     1
+    ]
+   ],
+   "top": [
+    "840a834b6389",
+    "35fd1053396c",
+    "1802cb36e6b1",
+    "51bdcd3d0a0a",
+    "bb9536e5d03d",
+    "873b4c878716",
+    "acfa7ae38a07",
+    "5303cdb55378"
+   ],
+   "studies_top": [
+    "1fadb4d26523",
+    "bdb61939d5f6",
+    "1816c56df3e6",
+    "b4d0f3fb9746",
+    "75384f54cd77"
+   ],
+   "report_banks": [
+    "ajman"
+   ],
+   "takeaways": [
+    {
+     "text": "GCC banks pursue divergent AI partnerships: Emirates NBD runs OpenAI GPT on UAE infrastructure, while Mashreq and First Abu Dhabi Bank partner with IBM for enterprise AI and watsonx solutions.",
+     "ids": [
+      "840a834b6389",
+      "51bdcd3d0a0a",
+      "873b4c878716"
+     ]
+    },
+    {
+     "text": "Ajman Bank deployed generative AI avatar Hamad across mobile and branch channels, while Boubyan Bank and National Bank of Bahrain focus AI on HR recruitment and capability building respectively.",
+     "ids": [
+      "0e9a2da3258e",
+      "1802cb36e6b1",
+      "35fd1053396c"
+     ]
+    },
+    {
+     "text": "GCC banks emphasize AI-driven security and operational gains: Ajman Bank uses AI for threat detection and cybersecurity, while multiple banks expand data analytics for efficiency and green product scaling.",
+     "ids": [
+      "ad6c279acb4f",
+      "328958ccc8fa"
+     ]
+    },
+    {
+     "text": "Global regulators and banks address AI governance gaps: US banks restrict external AI agent account access, while regulators clarify liability for AI errors and flag explainability concerns despite willingness to delegate decisions.",
+     "ids": [
+      "1fadb4d26523",
+      "b4d0f3fb9746",
+      "99183ac13cfe"
+     ]
+    }
+   ]
+  },
+  {
    "id": "2026-10-17",
    "start": "2026-10-11",
    "end": "2026-10-17",

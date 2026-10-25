@@ -1,6 +1,35 @@
 {
- "updated_at": "2026-10-24T02:27:20+00:00",
+ "updated_at": "2026-10-25T02:14:54+00:00",
  "items": [
+  {
+   "id": "75384f54cd77",
+   "date": "2026-10-23",
+   "category": "Case Studies & Use Cases",
+   "publisher": "FF News",
+   "countries": [
+    "Global"
+   ],
+   "title": "TD Bank launches AI-powered commercial underwriting tool",
+   "summary": "A major North American bank deployed an AI solution to accelerate credit analysis and reduce processing time for commercial lending. The tool automates underwriting workflows to improve efficiency and speed.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYXlJUURNWkZwOEc0WGczdmt2TlFnNGxueW95VkZlQjl3SDJEU3pwTlJqVTNnYTRMN3FXbFpzbGRQWmdLQTlIWjA1U1c1NWROYW8zcWhQYTZoRlZISjN2amNkN2hGOUtqTkUzbnpFRVRYLTAwckdrUjR1YlJyUlhxT052QzlYSzdNZVhtcmxacWtqUnp1SnVVWF9NRFVEQWM4MHRUd3FOc0F0Mm1PS05zRw?oc=5",
+   "source_name": "FF News",
+   "source_title": "TD Bank U.S. Launches AI-Powered 'Credit Assist' to Slash Commercial Underwriting Time",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYXlJUURNWkZwOEc0WGczdmt2TlFnNGxueW95VkZlQjl3SDJEU3pwTlJqVTNnYTRMN3FXbFpzbGRQWmdLQTlIWjA1U1c1NWROYW8zcWhQYTZoRlZISjN2amNkN2hGOUtqTkUzbnpFRVRYLTAwckdrUjR1YlJyUlhxT052QzlYSzdNZVhtcmxacWtqUnp1SnVVWF9NRFVEQWM4MHRUd3FOc0F0Mm1PS05zRw?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-25T02:14:42+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-25"
+   },
+   "pdf_checked": "2026-10-25"
+  },
   {
    "id": "9feca54be941",
    "date": "2026-10-23",
@@ -211,6 +240,35 @@
     "checked": "2026-10-22"
    },
    "pdf_checked": "2026-10-22"
+  },
+  {
+   "id": "4d56f2057811",
+   "date": "2026-10-20",
+   "category": "Expert Views",
+   "publisher": "Bain & Company",
+   "countries": [
+    "Global"
+   ],
+   "title": "AI competitive advantage in banking is temporary, says Danske Bank CEO",
+   "summary": "Danske Bank's CEO discussed how AI-driven competitive advantages in banking are temporary. The analysis explores continuous innovation needed to maintain edge in AI adoption.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTGxHdWdXM3JjN2RaTFQ4c05HNTNXWUg0b3F3T1A3cm85clBpTXRXNzN4aFZtV2FRX2dfY3VuSkMxNmphMmowWkVURmVfTjlxY3JsU0ppSFFJSkRLYy1TRU5MUE9jYl9sRHl0WkU2U1lmTnhZSGpscURXbWhHM2ExQzFR?oc=5",
+   "source_name": "Bain & Company",
+   "source_title": "Your AI Competitive Advantage Is Temporary with Carsten Egeriis, CEO of Danske Bank",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTGxHdWdXM3JjN2RaTFQ4c05HNTNXWUg0b3F3T1A3cm85clBpTXRXNzN4aFZtV2FRX2dfY3VuSkMxNmphMmowWkVURmVfTjlxY3JsU0ppSFFJSkRLYy1TRU5MUE9jYl9sRHl0WkU2U1lmTnhZSGpscURXbWhHM2ExQzFR?oc=5",
+     "name": "Bain & Company"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-25T02:14:42+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-25"
+   },
+   "pdf_checked": "2026-10-25"
   },
   {
    "id": "d35d9e4060ee",
@@ -1451,6 +1509,35 @@
     "checked": "2026-10-07"
    },
    "pdf_checked": "2026-10-07"
+  },
+  {
+   "id": "8afbae80311e",
+   "date": "2026-10-06",
+   "category": "Case Studies & Use Cases",
+   "publisher": "Oliver Wyman",
+   "countries": [
+    "Global"
+   ],
+   "title": "How CaixaBank is using AI to transform the future of banking",
+   "summary": "CaixaBank deployed AI technologies to enhance banking services and operations, reshaping its business model and customer experience through artificial intelligence transformation.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdGZjSzYxam9xMkdxdnA2NWNuaWdmQnhTR2JuclJQNE5ONExEWU9TY01UVkZ4X2tTVTkySEhIQXRxTTdjVGhUOFI2Z0lwcjRlUGVYSGt2Y1JqZ3VKZjhkWW1hVzFwZWI1ZGpGUFRxREZlR3E2bWc1M0tialZBZHJ2a0xYX3J4aXB1cktwUHVB?oc=5",
+   "source_name": "Oliver Wyman",
+   "source_title": "How CaixaBank is using AI to transform the future of banking",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdGZjSzYxam9xMkdxdnA2NWNuaWdmQnhTR2JuclJQNE5ONExEWU9TY01UVkZ4X2tTVTkySEhIQXRxTTdjVGhUOFI2Z0lwcjRlUGVYSGt2Y1JqZ3VKZjhkWW1hVzFwZWI1ZGpGUFRxREZlR3E2bWc1M0tialZBZHJ2a0xYX3J4aXB1cktwUHVB?oc=5",
+     "name": "Oliver Wyman"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-25T02:14:42+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-25"
+   },
+   "pdf_checked": "2026-10-25"
   },
   {
    "id": "77430aa6048d",
@@ -5370,74 +5457,6 @@
     "checked": "2026-10-05"
    },
    "pdf_checked": "2026-10-05"
-  },
-  {
-   "id": "3d883c803485",
-   "date": "2025-10-23",
-   "category": "Expert Views",
-   "publisher": "PwC",
-   "countries": [
-    "Global"
-   ],
-   "title": "Banking and agentic AI: SEO, AEO, GEO for customer transformation",
-   "summary": "PwC presents a framework using agentic AI for banking transformation. The approach addresses customer and business transformation through strategic AI implementation.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPck12NmFKZFNzRUtUUjlHVW5OanNxOElxaHV4dFRaVFlrZHNZeUctaG1hODlKTVM5SzBUbS1fTms1TlhFaUFiQll1WVNaQXdsNEo1NmFxQmtHMXBURHdWY180UEdDSk40R2tTcGZCNThYSjRrTExVMXViYmlWelYxUFNEdzZXMnZZbFVjY3VHWmR1X3BJa3BHdWxvTnFPdw?oc=5",
-   "source_name": "pwc.com",
-   "source_title": "Banking and agentic AI: SEO, AEO, GEO for customer transformation",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPck12NmFKZFNzRUtUUjlHVW5OanNxOElxaHV4dFRaVFlrZHNZeUctaG1hODlKTVM5SzBUbS1fTms1TlhFaUFiQll1WVNaQXdsNEo1NmFxQmtHMXBURHdWY180UEdDSk40R2tTcGZCNThYSjRrTExVMXViYmlWelYxUFNEdzZXMnZZbFVjY3VHWmR1X3BJa3BHdWxvTnFPdw?oc=5",
-     "name": "pwc.com"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "official",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-06"
-  },
-  {
-   "id": "7247d50cf65a",
-   "date": "2025-10-23",
-   "category": "Market Data",
-   "publisher": "McKinsey & Company",
-   "countries": [
-    "Global"
-   ],
-   "title": "McKinsey warns banks face profit hit from rise of AI",
-   "summary": "McKinsey quantifies AI's potential $170 billion profit impact on banks. The study projects significant financial disruption from AI's competitive effects on banking profitability.",
-   "key_stats": [
-    {
-     "value": "$170 billion",
-     "label": "Potential profit hit from AI disruption",
-     "quote": "$170 billion profit hit from rise of AI"
-    }
-   ],
-   "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaVNqVHlPdmRUQ0U4c2lwcGNrUXBQTk5yT2ZfbzlSR2hhSTBjWkR3U3lCQU5oU1pzQjUtWk5heE5Qc3FTcGtJZy1kalV2N2c1c3ZPbUNXS3c3WnJYS3RzZGNVbHdIWDVBWnYyMXdENng3UjEzcEhCUjIwSV82TGVscXRzVGlOQVZ2Tk5OYmZoVlNyZ0Rxa2VkRjRfbVhISHRTWWF1RUhFSFBVdw?oc=5",
-   "source_name": "Payments Industry Intelligence",
-   "source_title": "McKinsey warns banks face $170 billion profit hit from rise of AI",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaVNqVHlPdmRUQ0U4c2lwcGNrUXBQTk5yT2ZfbzlSR2hhSTBjWkR3U3lCQU5oU1pzQjUtWk5heE5Qc3FTcGtJZy1kalV2N2c1c3ZPbUNXS3c3WnJYS3RzZGNVbHdIWDVBWnYyMXdENng3UjEzcEhCUjIwSV82TGVscXRzVGlOQVZ2Tk5OYmZoVlNyZ0Rxa2VkRjRfbVhISHRTWWF1RUhFSFBVdw?oc=5",
-     "name": "Payments Industry Intelligence"
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaVNqVHlPdmRUQ0U4c2lwcGNrUXBQTk5yT2ZfbzlSR2hhSTBjWkR3U3lCQU5oU1pzQjUtWk5heE5Qc3FTcGtJZy1kalV2N2c1c3ZPbUNXS3c3WnJYS3RzZGNVbHdIWDVBWnYyMXdENng3UjEzcEhCUjIwSV82TGVscXRzVGlOQVZ2Tk5OYmZoVlNyZ0Rxa2VkRjRfbVhISHRTWWF1RUhFSFBVdw?oc=5",
-     "name": "paymentsindustryintelligence.com"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "corroborated",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-06"
   }
  ]
 }
