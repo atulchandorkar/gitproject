@@ -1,6 +1,42 @@
 {
- "updated_at": "2026-10-25T02:14:54+00:00",
+ "updated_at": "2026-10-26T02:14:49+00:00",
  "items": [
+  {
+   "id": "2faf6ebdb2a5",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-10-25",
+   "title": "QNB Group accelerates global AI and digital infrastructure financing in Q3",
+   "summary": "QNB Group is accelerating its global AI and digital infrastructure financing activities in the third quarter.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership",
+    "Tech Vendor Partnerships"
+   ],
+   "tags": [
+    "AI financing",
+    "Digital infrastructure",
+    "Global expansion"
+   ],
+   "partners": [],
+   "impact": "Q3 acceleration",
+   "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT1NhN09YbDJsZDBDT0R4SWtNa2E1a1YwR2VpNlVJV0xCQXdBRDBERlRfdVQ2S05lZ09VdjdQb0pKWkNiWHFGNFdSVlgtRDQxRG1tWHJ5MHRKT3p0aHdIcEhoMHpDZG1ORHZZQkdKQVVrVUlDRklBVUNuVnp4enhsQ3RacW0zd1JGcGZhdTFzY1NGeUZScWlVbW1LUmJ0X2VXRmtpQl9EbGJXWFVwS0pmanBHd2tfQjJoZHdKTW9Nel9ieEXSAcgBQVVfeXFMT1VFVVdjY0JRcGJnRHVxUHpqdHpMNDdBQ3U1QVpBdE9ZUEx6SG1jRHJ3T2ZLRkdHZzVKTGlrSkVHczZaeWpVYW0xM29QaWR1cElSWTUxeDZMcDZqYllnckc1WHlZSEZleGw5MGFsbUg1aDBSYzk3MHd3dFR5RnZpb2NWV2N2ZXZSS1llalVVbmNiYWdSVHNQS2VrVFBwNWVjZUFodTdURWhwQm5TRHp4UjBVTjFqMEUtdWNnNWtCTUtoZHJEbEdoTTc?oc=5",
+   "source_name": "Gulf Times",
+   "source_title": "QNB Group accelerates global AI and digital infrastructure financing in Q3 | Gulf Times",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT1NhN09YbDJsZDBDT0R4SWtNa2E1a1YwR2VpNlVJV0xCQXdBRDBERlRfdVQ2S05lZ09VdjdQb0pKWkNiWHFGNFdSVlgtRDQxRG1tWHJ5MHRKT3p0aHdIcEhoMHpDZG1ORHZZQkdKQVVrVUlDRklBVUNuVnp4enhsQ3RacW0zd1JGcGZhdTFzY1NGeUZScWlVbW1LUmJ0X2VXRmtpQl9EbGJXWFVwS0pmanBHd2tfQjJoZHdKTW9Nel9ieEXSAcgBQVVfeXFMT1VFVVdjY0JRcGJnRHVxUHpqdHpMNDdBQ3U1QVpBdE9ZUEx6SG1jRHJ3T2ZLRkdHZzVKTGlrSkVHczZaeWpVYW0xM29QaWR1cElSWTUxeDZMcDZqYllnckc1WHlZSEZleGw5MGFsbUg1aDBSYzk3MHd3dFR5RnZpb2NWV2N2ZXZSS1llalVVbmNiYWdSVHNQS2VrVFBwNWVjZUFodTdURWhwQm5TRHp4UjBVTjFqMEUtdWNnNWtCTUtoZHJEbEdoTTc?oc=5",
+     "name": "Gulf Times"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-26T02:10:58+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-26"
+   }
+  },
   {
    "id": "51bdcd3d0a0a",
    "bank_id": "mashreq",
@@ -263,10 +299,12 @@
    "tags": [
     "Enterprise AI",
     "IBM partnership",
-    "AI adoption"
+    "AI adoption",
+    "watsonx"
    ],
    "partners": [
-    "IBM watsonx"
+    "IBM watsonx",
+    "IBM"
    ],
    "impact": "",
    "source_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1iLW1mNVpiRDBrSEtIMHp5VkZubFQyYkNSSE84bUFnb0p0bUQ0dXd0bFAycWZCdW5zcExpS19mNi1KaW93emRB?oc=5",
@@ -292,6 +330,18 @@
     {
      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80N3RwVFNva01JTWlwY0ZnaXd0R2VFY0ppTXdWNnFSZW1xQnM4SkQ2QTREdGpxZHN1ZVVpRDNac2U3eVdLQnl5UlNuVUhoTUlDRDZJ?oc=5",
      "name": "شبكة تواصل الإخبارية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCdGtMeE5Jd3cwXzktUTQ5VENoZnJzMFRmOTVkcDc2THE0TXFOVmxzaWNrTkVFcTBxR2dFX2NGWGxneVU3VFdra2JPNjdyWHpjeWlv?oc=5",
+     "name": "شبكة تواصل الإخبارية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE50TUc1UUlLRDF6UURYQXo4cGRJTEhBOGxoalVueU0xcWNOX3ZUcmRhM0pLOVQyRHhJYThtZVlmampIbXRQVlV5LWdFS2Y4aDBQcnZj?oc=5",
+     "name": "شبكة تواصل الإخبارية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE92ME1MTEFIRkpYbE1jbDA5czNBbDZpWFduNVduRm1WRGx5MEQzZ3BYN0JYbEZXZElZbm5hSnBhQjJfTmJkWGc?oc=5",
+     "name": "العالم اليوم"
     }
    ],
    "language": "ar",
@@ -300,7 +350,20 @@
     "level": "corroborated",
     "evidence": "headline",
     "checked": "2026-10-20"
-   }
+   },
+   "merged": [
+    {
+     "id": "a1a438cf562f",
+     "date": "2026-10-19",
+     "title": "FAB Egypt expands enterprise AI with IBM watsonx platform partnership",
+     "source_title": "بنك أبوظبي الأول مصر يتوسع في الذكاء الاصطناعي المؤسسي بالتعاون مع IBM عبر منصة watsonx",
+     "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCdGtMeE5Jd3cwXzktUTQ5VENoZnJzMFRmOTVkcDc2THE0TXFOVmxzaWNrTkVFcTBxR2dFX2NGWGxneVU3VFdra2JPNjdyWHpjeWlv?oc=5",
+     "source_name": "شبكة تواصل الإخبارية",
+     "summary": "First Abu Dhabi Bank Egypt is expanding its enterprise AI capabilities through a collaboration with IBM using the watsonx platform.",
+     "how": "ai",
+     "anchor": "IBM watsonx"
+    }
+   ]
   },
   {
    "id": "acfa7ae38a07",

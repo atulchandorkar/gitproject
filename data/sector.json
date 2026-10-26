@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-25T02:14:54+00:00",
+ "updated_at": "2026-10-26T02:14:49+00:00",
  "items": [
   {
    "id": "75384f54cd77",
@@ -358,20 +358,24 @@
    "pdf_checked": "2026-10-21"
   },
   {
-   "id": "1fadb4d26523",
+   "id": "fbf1d3bd37a7",
    "date": "2026-10-18",
-   "category": "Regulation & Guidance",
-   "publisher": "",
+   "category": "Expert Views",
+   "publisher": "Finextra Research",
    "countries": [
     "Global"
    ],
-   "title": "US banks limit AI agents' access to customer accounts",
-   "summary": "Major US banks are implementing restrictions on external AI agents' access to customer accounts and transaction capabilities. This reflects emerging industry practices and governance frameworks around agentic AI in banking.",
+   "title": "Analysis of why US banks are blocking third-party AI agents from accessing customer accounts",
+   "summary": "Finextra Research provides expert analysis on US banks' decision to restrict third-party AI agents' access to customer accounts. The deep dive examines the security and regulatory considerations driving this industry response.",
    "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY3lNNmVfaGRPZE5ZbHFNN3lTXzF0Y183eTRqV2g2b2JaY1B4RE5tOFhLR0c2ckx3VkJqdDE5YVZKV3gwV0djTHZheVF3QUI3RTJpLURZRS0xRFJtenNWbV83Sk9lVHBRMVBQNnVaYm5wTnZOeFpYYXUxa0ZReWtCWWJWM0hqQQ?oc=5",
-   "source_name": "Retail Banker International",
-   "source_title": "US banks limit AI agents’ access to customer accounts – report",
+   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQc1FTa094OV9qR0dEWHdLM2QxU0FxQnJmTm41WGp3eEs3Ujl3VU1pa1JvXzVmT3Jub0tLUllPNHotZVdPN3ZNSWlTZm5DWXZGQlR5ZFlrcGduRkRoTEUzUElHVFBQZ0FVd0R2WUwtRDJrVGExMXBWRzJRT0RlWlBrdVVzMmZDOGxVQmpaY0JaWGlxTjlOZXdZMV9qSVNHR05kTXc?oc=5",
+   "source_name": "Finextra Research",
+   "source_title": "Deep Dive: Why US banks are blocking third-party AI agents: By Sam Boboev",
    "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQc1FTa094OV9qR0dEWHdLM2QxU0FxQnJmTm41WGp3eEs3Ujl3VU1pa1JvXzVmT3Jub0tLUllPNHotZVdPN3ZNSWlTZm5DWXZGQlR5ZFlrcGduRkRoTEUzUElHVFBQZ0FVd0R2WUwtRDJrVGExMXBWRzJRT0RlWlBrdVVzMmZDOGxVQmpaY0JaWGlxTjlOZXdZMV9qSVNHR05kTXc?oc=5",
+     "name": "Finextra Research"
+    },
     {
      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY3lNNmVfaGRPZE5ZbHFNN3lTXzF0Y183eTRqV2g2b2JaY1B4RE5tOFhLR0c2ckx3VkJqdDE5YVZKV3gwV0djTHZheVF3QUI3RTJpLURZRS0xRFJtenNWbV83Sk9lVHBRMVBQNnVaYm5wTnZOeFpYYXUxa0ZReWtCWWJWM0hqQQ?oc=5",
      "name": "Retail Banker International"
@@ -383,17 +387,35 @@
     {
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91cGpWUkFxX0ZsWjlFcUVWYXhDNkFGams2czVSdVEyLVFKZzk5UjBkWnJSY1ZlaGF2UTFnZHcyTDI1QmdDM0NFQWlfZmJ4WGl0cC0zWXhjWmQyUDFGaDRpdkdUcTZ5ckRwYm9jeHAzbUE?oc=5",
      "name": "جريدة البلاد"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81LTRuVXhVVnhHeVlCSGw5M3Bmb28zdFZRZWJlNWxNZzVacHd0bDJJcDh6b2pvUmR3eWQwYjdRX1ZhQVpjZ3N5U2tmM1hpSllERVlhV3FHU3NWc0tfZkRKeTY0OFppWldmUTNyWW9SWlFsd1loaUlxVUNpclVWZG8?oc=5",
+     "name": "VARIndia"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUC1XTFJ0cDJPMG1zQ0ZpelhJNXRrSDdqeTBSZmJKdzh0N1ZWRldtd3ZLUU5tcEJ3SkpmeUVEVXNKY09yMWJWa2YzRkl6emw5cmtDXzlXeWRGWWVLdm9YRkJJVWFHbU80WThZLXlUYXRxRGJpaVFiT3J5LTdncE5iZlkyS0o2ZEYzeTdaTHlRQ2E2eUpYcjB0VV84WVpNeGNW?oc=5",
+     "name": "Ratopati"
     }
    ],
    "language": "en",
-   "added_at": "2026-10-20T02:35:14+00:00",
+   "added_at": "2026-10-26T02:14:39+00:00",
    "verification": {
-    "level": "trusted",
+    "level": "official",
     "evidence": "headline",
-    "checked": "2026-10-20"
+    "checked": "2026-10-26"
    },
-   "pdf_checked": "2026-10-20",
    "merged": [
+    {
+     "id": "1fadb4d26523",
+     "date": "2026-10-18",
+     "title": "US banks limit AI agents' access to customer accounts",
+     "source_title": "US banks limit AI agents’ access to customer accounts – report",
+     "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQY3lNNmVfaGRPZE5ZbHFNN3lTXzF0Y183eTRqV2g2b2JaY1B4RE5tOFhLR0c2ckx3VkJqdDE5YVZKV3gwV0djTHZheVF3QUI3RTJpLURZRS0xRFJtenNWbV83Sk9lVHBRMVBQNnVaYm5wTnZOeFpYYXUxa0ZReWtCWWJWM0hqQQ?oc=5",
+     "source_name": "Retail Banker International",
+     "summary": "Major US banks are implementing restrictions on external AI agents' access to customer accounts and transaction capabilities. This reflects emerging industry practices and governance frameworks around agentic AI in banking.",
+     "how": "ai",
+     "anchor": "US banks blocking third-party AI agents from accessing customer accounts"
+    },
     {
      "id": "b81ce8cee343",
      "date": "2026-10-18",
@@ -405,7 +427,8 @@
      "how": "ai",
      "anchor": "American banks prevent AI agents from transferring customer funds"
     }
-   ]
+   ],
+   "pdf_checked": "2026-10-26"
   },
   {
    "id": "b4d0f3fb9746",
