@@ -1,5 +1,5 @@
 {
- "last_update": "2026-10-26T02:11:03+00:00",
+ "last_update": "2026-10-27T04:05:04+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -1571,1256 +1571,6 @@
  },
  "pending": [
   {
-   "id": "4cacfd9bb1b6",
-   "bank_id": "adib",
-   "country": "AE",
-   "date": "2026-06-30",
-   "title": "ADIB Egypt backs Cairo University engineering students to build AI banking solutions",
-   "summary": "ADIB Egypt, a subsidiary, is working with Cairo University's Faculty of Engineering. Outstanding students develop AI-based solutions to real banking challenges in a supported work environment.",
-   "category": "Talent & Training",
-   "tags": [
-    "University partnership",
-    "AI solutions",
-    "ADIB Egypt"
-   ],
-   "partners": [
-    "Cairo University Faculty of Engineering"
-   ],
-   "impact": "",
-   "source_url": "https://www.almezan.news/255667",
-   "source_name": "Al Mezan News",
-   "language": "ar",
-   "added_at": "2026-10-05T16:22:49+00:00",
-   "sources": [
-    {
-     "url": "https://www.almezan.news/255667",
-     "name": "Al Mezan News"
-    }
-   ],
-   "verification": {
-    "level": "pending",
-    "evidence": "article",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "508e0fa308aa",
-   "bank_id": "rakbank",
-   "country": "AE",
-   "date": "2026-06-17",
-   "title": "RAKBANK enters Qorus-Infosys Finacle Banking Innovation Awards 2026 with GenAI assistant 'rai'",
-   "summary": "RAKBANK submitted rai, which it describes as a first-of-its-kind GenAI-powered conversational assistant in banking, to the awards programme. This is an entry, not a win. The listing highlights the theme of intelligence, inclusion and trust.",
-   "category": "Awards & Outcomes",
-   "tags": [
-    "rai",
-    "GenAI",
-    "Conversational banking",
-    "Awards entry"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://www.qorusglobal.com/innovations/31554-rakbank-introduces-rai-a-firstofitskind-genaipowered-digital-assistant-in-the-banking-sector",
-   "source_name": "Qorus",
-   "language": "en",
-   "added_at": "2026-10-05T16:23:05+00:00",
-   "sources": [
-    {
-     "url": "https://www.qorusglobal.com/innovations/31554-rakbank-introduces-rai-a-firstofitskind-genaipowered-digital-assistant-in-the-banking-sector",
-     "name": "Qorus"
-    }
-   ],
-   "verification": {
-    "level": "pending",
-    "evidence": "article",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "ba233feaf67c",
-   "bank_id": "enbd",
-   "country": "AE",
-   "date": "2026-05-24",
-   "title": "Emirates NBD used AI to save 8,000 hours and $400k on job interviews",
-   "summary": "",
-   "category": "AI Adoption in Operations",
-   "topics": [
-    "AI Adoption in Operations",
-    "AI Skills & Talent"
-   ],
-   "tags": [
-    "HR Automation",
-    "AI Efficiency"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbWRLc3dwb280QWJWd3pUd1JybEdYZDJ3R2xyb1d1TjRUb2ZlX1VjQ0phZWpQMXJQb2FrNkVJRFZ0YmZPWEFBMzJtcnF0cnFpRGljcFVZWENtMTlQTllmVXU5YzhSQzNSQk8tNkl1S25PWlBLYlJ0TDBIdU52dXhFMzBKdkl0VS1fRGR3WWNOb3htZ19jQ0FGb0NtUFVoNE4zVmxJMTNkc3pkSjBmMEZ0V0xHbldJcDFi?oc=5",
-   "source_name": "unleash.ai",
-   "source_title": "How Emirates NBD used AI to save 8,000 hours and $400k on job interviews",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbWRLc3dwb280QWJWd3pUd1JybEdYZDJ3R2xyb1d1TjRUb2ZlX1VjQ0phZWpQMXJQb2FrNkVJRFZ0YmZPWEFBMzJtcnF0cnFpRGljcFVZWENtMTlQTllmVXU5YzhSQzNSQk8tNkl1S25PWlBLYlJ0TDBIdU52dXhFMzBKdkl0VS1fRGR3WWNOb3htZ19jQ0FGb0NtUFVoNE4zVmxJMTNkc3pkSjBmMEZ0V0xHbldJcDFi?oc=5",
-     "name": "unleash.ai"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T17:56:29+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "e3428c2fe354",
-   "bank_id": "adcb",
-   "country": "AE",
-   "date": "2026-06-30",
-   "title": "ADCB Unveils AI-Powered Mobile Banking App with Investment Trading",
-   "summary": "Abu Dhabi Commercial Bank unveiled an AI-powered mobile banking app that includes investment trading capabilities.",
-   "category": "Customer-Facing AI",
-   "topics": [
-    "Customer-Facing AI"
-   ],
-   "tags": [
-    "AI Assistant",
-    "Mobile Banking"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44bXlLWXpIdHUtVG9sYm5kV2M3OG4xbHZpZmwyZDgwby1CZjdYRGlUNmtZeTgzZmk3U2hOVEpRUnJ2NXJDLWlIbEZ0ZUVpOFpOWlJIWWNyWVJPT2c?oc=5",
-   "source_name": "tbreak.com",
-   "source_title": "ADCB unveils AI-powered mobile banking app with investment trading",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44bXlLWXpIdHUtVG9sYm5kV2M3OG4xbHZpZmwyZDgwby1CZjdYRGlUNmtZeTgzZmk3U2hOVEpRUnJ2NXJDLWlIbEZ0ZUVpOFpOWlJIWWNyWVJPT2c?oc=5",
-     "name": "tbreak.com"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T17:56:58+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "e764f3bf59a3",
-   "bank_id": "dib",
-   "country": "AE",
-   "date": "2025-10-22",
-   "title": "HCL Technologies and Dubai Islamic Bank forge strategic AI partnership at GITEX GLOBAL 2025",
-   "summary": "HCL Technologies and Dubai Islamic Bank announced a strategic AI partnership at GITEX GLOBAL 2025 to advance the bank's AI capabilities.",
-   "category": "Tech Vendor Partnerships",
-   "topics": [
-    "Tech Vendor Partnerships",
-    "AI Adoption in Operations"
-   ],
-   "tags": [
-    "Strategic partnership",
-    "AI integration",
-    "GITEX"
-   ],
-   "partners": [
-    "HCL Technologies"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObUloNDZCb2pWMjFQNWhPREpDOVhEVDQ5LTAydXVnaDE0NnZDRDRvM3UzVVFONVIyWG1KVVBVemM3WHRSOUxOdnFCVGZJZThuYTVqTUxXOXZUVVNaOEhrQ2gtYVJ2eXVxYW5OWGtUWGRRM0pCeTZvWlNlM1FnYUdyamN1R0ZJdzZpNWxGM2M3WVVoQjZiSzV4VGNKb3p0dFBhdk1XaW9qY3dtR3J6MEFnZ19SUThXcEFyVGJNSWlOVlVzWVpndUFQTGVQVWlqYXkyZkNZbFRvNzFMZEtpT2wzOVMxbng4Zw?oc=5",
-   "source_name": "scanx.trade",
-   "source_title": "HCL Technologies and Dubai Islamic Bank Forge Strategic AI Partnership at GITEX GLOBAL 2025",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxObUloNDZCb2pWMjFQNWhPREpDOVhEVDQ5LTAydXVnaDE0NnZDRDRvM3UzVVFONVIyWG1KVVBVemM3WHRSOUxOdnFCVGZJZThuYTVqTUxXOXZUVVNaOEhrQ2gtYVJ2eXVxYW5OWGtUWGRRM0pCeTZvWlNlM1FnYUdyamN1R0ZJdzZpNWxGM2M3WVVoQjZiSzV4VGNKb3p0dFBhdk1XaW9qY3dtR3J6MEFnZ19SUThXcEFyVGJNSWlOVlVzWVpndUFQTGVQVWlqYXkyZkNZbFRvNzFMZEtpT2wzOVMxbng4Zw?oc=5",
-     "name": "scanx.trade"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T17:57:22+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "1e65a49b3889",
-   "bank_id": "adib",
-   "country": "AE",
-   "date": "2026-08-22",
-   "title": "Abu Dhabi Islamic Bank appoints Pedro Uria-Recio as Chief AI Officer",
-   "summary": "ADIB has appointed Pedro Uria-Recio to the role of Chief AI Officer.",
-   "category": "AI Strategy & Leadership",
-   "topics": [
-    "AI Strategy & Leadership"
-   ],
-   "tags": [
-    "Chief AI Officer",
-    "Leadership hire"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQR3lGYkVNdFV6YTBma3g2NVozRE9oRUtaZmtveUpyeTVFajhRd3VYal9sQ0k2Y3ZwRmNZQmtSamNGV2VmbmtJTk5MWldRV2NSVHcxTDEtcjhyZDVURGUwTGIteG9qTHZreTNGeHpBSThZQ3EzX1I1NGhYZEtLcHB3ZUIyWWhtay1lRmtTUlJoQTZvV3FUZ05rS3FpQ2xIM1FvTHdaRDQ0MXl3ODNjVUJnNXJUVkhRemJqc3luV1BBcmxaeGltd0xYUjltOHYtQ1JVTGxn?oc=5",
-   "source_name": "marketscreener.com",
-   "source_title": "Abu Dhabi Islamic Bank Announces Appointment of Pedro Uria-Recio to Chief AI Officer",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQR3lGYkVNdFV6YTBma3g2NVozRE9oRUtaZmtveUpyeTVFajhRd3VYal9sQ0k2Y3ZwRmNZQmtSamNGV2VmbmtJTk5MWldRV2NSVHcxTDEtcjhyZDVURGUwTGIteG9qTHZreTNGeHpBSThZQ3EzX1I1NGhYZEtLcHB3ZUIyWWhtay1lRmtTUlJoQTZvV3FUZ05rS3FpQ2xIM1FvTHdaRDQ0MXl3ODNjVUJnNXJUVkhRemJqc3luV1BBcmxaeGltd0xYUjltOHYtQ1JVTGxn?oc=5",
-     "name": "marketscreener.com"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T17:57:50+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "f481ea3feca5",
-   "bank_id": "adib",
-   "country": "AE",
-   "date": "2026-08-25",
-   "title": "مصرف أبوظبي الإسلامي يستعين بخبير مخضرم لتوسيع نطاق استخدام الذكاء الاصطناعي في العمليات التشغيلية",
-   "summary": "",
-   "category": "AI Adoption in Operations",
-   "topics": [
-    "AI Adoption in Operations",
-    "AI Strategy & Leadership"
-   ],
-   "tags": [
-    "AI expansion",
-    "Operations"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNOEN4SlpGdWVDN2JrNmthbEVfSXB4d1cxdzdHU2JtV3hUOE9FejBpOHhCMUVSeV9POHhoUTQ1SDlIaFpsNVZ6Yi0xZXdmTnlIWUZEYTk4b2diX0pUTGJDcmJLTnZmd1poYWhZd1dTb0o3REZyUVJsd242bmw4ZHh2Tk05eHBzUnFBZW9xTG9zZVVYUUxxbkpnSEVzZHA5MHluakt1UlJJSDNZd2VWeHlxNkkyZUFnYjRvdGhTbm00TWpsQTJxbnZLSjVNdTNnMEJBUWVxaFpFT2tVbXZCUm93R3ppckU1MktGb3RqdWFsZE9CTndRc2pCRnpFQUxDeGliTHJFNXByNlBSMEJrOTRESEtfaFo2T1FVQlg4djh4YmlGN3pUUDRpc2xfbDg3ak5nemJXVlRPdURMa3FzSlVJU0pSUjNVZmZiRXVnUmw5dV9PNU1UR1hGMGRySWlzUQ?oc=5",
-   "source_name": "EnterpriseAM",
-   "source_title": "مصرف أبوظبي الإسلامي يستعين بخبير مخضرم لتوسيع نطاق استخدام الذكاء الاصطناعي في العمليات التشغيلية",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNOEN4SlpGdWVDN2JrNmthbEVfSXB4d1cxdzdHU2JtV3hUOE9FejBpOHhCMUVSeV9POHhoUTQ1SDlIaFpsNVZ6Yi0xZXdmTnlIWUZEYTk4b2diX0pUTGJDcmJLTnZmd1poYWhZd1dTb0o3REZyUVJsd242bmw4ZHh2Tk05eHBzUnFBZW9xTG9zZVVYUUxxbkpnSEVzZHA5MHluakt1UlJJSDNZd2VWeHlxNkkyZUFnYjRvdGhTbm00TWpsQTJxbnZLSjVNdTNnMEJBUWVxaFpFT2tVbXZCUm93R3ppckU1MktGb3RqdWFsZE9CTndRc2pCRnpFQUxDeGliTHJFNXByNlBSMEJrOTRESEtfaFo2T1FVQlg4djh4YmlGN3pUUDRpc2xfbDg3ak5nemJXVlRPdURMa3FzSlVJU0pSUjNVZmZiRXVnUmw5dV9PNU1UR1hGMGRySWlzUQ?oc=5",
-     "name": "EnterpriseAM"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T17:57:50+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "115ec37ca33c",
-   "bank_id": "rakbank",
-   "country": "AE",
-   "date": "2026-06-24",
-   "title": "RAKBANK debuts AI and mentorship programme for businesswomen",
-   "summary": "RAKBANK has launched an AI and mentorship programme designed for businesswomen.",
-   "category": "AI Skills & Talent",
-   "topics": [
-    "AI Skills & Talent"
-   ],
-   "tags": [
-    "AI training",
-    "Talent development"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaUF0OEtjRk9yYnVsMWZ0MTFON1VGaVlLbkhyUU9zc2tfNllaNjlqeGhzUGYwb2JkdDlkUVFYUlAwMF80dGlYYmZJbVJwT1pXdkwxQXRWbDRsSFJXZy1EeHdfMnlQTWxua2NDWkpoelc3bC1WX28xazBZY0oyWnp2NklzMjZvTldMR3hnYTN6TEliR2dTMW9yUTJReFVoOUpuNjhn?oc=5",
-   "source_name": "GulfToday",
-   "source_title": "RAKBANK debuts AI, mentorship programme for businesswomen",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaUF0OEtjRk9yYnVsMWZ0MTFON1VGaVlLbkhyUU9zc2tfNllaNjlqeGhzUGYwb2JkdDlkUVFYUlAwMF80dGlYYmZJbVJwT1pXdkwxQXRWbDRsSFJXZy1EeHdfMnlQTWxua2NDWkpoelc3bC1WX28xazBZY0oyWnp2NklzMjZvTldMR3hnYTN6TEliR2dTMW9yUTJReFVoOUpuNjhn?oc=5",
-     "name": "GulfToday"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T17:58:59+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "16c4009e4547",
-   "bank_id": "bankmuscat",
-   "country": "OM",
-   "date": "2026-07-28",
-   "title": "Bank Muscat Organizes Seminar on Using AI in Content Marketing for Clients",
-   "summary": "Bank Muscat organized a seminar in Dhofar on using artificial intelligence in content marketing for its commercial banking clients.",
-   "category": "AI Adoption in Operations",
-   "topics": [
-    "AI Adoption in Operations",
-    "Customer-Facing AI"
-   ],
-   "tags": [
-    "AI marketing",
-    "Client services"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1XZnlXUTQtSlEtLVRyNmxRcng5dE9ibGFzMVFGdnhyMlVlbGFSeHNoWmFodHJIek1lYVhkeTlnOXRybjA?oc=5",
-   "source_name": "جريدة وجهات",
-   "source_title": "بنك مسقط ينظم ندوة في ظفار حول استخدام الذكاء الاصطناعي في تسويق المحتوى لزبائن “نجاحي” للصيرفة التجارية",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1XZnlXUTQtSlEtLVRyNmxRcng5dE9ibGFzMVFGdnhyMlVlbGFSeHNoWmFodHJIek1lYVhkeTlnOXRybjA?oc=5",
-     "name": "جريدة وجهات"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T18:01:17+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "316e73ac0ff6",
-   "bank_id": "wio",
-   "country": "AE",
-   "date": "2026-01-23",
-   "title": "Wio Bank partners with NVIDIA Inception to power AI-native banking",
-   "summary": "Wio Bank has partnered with NVIDIA Inception to accelerate AI-driven innovation in its banking operations. The partnership aims to power the next generation of AI-native banking capabilities.",
-   "category": "Tech Vendor Partnerships",
-   "topics": [
-    "Tech Vendor Partnerships",
-    "AI Strategy & Leadership"
-   ],
-   "tags": [
-    "NVIDIA",
-    "AI-native banking",
-    "Partnership"
-   ],
-   "partners": [
-    "NVIDIA"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUDg5cjJ2N0RMaU5ObzBuWEEwUU5WTkRSdDUyRF9BT3Eza0tFQzZVLUtxVHhxMGliSkhUNHlhZ0V6amlPZ05Gcm1hZktMZ2ppSE9sUlFDSVYwVlowcFVJZ1B3dFJ3YzhDVGdtZGVQcFlOZjNKbF95a3BTWUJEZ2ZMX28tUDMtd19VbjFIUVJ0dTNJaGxVak8xaEljVjcwWDZqVDEyZ2tXT21ycGhUcGZaTFRHU1hxX1Rtc004?oc=5",
-   "source_name": "TechAfrica News",
-   "source_title": "Wio Bank Taps NVIDIA Inception to Power the Next Generation of AI-Native Banking",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUDg5cjJ2N0RMaU5ObzBuWEEwUU5WTkRSdDUyRF9BT3Eza0tFQzZVLUtxVHhxMGliSkhUNHlhZ0V6amlPZ05Gcm1hZktMZ2ppSE9sUlFDSVYwVlowcFVJZ1B3dFJ3YzhDVGdtZGVQcFlOZjNKbF95a3BTWUJEZ2ZMX28tUDMtd19VbjFIUVJ0dTNJaGxVak8xaEljVjcwWDZqVDEyZ2tXT21ycGhUcGZaTFRHU1hxX1Rtc004?oc=5",
-     "name": "TechAfrica News"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T18:01:38+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "e585e3ace486",
-   "bank_id": "zand",
-   "country": "AE",
-   "date": "2024-12-14",
-   "title": "UAE's AI-Powered Digital Bank Zand Gets Cryptocurrency Custody License",
-   "summary": "Zand, the UAE's AI-powered digital bank, has obtained a cryptocurrency custody license.",
-   "category": "AI Adoption in Operations",
-   "topics": [
-    "AI Adoption in Operations"
-   ],
-   "tags": [
-    "AI-powered banking",
-    "Digital bank",
-    "Crypto custody"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5uSzgxM293aDE0VUFuaXU0WTRDSXVyVmtYUFJtYUk3M2FpM2huaHYybmdvY2pfNHhBaHZoR0hsUFc2N1pMc1dPc3BXVUdqcy0yY3dYWlN4RURTU3o2ZWtpeWlLQQ?oc=5",
-   "source_name": "Binance",
-   "source_title": "UAE’s AI-Powered Digital Bank Zand Gets Cryptocurrency Custody License",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5uSzgxM293aDE0VUFuaXU0WTRDSXVyVmtYUFJtYUk3M2FpM2huaHYybmdvY2pfNHhBaHZoR0hsUFc2N1pMc1dPc3BXVUdqcy0yY3dYWlN4RURTU3o2ZWtpeWlLQQ?oc=5",
-     "name": "Binance"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T18:02:02+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "9fb134abebcd",
-   "bank_id": "zand",
-   "country": "AE",
-   "date": "2026-01-06",
-   "title": "Yuze and Zand Partner to Deliver AI-Driven Digital Business Banking for UAE SMEs",
-   "summary": "",
-   "category": "Tech Vendor Partnerships",
-   "topics": [
-    "Tech Vendor Partnerships",
-    "Customer-Facing AI"
-   ],
-   "tags": [
-    "GenAI",
-    "Business banking",
-    "SME solutions"
-   ],
-   "partners": [
-    "Yuze"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObkJhUlJjakRpV1phOXhHTmJ1YnlPOUdPWnlSWDFJX0lRdWZmaEtGOUNHZ19JMXhjQnoxcHRtNTRac1hLZTVzUHV2cjRSSERGSGZNbXQzRHpmd0NCTk51ZG1XZF9wN0VxbWpVYnprd2RpQW5DQmgxTGNKNXFNcmN1S2oxdDVhd0RIZ0Z4WDhRNlZzSk83NEJqYzlQaGRuZXdSSmd0dHB4QUU0WHNfczloaGc0WHk4X3BTX2NZ?oc=5",
-   "source_name": "TechAfrica News",
-   "source_title": "Yuze and Zand Partner to Deliver AI-Driven Digital Business Banking for UAE SMEs",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObkJhUlJjakRpV1phOXhHTmJ1YnlPOUdPWnlSWDFJX0lRdWZmaEtGOUNHZ19JMXhjQnoxcHRtNTRac1hLZTVzUHV2cjRSSERGSGZNbXQzRHpmd0NCTk51ZG1XZF9wN0VxbWpVYnprd2RpQW5DQmgxTGNKNXFNcmN1S2oxdDVhd0RIZ0Z4WDhRNlZzSk83NEJqYzlQaGRuZXdSSmd0dHB4QUU0WHNfczloaGc0WHk4X3BTX2NZ?oc=5",
-     "name": "TechAfrica News"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T18:02:02+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "66c2290d9744",
-   "bank_id": "cbuae",
-   "country": "AE",
-   "date": "2025-07-23",
-   "title": "Central Bank of UAE and Presight launch AI finance venture for digital payments",
-   "summary": "The Central Bank of the UAE and Presight have launched an AI finance venture to power the UAE's digital payments infrastructure.",
-   "category": "Tech Vendor Partnerships",
-   "topics": [
-    "Tech Vendor Partnerships",
-    "AI Adoption in Operations"
-   ],
-   "tags": [
-    "Sovereign AI",
-    "Digital payments",
-    "Strategic partnership"
-   ],
-   "partners": [
-    "Presight"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWmw3UkNvMVRzZ2hhSmN1Rkp4TEREb0tEZUNsakNCLUdoaHNRejY0Vy1lX2dINzdwVVpUVC1NRzVLVHhYMTB4azkyc1lkYmFvM0o5a1M1bUZZSmF6LTkyUl9VOFJlTEpUZUx4ZDBTeEJVYlpVSjVPc3Q3OWs4cVNtck91UjBaNmNoVFZBemRvZGNqXzJsV2FBSmVNV1hnb19YS1V4dmlEQVBRamRvaDJ4SkJFQUlBd0p5?oc=5",
-   "source_name": "tbreak.com",
-   "source_title": "The Central Bank of the UAE and Presight Launch AI Finance Venture to Power UAE’s Digital Payments",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWmw3UkNvMVRzZ2hhSmN1Rkp4TEREb0tEZUNsakNCLUdoaHNRejY0Vy1lX2dINzdwVVpUVC1NRzVLVHhYMTB4azkyc1lkYmFvM0o5a1M1bUZZSmF6LTkyUl9VOFJlTEpUZUx4ZDBTeEJVYlpVSjVPc3Q3OWs4cVNtck91UjBaNmNoVFZBemRvZGNqXzJsV2FBSmVNV1hnb19YS1V4dmlEQVBRamRvaDJ4SkJFQUlBd0p5?oc=5",
-     "name": "tbreak.com"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T18:02:54+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "8e43736f5b89",
-   "bank_id": "alrajhi",
-   "country": "SA",
-   "date": "2025-11-10",
-   "title": "Al Rajhi Bank Taps ServiceNow AI Platform for Landmark Digital Transformation",
-   "summary": "Al Rajhi Bank has selected ServiceNow's AI platform for a major digital transformation initiative.",
-   "category": "Tech Vendor Partnerships",
-   "topics": [
-    "Tech Vendor Partnerships",
-    "AI Adoption in Operations"
-   ],
-   "tags": [
-    "ServiceNow",
-    "Digital transformation",
-    "Enterprise AI"
-   ],
-   "partners": [
-    "ServiceNow"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMXlqZGxXVGIyckc5LTdzUnFSMDFtUnNkVDJQZGhuS2dsRGxTbGlJWW9RcnFKRkNObm9kaUM0cVRWVk1SbDRoVnhNbW5TV0x5MEpYRHlkY1Y5MHdhZW9fcVZWZ0E4azhKT1JoVDN1T0xJRXZmaFFQOThpV3V3em5JSEE1aDAzMVh3RDNua0pYSmFNcmloNVJqODVFNmdBMy01TVJJV2FYS3FTSkNKR1lNSUdCdlY4N2s?oc=5",
-   "source_name": "TechAfrica News",
-   "source_title": "Al Rajhi Bank Taps ServiceNow AI Platform for Landmark Digital Transformation",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMXlqZGxXVGIyckc5LTdzUnFSMDFtUnNkVDJQZGhuS2dsRGxTbGlJWW9RcnFKRkNObm9kaUM0cVRWVk1SbDRoVnhNbW5TV0x5MEpYRHlkY1Y5MHdhZW9fcVZWZ0E4azhKT1JoVDN1T0xJRXZmaFFQOThpV3V3em5JSEE1aDAzMVh3RDNua0pYSmFNcmloNVJqODVFNmdBMy01TVJJV2FYS3FTSkNKR1lNSUdCdlY4N2s?oc=5",
-     "name": "TechAfrica News"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T18:03:19+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "5e6035baafea",
-   "bank_id": "stcbank",
-   "country": "SA",
-   "date": "2025-10-01",
-   "title": "Mozn Partners with STC Bank to Deploy AI-Powered Financial Crime Platform FOCAL in Saudi Arabia",
-   "summary": "STC Bank is deploying Mozn's FOCAL AI platform for financial crime detection and prevention in Saudi Arabia.",
-   "category": "Fraud, Risk & Compliance",
-   "topics": [
-    "Fraud, Risk & Compliance",
-    "Tech Vendor Partnerships"
-   ],
-   "tags": [
-    "Financial crime AI",
-    "AML",
-    "Fraud detection"
-   ],
-   "partners": [
-    "Mozn"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQUtadGhaM0JQcWVmLXczbzl5ZnRrWU53bEZBSkxET1B3SHV1b1VFV1BMbHdZSGh3S2hSR3dKSlh5MVlvMEZHRDJsalNhb3VrV3ZLaEhHNUZpT2dTUklLNWhZU1JtU1Y2dWRjekJfSmZzRjMwVnZSUms1ZE1yc29sTEtrVTJpU1pCZzFZNGJhNEhrQk15TzdLWE5PMldSeGdpdlluUTExQ3h1Y1M1TXlMVGJxT2wtejRBZF9pSWdaWjk3Z05kbzVnVU1DU1FsMkU?oc=5",
-   "source_name": "TechAfrica News",
-   "source_title": "Mozn Partners with STC Bank to Deploy AI-Powered Financial Crime Platform FOCAL in Saudi Arabia",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQUtadGhaM0JQcWVmLXczbzl5ZnRrWU53bEZBSkxET1B3SHV1b1VFV1BMbHdZSGh3S2hSR3dKSlh5MVlvMEZHRDJsalNhb3VrV3ZLaEhHNUZpT2dTUklLNWhZU1JtU1Y2dWRjekJfSmZzRjMwVnZSUms1ZE1yc29sTEtrVTJpU1pCZzFZNGJhNEhrQk15TzdLWE5PMldSeGdpdlluUTExQ3h1Y1M1TXlMVGJxT2wtejRBZF9pSWdaWjk3Z05kbzVnVU1DU1FsMkU?oc=5",
-     "name": "TechAfrica News"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T18:07:00+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "17e7b01eab2f",
-   "bank_id": "qib",
-   "country": "QA",
-   "date": "2025-10-12",
-   "title": "QIB sets new record with AI in Finance global award and 16 local and regional awards",
-   "summary": "Qatar Islamic Bank won an AI in Finance global award plus 16 local and regional awards.",
-   "category": "Awards & Rankings",
-   "topics": [
-    "Awards & Rankings"
-   ],
-   "tags": [
-    "AI Awards"
-   ],
-   "partners": [],
-   "impact": "16 local and regional awards",
-   "source_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPR2hFVU1WM3hFcHV3d1pnbkxPUTdERU1Xd0RQTGxqaVNWS294eEFWMG9idWg2V2xCR2JveG9nZlZNMWpUa2VoZEt5ZU5yZmhfMGlQVkx3LTZHZi1FTUhqblJBU2ZSVHNLSk5PQU1TNExtRm9TcWZoN1ZBQVJKY2VHUXBCVnFKTFdmX3BlRXQtVkdFZEliSzNRVzJSS2JkVnlTVTM1eHh3V28xaXdOVzJYX3ZqMDRMUzFvS0xJdkJRNHRuQ2VIcjFYdnRORVJUQm5JZms2SmF4M0I4bjZ1UW9NbE9obWItWmFUMmRReFZuZVpuUm5vZGtQdg?oc=5",
-   "source_name": "TradingView",
-   "source_title": "PRESSR: QIB sets a new record with AI in Finance global award and 16 local & regional awards",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPR2hFVU1WM3hFcHV3d1pnbkxPUTdERU1Xd0RQTGxqaVNWS294eEFWMG9idWg2V2xCR2JveG9nZlZNMWpUa2VoZEt5ZU5yZmhfMGlQVkx3LTZHZi1FTUhqblJBU2ZSVHNLSk5PQU1TNExtRm9TcWZoN1ZBQVJKY2VHUXBCVnFKTFdmX3BlRXQtVkdFZEliSzNRVzJSS2JkVnlTVTM1eHh3V28xaXdOVzJYX3ZqMDRMUzFvS0xJdkJRNHRuQ2VIcjFYdnRORVJUQm5JZms2SmF4M0I4bjZ1UW9NbE9obWItWmFUMmRReFZuZVpuUm5vZGtQdg?oc=5",
-     "name": "TradingView"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T18:08:50+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "e024a92079a1",
-   "bank_id": "cbq",
-   "country": "QA",
-   "date": "2026-06-11",
-   "title": "Commercial Bank: SME Growth Through Fast And Customer-centric AI-powered Lending",
-   "summary": "Commercial Bank of Qatar is deploying AI-powered lending for SME growth with customer-centric approach.",
-   "category": "AI Adoption in Operations",
-   "topics": [
-    "AI Adoption in Operations",
-    "Customer-Facing AI"
-   ],
-   "tags": [
-    "AI Lending",
-    "SME"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWDBwRExCOU9FUVZDZms4d25OWUJxWVF1emRPOXczRE9WVzl2bGlqWHRNS0tyZXdiVlhpT2ExTkFnc3JCZzNCd3piclg2eUlSU3c3WHF1NUJvcDhUZXdkLVhOcU15ak10VjA3SmZrMW92ZkNQNTV5SjEwTVRXYl9uc0NaMjQteElvYURVaG16aV9TNmpwWjBoS2N6dm1sdVJkTEhmN3FWdG9tclpMTEpra3NsWFo0T28?oc=5",
-   "source_name": "EconomyNext",
-   "source_title": "Commercial Bank: SME Growth Through Fast And Customer-centric AI-powered Lending",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWDBwRExCOU9FUVZDZms4d25OWUJxWVF1emRPOXczRE9WVzl2bGlqWHRNS0tyZXdiVlhpT2ExTkFnc3JCZzNCd3piclg2eUlSU3c3WHF1NUJvcDhUZXdkLVhOcU15ak10VjA3SmZrMW92ZkNQNTV5SjEwTVRXYl9uc0NaMjQteElvYURVaG16aV9TNmpwWjBoS2N6dm1sdVJkTEhmN3FWdG9tclpMTEpra3NsWFo0T28?oc=5",
-     "name": "EconomyNext"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T18:09:15+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "3c874482914f",
-   "bank_id": "qdb",
-   "country": "QA",
-   "date": "2026-02-18",
-   "title": "Qatar Development Bank leads USD 7M round for Italian AI startup Contents",
-   "summary": "Qatar Development Bank led a USD 7 million funding round for Contents, an Italian AI workflow platform company.",
-   "category": "Tech Vendor Partnerships",
-   "topics": [
-    "Tech Vendor Partnerships"
-   ],
-   "tags": [
-    "AI Investment",
-    "AI Workflow"
-   ],
-   "partners": [
-    "Contents"
-   ],
-   "impact": "USD 7M",
-   "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaF94R2t2cDBMOEdLSFhGd1Q5aEJqdTFEYkpWejBaSktGWjMxWTZJdlMwdVp2U2o0OEd6MjYwTkpwZ1pQNWdZVHN4WnlZNjg1b0JuYW53UnhlZnhhbldkRzdMSk9fMXJIV2VMbVY1UXpDR3MwRDlIN1hFcGk4M3R0ZlFEc2lWYmVHbjUyMXF4QkRFREItYmVReQ?oc=5",
-   "source_name": "waya.media",
-   "source_title": "Qatar Development Bank Leads USD 7M Round for Italian AI Startup Contents",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaF94R2t2cDBMOEdLSFhGd1Q5aEJqdTFEYkpWejBaSktGWjMxWTZJdlMwdVp2U2o0OEd6MjYwTkpwZ1pQNWdZVHN4WnlZNjg1b0JuYW53UnhlZnhhbldkRzdMSk9fMXJIV2VMbVY1UXpDR3MwRDlIN1hFcGk4M3R0ZlFEc2lWYmVHbjUyMXF4QkRFREItYmVReQ?oc=5",
-     "name": "waya.media"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T18:11:53+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "344670461aca",
-   "bank_id": "qdb",
-   "country": "QA",
-   "date": "2026-06-23",
-   "title": "Wellbees raises USD 3.6M led by Qatar Development Bank for AI platform expansion",
-   "summary": "Qatar Development Bank led a USD 3.6 million funding round for Wellbees to expand its AI-powered platform in the Gulf region.",
-   "category": "Tech Vendor Partnerships",
-   "topics": [
-    "Tech Vendor Partnerships"
-   ],
-   "tags": [
-    "AI Investment",
-    "HealthTech"
-   ],
-   "partners": [
-    "Wellbees"
-   ],
-   "impact": "USD 3.6M",
-   "source_url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQeHF0MVo2TVdyS0sxVE1NblFVbFVCTFlsMWNFOHZNbUxNcGEzME5XYW80YXVFaGU0S3VmRlA1WW9BbW02MW94QVlfTmxaSC1NUlU4T1FOYjR6R2tjMkxIWUR0ZWZ0WWZ4b21WS3k1eE16M3hGR0czaVhTYjdKWWlEX1pwS096SVUtQlR3UDJxZk9rdzk5VTByQldNN21oR3NzUGJMeHN2MDZjWnJocHR0SmZ5S3J6UFdqM2RBeHN6T1ZTZUFScWNqLWdFN0Z1dWtkRE84d3FId1dVd0N5WHZ4M19lWnM0X2FpSmFxaDFpVzZobDhPVHhFQ3E1WU95d3FIenh4ZG1LVjJ6UGdWVGRtdXJqT0VnQnNveW1uT25zRUFhUFEwRENKUXBSU3V0UzlfZVNqYlQycEpZS0daQ3E5UjV3cmd1N2to?oc=5",
-   "source_name": "waya.media",
-   "source_title": "Wellbees تجمع 3.6 مليون دولار بقيادة بنك قطر للتنمية لتوسيع منصتها المدعومة بالذكاء الاصطناعي في الخليج",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQeHF0MVo2TVdyS0sxVE1NblFVbFVCTFlsMWNFOHZNbUxNcGEzME5XYW80YXVFaGU0S3VmRlA1WW9BbW02MW94QVlfTmxaSC1NUlU4T1FOYjR6R2tjMkxIWUR0ZWZ0WWZ4b21WS3k1eE16M3hGR0czaVhTYjdKWWlEX1pwS096SVUtQlR3UDJxZk9rdzk5VTByQldNN21oR3NzUGJMeHN2MDZjWnJocHR0SmZ5S3J6UFdqM2RBeHN6T1ZTZUFScWNqLWdFN0Z1dWtkRE84d3FId1dVd0N5WHZ4M19lWnM0X2FpSmFxaDFpVzZobDhPVHhFQ3E1WU95d3FIenh4ZG1LVjJ6UGdWVGRtdXJqT0VnQnNveW1uT25zRUFhUFEwRENKUXBSU3V0UzlfZVNqYlQycEpZS0daQ3E5UjV3cmd1N2to?oc=5",
-     "name": "waya.media"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T18:11:53+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "68396fd380df",
-   "bank_id": "qcb",
-   "country": "QA",
-   "date": "2026-07-13",
-   "title": "Qatar Central Bank FinTech Strategy and Qai: Qatar's AI Infrastructure Investment for Financial Institutions",
-   "summary": "Qatar Central Bank's FinTech strategy includes AI infrastructure investment through Qai that will impact financial institutions' operations.",
-   "category": "AI Strategy & Leadership",
-   "topics": [
-    "AI Strategy & Leadership",
-    "AI Regulation & Policy"
-   ],
-   "tags": [
-    "AI infrastructure",
-    "FinTech strategy",
-    "AI investment"
-   ],
-   "partners": [
-    "Qai"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOXzNVdTVLTXRTeUtSNXNXZkRFSjBoekpNU2ZWRmJoamp2YVlKRXoteUVYM2ttckRKTnlHd3c0R2VzX2YwNFdYUEtCbXRsc2dTSUxrbnltbDU3NUJER2VTbWpsSjZhQ1FERmIzX0JUMThfeDZPVE1uVWlwaHJiNEJib1NDbXluQmNjb2ZiSXUwNk1NdUR5c3V4eFMtMll0QQ?oc=5",
-   "source_name": "Dentons",
-   "source_title": "Qatar Central Bank FinTech Strategy x Qai: what Qatar's AI infrastructure investment means for financial institutions",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOXzNVdTVLTXRTeUtSNXNXZkRFSjBoekpNU2ZWRmJoamp2YVlKRXoteUVYM2ttckRKTnlHd3c0R2VzX2YwNFdYUEtCbXRsc2dTSUxrbnltbDU3NUJER2VTbWpsSjZhQ1FERmIzX0JUMThfeDZPVE1uVWlwaHJiNEJib1NDbXluQmNjb2ZiSXUwNk1NdUR5c3V4eFMtMll0QQ?oc=5",
-     "name": "Dentons"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T18:12:19+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "327b2db41acf",
-   "bank_id": "boubyan",
-   "country": "KW",
-   "date": "2024-10-20",
-   "title": "Boubyan Bank presents innovative digital model for employment using AI technologies",
-   "summary": "Boubyan Bank has introduced a new digital model that applies AI technologies to reshape the future of employment in the banking sector.",
-   "category": "AI Adoption in Operations",
-   "topics": [
-    "AI Adoption in Operations",
-    "AI Skills & Talent"
-   ],
-   "tags": [
-    "AI in HR",
-    "Digital transformation"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE01cEhSWmJnWVVqaDcwV3JwanllYkhOOERPeENoVFJiNmNobVk2RnBZeE84MW1sb1ZXWnRNUFBZOVhfdTQ?oc=5",
-   "source_name": "كويت نيوز -",
-   "source_title": "بنك بوبيان قدم نموذجاً رقمياً مستحدثاً في رسم مستقبل عالم التوظيف باستخدام تقنيات AI",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE01cEhSWmJnWVVqaDcwV3JwanllYkhOOERPeENoVFJiNmNobVk2RnBZeE84MW1sb1ZXWnRNUFBZOVhfdTQ?oc=5",
-     "name": "كويت نيوز -"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T18:13:45+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "d753fdaac27f",
-   "bank_id": "boubyan",
-   "country": "KW",
-   "date": "2025-09-29",
-   "title": "Boubyan Bank concludes summer AI programme for secondary school students",
-   "summary": "Boubyan Bank has completed its 'Pioneers of AI and Technology' summer programme for high school students.",
-   "category": "AI Skills & Talent",
-   "topics": [
-    "AI Skills & Talent"
-   ],
-   "tags": [
-    "Student programme",
-    "AI talent",
-    "Education"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5nYUk0ZGEweGRQTGxjMFZUY1VwQmZFaWhmWGlPTVk0WjhqMzlSaWhWSzdIZ0M2MHh2UDdFZTRRMjlSQzFa?oc=5",
-   "source_name": "كويت نيوز -",
-   "source_title": "بنك بوبيان يختتم برنامجه الصيفي \"روّاد الذكاء الاصطناعي والتكنولوجيا\" لطلاب المرحلة الثانوية",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5nYUk0ZGEweGRQTGxjMFZUY1VwQmZFaWhmWGlPTVk0WjhqMzlSaWhWSzdIZ0M2MHh2UDdFZTRRMjlSQzFa?oc=5",
-     "name": "كويت نيوز -"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T18:13:45+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "42a935d34f2a",
-   "bank_id": "bankmuscat",
-   "country": "OM",
-   "date": "2024-10-23",
-   "title": "Bank Muscat's contact center wins best AI initiative implementation award",
-   "summary": "Bank Muscat's contact center has won an award for best practices in implementing artificial intelligence initiatives.",
-   "category": "Awards & Rankings",
-   "topics": [
-    "Awards & Rankings",
-    "AI Adoption in Operations"
-   ],
-   "tags": [
-    "AI implementation",
-    "Contact center",
-    "Award"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5CRWJjRXVrSlNqeld0VjNIQU9iS1ZsbzhFX29vX21yazRkM1NSb0dTbUxjWE54ZTBuZExEUkU5MkppbkM0WE1PbHJ0R0dhdmp2U3c?oc=5",
-   "source_name": "أثير",
-   "source_title": "مركز الاتصالات ببنك مسقط يتوّج بجائزة الأفضل في مجال تطبيق مبادرات الذكاء الاصطناعي",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5CRWJjRXVrSlNqeld0VjNIQU9iS1ZsbzhFX29vX21yazRkM1NSb0dTbUxjWE54ZTBuZExEUkU5MkppbkM0WE1PbHJ0R0dhdmp2U3c?oc=5",
-     "name": "أثير"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T18:16:46+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "3f6c32523631",
-   "bank_id": "bankmuscat",
-   "country": "OM",
-   "date": "2026-07-20",
-   "title": "Bank Muscat wins leadership award for AI-powered digital banking services",
-   "summary": "During Oman's cybersecurity conference, Bank Muscat won an award for leadership in digital banking services powered by artificial intelligence.",
-   "category": "Awards & Rankings",
-   "topics": [
-    "Awards & Rankings",
-    "Customer-Facing AI"
-   ],
-   "tags": [
-    "AI-powered banking",
-    "Digital services",
-    "Award"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9aU0JpeGxKVFg1V0hvdmlSTGk0NW5hMVBQekZRSHp3d3NiY1pmbXNkRXlVSlkzUzRZb0lLQ1hjajVSM1U?oc=5",
-   "source_name": "جريدة وجهات",
-   "source_title": "خلال مؤتمر عُمان للأمن السيبراني.. بنك مسقط يُتوّج بجائزة الريادة في الخدمات المصرفية الرقمية القائمة على الذكاء الاصطناعي",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9aU0JpeGxKVFg1V0hvdmlSTGk0NW5hMVBQekZRSHp3d3NiY1pmbXNkRXlVSlkzUzRZb0lLQ1hjajVSM1U?oc=5",
-     "name": "جريدة وجهات"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T18:16:46+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "014dc89c8051",
-   "bank_id": "sohar",
-   "country": "OM",
-   "date": "2026-08-17",
-   "title": "Sohar International and Omantel partner to develop AI, cloud and cybersecurity solutions",
-   "summary": "Sohar International has partnered with Omantel to develop AI, cloud and cybersecurity solutions together.",
-   "category": "Tech Vendor Partnerships",
-   "topics": [
-    "Tech Vendor Partnerships",
-    "AI Strategy & Leadership"
-   ],
-   "tags": [
-    "Partnership",
-    "AI Solutions",
-    "Cloud",
-    "Cybersecurity"
-   ],
-   "partners": [
-    "Omantel"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5DejFXUFdUZjRyVUQxQTFBSU16VDVXTHV6OFducHA5MnlzTXozTjJpY3V4cnZWWEVyYXotV1lmd0IxU3Zf?oc=5",
-   "source_name": "بوابة التكنولوجيا المالية",
-   "source_title": "Sohar International and Omantel Team Up to Develop AI, Cloud and Cybersecurity Solutions",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5DejFXUFdUZjRyVUQxQTFBSU16VDVXTHV6OFducHA5MnlzTXozTjJpY3V4cnZWWEVyYXotV1lmd0IxU3Zf?oc=5",
-     "name": "بوابة التكنولوجيا المالية"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T18:17:07+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "d4ee99db858a",
-   "bank_id": "nbb",
-   "country": "BH",
-   "date": "2025-10-12",
-   "title": "NBB and Bahrain FinTech Bay launch AI-focused Innovation Programme for 2025",
-   "summary": "National Bank of Bahrain and Bahrain FinTech Bay have launched an AI-focused innovation programme.",
-   "category": "AI Skills & Talent",
-   "topics": [
-    "AI Skills & Talent",
-    "Tech Vendor Partnerships"
-   ],
-   "tags": [
-    "AI innovation",
-    "AI programme"
-   ],
-   "partners": [
-    "Bahrain FinTech Bay"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcTdZQlpjZTZMMUFsX3U2UWpBOElKWnpaU01SNTdBb1hlYTRkM3dkcllWdkc4MzFsbFFkdVg0VEw1dFlwYXltSWVhV3FHQmxkUlhSOXZ1aksyMldLS044aERGcWpyUWNtQ0x3SkJDV0ZQbnV3bktMR0xuaUdHcUU4c2FFYTdCb0pzaXdORHAwUXYwLXNYTWUxcEdYY3dtcjVyRG1SaV9YWk1POTg?oc=5",
-   "source_name": "StartUp Bahrain",
-   "source_title": "NBB and Bahrain FinTech Bay launch AI-focused Innovation Programme for 2025",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcTdZQlpjZTZMMUFsX3U2UWpBOElKWnpaU01SNTdBb1hlYTRkM3dkcllWdkc4MzFsbFFkdVg0VEw1dFlwYXltSWVhV3FHQmxkUlhSOXZ1aksyMldLS044aERGcWpyUWNtQ0x3SkJDV0ZQbnV3bktMR0xuaUdHcUU4c2FFYTdCb0pzaXdORHAwUXYwLXNYTWUxcEdYY3dtcjVyRG1SaV9YWk1POTg?oc=5",
-     "name": "StartUp Bahrain"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T18:19:24+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "3541501d1a40",
-   "bank_id": "bankabc",
-   "country": "BH",
-   "date": "2025-10-22",
-   "title": "Bank ABC's AI-powered assistant Fatema wins Best Virtual Assistant award in Middle East",
-   "summary": "Bank ABC's AI-supported employee assistant named Fatema has won the award for Best Virtual Assistant in the Middle East for 2025.",
-   "category": "Awards & Rankings",
-   "topics": [
-    "Awards & Rankings",
-    "Customer-Facing AI"
-   ],
-   "tags": [
-    "Virtual Assistant",
-    "GenAI",
-    "Awards"
-   ],
-   "partners": [],
-   "impact": "Best Virtual Assistant in Middle East 2025",
-   "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvOWo0QkZoQVc3MHpVNWFVXzJMVXB2cFNwWnN4T0hvbFRpYy11dDJiZWc2dkhYbHhHQmRjT2Y4R2pCQWFmWjE3VVZ2T2hqcW0xOGxScGNrNDhFVkI0dDBibHR0WDAxakx4Rm9RSVY1TEQ?oc=5",
-   "source_name": "جريدة البلاد",
-   "source_title": "موظفة بنك ABC المدعومة بالذكاء الاصطناعي \"فاطمة\" تحصد جائزة \"أفضل مساعد افتراضي في منطقة الشرق الأوسط\" لعام 2025",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvOWo0QkZoQVc3MHpVNWFVXzJMVXB2cFNwWnN4T0hvbFRpYy11dDJiZWc2dkhYbHhHQmRjT2Y4R2pCQWFmWjE3VVZ2T2hqcW0xOGxScGNrNDhFVkI0dDBibHR0WDAxakx4Rm9RSVY1TEQ?oc=5",
-     "name": "جريدة البلاد"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T18:20:27+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "46af32902dec",
-   "bank_id": "sama",
-   "country": "SA",
-   "date": "2026-02-09",
-   "title": "Saudi Central Bank: AI use boosted financial business volume by 50%",
-   "summary": "The Saudi Central Bank reports that artificial intelligence adoption has increased financial business volume by 50 percent.",
-   "category": "AI Adoption in Operations",
-   "topics": [
-    "AI Adoption in Operations",
-    "AI Regulation & Policy"
-   ],
-   "tags": [
-    "AI adoption",
-    "Financial services",
-    "Regulatory insight"
-   ],
-   "partners": [],
-   "impact": "50% increase in financial business volume",
-   "source_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBaWm0xSXBSUXFKUTJFWGdIaG1yQzFLTHJMNjhyTjVxeWtmX0tyZk9oNUY0bkd0cVFxSDd1WndocEFGc3dPbUxvX1FMZmx6OTlseDZ4YVlDQW5sOWg2clRGWkVkVjBCYzhUc2FOcEZHOHQ?oc=5",
-   "source_name": "جريدة البلاد",
-   "source_title": "“المركزي” السعودي: استخدام الذكاء الاصطناعي عزز حجم الأعمال المالية 50 %",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBaWm0xSXBSUXFKUTJFWGdIaG1yQzFLTHJMNjhyTjVxeWtmX0tyZk9oNUY0bkd0cVFxSDd1WndocEFGc3dPbUxvX1FMZmx6OTlseDZ4YVlDQW5sOWg2clRGWkVkVjBCYzhUc2FOcEZHOHQ?oc=5",
-     "name": "جريدة البلاد"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T20:19:46+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "cf598d2a9d9f",
-   "bank_id": "boubyan",
-   "country": "KW",
-   "date": "2025-07-08",
-   "title": "Boubyan launches summer 'AI and Technology Pioneers' programme",
-   "summary": "Boubyan Bank has launched a summer programme called 'AI and Technology Pioneers' focused on developing AI talent.",
-   "category": "AI Skills & Talent",
-   "topics": [
-    "AI Skills & Talent"
-   ],
-   "tags": [
-    "Training",
-    "Talent development",
-    "Summer programme"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jRFJiZ3l3QWNfOTM2X1diN081Ui03UWwyU0RFTTNZQWtjd2VSRllXa0RBeVhTSFgyMTR2djhkTzBES0tzVkd2dVBOTk85SXhC0gFWQVVfeXFMT0w3QnVrU3JpR19FdENnRFZTOEZ6Y0JtZ0hrTnlkTXNNSlJFNnUyZFJRNkVRLW1NTWo2dTRGN21CTURMZ1RpUHpVRG9rV0hyNVVFZTBWQmc?oc=5",
-   "source_name": "جريدة الجريدة الكويتية",
-   "source_title": "«بوبيان» أطلق برنامجه الصيفي «روّاد الذكاء الاصطناعي والتكنولوجيا»",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jRFJiZ3l3QWNfOTM2X1diN081Ui03UWwyU0RFTTNZQWtjd2VSRllXa0RBeVhTSFgyMTR2djhkTzBES0tzVkd2dVBOTk85SXhC0gFWQVVfeXFMT0w3QnVrU3JpR19FdENnRFZTOEZ6Y0JtZ0hrTnlkTXNNSlJFNnUyZFJRNkVRLW1NTWo2dTRGN21CTURMZ1RpUHpVRG9rV0hyNVVFZTBWQmc?oc=5",
-     "name": "جريدة الجريدة الكويتية"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T20:21:39+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "5dc4e31fd7a4",
-   "bank_id": "boubyan",
-   "country": "KW",
-   "date": "2026-02-18",
-   "title": "Boubyan organises AI content creation hackathon",
-   "summary": "Boubyan Bank is hosting a hackathon focused on AI-powered content creation.",
-   "category": "AI Skills & Talent",
-   "topics": [
-    "AI Skills & Talent",
-    "Generative AI & Copilots"
-   ],
-   "tags": [
-    "Hackathon",
-    "GenAI",
-    "Content creation"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qN05RNnZUbUU3QjNCdjFRTThkN1pnOUNoSnZIWk9HVGt6MFdFR2hUdjZMV21qOFNoQnhLQTZDTEUzcDhtbHQ3RHFXbTBxNHZE0gFWQVVfeXFMTWx1Q3pEWjRsSVZCdFlpTm53MmJRMlV5RDRSeEJzREFTMEI5Q0ZTSUU3MDU5RlE3bE5YTnZWYmxLUlVFVzh6dFExa0JiVU5TSWFyMnVZbHc?oc=5",
-   "source_name": "جريدة الجريدة الكويتية",
-   "source_title": "«بوبيان» ينظم «هاكاثون صناعة المحتوى بالـ AI»",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qN05RNnZUbUU3QjNCdjFRTThkN1pnOUNoSnZIWk9HVGt6MFdFR2hUdjZMV21qOFNoQnhLQTZDTEUzcDhtbHQ3RHFXbTBxNHZE0gFWQVVfeXFMTWx1Q3pEWjRsSVZCdFlpTm53MmJRMlV5RDRSeEJzREFTMEI5Q0ZTSUU3MDU5RlE3bE5YTnZWYmxLUlVFVzh6dFExa0JiVU5TSWFyMnVZbHc?oc=5",
-     "name": "جريدة الجريدة الكويتية"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T20:21:39+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "cdadee0a1615",
-   "bank_id": "boubyan",
-   "country": "KW",
-   "date": "2026-06-20",
-   "title": "Boubyan announces institutional AI transformation",
-   "summary": "Boubyan Bank has announced an organizational transformation centred on artificial intelligence.",
-   "category": "AI Strategy & Leadership",
-   "topics": [
-    "AI Strategy & Leadership",
-    "AI Adoption in Operations"
-   ],
-   "tags": [
-    "AI strategy",
-    "Digital transformation",
-    "Institutional"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5JLUVBbWNodFJBTUFPQjNBYlhPNm1odWNoXzdYTlFjZ2FFTGxlWDVkTTU4Zlg2RHcxeFlLN045WnlXR3N4RThPX2xpU0Q4UW830gFWQVVfeXFMTkFYbi0yenY1ZzZ2b2pGWEtYZHY1QWQxYXlLVEl1MjNoLVlRN2hyN0xfbmxsYmczMWVhQUluazNHbVplclBTZU5yMTZtTXAwNDBTMy1QLVE?oc=5",
-   "source_name": "جريدة الجريدة الكويتية",
-   "source_title": "«بوبيان» يعلن تحوله المؤسسي في الذكاء الاصطناعي",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5JLUVBbWNodFJBTUFPQjNBYlhPNm1odWNoXzdYTlFjZ2FFTGxlWDVkTTU4Zlg2RHcxeFlLN045WnlXR3N4RThPX2xpU0Q4UW830gFWQVVfeXFMTkFYbi0yenY1ZzZ2b2pGWEtYZHY1QWQxYXlLVEl1MjNoLVlRN2hyN0xfbmxsYmczMWVhQUluazNHbVplclBTZU5yMTZtTXAwNDBTMy1QLVE?oc=5",
-     "name": "جريدة الجريدة الكويتية"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T20:21:39+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "3deed8a0d244",
-   "bank_id": "warba",
-   "country": "KW",
-   "date": "2025-11-18",
-   "title": "«وربة» راعٍ ماسي ل «3 Breaking Barriers» حول الذكاء الاصطناعي و«العاطفي»",
-   "summary": "Warba Bank is sponsoring a conference focused on artificial intelligence and emotional intelligence.",
-   "category": "AI Strategy & Leadership",
-   "topics": [
-    "AI Strategy & Leadership"
-   ],
-   "tags": [
-    "AI",
-    "Conference"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9QOG1zS043c0hQblpQRTYxSmpKUGFEUGhuZUVRMVFWU1NWSjhDUWlnNVA1akdqR3RrbFlCNWJqbGQ3M0h4MEo0WXlCMDdXZzB50gFWQVVfeXFMTmY3OXU0SEpGS2FPaEQwUTU5UWh5ZUZrQmtTZEZjN2VyTEQ5ckpBazU0TzcxUzNGVXZDSFFQTk85ZHI1bFhDc3VsRjFMNGF2YzhiN3lCUVE?oc=5",
-   "source_name": "جريدة الجريدة الكويتية",
-   "source_title": "«وربة» راعٍ ماسي ل «3 Breaking Barriers» حول الذكاء الاصطناعي و«العاطفي»",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9QOG1zS043c0hQblpQRTYxSmpKUGFEUGhuZUVRMVFWU1NWSjhDUWlnNVA1akdqR3RrbFlCNWJqbGQ3M0h4MEo0WXlCMDdXZzB50gFWQVVfeXFMTmY3OXU0SEpGS2FPaEQwUTU5UWh5ZUZrQmtTZEZjN2VyTEQ5ckpBazU0TzcxUzNGVXZDSFFQTk85ZHI1bFhDc3VsRjFMNGF2YzhiN3lCUVE?oc=5",
-     "name": "جريدة الجريدة الكويتية"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T20:22:47+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "0cd4bd1572b8",
-   "bank_id": "warba",
-   "country": "KW",
-   "date": "2026-08-03",
-   "title": "Warba Bank launches world's first banking voice agentic AI via mobile app",
-   "summary": "Warba Bank has launched the world's first banking voice agentic AI platform accessible through its mobile application.",
-   "category": "Generative AI & Copilots",
-   "topics": [
-    "Generative AI & Copilots",
-    "Customer-Facing AI"
-   ],
-   "tags": [
-    "Agentic AI",
-    "Voice AI",
-    "Chatbot"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LQTVzT3A5eHJ0VlkyRVFsTk9KdVgzQ05RTVRpczF4WUlqMGVUZnNRaUpDb1JMZlpjd0NxbTlWb05BSlREWjhvLVZGNHQ5VEZJ0gFWQVVfeXFMTkd0eUJuYzVjNUJ4cEtPNlQyblpaNzl0Q285UlFLZk1zaFV6R2R0MG9uR0lnUlQxUmNyaEc2eTVyd2VSSWtBcTNwX1RhZ3dPc0dtV3NGVEE?oc=5",
-   "source_name": "جريدة الجريدة الكويتية",
-   "source_title": "«وربة» يدشن أول Agentic AI مصرفي صوتي في العالم عبر التطبيق",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LQTVzT3A5eHJ0VlkyRVFsTk9KdVgzQ05RTVRpczF4WUlqMGVUZnNRaUpDb1JMZlpjd0NxbTlWb05BSlREWjhvLVZGNHQ5VEZJ0gFWQVVfeXFMTkd0eUJuYzVjNUJ4cEtPNlQyblpaNzl0Q285UlFLZk1zaFV6R2R0MG9uR0lnUlQxUmNyaEc2eTVyd2VSSWtBcTNwX1RhZ3dPc0dtV3NGVEE?oc=5",
-     "name": "جريدة الجريدة الكويتية"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T20:22:47+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "44b7be5fb762",
-   "bank_id": "warba",
-   "country": "KW",
-   "date": "2026-09-01",
-   "title": "Warba Bank invites participation in AI challenge for corporate banking services",
-   "summary": "Warba Bank is launching an AI challenge focused on artificial intelligence applications for corporate banking services.",
-   "category": "AI Skills & Talent",
-   "topics": [
-    "AI Skills & Talent"
-   ],
-   "tags": [
-    "AI challenge",
-    "Innovation"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0yR2ozMDJtYkZVOF9sVDRueG9hSzdvQzMtQWhDRFMwVFhDYXgyZkZ0X1ZRUWR2Ujd1NWpSVVZXYWcwbnhXNWVGRkEtZHB2WDhz0gFWQVVfeXFMTXBEOFBtZk8ycGxiMkZ1aGFCU2NDQmdScklLMGoxR19JOC1jSm9yRFFhc0czMjVSczV2dnA4Y2hLcjlwVFFGMkVOSGx4bmpLcVNCNHpXQlE?oc=5",
-   "source_name": "جريدة الجريدة الكويتية",
-   "source_title": "«وربة» يدعو إلى المشاركة في تحدي الذكاء الاصطناعي للخدمات المصرفية للشركات",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0yR2ozMDJtYkZVOF9sVDRueG9hSzdvQzMtQWhDRFMwVFhDYXgyZkZ0X1ZRUWR2Ujd1NWpSVVZXYWcwbnhXNWVGRkEtZHB2WDhz0gFWQVVfeXFMTXBEOFBtZk8ycGxiMkZ1aGFCU2NDQmdScklLMGoxR19JOC1jSm9yRFFhc0czMjVSczV2dnA4Y2hLcjlwVFFGMkVOSGx4bmpLcVNCNHpXQlE?oc=5",
-     "name": "جريدة الجريدة الكويتية"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T20:22:47+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "c1f8395847c5",
-   "bank_id": "bisb",
-   "country": "BH",
-   "date": "2024-12-08",
-   "title": "Bahrain Islamic Bank becomes first Bahraini bank to obtain AI governance certification",
-   "summary": "Bahrain Islamic Bank has received a certification for AI governance, making it the first Bahraini bank to achieve this credential.",
-   "category": "Fraud, Risk & Compliance",
-   "topics": [
-    "Fraud, Risk & Compliance",
-    "AI Strategy & Leadership"
-   ],
-   "tags": [
-    "AI governance",
-    "Certification",
-    "Compliance"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMiqgRBVV95cUxPZXg4bGowdFJOMU1MeWppVDVwRmpzLXhiWmk4VnpLT3RqanVDQ1B5TUt6bnBWNUVyVEVnVWI2aFNGRlA5dG5tYXQ2U25GMC1YWGxnWnQ0SUFwOGlxTkl2aGdiZFBUZGtQOG8wU2xNTnpQR0pLek1JZ1Npckw1Wl9meDNpd2p4dm1IaVQ5aFZJN1RMWmh0Ul9yNTNlZWIyX050ZVhCT1ROMEJsNVZjQm9EdGJWNWdVT19wbmtzdXRKRTlRTWplTXVrTjBZaXpTX3ZXTjBsYWpYZ2NnRE5MQ0FUN2szNVNCVUhwa2pnLWhQX0Z5N1pZOG9xSWpaVV8xZklZS2h6cTByN0xLNHpPeExxXzJLN2F0bDlWVDdvNV9GdnY3RVJycDJYRXhkU1hCQ2plU2pxdW1GYmJBQk5YNDcxbmRqMWRnWHFkX2ZHVHhUS1NFSzdScmtScTZuSG5xdzFvLUFBaGdnZlpObVFWUlRpLWU0UmZvdnFrVVJnbFdsMVI5QklPSm1WMnJxdjZEcnFUODhXUW83c195OHk1UUpkLU4xNUlwM3BWZ3FrUlh2QTVxSXNLOWp6TWVlYzZxYzlycUtvU3ExQWRwQTc0dzE1b2hsVEx5YjlJbVRwVVpranB0b2RXbTZsYlpWMXNhNjEyQXoxb2JwMmFnaXdNOHZEamNaVVUwb0FyaHpLNzN6eEZuanJXeEFRb3dRelotNXpPV25RTUt0aDNhd9IBVEFVX3lxTE5JME84UlAxMDBMOENuVk4xcHB2dU5LdEJ3Ykw2LV84UmpnMFJWTDcwNERjLVp4eERSTVJweVU2QUxKYk9jMXZoM0lCeGRkWjRBZFVldg?oc=5",
-   "source_name": "alwatannews.net",
-   "source_title": "البحرين الإسلامي أول بنك بحريني ينال شهادة حوكمة الذكاء الاصطناعي",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiqgRBVV95cUxPZXg4bGowdFJOMU1MeWppVDVwRmpzLXhiWmk4VnpLT3RqanVDQ1B5TUt6bnBWNUVyVEVnVWI2aFNGRlA5dG5tYXQ2U25GMC1YWGxnWnQ0SUFwOGlxTkl2aGdiZFBUZGtQOG8wU2xNTnpQR0pLek1JZ1Npckw1Wl9meDNpd2p4dm1IaVQ5aFZJN1RMWmh0Ul9yNTNlZWIyX050ZVhCT1ROMEJsNVZjQm9EdGJWNWdVT19wbmtzdXRKRTlRTWplTXVrTjBZaXpTX3ZXTjBsYWpYZ2NnRE5MQ0FUN2szNVNCVUhwa2pnLWhQX0Z5N1pZOG9xSWpaVV8xZklZS2h6cTByN0xLNHpPeExxXzJLN2F0bDlWVDdvNV9GdnY3RVJycDJYRXhkU1hCQ2plU2pxdW1GYmJBQk5YNDcxbmRqMWRnWHFkX2ZHVHhUS1NFSzdScmtScTZuSG5xdzFvLUFBaGdnZlpObVFWUlRpLWU0UmZvdnFrVVJnbFdsMVI5QklPSm1WMnJxdjZEcnFUODhXUW83c195OHk1UUpkLU4xNUlwM3BWZ3FrUlh2QTVxSXNLOWp6TWVlYzZxYzlycUtvU3ExQWRwQTc0dzE1b2hsVEx5YjlJbVRwVVpranB0b2RXbTZsYlpWMXNhNjEyQXoxb2JwMmFnaXdNOHZEamNaVVUwb0FyaHpLNzN6eEZuanJXeEFRb3dRelotNXpPV25RTUt0aDNhd9IBVEFVX3lxTE5JME84UlAxMDBMOENuVk4xcHB2dU5LdEJ3Ykw2LV84UmpnMFJWTDcwNERjLVp4eERSTVJweVU2QUxKYk9jMXZoM0lCeGRkWjRBZFVldg?oc=5",
-     "name": "alwatannews.net"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T20:23:54+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
    "id": "11824d944955",
    "bank_id": "nbb",
    "country": "BH",
@@ -3293,42 +2043,42 @@
  "retry": [],
  "newsrooms": {
   "rakbank": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "adcb": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "mashreq": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "sib": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "ei": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "bos": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "enbd": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "investbank": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
@@ -3337,7 +2087,7 @@
    "url": "https://www.dib.ae/about-us/media-centre",
    "status": "ok",
    "links": 19,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "7064b8031185",
     "4fbec03647b0",
@@ -3365,7 +2115,7 @@
    "url": "https://www.cbd.ae/aboutus/media-centre/press-room/news/id/3c0f77ff-458f-66de-b8c5-ff0b00b6b24a",
    "status": "ok",
    "links": 4,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "f570533b4965",
     "211356b61edf",
@@ -3374,42 +2124,42 @@
    ]
   },
   "nbf": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "edb": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "cbuae": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "wio": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "adib": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "alrajhi": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "snb": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "ajman": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
@@ -3418,7 +2168,7 @@
    "url": "https://www.zand.ae/en/news",
    "status": "ok",
    "links": 29,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "beb166c6b910",
     "837760b162de",
@@ -3452,42 +2202,42 @@
    ]
   },
   "aljazira": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "sab": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "anb": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "gibsa": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "bsf": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "d360": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "fab": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "visionbank": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
@@ -3496,7 +2246,7 @@
    "status": "unreachable (HTTPError)"
   },
   "saib": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
@@ -3505,7 +2255,7 @@
    "url": "https://www.alinma.com/About-the-Bank/The-Bank/News",
    "status": "ok",
    "links": 30,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "0aacda7e2687",
     "9add22e1c8ec",
@@ -3544,7 +2294,7 @@
    "url": "https://www.alrayan.com/en/press-release",
    "status": "ok",
    "links": 3,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "1722b361feb0",
     "8eea57958b29",
@@ -3552,17 +2302,17 @@
    ]
   },
   "dohabank": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "sama": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "cbq": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
@@ -3571,7 +2321,7 @@
    "url": "https://www.dukhanbank.com/media-center/press-release",
    "status": "ok",
    "links": 29,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "fe0fc0810447",
     "a8e106894c28",
@@ -3605,12 +2355,12 @@
    ]
   },
   "albilad": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "qdb": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
@@ -3619,7 +2369,7 @@
    "url": "https://www.uab.ae/en/media-center/awards",
    "status": "ok",
    "links": 15,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "4465122501be",
     "6dba8d618990",
@@ -3639,7 +2389,7 @@
    ]
   },
   "qcb": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
@@ -3648,7 +2398,7 @@
    "url": "https://www.qiib.com.qa/Press/List/Announcements",
    "status": "ok",
    "links": 5,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "452f6107a821",
     "98394071c36b",
@@ -3660,10 +2410,11 @@
   "riyad": {
    "checked": "2026-10-06",
    "url": "https://www.riyadbank.com/personal-banking/media-center?p_p_id=com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath=%2Fdisplay_article.jsp&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId=6385919&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_shareURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fdisplay_article.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId%3D6385919%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL%3Dhttps%253A%252F%252Fwww.riyadbank.com%252Fpersonal-banking%252Fmedia-center%253Fp_p_id%253Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%2526p_p_lifecycle%253D0%2526p_p_state%253Dnormal%2526p_p_mode%253Dview%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%253D%25252Fview.jsp%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%253D2%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%253D10&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fview.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%3D2%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%3D10",
-   "status": "unreachable (IncompleteRead)",
+   "status": "ok",
    "links": 11,
-   "scanned": "2026-10-21",
+   "scanned": "2026-10-27",
    "known": [
+    "08694c1b0166",
     "aa5cf1170494",
     "8d3496c4d214",
     "21f738a26df4",
@@ -3673,12 +2424,11 @@
     "f71519d2d775",
     "372d8b26d610",
     "18c6e3fbfa5d",
-    "4944d757420c",
     "df057a63f7ac"
    ]
   },
   "qib": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
@@ -3687,7 +2437,7 @@
    "url": "https://www.leshabank.com/media-center/news/",
    "status": "ok",
    "links": 6,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "587062ba5695",
     "dcf757b11209",
@@ -3698,7 +2448,7 @@
    ]
   },
   "boubyan": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
@@ -3707,7 +2457,7 @@
    "url": "https://www.ahlibank.com.qa/en/media-center/news-press-releases",
    "status": "ok",
    "links": 24,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "e9793b0023c9",
     "087038c6dfe6",
@@ -3740,23 +2490,23 @@
    "url": "https://www.kfh.com/home/Personal/news.html",
    "status": "ok",
    "links": 15,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
+    "f7ac64eecbdc",
     "5295ec47d19a",
     "6f0f709ea7c7",
     "5b476dff9104",
     "882c184db046",
     "3ba9805d68e8",
     "0db97da1ee51",
-    "50b8807e44ab",
     "193256151cc6",
+    "50b8807e44ab",
     "be16840cf616",
     "083add66e64f",
     "008bfa75ddda",
     "7ee98a0ba515",
     "25f3f42aefbd",
-    "0c9fb2af54b5",
-    "7b80d2c3cb92"
+    "0c9fb2af54b5"
    ]
   },
   "warba": {
@@ -3764,7 +2514,7 @@
    "url": "https://www.warbabank.com/english/news",
    "status": "ok",
    "links": 12,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "ec83442c9236",
     "26d158b4eb89",
@@ -3781,12 +2531,12 @@
    ]
   },
   "kib": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "cbkw": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
@@ -3795,7 +2545,7 @@
    "url": "https://www.cbk.com/Media-Library/Press-Releases",
    "status": "ok",
    "links": 99,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "68128689ff9e",
     "2db9601b061a",
@@ -3903,7 +2653,7 @@
    "url": "https://www.e-gulfbank.com/en/about-us/media/press-releases/",
    "status": "ok",
    "links": 7,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "1974d5ec2715",
     "3438add427f2",
@@ -3915,42 +2665,42 @@
    ]
   },
   "sohar": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "bankdhofar": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "ibk": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "bankmuscat": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "burgan": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "nizwa": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "cbo": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "abk": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
@@ -3959,7 +2709,7 @@
    "url": "https://www.nbk.com/news-and-insights/Media-Relations.html",
    "status": "ok",
    "links": 5,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "52da315c2d2f",
     "610cdb1a375d",
@@ -3969,37 +2719,37 @@
    ]
   },
   "oab": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "gib": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "stcbank": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "bankabc": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "khcb": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "gfh": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "aub": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
@@ -4008,7 +2758,7 @@
    "url": "https://www.nbo.om/en/Pages/News/Home.aspx",
    "status": "ok",
    "links": 57,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "1ce4089663e9",
     "d644291877af",
@@ -4074,7 +2824,7 @@
    "url": "https://www.alsalambank.com/press-releases/",
    "status": "ok",
    "links": 8,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "9e911d371be5",
     "89d8c7914ac7",
@@ -4087,12 +2837,12 @@
    ]
   },
   "cbb": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
   "bbk": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
@@ -4101,7 +2851,7 @@
    "url": "https://nbbonline.com/about/news/",
    "status": "ok",
    "links": 16,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "245733299cbb",
     "9e9ed4ac8849",
@@ -4122,7 +2872,7 @@
    ]
   },
   "bisb": {
-   "checked": "2026-10-26",
+   "checked": "2026-10-27",
    "url": null,
    "status": "not found"
   },
@@ -4131,7 +2881,7 @@
    "url": "https://ahlibank.om/Ahlibank/news/",
    "status": "ok",
    "links": 9,
-   "scanned": "2026-10-26",
+   "scanned": "2026-10-27",
    "known": [
     "af5f08321e09",
     "0611da646956",
@@ -5296,152 +4046,6 @@
  },
  "sector_known": {},
  "sector_pending": [
-  {
-   "id": "56e739709948",
-   "date": "2025-11-30",
-   "category": "Studies & Surveys",
-   "publisher": "",
-   "countries": [
-    "KW"
-   ],
-   "title": "Artificial intelligence in banks has become part of our daily lives, study finds",
-   "summary": "A study found that artificial intelligence in Kuwaiti banks has become integrated into daily life. The research shows widespread AI adoption in Kuwait's financial sector.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9JNFYxT3Jxem9qVGFWRVNQMFJoMG5CalJXVWV5OExwdTdoTWJlZWxCUUxBSVB0UVdsNnRuRVg3ZFQzMEhfVnpaSkJjRWVBekNR0gFWQVVfeXFMT2hrX0xra0dQM1h1cWhqeV9ZTFFNTHFTWXZYYjFoenNnOWYtZldwNXpXVUlwZW9sdTdWNFVmZkFRQUI2bm12VkNHWDY0RXJNZkpJT2ZOSWc?oc=5",
-   "source_name": "جريدة الجريدة الكويتية",
-   "source_title": "دراسة: «بوبيان»: الذكاء الاصطناعي في البنوك بات جزءاً من حياتنا اليومية",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9JNFYxT3Jxem9qVGFWRVNQMFJoMG5CalJXVWV5OExwdTdoTWJlZWxCUUxBSVB0UVdsNnRuRVg3ZFQzMEhfVnpaSkJjRWVBekNR0gFWQVVfeXFMT2hrX0xra0dQM1h1cWhqeV9ZTFFNTHFTWXZYYjFoenNnOWYtZldwNXpXVUlwZW9sdTdWNFVmZkFRQUI2bm12VkNHWDY0RXJNZkpJT2ZOSWc?oc=5",
-     "name": "جريدة الجريدة الكويتية"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T20:31:11+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "31d8939d66e0",
-   "date": "2026-01-29",
-   "category": "Expert Views",
-   "publisher": "",
-   "countries": [
-    "SA"
-   ],
-   "title": "The future of Saudi banks in the context of artificial intelligence",
-   "summary": "This analysis examines the future trajectory of Saudi Arabian banks as they adopt artificial intelligence. It provides expert perspective on AI's impact on the Saudi banking sector.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQaUNvV2pwelFrWnZ5V3VRNUhwTDlFTFdnTXYzbHJaVVNTYVlrV1R5VHdaSVJvYS1Vb2t1UGw3Vy1PYlVkVFhBaEg0X0VhVUVNVkFHRjh5WjI0QUxCal9STDJkdElBZHB4bUl5aWdsUzEwOUZaV2drUzRwQjVvQ2ZwX01hM2U2NU9OQlNwTHdfVlcyQTZDcWh5dWZ2aVpialR1VDhUTGNEU1QzTkw0YUd3N19ZTFJIUWJNejVnUk8xV3YtSFIyYzRGQ3ZFWjhCZlg4cngzRmVNNUxyUzQ4NWM4S3VTOGtkTmE1cUZXNjJyeTNFdFhmWVE?oc=5",
-   "source_name": "صحيفة مال",
-   "source_title": "مستقبل البنوك السعودية في ظل الذكاء الاصطناعي",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQaUNvV2pwelFrWnZ5V3VRNUhwTDlFTFdnTXYzbHJaVVNTYVlrV1R5VHdaSVJvYS1Vb2t1UGw3Vy1PYlVkVFhBaEg0X0VhVUVNVkFHRjh5WjI0QUxCal9STDJkdElBZHB4bUl5aWdsUzEwOUZaV2drUzRwQjVvQ2ZwX01hM2U2NU9OQlNwTHdfVlcyQTZDcWh5dWZ2aVpialR1VDhUTGNEU1QzTkw0YUd3N19ZTFJIUWJNejVnUk8xV3YtSFIyYzRGQ3ZFWjhCZlg4cngzRmVNNUxyUzQ4NWM4S3VTOGtkTmE1cUZXNjJyeTNFdFhmWVE?oc=5",
-     "name": "صحيفة مال"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T20:31:11+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "5d7621595ec7",
-   "date": "2026-02-08",
-   "category": "Market Data",
-   "publisher": "Saudi Central Bank",
-   "countries": [
-    "SA"
-   ],
-   "title": "Saudi central bank reports artificial intelligence use enhanced financial business volume by 50 percent",
-   "summary": "The Saudi Central Bank reports that AI use has increased financial business volume by 50 percent. This provides quantified market data on AI's impact on the Saudi banking sector.",
-   "key_stats": [
-    {
-     "value": "50%",
-     "label": "Financial business volume increase from AI use",
-     "quote": "استخدام الذكاء الاصطناعي عزز حجم الأعمال المالية 50%"
-    }
-   ],
-   "source_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNS1hXTXJ3WXhQS1lzcGxxTkF1Z19BRU1JN01uTUhJQ2tXVHRfNDNPb3cyNWZtQWZOOUZ5XzRrc21aNE5zSVpPcFlleGIzNUpjX2dYdWlWXzl5NFlEQXhxZURidjJFQV9uYXNMWHNjdFVINkFGR1VxVmswbjRabXVGRUh3YVVLeVJQWDBUOEc3T3dvalg3YXFKUGhWaV9MVF92ZVhVWHNhRnZJTkN6am1YcVl1dVlvdnhfWXBQcmpLYmZkVWVOZzFlbTEzc2VUaWF2OW1uY1dMaHJ6S2Q3eXl3T0VCbmRVY3oyd0xZS3d6YjRtZVAtSWxVQkVrLTHSAYICQVVfeXFMUGt5Rkw1cE1qaEtmSUdhUEV4Q2NpcWE2OXdWeGt4RkxtR2tFWWRReFg1QTlFNkYyeHE1bks1eVJFMzNCNDhIWkNNRy14Z2xSdUNzV1pGai1yQ3kwRlAyM0puUm5QbUlxbEpNb1M0ZEFQd1lUdnN5ZUlUT0gtMWQ4aTh6aFhKaDJsejFwNTl1SHh5Q1hJal9fc3N2czdtNnVNS0IzMkVJY1dSZzB4bWxXcFQtYmFtc3hOZ2haWE1SZkdheWZHYmVUQ0R2c3RtOXVIYmdkaVVpMmN2d2toSXkzWFdCOTZlN2ZacjNDQjh1REhfSmpYNVYxb1ZnRklNc0FTOW53?oc=5",
-   "source_name": "العربية",
-   "source_title": "\"المركزي\" السعودي: استخدام الذكاء الاصطناعي عزز حجم الأعمال المالية 50%",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNS1hXTXJ3WXhQS1lzcGxxTkF1Z19BRU1JN01uTUhJQ2tXVHRfNDNPb3cyNWZtQWZOOUZ5XzRrc21aNE5zSVpPcFlleGIzNUpjX2dYdWlWXzl5NFlEQXhxZURidjJFQV9uYXNMWHNjdFVINkFGR1VxVmswbjRabXVGRUh3YVVLeVJQWDBUOEc3T3dvalg3YXFKUGhWaV9MVF92ZVhVWHNhRnZJTkN6am1YcVl1dVlvdnhfWXBQcmpLYmZkVWVOZzFlbTEzc2VUaWF2OW1uY1dMaHJ6S2Q3eXl3T0VCbmRVY3oyd0xZS3d6YjRtZVAtSWxVQkVrLTHSAYICQVVfeXFMUGt5Rkw1cE1qaEtmSUdhUEV4Q2NpcWE2OXdWeGt4RkxtR2tFWWRReFg1QTlFNkYyeHE1bks1eVJFMzNCNDhIWkNNRy14Z2xSdUNzV1pGai1yQ3kwRlAyM0puUm5QbUlxbEpNb1M0ZEFQd1lUdnN5ZUlUT0gtMWQ4aTh6aFhKaDJsejFwNTl1SHh5Q1hJal9fc3N2czdtNnVNS0IzMkVJY1dSZzB4bWxXcFQtYmFtc3hOZ2haWE1SZkdheWZHYmVUQ0R2c3RtOXVIYmdkaVVpMmN2d2toSXkzWFdCOTZlN2ZacjNDQjh1REhfSmpYNVYxb1ZnRklNc0FTOW53?oc=5",
-     "name": "العربية"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T20:31:11+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "853a4e32ae5c",
-   "date": "2026-03-02",
-   "category": "Market Data",
-   "publisher": "",
-   "countries": [
-    "GCC"
-   ],
-   "title": "State-run banks implement GCC AI roadmap under reform programme",
-   "summary": "State-owned banks across the GCC are rolling out a coordinated artificial intelligence roadmap as part of broader sector reforms. The initiative aims to standardize AI adoption and implementation practices across the region's banking institutions.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZENxNExKM2JUMGdRRkZMcVc5N3RyV0RIbVFnMmFlSEtYZDNmX095MEJoLV9jTGdjckNGRDFrM1loWmU1cml0VFZIdjVUT2toWk8wbU5nYXROdElXcVV2T3FWZk9zbldnYzRRQlAzZ1JFTGRIR2E0aDdvVlBIb2Q0N0tBbnVrNUtXNncyT1dVMS05X2otdTRkcl9xSlVncW5rU2d1LXc1RVFWQVBWNHREZ3NUUnU4OFVGdlpQMFZ4b3VmWWUwN29KZHZ3ajFNX1JRNWJZLTk0QUFWVTdJSUp1dnVkbTVWQ01Q0gHuAUFVX3lxTFB1ZVRtUXRkTGNEQkpOa3JCa2RCRzA5MVJiYlhLOTBZREhlUjlTRjgxM3lxTVZTU2JoZWJUWVBZOVZIS2l6WEMtTWt2YmJFLVBGaEc4b1RsYmd6YmIwV1RLVFBOaUpNNDNpNmxDMm5BQVB6eFRSbFNCU28wT3M1TURXdzg2WVp4d2RnN2tWSFBlaWxMdjV0OFYxRmNMNTdjQjVaUmdvcXVieDNxalpFWW1VbDg1OUFRM01rbmhxWTdNOUpTTmhMYm1sTUR5bG9XSWpvOE1UcXN2NG5URHM4ektveXV6cG9MTENBaGd6OGc?oc=5",
-   "source_name": "The Economic Times",
-   "source_title": "State-run banks rolling out GCC, AI road map under EASE 9.0 reforms",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZENxNExKM2JUMGdRRkZMcVc5N3RyV0RIbVFnMmFlSEtYZDNmX095MEJoLV9jTGdjckNGRDFrM1loWmU1cml0VFZIdjVUT2toWk8wbU5nYXROdElXcVV2T3FWZk9zbldnYzRRQlAzZ1JFTGRIR2E0aDdvVlBIb2Q0N0tBbnVrNUtXNncyT1dVMS05X2otdTRkcl9xSlVncW5rU2d1LXc1RVFWQVBWNHREZ3NUUnU4OFVGdlpQMFZ4b3VmWWUwN29KZHZ3ajFNX1JRNWJZLTk0QUFWVTdJSUp1dnVkbTVWQ01Q0gHuAUFVX3lxTFB1ZVRtUXRkTGNEQkpOa3JCa2RCRzA5MVJiYlhLOTBZREhlUjlTRjgxM3lxTVZTU2JoZWJUWVBZOVZIS2l6WEMtTWt2YmJFLVBGaEc4b1RsYmd6YmIwV1RLVFBOaUpNNDNpNmxDMm5BQVB6eFRSbFNCU28wT3M1TURXdzg2WVp4d2RnN2tWSFBlaWxMdjV0OFYxRmNMNTdjQjVaUmdvcXVieDNxalpFWW1VbDg1OUFRM01rbmhxWTdNOUpTTmhMYm1sTUR5bG9XSWpvOE1UcXN2NG5URHM4ektveXV6cG9MTENBaGd6OGc?oc=5",
-     "name": "The Economic Times"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-05T20:31:11+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
-  {
-   "id": "d102b9a4e96a",
-   "date": "2026-10-01",
-   "category": "Events & Initiatives",
-   "publisher": "General Council for Islamic Banks",
-   "countries": [
-    "GCC"
-   ],
-   "title": "Launch of Artificial Intelligence Initiatives by Islamic Banking Council",
-   "summary": "The General Council for Islamic Banks and the Makkah Chamber have launched their first artificial intelligence initiatives for the sector. These programmes aim to develop AI capabilities within Islamic banking institutions across the region.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9ULThlRURPc2xseFc3R2lpUWlRVHBvVWNnb0lhUGRJRzVGZW84R2ZKbkJ0Sl9Eb1ZOREVrRGcwTQ?oc=5",
-   "source_name": "mz-mz.net",
-   "source_title": "المجلس العام للبنوك الإسلامية وغرفة مكة يطلقان أولى مبادراتهما في الذكاء الاصطناعي",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9ULThlRURPc2xseFc3R2lpUWlRVHBvVWNnb0lhUGRJRzVGZW84R2ZKbkJ0Sl9Eb1ZOREVrRGcwTQ?oc=5",
-     "name": "mz-mz.net"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T21:31:37+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   }
-  },
   {
    "id": "3a28d82232fd",
    "date": "2025-10-06",
