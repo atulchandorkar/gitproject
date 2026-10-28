@@ -1,6 +1,192 @@
 {
- "updated_at": "2026-10-27T04:22:29+00:00",
+ "updated_at": "2026-10-28T03:02:06+00:00",
  "items": [
+  {
+   "id": "4f60d3324680",
+   "date": "2026-10-28",
+   "category": "Case Studies & Use Cases",
+   "publisher": "EY",
+   "countries": [
+    "Global"
+   ],
+   "title": "How AI can scale public sector banks for a US$32 trillion India",
+   "summary": "EY analysis examines how AI can help public sector banks scale operations to support India's large economy through enhanced capabilities and reach.",
+   "key_stats": [
+    {
+     "value": "US$32 trillion",
+     "label": "India economy size",
+     "quote": "US$32 trillion India"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYUNQSTFmZGUzRWstNGVBNk1zUkFhX1lMWkt2LUxsd21vMjBTUzYwS3ltclp6aF9lM1hHQ1hnV00tSEkxejNMRmFMeGlvSzV0eHU5bEl0dmoxMkIzd3NsVXJRXzVjTjN5bm1VNzRuRElZVHF2ZlVzU2pHcGRGZUFqcU83MDE1c1hzdnN4THFSV0VmRGw3d0JDQnJOeWFfV25YNFE?oc=5",
+   "source_name": "EY",
+   "source_title": "How AI can scale public sector banks for a US$32 trillion India",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYUNQSTFmZGUzRWstNGVBNk1zUkFhX1lMWkt2LUxsd21vMjBTUzYwS3ltclp6aF9lM1hHQ1hnV00tSEkxejNMRmFMeGlvSzV0eHU5bEl0dmoxMkIzd3NsVXJRXzVjTjN5bm1VNzRuRElZVHF2ZlVzU2pHcGRGZUFqcU83MDE1c1hzdnN4THFSV0VmRGw3d0JDQnJOeWFfV25YNFE?oc=5",
+     "name": "EY"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-28T03:01:35+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-28"
+   },
+   "pdf_checked": "2026-10-28"
+  },
+  {
+   "id": "9693a269ddc7",
+   "date": "2026-10-26",
+   "category": "Regulation & Guidance",
+   "publisher": "Bank of England",
+   "countries": [
+    "Global"
+   ],
+   "title": "Artificial intelligence in UK financial services",
+   "summary": "The Bank of England published an official report on artificial intelligence in UK financial services. The report addresses regulatory frameworks and industry practices for AI deployment.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQUpfejFXT1hGLXJzVExZWWNJM1lFSHVJaEFnZE9rQlN5OXppd2x2ZmRmTDUzTFVBakoyTkNULWU0U3o4TkZBbnZsdnNXNVcwNEJIQ2VheWRpUzduQTNRb2hLdUpOSllQNDhoVl95bmNZSEh2YVBxMk9aQUt2djVBeXhBT0o0UExVV2daMll0MUJEQ1EzdThMQTNRbkxMdw?oc=5",
+   "source_name": "Bank of England",
+   "source_title": "Artificial intelligence in UK financial services - 2026",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQUpfejFXT1hGLXJzVExZWWNJM1lFSHVJaEFnZE9rQlN5OXppd2x2ZmRmTDUzTFVBakoyTkNULWU0U3o4TkZBbnZsdnNXNVcwNEJIQ2VheWRpUzduQTNRb2hLdUpOSllQNDhoVl95bmNZSEh2YVBxMk9aQUt2djVBeXhBT0o0UExVV2daMll0MUJEQ1EzdThMQTNRbkxMdw?oc=5",
+     "name": "Bank of England"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-28T03:01:35+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-28"
+   },
+   "pdf_checked": "2026-10-28"
+  },
+  {
+   "id": "67a1f1b57566",
+   "date": "2026-10-26",
+   "category": "Expert Views",
+   "publisher": "McKinsey & Company",
+   "countries": [
+    "Global"
+   ],
+   "title": "Agentic AI in transaction monitoring: How banks can scale AI in compliance",
+   "summary": "McKinsey & Company analysis explores how banks can deploy agentic AI for compliance and transaction monitoring. The guidance addresses scaling autonomous AI agents in regulatory functions.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYkZ0V0g0VktzQkZZVEw4cGs5MlItMVRxU29Ham1iZnRRV01nTDlSNEtyQkh4UWFubVdhNDdveEdwVTdqcEd2a3RvU2lhOHlTUkJUTWkxVmRzZWJla1dVTDFPd1p2RGNxdjhYeDR4RUpNMEotRWE0dzF3SklIcGh4THNXRlV4b0FTa19UX2hmWElPY1ZRQUdBTmlpeER6RjJuWVZSR2R0VnprU3FrX01SUWJpc3I5V2lIY0dEMTdtbHMxaG8ySHFwaE1hb1hkNEVVQ2lJd1UxRkpZQlM3?oc=5",
+   "source_name": "McKinsey & Company",
+   "source_title": "Agentic AI in transaction monitoring: How banks can scale AI in compliance",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYkZ0V0g0VktzQkZZVEw4cGs5MlItMVRxU29Ham1iZnRRV01nTDlSNEtyQkh4UWFubVdhNDdveEdwVTdqcEd2a3RvU2lhOHlTUkJUTWkxVmRzZWJla1dVTDFPd1p2RGNxdjhYeDR4RUpNMEotRWE0dzF3SklIcGh4THNXRlV4b0FTa19UX2hmWElPY1ZRQUdBTmlpeER6RjJuWVZSR2R0VnprU3FrX01SUWJpc3I5V2lIY0dEMTdtbHMxaG8ySHFwaE1hb1hkNEVVQ2lJd1UxRkpZQlM3?oc=5",
+     "name": "McKinsey & Company"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-28T03:01:35+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-28"
+   },
+   "pdf_checked": "2026-10-28"
+  },
+  {
+   "id": "60bf8016a1ba",
+   "date": "2026-10-26",
+   "category": "Expert Views",
+   "publisher": "McKinsey & Company",
+   "countries": [
+    "Global"
+   ],
+   "title": "The rise of the agentic coworker: A banking CIO's guide to the next wave of AI",
+   "summary": "McKinsey & Company provides guidance for banking CIOs on autonomous AI agents in financial services. The analysis addresses implementation and governance for agentic AI adoption.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNDE0TjhVWVJWZTZvT0tnbnB4ekdBYkFhZUxtelRRVkwtVVVpNnllOThKU3hwR214dklwMmQtODZyZ1M1d0ZHNWZtTG9OM2ZmbGZ0WTdMOUN0VW05cUxRYTN1Q3EtWTA0dHBkY0xDQkYwRFFEU0Y2VFhkVVhEY2pHQlhjNmZVeDh0UkNXcnhadU1hOS1QSENrZWtGLWRqMUhOZWZjTTFpUm5uVGI5VXdyQlFZRHUxZk5BTTZDbm1mV0RiSGNkelBxRkJkcEZXY0I1UG9GaERB?oc=5",
+   "source_name": "McKinsey & Company",
+   "source_title": "The rise of the agentic coworker: A banking CIO’s guide to the next wave of AI",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPNDE0TjhVWVJWZTZvT0tnbnB4ekdBYkFhZUxtelRRVkwtVVVpNnllOThKU3hwR214dklwMmQtODZyZ1M1d0ZHNWZtTG9OM2ZmbGZ0WTdMOUN0VW05cUxRYTN1Q3EtWTA0dHBkY0xDQkYwRFFEU0Y2VFhkVVhEY2pHQlhjNmZVeDh0UkNXcnhadU1hOS1QSENrZWtGLWRqMUhOZWZjTTFpUm5uVGI5VXdyQlFZRHUxZk5BTTZDbm1mV0RiSGNkelBxRkJkcEZXY0I1UG9GaERB?oc=5",
+     "name": "McKinsey & Company"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-28T03:01:35+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-28"
+   },
+   "pdf_checked": "2026-10-28"
+  },
+  {
+   "id": "4487e1bfbd7a",
+   "date": "2026-10-26",
+   "category": "Maturity & Rankings",
+   "publisher": "Finextra Research",
+   "countries": [
+    "Global"
+   ],
+   "title": "Which banks lead and which are falling behind in AI deployment success",
+   "summary": "Finextra Research benchmarks banks' artificial intelligence deployment performance across the sector. The study identifies which banks lead and which lag in AI adoption success.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbG9xalp3SldGZWxTNWphMW00LWFaRkEtOUxud3dqZVFGNVUzZjBIOVJCZXlMQVhaMjdhMVUxNEJnLWxJT3Bnc2dPM3V4Q3NILVVsZDlLZXV1YlRmRVZSUHhRRjUtNE1oOHZKd1pRRE1Ka0g3UEdaODlzVk9hZXB5QXk3a3RZd1BWM1BSVDlmMzFJeUN4VnB2RlJOQVQyLVhyUUhBR3FhZmR2MFNzVndBOTZINmw?oc=5",
+   "source_name": "Finextra Research",
+   "source_title": "Which banks lead and which are falling behind in AI deployment success?",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbG9xalp3SldGZWxTNWphMW00LWFaRkEtOUxud3dqZVFGNVUzZjBIOVJCZXlMQVhaMjdhMVUxNEJnLWxJT3Bnc2dPM3V4Q3NILVVsZDlLZXV1YlRmRVZSUHhRRjUtNE1oOHZKd1pRRE1Ka0g3UEdaODlzVk9hZXB5QXk3a3RZd1BWM1BSVDlmMzFJeUN4VnB2RlJOQVQyLVhyUUhBR3FhZmR2MFNzVndBOTZINmw?oc=5",
+     "name": "Finextra Research"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-28T03:01:35+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-28"
+   },
+   "pdf_checked": "2026-10-28"
+  },
+  {
+   "id": "b1772c874ea6",
+   "date": "2026-10-26",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Lloyds Banking Group Deploys Agentic AI to Boost Fraud Detection Accuracy Beyond 90%",
+   "summary": "Lloyds Banking Group deployed agentic AI for fraud detection. The deployment achieved accuracy rates above 90%.",
+   "key_stats": [
+    {
+     "value": "90%",
+     "label": "Fraud detection accuracy",
+     "quote": "Boost Fraud Detection Accuracy Beyond 90%"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQy1ma29xdFEwcHBpNVlraUhCNXhuRVRTeDRBeWR1bEFWYWdvZk1vTjU3MnI2cnlkU0hkSEVzWEQ0dXJ3UW9nb0Y5cEd0S3JMa1dJaERrc1d3YmVXbThpbTBHbnFWbTlKckVpa2JaVGFoSU5YaDFTaWVoS3RKOFVOQzVjbkRXVDhyVnVrZlJDLVdmcFNtRHZTZEZMaHhxYUFtb1Mw?oc=5",
+   "source_name": "FF News",
+   "source_title": "Lloyds Banking Group Deploys Agentic AI to Boost Fraud Detection Accuracy Beyond 90%",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQy1ma29xdFEwcHBpNVlraUhCNXhuRVRTeDRBeWR1bEFWYWdvZk1vTjU3MnI2cnlkU0hkSEVzWEQ0dXJ3UW9nb0Y5cEd0S3JMa1dJaERrc1d3YmVXbThpbTBHbnFWbTlKckVpa2JaVGFoSU5YaDFTaWVoS3RKOFVOQzVjbkRXVDhyVnVrZlJDLVdmcFNtRHZTZEZMaHhxYUFtb1Mw?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-28T03:01:35+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-28"
+   },
+   "pdf_checked": "2026-10-28"
+  },
   {
    "id": "75384f54cd77",
    "date": "2026-10-23",
@@ -5451,35 +5637,6 @@
     "checked": "2026-10-06"
    },
    "pdf_checked": "2026-10-06"
-  },
-  {
-   "id": "454760b14088",
-   "date": "2025-10-26",
-   "category": "Expert Views",
-   "publisher": "",
-   "countries": [
-    "KW"
-   ],
-   "title": "Artificial intelligence reshapes performance of Kuwaiti banks and companies",
-   "summary": "Artificial intelligence is reshaping the performance of Kuwaiti banks and companies. The technology is transforming how financial institutions operate in the Gulf region.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1uN3VSY19WSUtUR2hmeFhIWHozOGptal80VTRpZWxSLXY3bks1QXBFWmNqOWlBaTB0dVc4VU45ajBoSDRvQVg3Zw?oc=5",
-   "source_name": "جريدة الأنباء الكويتية",
-   "source_title": "«الذكاء الاصطناعي».. يعيد تشكيل أداء البنوك والشركات الكويتية",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1uN3VSY19WSUtUR2hmeFhIWHozOGptal80VTRpZWxSLXY3bks1QXBFWmNqOWlBaTB0dVc4VU45ajBoSDRvQVg3Zw?oc=5",
-     "name": "جريدة الأنباء الكويتية"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-05T20:31:11+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-05"
-   },
-   "pdf_checked": "2026-10-05"
   }
  ]
 }

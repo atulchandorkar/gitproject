@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-27T04:22:29+00:00",
+ "updated_at": "2026-10-28T03:02:06+00:00",
  "items": [
   {
    "id": "2faf6ebdb2a5",
@@ -16,7 +16,10 @@
    "tags": [
     "AI financing",
     "Digital infrastructure",
-    "Global expansion"
+    "Global expansion",
+    "AI Investment",
+    "Financing",
+    "Strategy"
    ],
    "partners": [],
    "impact": "Q3 acceleration",
@@ -27,6 +30,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT1NhN09YbDJsZDBDT0R4SWtNa2E1a1YwR2VpNlVJV0xCQXdBRDBERlRfdVQ2S05lZ09VdjdQb0pKWkNiWHFGNFdSVlgtRDQxRG1tWHJ5MHRKT3p0aHdIcEhoMHpDZG1ORHZZQkdKQVVrVUlDRklBVUNuVnp4enhsQ3RacW0zd1JGcGZhdTFzY1NGeUZScWlVbW1LUmJ0X2VXRmtpQl9EbGJXWFVwS0pmanBHd2tfQjJoZHdKTW9Nel9ieEXSAcgBQVVfeXFMT1VFVVdjY0JRcGJnRHVxUHpqdHpMNDdBQ3U1QVpBdE9ZUEx6SG1jRHJ3T2ZLRkdHZzVKTGlrSkVHczZaeWpVYW0xM29QaWR1cElSWTUxeDZMcDZqYllnckc1WHlZSEZleGw5MGFsbUg1aDBSYzk3MHd3dFR5RnZpb2NWV2N2ZXZSS1llalVVbmNiYWdSVHNQS2VrVFBwNWVjZUFodTdURWhwQm5TRHp4UjBVTjFqMEUtdWNnNWtCTUtoZHJEbEdoTTc?oc=5",
      "name": "Gulf Times"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMinwNBVV95cUxQTlI0ZEh1d1E3LUVYR01HSnprNXVtNy15TzR0WU55dEFMN3Yxa3FnU2xTdThwdjB5R3ZwaEMtSzdMY1dNcGlVSlZnNFozUHZDdG1CbkF1T0JsU0R0Q0hURTZHTVVsZERYMDJsS3BhcVZRX2xUWGN5OEJBRzVaQUx0NTBiZkM5RndmMExtUVptSUEzMjJ1T3NBQzB1VW5uTkNmcHI3cXhva0ZmdzZBdV9pOUNNWVJqbzFjNzVSazd0MVBCbFluOFFRX3FJQ0ZBUElGQmdPNG9JVnNfQkkyTjlWbk5aUlNyRlRpckpoUjgzeEQxczk0eTZoUzRIZG5OdjFXeTdybHA1aExJSDZ5UERwTXY2U09IZlhQdTVMeTR4V0JNaFJISW5kMWcwSE4weFhTd1Z5ZlFNQUJuQnladFpCdUJJN1lRWEZRb2l6TGtseXQ4Y3BvcXdVeUVrN0tYeVJZSk8tMnhxOXZFLS13U0FqdHBqZ2pXTVlEdy11czREQk1yaHRWQ0Noem5JQTFQYWhZUnhjemRDQi11eXZXRzJZ?oc=5",
+     "name": "جريدة الشرق"
     }
    ],
    "language": "en",
@@ -35,7 +42,20 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-26"
-   }
+   },
+   "merged": [
+    {
+     "id": "439d99a86085",
+     "date": "2026-10-26",
+     "title": "QNB strengthens its role in financing AI investments",
+     "source_title": "QNB تُعزّز دورها في تمويل استثمارات الذكاء الاصطناعي",
+     "source_url": "https://news.google.com/rss/articles/CBMinwNBVV95cUxQTlI0ZEh1d1E3LUVYR01HSnprNXVtNy15TzR0WU55dEFMN3Yxa3FnU2xTdThwdjB5R3ZwaEMtSzdMY1dNcGlVSlZnNFozUHZDdG1CbkF1T0JsU0R0Q0hURTZHTVVsZERYMDJsS3BhcVZRX2xUWGN5OEJBRzVaQUx0NTBiZkM5RndmMExtUVptSUEzMjJ1T3NBQzB1VW5uTkNmcHI3cXhva0ZmdzZBdV9pOUNNWVJqbzFjNzVSazd0MVBCbFluOFFRX3FJQ0ZBUElGQmdPNG9JVnNfQkkyTjlWbk5aUlNyRlRpckpoUjgzeEQxczk0eTZoUzRIZG5OdjFXeTdybHA1aExJSDZ5UERwTXY2U09IZlhQdTVMeTR4V0JNaFJISW5kMWcwSE4weFhTd1Z5ZlFNQUJuQnladFpCdUJJN1lRWEZRb2l6TGtseXQ4Y3BvcXdVeUVrN0tYeVJZSk8tMnhxOXZFLS13U0FqdHBqZ2pXTVlEdy11czREQk1yaHRWQ0Noem5JQTFQYWhZUnhjemRDQi11eXZXRzJZ?oc=5",
+     "source_name": "جريدة الشرق",
+     "summary": "QNB is enhancing its role in financing investments in artificial intelligence.",
+     "how": "ai",
+     "anchor": "QNB Group accelerates global AI and digital infrastructure financing"
+    }
+   ]
   },
   {
    "id": "51bdcd3d0a0a",
