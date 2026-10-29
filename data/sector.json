@@ -1,6 +1,64 @@
 {
- "updated_at": "2026-10-28T03:02:06+00:00",
+ "updated_at": "2026-10-29T03:23:53+00:00",
  "items": [
+  {
+   "id": "79bee4c10258",
+   "date": "2026-10-28",
+   "category": "Expert Views",
+   "publisher": "IBM",
+   "countries": [
+    "Global"
+   ],
+   "title": "When the client's AI becomes the counterparty: Banking in an agent-to-agent world",
+   "summary": "IBM explores the implications of AI agents transacting directly as counterparties in banking relationships. The analysis examines operational and strategic shifts as autonomous AI entities engage in financial transactions.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBYV0lfQXVBZUl2dlFBLUxCd2Jkbzl2cm91cmNvRDZNcEN4UnM3MmFBUUZETjBZY0RvQUYxVHpwUFNmZm9WSkVtbF9CR0hGaExZcHpsMnlyVzJlZm5ZVWM1X0tSM2ttMURRQzVuRzJZVlNJTFZHTjNWalNYblE1QQ?oc=5",
+   "source_name": "IBM",
+   "source_title": "When the Client's AI Becomes the Counterparty: Banking in an Agent-to-Agent World",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBYV0lfQXVBZUl2dlFBLUxCd2Jkbzl2cm91cmNvRDZNcEN4UnM3MmFBUUZETjBZY0RvQUYxVHpwUFNmZm9WSkVtbF9CR0hGaExZcHpsMnlyVzJlZm5ZVWM1X0tSM2ttMURRQzVuRzJZVlNJTFZHTjNWalNYblE1QQ?oc=5",
+     "name": "IBM"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-29T03:23:35+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-29"
+   },
+   "pdf_checked": "2026-10-29"
+  },
+  {
+   "id": "6df10ad5ebfa",
+   "date": "2026-10-28",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "How AI is reshaping the bank of the future",
+   "summary": "IDC examines how artificial intelligence is transforming banking operations and strategy across the industry. The analysis covers AI applications and their impact on future banking models.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWUNCNUw2d1k0STlpNXE4ajFndzk5bkF2SmUzUWRFOS04blNEUnEtemNkMHdWSWxfeXBfZEhsS0tNc2RpVUpjbGxUbEVsakJsVW85QmRUS3p0Qi04YnVPNG42YkY4T1dVSXBwZE1qWFBwbGZJbHJUTDBzQ2JwTzhKZkt0eElmUWdTcXdn?oc=5",
+   "source_name": "Oracle",
+   "source_title": "How AI Is Reshaping the Bank of the Future: IDC Spotlight",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWUNCNUw2d1k0STlpNXE4ajFndzk5bkF2SmUzUWRFOS04blNEUnEtemNkMHdWSWxfeXBfZEhsS0tNc2RpVUpjbGxUbEVsakJsVW85QmRUS3p0Qi04YnVPNG42YkY4T1dVSXBwZE1qWFBwbGZJbHJUTDBzQ2JwTzhKZkt0eElmUWdTcXdn?oc=5",
+     "name": "Oracle"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-29T03:23:35+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-29"
+   },
+   "pdf_checked": "2026-10-29"
+  },
   {
    "id": "4f60d3324680",
    "date": "2026-10-28",
@@ -35,6 +93,39 @@
     "checked": "2026-10-28"
    },
    "pdf_checked": "2026-10-28"
+  },
+  {
+   "id": "0f0f819674a3",
+   "date": "2026-10-27",
+   "category": "Expert Views",
+   "publisher": "International Monetary Fund",
+   "countries": [
+    "Global"
+   ],
+   "title": "IMF official stresses responsible AI adoption to safeguard public trust in central banks",
+   "summary": "An IMF representative highlights the importance of responsible AI implementation to maintain confidence in central banking institutions. The commentary underscores governance and trust considerations in financial sector AI deployment.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcWRobU0xRktPeS1wYnFRRTlxWWY0RElWWWdGT3k5OGFYSHNLTVo4eEpiT09qT3EtTzR6eGdqTlEzQk9ub0l0aFFrazFDRU9iZHkxbkllRXFSZlJ2dVhnd2tzLW9Sclh3X3JOS09pLXhFMTV6MURFYVpsdmw0cXdYVFJ3bkthRXFjOGZIX2tYOFNOQ3VVSU5rOHJ5UXcyXy14UTNMdWR5NnozdmV4QzF6bGdDVlBNV3RhRmcydkZ0a0V1dw?oc=5",
+   "source_name": "Newswire",
+   "source_title": "IMF official stresses responsible AI adoption to safeguard public trust in central banks",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcWRobU0xRktPeS1wYnFRRTlxWWY0RElWWWdGT3k5OGFYSHNLTVo4eEpiT09qT3EtTzR6eGdqTlEzQk9ub0l0aFFrazFDRU9iZHkxbkllRXFSZlJ2dVhnd2tzLW9Sclh3X3JOS09pLXhFMTV6MURFYVpsdmw0cXdYVFJ3bkthRXFjOGZIX2tYOFNOQ3VVSU5rOHJ5UXcyXy14UTNMdWR5NnozdmV4QzF6bGdDVlBNV3RhRmcydkZ0a0V1dw?oc=5",
+     "name": "Newswire"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQak1FUUc5Yzc2SWFjY18zRzE3Ql82bjg5QnJZZU1kYTA3OUFfcGV4bFJfVnRtMldiNUJmOUx3djhhVVg2TzllUXNsZHFOd21pNy1VOEtlMy1EY2xBTUNxQU55VGJjZ29NbkRUY3BXemRNclc1bmpCTXQ1eF83aHAyRHpyZGFoMFJoU1BHN2w1N2w5bnBLZ2dyNzlnX2FWZVRQR3hCN2NFczcwRXdwa1Zj?oc=5",
+     "name": "Hiru News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-29T03:23:35+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-29"
+   },
+   "pdf_checked": "2026-10-29"
   },
   {
    "id": "9693a269ddc7",
@@ -83,6 +174,14 @@
     {
      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYkZ0V0g0VktzQkZZVEw4cGs5MlItMVRxU29Ham1iZnRRV01nTDlSNEtyQkh4UWFubVdhNDdveEdwVTdqcEd2a3RvU2lhOHlTUkJUTWkxVmRzZWJla1dVTDFPd1p2RGNxdjhYeDR4RUpNMEotRWE0dzF3SklIcGh4THNXRlV4b0FTa19UX2hmWElPY1ZRQUdBTmlpeER6RjJuWVZSR2R0VnprU3FrX01SUWJpc3I5V2lIY0dEMTdtbHMxaG8ySHFwaE1hb1hkNEVVQ2lJd1UxRkpZQlM3?oc=5",
      "name": "McKinsey & Company"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQd1dZTjNxUVU0dFNZS3RjcmdLYi1JeWpFNEM3ZU5xRVBaM3RjR0d1NG9xSUxNeUR2a2RTbld0ajFMLVdvem96eUZpOXdHYnpjY1dvZlJlZzFZWTlSRVRQRmdfSDFMY0NuVGJSelE3NFQ5d25TOFExOWJ2ZTNZWmpZeTZIVXF2Vl9GOGVmVkY2cVNhRmRnTUpBN0RqeDRzcVlSajlsVlZodFNSME41TGJoVGNZWjhRMk56cVhlQWhmSTI4WWZjeElRQW9lYlF6dERhMDV0cnRFRFlZSVF4WXl3U1FnS2FSRFRqWUd0UXRka9IB9AFBVV95cUxQcTBseHNFT1dTeVBHaVNiZVc5UDd0cjlYVU5IcmZmTGtTZHVqUW50Z05aX29lVHJsVUF0VzhESzJqbmhjQ0RuZVkwbzlxbkJNTk5oZ3UxbVQ2Mm84SDlpbHZQbWtPcEU2VHhreTBuSHJxbG9wNkEwenlFc2o4eDhTQUF6dGJsWF9VQ2QtVHBIamY2RTl1ZklOZHpoa0dUMHMtbGFIX2FZZDNoMHlUVlkyMFZXd2V3QkRwS3o3emNMWE1sampualAyd0pELXNjT0tHLWxJWm15WTNzUTQyRkFXLUZxaFMyRHZJNUtUMDZIcDZaQkR3?oc=5",
+     "name": "Devdiscourse"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTGNGVzdteWNDdlJXRlFoQVNnQUY3Q3hUODVEY1R1Wnl3bUVMRXpJYzZVU3N2M1RfRFpnWXlSb2ZXWkVybGZZS183Z0hUNzlsSmRONjIta1VPcC1JUXlCT3ctYWU1RUM4QjY2VWY2dVVIOFBCRUtwbFh1WENzbFJ0N1g2SUVUUFpIQjQzVlVkZlNzN1JmbXR0a0hEUEozYVhSRldzWGFXVWI1dnB3dEYyZlcyTHFPOW8xUThqcnN1RDZTNUViaFdKaFFNZkJsaF81M19nM1F2c3ZmS2dLeWJiZC1n?oc=5",
+     "name": "https://www.indiagazette.com/"
     }
    ],
    "language": "en",
@@ -92,7 +191,20 @@
     "evidence": "headline",
     "checked": "2026-10-28"
    },
-   "pdf_checked": "2026-10-28"
+   "pdf_checked": "2026-10-28",
+   "merged": [
+    {
+     "id": "7264b96ea425",
+     "date": "2026-10-28",
+     "title": "Agentic AI can reduce banks' transaction monitoring workload by up to 50 percent and improve compliance quality",
+     "source_title": "Agentic AI can cut banks’ transaction monitoring workload by up to 50%, improve compliance quality: McKinsey",
+     "source_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQd1dZTjNxUVU0dFNZS3RjcmdLYi1JeWpFNEM3ZU5xRVBaM3RjR0d1NG9xSUxNeUR2a2RTbld0ajFMLVdvem96eUZpOXdHYnpjY1dvZlJlZzFZWTlSRVRQRmdfSDFMY0NuVGJSelE3NFQ5d25TOFExOWJ2ZTNZWmpZeTZIVXF2Vl9GOGVmVkY2cVNhRmRnTUpBN0RqeDRzcVlSajlsVlZodFNSME41TGJoVGNZWjhRMk56cVhlQWhmSTI4WWZjeElRQW9lYlF6dERhMDV0cnRFRFlZSVF4WXl3U1FnS2FSRFRqWUd0UXRka9IB9AFBVV95cUxQcTBseHNFT1dTeVBHaVNiZVc5UDd0cjlYVU5IcmZmTGtTZHVqUW50Z05aX29lVHJsVUF0VzhESzJqbmhjQ0RuZVkwbzlxbkJNTk5oZ3UxbVQ2Mm84SDlpbHZQbWtPcEU2VHhreTBuSHJxbG9wNkEwenlFc2o4eDhTQUF6dGJsWF9VQ2QtVHBIamY2RTl1ZklOZHpoa0dUMHMtbGFIX2FZZDNoMHlUVlkyMFZXd2V3QkRwS3o3emNMWE1sampualAyd0pELXNjT0tHLWxJWm15WTNzUTQyRkFXLUZxaFMyRHZJNUtUMDZIcDZaQkR3?oc=5",
+     "source_name": "Devdiscourse",
+     "summary": "McKinsey research shows that agentic AI can cut transaction monitoring workloads significantly while enhancing compliance outcomes. The study quantifies productivity gains and quality improvements from AI-driven compliance automation.",
+     "how": "ai",
+     "anchor": "Agentic AI can reduce banks' transaction monitoring workload by up to 50 percent"
+    }
+   ]
   },
   {
    "id": "60bf8016a1ba",
@@ -186,6 +298,39 @@
     "checked": "2026-10-28"
    },
    "pdf_checked": "2026-10-28"
+  },
+  {
+   "id": "fe4935e5ac09",
+   "date": "2026-10-25",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "JPMorgan's private bank deploys AI to enhance adviser efficiency",
+   "summary": "JPMorgan Chase implemented AI technology in its private banking division to improve the productivity and effectiveness of wealth advisers. The deployment demonstrates AI's role in enhancing client service delivery at scale.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSUdZd2JxSFhMTkJBYW5jbHpQa085NElNRjdoSVAxWHVqVE1KYUlHelg0RFotNl9LcXNqdi1hV0t1NFRsXzVzU0U4aUtPY1djM3paUTNZQ2JRNEtLZDRCaU1XeWxPTlFhNzY2WTdvQ2hKekFYS01qbzZaWThTelpZX09hZFpySV9adWhRZ0J0WDdPdFlSMENjMk1lZHdZbDVwdmVINV84bmpVcnd5Vm9QMkpGcHdJSXJDSmcyYkQ0WmVkcnJJY2c?oc=5",
+   "source_name": "The Business Times",
+   "source_title": "JPMorgan’s private bank using AI to make advisers more efficient",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSUdZd2JxSFhMTkJBYW5jbHpQa085NElNRjdoSVAxWHVqVE1KYUlHelg0RFotNl9LcXNqdi1hV0t1NFRsXzVzU0U4aUtPY1djM3paUTNZQ2JRNEtLZDRCaU1XeWxPTlFhNzY2WTdvQ2hKekFYS01qbzZaWThTelpZX09hZFpySV9adWhRZ0J0WDdPdFlSMENjMk1lZHdZbDVwdmVINV84bmpVcnd5Vm9QMkpGcHdJSXJDSmcyYkQ0WmVkcnJJY2c?oc=5",
+     "name": "The Business Times"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSEpnUlpZZnVPTUR3ampsZjFfUGhxZXgwTDNQX3QyV0xNcUxQYUhvTk03MThaVGFrOTl0NzdRd25GRU9MYUJ2Wmg5dTU2dTcxeHRiTHNaZkcwTmtPa1RiZloyTnNiWTJwbFk4NWpqNFZfNmh2eUoxVFZWQktfczJ6QlRGVEJnWUkwd2ZTLXZSaE9RR2VKdWFHUG9qUUdrcXZqeWY0Ym5mRExVcTk1Q3k2cUdrVXkydw?oc=5",
+     "name": "Bloomberg"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-26T02:14:39+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-26"
+   },
+   "pdf_checked": "2026-10-29"
   },
   {
    "id": "75384f54cd77",
