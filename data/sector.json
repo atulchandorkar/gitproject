@@ -1,6 +1,128 @@
 {
- "updated_at": "2026-10-29T03:23:53+00:00",
+ "updated_at": "2026-10-30T03:27:28+00:00",
  "items": [
+  {
+   "id": "66b324c4335e",
+   "date": "2026-10-29",
+   "category": "Studies & Surveys",
+   "publisher": "McKinsey & Company",
+   "countries": [
+    "Global"
+   ],
+   "title": "How a new operating model can transform distressed credit management with AI",
+   "summary": "McKinsey examines how artificial intelligence and new organizational models can improve the management of troubled loans and credit. The study offers insights into applying AI to enhance distressed asset resolution.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMnEzNkI2cVZmZDQ4WHJnU1R2bV83T1UyS3B5RmtKS2gwcmVGc3NDenJ3ZzQ1Mm50NVN0cjZ1c0xiN2lqTFNZWWJQUG1mMmJGWHRRYVZYdDFUNk9sS3dmbVpTOVM2OVZDVFlhZkJTRWE2WDhLMm9mNGJJNHNtR1BHRDA1aHdTS1ZYc3BIZHNhbDF0ZTB5Z19KanIyMFFuU21MVEt3azdLcndBLVlFTjN0S0tXNWhTeUczZmtLcmhwYjBHX2VNdzYwdVY5T1prakdPbjZHMXdZQjN6TjU0LTRqTTZBckRDWU5Z?oc=5",
+   "source_name": "McKinsey & Company",
+   "source_title": "Banking on AI: How a new operating model can transform distressed credit management",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMnEzNkI2cVZmZDQ4WHJnU1R2bV83T1UyS3B5RmtKS2gwcmVGc3NDenJ3ZzQ1Mm50NVN0cjZ1c0xiN2lqTFNZWWJQUG1mMmJGWHRRYVZYdDFUNk9sS3dmbVpTOVM2OVZDVFlhZkJTRWE2WDhLMm9mNGJJNHNtR1BHRDA1aHdTS1ZYc3BIZHNhbDF0ZTB5Z19KanIyMFFuU21MVEt3azdLcndBLVlFTjN0S0tXNWhTeUczZmtLcmhwYjBHX2VNdzYwdVY5T1prakdPbjZHMXdZQjN6TjU0LTRqTTZBckRDWU5Z?oc=5",
+     "name": "McKinsey & Company"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-30T03:27:04+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-30"
+   },
+   "pdf_checked": "2026-10-30"
+  },
+  {
+   "id": "54bf5f241b9c",
+   "date": "2026-10-29",
+   "category": "Events & Initiatives",
+   "publisher": "The Asian Banker",
+   "countries": [
+    "AE"
+   ],
+   "title": "Dubai AI Festival examines banking sector agentic AI ambitions and readiness",
+   "summary": "An international AI festival in Dubai brings together banking leaders to discuss autonomous AI applications and implementation challenges. The event assesses how prepared the industry is for large-scale agentic AI deployment.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPS21tSVVrZDBCT0pab25URV9NQlZ3VExOQ0w0OE1IOWpncUFXYzZDWmdyYTExa0ZlOVFXUDZFRG5IaWVpUzNyYTc3Y3o0cnF0NDNQekE0YTZTM3pFRDRJb3RsQVBaYjk4RGhhTGFrcFFjNmtrVFhNVEs5U3dTNEd1N3EzSEd5QVVmRTV4V0lHRktkZFkwaWxkR3NLb2RxNVdzVnpLT1VvemkxUGJZWTdUeXkwRGI4NzRL?oc=5",
+   "source_name": "The Asian Banker",
+   "source_title": "Dubai AI Festival puts banking’s agentic AI ambitions to the test",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPS21tSVVrZDBCT0pab25URV9NQlZ3VExOQ0w0OE1IOWpncUFXYzZDWmdyYTExa0ZlOVFXUDZFRG5IaWVpUzNyYTc3Y3o0cnF0NDNQekE0YTZTM3pFRDRJb3RsQVBaYjk4RGhhTGFrcFFjNmtrVFhNVEs5U3dTNEd1N3EzSEd5QVVmRTV4V0lHRktkZFkwaWxkR3NLb2RxNVdzVnpLT1VvemkxUGJZWTdUeXkwRGI4NzRL?oc=5",
+     "name": "The Asian Banker"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-30T03:27:04+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-30"
+   },
+   "pdf_checked": "2026-10-30"
+  },
+  {
+   "id": "ce7af5539a62",
+   "date": "2026-10-29",
+   "category": "Market Data",
+   "publisher": "Forrester",
+   "countries": [
+    "Global"
+   ],
+   "title": "AI banking mergers and acquisitions forecast to surge as agentic technology reshapes finance",
+   "summary": "Forrester predicts a significant increase in acquisition activity driven by agentic AI adoption in banking. The forecast indicates that autonomous AI technologies will be a major driver of industry consolidation.",
+   "key_stats": [
+    {
+     "value": "50%",
+     "label": "Predicted surge in AI banking M&A",
+     "quote": "AI Banking M&A to Surge 50%"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVmRjc0JTZklGU3k1QjZ1Smo4Rm40cVdDMTFUQUZFMTlRWF9vNXVmckQyUUVzSDBfSU9leWt4cUJqZFgzbEEyNFljQXZsWWVseVY0YzVFOFhyUHVwdUhCc3lxQldralJjQWJ0UXppR0lZbk1QZlRjaHVHZk1lWWFJNnl6QmE0SW1vY3JGWVltMXN0eW9UQ1ZrUGQxRkQ3enRSb0ptZy1SYzhxS0NzVERuSUFoTQ?oc=5",
+   "source_name": "FF News",
+   "source_title": "Forrester 2027 Predictions: AI Banking M&A to Surge 50% as Agentic Tech Reshapes Finance",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVmRjc0JTZklGU3k1QjZ1Smo4Rm40cVdDMTFUQUZFMTlRWF9vNXVmckQyUUVzSDBfSU9leWt4cUJqZFgzbEEyNFljQXZsWWVseVY0YzVFOFhyUHVwdUhCc3lxQldralJjQWJ0UXppR0lZbk1QZlRjaHVHZk1lWWFJNnl6QmE0SW1vY3JGWVltMXN0eW9UQ1ZrUGQxRkQ3enRSb0ptZy1SYzhxS0NzVERuSUFoTQ?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-30T03:27:04+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-30"
+   },
+   "pdf_checked": "2026-10-30"
+  },
+  {
+   "id": "c6f24ecae1de",
+   "date": "2026-10-28",
+   "category": "Expert Views",
+   "publisher": "Global Finance Magazine",
+   "countries": [
+    "Global"
+   ],
+   "title": "Why major banks are reining in agentic AI",
+   "summary": "Major banks are implementing constraints on agentic AI deployments. The cautious approach raises questions about the technology's readiness for banking.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YVkNTZVBzbjgxZVBKYU5oWC1GOVk3cnhDMnpIUVhzME5sNmZHa3FOV1czVTZibnlXV3h5M1pGVWxMX2JUYi1UOVZHWUw0VnJDWE51Qmg5dlljd2Z1Nnl3UUw5b09CTHIwcGVTTHRuWFpYby1Cdmxkclk5OA?oc=5",
+   "source_name": "Global Finance Magazine",
+   "source_title": "Why Major Banks Are Reining in Agentic AI",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YVkNTZVBzbjgxZVBKYU5oWC1GOVk3cnhDMnpIUVhzME5sNmZHa3FOV1czVTZibnlXV3h5M1pGVWxMX2JUYi1UOVZHWUw0VnJDWE51Qmg5dlljd2Z1Nnl3UUw5b09CTHIwcGVTTHRuWFpYby1Cdmxkclk5OA?oc=5",
+     "name": "Global Finance Magazine"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-30T03:27:04+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-30"
+   },
+   "pdf_checked": "2026-10-30"
+  },
   {
    "id": "79bee4c10258",
    "date": "2026-10-28",
@@ -95,68 +217,6 @@
    "pdf_checked": "2026-10-28"
   },
   {
-   "id": "0f0f819674a3",
-   "date": "2026-10-27",
-   "category": "Expert Views",
-   "publisher": "International Monetary Fund",
-   "countries": [
-    "Global"
-   ],
-   "title": "IMF official stresses responsible AI adoption to safeguard public trust in central banks",
-   "summary": "An IMF representative highlights the importance of responsible AI implementation to maintain confidence in central banking institutions. The commentary underscores governance and trust considerations in financial sector AI deployment.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcWRobU0xRktPeS1wYnFRRTlxWWY0RElWWWdGT3k5OGFYSHNLTVo4eEpiT09qT3EtTzR6eGdqTlEzQk9ub0l0aFFrazFDRU9iZHkxbkllRXFSZlJ2dVhnd2tzLW9Sclh3X3JOS09pLXhFMTV6MURFYVpsdmw0cXdYVFJ3bkthRXFjOGZIX2tYOFNOQ3VVSU5rOHJ5UXcyXy14UTNMdWR5NnozdmV4QzF6bGdDVlBNV3RhRmcydkZ0a0V1dw?oc=5",
-   "source_name": "Newswire",
-   "source_title": "IMF official stresses responsible AI adoption to safeguard public trust in central banks",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcWRobU0xRktPeS1wYnFRRTlxWWY0RElWWWdGT3k5OGFYSHNLTVo4eEpiT09qT3EtTzR6eGdqTlEzQk9ub0l0aFFrazFDRU9iZHkxbkllRXFSZlJ2dVhnd2tzLW9Sclh3X3JOS09pLXhFMTV6MURFYVpsdmw0cXdYVFJ3bkthRXFjOGZIX2tYOFNOQ3VVSU5rOHJ5UXcyXy14UTNMdWR5NnozdmV4QzF6bGdDVlBNV3RhRmcydkZ0a0V1dw?oc=5",
-     "name": "Newswire"
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQak1FUUc5Yzc2SWFjY18zRzE3Ql82bjg5QnJZZU1kYTA3OUFfcGV4bFJfVnRtMldiNUJmOUx3djhhVVg2TzllUXNsZHFOd21pNy1VOEtlMy1EY2xBTUNxQU55VGJjZ29NbkRUY3BXemRNclc1bmpCTXQ1eF83aHAyRHpyZGFoMFJoU1BHN2w1N2w5bnBLZ2dyNzlnX2FWZVRQR3hCN2NFczcwRXdwa1Zj?oc=5",
-     "name": "Hiru News"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-29T03:23:35+00:00",
-   "verification": {
-    "level": "corroborated",
-    "evidence": "headline",
-    "checked": "2026-10-29"
-   },
-   "pdf_checked": "2026-10-29"
-  },
-  {
-   "id": "9693a269ddc7",
-   "date": "2026-10-26",
-   "category": "Regulation & Guidance",
-   "publisher": "Bank of England",
-   "countries": [
-    "Global"
-   ],
-   "title": "Artificial intelligence in UK financial services",
-   "summary": "The Bank of England published an official report on artificial intelligence in UK financial services. The report addresses regulatory frameworks and industry practices for AI deployment.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQUpfejFXT1hGLXJzVExZWWNJM1lFSHVJaEFnZE9rQlN5OXppd2x2ZmRmTDUzTFVBakoyTkNULWU0U3o4TkZBbnZsdnNXNVcwNEJIQ2VheWRpUzduQTNRb2hLdUpOSllQNDhoVl95bmNZSEh2YVBxMk9aQUt2djVBeXhBT0o0UExVV2daMll0MUJEQ1EzdThMQTNRbkxMdw?oc=5",
-   "source_name": "Bank of England",
-   "source_title": "Artificial intelligence in UK financial services - 2026",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQUpfejFXT1hGLXJzVExZWWNJM1lFSHVJaEFnZE9rQlN5OXppd2x2ZmRmTDUzTFVBakoyTkNULWU0U3o4TkZBbnZsdnNXNVcwNEJIQ2VheWRpUzduQTNRb2hLdUpOSllQNDhoVl95bmNZSEh2YVBxMk9aQUt2djVBeXhBT0o0UExVV2daMll0MUJEQ1EzdThMQTNRbkxMdw?oc=5",
-     "name": "Bank of England"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-28T03:01:35+00:00",
-   "verification": {
-    "level": "official",
-    "evidence": "headline",
-    "checked": "2026-10-28"
-   },
-   "pdf_checked": "2026-10-28"
-  },
-  {
    "id": "67a1f1b57566",
    "date": "2026-10-26",
    "category": "Expert Views",
@@ -205,6 +265,35 @@
      "anchor": "Agentic AI can reduce banks' transaction monitoring workload by up to 50 percent"
     }
    ]
+  },
+  {
+   "id": "9693a269ddc7",
+   "date": "2026-10-26",
+   "category": "Regulation & Guidance",
+   "publisher": "Bank of England",
+   "countries": [
+    "Global"
+   ],
+   "title": "Artificial intelligence in UK financial services",
+   "summary": "The Bank of England published an official report on artificial intelligence in UK financial services. The report addresses regulatory frameworks and industry practices for AI deployment.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQUpfejFXT1hGLXJzVExZWWNJM1lFSHVJaEFnZE9rQlN5OXppd2x2ZmRmTDUzTFVBakoyTkNULWU0U3o4TkZBbnZsdnNXNVcwNEJIQ2VheWRpUzduQTNRb2hLdUpOSllQNDhoVl95bmNZSEh2YVBxMk9aQUt2djVBeXhBT0o0UExVV2daMll0MUJEQ1EzdThMQTNRbkxMdw?oc=5",
+   "source_name": "Bank of England",
+   "source_title": "Artificial intelligence in UK financial services - 2026",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQUpfejFXT1hGLXJzVExZWWNJM1lFSHVJaEFnZE9rQlN5OXppd2x2ZmRmTDUzTFVBakoyTkNULWU0U3o4TkZBbnZsdnNXNVcwNEJIQ2VheWRpUzduQTNRb2hLdUpOSllQNDhoVl95bmNZSEh2YVBxMk9aQUt2djVBeXhBT0o0UExVV2daMll0MUJEQ1EzdThMQTNRbkxMdw?oc=5",
+     "name": "Bank of England"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-28T03:01:35+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-28"
+   },
+   "pdf_checked": "2026-10-28"
   },
   {
    "id": "60bf8016a1ba",
@@ -391,6 +480,60 @@
    "pdf_checked": "2026-10-24"
   },
   {
+   "id": "0f15a6387430",
+   "date": "2026-10-23",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Central banks must establish trust as AI risks reshape finance, IMF technology chief warns",
+   "summary": "An IMF technology chief has emphasized that central banks must manage AI risks while building public confidence. The commentary highlights AI's transformative role in modern finance.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWV5emNJV2FqdURJVWlHVHVIQ25aamdNNFdRX2dqRzllY0czTWk3Y0JrYWFkdG9POFhxR01pNWhtVUcxa0pqVGxhU2ZOUDUyeFhuOHM2RDZ0WUJKdXBtcTNjVVhPbWd0c0t3ZWk0a2dDWUVWQXRJbVo1S2h3UWhyX1cydl9EY1VLRjhjQlZLVzJjMUlSeDNxSVd3NnlTV1ZOd3JMNTJBSFJPUQ?oc=5",
+   "source_name": "EconomyNext",
+   "source_title": "Central banks must secure trust as AI risks reshape finance: IMF tech chief",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWV5emNJV2FqdURJVWlHVHVIQ25aamdNNFdRX2dqRzllY0czTWk3Y0JrYWFkdG9POFhxR01pNWhtVUcxa0pqVGxhU2ZOUDUyeFhuOHM2RDZ0WUJKdXBtcTNjVVhPbWd0c0t3ZWk0a2dDWUVWQXRJbVo1S2h3UWhyX1cydl9EY1VLRjhjQlZLVzJjMUlSeDNxSVd3NnlTV1ZOd3JMNTJBSFJPUQ?oc=5",
+     "name": "EconomyNext"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcHlUSElyYUN0WjQ4Tkd4bkVpUDVkam4zSFItenNWQnQ0Q3lFeUpxSlo0cmVvNGdHSEV1VjRzS0dlOVUzdEpFdDNMN05nWlVEdU0zVXNXd29PRkREN29jT3VXY1hsaG5OakxuTVFiUDRDM2M5UmFtYUIwTlFWN1RZZUxTQWFWaHkzVlhoOGxkUWRiOTQxclJfVQ?oc=5",
+     "name": "Island.lk"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcWRobU0xRktPeS1wYnFRRTlxWWY0RElWWWdGT3k5OGFYSHNLTVo4eEpiT09qT3EtTzR6eGdqTlEzQk9ub0l0aFFrazFDRU9iZHkxbkllRXFSZlJ2dVhnd2tzLW9Sclh3X3JOS09pLXhFMTV6MURFYVpsdmw0cXdYVFJ3bkthRXFjOGZIX2tYOFNOQ3VVSU5rOHJ5UXcyXy14UTNMdWR5NnozdmV4QzF6bGdDVlBNV3RhRmcydkZ0a0V1dw?oc=5",
+     "name": "Newswire"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQak1FUUc5Yzc2SWFjY18zRzE3Ql82bjg5QnJZZU1kYTA3OUFfcGV4bFJfVnRtMldiNUJmOUx3djhhVVg2TzllUXNsZHFOd21pNy1VOEtlMy1EY2xBTUNxQU55VGJjZ29NbkRUY3BXemRNclc1bmpCTXQ1eF83aHAyRHpyZGFoMFJoU1BHN2w1N2w5bnBLZ2dyNzlnX2FWZVRQR3hCN2NFczcwRXdwa1Zj?oc=5",
+     "name": "Hiru News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-24T02:27:03+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-10-24"
+   },
+   "merged": [
+    {
+     "id": "0f0f819674a3",
+     "date": "2026-10-27",
+     "title": "IMF official stresses responsible AI adoption to safeguard public trust in central banks",
+     "source_title": "IMF official stresses responsible AI adoption to safeguard public trust in central banks",
+     "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcWRobU0xRktPeS1wYnFRRTlxWWY0RElWWWdGT3k5OGFYSHNLTVo4eEpiT09qT3EtTzR6eGdqTlEzQk9ub0l0aFFrazFDRU9iZHkxbkllRXFSZlJ2dVhnd2tzLW9Sclh3X3JOS09pLXhFMTV6MURFYVpsdmw0cXdYVFJ3bkthRXFjOGZIX2tYOFNOQ3VVSU5rOHJ5UXcyXy14UTNMdWR5NnozdmV4QzF6bGdDVlBNV3RhRmcydkZ0a0V1dw?oc=5",
+     "source_name": "Newswire",
+     "summary": "An IMF representative highlights the importance of responsible AI implementation to maintain confidence in central banking institutions. The commentary underscores governance and trust considerations in financial sector AI deployment.",
+     "how": "ai",
+     "anchor": "IMF"
+    }
+   ],
+   "pdf_checked": "2026-10-30"
+  },
+  {
    "id": "bdb61939d5f6",
    "date": "2026-10-22",
    "category": "Expert Views",
@@ -424,6 +567,39 @@
    "pdf_checked": "2026-10-23"
   },
   {
+   "id": "279dec52a108",
+   "date": "2026-10-22",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Artificial intelligence threatens banking sector employment",
+   "summary": "AI adoption in banking is creating workforce displacement risks across financial services. The analysis examines labour market implications of increased automation in banking operations.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMisANBVV95cUxOY3FZR3dlNmdmWlpQVGNmQm02U1BWblp6M3FYTWhwQjdDU254TFZONF9NcEdPSEVWcnpVT2cyaEFMdDI1eGRHemV4MDJuTENGcjFUeE1HVnhsRThkU2dUN1RDa2k2al9QSDZZR1FFMEdaTDJ5eTBfWk1JTVE1T0NVZXliT1Y3WnFOMUNoUGtTUnF2UmM0ZVhyNXNPRlR1bXdkS0ZOdjFGY1lPT0hGS2gxemVXVGk4d1JwcjdTUGt4YXFUMDFtejhxazdQMlhwR2xpaUNBZFU4TlJ3NWJxLUloQmlZM1RibGl3WTZIMjkwOFozSHRXY0o0dllfenRDWXNiUDJ4RVRMcDYyeDh1OGhLZjZvaDhzUVY3Q3kwUnVTUkxoNHE1MzlyT3VhVlNDYXExNmVmV21uYlZkNlY1bmxPY0UwRFZYWkl2d3VIWjdER0NxVHpMbTExSXBZbWsxdEcwRWpTLTlfeVROTm1hU09EQ1dKMEpTdlp1SzR2WlhNTjdPQ1BkUUhjem1PMWhBWEVscXF6LWRxY1J3YkdSX1NFMldxbDNUMmtqcFZTQ1BzeUg?oc=5",
+   "source_name": "الشرق الأوسط",
+   "source_title": "الذكاء الاصطناعي يهدد وظائف القطاع المصرفي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxOY3FZR3dlNmdmWlpQVGNmQm02U1BWblp6M3FYTWhwQjdDU254TFZONF9NcEdPSEVWcnpVT2cyaEFMdDI1eGRHemV4MDJuTENGcjFUeE1HVnhsRThkU2dUN1RDa2k2al9QSDZZR1FFMEdaTDJ5eTBfWk1JTVE1T0NVZXliT1Y3WnFOMUNoUGtTUnF2UmM0ZVhyNXNPRlR1bXdkS0ZOdjFGY1lPT0hGS2gxemVXVGk4d1JwcjdTUGt4YXFUMDFtejhxazdQMlhwR2xpaUNBZFU4TlJ3NWJxLUloQmlZM1RibGl3WTZIMjkwOFozSHRXY0o0dllfenRDWXNiUDJ4RVRMcDYyeDh1OGhLZjZvaDhzUVY3Q3kwUnVTUkxoNHE1MzlyT3VhVlNDYXExNmVmV21uYlZkNlY1bmxPY0UwRFZYWkl2d3VIWjdER0NxVHpMbTExSXBZbWsxdEcwRWpTLTlfeVROTm1hU09EQ1dKMEpTdlp1SzR2WlhNTjdPQ1BkUUhjem1PMWhBWEVscXF6LWRxY1J3YkdSX1NFMldxbDNUMmtqcFZTQ1BzeUg?oc=5",
+     "name": "الشرق الأوسط"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOM01HTXRmOGZIVzZ1Ukd5R3RueGtHbV9CeGxiYmZIR0VYUzlkYTZhRlJZR25MUEF0ZC05RDZISzZDamdXY0JzbjRWZk5wdTlwczZCOWtZQTc5SzN1MDIxVDNqWGpOMGhaMzRPOGR3b0IzUDY5Y2hMQ042c3pnUklWZTZSSUQ5bmM?oc=5",
+     "name": "Traders Union"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-23T02:31:24+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-23"
+   },
+   "pdf_checked": "2026-10-23"
+  },
+  {
    "id": "99183ac13cfe",
    "date": "2026-10-22",
    "category": "Expert Views",
@@ -444,35 +620,6 @@
     }
    ],
    "language": "en",
-   "added_at": "2026-10-23T02:31:24+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-23"
-   },
-   "pdf_checked": "2026-10-23"
-  },
-  {
-   "id": "279dec52a108",
-   "date": "2026-10-22",
-   "category": "Expert Views",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "Artificial intelligence threatens banking sector employment",
-   "summary": "AI adoption in banking is creating workforce displacement risks across financial services. The analysis examines labour market implications of increased automation in banking operations.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMisANBVV95cUxOY3FZR3dlNmdmWlpQVGNmQm02U1BWblp6M3FYTWhwQjdDU254TFZONF9NcEdPSEVWcnpVT2cyaEFMdDI1eGRHemV4MDJuTENGcjFUeE1HVnhsRThkU2dUN1RDa2k2al9QSDZZR1FFMEdaTDJ5eTBfWk1JTVE1T0NVZXliT1Y3WnFOMUNoUGtTUnF2UmM0ZVhyNXNPRlR1bXdkS0ZOdjFGY1lPT0hGS2gxemVXVGk4d1JwcjdTUGt4YXFUMDFtejhxazdQMlhwR2xpaUNBZFU4TlJ3NWJxLUloQmlZM1RibGl3WTZIMjkwOFozSHRXY0o0dllfenRDWXNiUDJ4RVRMcDYyeDh1OGhLZjZvaDhzUVY3Q3kwUnVTUkxoNHE1MzlyT3VhVlNDYXExNmVmV21uYlZkNlY1bmxPY0UwRFZYWkl2d3VIWjdER0NxVHpMbTExSXBZbWsxdEcwRWpTLTlfeVROTm1hU09EQ1dKMEpTdlp1SzR2WlhNTjdPQ1BkUUhjem1PMWhBWEVscXF6LWRxY1J3YkdSX1NFMldxbDNUMmtqcFZTQ1BzeUg?oc=5",
-   "source_name": "الشرق الأوسط",
-   "source_title": "الذكاء الاصطناعي يهدد وظائف القطاع المصرفي",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxOY3FZR3dlNmdmWlpQVGNmQm02U1BWblp6M3FYTWhwQjdDU254TFZONF9NcEdPSEVWcnpVT2cyaEFMdDI1eGRHemV4MDJuTENGcjFUeE1HVnhsRThkU2dUN1RDa2k2al9QSDZZR1FFMEdaTDJ5eTBfWk1JTVE1T0NVZXliT1Y3WnFOMUNoUGtTUnF2UmM0ZVhyNXNPRlR1bXdkS0ZOdjFGY1lPT0hGS2gxemVXVGk4d1JwcjdTUGt4YXFUMDFtejhxazdQMlhwR2xpaUNBZFU4TlJ3NWJxLUloQmlZM1RibGl3WTZIMjkwOFozSHRXY0o0dllfenRDWXNiUDJ4RVRMcDYyeDh1OGhLZjZvaDhzUVY3Q3kwUnVTUkxoNHE1MzlyT3VhVlNDYXExNmVmV21uYlZkNlY1bmxPY0UwRFZYWkl2d3VIWjdER0NxVHpMbTExSXBZbWsxdEcwRWpTLTlfeVROTm1hU09EQ1dKMEpTdlp1SzR2WlhNTjdPQ1BkUUhjem1PMWhBWEVscXF6LWRxY1J3YkdSX1NFMldxbDNUMmtqcFZTQ1BzeUg?oc=5",
-     "name": "الشرق الأوسط"
-    }
-   ],
-   "language": "ar",
    "added_at": "2026-10-23T02:31:24+00:00",
    "verification": {
     "level": "trusted",
@@ -5743,35 +5890,6 @@
     {
      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNalVSS3BHeW03d0ktVVZuRkluSTBzcVJ6Nkg3LUFleWZ6QVhZWEljdFRHV3ZSY1ZWVUNTcGhyUWxLYW81QklYbmtNb1BIUTRQWW92UHdJRTg4TlVaZEdKZ3dOYlNla1JPYTBSZDJOV2xUSmhxTTlHZ3NLanM3UnVXTktKSE9NMEtlcHl3ZG1Fc0toaE1abWxaNERfbU8tMTM2NWNhLTVwWmw4Mk1QbEtCZGR3ZTJwdTVKanRlVjhyaXR3MFdLMU82TUNOX2ZWRHc?oc=5",
      "name": "McKinsey & Company"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "official",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-06"
-  },
-  {
-   "id": "26e938de8c5a",
-   "date": "2025-10-28",
-   "category": "Expert Views",
-   "publisher": "S&P Global",
-   "countries": [
-    "Global"
-   ],
-   "title": "AI and banking: Leaders will soon pull away from the pack",
-   "summary": "S&P Global analysis shows AI capabilities diverging among banks and emerging competitive separation. Strong AI leadership will drive significant market differentiation.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX1lvaEs5Tks4Q3hFR0dBSTNmclFRTmRKUkx2ZjZLX1VCcTZTN2lqNlItbjRwTUNaWi1VcGZ0SjVIYUlRRUduTEJ0dDlYVDlzQjdtS3N5eEpMb3Z0QXY0ZHMzQ1YyUW1MZXRqTG1Dcnp2b0V6OGFYQ3lJNXVPNGtDOURPU1BBM19Edi1HNGdUcmwxaVhDa0tWMEp0WjZKTXR6NFU4d3psSnB2ZlJ2Ni1NQTdWZjRDT3RYQnc?oc=5",
-   "source_name": "S&P Global",
-   "source_title": "AI and banking: Leaders will soon pull away from the pack",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX1lvaEs5Tks4Q3hFR0dBSTNmclFRTmRKUkx2ZjZLX1VCcTZTN2lqNlItbjRwTUNaWi1VcGZ0SjVIYUlRRUduTEJ0dDlYVDlzQjdtS3N5eEpMb3Z0QXY0ZHMzQ1YyUW1MZXRqTG1Dcnp2b0V6OGFYQ3lJNXVPNGtDOURPU1BBM19Edi1HNGdUcmwxaVhDa0tWMEp0WjZKTXR6NFU4d3psSnB2ZlJ2Ni1NQTdWZjRDT3RYQnc?oc=5",
-     "name": "S&P Global"
     }
    ],
    "language": "en",

@@ -1924,5 +1924,14 @@
   "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8wU1hsQ2gtYnZUOGlfcG9oMkhxTVQ1LTRjRzV0UFh3dENXRjNBenRiRThpekdrN1NxR0JPWHlSWjZyMy1razF2NA?oc=5",
   "source": "جريدة الأنباء الكويتية",
   "reason": "Ahlibank is not named in the source"
+ },
+ {
+  "checked": "2026-10-30",
+  "bank_id": "nbb",
+  "date": "2026-10-07",
+  "title": "بنك «البحرين الوطني»: البيانات والذكاء الاصطناعي يعيدان رسم المنافسة في الخدمات المالية",
+  "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE0wRHJtNFk0UmxlN3lhNElsaTdLUWxsTDYwdkM2MHlyeFdsdDhrU1QycEMtX0U2TDF0V1Azb0VCdFllRFpm?oc=5",
+  "source": "بوابة التكنولوجيا المالية",
+  "reason": "no second outlet confirmed it within 21 days"
  }
 ]

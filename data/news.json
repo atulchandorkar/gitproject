@@ -1,6 +1,46 @@
 {
- "updated_at": "2026-10-29T03:23:53+00:00",
+ "updated_at": "2026-10-30T03:27:28+00:00",
  "items": [
+  {
+   "id": "86e143c0c2c0",
+   "bank_id": "boubyan",
+   "country": "KW",
+   "date": "2026-10-26",
+   "title": "Boubyan Bank showcases its transformation into an AI-powered financial institution",
+   "summary": "Boubyan Bank is presenting its transformation journey to become a banking institution supported by artificial intelligence.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations",
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "AI Transformation",
+    "Banking Operations",
+    "Digital Transformation"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE4xN0xhX1VZUXVmSjJzRDR5NzZ6cWNJWlJ3YzJ1ckNfTXpyV1huNHh0OENDRnFybzNlS3ZYM2tPV2tkRnFC?oc=5",
+   "source_name": "كويت نيوز -",
+   "source_title": "\"بوبيان\" يستعرض مسار التحول إلى مؤسسة مصرفية مدعومة بالذكاء الاصطناعي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE4xN0xhX1VZUXVmSjJzRDR5NzZ6cWNJWlJ3YzJ1ckNfTXpyV1huNHh0OENDRnFybzNlS3ZYM2tPV2tkRnFC?oc=5",
+     "name": "كويت نيوز -"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiowVBVV95cUxNZ2JPLTB1UUM1ZmlXWVdVbW9DV3VUbHhQUldPSUJoRW9YZDFkREVoem5VdUljTW81ZHFNaTlWdzY0OE5OMzE2TGxTWS1pcGhrVE5NZzg1QVVnMjdQeUdDLW5mQ2tLVXdWM1NNek5rNEIwNy1YR0E3UnBHaEZPQnZRbnVDVVBtcmtrYWhkZGM5ZDRGc3ZuS2FlSi1aeEdmVndEWEJxMFI2QXpGV0lkcUU1TGdrM1J3UVZTU2JzMDZoZjM5R0U1LXBDbTBmcnhzTW5rUWtwRlZjdFJDM2tsbnNvcGZoVXdrblZVRmhxWkduSFVzSC1rLUdGcGUyczRUaWZTbUU3Z09lMU9JcE1oTktZQVMzeWhsNTgxUlpxRkZ0ZzY5UTBzZ0RGNFNCbUFQaEc2NVNVU3V5UU5Gc1pLY1NaQ3lLbG9qUTE2SjZ4VGVETTFUV0Rsb2FZbGhIdTFXZ0E4ZHFpUkY1ZUdGYXlrQVNTWmt1elJYT2xESGxVckozeVZuZktpdENEX0dIYUxUaTJyZGZtM1JnWEJwUFhNWGVjYlV1T3hnaWZQcjU4ZFFnTXdUcWF0WEh0OFhjRGFHMmtTXzdFN21BZG5LWGVFLS13bWlFMS0zMFQtMkJydUdseS02c2IyUWJLU1dVMXBLRVZHRWV1SWFxMHY5RERrMWF6ZEhJVzUyTDBlSGpvMHREUzBvQWhBcUdiS0lRb1FQYnNrX1B4LUNYSkJQdmRJSDZBQUFqbmEtQjc3cTNnekk2OHZPeE9maG5BRXBIbXd4Q29LYk5VeVZ2WFZZRlhHcVZQNjVGWVhRZVlXb2dBS0ZkaktqcHRFa1BHLTRoQjRHVjMzbzVOYXhRQkxkaW1KVFcyMjZUdU1hTUJ2ZDZsY2UtR2hZeDjSAVhBVV95cUxQWEY5eUppellYM2N4VzFLdmVRcGhKWHdKSVVVLWRSSkpDeXFoZUNBbzRBc0Y5VjhEaHhCOWdCaHlPSFBFM2h5QU9KTHBTUk93UFhCb2FFR2My?oc=5",
+     "name": "الراي"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-10-28T02:57:38+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-28"
+   }
+  },
   {
    "id": "2faf6ebdb2a5",
    "bank_id": "qnb",
