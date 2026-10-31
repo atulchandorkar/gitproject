@@ -1,6 +1,64 @@
 {
- "updated_at": "2026-10-30T03:27:28+00:00",
+ "updated_at": "2026-10-31T03:10:36+00:00",
  "items": [
+  {
+   "id": "cb31a30ebd8c",
+   "date": "2026-10-31",
+   "category": "Expert Views",
+   "publisher": "Federal Reserve",
+   "countries": [
+    "Global"
+   ],
+   "title": "Central banking and macroeconomic implications in the age of artificial intelligence",
+   "summary": "The Federal Reserve Bank of Cleveland convenes discussions on how artificial intelligence is reshaping macroeconomic dynamics and central banking functions. The forum addresses systemic implications of AI adoption for monetary policy and financial stability.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVm1oSThFX2NDR1A1aFAzZDBwT1kwZWpnXzJHamNNVGNxcTZNZjBRckF6WTYtcWUyRGVELWtxLWhrOEhCdjZSVFc4dVFDamswMDdMd0lyN21GSTZacGw1dlRySjhUY3NxUFB3V3BnWkd6NGRVRXp3QjVoYW02aXUxLTJ4Tkd0QXNvZnc1Q05yYk1LSElGVDRpNlBlZFk2SXRYaGFWQ29EQjZFOEFZN2c3RXdjNA?oc=5",
+   "source_name": "Federal Reserve Bank of Cleveland",
+   "source_title": "Conversations on Central Banking: Macroeconomy in the Age of Artificial Intelligence",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVm1oSThFX2NDR1A1aFAzZDBwT1kwZWpnXzJHamNNVGNxcTZNZjBRckF6WTYtcWUyRGVELWtxLWhrOEhCdjZSVFc4dVFDamswMDdMd0lyN21GSTZacGw1dlRySjhUY3NxUFB3V3BnWkd6NGRVRXp3QjVoYW02aXUxLTJ4Tkd0QXNvZnc1Q05yYk1LSElGVDRpNlBlZFk2SXRYaGFWQ29EQjZFOEFZN2c3RXdjNA?oc=5",
+     "name": "Federal Reserve Bank of Cleveland"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-31T03:10:24+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-31"
+   },
+   "pdf_checked": "2026-10-31"
+  },
+  {
+   "id": "364f68fabb83",
+   "date": "2026-10-30",
+   "category": "Expert Views",
+   "publisher": "American Banker",
+   "countries": [
+    "Global"
+   ],
+   "title": "The future of AI in banking faces significant uncertainty",
+   "summary": "American Banker examines perspectives on AI's trajectory in banking, noting the industry's path forward remains uncertain despite growing adoption trends.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZm5vUDFUZUQ3RElNTDZLREJOeEhmRy1DQTlmVlRpVzVIWFAtOUd1ZXo3Tmhvd21hcl9Ua0VBX19yVm1mb2hZOXhaclRwS25VODFUcTA1eWFOcExRUGYyWVkyVWJfS1FWb3U3VkJJMll2NDJYSXdHUXhLbDVnRlZKNmVaazJtUG9TbTBpX25XUkRWZG1RZWFXVVFUQTExdVpZSmh3?oc=5",
+   "source_name": "American Banker",
+   "source_title": "The future of AI in banking is not as clear as you might think",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZm5vUDFUZUQ3RElNTDZLREJOeEhmRy1DQTlmVlRpVzVIWFAtOUd1ZXo3Tmhvd21hcl9Ua0VBX19yVm1mb2hZOXhaclRwS25VODFUcTA1eWFOcExRUGYyWVkyVWJfS1FWb3U3VkJJMll2NDJYSXdHUXhLbDVnRlZKNmVaazJtUG9TbTBpX25XUkRWZG1RZWFXVVFUQTExdVpZSmh3?oc=5",
+     "name": "American Banker"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-31T03:10:24+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-10-31"
+   },
+   "pdf_checked": "2026-10-31"
+  },
   {
    "id": "66b324c4335e",
    "date": "2026-10-29",
@@ -141,6 +199,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBYV0lfQXVBZUl2dlFBLUxCd2Jkbzl2cm91cmNvRDZNcEN4UnM3MmFBUUZETjBZY0RvQUYxVHpwUFNmZm9WSkVtbF9CR0hGaExZcHpsMnlyVzJlZm5ZVWM1X0tSM2ttMURRQzVuRzJZVlNJTFZHTjNWalNYblE1QQ?oc=5",
      "name": "IBM"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPN0YxTjJVN3VYWmFRYTUtdWo5eVRNLXIwbGxic1VybTgwQlNyeUJqZlNVWGhCODBEcDJSQnB1dzdHUGVrNmNRcjVINkdPbzNNQU9lUHJ3aTY3QV90QmI1bW9TNHlsN0lvcDVDZmxwZllVR1QtSzVHWE1zYmVkUVdQRHF0VnJodw?oc=5",
+     "name": "IBM"
     }
    ],
    "language": "en",
@@ -150,7 +212,20 @@
     "evidence": "headline",
     "checked": "2026-10-29"
    },
-   "pdf_checked": "2026-10-29"
+   "pdf_checked": "2026-10-29",
+   "merged": [
+    {
+     "id": "2f1bc0efdc0a",
+     "date": "2026-10-30",
+     "title": "Banking in an era of customer AI agents as counterparties",
+     "source_title": "عندما يصبح الذكاء الاصطناعي الخاص بالعميل هو الطرف المقابل: الخدمات المصرفية في عالم التفاعل بين الوكلاء",
+     "source_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPN0YxTjJVN3VYWmFRYTUtdWo5eVRNLXIwbGxic1VybTgwQlNyeUJqZlNVWGhCODBEcDJSQnB1dzdHUGVrNmNRcjVINkdPbzNNQU9lUHJ3aTY3QV90QmI1bW9TNHlsN0lvcDVDZmxwZllVR1QtSzVHWE1zYmVkUVdQRHF0VnJodw?oc=5",
+     "source_name": "IBM",
+     "summary": "IBM explores how customer-controlled AI agents will reshape banking relationships and operations as autonomous agents become parties to financial transactions. The analysis addresses the implications of shifting from human to agent-based interactions in banking.",
+     "how": "ai",
+     "anchor": "customer-controlled AI agents as counterparties in banking relationships"
+    }
+   ]
   },
   {
    "id": "6df10ad5ebfa",
@@ -226,7 +301,13 @@
    ],
    "title": "Agentic AI in transaction monitoring: How banks can scale AI in compliance",
    "summary": "McKinsey & Company analysis explores how banks can deploy agentic AI for compliance and transaction monitoring. The guidance addresses scaling autonomous AI agents in regulatory functions.",
-   "key_stats": [],
+   "key_stats": [
+    {
+     "value": "50%",
+     "label": "Reduction in transaction monitoring workload",
+     "quote": "cut banks' transaction monitoring workload by up to 50%"
+    }
+   ],
    "source_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYkZ0V0g0VktzQkZZVEw4cGs5MlItMVRxU29Ham1iZnRRV01nTDlSNEtyQkh4UWFubVdhNDdveEdwVTdqcEd2a3RvU2lhOHlTUkJUTWkxVmRzZWJla1dVTDFPd1p2RGNxdjhYeDR4RUpNMEotRWE0dzF3SklIcGh4THNXRlV4b0FTa19UX2hmWElPY1ZRQUdBTmlpeER6RjJuWVZSR2R0VnprU3FrX01SUWJpc3I5V2lIY0dEMTdtbHMxaG8ySHFwaE1hb1hkNEVVQ2lJd1UxRkpZQlM3?oc=5",
    "source_name": "McKinsey & Company",
    "source_title": "Agentic AI in transaction monitoring: How banks can scale AI in compliance",
@@ -242,6 +323,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTGNGVzdteWNDdlJXRlFoQVNnQUY3Q3hUODVEY1R1Wnl3bUVMRXpJYzZVU3N2M1RfRFpnWXlSb2ZXWkVybGZZS183Z0hUNzlsSmRONjIta1VPcC1JUXlCT3ctYWU1RUM4QjY2VWY2dVVIOFBCRUtwbFh1WENzbFJ0N1g2SUVUUFpIQjQzVlVkZlNzN1JmbXR0a0hEUEozYVhSRldzWGFXVWI1dnB3dEYyZlcyTHFPOW8xUThqcnN1RDZTNUViaFdKaFFNZkJsaF81M19nM1F2c3ZmS2dLeWJiZC1n?oc=5",
      "name": "https://www.indiagazette.com/"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxON09JUU9pNk5rTmIwLURhN0tNNEJaOHpxYVJTMk5TSC0zc0V4MkZfNTdsSVZ5WUtWZU5abmd3azdjV2RwMERJQUR6bjdCVUgyMjFfN3hjMUNTZGtOeTR6bVhHMjlIMXJVaWoyVU9URVkza01NVnZRbWdBNEoxVFJkdU1ueFZQUERUcUpVVTZtM1hLSndoazducngzVjJ0eGY4VklQcjk2T2lhZ19DMGtjSkdUMnpISXNhU2VKRW9jZHI5bVNkaE44UDZVZ0JpNkZzSGdENUFpQUNLWjQwRTdnUzM3ZnlZV0Yta2hSSGJTckJEWGpyeUJHSTdPa0VpOTNvb0RtNmJHd0xRRkRfNHBGYXZkN2RqZ9IBmwJBVV95cUxNTnJQdThHYTJaZUZKUTF6M2RIdVpReDFlTFp3eGYtR2ZLeFZwNkp5SDV2b0JsY0xrU2FFaUJZRlFNOWZSLXZkMlZTVHZoTHNKbjdwNHpDTkQ3dEk0YjRETXduaVNuT0dwZVgzVlY4Ync1QjlvSWo0T19ERzVqeWtUNVRrbmtFUmtrU2JOMHY2ZHRxdkp0UXZMRlVFSFlPV25KdzdOYnlfdWMxSmpSc192blBMdzJPb2k3QW84ZU1oN2Nzd0xSc0Uta0M3N3pKeVFUX2hROUw3NlF2eVRadjVzdXR6ZFFvdS1CVWZFU0JUbFdXZ3hEZTVHN2NXN0cyRFVpU0k3UzRfZnpyZzFCSEZ6YjQ2UTAzaGRadDZF?oc=5",
+     "name": "The Economic Times"
     }
    ],
    "language": "en",
@@ -263,6 +348,17 @@
      "summary": "McKinsey research shows that agentic AI can cut transaction monitoring workloads significantly while enhancing compliance outcomes. The study quantifies productivity gains and quality improvements from AI-driven compliance automation.",
      "how": "ai",
      "anchor": "Agentic AI can reduce banks' transaction monitoring workload by up to 50 percent"
+    },
+    {
+     "id": "ecf7837074eb",
+     "date": "2026-10-28",
+     "title": "Agentic AI can reduce banks' transaction monitoring workload by up to 50 percent",
+     "source_title": "Agentic AI can cut banks' transaction monitoring workload by up to 50%: McKinsey",
+     "source_url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxON09JUU9pNk5rTmIwLURhN0tNNEJaOHpxYVJTMk5TSC0zc0V4MkZfNTdsSVZ5WUtWZU5abmd3azdjV2RwMERJQUR6bjdCVUgyMjFfN3hjMUNTZGtOeTR6bVhHMjlIMXJVaWoyVU9URVkza01NVnZRbWdBNEoxVFJkdU1ueFZQUERUcUpVVTZtM1hLSndoazducngzVjJ0eGY4VklQcjk2T2lhZ19DMGtjSkdUMnpISXNhU2VKRW9jZHI5bVNkaE44UDZVZ0JpNkZzSGdENUFpQUNLWjQwRTdnUzM3ZnlZV0Yta2hSSGJTckJEWGpyeUJHSTdPa0VpOTNvb0RtNmJHd0xRRkRfNHBGYXZkN2RqZ9IBmwJBVV95cUxNTnJQdThHYTJaZUZKUTF6M2RIdVpReDFlTFp3eGYtR2ZLeFZwNkp5SDV2b0JsY0xrU2FFaUJZRlFNOWZSLXZkMlZTVHZoTHNKbjdwNHpDTkQ3dEk0YjRETXduaVNuT0dwZVgzVlY4Ync1QjlvSWo0T19ERzVqeWtUNVRrbmtFUmtrU2JOMHY2ZHRxdkp0UXZMRlVFSFlPV25KdzdOYnlfdWMxSmpSc192blBMdzJPb2k3QW84ZU1oN2Nzd0xSc0Uta0M3N3pKeVFUX2hROUw3NlF2eVRadjVzdXR6ZFFvdS1CVWZFU0JUbFdXZ3hEZTVHN2NXN0cyRFVpU0k3UzRfZnpyZzFCSEZ6YjQ2UTAzaGRadDZF?oc=5",
+     "source_name": "The Economic Times",
+     "summary": "McKinsey reports agentic AI can reduce banks' transaction monitoring workload by up to 50 percent, delivering significant operational efficiency gains in compliance functions.",
+     "how": "ai",
+     "anchor": "agentic AI for transaction monitoring"
     }
    ]
   },
@@ -5861,35 +5957,6 @@
     {
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU0VocThLbk85LU5jZG5TYzZfdUNvbENtSlRjTF9NVWtPcTlZOGNDNTBFbW9jTWVfVV9nU3dCQnFPOS1oQlQyb1ByaVF5LUpUWmktUUpjMGpUcE9BTGhIdl92WVpmczR6bkNSTmtPVk1oWExvalFxLUxaLWdoY0FhMFNTZG4ybV9wVHZGQ2hJX2xPYUswUnVTWEVXbTNFbUFnc0hHblIwNHpULU42?oc=5",
      "name": "pwc.com"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "official",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-06"
-  },
-  {
-   "id": "f7cf193f2c1a",
-   "date": "2025-10-29",
-   "category": "Expert Views",
-   "publisher": "McKinsey & Company",
-   "countries": [
-    "Global"
-   ],
-   "title": "JPMorgan Chase’s Derek Waldron on building an AI-first bank culture",
-   "summary": "McKinsey publishes a JPMorgan Chase executive's perspective on embedding AI-first culture and operations. The interview reveals organizational transformation strategy for banking AI adoption.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNalVSS3BHeW03d0ktVVZuRkluSTBzcVJ6Nkg3LUFleWZ6QVhZWEljdFRHV3ZSY1ZWVUNTcGhyUWxLYW81QklYbmtNb1BIUTRQWW92UHdJRTg4TlVaZEdKZ3dOYlNla1JPYTBSZDJOV2xUSmhxTTlHZ3NLanM3UnVXTktKSE9NMEtlcHl3ZG1Fc0toaE1abWxaNERfbU8tMTM2NWNhLTVwWmw4Mk1QbEtCZGR3ZTJwdTVKanRlVjhyaXR3MFdLMU82TUNOX2ZWRHc?oc=5",
-   "source_name": "McKinsey & Company",
-   "source_title": "JPMorgan Chase’s Derek Waldron on building an AI-first bank culture",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNalVSS3BHeW03d0ktVVZuRkluSTBzcVJ6Nkg3LUFleWZ6QVhZWEljdFRHV3ZSY1ZWVUNTcGhyUWxLYW81QklYbmtNb1BIUTRQWW92UHdJRTg4TlVaZEdKZ3dOYlNla1JPYTBSZDJOV2xUSmhxTTlHZ3NLanM3UnVXTktKSE9NMEtlcHl3ZG1Fc0toaE1abWxaNERfbU8tMTM2NWNhLTVwWmw4Mk1QbEtCZGR3ZTJwdTVKanRlVjhyaXR3MFdLMU82TUNOX2ZWRHc?oc=5",
-     "name": "McKinsey & Company"
     }
    ],
    "language": "en",

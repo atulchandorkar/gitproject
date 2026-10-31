@@ -1,6 +1,74 @@
 {
- "updated_at": "2026-10-30T03:27:28+00:00",
+ "updated_at": "2026-10-31T03:10:36+00:00",
  "items": [
+  {
+   "id": "16124ded37df",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2026-10-30",
+   "title": "Emirates NBD to champion AI and FinTech innovation at Dubai FinTech Summit 2026",
+   "summary": "Emirates NBD is serving as Premium Banking Partner at Dubai FinTech Summit 2026, highlighting its role in championing AI and FinTech innovation.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "AI strategy",
+    "FinTech"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ3l3SFlVN3ZOMlQySUt2c0JETEF4MGxDUDhwMTk3WkVOZ1ItR0NSQWRFbXd4bU9tbFBEVnh5dVVFR3p1RmIzM2xMbXl3b2g2NGtaVGdTVnJFeU1ONUpLOVBRVFRha0Q4by12TG1DT2hid0FtNzEyV1pIV1VhUTJfR004NjRPYnQw?oc=5",
+   "source_name": "www.wam.ae",
+   "source_title": "Emirates NBD to champion AI, FinTech innovation as Premium Banking Partner at Dubai FinTech Summit 2026",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ3l3SFlVN3ZOMlQySUt2c0JETEF4MGxDUDhwMTk3WkVOZ1ItR0NSQWRFbXd4bU9tbFBEVnh5dVVFR3p1RmIzM2xMbXl3b2g2NGtaVGdTVnJFeU1ONUpLOVBRVFRha0Q4by12TG1DT2hid0FtNzEyV1pIV1VhUTJfR004NjRPYnQw?oc=5",
+     "name": "www.wam.ae"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-31T03:06:42+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-31"
+   }
+  },
+  {
+   "id": "1552df4b1a60",
+   "bank_id": "mashreq",
+   "country": "AE",
+   "date": "2026-10-30",
+   "title": "Mashreq says AI boosts crime probe productivity",
+   "summary": "Mashreq states that AI has enhanced productivity in crime investigations.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "AI",
+    "Crime investigation"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbnFaNmduaVE2TVNYREszcmhoOVVvdG5xcE5GNGFaeGRhaEhDc2IzWFppY0NMVXRhNlZ3ZUtkLUE1M09DUVpyTGIxTmxwTFhYQmt6Y1dfTzRBSzN4eXdLQXFRRXRGUkxoX09PLTlheHo1MVJGRHZNaVJ1eWVTMm8ycnFpUXBxR0duWUwwQ2RRU19YcWgzSjVlOA?oc=5",
+   "source_name": "Arabian Gulf Business Insight | AGBI",
+   "source_title": "Mashreq says AI boosts crime probe productivity",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbnFaNmduaVE2TVNYREszcmhoOVVvdG5xcE5GNGFaeGRhaEhDc2IzWFppY0NMVXRhNlZ3ZUtkLUE1M09DUVpyTGIxTmxwTFhYQmt6Y1dfTzRBSzN4eXdLQXFRRXRGUkxoX09PLTlheHo1MVJGRHZNaVJ1eWVTMm8ycnFpUXBxR0duWUwwQ2RRU19YcWgzSjVlOA?oc=5",
+     "name": "Arabian Gulf Business Insight | AGBI"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-10-31T03:06:42+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-10-31"
+   }
+  },
   {
    "id": "86e143c0c2c0",
    "bank_id": "boubyan",
