@@ -1,6 +1,109 @@
 {
  "digests": [
   {
+   "id": "2026-10-31",
+   "start": "2026-10-25",
+   "end": "2026-10-31",
+   "created_at": "2026-11-01T03:05:54+00:00",
+   "counts": {
+    "news": 4,
+    "banks": 4,
+    "annual_report_items": 0,
+    "annual_report_banks": 0,
+    "studies": 21
+   },
+   "countries": {
+    "AE": 2,
+    "QA": 1,
+    "KW": 1
+   },
+   "themes": [
+    [
+     "AI Strategy & Leadership",
+     3
+    ],
+    [
+     "Tech Vendor Partnerships",
+     1
+    ],
+    [
+     "AI Adoption in Operations",
+     1
+    ],
+    [
+     "Fraud, Risk & Compliance",
+     1
+    ]
+   ],
+   "partners": [],
+   "banks": [
+    [
+     "qnb",
+     1
+    ],
+    [
+     "boubyan",
+     1
+    ],
+    [
+     "enbd",
+     1
+    ],
+    [
+     "mashreq",
+     1
+    ]
+   ],
+   "top": [
+    "2faf6ebdb2a5",
+    "86e143c0c2c0",
+    "16124ded37df",
+    "1552df4b1a60"
+   ],
+   "studies_top": [
+    "54bf5f241b9c",
+    "fbf1d3bd37a7",
+    "67a1f1b57566",
+    "79bee4c10258",
+    "fe4935e5ac09"
+   ],
+   "report_banks": [],
+   "takeaways": [
+    {
+     "text": "GCC banks actively deploy AI across financing, compliance, and advisory functions, while global debate focuses on agentic AI governance and infrastructure readiness.",
+     "ids": [
+      "2faf6ebdb2a5",
+      "86e143c0c2c0",
+      "1552df4b1a60",
+      "67a1f1b57566"
+     ]
+    },
+    {
+     "text": "Dubai hosts multiple AI forums examining banking sector readiness for autonomous agents, while US banks restrict third-party AI agent account access citing security concerns.",
+     "ids": [
+      "54bf5f241b9c",
+      "fbf1d3bd37a7"
+     ]
+    },
+    {
+     "text": "Global investment banks deploy AI for wealth adviser efficiency and transaction monitoring, while agentic AI adoption forecast to drive banking M&A surge.",
+     "ids": [
+      "fe4935e5ac09",
+      "67a1f1b57566",
+      "ce7af5539a62"
+     ]
+    },
+    {
+     "text": "European banks face sovereign AI infrastructure limitations, and central banks assess macroeconomic implications of AI as banking industry faces uncertain AI trajectory.",
+     "ids": [
+      "7c81aaed2f85",
+      "cb31a30ebd8c",
+      "364f68fabb83"
+     ]
+    }
+   ]
+  },
+  {
    "id": "2026-10-24",
    "start": "2026-10-18",
    "end": "2026-10-24",
