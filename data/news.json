@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02T03:14:53+00:00",
+ "updated_at": "2026-11-02T03:23:32+00:00",
  "items": [
   {
    "id": "6cb93cc486b5",
@@ -247,42 +247,6 @@
    }
   },
   {
-   "id": "bb9536e5d03d",
-   "bank_id": "nbb",
-   "country": "BH",
-   "date": "2026-10-20",
-   "title": "NBB Group advances AI capability building through strategic programme with Reboot Coding Institute",
-   "summary": "National Bank of Bahrain is advancing AI capabilities through a strategic programme with Reboot Coding Institute.",
-   "category": "AI Skills & Talent",
-   "topics": [
-    "AI Skills & Talent"
-   ],
-   "tags": [
-    "AI training",
-    "Capability building"
-   ],
-   "partners": [
-    "Reboot Coding Institute"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN3d2SkN1UUhJUFFwNmthT21QdWw4b19VaXl2RWpycUdUTmhWeHp6Ykh6WWg3anRUS0VVVlZELVRrekpWNnlZMGRfUGNUNGNqVUVjOGVaOXRaN0NiZzV5ZTk3WXZBTjFuaC1aOTVjNEhKUGo0S2FfbjIwcjQ2NHBRbWhubnhYSFBJaXVzUXd0Mk1fTE5MQjYycWVpVnRNMTVlVGI3Uk9SeDRPRWxxdzlscURFOUdwd2I1Wm1ZWmhfV2hqWGE3RGw5UlJiaWRkSWNHVnY0MUlqTQ?oc=5",
-   "source_name": "Gulf Daily News (Bahrain)",
-   "source_title": "NBB Group advances AI capability building through strategic programme with Reboot Coding Institute",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN3d2SkN1UUhJUFFwNmthT21QdWw4b19VaXl2RWpycUdUTmhWeHp6Ykh6WWg3anRUS0VVVlZELVRrekpWNnlZMGRfUGNUNGNqVUVjOGVaOXRaN0NiZzV5ZTk3WXZBTjFuaC1aOTVjNEhKUGo0S2FfbjIwcjQ2NHBRbWhubnhYSFBJaXVzUXd0Mk1fTE5MQjYycWVpVnRNMTVlVGI3Uk9SeDRPRWxxdzlscURFOUdwd2I1Wm1ZWmhfV2hqWGE3RGw5UlJiaWRkSWNHVnY0MUlqTQ?oc=5",
-     "name": "Gulf Daily News (Bahrain)"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-22T02:19:43+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-22"
-   }
-  },
-  {
    "id": "840a834b6389",
    "bank_id": "enbd",
    "country": "AE",
@@ -398,11 +362,13 @@
     "Reboot",
     "AI training",
     "Strategic programme",
-    "Robot Institute"
+    "Robot Institute",
+    "Capability building"
    ],
    "partners": [
     "Rebott",
-    "Reboot"
+    "Reboot",
+    "Reboot Coding Institute"
    ],
    "impact": "",
    "source_url": "https://news.google.com/rss/articles/CBMi1gVBVV95cUxNb3JhX2NSY2VpOEZoMDRXZ2pOZ0hZV19NMWdWSEdYNFlsa0VkdmJ4enQ0NkdnanNFMkNUQjl0UTB6SlR0eVFmckJ3cFc1ZDV3eElKZGpoMWs3UGNCOE4tSnZjUjUtYWFxejM4ejdPeV9tbHhhcmNza2Rxa2NZRTVMMDdLTHNmeUhqWU5JTTNiQmNPVVllTVppcUNVblpKelhhb2Q4TVh2cjNZYnJwckZmSzJ2SkhxZy00ZDJ4OUJ3TlVSSHdQUVZHSjZRNWxKZlFFM2E4MjI3MXZpWDRTQ2ZtZmRZdzFWbll3dkdXOXc0VWFMcklKcXEzSl9TRjk2YzdMXzBHYVhwLTJRX2FDaFVBRWdkbzJjVFBXQ1laR2lYblgxWjQyUHlqUlNkRXNyUDVmcHNQQTBHZ1cyT3ZYRXZtRXlDWVBnOFA3UElpYnFHQ0RaQ0Z0MUJnajNTRElmQnMwTEMyN052Mk8wOU1IWHRaamhKSzc1bUk0YnVINzhYLUtBWkRaZV9EbXRQQkU2em1tUHZlaVZBSjcyTVBZVDB0dFdzNmtKY1VrckQxTkUtbERhNERWV3J5Q2hCekpUM2trVm56YkgtbG41RXJINzhfenJfXzJqV0NnYS1XeHBZOW9zUzVoX2ZLVmVrZ1d6cW1RazVKTk5JcHM5ei1VM3hrOWhWeVA0LWhiZkduVGlrM2lwVUZlc2hObjJzSTFsMkVxM3ZXc2tpZ2xpdGlfdnU1QVJGTTFLbDIxdkhiNktfcDhVeWx2OURRLV9MRVVkSXdsVm5pWWs4aUpxdnhULTcyWVl2RXloZ3NTLUVhUUxCYUtxYlpsNXJ4UHpJWEVqbmlEMFNqMGZoZnFBY3l2cHdaN3dxd2V3cGVmNi1ENDZUN2Q1U1h0RkhPWkRWZDhJQkl3YnFpcWk1S3pWcDRsMzZTdElhdkp2VmZfQUpDRkZLeTdnTDdHVmfSAVRBVV95cUxNSDFpa0NuS21ONG9rS0hqUFY3d1lha3BVM3dBWDM0cjRFbllWa1NUX2hhM2s4NVp5V2FaQTdiQU1pN0JjZVZ1bFhwQlI1UTJLTW0wTkg?oc=5",
@@ -420,6 +386,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pV1lUek94T1o4STlYY2pnZDRURHctUFBKU3NXSkx5ajBZbVc1T1lvTFVTQUlfTmVwRVAzT2tvWEtDeXZKWkdDOUREYUpxcjVBc0tOYWhLaDh1M0dibldNTkU4VGEwdw?oc=5",
      "name": "صحيفة الأيام البحرينية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN3d2SkN1UUhJUFFwNmthT21QdWw4b19VaXl2RWpycUdUTmhWeHp6Ykh6WWg3anRUS0VVVlZELVRrekpWNnlZMGRfUGNUNGNqVUVjOGVaOXRaN0NiZzV5ZTk3WXZBTjFuaC1aOTVjNEhKUGo0S2FfbjIwcjQ2NHBRbWhubnhYSFBJaXVzUXd0Mk1fTE5MQjYycWVpVnRNMTVlVGI3Uk9SeDRPRWxxdzlscURFOUdwd2I1Wm1ZWmhfV2hqWGE3RGw5UlJiaWRkSWNHVnY0MUlqTQ?oc=5",
+     "name": "Gulf Daily News (Bahrain)"
     }
    ],
    "language": "ar",
@@ -451,6 +421,17 @@
      "summary": "National Bank of Bahrain is enhancing its AI capabilities through a strategic programme in collaboration with the Robot Institute for programming.",
      "how": "ai",
      "anchor": "National Bank of Bahrain strengthens AI capabilities through strategic programme with Rebott"
+    },
+    {
+     "id": "bb9536e5d03d",
+     "date": "2026-10-20",
+     "title": "NBB Group advances AI capability building through strategic programme with Reboot Coding Institute",
+     "source_title": "NBB Group advances AI capability building through strategic programme with Reboot Coding Institute",
+     "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN3d2SkN1UUhJUFFwNmthT21QdWw4b19VaXl2RWpycUdUTmhWeHp6Ykh6WWg3anRUS0VVVlZELVRrekpWNnlZMGRfUGNUNGNqVUVjOGVaOXRaN0NiZzV5ZTk3WXZBTjFuaC1aOTVjNEhKUGo0S2FfbjIwcjQ2NHBRbWhubnhYSFBJaXVzUXd0Mk1fTE5MQjYycWVpVnRNMTVlVGI3Uk9SeDRPRWxxdzlscURFOUdwd2I1Wm1ZWmhfV2hqWGE3RGw5UlJiaWRkSWNHVnY0MUlqTQ?oc=5",
+     "source_name": "Gulf Daily News (Bahrain)",
+     "summary": "National Bank of Bahrain is advancing AI capabilities through a strategic programme with Reboot Coding Institute.",
+     "how": "words",
+     "anchor": ""
     }
    ]
   },
@@ -470,7 +451,8 @@
     "Enterprise AI",
     "IBM partnership",
     "AI adoption",
-    "watsonx"
+    "watsonx",
+    "operational AI"
    ],
    "partners": [
     "IBM watsonx",
@@ -532,53 +514,19 @@
      "summary": "First Abu Dhabi Bank Egypt is expanding its enterprise AI capabilities through a collaboration with IBM using the watsonx platform.",
      "how": "ai",
      "anchor": "IBM watsonx"
+    },
+    {
+     "id": "acfa7ae38a07",
+     "date": "2026-10-19",
+     "title": "FAB Egypt Adopts IBM AI Solutions to Advance Banking Operations",
+     "source_title": "أبوظبي الأول مصر يعتمد حلول الذكاء الاصطناعي من IBM لتطوير العمليات المصرفية",
+     "source_url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPRUJMaGxXdmo2eFZHR1Zob0JhbnZoZDRNaV9RZENIR3d0OVp3cG1EeWh5aUpyV21PNzhMUWk1a0tBLUE4ZzAxdzc3RXRVUTVGdUUyZjlKX0VNT01GNDRxSWpkSlMwRUduWmtNVDBCV3FYN1NEc1hyWkhHRXVtQS04cXhCckVCaGdEV0FnODhDNXRJOVlhdlNLS1pfcUFDTWdkVVJQNGJ4UUFMRF8xLTVTQUNON0Z3RUFwbm0tZHNnVFpTaVQ4QTZici1vN1VGbzV3N1dvMnB5RWF2WVp1VkpsOGx4cWp5WGh6QlFOTmo1ZWItU05xUkRUX0kzdURleURROGszS2xjeDNWZm9keDVuRjBaYTJlYkN3dDZQTTlnVnhvTkFvcXJRNW9aQ29hM2tSOG9jNGNDbUg3bDgtdERRdW1Bb3N4eXU3R3Vwakc4cV9VazZo?oc=5",
+     "source_name": "جريدة حابي",
+     "summary": "First Abu Dhabi Bank Egypt is adopting IBM artificial intelligence solutions to develop and improve banking operations.",
+     "how": "ai (cached)",
+     "anchor": ""
     }
    ]
-  },
-  {
-   "id": "acfa7ae38a07",
-   "bank_id": "fab",
-   "country": "AE",
-   "date": "2026-10-19",
-   "title": "FAB Egypt Adopts IBM AI Solutions to Advance Banking Operations",
-   "summary": "First Abu Dhabi Bank Egypt is adopting IBM artificial intelligence solutions to develop and improve banking operations.",
-   "category": "Tech Vendor Partnerships",
-   "topics": [
-    "Tech Vendor Partnerships",
-    "AI Adoption in Operations"
-   ],
-   "tags": [
-    "IBM partnership",
-    "operational AI"
-   ],
-   "partners": [
-    "IBM"
-   ],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPRUJMaGxXdmo2eFZHR1Zob0JhbnZoZDRNaV9RZENIR3d0OVp3cG1EeWh5aUpyV21PNzhMUWk1a0tBLUE4ZzAxdzc3RXRVUTVGdUUyZjlKX0VNT01GNDRxSWpkSlMwRUduWmtNVDBCV3FYN1NEc1hyWkhHRXVtQS04cXhCckVCaGdEV0FnODhDNXRJOVlhdlNLS1pfcUFDTWdkVVJQNGJ4UUFMRF8xLTVTQUNON0Z3RUFwbm0tZHNnVFpTaVQ4QTZici1vN1VGbzV3N1dvMnB5RWF2WVp1VkpsOGx4cWp5WGh6QlFOTmo1ZWItU05xUkRUX0kzdURleURROGszS2xjeDNWZm9keDVuRjBaYTJlYkN3dDZQTTlnVnhvTkFvcXJRNW9aQ29hM2tSOG9jNGNDbUg3bDgtdERRdW1Bb3N4eXU3R3Vwakc4cV9VazZo?oc=5",
-   "source_name": "جريدة حابي",
-   "source_title": "أبوظبي الأول مصر يعتمد حلول الذكاء الاصطناعي من IBM لتطوير العمليات المصرفية",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPRUJMaGxXdmo2eFZHR1Zob0JhbnZoZDRNaV9RZENIR3d0OVp3cG1EeWh5aUpyV21PNzhMUWk1a0tBLUE4ZzAxdzc3RXRVUTVGdUUyZjlKX0VNT01GNDRxSWpkSlMwRUduWmtNVDBCV3FYN1NEc1hyWkhHRXVtQS04cXhCckVCaGdEV0FnODhDNXRJOVlhdlNLS1pfcUFDTWdkVVJQNGJ4UUFMRF8xLTVTQUNON0Z3RUFwbm0tZHNnVFpTaVQ4QTZici1vN1VGbzV3N1dvMnB5RWF2WVp1VkpsOGx4cWp5WGh6QlFOTmo1ZWItU05xUkRUX0kzdURleURROGszS2xjeDNWZm9keDVuRjBaYTJlYkN3dDZQTTlnVnhvTkFvcXJRNW9aQ29hM2tSOG9jNGNDbUg3bDgtdERRdW1Bb3N4eXU3R3Vwakc4cV9VazZo?oc=5",
-     "name": "جريدة حابي"
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFB0VTNSQUxkWjVubEV3SHFoR2NGVG5LaVZKRG4wdDdZVkgwNzA3dllYUDM2Mmd3LVVRMndRbXU1NE1Fc2JE?oc=5",
-     "name": "بوابة التكنولوجيا المالية"
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE80VWlIcjF1VkJBSHM1clhIWmpGWk5OSFZjZnRDYmxyTXIwQUx3N0dGLTUyc01VSHlJaFhTai13RVNVbEt6?oc=5",
-     "name": "خبري نيوز"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-20T02:31:24+00:00",
-   "verification": {
-    "level": "corroborated",
-    "evidence": "headline",
-    "checked": "2026-10-20"
-   }
   },
   {
    "id": "5303cdb55378",

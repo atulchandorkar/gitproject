@@ -1,5 +1,5 @@
 {
- "last_update": "2026-11-02T03:11:08+00:00",
+ "last_update": "2026-11-02T03:19:56+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -1656,7 +1656,11 @@
   "162ea3c2293d49": "2026-11-01",
   "914d1e911650e1": "2026-11-01",
   "6eeb38ca0986dc": "2026-11-01",
-  "d2b838acf485af": "2026-11-01"
+  "d2b838acf485af": "2026-11-01",
+  "f75723986ae63b": "2026-10-29",
+  "9d2e85dee75d59": "2026-10-30",
+  "af0a64e65bce0d": "2026-10-31",
+  "8bc1ee8ae509e3": "2026-11-02"
  },
  "history_loaded": {
   "adcb": "2026-10-05",
@@ -2695,7 +2699,7 @@
   "ahlibankqa": {
    "checked": "2026-10-05",
    "url": "https://www.ahlibank.com.qa/en/media-center/news-press-releases",
-   "status": "ok",
+   "status": "unreachable (URLError)",
    "links": 24,
    "scanned": "2026-11-02",
    "known": [
@@ -2744,8 +2748,8 @@
     "882c184db046",
     "3ba9805d68e8",
     "0db97da1ee51",
-    "193256151cc6",
     "50b8807e44ab",
+    "193256151cc6",
     "be16840cf616"
    ]
   },
@@ -4410,7 +4414,12 @@
   "b36026464217f7": "2026-11-01",
   "2c79b8657ee645": "2026-11-01",
   "c4f46a1a56c2c4": "2026-11-01",
-  "f34bb6606336b5": "2026-11-02"
+  "f34bb6606336b5": "2026-11-02",
+  "2f7fb402998bc0": "2026-10-26",
+  "e9466983ae7026": "2026-10-28",
+  "b863ce77342e1f": "2026-11-01",
+  "4892d942e08f73": "2026-11-01",
+  "faf611d4b3a961": "2026-11-01"
  },
  "sector_known": {},
  "sector_pending": [
@@ -11971,6 +11980,204 @@
    "merge": false,
    "anchor": "",
    "confidence": "medium",
+   "same": false
+  },
+  "v2|040cbba92e41|0eb6047ab7a3": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3b4f59cdc468|f6c90756d123": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|695b453e11d8|7aeb950c6feb": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|9693a269ddc7|f1e8ab70eb53": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|279dec52a108|f1e8ab70eb53": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|f1e8ab70eb53|fe4935e5ac09": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3b4f59cdc468|f1e8ab70eb53": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3b4f59cdc468|c84cdb94f33c": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|a2fa7f5f8431|f6c90756d123": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|0926f76c564f|9693a269ddc7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|0926f76c564f|18e0e9cc9120": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|6be1ef1d0300|b4d0f3fb9746": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|397483223489|6be1ef1d0300": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|9693a269ddc7|f41c4e564604": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|de4d42b2f1b7|fbf1d3bd37a7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|79bee4c10258|de4d42b2f1b7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|c6f24ecae1de|de4d42b2f1b7": {
+   "merge": true,
+   "anchor": "agentic AI",
+   "confidence": "high",
+   "same": true
+  },
+  "v2|7c81aaed2f85|de4d42b2f1b7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|6df10ad5ebfa|de4d42b2f1b7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|4f60d3324680|de4d42b2f1b7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|9693a269ddc7|ce7af5539a62": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|18e0e9cc9120|ce7af5539a62": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|0f15a6387430|9693a269ddc7": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|0f15a6387430|18e0e9cc9120": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|0f15a6387430|ce7af5539a62": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|b737f5bab60d|e244416111dd": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|164d4661ebdf|f8ed31ce09d8": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|3c50e0ce36ef|9f471b3b0471": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|040cbba92e41|c76bb2a6eb7d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|c813e4e53244|f6c90756d123": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|c813e4e53244|f1e8ab70eb53": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|3b4f59cdc468|77430aa6048d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|568950808958|c813e4e53244": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
    "same": false
   }
  }

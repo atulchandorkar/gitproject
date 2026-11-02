@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-02T03:14:53+00:00",
+ "updated_at": "2026-11-02T03:23:32+00:00",
  "items": [
   {
    "id": "cb31a30ebd8c",
@@ -199,6 +199,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5YVkNTZVBzbjgxZVBKYU5oWC1GOVk3cnhDMnpIUVhzME5sNmZHa3FOV1czVTZibnlXV3h5M1pGVWxMX2JUYi1UOVZHWUw0VnJDWE51Qmg5dlljd2Z1Nnl3UUw5b09CTHIwcGVTTHRuWFpYby1Cdmxkclk5OA?oc=5",
      "name": "Global Finance Magazine"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWFg4ZEtwTHdkcEJaRHFkRDVySnpNM2huYUwyWHUyZlpYc3pRSThxYWdvYlNPbnhoQTZ1N3Fsd25UMHJ6UUtWVmE4cVdDT20zSHhSQi1pN2NKUElQaEpWaGxrZGxaTDdkMHFDU0czbWx6NDZ4c190dEpGNjZ4emU0S3pEWVhDMVRweU1jME8zOExmZHoxa1ZOREZpbzBhSmwySHk5bGdHWC1yUzl4Y2VCWGRZRVVlMm5xR3A2bW5fVjBhU2xaLUZvOFpBNDEzbHB4VFk3WHRWVnYxUTA?oc=5",
+     "name": "BNN Bloomberg"
     }
    ],
    "language": "en",
@@ -208,7 +212,20 @@
     "evidence": "headline",
     "checked": "2026-10-30"
    },
-   "pdf_checked": "2026-10-30"
+   "pdf_checked": "2026-10-30",
+   "merged": [
+    {
+     "id": "de4d42b2f1b7",
+     "date": "2026-10-28",
+     "title": "Canadian banks blocking personal AI agents amid security concerns",
+     "source_title": "Some Canadian banks blocking personal AI agents amid security concerns",
+     "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWFg4ZEtwTHdkcEJaRHFkRDVySnpNM2huYUwyWHUyZlpYc3pRSThxYWdvYlNPbnhoQTZ1N3Fsd25UMHJ6UUtWVmE4cVdDT20zSHhSQi1pN2NKUElQaEpWaGxrZGxaTDdkMHFDU0czbWx6NDZ4c190dEpGNjZ4emU0S3pEWVhDMVRweU1jME8zOExmZHoxa1ZOREZpbzBhSmwySHk5bGdHWC1yUzl4Y2VCWGRZRVVlMm5xR3A2bW5fVjBhU2xaLUZvOFpBNDEzbHB4VFk3WHRWVnYxUTA?oc=5",
+     "source_name": "BNN Bloomberg",
+     "summary": "Canadian banks are restricting personal AI agents due to security risks, reflecting sector concerns about AI adoption and data protection measures.",
+     "how": "ai",
+     "anchor": "agentic AI"
+    }
+   ]
   },
   {
    "id": "79bee4c10258",
