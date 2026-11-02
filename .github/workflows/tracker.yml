@@ -2,8 +2,12 @@ name: GCC Bank AI Tracker
 
 on:
   schedule:
-    - cron: "0 0 * * *"    # daily at 03:00 Qatar time (UTC+3)
-    - cron: "0 1 * * *"    # backup at 04:00 Qatar time: does nothing if today's run already happened
+    # GitHub starts scheduled runs late at busy times (often 2-3 hours at 00:00 UTC), so the daily update is
+    # asked for at quiet minutes from 02:13 Qatar time (UTC+3); the first one GitHub starts does the work and the
+    # later ones do nothing that day. Aim: dashboard updated by about 03:00 Qatar time.
+    - cron: "13 23 * * *"  # 02:13 Qatar time
+    - cron: "43 23 * * *"  # 02:43 Qatar time (backup)
+    - cron: "13 1 * * *"   # 04:13 Qatar time (backup)
   workflow_dispatch:
     inputs:
       mode:
