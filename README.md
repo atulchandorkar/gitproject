@@ -54,7 +54,7 @@ In **Settings → Secrets and variables → Actions**:
 ### 5. First run
 **Actions → GCC Bank AI Tracker → Run workflow**
 1. `mode = telegram-test`: you should receive a "connected" message.
-2. `mode = update`: the first run loads **24 months of history** for every bank (about 30–45 minutes), then finds the latest news. After that it runs by itself once a day at 03:00 Qatar time, with a backup at 04:00 that runs only if the first one was delayed or skipped by GitHub.
+2. `mode = update`: the first run loads **24 months of history** for every bank (about 30–45 minutes), then finds the latest news. After that it runs by itself once a day, aiming to have the dashboard updated by about 03:00 Qatar time (GitHub often starts scheduled runs late, so it is asked to start at 02:13, with backups at 02:43 and 04:13 that do nothing if the day's run already happened) that runs only if the first one was delayed or skipped by GitHub.
 
 History is saved bank by bank. If a run stops partway, the next run picks up where it left off. History items are not pushed to Telegram one by one; you get a single summary message instead.
 

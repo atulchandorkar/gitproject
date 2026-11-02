@@ -139,7 +139,8 @@ def save_json(path: Path, data) -> None:
 
 
 def today() -> dt.date:
-    return dt.datetime.now(dt.timezone.utc).date()
+    """Today in Qatar time (UTC+3): runs start before 03:00 Qatar time, when the UTC date is still yesterday."""
+    return (dt.datetime.now(dt.timezone.utc) + dt.timedelta(hours=3)).date()
 
 
 def now_iso() -> str:
@@ -405,7 +406,8 @@ class Tracker:
                              self.state.setdefault("dup_verdicts", {}), near_days=7)
         # Annual-report items are different disclosures from one report (repeats are already combined when the
         # report is read), so they are never merged on the AI's judgement – only exact word-for-word repeats.
-        reports = dedupe.dedupe(reports, lambda i: f'{i["bank_id"]}|{i["report"]["year"]}', names, None, {})
+        reports = dedupe.dedupe(reports, lambda i: f'{i["bank_id"]}|{i["report"]["year"]}', names, None, {},
+                                fuzzy=False)
         self.news["items"] = news + reports
         if len(self.news["items"]) < before:
             print(f"  merged {before - len(self.news['items'])} duplicate stories")
@@ -758,9 +760,9 @@ def main() -> None:
     tracker = Tracker()
     tg = Telegram(tracker.banks, tracker.countries)
 
-    # Two daily schedules (03:00 and a 04:00 Qatar-time backup, because GitHub sometimes starts scheduled runs
-    # late or skips them): a scheduled run does nothing if an update already ran today (Qatar time), so the backup
-    # skips after the 03:00 run, while a manual run the evening before never stops the next morning's run.
+    # Several daily schedules (from 02:13 Qatar time, because GitHub often starts scheduled runs late or
+    # skips them): a scheduled run does nothing if an update already ran today (Qatar time), so the backups
+    # skip after the day's first run, while a manual run the evening before never stops the next morning's run.
     if args.mode == "update" and os.environ.get("SCHEDULED_RUN") == "true" and tracker.state.get("last_update"):
         qatar = dt.timezone(dt.timedelta(hours=3))
         last = dt.datetime.fromisoformat(tracker.state["last_update"]).astimezone(qatar).date()

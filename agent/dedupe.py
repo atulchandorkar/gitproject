@@ -46,19 +46,37 @@ def tokens(title: str, names: Iterable[str] = ()) -> set[str]:
     return {_stem(w) for w in re.findall(r"\w+", t) if w not in STOP and len(w) > 1}
 
 
-def overlap(a: set[str], b: set[str]) -> tuple[float, float]:
+def _close(x: str, y: str) -> bool:
+    """Same word in another form or with a typo: shared start of 6+ letters ("capability"/"capabilities"),
+    or one letter different in a longer word ("Reboot"/"Rebott")."""
+    if x == y:
+        return True
+    if min(len(x), len(y)) >= 6 and x[:6] == y[:6]:
+        return True
+    if min(len(x), len(y)) >= 5 and abs(len(x) - len(y)) <= 1:
+        if len(x) == len(y):
+            return sum(c != d for c, d in zip(x, y)) <= 1
+        s, t = sorted((x, y), key=len)
+        return any(t[:k] + t[k + 1:] == s for k in range(len(t)))
+    return False
+
+
+def overlap(a: set[str], b: set[str], fuzzy: bool = True) -> tuple[float, float]:
     if not a or not b:
         return 0.0, 0.0
-    i = len(a & b)
-    return i / len(a | b), i / min(len(a), len(b))
+    if fuzzy:   # words of a that appear (in some form) in b
+        i = min(sum(1 for w in a if any(_close(w, v) for v in b)), len(b))
+    else:
+        i = len(a & b)
+    return i / (len(a) + len(b) - i), i / min(len(a), len(b))
 
 
-def lexical_same(titles_a: list[str], titles_b: list[str], names: Iterable[str] = ()) -> bool:
+def lexical_same(titles_a: list[str], titles_b: list[str], names: Iterable[str] = (), fuzzy: bool = True) -> bool:
     names = list(names)
     for x in titles_a:
         for y in titles_b:
             ta, tb = tokens(x, names), tokens(y, names)
-            jac, cont = overlap(ta, tb)
+            jac, cont = overlap(ta, tb, fuzzy)
             if jac >= 0.45 or (cont >= 0.75 and min(len(ta), len(tb)) >= 3):
                 return True
     return False
@@ -114,15 +132,19 @@ def is_official(i: dict) -> bool:
 
 def should_merge(v: dict, a: dict, b: dict, names: Iterable[str] = ()) -> bool:
     """Merge decision from the AI verdict (also re-applied to cached verdicts when these rules change).
-    Always required: the AI says SAME event with HIGH confidence. Then any one of:
+    Same event with MEDIUM confidence: merged only if the shared detail is in both stories and they are
+    ≤ 2 days apart (e.g. "FAB Egypt accelerates AI via IBM watsonx" / "FAB Egypt adopts IBM AI solutions").
+    Same event with HIGH confidence, then any one of:
       - the shared detail it names is in both stories;
       - the stories are ≤ 2 days apart and the detail is in at least one (outlets often leave details out:
         "milestone AI certification" vs "ISO/IEC 42001 certification", or an Arabic article without "AI@NBB");
       - one copy is the bank's official source and they are ≤ 7 days apart (outside reports of an official
         announcement are folded into it; the official copy stays on top)."""
-    if not (v.get("same") and v.get("confidence") == "high"):
+    if not v.get("same") or v.get("confidence") not in ("high", "medium"):
         return False
     anchor, names = v.get("anchor") or "", list(names)
+    if v.get("confidence") == "medium":   # less sure: the shared detail must be in both, ≤ 2 days apart
+        return anchor_in_both(anchor, a, b, names) and _days(a, b) <= 2
     if anchor_in_both(anchor, a, b, names):
         return True
     if not anchor_in_one(anchor, a, b, names):
@@ -170,7 +192,8 @@ def _rank(i: dict) -> tuple:
 
 def dedupe(items: list[dict], group: Callable[[dict], str], names: Callable[[dict], list[str]],
            ask: Callable | None, cache: dict, max_days: int = 10,
-           related: Callable[[dict, dict], bool] | None = None, near_days: int = 0) -> list[dict]:
+           related: Callable[[dict, dict], bool] | None = None, near_days: int = 0,
+           fuzzy: bool = True) -> list[dict]:
     """Return items with duplicates merged. `group` keeps comparisons within one bank (or one sector topic),
     `names` gives words to ignore (the bank's own names), `ask` is FactChecker.ask (None = word match only),
     `cache` stores AI verdicts by pair id, `related` flags extra pairs worth asking about (e.g. same publisher),
@@ -184,7 +207,7 @@ def dedupe(items: list[dict], group: Callable[[dict], str], names: Callable[[dic
         for k in kept:
             if group(k) != group(it) or _days(k, it) > max_days:
                 continue
-            if lexical_same(_titles(k), _titles(it), names(it)):
+            if lexical_same(_titles(k), _titles(it), names(it), fuzzy):
                 dup = k
                 break
             key = "v2|" + "|".join(sorted((k["id"], it["id"])))
@@ -198,7 +221,7 @@ def dedupe(items: list[dict], group: Callable[[dict], str], names: Callable[[dic
                 if cont >= 0.25 or _days(k, it) <= near_days or (related and related(k, it)):
                     doubtful.append((k, it))
         if dup:
-            _merge(dup, it, "words" if lexical_same(_titles(dup), _titles(it), names(it)) else "ai (cached)")
+            _merge(dup, it, "words" if lexical_same(_titles(dup), _titles(it), names(it), fuzzy) else "ai (cached)")
         else:
             kept.append(it)
     if not doubtful or ask is None:
