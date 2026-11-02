@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-01T03:05:51+00:00",
+ "updated_at": "2026-11-02T03:14:53+00:00",
  "items": [
   {
    "id": "cb31a30ebd8c",
@@ -2824,6 +2824,35 @@
     "checked": "2026-10-05"
    },
    "pdf_checked": "2026-10-05"
+  },
+  {
+   "id": "a7830ea74613",
+   "date": "2026-09-25",
+   "category": "Studies & Surveys",
+   "publisher": "SAS",
+   "countries": [
+    "Global"
+   ],
+   "title": "Study: Small banks lead in AI adoption but scaling remains a challenge",
+   "summary": "A study finds smaller banks adopt AI faster than larger institutions, though scaling these initiatives remains a sector-wide challenge. This matters as it reveals adoption patterns and barriers affecting banking AI deployment.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQmpHZEFhZEo4ZTRqXzJZcERyb1lUdkhMSDVsdk5xTDljRFVjMExnaUVLc0JJNlNjQlBYX191X3FRLUF5TEI0UUF2b1UybE9DNDcyUEc0bVlMWXNTd2h1STEtWEFDQVU4VDhnVDljclF6OXZ0VWdoVVJKV19BdE5pOHNKRDlTREt0bEtzWTBYVWE?oc=5",
+   "source_name": "SAS: Data and AI Solutions",
+   "source_title": "SMB study: Small banks lead in AI – but scale lags",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQmpHZEFhZEo4ZTRqXzJZcERyb1lUdkhMSDVsdk5xTDljRFVjMExnaUVLc0JJNlNjQlBYX191X3FRLUF5TEI0UUF2b1UybE9DNDcyUEc0bVlMWXNTd2h1STEtWEFDQVU4VDhnVDljclF6OXZ0VWdoVVJKV19BdE5pOHNKRDlTREt0bEtzWTBYVWE?oc=5",
+     "name": "SAS: Data and AI Solutions"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-02T03:14:42+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-11-02"
+   },
+   "pdf_checked": "2026-11-02"
   },
   {
    "id": "ddf5e2165f4c",

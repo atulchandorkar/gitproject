@@ -1,6 +1,44 @@
 {
- "updated_at": "2026-11-01T03:05:51+00:00",
+ "updated_at": "2026-11-02T03:14:53+00:00",
  "items": [
+  {
+   "id": "6cb93cc486b5",
+   "bank_id": "nbb",
+   "country": "BH",
+   "date": "2026-11-01",
+   "title": "National Bank of Bahrain partners with ARRAY to build AI centre of excellence",
+   "summary": "NBB is partnering with ARRAY to establish a centre of excellence focused on artificial intelligence.",
+   "category": "Tech Vendor Partnerships",
+   "topics": [
+    "Tech Vendor Partnerships",
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "AI centre of excellence",
+    "Partnership",
+    "AI strategy"
+   ],
+   "partners": [
+    "ARRAY"
+   ],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYTNvWmhtTlNVZ2hOd0FVdmU5bHU4WHJ6eDg5T2sya0lGMXFEdTRRbkc3M1lBUGtCSGF4dV9oNXV5YkZOOVBudFpWVVBKNlM2MGlhRGdsLXhwbTZjb0MwMGdGbG9sMmtrOC04VEtUZ3lrMmRiWTV3d1VlaGl3M3Z1VHFUaXIzcmQ1Unl3U2pPbnR4eXZscjBwSkZfWnVMZ1E?oc=5",
+   "source_name": "Gulf Daily News (Bahrain)",
+   "source_title": "Bahrain Business: NBB partners with ARRAY to build AI centre of excellence",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYTNvWmhtTlNVZ2hOd0FVdmU5bHU4WHJ6eDg5T2sya0lGMXFEdTRRbkc3M1lBUGtCSGF4dV9oNXV5YkZOOVBudFpWVVBKNlM2MGlhRGdsLXhwbTZjb0MwMGdGbG9sMmtrOC04VEtUZ3lrMmRiWTV3d1VlaGl3M3Z1VHFUaXIzcmQ1Unl3U2pPbnR4eXZscjBwSkZfWnVMZ1E?oc=5",
+     "name": "Gulf Daily News (Bahrain)"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-02T03:11:06+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-02"
+   }
+  },
   {
    "id": "16124ded37df",
    "bank_id": "enbd",

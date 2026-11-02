@@ -1933,5 +1933,14 @@
   "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE0wRHJtNFk0UmxlN3lhNElsaTdLUWxsTDYwdkM2MHlyeFdsdDhrU1QycEMtX0U2TDF0V1Azb0VCdFllRFpm?oc=5",
   "source": "بوابة التكنولوجيا المالية",
   "reason": "no second outlet confirmed it within 21 days"
+ },
+ {
+  "checked": "2026-11-02",
+  "bank_id": "nbb",
+  "date": "2026-11-01",
+  "title": "Fast-Tracking the Bank's AI Agenda",
+  "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CajE5SG12ZXdMaFJPbFlkRV9JWldvZWxSVDduRWx2azUzeHhrVGxYcEhSX19ISjBUc0VNNGlfU1ZoazUtWDE4SzdzNXN2T0NzU0JPSVNfOGRTdjJuek5BSHB3dGlHdnlNSkx3akc5SU5XWTNUVkIxNGZ4SE1LYm8?oc=5",
+  "source": "News of Bahrain",
+  "reason": "NBB is not named in the source"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "last_update": "2026-11-01T03:02:05+00:00",
+ "last_update": "2026-11-02T03:11:08+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -1624,7 +1624,39 @@
   "263db5f3dd68ba": "2026-10-31",
   "36694b9f94b720": "2026-10-31",
   "e7e624a42b56b7": "2026-10-31",
-  "ceab774fbf444a": "2026-10-31"
+  "ceab774fbf444a": "2026-10-31",
+  "d64198bcae3a03": "2026-09-24",
+  "3029306c010ef9": "2026-09-28",
+  "facf56f006a425": "2026-10-27",
+  "6e20b404ea62ee": "2026-10-30",
+  "9d0074f2397d3d": "2026-10-30",
+  "a05c9406a5f893": "2026-10-31",
+  "c9804d9f9a3204": "2026-11-01",
+  "64b73bc7f49147": "2026-11-01",
+  "655fb7dd6dc3e7": "2026-11-01",
+  "dee0cbdd33fe86": "2026-11-01",
+  "68dfed341ac414": "2026-11-01",
+  "b863ce77342e1f": "2026-11-01",
+  "a2a860e5385c54": "2026-11-01",
+  "58540708cd772f": "2026-11-01",
+  "071e41fcf88a9f": "2026-11-01",
+  "4892d942e08f73": "2026-11-01",
+  "a76bd0db4f633c": "2026-11-01",
+  "5aba8265b52fe2": "2026-11-01",
+  "c6e2a43c8b0ef2": "2026-11-01",
+  "cd47ffe7046ab2": "2026-11-01",
+  "3b19a3bff87c50": "2026-11-01",
+  "38d3cd14f807e8": "2026-11-01",
+  "3095d52d4166b6": "2026-11-01",
+  "8ed12c19f7f848": "2026-11-01",
+  "b36026464217f7": "2026-11-01",
+  "c59c6c6a5c19b3": "2026-11-01",
+  "b11fb46d43937a": "2026-11-01",
+  "558335f0810968": "2026-11-01",
+  "162ea3c2293d49": "2026-11-01",
+  "914d1e911650e1": "2026-11-01",
+  "6eeb38ca0986dc": "2026-11-01",
+  "d2b838acf485af": "2026-11-01"
  },
  "history_loaded": {
   "adcb": "2026-10-05",
@@ -2251,42 +2283,42 @@
  "retry": [],
  "newsrooms": {
   "rakbank": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "adcb": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "mashreq": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "sib": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "ei": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "bos": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "enbd": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "investbank": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
@@ -2295,7 +2327,7 @@
    "url": "https://www.dib.ae/about-us/media-centre",
    "status": "ok",
    "links": 19,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
     "2dcb346ec750",
     "7064b8031185",
@@ -2323,7 +2355,7 @@
    "url": "https://www.cbd.ae/aboutus/media-centre/press-room/news/id/3c0f77ff-458f-66de-b8c5-ff0b00b6b24a",
    "status": "ok",
    "links": 4,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
     "f570533b4965",
     "211356b61edf",
@@ -2332,42 +2364,42 @@
    ]
   },
   "nbf": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "edb": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "cbuae": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "wio": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "adib": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "alrajhi": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "snb": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "ajman": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
@@ -2376,7 +2408,7 @@
    "url": "https://www.zand.ae/en/news",
    "status": "ok",
    "links": 29,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
     "beb166c6b910",
     "837760b162de",
@@ -2410,42 +2442,42 @@
    ]
   },
   "aljazira": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "sab": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "anb": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "gibsa": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "bsf": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "d360": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "fab": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "visionbank": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
@@ -2454,7 +2486,7 @@
    "status": "unreachable (HTTPError)"
   },
   "saib": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
@@ -2463,7 +2495,7 @@
    "url": "https://www.alinma.com/About-the-Bank/The-Bank/News",
    "status": "ok",
    "links": 30,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
     "0aacda7e2687",
     "9add22e1c8ec",
@@ -2502,7 +2534,7 @@
    "url": "https://www.alrayan.com/en/press-release",
    "status": "ok",
    "links": 3,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
     "1722b361feb0",
     "8eea57958b29",
@@ -2510,17 +2542,17 @@
    ]
   },
   "dohabank": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "sama": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "cbq": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
@@ -2529,7 +2561,7 @@
    "url": "https://www.dukhanbank.com/media-center/press-release",
    "status": "ok",
    "links": 29,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
     "fe0fc0810447",
     "a8e106894c28",
@@ -2563,12 +2595,12 @@
    ]
   },
   "albilad": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "qdb": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
@@ -2577,7 +2609,7 @@
    "url": "https://www.uab.ae/en/media-center/awards",
    "status": "ok",
    "links": 15,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
     "4465122501be",
     "6dba8d618990",
@@ -2597,7 +2629,7 @@
    ]
   },
   "qcb": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
@@ -2606,7 +2638,7 @@
    "url": "https://www.qiib.com.qa/Press/List/Announcements",
    "status": "ok",
    "links": 5,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
     "452f6107a821",
     "98394071c36b",
@@ -2636,7 +2668,7 @@
    ]
   },
   "qib": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
@@ -2645,7 +2677,7 @@
    "url": "https://www.leshabank.com/media-center/news/",
    "status": "ok",
    "links": 6,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
     "a28fc0cfe8aa",
     "587062ba5695",
@@ -2656,7 +2688,7 @@
    ]
   },
   "boubyan": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
@@ -2665,7 +2697,7 @@
    "url": "https://www.ahlibank.com.qa/en/media-center/news-press-releases",
    "status": "ok",
    "links": 24,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
     "e9793b0023c9",
     "087038c6dfe6",
@@ -2698,8 +2730,9 @@
    "url": "https://www.kfh.com/home/Personal/news.html",
    "status": "ok",
    "links": 15,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
+    "f8250d57e65b",
     "dc8e3b83763e",
     "f05b84d0ae66",
     "c968eae456f7",
@@ -2713,8 +2746,7 @@
     "0db97da1ee51",
     "193256151cc6",
     "50b8807e44ab",
-    "be16840cf616",
-    "083add66e64f"
+    "be16840cf616"
    ]
   },
   "warba": {
@@ -2722,8 +2754,9 @@
    "url": "https://www.warbabank.com/english/news",
    "status": "ok",
    "links": 12,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
+    "de5b68694343",
     "2eba980cb911",
     "928c63ef697d",
     "ec83442c9236",
@@ -2734,17 +2767,16 @@
     "8bbeca5fc9d7",
     "2ced2c8e8447",
     "a053f20c7092",
-    "589dad9eb651",
-    "e299cb58002d"
+    "589dad9eb651"
    ]
   },
   "kib": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "cbkw": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
@@ -2753,7 +2785,7 @@
    "url": "https://www.cbk.com/Media-Library/Press-Releases",
    "status": "ok",
    "links": 99,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
     "68128689ff9e",
     "2db9601b061a",
@@ -2861,54 +2893,54 @@
    "url": "https://www.e-gulfbank.com/en/about-us/media/press-releases/",
    "status": "ok",
    "links": 7,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
+    "20769d31bfbb",
     "79aed5daf086",
     "8f561bd20fa4",
     "1974d5ec2715",
     "3438add427f2",
     "f7209e917eaa",
-    "d8c22802c9ec",
-    "1b5f1102addd"
+    "d8c22802c9ec"
    ]
   },
   "sohar": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "bankdhofar": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "ibk": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "bankmuscat": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "burgan": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "nizwa": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "cbo": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "abk": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
@@ -2917,7 +2949,7 @@
    "url": "https://www.nbk.com/news-and-insights/Media-Relations.html",
    "status": "ok",
    "links": 5,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
     "52da315c2d2f",
     "610cdb1a375d",
@@ -2927,37 +2959,37 @@
    ]
   },
   "oab": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "gib": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "stcbank": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "bankabc": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "khcb": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "gfh": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "aub": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
@@ -2966,7 +2998,7 @@
    "url": "https://www.nbo.om/en/Pages/News/Home.aspx",
    "status": "ok",
    "links": 57,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
     "1ce4089663e9",
     "d644291877af",
@@ -3032,7 +3064,7 @@
    "url": "https://www.alsalambank.com/press-releases/",
    "status": "ok",
    "links": 8,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
     "9e911d371be5",
     "89d8c7914ac7",
@@ -3045,12 +3077,12 @@
    ]
   },
   "cbb": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
   "bbk": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
@@ -3059,7 +3091,7 @@
    "url": "https://nbbonline.com/about/news/",
    "status": "ok",
    "links": 16,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
     "245733299cbb",
     "9e9ed4ac8849",
@@ -3080,7 +3112,7 @@
    ]
   },
   "bisb": {
-   "checked": "2026-11-01",
+   "checked": "2026-11-02",
    "url": null,
    "status": "not found"
   },
@@ -3089,7 +3121,7 @@
    "url": "https://ahlibank.om/Ahlibank/news/",
    "status": "ok",
    "links": 9,
-   "scanned": "2026-11-01",
+   "scanned": "2026-11-02",
    "known": [
     "af5f08321e09",
     "0611da646956",
@@ -4367,70 +4399,21 @@
   "c816de0f3020c3": "2026-10-30",
   "9e3932a56049a0": "2026-10-31",
   "94d7152a095926": "2026-10-31",
-  "1581818dc01722": "2026-10-31"
+  "1581818dc01722": "2026-10-31",
+  "69c56584f220a3": "2026-09-25",
+  "9958d2ea1d1037": "2026-10-26",
+  "7724103d2ad92b": "2026-10-27",
+  "6d574619a80503": "2026-10-30",
+  "dc0c2e9402eb56": "2026-11-01",
+  "8d84638f7c46fc": "2026-11-01",
+  "6eeb38ca0986dc": "2026-11-01",
+  "b36026464217f7": "2026-11-01",
+  "2c79b8657ee645": "2026-11-01",
+  "c4f46a1a56c2c4": "2026-11-01",
+  "f34bb6606336b5": "2026-11-02"
  },
  "sector_known": {},
  "sector_pending": [
-  {
-   "id": "eb9889b48370",
-   "date": "2026-10-10",
-   "category": "Case Studies & Use Cases",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "Visa's AI Financial Assistant Brings Spending Insights and Card Controls Into Banking Apps",
-   "summary": "Visa launched an AI financial assistant integrated into banking apps offering spending insights and card controls. The tool demonstrates practical AI deployment for consumer banking features.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQa0FwMnMtbDNOY3pEb0l5NDJNek1NRnJvOTRoS0FOdXRPLXRHaHpuRndOM3ZZRlFsV0RPMXlWbTNKRWptMEJJNWw2OWR5TzZWcDRENlloV1QzdUN6LXFEb0V5YlNPTnQtYkZJUWwwUjdzQVg3ZE1peHk1M0pFSFVXYnFfVHJHYm5sNGU4b1ZObWw3ZC01QzFPTTZ0YUY3cEwyTUwycGVpRlRQTm9hUmhWWEI3cXl4eGMwMDdPZFVNaGt2eU9IUUdmekE3MTNpM29sQU5LWDRlWE96LUdQVVRQMll3NFFOSGRjYTFRdnV2ONIB7wFBVV95cUxQa0FwMnMtbDNOY3pEb0l5NDJNek1NRnJvOTRoS0FOdXRPLXRHaHpuRndOM3ZZRlFsV0RPMXlWbTNKRWptMEJJNWw2OWR5TzZWcDRENlloV1QzdUN6LXFEb0V5YlNPTnQtYkZJUWwwUjdzQVg3ZE1peHk1M0pFSFVXYnFfVHJHYm5sNGU4b1ZObWw3ZC01QzFPTTZ0YUY3cEwyTUwycGVpRlRQTm9hUmhWWEI3cXl4eGMwMDdPZFVNaGt2eU9IUUdmekE3MTNpM29sQU5LWDRlWE96LUdQVVRQMll3NFFOSGRjYTFRdnV2OA?oc=5",
-   "source_name": "Analytics Insight",
-   "source_title": "Visa's AI Financial Assistant Brings Spending Insights and Card Controls Into Banking Apps",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQa0FwMnMtbDNOY3pEb0l5NDJNek1NRnJvOTRoS0FOdXRPLXRHaHpuRndOM3ZZRlFsV0RPMXlWbTNKRWptMEJJNWw2OWR5TzZWcDRENlloV1QzdUN6LXFEb0V5YlNPTnQtYkZJUWwwUjdzQVg3ZE1peHk1M0pFSFVXYnFfVHJHYm5sNGU4b1ZObWw3ZC01QzFPTTZ0YUY3cEwyTUwycGVpRlRQTm9hUmhWWEI3cXl4eGMwMDdPZFVNaGt2eU9IUUdmekE3MTNpM29sQU5LWDRlWE96LUdQVVRQMll3NFFOSGRjYTFRdnV2ONIB7wFBVV95cUxQa0FwMnMtbDNOY3pEb0l5NDJNek1NRnJvOTRoS0FOdXRPLXRHaHpuRndOM3ZZRlFsV0RPMXlWbTNKRWptMEJJNWw2OWR5TzZWcDRENlloV1QzdUN6LXFEb0V5YlNPTnQtYkZJUWwwUjdzQVg3ZE1peHk1M0pFSFVXYnFfVHJHYm5sNGU4b1ZObWw3ZC01QzFPTTZ0YUY3cEwyTUwycGVpRlRQTm9hUmhWWEI3cXl4eGMwMDdPZFVNaGt2eU9IUUdmekE3MTNpM29sQU5LWDRlWE96LUdQVVRQMll3NFFOSGRjYTFRdnV2OA?oc=5",
-     "name": "Analytics Insight"
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeDk5M1k1YmRKQi1OU1pJQm9nNjNKSDdzekJVR2tPdkhpeUlvVWU5MmI2WXRTZkIzQ3dCbElYQVROTl9OUW1UNnc2VGhCN2VvSkJJbmpMZVZqOUZkT1Fpa0U2dUQxR0tHOWw4bjRmNUFkUHlSNjk3U1VlMXFEd085U0F4NTA4WHZ6R0p6WFc4OEZhT0Zwc0pVeWFfTC1ST3RLOEFKSzRRYS1nNzRzZk9MQTdJbHEwWEZSTVh2Z0xVSlFwTThUZWdma01MZHpjY2lsdEdwR0RUcFhaNTZ1VVllamNB0gHvAUFVX3lxTFBrQXAycy1sM05jekRvSXk0Mk16TU1Gcm85NGhLQU51dE8tdEdoem5Gd04zdllGUWxXRE8xeVZtM0pFam0wQkk1bDY5ZHlPNlZwNEQ2WWhXVDN1Q3otcURvRXliU09OdC1iRklRbDBSN3NBWDdkTWl4eTUzSkVIVVdicV9Uckdibmw0ZThvVk5tbDdkLTVDMU9NNnRhRjdwTDJNTDJwZWlGVFBOb2FSaFZYQjdxeXh4YzAwN09kVU1oa3Z5T0hRR2Z6QTcxM2kzb2xBTktYNGVYT3otR1BVVFAyWXc0UU5IZGNhMVF2dXY4?oc=5",
-     "name": "Analytics Insight"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-11T02:48:29+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-11"
-   }
-  },
-  {
-   "id": "6ef0ce84c0e8",
-   "date": "2026-10-10",
-   "category": "Regulation & Guidance",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "US Treasury reports major banks coordinating on artificial intelligence security threats",
-   "summary": "American banking leaders are uniting on cybersecurity defences against AI-enabled attacks, according to a Treasury official statement. The coordination reflects growing focus on AI-specific threat mitigation across the banking sector.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5rM1drS0oyNWVmaFFPck9ySWU0aExsQzlWbVoxdzdkbE9jS0tHTERGLVJnWVI0RmR2a0lZUDZqdjdmWWVB?oc=5",
-   "source_name": "بوابة التكنولوجيا المالية",
-   "source_title": "وزير الخزانة الأمريكي: البنوك الأمريكية الكبرى تتحد لمواجهة هجمات الذكاء الاصطناعي",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5rM1drS0oyNWVmaFFPck9ySWU0aExsQzlWbVoxdzdkbE9jS0tHTERGLVJnWVI0RmR2a0lZUDZqdjdmWWVB?oc=5",
-     "name": "بوابة التكنولوجيا المالية"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-11T02:48:29+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-11"
-   }
-  },
   {
    "id": "5dc3377a6afd",
    "date": "2026-10-11",
@@ -6784,6 +6767,68 @@
     "level": "pending",
     "evidence": "headline",
     "checked": "2026-11-01"
+   }
+  },
+  {
+   "id": "d8bcbbc98d7b",
+   "date": "2026-11-01",
+   "category": "Market Data",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Banks report productivity and cost gains from AI-led initiatives",
+   "summary": "Banks across the industry are reporting productivity improvements, faster turnaround times and cost reductions ranging from 10-50% from AI-driven projects. The results demonstrate measurable business impact from AI deployment in banking operations.",
+   "key_stats": [
+    {
+     "value": "10-50%",
+     "label": "Productivity, turnaround time and cost gains",
+     "quote": "10-50% gains in productivity, turnaround time and costs from AI-led initiatives"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPbVZBaVdxR2U4NnF2VURyQ3Z1Y3E0MXBDSEc5OVo5LWRCY3EtM2Fyc3dKdVlHWERfWXJqdXJtNXJ6WXdWbTdhUTBSS090ak9oR2NyRU81ODdrVDZtWVpvWGdoelVpYjllc2tJSDUxVkluTkJLb3VUTTBQdmsxOWdKNHBqX01zc0dKRkVqYUlJeGw4LVlCQXdlSVM1bno4UGFxajluci1YMEZSMWFvX1ppcnJ0ZlFJN0s3U0Z3TlhzTDhyVWxMSUtwSkUxQ3JUREJZNU8taFZsUkItcDNpZVNXemI0bTltZW9JOVFsdFpXYzBQR25kcDk0SkJJU29zUHpSTDdmTTMtdlTSAY4CQVVfeXFMTTh4d3h1a2NXeTVYTS1ic2hKU01YMDNhcnV6NFU0RTdkNmVtX1ZBOHNidWU3Sm1ONU5uRzEzal9FTGNPLTV2aGpMYW9SWlFPZ1RjUzlPZzZNazRfdmhhdExLQXdvSUlMQmRXV09Lc09tWEgwUDNXQmVpZHBYRVBXeURFdUpIelVzV3JPTENtQnlMM0htdHN3U0FxRU5zRDZjc0pCMnRZRC1LSXMxeVFuR3NGQUVDM3hVcUpudDQyWWo3UGFjYjg3SWZQd0RHN0lTMGFqV1p0SWhPMm15R1RBRVlaZmpRRTVmX012WGJ5MWNfblpIZk1pN1FqRHFwM0VYdEQxMmtuS2lNaHJhN0J3?oc=5",
+   "source_name": "The Economic Times",
+   "source_title": "Banks report 10-50% gains in productivity, turnaround time and costs from AI-led initiatives",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPbVZBaVdxR2U4NnF2VURyQ3Z1Y3E0MXBDSEc5OVo5LWRCY3EtM2Fyc3dKdVlHWERfWXJqdXJtNXJ6WXdWbTdhUTBSS090ak9oR2NyRU81ODdrVDZtWVpvWGdoelVpYjllc2tJSDUxVkluTkJLb3VUTTBQdmsxOWdKNHBqX01zc0dKRkVqYUlJeGw4LVlCQXdlSVM1bno4UGFxajluci1YMEZSMWFvX1ppcnJ0ZlFJN0s3U0Z3TlhzTDhyVWxMSUtwSkUxQ3JUREJZNU8taFZsUkItcDNpZVNXemI0bTltZW9JOVFsdFpXYzBQR25kcDk0SkJJU29zUHpSTDdmTTMtdlTSAY4CQVVfeXFMTTh4d3h1a2NXeTVYTS1ic2hKU01YMDNhcnV6NFU0RTdkNmVtX1ZBOHNidWU3Sm1ONU5uRzEzal9FTGNPLTV2aGpMYW9SWlFPZ1RjUzlPZzZNazRfdmhhdExLQXdvSUlMQmRXV09Lc09tWEgwUDNXQmVpZHBYRVBXeURFdUpIelVzV3JPTENtQnlMM0htdHN3U0FxRU5zRDZjc0pCMnRZRC1LSXMxeVFuR3NGQUVDM3hVcUpudDQyWWo3UGFjYjg3SWZQd0RHN0lTMGFqV1p0SWhPMm15R1RBRVlaZmpRRTVmX012WGJ5MWNfblpIZk1pN1FqRHFwM0VYdEQxMmtuS2lNaHJhN0J3?oc=5",
+     "name": "The Economic Times"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-02T03:14:42+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-11-02"
+   }
+  },
+  {
+   "id": "5ab8597a0fd3",
+   "date": "2026-11-01",
+   "category": "Studies & Surveys",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Global study: Banks adopt AI faster than average but fear adversarial AI risks",
+   "summary": "A global study shows that banks are embracing AI at above-average rates across industries while expressing concerns about adversarial or malicious AI threats. The research identifies a gap between adoption enthusiasm and readiness for AI-related risks.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kb2JrYWVHNk1YSV9tcEJKb3hLYWdqVmowWXVacW1Zbm9EaXNOMmtIWmtPMTQ5TDNtMmpFQzJrWWhOSlhVQ3FVTlpQajRLbm9YVVVaMDgyVVNTenlmQUhv?oc=5",
+   "source_name": "المصري اليوم",
+   "source_title": "دراسة عالمية: البنوك تتبنى الذكاء الاصطناعي بوتيرة أعلى من المتوسط لكنها تخشى «الذكاء المظلم",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kb2JrYWVHNk1YSV9tcEJKb3hLYWdqVmowWXVacW1Zbm9EaXNOMmtIWmtPMTQ5TDNtMmpFQzJrWWhOSlhVQ3FVTlpQajRLbm9YVVVaMDgyVVNTenlmQUhv?oc=5",
+     "name": "المصري اليوم"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-11-02T03:14:42+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-11-02"
    }
   }
  ],
@@ -11914,6 +11959,18 @@
    "merge": false,
    "anchor": "",
    "confidence": "high",
+   "same": false
+  },
+  "v2|083d2c99ec94|a7830ea74613": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|798d2ba07a17|a7830ea74613": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
    "same": false
   }
  }
