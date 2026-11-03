@@ -1,5 +1,5 @@
 {
- "last_update": "2026-11-02T03:19:56+00:00",
+ "last_update": "2026-11-03T04:00:55+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -1660,7 +1660,44 @@
   "f75723986ae63b": "2026-10-29",
   "9d2e85dee75d59": "2026-10-30",
   "af0a64e65bce0d": "2026-10-31",
-  "8bc1ee8ae509e3": "2026-11-02"
+  "8bc1ee8ae509e3": "2026-11-02",
+  "07318591655e4c": "2026-10-28",
+  "0c114335f493ac": "2026-10-29",
+  "e1c9d6908737cf": "2026-10-31",
+  "dd245f803d4485": "2026-11-01",
+  "64a6988b0eefc9": "2026-11-01",
+  "f8ec3b1059b919": "2026-11-02",
+  "e7da4161e03000": "2026-11-02",
+  "3120b932f9b6fd": "2026-11-02",
+  "f2c25ae2c8b315": "2026-11-02",
+  "625c42badb9f2c": "2026-11-02",
+  "7fd13dae31f9e2": "2026-11-02",
+  "461c06b3167094": "2026-11-02",
+  "c1025544221d15": "2026-11-02",
+  "eec24e50518dab": "2026-11-02",
+  "4f864398a10516": "2026-11-02",
+  "5557be59238dd4": "2026-11-02",
+  "7330cc46d93cb9": "2026-11-02",
+  "b85408aa7916fd": "2026-11-02",
+  "e1b85aed213af3": "2026-11-02",
+  "8e3cbeeff6549d": "2026-11-02",
+  "0a1f2d2548aaae": "2026-11-02",
+  "98bba73858c691": "2026-11-02",
+  "323c83c2a7f9fc": "2026-11-02",
+  "54103409c718f1": "2026-11-02",
+  "f58bb41a89ae1e": "2026-11-02",
+  "53e1b8f38b129b": "2026-11-02",
+  "b63975f8a61a2d": "2026-11-02",
+  "5818de335c48e5": "2026-11-02",
+  "136ad838840307": "2026-11-02",
+  "68c7d56683ee0e": "2026-11-02",
+  "3276dd76a7d944": "2026-11-02",
+  "08ee6318feae02": "2026-11-02",
+  "ced3755f5d23c9": "2026-11-02",
+  "5720bdc9d313a9": "2026-11-02",
+  "5cb553fb2539ae": "2026-11-02",
+  "4f8a9243cc8f9b": "2026-11-02",
+  "f26d5e5d65abbe": "2026-11-03"
  },
  "history_loaded": {
   "adcb": "2026-10-05",
@@ -2282,47 +2319,83 @@
     "evidence": "headline",
     "checked": "2026-10-30"
    }
+  },
+  {
+   "id": "528f278fa300",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2026-11-03",
+   "title": "بنك الإمارات دبي الوطني يطوّر برنامجه الرائد \"الحاضنة الوطنية للمواهب الرقمية\" لتسريع تبني الذكاء الاصطناعي لدى الشركات الصغيرة والمتوسطة الإماراتية",
+   "summary": "Emirates NBD is developing its flagship \"National Digital Talent Incubator\" programme to accelerate artificial intelligence adoption among small and medium-sized UAE companies.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Talent development",
+    "AI training",
+    "SME support"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxPamVsV09TT09sa0hrdEtYV0VUOEZmTHlSUGVJWmktRGlYVFBXcy1PXzNsSEZVYm9tNzA0XzlZRTU1b3NkOGRPLU5aR0szREFNTkxST0lsTTRWeF9ZRVdaUnhFY1gxQWpMc0plN1YycXpxVGpMRE80TGo5aEw0QjdLd0FyUUU0bWlja2NINzVGSDl3Z3ZucGJranp6LW5rUlFQNXJTOTRtclZ0U29wOUJGRERZR1F5STFZeno3blVHaEU3SDFZVG9zZ3Fid1dwc092VXFKLUxaNVJwSW52VE5fYTVadlMyNUxLVjNXbUswLXlWMHU5UGRBMUlQNHg5TUU1a0J2UVp4eWUwbXl3MDltX2xoc0laYU9pdTY5bFZYWjB4Z2Z3SmtvYXVORTNmeGtZU196OFIyaVJVRGVkZFU0MjFVWmFNLTZiQTJnWGt3anBHVE5sU0JzYU1IOTQ3TmR3Q2lN?oc=5",
+   "source_name": "البوابة",
+   "source_title": "بنك الإمارات دبي الوطني يطوّر برنامجه الرائد \"الحاضنة الوطنية للمواهب الرقمية\" لتسريع تبني الذكاء الاصطناعي لدى الشركات الصغيرة والمتوسطة الإماراتية",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxPamVsV09TT09sa0hrdEtYV0VUOEZmTHlSUGVJWmktRGlYVFBXcy1PXzNsSEZVYm9tNzA0XzlZRTU1b3NkOGRPLU5aR0szREFNTkxST0lsTTRWeF9ZRVdaUnhFY1gxQWpMc0plN1YycXpxVGpMRE80TGo5aEw0QjdLd0FyUUU0bWlja2NINzVGSDl3Z3ZucGJranp6LW5rUlFQNXJTOTRtclZ0U29wOUJGRERZR1F5STFZeno3blVHaEU3SDFZVG9zZ3Fid1dwc092VXFKLUxaNVJwSW52VE5fYTVadlMyNUxLVjNXbUswLXlWMHU5UGRBMUlQNHg5TUU1a0J2UVp4eWUwbXl3MDltX2xoc0laYU9pdTY5bFZYWjB4Z2Z3SmtvYXVORTNmeGtZU196OFIyaVJVRGVkZFU0MjFVWmFNLTZiQTJnWGt3anBHVE5sU0JzYU1IOTQ3TmR3Q2lN?oc=5",
+     "name": "البوابة"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-11-03T04:00:48+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-11-03"
+   }
   }
  ],
  "retry": [],
  "newsrooms": {
   "rakbank": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "adcb": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "mashreq": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "sib": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "ei": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "bos": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "enbd": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "investbank": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
@@ -2331,7 +2404,7 @@
    "url": "https://www.dib.ae/about-us/media-centre",
    "status": "ok",
    "links": 19,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
     "2dcb346ec750",
     "7064b8031185",
@@ -2359,7 +2432,7 @@
    "url": "https://www.cbd.ae/aboutus/media-centre/press-room/news/id/3c0f77ff-458f-66de-b8c5-ff0b00b6b24a",
    "status": "ok",
    "links": 4,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
     "f570533b4965",
     "211356b61edf",
@@ -2368,42 +2441,42 @@
    ]
   },
   "nbf": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "edb": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "cbuae": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "wio": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "adib": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "alrajhi": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "snb": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "ajman": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
@@ -2412,7 +2485,7 @@
    "url": "https://www.zand.ae/en/news",
    "status": "ok",
    "links": 29,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
     "beb166c6b910",
     "837760b162de",
@@ -2446,42 +2519,42 @@
    ]
   },
   "aljazira": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "sab": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "anb": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "gibsa": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "bsf": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "d360": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "fab": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "visionbank": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
@@ -2490,7 +2563,7 @@
    "status": "unreachable (HTTPError)"
   },
   "saib": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
@@ -2499,7 +2572,7 @@
    "url": "https://www.alinma.com/About-the-Bank/The-Bank/News",
    "status": "ok",
    "links": 30,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
     "0aacda7e2687",
     "9add22e1c8ec",
@@ -2538,7 +2611,7 @@
    "url": "https://www.alrayan.com/en/press-release",
    "status": "ok",
    "links": 3,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
     "1722b361feb0",
     "8eea57958b29",
@@ -2546,17 +2619,17 @@
    ]
   },
   "dohabank": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "sama": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "cbq": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
@@ -2565,7 +2638,7 @@
    "url": "https://www.dukhanbank.com/media-center/press-release",
    "status": "ok",
    "links": 29,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
     "fe0fc0810447",
     "a8e106894c28",
@@ -2599,12 +2672,12 @@
    ]
   },
   "albilad": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "qdb": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
@@ -2613,7 +2686,7 @@
    "url": "https://www.uab.ae/en/media-center/awards",
    "status": "ok",
    "links": 15,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
     "4465122501be",
     "6dba8d618990",
@@ -2633,7 +2706,7 @@
    ]
   },
   "qcb": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
@@ -2642,7 +2715,7 @@
    "url": "https://www.qiib.com.qa/Press/List/Announcements",
    "status": "ok",
    "links": 5,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
     "452f6107a821",
     "98394071c36b",
@@ -2672,7 +2745,7 @@
    ]
   },
   "qib": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
@@ -2681,7 +2754,7 @@
    "url": "https://www.leshabank.com/media-center/news/",
    "status": "ok",
    "links": 6,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
     "a28fc0cfe8aa",
     "587062ba5695",
@@ -2692,16 +2765,16 @@
    ]
   },
   "boubyan": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "ahlibankqa": {
    "checked": "2026-10-05",
    "url": "https://www.ahlibank.com.qa/en/media-center/news-press-releases",
-   "status": "unreachable (URLError)",
+   "status": "ok",
    "links": 24,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
     "e9793b0023c9",
     "087038c6dfe6",
@@ -2734,8 +2807,9 @@
    "url": "https://www.kfh.com/home/Personal/news.html",
    "status": "ok",
    "links": 15,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
+    "09556ebeb2eb",
     "f8250d57e65b",
     "dc8e3b83763e",
     "f05b84d0ae66",
@@ -2748,9 +2822,8 @@
     "882c184db046",
     "3ba9805d68e8",
     "0db97da1ee51",
-    "50b8807e44ab",
     "193256151cc6",
-    "be16840cf616"
+    "50b8807e44ab"
    ]
   },
   "warba": {
@@ -2758,8 +2831,9 @@
    "url": "https://www.warbabank.com/english/news",
    "status": "ok",
    "links": 12,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
+    "32d368eb5801",
     "de5b68694343",
     "2eba980cb911",
     "928c63ef697d",
@@ -2770,17 +2844,16 @@
     "bee17f6c2e1f",
     "8bbeca5fc9d7",
     "2ced2c8e8447",
-    "a053f20c7092",
-    "589dad9eb651"
+    "a053f20c7092"
    ]
   },
   "kib": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "cbkw": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
@@ -2789,7 +2862,7 @@
    "url": "https://www.cbk.com/Media-Library/Press-Releases",
    "status": "ok",
    "links": 99,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
     "68128689ff9e",
     "2db9601b061a",
@@ -2897,7 +2970,7 @@
    "url": "https://www.e-gulfbank.com/en/about-us/media/press-releases/",
    "status": "ok",
    "links": 7,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
     "20769d31bfbb",
     "79aed5daf086",
@@ -2909,42 +2982,42 @@
    ]
   },
   "sohar": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "bankdhofar": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "ibk": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "bankmuscat": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "burgan": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "nizwa": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "cbo": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "abk": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
@@ -2953,7 +3026,7 @@
    "url": "https://www.nbk.com/news-and-insights/Media-Relations.html",
    "status": "ok",
    "links": 5,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
     "52da315c2d2f",
     "610cdb1a375d",
@@ -2963,37 +3036,37 @@
    ]
   },
   "oab": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "gib": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "stcbank": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "bankabc": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "khcb": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "gfh": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "aub": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
@@ -3002,7 +3075,7 @@
    "url": "https://www.nbo.om/en/Pages/News/Home.aspx",
    "status": "ok",
    "links": 57,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
     "1ce4089663e9",
     "d644291877af",
@@ -3068,7 +3141,7 @@
    "url": "https://www.alsalambank.com/press-releases/",
    "status": "ok",
    "links": 8,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
     "9e911d371be5",
     "89d8c7914ac7",
@@ -3081,12 +3154,12 @@
    ]
   },
   "cbb": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
   "bbk": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
@@ -3095,7 +3168,7 @@
    "url": "https://nbbonline.com/about/news/",
    "status": "ok",
    "links": 16,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
     "245733299cbb",
     "9e9ed4ac8849",
@@ -3116,7 +3189,7 @@
    ]
   },
   "bisb": {
-   "checked": "2026-11-02",
+   "checked": "2026-11-03",
    "url": null,
    "status": "not found"
   },
@@ -3125,7 +3198,7 @@
    "url": "https://ahlibank.om/Ahlibank/news/",
    "status": "ok",
    "links": 9,
-   "scanned": "2026-11-02",
+   "scanned": "2026-11-03",
    "known": [
     "af5f08321e09",
     "0611da646956",
@@ -4419,94 +4492,28 @@
   "e9466983ae7026": "2026-10-28",
   "b863ce77342e1f": "2026-11-01",
   "4892d942e08f73": "2026-11-01",
-  "faf611d4b3a961": "2026-11-01"
+  "faf611d4b3a961": "2026-11-01",
+  "44758585439a89": "2026-11-01",
+  "bc2089fc6696ba": "2026-11-01",
+  "1f9432c97a80ac": "2026-11-02",
+  "500519c5da18a6": "2026-11-02",
+  "1fa1d1c00bf607": "2026-11-02",
+  "9f263e45272081": "2026-11-02",
+  "1b7f7984caafb2": "2026-11-02",
+  "40729e779e1ebd": "2026-11-02",
+  "1a1dc167f62be7": "2026-11-02",
+  "e17293ca6d92a1": "2026-11-02",
+  "1c53061a254d93": "2026-11-02",
+  "fa7e698bdb1b27": "2026-11-02",
+  "8b3d925b9f5e77": "2026-11-02",
+  "85952b028a2c4a": "2026-11-02",
+  "cc9cdbded36fe3": "2026-11-02",
+  "4b26d9306a1a86": "2026-11-03",
+  "e22d594acea1cc": "2026-11-03",
+  "f26d5e5d65abbe": "2026-11-03"
  },
  "sector_known": {},
  "sector_pending": [
-  {
-   "id": "5dc3377a6afd",
-   "date": "2026-10-11",
-   "category": "Maturity & Rankings",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "JPMorgan clinches top spot again: See 10 banks leading AI race in 2026",
-   "summary": "The Indian Express reports JPMorgan ranks top banks advancing AI capabilities. The assessment identifies leading institutions based on AI adoption and innovation positioning in the financial sector.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMjdGbVYyYm5QOEdTazBPNlJ4TjN2NGFqTUliYmN0MFRweXo4empVT29yZFhtTFVwSnIyWVdhS2VHTW8tTVVqYjRaOUVMV2lOX3FGcE9xRzJRckkxVUI3SkpULUpINUNaRkh5b193ZmwwRFNGcXJDZ1pSSmFoRFhTbHdZNkZoVVFrdFZWQXM5Q1N5aWZfakROTUJUVDlVeGF0b3RzdVAxdXk2VU5QaUdCWEE1MWdBMmpFcW42ZVdKZ0NzUWlKYW8wY1VIaGliVjRkMFlj0gHaAUFVX3lxTFBXRmg0MTRGOXZGeWNVSDNIemFlendVUUQyQWtYeDJnVkhFUDZUZ1BUYmlwWDJENklTeFIxeUg0dGhBN20xQnhrNDVGX2NVTUx0QmFtS3N5aW1EbGhlRjEwYVd0ZDZhSk44SWllQVpUWU9LcHVTNzRtZlNWNzdabDBsR1V1Szd5Rk1yYnA2Ym12Q01sVTFZbUdoWldMbzYzbUp5MUdJS2l3X3pxaTFSUDI5YmtHRldUX2JvZU5yU2ZuRlEzY1BMQ1pSWXk2M1V0TTg4akxzRC0xeWRn?oc=5",
-   "source_name": "The Indian Express",
-   "source_title": "JPMorgan clinches top spot again: See 10 banks leading AI race in 2026",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMjdGbVYyYm5QOEdTazBPNlJ4TjN2NGFqTUliYmN0MFRweXo4empVT29yZFhtTFVwSnIyWVdhS2VHTW8tTVVqYjRaOUVMV2lOX3FGcE9xRzJRckkxVUI3SkpULUpINUNaRkh5b193ZmwwRFNGcXJDZ1pSSmFoRFhTbHdZNkZoVVFrdFZWQXM5Q1N5aWZfakROTUJUVDlVeGF0b3RzdVAxdXk2VU5QaUdCWEE1MWdBMmpFcW42ZVdKZ0NzUWlKYW8wY1VIaGliVjRkMFlj0gHaAUFVX3lxTFBXRmg0MTRGOXZGeWNVSDNIemFlendVUUQyQWtYeDJnVkhFUDZUZ1BUYmlwWDJENklTeFIxeUg0dGhBN20xQnhrNDVGX2NVTUx0QmFtS3N5aW1EbGhlRjEwYVd0ZDZhSk44SWllQVpUWU9LcHVTNzRtZlNWNzdabDBsR1V1Szd5Rk1yYnA2Ym12Q01sVTFZbUdoWldMbzYzbUp5MUdJS2l3X3pxaTFSUDI5YmtHRldUX2JvZU5yU2ZuRlEzY1BMQ1pSWXk2M1V0TTg4akxzRC0xeWRn?oc=5",
-     "name": "The Indian Express"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-12T03:10:47+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-12"
-   }
-  },
-  {
-   "id": "b91cc9779a64",
-   "date": "2026-10-11",
-   "category": "Expert Views",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "AI banking agent: How Artificial Intelligence is Transforming Global Finance",
-   "summary": "An analysis examines how AI agents automate banking processes and reduce operational inefficiencies. The piece explores intelligent automation's impact on financial services transformation and operational efficiency.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xaGtkU0VUNFkya290US1ZVXNIQlVUdnpGYlFXSEdQbFFJeUNaM1F0c3J3YWxlQWNXS3Jnai1qV0dhNzlfSGV0SDkwUVhVWGEta2VTRU0tN3dvNHRaVllNWWdPa1psYlVQaXN4c3I2VFlndw?oc=5",
-   "source_name": "The Korea Daily",
-   "source_title": "AI banking agent — How Artificial Intelligence Is Ending the Laziness Tax and Transforming Global Finance",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xaGtkU0VUNFkya290US1ZVXNIQlVUdnpGYlFXSEdQbFFJeUNaM1F0c3J3YWxlQWNXS3Jnai1qV0dhNzlfSGV0SDkwUVhVWGEta2VTRU0tN3dvNHRaVllNWWdPa1psYlVQaXN4c3I2VFlndw?oc=5",
-     "name": "The Korea Daily"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-12T03:10:47+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-12"
-   }
-  },
-  {
-   "id": "1de84650fb35",
-   "date": "2026-10-11",
-   "category": "Regulation & Guidance",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "AI Applications in Banking Sector: Automation Essential, but Strict Oversight Required",
-   "summary": "An assessment of AI deployment in banking emphasizes the need for automation while establishing rigorous regulatory oversight. The analysis addresses balancing innovation benefits with appropriate governance and control frameworks.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcmJCOHktSFR3YkZZUktiLU9DU2wyVVBWN09IV3BnWFNtMmxodlV4V2lZMVgza0w4UktNeVgwV1N1OUJNN1RfNHZTa0g1Qmt0WlA1a1VTXzZZYXFLTmxDeU5Fd3RqMnJvb09LdnNKcmdiY2lUb0YtS1VaUHh6T0xWOG1rLXVleUllTW9JLThkN0ozOHVnZnpMMkJ6S291dw?oc=5",
-   "source_name": "Vietnam.vn",
-   "source_title": "تطبيقات الذكاء الاصطناعي في القطاع المصرفي: الأتمتة ضرورية، ولكن الرقابة الصارمة مطلوبة.",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcmJCOHktSFR3YkZZUktiLU9DU2wyVVBWN09IV3BnWFNtMmxodlV4V2lZMVgza0w4UktNeVgwV1N1OUJNN1RfNHZTa0g1Qmt0WlA1a1VTXzZZYXFLTmxDeU5Fd3RqMnJvb09LdnNKcmdiY2lUb0YtS1VaUHh6T0xWOG1rLXVleUllTW9JLThkN0ozOHVnZnpMMkJ6S291dw?oc=5",
-     "name": "Vietnam.vn"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-10-12T03:10:47+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-12"
-   }
-  },
   {
    "id": "3e0f42b80b15",
    "date": "2026-10-09",
@@ -6839,6 +6846,202 @@
     "evidence": "headline",
     "checked": "2026-11-02"
    }
+  },
+  {
+   "id": "fb2d5019414d",
+   "date": "2026-11-02",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "From AI Assistants to AI Agents: The New Governance Question for Financial Services",
+   "summary": "The article examines how the shift from AI assistants to autonomous agents raises new governance and regulatory challenges for financial services institutions. This matters as banks must adapt compliance and risk management frameworks.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVGRrSzBrV3JCX3QyY0lFVFdjM1B4RHhjcTNkTTRYaXVIRlktNVRVYWVPbHNmaUprYmU3NWhWay1pLUFOSGJlRFNhaUp3UzcwLXhwdzJTTWlfb2V5bGMyYVdDRWc0S1FwRTlSX0NkbVUtd21ac1A1eWx6aUE1NGd2dV9haTZITGUxQnVjNjRKdC0wS1JydGZjTmROSjNlMVBmdXlCN1VPejNXX3dmWWhSUS1SRkhQdGRpQTJxckx4QWw?oc=5",
+   "source_name": "Global Banking & Finance Review",
+   "source_title": "From AI Assistants to AI Agents: The New Governance Question for Financial Services",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVGRrSzBrV3JCX3QyY0lFVFdjM1B4RHhjcTNkTTRYaXVIRlktNVRVYWVPbHNmaUprYmU3NWhWay1pLUFOSGJlRFNhaUp3UzcwLXhwdzJTTWlfb2V5bGMyYVdDRWc0S1FwRTlSX0NkbVUtd21ac1A1eWx6aUE1NGd2dV9haTZITGUxQnVjNjRKdC0wS1JydGZjTmROSjNlMVBmdXlCN1VPejNXX3dmWWhSUS1SRkhQdGRpQTJxckx4QWw?oc=5",
+     "name": "Global Banking & Finance Review"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-03T04:04:35+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "f989fed1a1a8",
+   "date": "2026-11-02",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Kenya's Central Bank Maps 300 AI Use Cases",
+   "summary": "Kenya's central bank has identified 300 potential artificial intelligence use cases across banking and financial systems. The initiative guides the industry in responsible and effective AI adoption.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOXFDRUhkekx2NFplQjF4TjBOTllpN2l6UFRpT28xZDhHR1FOVU5qR2p1dUc3MGZXMUVQV3NsX0xUemtmYmY5MHdoNHhDRVRuZkFUWHI0azZGUkEzSlBBRS11cy1IR2NsNkRtOW1PU2VXTGszRXJYR3pRU1Y5dElRZ2xhTjZfU0VXYU85WGdnNEhBQQ?oc=5",
+   "source_name": "Africa Business Communities",
+   "source_title": "Kenya’s central bank maps 300 AI use cases",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOXFDRUhkekx2NFplQjF4TjBOTllpN2l6UFRpT28xZDhHR1FOVU5qR2p1dUc3MGZXMUVQV3NsX0xUemtmYmY5MHdoNHhDRVRuZkFUWHI0azZGUkEzSlBBRS11cy1IR2NsNkRtOW1PU2VXTGszRXJYR3pRU1Y5dElRZ2xhTjZfU0VXYU85WGdnNEhBQQ?oc=5",
+     "name": "Africa Business Communities"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-03T04:04:35+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "8945e3cb6c05",
+   "date": "2026-11-02",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Leading Caribbean Bank Completes Phase 2 of Temenos Core Banking Transformation with Validata’s Agentic AI Platform",
+   "summary": "A Caribbean bank completed phase 2 of core banking transformation using an agentic AI platform for validation and testing. The deployment demonstrates autonomous AI agents in large-scale banking infrastructure projects.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNWlNFWUVIOElDRGJ6ZmJ2OWQwbHhMcnRpOGRKX3A1Zkl0RGRBQmpDYjBrUnFfOUoxdVF5TFZwMFYzSHJYY3lvVlZhUjJaUjM5NnFRNFUySWhhcEFHMTVoRVVMbVlidVNET0hBSVB0TFcwOUUwc193enBhQmhHZlpqWVFjMnVpVkcxUTZ2amhuRFNKQ1RqcnJLX2RrczhOeHBBLWNhdHhnZ0lXRjdpZGhvdU5HR0FIVWo1MWpWNVlfMVFNek1kbkNJd25sM3kzSUpBSUt5S21fNTkydlFOTWNRNm4xS1RIWkJSLXhuTGxn?oc=5",
+   "source_name": "EIN News",
+   "source_title": "Leading Caribbean Bank Completes Phase 2 of Temenos Core Banking Transformation with Validata’s Agentic AI Platform",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNWlNFWUVIOElDRGJ6ZmJ2OWQwbHhMcnRpOGRKX3A1Zkl0RGRBQmpDYjBrUnFfOUoxdVF5TFZwMFYzSHJYY3lvVlZhUjJaUjM5NnFRNFUySWhhcEFHMTVoRVVMbVlidVNET0hBSVB0TFcwOUUwc193enBhQmhHZlpqWVFjMnVpVkcxUTZ2amhuRFNKQ1RqcnJLX2RrczhOeHBBLWNhdHhnZ0lXRjdpZGhvdU5HR0FIVWo1MWpWNVlfMVFNek1kbkNJd25sM3kzSUpBSUt5S21fNTkydlFOTWNRNm4xS1RIWkJSLXhuTGxn?oc=5",
+     "name": "EIN News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-03T04:04:35+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "bb74a6eef4fd",
+   "date": "2026-11-02",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "How Artificial Intelligence Could Reshape Nigerian Banking, Monetary Policy and Capital Markets",
+   "summary": "The article analyzes AI's potential impact on Nigerian banking operations, central bank functions and capital market dynamics. It examines strategic implications for the Nigerian financial system.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQdExaUVZkaloxSWJ5b3ZjdktNODJHQWdKVHVITTZJMWNnekFqZ2EzRTgyeUVsTkp4UC1iaG9xOTBTLXlBeDB4dTNBTnVnMVRxSEZyOHFnT3lYd1dsaHlwb0hPejRUdGI2WGNuNGFsUW5vd1FuaGxJV0JOTU9iM3VJelNjTmVlcGtHN0ZQYVFzRDRwMS14QXAtNXNQY2N1NlA1enZ4Nm5JNGk1YnR1M0kxcEpQV2lQc3B3Q0dGT2Z4WWd1S3NBUkRVVnNaSTVlTkEzS25SMkxrOXdsVWFOOVNSSU5aYUktMVQ4a1VaQk04OVU1OWxRbWxfNC1GVjg2NF9GZV9OVVQ2cEJONkUtQko4?oc=5",
+   "source_name": "Proshare",
+   "source_title": "How Artificial Intelligence Could Reshape Nigerian Banking, Monetary Policy and Capital Markets",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQdExaUVZkaloxSWJ5b3ZjdktNODJHQWdKVHVITTZJMWNnekFqZ2EzRTgyeUVsTkp4UC1iaG9xOTBTLXlBeDB4dTNBTnVnMVRxSEZyOHFnT3lYd1dsaHlwb0hPejRUdGI2WGNuNGFsUW5vd1FuaGxJV0JOTU9iM3VJelNjTmVlcGtHN0ZQYVFzRDRwMS14QXAtNXNQY2N1NlA1enZ4Nm5JNGk1YnR1M0kxcEpQV2lQc3B3Q0dGT2Z4WWd1S3NBUkRVVnNaSTVlTkEzS25SMkxrOXdsVWFOOVNSSU5aYUktMVQ4a1VaQk04OVU1OWxRbWxfNC1GVjg2NF9GZV9OVVQ2cEJONkUtQko4?oc=5",
+     "name": "Proshare"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-03T04:04:35+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "181272777c3c",
+   "date": "2026-11-02",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "iCOMPASS Unveils KY-AI™ in Hong Kong as Banks Face New AI Governance Expectations",
+   "summary": "iCOMPASS unveiled KY-AI™ in Hong Kong as a governance solution to meet emerging regulatory expectations around AI in banking. The deployment reflects growing focus on compliance frameworks.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxONU5nZlpsMTdJNEJmSjVPcFppT1VTWGpFX0U0Q0Z4MUJldDJORVljaHh4MkRra0E0bUtLRXQ0UUg0WlA1ODlScEM1dFRLeHBnZnQwVGViZUZ5ZmRVYkRkMjhKOXZIVlZ5cFBieXVSLVhON3NvUDAwNVBCbXVXanF3THpQZThsTlVIV19JWXRiOUVtb25OdjVsTTlJS2ZCam9id09lcDBpc21pRXdIcW5wX2RGOWFVUkpDc3lYemVyZkprN3RWb2ZqYVZJY0x6bDRrQU4tVTNTLVEtRXFDRHFwVjVrUzZyRjEyUUoxLVR1VHNSeGplUEVV0gH8AUFVX3lxTFA5YjBTR2dSeFhPWjFlR1FyNElyT2g1eXloby1YOHVKR2pibGttYll2WFFIQTEwOV9ta1MyZWZMbFo3NE8tMmJTZHNvQmlJTVY0OGl4TDFMNTRuQXN0RHkxdkgySEhzWldfRVFubGY2di1keW9UVDhqODg4WnVsWXVIUDQ4enMxbGRFV3RiTWRkTy1nc202Vk1Oc1lLUExZQXQzRWFOQjZrTGNVakV1OXNZZHhrTzZLV3l3akdoZTl1UFdETGZGR21seV9zT19yMGJYTkR2cF9hRWttbzZ1aTR0SzhfMVJRYXJ1ekxrM2h5azREbk9Bc1JPT1g2OQ?oc=5",
+   "source_name": "The Manila Times",
+   "source_title": "iCOMPASS Unveils KY-AI™ in Hong Kong as Banks Face New AI Governance Expectations",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxONU5nZlpsMTdJNEJmSjVPcFppT1VTWGpFX0U0Q0Z4MUJldDJORVljaHh4MkRra0E0bUtLRXQ0UUg0WlA1ODlScEM1dFRLeHBnZnQwVGViZUZ5ZmRVYkRkMjhKOXZIVlZ5cFBieXVSLVhON3NvUDAwNVBCbXVXanF3THpQZThsTlVIV19JWXRiOUVtb25OdjVsTTlJS2ZCam9id09lcDBpc21pRXdIcW5wX2RGOWFVUkpDc3lYemVyZkprN3RWb2ZqYVZJY0x6bDRrQU4tVTNTLVEtRXFDRHFwVjVrUzZyRjEyUUoxLVR1VHNSeGplUEVV0gH8AUFVX3lxTFA5YjBTR2dSeFhPWjFlR1FyNElyT2g1eXloby1YOHVKR2pibGttYll2WFFIQTEwOV9ta1MyZWZMbFo3NE8tMmJTZHNvQmlJTVY0OGl4TDFMNTRuQXN0RHkxdkgySEhzWldfRVFubGY2di1keW9UVDhqODg4WnVsWXVIUDQ4enMxbGRFV3RiTWRkTy1nc202Vk1Oc1lLUExZQXQzRWFOQjZrTGNVakV1OXNZZHhrTzZLV3l3akdoZTl1UFdETGZGR21seV9zT19yMGJYTkR2cF9hRWttbzZ1aTR0SzhfMVJRYXJ1ekxrM2h5azREbk9Bc1JPT1g2OQ?oc=5",
+     "name": "The Manila Times"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-03T04:04:35+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "04fe28f10571",
+   "date": "2026-11-02",
+   "category": "Market Data",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "China: Increased Presence of Artificial Intelligence in the Banking Sector",
+   "summary": "A report on the growing adoption and integration of artificial intelligence technologies across China's banking industry. The article documents the expanding use of AI across banking operations and services.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMivgVBVV95cUxQNFpLcmNLaDQ1bXE4bFlRSmVxeFRtVTkwRHNYRFhIQkVXMEppb0NsSHlKOThRM0ZCOTRBN3V2dFlfdHROVlpqQU1mbEU1TERBTGZycjhucllPNkR2enVsOE9QNTVhbjBRMkNJUUZ1c2x6UjdSV3ljNm1KTXJwYjI3RF9oaS1xcXZiY0J6eDY4bGh2M1pPNFY5R0RBX3FfS2o1aS1sajFfVEstYnZfZUp5ZzRuY2M1bVdyTGUyWGs0TUR0N2VIeW9NQkNySE05aEd3ektNVE5SaEYzTHh4amF6SU1FVEhROEx5YjBrV3ZTRkp5T3RTeG1manVwTWttSnZkQnBLZUJBakdIamFqazJTTmRrMkJybW9TbkRfOW80Nnl3eS1XUUN1SzE3NE9iZEdUOXdCNmxyUUNqY1V3TzlGNmNVOVUwa2xkeHV6YlU4U0RTR0x1TUdlTEo1cUlpc0ZzRnUtMkZZTmtrVWhNcTYyTnY2MTE0LU96S1VUN0xkaGFiSVo4aUpJVXhxTzlpa3FSS09qNDJGZ3gzUXV1QUl0T3JOQVNGV3NHdG5SUDJoRzFtMzJrekpCbC1kYUtvU0lYa2RvT3BzMmdORlBKWEtjclpoZ3JZcGpCOXJ0N29RaS1tbS1BS2Q0emR5RjdTUm1oZGlQSzZlblZSdV9UalFGVGltTUk1WVZCRFpaaWhPQzNzUll3U0trMzhGZ2pNVHhFOHVGblVhTlZCSnFpWVFBTXdMa2U4VEt3QTh0MEEzUVZ1aXYyMHp1S3VaMHJxU1Z6OVFyemVRMDQxcmFDdDFuNldyNTN6VVhoWnVaWlFHWnoxaVVQT0o0cnBvb3g3bEgyZXRUd2xudXpxVWR2Vk5yY1lFdTQyWS1ic21sM1Fud01QTW42Z1JwY2pucERla2NENXFXTEVKUndVQnQyNkHSAb4FQVVfeXFMUDRaS3JjS2g0NW1xOGxZUUplcXhUbVU5MERzWERYSEJFVzBKaW9DbEh5Sjk4UTNGQjk0QTd1dnRZX3R0TlZaakFNZmxFNUxEQUxmcnI4bnJZTzZEdnp1bDhPUDU1YW4wUTJDSVFGdXNselI3Uld5YzZtSk1ycGIyN0RfaGktcXF2YmNCeng2OGxodjNaTzRWOUdEQV9xX0tqNWktbGoxX1RLLWJ2X2VKeWc0bmNjNW1XckxlMlhrNE1EdDdlSHlvTUJDckhNOWhHd3pLTVROUmhGM0x4eGpheklNRVRIUThMeWIwa1d2U0ZKeU90U3htZmp1cE1rbUp2ZEJwS2VCQWpHSGphamsyU05kazJCcm1vU25EXzlvNDZ5d3ktV1FDdUsxNzRPYmRHVDl3QjZsclFDamNVd085RjZjVTlVMGtsZHh1emJVOFNEU0dMdU1HZUxKNXFJaXNGc0Z1LTJGWU5ra1VoTXE2Mk52NjExNC1PektVVDdMZGhhYklaOGlKSVV4cU85aWtxUktPajQyRmd4M1F1dUFJdE9yTkFTRldzR3RuUlAyaEcxbTMya3pKQmwtZGFLb1NJWGtkb09wczJnTkZQSlhLY3JaaGdyWXBqQjlydDdvUWktbW0tQUtkNHpkeUY3U1JtaGRpUEs2ZW5WUnVfVGpRRlRpbU1JNVlWQkRaWmloT0Mzc1JZd1NLazM4RmdqTVR4RTh1Rm5VYU5WQkpxaVlRQU13TGtlOFRLd0E4dDBBM1FWdWl2MjB6dUt1WjBycVNWejlRcnplUTA0MXJhQ3QxbjZXcjUzelVYaFp1WlpRR1p6MWlVUE9KNHJwb294N2xIMmV0VHdsbnV6cVVkdlZOcmNZRXU0MlktYnNtbDNRbndNUE1uNmdScGNqbnBEZWtjRDVxV0xFSlJ3VUJ0MjZB?oc=5",
+   "source_name": "عرب 48",
+   "source_title": "الصين: زيادة في حضور الذكاء الاصطناعي في القطاع المصرفي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMivgVBVV95cUxQNFpLcmNLaDQ1bXE4bFlRSmVxeFRtVTkwRHNYRFhIQkVXMEppb0NsSHlKOThRM0ZCOTRBN3V2dFlfdHROVlpqQU1mbEU1TERBTGZycjhucllPNkR2enVsOE9QNTVhbjBRMkNJUUZ1c2x6UjdSV3ljNm1KTXJwYjI3RF9oaS1xcXZiY0J6eDY4bGh2M1pPNFY5R0RBX3FfS2o1aS1sajFfVEstYnZfZUp5ZzRuY2M1bVdyTGUyWGs0TUR0N2VIeW9NQkNySE05aEd3ektNVE5SaEYzTHh4amF6SU1FVEhROEx5YjBrV3ZTRkp5T3RTeG1manVwTWttSnZkQnBLZUJBakdIamFqazJTTmRrMkJybW9TbkRfOW80Nnl3eS1XUUN1SzE3NE9iZEdUOXdCNmxyUUNqY1V3TzlGNmNVOVUwa2xkeHV6YlU4U0RTR0x1TUdlTEo1cUlpc0ZzRnUtMkZZTmtrVWhNcTYyTnY2MTE0LU96S1VUN0xkaGFiSVo4aUpJVXhxTzlpa3FSS09qNDJGZ3gzUXV1QUl0T3JOQVNGV3NHdG5SUDJoRzFtMzJrekpCbC1kYUtvU0lYa2RvT3BzMmdORlBKWEtjclpoZ3JZcGpCOXJ0N29RaS1tbS1BS2Q0emR5RjdTUm1oZGlQSzZlblZSdV9UalFGVGltTUk1WVZCRFpaaWhPQzNzUll3U0trMzhGZ2pNVHhFOHVGblVhTlZCSnFpWVFBTXdMa2U4VEt3QTh0MEEzUVZ1aXYyMHp1S3VaMHJxU1Z6OVFyemVRMDQxcmFDdDFuNldyNTN6VVhoWnVaWlFHWnoxaVVQT0o0cnBvb3g3bEgyZXRUd2xudXpxVWR2Vk5yY1lFdTQyWS1ic21sM1Fud01QTW42Z1JwY2pucERla2NENXFXTEVKUndVQnQyNkHSAb4FQVVfeXFMUDRaS3JjS2g0NW1xOGxZUUplcXhUbVU5MERzWERYSEJFVzBKaW9DbEh5Sjk4UTNGQjk0QTd1dnRZX3R0TlZaakFNZmxFNUxEQUxmcnI4bnJZTzZEdnp1bDhPUDU1YW4wUTJDSVFGdXNselI3Uld5YzZtSk1ycGIyN0RfaGktcXF2YmNCeng2OGxodjNaTzRWOUdEQV9xX0tqNWktbGoxX1RLLWJ2X2VKeWc0bmNjNW1XckxlMlhrNE1EdDdlSHlvTUJDckhNOWhHd3pLTVROUmhGM0x4eGpheklNRVRIUThMeWIwa1d2U0ZKeU90U3htZmp1cE1rbUp2ZEJwS2VCQWpHSGphamsyU05kazJCcm1vU25EXzlvNDZ5d3ktV1FDdUsxNzRPYmRHVDl3QjZsclFDamNVd085RjZjVTlVMGtsZHh1emJVOFNEU0dMdU1HZUxKNXFJaXNGc0Z1LTJGWU5ra1VoTXE2Mk52NjExNC1PektVVDdMZGhhYklaOGlKSVV4cU85aWtxUktPajQyRmd4M1F1dUFJdE9yTkFTRldzR3RuUlAyaEcxbTMya3pKQmwtZGFLb1NJWGtkb09wczJnTkZQSlhLY3JaaGdyWXBqQjlydDdvUWktbW0tQUtkNHpkeUY3U1JtaGRpUEs2ZW5WUnVfVGpRRlRpbU1JNVlWQkRaWmloT0Mzc1JZd1NLazM4RmdqTVR4RTh1Rm5VYU5WQkpxaVlRQU13TGtlOFRLd0E4dDBBM1FWdWl2MjB6dUt1WjBycVNWejlRcnplUTA0MXJhQ3QxbjZXcjUzelVYaFp1WlpRR1p6MWlVUE9KNHJwb294N2xIMmV0VHdsbnV6cVVkdlZOcmNZRXU0MlktYnNtbDNRbndNUE1uNmdScGNqbnBEZWtjRDVxV0xFSlJ3VUJ0MjZB?oc=5",
+     "name": "عرب 48"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-11-03T04:04:35+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-11-03"
+   }
+  },
+  {
+   "id": "6b6bcbc4bdc6",
+   "date": "2026-11-03",
+   "category": "Expert Views",
+   "publisher": "Rebellion Research",
+   "countries": [
+    "Global"
+   ],
+   "title": "Impact of AI on Investment Banking: Where It Fits and What It Means for Analysts",
+   "summary": "An analysis of how artificial intelligence is transforming investment banking functions and roles, including implications for financial analysts. The research examines specific applications and impacts on the investment banking workforce.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZXdmWnZKbEY5WUNOUUk0QUcyUmV1dTJKY2k5RWtzQWE4OUlQVG1jeUdXY1BsMnpGNlV6N0hLd3V5YnRCZVJZRUJldW93TjltUUgyWHpJRDdYd1FTQTRYWGFRS2tCaC1ZYU92a010V01HOVJuc1NIUE9jZ09FUFRlLXpZZ1pJaVUxN2VCbzFzQThSZ1hocmpZUjBkaFg2QjVSOHFTaXhyUExZc09oOFhlMVVUWQ?oc=5",
+   "source_name": "Rebellion Research",
+   "source_title": "Impact of AI on Investment Banking: Where It Fits and What It Means for Analysts",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZXdmWnZKbEY5WUNOUUk0QUcyUmV1dTJKY2k5RWtzQWE4OUlQVG1jeUdXY1BsMnpGNlV6N0hLd3V5YnRCZVJZRUJldW93TjltUUgyWHpJRDdYd1FTQTRYWGFRS2tCaC1ZYU92a010V01HOVJuc1NIUE9jZ09FUFRlLXpZZ1pJaVUxN2VCbzFzQThSZ1hocmpZUjBkaFg2QjVSOHFTaXhyUExZc09oOFhlMVVUWQ?oc=5",
+     "name": "Rebellion Research"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-03T04:04:35+00:00",
+   "verification": {
+    "level": "pending",
+    "evidence": "headline",
+    "checked": "2026-11-03"
+   }
   }
  ],
  "sector_retry": [],
@@ -8608,6 +8811,24 @@
    "same": true
   },
   "v2|1552df4b1a60|51bdcd3d0a0a": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|16124ded37df|4701d21a85c4": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|0d656836a5b1|16124ded37df": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|0d656836a5b1|4701d21a85c4": {
    "merge": false,
    "anchor": "",
    "confidence": "high",
@@ -12175,6 +12396,84 @@
    "same": false
   },
   "v2|568950808958|c813e4e53244": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|5e1115c6b668|67a1f1b57566": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|5e1115c6b668|9a10a5c34b72": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1dca78b550ae|5e1115c6b668": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|5e1115c6b668|66b324c4335e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1e2db01cb472|7f30118d8413": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|7f30118d8413|b4d0f3fb9746": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|7f30118d8413|bdb61939d5f6": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|279dec52a108|7f30118d8413": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|0926f76c564f|7f30118d8413": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|6be1ef1d0300|7f30118d8413": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|6d632683e2ea|7f30118d8413": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|7f30118d8413|9feca54be941": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|5e1115c6b668|7f30118d8413": {
    "merge": false,
    "anchor": "",
    "confidence": "high",

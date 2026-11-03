@@ -1,6 +1,64 @@
 {
- "updated_at": "2026-11-02T03:23:32+00:00",
+ "updated_at": "2026-11-03T04:04:57+00:00",
  "items": [
+  {
+   "id": "5e1115c6b668",
+   "date": "2026-11-02",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Securing Customer Data While Using External Large Language Models in Banking",
+   "summary": "A bank CIO discusses strategies for protecting customer data when financial institutions use external LLM providers. The piece addresses key risks and mitigation approaches for AI in banking.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMXB6WjBoZmRkd2Vzb285Vjh4ZUFpUTYtV1RhTGFQTG5QRExFOTI2TWIzaVdoSk9ReEpCcjZJVW8zOGVWY0pxc3lrZ0g0U2FoajlBZk04QTF3YzRTZ2Vja2d1R0djbVJrVVlocmdfNmNfc25ZVjhXZExINHI1Rm9rT3M1RGRlUnJ4emR4MDcybDJzYXQ4LTJtdm9xMDR1dHM?oc=5",
+   "source_name": "FF News",
+   "source_title": "Armundia Group CIO: How Banks Can Secure Customer Data While Using External LLMs",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMXB6WjBoZmRkd2Vzb285Vjh4ZUFpUTYtV1RhTGFQTG5QRExFOTI2TWIzaVdoSk9ReEpCcjZJVW8zOGVWY0pxc3lrZ0g0U2FoajlBZk04QTF3YzRTZ2Vja2d1R0djbVJrVVlocmdfNmNfc25ZVjhXZExINHI1Rm9rT3M1RGRlUnJ4emR4MDcybDJzYXQ4LTJtdm9xMDR1dHM?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-03T04:04:35+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-03"
+   },
+   "pdf_checked": "2026-11-03"
+  },
+  {
+   "id": "7f30118d8413",
+   "date": "2026-11-02",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Artificial Intelligence and Improving Supervision of Banks",
+   "summary": "An article examining how artificial intelligence can enhance banking supervision and regulatory oversight. The piece discusses the application of AI tools to strengthen monitoring and compliance across banking institutions.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5EVnozUTUtUXQ0cEEzcjF4RDYyT2NhSVhCSEVpbGJmdE1oMDVDZl9iN2lsVS1WaXFvNjdZUW50QXN3cFNWYllSSXlGR1k4TFhaNDNfUVJoM1lIUQ?oc=5",
+   "source_name": "البيان",
+   "source_title": "الذكاء الاصطناعي وتحسين الرقابة على المصارف",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5EVnozUTUtUXQ0cEEzcjF4RDYyT2NhSVhCSEVpbGJmdE1oMDVDZl9iN2lsVS1WaXFvNjdZUW50QXN3cFNWYllSSXlGR1k4TFhaNDNfUVJoM1lIUQ?oc=5",
+     "name": "البيان"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-11-03T04:04:35+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-03"
+   },
+   "pdf_checked": "2026-11-03"
+  },
   {
    "id": "cb31a30ebd8c",
    "date": "2026-10-31",
