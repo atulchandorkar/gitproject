@@ -1,6 +1,852 @@
 {
- "updated_at": "2026-11-03T04:04:57+00:00",
+ "updated_at": "2026-11-04T03:24:09+00:00",
  "items": [
+  {
+   "id": "af7e2644bd67",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-11-04",
+   "title": "QNB AI Tools for Employee Operational Efficiency",
+   "summary": "The Bank has incorporated AI tools to assist employees with day-to-day tasks, supporting operational efficiency. More strategic AI applications are being evaluated within respective areas.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "employee AI tools",
+    "operational efficiency"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=46",
+   "source_name": "QNB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=46",
+     "name": "QNB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:06:45+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+    "page": 46,
+    "quote": "The Bank has incorporated AI tools to assist employees with day-to-day tasks, supporting operational efficiency. In addition, more strategic AI applications are being evaluated within respective areas."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-04"
+   }
+  },
+  {
+   "id": "371f230e4c42",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-11-04",
+   "title": "QNB Microsoft 365 Copilot Integration in Internal Audit",
+   "summary": "QNB's internal audit team has begun incorporating AI tools such as Microsoft 365 Copilot into the audit workflow to drive operational excellence. This reflects the commitment to leveraging innovative technologies to strengthen audit quality and reliability.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Microsoft 365 Copilot",
+    "internal audit",
+    "audit workflow"
+   ],
+   "partners": [
+    "Microsoft"
+   ],
+   "impact": "",
+   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=120",
+   "source_name": "QNB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=120",
+     "name": "QNB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:06:45+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+    "page": 120,
+    "quote": "Furthermore, we have started exploring the transformative possibilities that artificial intelligence can bring to our audit processes. As part of this initiative, our internal audit team has begun incorporating AI tools such as Microsoft 365 Copilot into the audit workflow, to drive operational excellence approach reflects our commitment to leveraging innovative technologies to continually strengthen the quality and reliability of our audits."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-04"
+   }
+  },
+  {
+   "id": "0804fa8a2d73",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-11-04",
+   "title": "QNB Data and Analytics Strategic Function",
+   "summary": "QNB has established a dedicated function and task force to emphasize the value of data and analytics, AI, and other new technologies in delivering an efficient and customer-centric banking experience. This substantiates the Bank's commitment to advanced technologies and digital transformation.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "dedicated function",
+    "task force",
+    "data analytics",
+    "customer-centric",
+    "strategic theme",
+    "advanced algorithms",
+    "machine learning"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=14",
+   "source_name": "QNB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=14",
+     "name": "QNB Annual Report 2025"
+    },
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=30",
+     "name": "QNB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:06:45+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+    "page": 14,
+    "quote": "We have established a dedicated function and task force to emphasize the value of data and analytics, AI, as well as other new technologies in de livering an e fficient and cu stomer centric ba nking experience."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-04"
+   },
+   "merged": [
+    {
+     "id": "0180dd130b40",
+     "date": "2026-11-04",
+     "title": "QNB Data Analytics and AI as Strategic Innovation Theme",
+     "source_title": "",
+     "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=30",
+     "source_name": "QNB Annual Report 2025",
+     "summary": "QNB has identified data analytics and AI as one of four major strategic themes for its innovation approach, leveraging advanced algorithms, machine learning to identify trends, market knowledge and business insights. This is part of QNB's focus on digitisation, automation, marketplaces and open banking.",
+     "how": "words",
+     "anchor": ""
+    }
+   ]
+  },
+  {
+   "id": "9763a768ea97",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-11-04",
+   "title": "QNB AI and Machine Learning in Financial Crime Compliance",
+   "summary": "QNB launched new initiatives and projects aimed at leveraging advanced technologies, including artificial intelligence and machine learning within its Financial Crime Compliance (FCC) systems to further enhance detection, monitoring and investigative capabilities. This complements efforts to improve AML/CFT investigation processes and expand coverage to overseas branches and international subsidiaries.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "Financial Crime Compliance",
+    "AML/CFT",
+    "AI/ML",
+    "detection capabilities"
+   ],
+   "partners": [],
+   "impact": "Enhanced detection, monitoring and investigative capabilities across overseas branches and international subsidiaries",
+   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=114",
+   "source_name": "QNB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=114",
+     "name": "QNB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:06:45+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+    "page": 114,
+    "quote": "T o further enhance detection, monitoring and investigative capabilities, QNB also launched new initiatives and projects aimed at leveraging advanced technologies, including artificial intelligence and machine learning within its Financial Crime Compliance (FCC) systems."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-04"
+   }
+  },
+  {
+   "id": "92dcdac4c18b",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-11-04",
+   "title": "QNB Model Risk Policy Updated for AI Governance",
+   "summary": "QNB's model risk policy and governance framework have been updated to explicitly bring artificial intelligence within scope, ensuring robust oversight as new technologies are embedded across the Bank. This demonstrates proactive risk management for AI implementations.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "model risk policy",
+    "AI governance",
+    "oversight"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=89",
+   "source_name": "QNB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=89",
+     "name": "QNB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:06:45+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+    "page": 89,
+    "quote": "Our model risk policy and governance framework have also been updated to explicitly bring artificial intelligence within scope, ensuring robust oversight as new technologies are embedded across the Bank."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-04"
+   }
+  },
+  {
+   "id": "56756b7769c9",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-11-04",
+   "title": "QNB AI-Oriented Projects for Risk Decision-Making",
+   "summary": "QNB is progressing AI-oriented projects that serve as proof of concept for how emerging technologies can support faster, more informed decision-making across the Group. These projects complement the expansion of Loan Origination and Loan Lifecycle workflow.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "proof of concept",
+    "AI projects",
+    "faster decision-making"
+   ],
+   "partners": [],
+   "impact": "Faster, more informed decision-making enabled through AI proof of concept",
+   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=89",
+   "source_name": "QNB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=89",
+     "name": "QNB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:06:45+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+    "page": 89,
+    "quote": "In parallel, we are progressing AI- oriented projects that serve as proof of concept for how emerging technologies can support faster, more informed decision-making."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-04"
+   }
+  },
+  {
+   "id": "3f9693899497",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-11-04",
+   "title": "QNB AI Security Architecture Development",
+   "summary": "QNB developed a dedicated AI security architecture with additional controls to ensure data governance in response to emerging risks generated by AI platforms and tools. This forward-looking approach combines disciplined governance with innovation to safeguard customer data and meet regulatory expectations.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "AI security architecture",
+    "data governance",
+    "threat prevention"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=95",
+   "source_name": "QNB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=95",
+     "name": "QNB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:06:45+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+    "page": 95,
+    "quote": "To stay ahead, QNB developed a dedicated AI security architecture, with additional controls to ensure data governance."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-04"
+   }
+  },
+  {
+   "id": "b079ca5f51da",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-11-04",
+   "title": "QNB AI Deployment for Cybersecurity Threat Detection",
+   "summary": "QNB deploys the latest technologies, including AI, to support the proactive detection and prevention of malicious activities and malware attacks. The Bank recognizes that attackers are increasingly leveraging AI and remains committed to staying ahead with innovative security solutions.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "AI security",
+    "malware detection",
+    "threat prevention"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=95",
+   "source_name": "QNB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=95",
+     "name": "QNB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:06:45+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+    "page": 95,
+    "quote": "We deploy the latest technologies, including AI, to support the proactive detection and prevention of malicious activities and malware attacks."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-04"
+   }
+  },
+  {
+   "id": "65d8b1439c0e",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-11-04",
+   "title": "QNB Data Ethics and AI Privacy Safeguards",
+   "summary": "As reliance on artificial intelligence and digital solutions expands, QNB has reinforced measures to safeguard personal data in AI-driven processes. QNB prioritises ethical and transparent data usage, ensuring that algorithmic decision-making does not compromise individual privacy or fairness by embedding global data protection standards and data ethics principles into AI systems.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "data ethics",
+    "privacy safeguards",
+    "algorithmic fairness"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=116",
+   "source_name": "QNB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=116",
+     "name": "QNB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:06:45+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+    "page": 116,
+    "quote": "Furthermore, as reliance on artificial intelligence and digital solutions expands, QNB has reinforced measures to safeguard personal data in AI driven processes. QNB prioritises ethical and transparent data usage, ensuring that algorithmic decision-making does not compromise individual privacy or fairness. By embedding global data protection standards and data ethics principles into AI systems, QNB balances innovation with accountability, reinforcing its position as a leader in responsible technology adoption."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-04"
+   }
+  },
+  {
+   "id": "d8d4a2907237",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-11-04",
+   "title": "QNB AI Ethics Training Programme",
+   "summary": "QNB's mandatory training programmes, which are refreshed annually to reflect emerging risks, include a particular focus in 2025 on AI ethics. This ensures that the workforce remains equipped to manage evolving challenges and supports the Bank's long-term resilience.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "mandatory training",
+    "AI ethics",
+    "workforce development"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=83",
+   "source_name": "QNB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=83",
+     "name": "QNB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:06:45+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+    "page": 83,
+    "quote": "Mandatory training programmes are refreshed annually to reflect emerging risks, with a particular focus in 2025 on cyber and data security, AI ethics, and sustainability- related risks."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-04"
+   }
+  },
+  {
+   "id": "b6df07341dc1",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-11-04",
+   "title": "QNB AI-Driven Investment Recommendations Platform",
+   "summary": "QNB is exploring AI-driven enhancements for its investment platform that will enable tailored recommendations and investment ideas aligned with client risk profiles. The platform is expected to launch in 2026.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "AI-driven recommendations",
+    "investment platform",
+    "client risk profiles"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=71",
+   "source_name": "QNB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=71",
+     "name": "QNB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:06:45+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+    "page": 71,
+    "quote": "We are also exploring AI-driven enhancements, which will enable tailored recommendations and investment ideas aligned with client risk profiles."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-04"
+   }
+  },
+  {
+   "id": "75e357700fad",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-11-04",
+   "title": "QNB Data-Driven and AI-Enhanced Audit Capabilities",
+   "summary": "QNB plans to continue investing in developing digital audit capabilities in line with the Bank's digital strategy and aspirations for 2026. Data-driven audit will remain a strategic theme, with further embedding of data and AI in the audit process to bring greater value and coverage to stakeholders.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "digital audit",
+    "data-driven audit",
+    "AI in audit"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=121",
+   "source_name": "QNB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=121",
+     "name": "QNB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:06:45+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+    "page": 121,
+    "quote": "We will continue to invest in developing our digital audit capabilities in line with the Bank's digital strategy and aspirations. Data-driven audit will continue to be a strategic theme, where we will be further embedding data and AI in our audit process to bring greater value and coverage to our stakeholders."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-04"
+   }
+  },
+  {
+   "id": "50e3971fabac",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-11-04",
+   "title": "QNB AI and Machine Learning as 2026 Internal Audit Focus",
+   "summary": "QNB's internal audit team has identified technological advancement in AI, machine learning, blockchain and other fintech innovations as a key focus area for 2026. This will help anticipate new risks, provide advice and accelerate positive change in alignment with the Bank's digital strategy.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "2026 focus",
+    "AI and ML",
+    "internal audit",
+    "fintech"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=121",
+   "source_name": "QNB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=121",
+     "name": "QNB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:06:45+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+    "page": 121,
+    "quote": "For 2026, we aim to stay current with the rapidly- changing business and regulatory environment by continuing to focus on regulatory change programmes, such as the Basel III reforms, and other prudential regime requirements, such as capital adequacy and risk assessment, financial crime, fraud risk management, cybersecurity, ESG, and T echnological advancement in AI, machine learning, blockchain and other fintech innovations."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-04"
+   }
+  },
+  {
+   "id": "485317d34478",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-11-04",
+   "title": "QNB Strategy for Leveraging AI and Emerging Technologies",
+   "summary": "QNB recognizes the importance of leveraging new and emerging technologies including AI as part of its strategy to maintain the Bank's leading position. The Bank is investing substantially in IT capabilities to leverage Artificial Intelligence, Machine Learning, Data & Analytics, Robotics and Automation to create meaningful bottom-line contributions through revenue generation or cost savings.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "strategic investment",
+    "AI/ML/RPA",
+    "IT capabilities"
+   ],
+   "partners": [],
+   "impact": "Meaningful bottom-line contribution through revenue generating or cost saving opportunities",
+   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=28",
+   "source_name": "QNB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=28",
+     "name": "QNB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:06:45+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+    "page": 28,
+    "quote": "T o maintain the Bank's leading position, we recognize the importance of leveraging new and emerging technologies. We are seeing transformational change in how business is done and how information is processed, as see this change only accelerating over the coming years with the advent of AI. By investing in technology, we aim to create a meaningful bottom-line contribution through either revenue generating or cost saving opportunities. Our strategy includes substantial investments in our IT capabilities as an enabler for further digitisation through the adoption of new technologies and modernising our systems. As part of this, we will further leverage Artificial Intelligence, Machine Learning, Data & Analytics, Robotics and Automation, Open Banking and an ongoing streamlining of our processes and systems."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-04"
+   }
+  },
+  {
+   "id": "4e9a2e6573c7",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-11-04",
+   "title": "QNB Continuous Evaluation of AI and Automation Tools for Credit",
+   "summary": "QNB expects to continuously evaluate new AI and automation tools and offerings for appropriateness to complement its credit process. This is part of the Bank's approach to navigating external events and generating more opportunities with appropriate levels of risk.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "credit automation",
+    "new AI tools",
+    "risk management"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=87",
+   "source_name": "QNB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=87",
+     "name": "QNB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:06:45+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+    "page": 87,
+    "quote": "We also expect to continuously evaluate new AI and automation tools and offerings for appropriateness to complement our credit process."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-04"
+   }
+  },
+  {
+   "id": "39b14d01a38f",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-11-04",
+   "title": "QNB Monitoring AI Developments for Sustainability Applications",
+   "summary": "QNB remains committed to monitoring and evaluating AI developments for their relevance to the Bank's sustainability strategy, such as enhancing data validation, streamlining disclosures, and supporting climate analysis. This reflects the Bank's recognition of AI's rising importance in sustainability governance.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "sustainability strategy",
+    "AI applications",
+    "climate analysis"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=46",
+   "source_name": "QNB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=46",
+     "name": "QNB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:06:45+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+    "page": 46,
+    "quote": "We remain committed to monitoring and evaluating AI developments for their relevance to our sustainability strategy – such as enhancing data validation, streamlining disclosures, and supporting climate analysis."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-04"
+   }
+  },
+  {
+   "id": "801b0f5152ca",
+   "bank_id": "mashreq",
+   "country": "AE",
+   "date": "2026-11-03",
+   "title": "Mashreq Strengthens Fraud Risk Management with Clari5 Generative AI",
+   "summary": "Mashreq has integrated Clari5 generative AI into its fraud risk management to strengthen fraud detection capabilities.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance",
+    "Generative AI & Copilots",
+    "Tech Vendor Partnerships"
+   ],
+   "tags": [
+    "Fraud Detection",
+    "GenAI",
+    "Clari5"
+   ],
+   "partners": [
+    "Clari5"
+   ],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdmFCaGwtZzRVUnloVTNPTU9FT1I5Tk1JRnNMNlkyOGZvMzNpeGttT09OQWFjOFIzOE1qS2kxcjNfd3ktenl5V3dKRFBsMWxlNEtZS2NmNjdSa1ZveFk4Qmw4Um9STldOUXl5Q0d1TkZIM1hLNkhZcGN1N2VRTkVxQ1hKeUZjMFdPQmpJUjNSLUlEdm52Q2hLdklLTktURmNTZlRsSWdLWFlvVU0?oc=5",
+   "source_name": "FF News",
+   "source_title": "Mashreq Strengthens Fraud Risk Management with New Clari5 Generative AI Integration",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdmFCaGwtZzRVUnloVTNPTU9FT1I5Tk1JRnNMNlkyOGZvMzNpeGttT09OQWFjOFIzOE1qS2kxcjNfd3ktenl5V3dKRFBsMWxlNEtZS2NmNjdSa1ZveFk4Qmw4Um9STldOUXl5Q0d1TkZIM1hLNkhZcGN1N2VRTkVxQ1hKeUZjMFdPQmpJUjNSLUlEdm52Q2hLdklLTktURmNTZlRsSWdLWFlvVU0?oc=5",
+     "name": "FF News"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUkotendXeE1PRTBVbW1ydkZjQ3BZYVNLcE03OGFkVlJZTWF1NzJkZjlNRklHUXIwTmc5OWMyTE4teHpjbGdjLXJsRU1RTDJKdTZCeWtrbzlJUG9WRkw1M2ppQWdJeEJNekl3alZvU1otbFVvN2thN25waDlSQjhKZ2dnSWNXZ3l3M3A5cUVvdnBmR256ZWU0dWYyM1RQOExrSkNna2c0RE1NSXd0M3VHelB2VmxVU05fTWhpS0ZRbU82b3UxeVpmNGRrb09TU0FYTXpwOA?oc=5",
+     "name": "Press Trust of India"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMDF4Q3RZbzFOVG1sMWNQQmNaengzQWJkTkt3OFZfdExyeWo2NTlUQ01tVEY0V1dOdGRvWjBNeFR5bGs3TjdNQVNXUndZVFV6cndNNlZMZUg2ckptaDFXcXFJVlloQkpCbGRJVkpEZmFZMTdUbEhzU0E4MlFCVDB5M055SkFnRkVUMk9SOWVFTDNCWFhRSGRFZVh5RjRqNl9TRDZMZU5vRUhDbDY1d250TXdZeTVJaTJ0Vzhobk9OYlU1NnFzZEtySm5NZEtyMXlkcHI0QlN6RllDdw?oc=5",
+     "name": "ANI News"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNi03RTNRd2JZUWxpcWRPN2tkLWRFdWdPQjI1Ny1UZGNQN25xM0tBMFBQcnFNWVNMVkZjMmlRelhBY3BfbEFOdXJMQlZvTmlnZUhjVGQ4LXNlVWxHcHVSdUI3TEVuam5SSzVQYTlGTm8zRzVRSS1pUUlNSXBxT3FFQ0E5MVpfMXZWeE1VcUxZSG1selNmbkJsMkdLX1NTWlFWejZlSTZacXoyZkhWRVR5akxUNmtaSW1rcXZjWVZn?oc=5",
+     "name": "Mena FN"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUkhLYldnbFlrMlEyUzNqb01iTVNOTDAzOThoazlMbGIxWEhMazFhRGIzVGI1LTlxQUNxR2xLbW42OVRuZTJycXRzb0FlQm14elF6UUZNdXpodzFwWkxPSUFjWC1nb0xQbU1odU9UZkNFZ2k4RmhqWnpPWGZTQTlEWGhJZU9TeW5aTDJ2SVJGdmtNdEFYWDVmOGxWOVNrT2ozVmlwS1JlS19UbmlTT1JaclNDTUdsbkJ4NlVnUlJHbjgzTGt4SDFlQWk4aTF0U03SAc8BQVVfeXFMTVJIS2JXZ2xZazJRMlMzam9NYk1TTkwwMzk4aGs5TGxiMVhITGsxYURiM1RiNS05cUFDcUdsS21uNjlUbmUycnF0c29BZUJteHpRelFGTXV6aHcxcFpMT0lBY1gtZ29MUG1NaHVPVGZDRWdpOEZoalp6T1hmU0E5RFhoSWVPU3luWkwydklSRnZrTXRBWFg1ZjhsVjlTa09qM1ZpcEtSZUtfVG5pU09SWnJTQ01HbG5CeDZVZ1JSR244M0xreEgxZUFpOGkxdFNN?oc=5",
+     "name": "Content Media Solution"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcXNFTXYtU3hWekhtNEJTYmZrSy1qeFpDalU2NmphTDlWQ0RUUThDcmJDYWF6WmZUTWxSQnRWejAzSE5CWEUwNGY1TFNzLWNyM2xOekxiY3laYkV1aFdIcWNINk0tWTdnVHA2MXVNUWJYX3BrSHV6VVNkd0lUeU9qeWdfajI0Y2s?oc=5",
+     "name": "Retail Banker International"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:04:21+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-04"
+   },
+   "merged": [
+    {
+     "id": "24a12aaa8aad",
+     "date": "2026-11-03",
+     "title": "Mashreq Integrates Generative AI into Fraud Detection Platform",
+     "source_title": "Mashreq integrates generative AI into fraud detection platform",
+     "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcXNFTXYtU3hWekhtNEJTYmZrSy1qeFpDalU2NmphTDlWQ0RUUThDcmJDYWF6WmZUTWxSQnRWejAzSE5CWEUwNGY1TFNzLWNyM2xOekxiY3laYkV1aFdIcWNINk0tWTdnVHA2MXVNUWJYX3BrSHV6VVNkd0lUeU9qeWdfajI0Y2s?oc=5",
+     "source_name": "Retail Banker International",
+     "summary": "Mashreq has integrated generative AI technology into its fraud detection platform.",
+     "how": "ai",
+     "anchor": "Clari5 Generative AI"
+    }
+   ]
+  },
+  {
+   "id": "844e7d076708",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2026-11-03",
+   "title": "UAE AI Office and Emirates NBD Put Emirati AI Skills to the Test at UAE Codes 2026",
+   "summary": "The UAE AI Office and Emirates NBD are collaborating to test and develop Emirati AI skills through the UAE Codes 2026 programme.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent",
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "AI Skills",
+    "Training",
+    "UAE Codes 2026"
+   ],
+   "partners": [
+    "UAE AI Office"
+   ],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOHcwY3BnejNYZldwYlcyeWZxcVRaM3pvTU1Tb19KTENaZlFZQlhlOXF1MS1wZGJiV1ltMVU1WGtoVExkVzRQVmFQaTdtNkNXeFVscndWNXd6Z2ZqVU1FTjZvTTJHVlJhNkJxNFNYVlJ5cFUzUDY5bVItZ3Y2N2VhS3ZvMUFkZURodGxHd3ZnaGVEMWVTZ2U3MWI5NXZRal9CNjk4TkFoQWh3OXNzb3ExQmxKdlpkd2s?oc=5",
+   "source_name": "ITP.net",
+   "source_title": "UAE AI Office and Emirates NBD Put Emirati AI Skills to the Test at UAE Codes 2026",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOHcwY3BnejNYZldwYlcyeWZxcVRaM3pvTU1Tb19KTENaZlFZQlhlOXF1MS1wZGJiV1ltMVU1WGtoVExkVzRQVmFQaTdtNkNXeFVscndWNXd6Z2ZqVU1FTjZvTTJHVlJhNkJxNFNYVlJ5cFUzUDY5bVItZ3Y2N2VhS3ZvMUFkZURodGxHd3ZnaGVEMWVTZ2U3MWI5NXZRal9CNjk4TkFoQWh3OXNzb3ExQmxKdlpkd2s?oc=5",
+     "name": "ITP.net"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbVR2WG9kLWRraHh1Vm1sRGlTTEprSHpGMEpWREIwOUV1ejlubmgxUFN5TDNsSl84aU9Ea215T2ZoYnNBbW1yUmJSczFtUVhIV3JMWWROYmRxSjE2SUZranhOT0pzckdnakl4ZlZ1T2g1OE1pTUp3S210a2ZuQ1BUMDUxUGUxUVl5SVNWbE0wWmZubzN0MUFfQUJaSEtkYTM0b0FCc09kNDIxc1UzUklVWWdadWFUUjNSR3o2d2xR?oc=5",
+     "name": "Big News Network.com"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:04:21+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-04"
+   }
+  },
+  {
+   "id": "12172d06d38e",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2026-11-03",
+   "title": "Commercial Bank of Dubai Unveils Major AI and Fintech Partnerships",
+   "summary": "Commercial Bank of Dubai has unveiled major AI and fintech partnerships at the Dubai FinTech Summit 2026.",
+   "category": "Tech Vendor Partnerships",
+   "topics": [
+    "Tech Vendor Partnerships",
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "Partnership",
+    "AI Strategy",
+    "Fintech"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTTJEV25QVG5mcFRfeXR5MllZMThMTllQZk5EZ3Z5ZGlJZ19UYzk3WEtQV2Q1MXlVSEt4RGVnMnJwQWVQSXB5aG9uZkd5SWZ4YV95T3cwckNQeGNfa3lmQUR0Wnl4aWc2ajJlMXQxaU9Md1RGQXdvSHlQQk10MFV0NFgwcDBVRmtwclNQMnk2MlpvTWdrVnBYckVTZmx6aEpSa1pyR3BwV3dOY19vWHJuUjc3SHNac08xaHhF?oc=5",
+   "source_name": "FF News",
+   "source_title": "Commercial Bank of Dubai Unveils Major AI and Fintech Partnerships at Dubai FinTech Summit 2026",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTTJEV25QVG5mcFRfeXR5MllZMThMTllQZk5EZ3Z5ZGlJZ19UYzk3WEtQV2Q1MXlVSEt4RGVnMnJwQWVQSXB5aG9uZkd5SWZ4YV95T3cwckNQeGNfa3lmQUR0Wnl4aWc2ajJlMXQxaU9Md1RGQXdvSHlQQk10MFV0NFgwcDBVRmtwclNQMnk2MlpvTWdrVnBYckVTZmx6aEpSa1pyR3BwV3dOY19vWHJuUjc3SHNac08xaHhF?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:04:21+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-04"
+   }
+  },
   {
    "id": "22724aff0598",
    "bank_id": "alsalam",
@@ -29,6 +875,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYlBjOHZhS2hibzBPUlE2VUJDUl9qR3FNbkdjLUt0d1pQNGhoUGZsVExZdHhFWmdpRE4tVGdKNjhCVlZCU2JhVmxFS011RWdfa0NJci0yQy10NFVoVXBpZWMxZDBQMVdNUmhBa0F2cXVPVjlxa3Y0YkpDQVJybzY5WlJTZTdHdXFBM2ZnT3N1blZFMEoxRW5tSU1qTHRDRF96OE9tSnY2a3dCVnJIM2tsY1BtQ1lkakpmaUF4TXlRUlNZdDNGNzV3YlhSZDlRejNkZHpGaFl3?oc=5",
      "name": "Zawya"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa2RKMVEyeFZ5ckFpUU9QaDBxT3pzYzZiVGlVTGxYbUZsbGp5MmdpckZxSE43LXN5d2pGMVp6eGFjX1Nwb3E5N2ZpbHlhX3lfT2JvSkxRN0Q1YlJyZUFYdzQzcTJWVF9nOEJYVWtKekN0MmJrZnpuS3JpNHFBTHdEX0xTSmZCVnBpZmM1YVJHQ3lKTE9HSlJfZTlPMjlKUzF2VkZmZWUyQTk3dw?oc=5",
+     "name": "News of Bahrain"
     }
    ],
    "language": "en",
@@ -138,6 +988,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYTNvWmhtTlNVZ2hOd0FVdmU5bHU4WHJ6eDg5T2sya0lGMXFEdTRRbkc3M1lBUGtCSGF4dV9oNXV5YkZOOVBudFpWVVBKNlM2MGlhRGdsLXhwbTZjb0MwMGdGbG9sMmtrOC04VEtUZ3lrMmRiWTV3d1VlaGl3M3Z1VHFUaXIzcmQ1Unl3U2pPbnR4eXZscjBwSkZfWnVMZ1E?oc=5",
      "name": "Gulf Daily News (Bahrain)"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUHRfQ2xoNG83Z3ltMnFPeXRYOFNTU0VHZjM2MXRwTnJuR3RUMlVHVXFYb0RjR3g4MklWbkN3Yl9KU3JDR0M4QWRuTjZUZzluVzFfU0FVY0dZLXdVcGtFemFmMW9mQmw3RDlpVW5DTklKaVE3X3p2dUUzU1F3MWlJSndYNmhJWmFCOWZR?oc=5",
+     "name": "Al-Bawaba"
     }
    ],
    "language": "en",

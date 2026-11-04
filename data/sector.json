@@ -1,6 +1,64 @@
 {
- "updated_at": "2026-11-03T04:04:57+00:00",
+ "updated_at": "2026-11-04T03:24:09+00:00",
  "items": [
+  {
+   "id": "7ea951ddfdaf",
+   "date": "2026-11-03",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Agentic AI in Banking Meets a Consumer Trust Gap",
+   "summary": "Autonomous AI agents in banking face a consumer trust gap when deployed for customer interactions. The challenge reflects customer concerns about confidence in AI-driven banking services.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcU93ck5tdXMwXzh2cDZlRlJDdEJLRFNfZUtmS3ZVYWVNMGJLTUotZlBXTFdSUlhCT0Z5c1NYWFd3TmVwcU1QbEhKQWNoaHhBSjRvU2VxZVlrVjZjcFRGLU0ybVktMXNPX3FjR0dXTDRZWFoydkVfVWx0ZW1nWi1oZlhXVEw?oc=5",
+   "source_name": "The Digital Banker",
+   "source_title": "Agentic AI in banking meets a consumer trust gap",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcU93ck5tdXMwXzh2cDZlRlJDdEJLRFNfZUtmS3ZVYWVNMGJLTUotZlBXTFdSUlhCT0Z5c1NYWFd3TmVwcU1QbEhKQWNoaHhBSjRvU2VxZVlrVjZjcFRGLU0ybVktMXNPX3FjR0dXTDRZWFoydkVfVWx0ZW1nWi1oZlhXVEw?oc=5",
+     "name": "The Digital Banker"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:23:51+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-04"
+   },
+   "pdf_checked": "2026-11-04"
+  },
+  {
+   "id": "e36571929b1f",
+   "date": "2026-11-02",
+   "category": "Case Studies & Use Cases",
+   "publisher": "Amazon Web Services",
+   "countries": [
+    "Global"
+   ],
+   "title": "Scaling Agentic AI for Governed Banking Operations",
+   "summary": "AWS and Apexon demonstrate deploying agentic AI in banking with governance controls. The approach shows how to manage autonomous AI at scale in financial operations.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVTh6VnVST2h4RUgxRmlrdTE2cFQ4ZnFURnV5Um5EX2p6UjJXc0Q0Umg0RjhFWVBMNWMwSVlvZUxxLWxacjJFZkVZUWlzTEdvbUdvT09QSFB4dldzLXN4MlVQWGk0RW5PX3RZLXpia3l5T094Qk9nYUNyTFdNcHRHQXpFUlNWZ1pXNFhNOXRFaWlVUFRDU0F3WmoxOWlJQzk4alhvTkFKNA?oc=5",
+   "source_name": "Amazon Web Services (AWS)",
+   "source_title": "Scaling agentic AI for governed banking operations with Apexon and AWS | Amazon Web Services",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVTh6VnVST2h4RUgxRmlrdTE2cFQ4ZnFURnV5Um5EX2p6UjJXc0Q0Umg0RjhFWVBMNWMwSVlvZUxxLWxacjJFZkVZUWlzTEdvbUdvT09QSFB4dldzLXN4MlVQWGk0RW5PX3RZLXpia3l5T094Qk9nYUNyTFdNcHRHQXpFUlNWZ1pXNFhNOXRFaWlVUFRDU0F3WmoxOWlJQzk4alhvTkFKNA?oc=5",
+     "name": "Amazon Web Services (AWS)"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:23:51+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-11-04"
+   },
+   "pdf_checked": "2026-11-04"
+  },
   {
    "id": "5e1115c6b668",
    "date": "2026-11-02",
@@ -261,6 +319,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWFg4ZEtwTHdkcEJaRHFkRDVySnpNM2huYUwyWHUyZlpYc3pRSThxYWdvYlNPbnhoQTZ1N3Fsd25UMHJ6UUtWVmE4cVdDT20zSHhSQi1pN2NKUElQaEpWaGxrZGxaTDdkMHFDU0czbWx6NDZ4c190dEpGNjZ4emU0S3pEWVhDMVRweU1jME8zOExmZHoxa1ZOREZpbzBhSmwySHk5bGdHWC1yUzl4Y2VCWGRZRVVlMm5xR3A2bW5fVjBhU2xaLUZvOFpBNDEzbHB4VFk3WHRWVnYxUTA?oc=5",
      "name": "BNN Bloomberg"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdFhmMDEtV2dqellwNWNSVm1DRC1uNXBPR1Z2Q1d5cFMxUmxCX0dpVkIxYkFoWlN5aVdPXzNqME9RVFFRc0k4bjdpU2pKc3ZGMUF2dVJCcGNGQ2tTdXYteTBQYWJSaG44SlNWUkZtSHJBNHRmNklleEdhOVNWMi1ZdjJrSk5nR0dINkl3XzEyMVp0RFQ2VDhMdEljQ01fWThFaUM0UFRNaWMzZlJHUEx3?oc=5",
+     "name": "Bloomberg.com"
     }
    ],
    "language": "en",
@@ -282,6 +344,17 @@
      "summary": "Canadian banks are restricting personal AI agents due to security risks, reflecting sector concerns about AI adoption and data protection measures.",
      "how": "ai",
      "anchor": "agentic AI"
+    },
+    {
+     "id": "0d34ef0a6ad1",
+     "date": "2026-10-28",
+     "title": "Canada's Biggest Banks Move to Limit AI Agents, Citing Risk",
+     "source_title": "Canada’s Biggest Banks Move to Limit AI Agents, Citing Risk",
+     "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdFhmMDEtV2dqellwNWNSVm1DRC1uNXBPR1Z2Q1d5cFMxUmxCX0dpVkIxYkFoWlN5aVdPXzNqME9RVFFRc0k4bjdpU2pKc3ZGMUF2dVJCcGNGQ2tTdXYteTBQYWJSaG44SlNWUkZtSHJBNHRmNklleEdhOVNWMi1ZdjJrSk5nR0dINkl3XzEyMVp0RFQ2VDhMdEljQ01fWThFaUM0UFRNaWMzZlJHUEx3?oc=5",
+     "source_name": "Bloomberg.com",
+     "summary": "Canadian banks are restricting AI agent deployment citing emerging risks. This reflects industry concerns about managing autonomous AI systems in banking operations.",
+     "how": "ai",
+     "anchor": "major banks reining in agentic AI"
     }
    ]
   },

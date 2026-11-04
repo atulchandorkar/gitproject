@@ -1942,5 +1942,59 @@
   "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CajE5SG12ZXdMaFJPbFlkRV9JWldvZWxSVDduRWx2azUzeHhrVGxYcEhSX19ISjBUc0VNNGlfU1ZoazUtWDE4SzdzNXN2T0NzU0JPSVNfOGRTdjJuek5BSHB3dGlHdnlNSkx3akc5SU5XWTNUVkIxNGZ4SE1LYm8?oc=5",
   "source": "News of Bahrain",
   "reason": "NBB is not named in the source"
+ },
+ {
+  "checked": "2026-11-04",
+  "bank_id": "rakbank",
+  "date": "2026-09-12",
+  "title": "RAKBANK Names Tapas Kumar Mondal CTO – Digital And AI",
+  "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc2s3SEwzUUZHOHpvdS1UMDlnQUZ0Z0ZzX2FzY0t5anNhZGhHY2RSVzRQc2tWTVpSVGRuZ2JaRGp6bldfQjRaRGNKQlZrajc3Q09DS1RDMnpwQ3BvSnB2SElrXzRicTZjUzN2bFJHQ2ctWGdXelotMkhsX0pVSUZDeUdGZzh4ZEtiLVA1RWpid0NLREpk?oc=5",
+  "source": "BW People",
+  "reason": "no second outlet confirmed it within 21 days"
+ },
+ {
+  "checked": "2026-11-04",
+  "bank_id": "enbd",
+  "date": "2026-10-12",
+  "title": "Emirates NBD Brings AI Travel Planning Into Its Digital Banking Ecosystem",
+  "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWFNFNXNBRkV3MXRUVS1EMjdpNmx3ZDR3b3NreW8tZUR3VWVQLVNxX1VWdEhiTXZOZ3BKZnNza3dlTWIyeDc4ZWhIQXBHaFhHNWQwb3hsZUVlOFJjY0xSeXl3dlo3OVRJRFlveGRkay14VE9Xc0djMXpVbUFKeHhIdUREYWhfRG5EaWs4d2tEVi1MX1dzUHY3UWhTMzQ2U3RXeElsSnU0dkNqQ3RI?oc=5",
+  "source": "Konsulteer",
+  "reason": "no second outlet confirmed it within 21 days"
+ },
+ {
+  "checked": "2026-11-04",
+  "bank_id": "mashreq",
+  "date": "2026-10-12",
+  "title": "Mashreq’s AI Agents Cut Integration Time Up to 70%",
+  "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMDRSQXBCQnhLY0RXTkZpSm5UNTk4djNkTklXUGRSM1I1aHFvZ2tnUFVlVXEzRndyZkZidHZFWnZ3Ul9xbkQ4eXRhdzJwLTEwMmdvX1VtSmMxUEJjTmJES19wQXQxOFRLcXNaenR4YzFxempqdlRCRW1QRWFNRFJQdTVzdF80X09EZWhtdUdvdVk1a3NOVkNOSEljbE9nbmxuSHBJQzB6QzU2QQ?oc=5",
+  "source": "PYMNTS.com",
+  "reason": "no second outlet confirmed it within 21 days"
+ },
+ {
+  "checked": "2026-11-04",
+  "bank_id": "enbd",
+  "date": "2026-11-03",
+  "title": "مئة موظف إماراتي يبتكرون حلولاً مصرفية بتقنيات الذكاء الاصطناعي في هاكاثون الإمارات تبرمج",
+  "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1FSGw4dkNVaDhGeGFuYzRXYlpEOEVfN29QZXFsbDNIQmRMR2Qwb0xEVG5vYUJXVExtTnI3eG94NXUtSVNSVUlhV0hzU3VkUVBORmU0?oc=5",
+  "source": "https://emirates24.net/",
+  "reason": "Emirates NBD is not named in the source"
+ },
+ {
+  "checked": "2026-11-04",
+  "bank_id": "qnb",
+  "date": "2026-11-04",
+  "title": "QNB Falcon Programme AI Use Cases and Governance",
+  "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+  "source": "QNB Annual Report 2025",
+  "reason": "fact-check: Title claims 'Falcon Programme AI Use Cases' but evidence only mentions 'six AI use cases already in progress' without confirming these are part of the Falcon Programme."
+ },
+ {
+  "checked": "2026-11-04",
+  "bank_id": "qnb",
+  "date": "2026-11-04",
+  "title": "QNB Artificial Intelligence Thematic Portfolio Solution",
+  "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+  "source": "QNB Annual Report 2025",
+  "reason": "fact-check: The evidence describes a thematic portfolio solution focused on AI and digital infrastructure, not a portfolio powered by AI; the claim mischaracterizes the product as AI-driven."
  }
 ]
