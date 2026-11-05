@@ -1,6 +1,69 @@
 {
- "updated_at": "2026-11-04T03:24:09+00:00",
+ "updated_at": "2026-11-05T03:37:18+00:00",
  "items": [
+  {
+   "id": "0804fa8a2d73",
+   "bank_id": "qnb",
+   "country": "QA",
+   "date": "2026-11-04",
+   "title": "QNB Data and Analytics Strategic Function",
+   "summary": "QNB has established a dedicated function and task force to emphasize the value of data and analytics, AI, and other new technologies in delivering an efficient and customer-centric banking experience. This substantiates the Bank's commitment to advanced technologies and digital transformation.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "dedicated function",
+    "task force",
+    "data analytics",
+    "customer-centric",
+    "strategic theme",
+    "advanced algorithms",
+    "machine learning"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=14",
+   "source_name": "QNB Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=14",
+     "name": "QNB Annual Report 2025"
+    },
+    {
+     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=30",
+     "name": "QNB Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-04T03:06:45+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
+    "page": 14,
+    "quote": "We have established a dedicated function and task force to emphasize the value of data and analytics, AI, as well as other new technologies in de livering an e fficient and cu stomer centric ba nking experience."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-04"
+   },
+   "merged": [
+    {
+     "id": "0180dd130b40",
+     "date": "2026-11-04",
+     "title": "QNB Data Analytics and AI as Strategic Innovation Theme",
+     "source_title": "",
+     "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=30",
+     "source_name": "QNB Annual Report 2025",
+     "summary": "QNB has identified data analytics and AI as one of four major strategic themes for its innovation approach, leveraging advanced algorithms, machine learning to identify trends, market knowledge and business insights. This is part of QNB's focus on digitisation, automation, marketplaces and open banking.",
+     "how": "words",
+     "anchor": ""
+    }
+   ]
+  },
   {
    "id": "af7e2644bd67",
    "bank_id": "qnb",
@@ -85,69 +148,6 @@
     "evidence": "annual report",
     "checked": "2026-11-04"
    }
-  },
-  {
-   "id": "0804fa8a2d73",
-   "bank_id": "qnb",
-   "country": "QA",
-   "date": "2026-11-04",
-   "title": "QNB Data and Analytics Strategic Function",
-   "summary": "QNB has established a dedicated function and task force to emphasize the value of data and analytics, AI, and other new technologies in delivering an efficient and customer-centric banking experience. This substantiates the Bank's commitment to advanced technologies and digital transformation.",
-   "category": "AI Strategy & Leadership",
-   "topics": [
-    "AI Strategy & Leadership"
-   ],
-   "tags": [
-    "dedicated function",
-    "task force",
-    "data analytics",
-    "customer-centric",
-    "strategic theme",
-    "advanced algorithms",
-    "machine learning"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=14",
-   "source_name": "QNB Annual Report 2025",
-   "source_title": "",
-   "sources": [
-    {
-     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=14",
-     "name": "QNB Annual Report 2025"
-    },
-    {
-     "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=30",
-     "name": "QNB Annual Report 2025"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-11-04T03:06:45+00:00",
-   "source_type": "annual_report",
-   "report": {
-    "year": 2025,
-    "url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
-    "page": 14,
-    "quote": "We have established a dedicated function and task force to emphasize the value of data and analytics, AI, as well as other new technologies in de livering an e fficient and cu stomer centric ba nking experience."
-   },
-   "verification": {
-    "level": "official",
-    "evidence": "annual report",
-    "checked": "2026-11-04"
-   },
-   "merged": [
-    {
-     "id": "0180dd130b40",
-     "date": "2026-11-04",
-     "title": "QNB Data Analytics and AI as Strategic Innovation Theme",
-     "source_title": "",
-     "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025#page=30",
-     "source_name": "QNB Annual Report 2025",
-     "summary": "QNB has identified data analytics and AI as one of four major strategic themes for its innovation approach, leveraging advanced algorithms, machine learning to identify trends, market knowledge and business insights. This is part of QNB's focus on digitisation, automation, marketplaces and open banking.",
-     "how": "words",
-     "anchor": ""
-    }
-   ]
   },
   {
    "id": "9763a768ea97",
@@ -713,7 +713,9 @@
    "tags": [
     "Fraud Detection",
     "GenAI",
-    "Clari5"
+    "Clari5",
+    "Fraud detection",
+    "Platform integration"
    ],
    "partners": [
     "Clari5"
@@ -746,6 +748,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcXNFTXYtU3hWekhtNEJTYmZrSy1qeFpDalU2NmphTDlWQ0RUUThDcmJDYWF6WmZUTWxSQnRWejAzSE5CWEUwNGY1TFNzLWNyM2xOekxiY3laYkV1aFdIcWNINk0tWTdnVHA2MXVNUWJYX3BrSHV6VVNkd0lUeU9qeWdfajI0Y2s?oc=5",
      "name": "Retail Banker International"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSXZYS2JKVUJnNkVwdklKWlJfZjF5MThUZzJPNEpHSFRPVFlsaFgwS29OLTQ4RTdKcTc5WEhFVjNRVnNtZm5EQWdCRl9FQmx4UnVzQWFOVFhndE9KaTNLNnVjQkNpX2kxMm1QOHJvNTNGM0RPaUlKSE5xNzlGRGdEWnliZmVUQkhnYmNmTWlWMk15aGNsQ0dYcklfVnFQWkl1VFFGbmdTQ3MxeWM?oc=5",
+     "name": "The Paypers"
     }
    ],
    "language": "en",
@@ -766,6 +772,17 @@
      "summary": "Mashreq has integrated generative AI technology into its fraud detection platform.",
      "how": "ai",
      "anchor": "Clari5 Generative AI"
+    },
+    {
+     "id": "09d256eb268e",
+     "date": "2026-11-04",
+     "title": "Mashreq adds generative AI to its fraud platform with Clari5",
+     "source_title": "Mashreq adds generative AI to its fraud platform with Clari5",
+     "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSXZYS2JKVUJnNkVwdklKWlJfZjF5MThUZzJPNEpHSFRPVFlsaFgwS29OLTQ4RTdKcTc5WEhFVjNRVnNtZm5EQWdCRl9FQmx4UnVzQWFOVFhndE9KaTNLNnVjQkNpX2kxMm1QOHJvNTNGM0RPaUlKSE5xNzlGRGdEWnliZmVUQkhnYmNmTWlWMk15aGNsQ0dYcklfVnFQWkl1VFFGbmdTQ3MxeWM?oc=5",
+     "source_name": "The Paypers",
+     "summary": "Mashreq has integrated generative AI into its fraud detection platform through a partnership with Clari5.",
+     "how": "ai",
+     "anchor": "Clari5"
     }
    ]
   },
@@ -779,12 +796,16 @@
    "category": "AI Skills & Talent",
    "topics": [
     "AI Skills & Talent",
-    "AI Strategy & Leadership"
+    "AI Strategy & Leadership",
+    "Tech Vendor Partnerships"
    ],
    "tags": [
     "AI Skills",
     "Training",
-    "UAE Codes 2026"
+    "UAE Codes 2026",
+    "Hackathon",
+    "Banking solutions",
+    "Talent development"
    ],
    "partners": [
     "UAE AI Office"
@@ -801,6 +822,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbVR2WG9kLWRraHh1Vm1sRGlTTEprSHpGMEpWREIwOUV1ejlubmgxUFN5TDNsSl84aU9Ea215T2ZoYnNBbW1yUmJSczFtUVhIV3JMWWROYmRxSjE2SUZranhOT0pzckdnakl4ZlZ1T2g1OE1pTUp3S210a2ZuQ1BUMDUxUGUxUVl5SVNWbE0wWmZubzN0MUFfQUJaSEtkYTM0b0FCc09kNDIxc1UzUklVWWdadWFUUjNSR3o2d2xR?oc=5",
      "name": "Big News Network.com"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTTFBRFZwS3dsZ25MSG16aG44aVNLYmxVLWFtUmtVQjFnSEdHLW05OFY2elgyaWpGbWRvQ0pvM080TkRjaTVGb0pEUzdmWmF3MDN5cnJBZlJBQi1OdmpJTDVrZzFfRlRXVXExdXVNaTFCaThDZ2h2cER6SjFRVXByQ3FxYUt0MzZZNmpPdnpTX1dUQ2YxQVNqREJyeEVLRHhOdmJCTWVtUFctMERjTHlsY2tnM0FHcnNUeXlnRWpocVVpWGZaaENBUGlUTFRyem5oT3JybkhOWQ?oc=5",
+     "name": "Zawya"
     }
    ],
    "language": "en",
@@ -809,7 +834,20 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-11-04"
-   }
+   },
+   "merged": [
+    {
+     "id": "0bdb5cbdb1c3",
+     "date": "2026-11-04",
+     "title": "Emirates NBD and UAE AI Office launch hackathon to develop banking solutions",
+     "source_title": "Emirates NBD, UAE AI Office launch hackathon to develop banking solutions",
+     "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPTTFBRFZwS3dsZ25MSG16aG44aVNLYmxVLWFtUmtVQjFnSEdHLW05OFY2elgyaWpGbWRvQ0pvM080TkRjaTVGb0pEUzdmWmF3MDN5cnJBZlJBQi1OdmpJTDVrZzFfRlRXVXExdXVNaTFCaThDZ2h2cER6SjFRVXByQ3FxYUt0MzZZNmpPdnpTX1dUQ2YxQVNqREJyeEVLRHhOdmJCTWVtUFctMERjTHlsY2tnM0FHcnNUeXlnRWpocVVpWGZaaENBUGlUTFRyem5oT3JybkhOWQ?oc=5",
+     "source_name": "Zawya",
+     "summary": "Emirates NBD partnered with the UAE AI Office to launch a hackathon aimed at developing banking solutions.",
+     "how": "ai",
+     "anchor": "UAE AI Office and Emirates NBD"
+    }
+   ]
   },
   {
    "id": "12172d06d38e",

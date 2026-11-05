@@ -1,6 +1,35 @@
 {
- "updated_at": "2026-11-04T03:24:09+00:00",
+ "updated_at": "2026-11-05T03:37:18+00:00",
  "items": [
+  {
+   "id": "7a56a89b7b1e",
+   "date": "2026-11-04",
+   "category": "Expert Views",
+   "publisher": "Capgemini",
+   "countries": [
+    "Global"
+   ],
+   "title": "Better Banking Needs Humans and AI",
+   "summary": "Capgemini analysis examines combining human expertise and AI in banking. The research addresses how banks should integrate both capabilities strategically.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcnZpMmlGNGFfQ3hjUm1RTGMwdnptbVkzSS1XQ3NXWWdCaXphWUU5WmFyTmdPX091cjRrY3ZsbkRSZGFhUk5NZGtWd2dIQUVMWmVvNllRMmtSWGNVNk5kZmcwVGp4TDZmRFNBR3IwQll6dTVkSXJ6UGNzSXVkcG1PYmNlMXBCU3ZQMW5nekFqaFBNNkxw?oc=5",
+   "source_name": "Capgemini",
+   "source_title": "Better Banking Needs Humans and AI",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcnZpMmlGNGFfQ3hjUm1RTGMwdnptbVkzSS1XQ3NXWWdCaXphWUU5WmFyTmdPX091cjRrY3ZsbkRSZGFhUk5NZGtWd2dIQUVMWmVvNllRMmtSWGNVNk5kZmcwVGp4TDZmRFNBR3IwQll6dTVkSXJ6UGNzSXVkcG1PYmNlMXBCU3ZQMW5nekFqaFBNNkxw?oc=5",
+     "name": "Capgemini"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-05T03:36:57+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-11-05"
+   },
+   "pdf_checked": "2026-11-05"
+  },
   {
    "id": "7ea951ddfdaf",
    "date": "2026-11-03",
@@ -60,6 +89,39 @@
    "pdf_checked": "2026-11-04"
   },
   {
+   "id": "8945e3cb6c05",
+   "date": "2026-11-02",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Leading Caribbean Bank Completes Phase 2 of Temenos Core Banking Transformation with Validata’s Agentic AI Platform",
+   "summary": "A Caribbean bank completed phase 2 of core banking transformation using an agentic AI platform for validation and testing. The deployment demonstrates autonomous AI agents in large-scale banking infrastructure projects.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNWlNFWUVIOElDRGJ6ZmJ2OWQwbHhMcnRpOGRKX3A1Zkl0RGRBQmpDYjBrUnFfOUoxdVF5TFZwMFYzSHJYY3lvVlZhUjJaUjM5NnFRNFUySWhhcEFHMTVoRVVMbVlidVNET0hBSVB0TFcwOUUwc193enBhQmhHZlpqWVFjMnVpVkcxUTZ2amhuRFNKQ1RqcnJLX2RrczhOeHBBLWNhdHhnZ0lXRjdpZGhvdU5HR0FIVWo1MWpWNVlfMVFNek1kbkNJd25sM3kzSUpBSUt5S21fNTkydlFOTWNRNm4xS1RIWkJSLXhuTGxn?oc=5",
+   "source_name": "EIN News",
+   "source_title": "Leading Caribbean Bank Completes Phase 2 of Temenos Core Banking Transformation with Validata’s Agentic AI Platform",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNWlNFWUVIOElDRGJ6ZmJ2OWQwbHhMcnRpOGRKX3A1Zkl0RGRBQmpDYjBrUnFfOUoxdVF5TFZwMFYzSHJYY3lvVlZhUjJaUjM5NnFRNFUySWhhcEFHMTVoRVVMbVlidVNET0hBSVB0TFcwOUUwc193enBhQmhHZlpqWVFjMnVpVkcxUTZ2amhuRFNKQ1RqcnJLX2RrczhOeHBBLWNhdHhnZ0lXRjdpZGhvdU5HR0FIVWo1MWpWNVlfMVFNek1kbkNJd25sM3kzSUpBSUt5S21fNTkydlFOTWNRNm4xS1RIWkJSLXhuTGxn?oc=5",
+     "name": "EIN News"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRGw3RkVwS01VdFZGSWF1ZU93U1hKcHctXzZublA2cmNGd2hpRXBqeDF6cmdRT2tXSVdfWmZtc3RWalhadzJCMmxRZjZXSDRfbGlSU1FZU0NnZzZqdVQzRmtEZnhzcF9aQVZSYm5zUk5QRUx2Z3M4Tmo0OTltVlU5NUNXaE8wS1pNRGRJZ1ZzbU9QLU5hTVNGQjlFTzRMeC1qOVRvZmRNTUpVSWxuNXRj?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-03T04:04:35+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-03"
+   },
+   "pdf_checked": "2026-11-05"
+  },
+  {
    "id": "5e1115c6b668",
    "date": "2026-11-02",
    "category": "Expert Views",
@@ -116,6 +178,39 @@
     "checked": "2026-11-03"
    },
    "pdf_checked": "2026-11-03"
+  },
+  {
+   "id": "181272777c3c",
+   "date": "2026-11-02",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "iCOMPASS Unveils KY-AI™ in Hong Kong as Banks Face New AI Governance Expectations",
+   "summary": "iCOMPASS unveiled KY-AI™ in Hong Kong as a governance solution to meet emerging regulatory expectations around AI in banking. The deployment reflects growing focus on compliance frameworks.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxONU5nZlpsMTdJNEJmSjVPcFppT1VTWGpFX0U0Q0Z4MUJldDJORVljaHh4MkRra0E0bUtLRXQ0UUg0WlA1ODlScEM1dFRLeHBnZnQwVGViZUZ5ZmRVYkRkMjhKOXZIVlZ5cFBieXVSLVhON3NvUDAwNVBCbXVXanF3THpQZThsTlVIV19JWXRiOUVtb25OdjVsTTlJS2ZCam9id09lcDBpc21pRXdIcW5wX2RGOWFVUkpDc3lYemVyZkprN3RWb2ZqYVZJY0x6bDRrQU4tVTNTLVEtRXFDRHFwVjVrUzZyRjEyUUoxLVR1VHNSeGplUEVV0gH8AUFVX3lxTFA5YjBTR2dSeFhPWjFlR1FyNElyT2g1eXloby1YOHVKR2pibGttYll2WFFIQTEwOV9ta1MyZWZMbFo3NE8tMmJTZHNvQmlJTVY0OGl4TDFMNTRuQXN0RHkxdkgySEhzWldfRVFubGY2di1keW9UVDhqODg4WnVsWXVIUDQ4enMxbGRFV3RiTWRkTy1nc202Vk1Oc1lLUExZQXQzRWFOQjZrTGNVakV1OXNZZHhrTzZLV3l3akdoZTl1UFdETGZGR21seV9zT19yMGJYTkR2cF9hRWttbzZ1aTR0SzhfMVJRYXJ1ekxrM2h5azREbk9Bc1JPT1g2OQ?oc=5",
+   "source_name": "The Manila Times",
+   "source_title": "iCOMPASS Unveils KY-AI™ in Hong Kong as Banks Face New AI Governance Expectations",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxONU5nZlpsMTdJNEJmSjVPcFppT1VTWGpFX0U0Q0Z4MUJldDJORVljaHh4MkRra0E0bUtLRXQ0UUg0WlA1ODlScEM1dFRLeHBnZnQwVGViZUZ5ZmRVYkRkMjhKOXZIVlZ5cFBieXVSLVhON3NvUDAwNVBCbXVXanF3THpQZThsTlVIV19JWXRiOUVtb25OdjVsTTlJS2ZCam9id09lcDBpc21pRXdIcW5wX2RGOWFVUkpDc3lYemVyZkprN3RWb2ZqYVZJY0x6bDRrQU4tVTNTLVEtRXFDRHFwVjVrUzZyRjEyUUoxLVR1VHNSeGplUEVV0gH8AUFVX3lxTFA5YjBTR2dSeFhPWjFlR1FyNElyT2g1eXloby1YOHVKR2pibGttYll2WFFIQTEwOV9ta1MyZWZMbFo3NE8tMmJTZHNvQmlJTVY0OGl4TDFMNTRuQXN0RHkxdkgySEhzWldfRVFubGY2di1keW9UVDhqODg4WnVsWXVIUDQ4enMxbGRFV3RiTWRkTy1nc202Vk1Oc1lLUExZQXQzRWFOQjZrTGNVakV1OXNZZHhrTzZLV3l3akdoZTl1UFdETGZGR21seV9zT19yMGJYTkR2cF9hRWttbzZ1aTR0SzhfMVJRYXJ1ekxrM2h5azREbk9Bc1JPT1g2OQ?oc=5",
+     "name": "The Manila Times"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRnVPcjhNV0ZYeG1qeFk0VTNfRmVDY2Z5TlpQbU8yUEVlRXdNYWR1d1VCTndGZjJrNC1saGRHVFU4S3VadF9XMHZMTVFSemYtME1oN3ZlSmRPUU9BUF94UmcwWnhiWDlpWWp3eUh0SlZIeVJ6WUROYUhzWlZ0Qnh6c1ZBbk9EcGFBSlFMV0dYRkpfSTJzMlkzeFJnamhUYVhtMVpXRHBjUXVTR3FWMTVZWU1NbGc3MWtuRG9jS3FJSTVGUDVhT19aSWhKTQ?oc=5",
+     "name": "vietnamnews.vn"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-03T04:04:35+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-11-03"
+   },
+   "pdf_checked": "2026-11-05"
   },
   {
    "id": "cb31a30ebd8c",
@@ -6173,35 +6268,6 @@
     "checked": "2026-10-06"
    },
    "pdf_checked": "2026-10-07"
-  },
-  {
-   "id": "4523eb94cc50",
-   "date": "2025-11-03",
-   "category": "Expert Views",
-   "publisher": "PwC",
-   "countries": [
-    "Global"
-   ],
-   "title": "Breaking the banking balance: Scale meets speed with generative AI",
-   "summary": "PwC analyzes how generative AI helps banks balance scale and speed in operations. GenAI enables operational agility and efficiency for banking organizations.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU0VocThLbk85LU5jZG5TYzZfdUNvbENtSlRjTF9NVWtPcTlZOGNDNTBFbW9jTWVfVV9nU3dCQnFPOS1oQlQyb1ByaVF5LUpUWmktUUpjMGpUcE9BTGhIdl92WVpmczR6bkNSTmtPVk1oWExvalFxLUxaLWdoY0FhMFNTZG4ybV9wVHZGQ2hJX2xPYUswUnVTWEVXbTNFbUFnc0hHblIwNHpULU42?oc=5",
-   "source_name": "pwc.com",
-   "source_title": "Breaking the banking balance: Scale meets speed with GenAI",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU0VocThLbk85LU5jZG5TYzZfdUNvbENtSlRjTF9NVWtPcTlZOGNDNTBFbW9jTWVfVV9nU3dCQnFPOS1oQlQyb1ByaVF5LUpUWmktUUpjMGpUcE9BTGhIdl92WVpmczR6bkNSTmtPVk1oWExvalFxLUxaLWdoY0FhMFNTZG4ybV9wVHZGQ2hJX2xPYUswUnVTWEVXbTNFbUFnc0hHblIwNHpULU42?oc=5",
-     "name": "pwc.com"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "official",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-06"
   }
  ]
 }
