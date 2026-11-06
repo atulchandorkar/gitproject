@@ -1996,5 +1996,14 @@
   "source_url": "https://www.qnb.com/sites/qnb/qnbqatar/document/en/enAnnualReport2025",
   "source": "QNB Annual Report 2025",
   "reason": "fact-check: The evidence describes a thematic portfolio solution focused on AI and digital infrastructure, not a portfolio powered by AI; the claim mischaracterizes the product as AI-driven."
+ },
+ {
+  "checked": "2026-11-06",
+  "bank_id": "kfh",
+  "date": "2026-11-01",
+  "title": "التركيت: التحول الرقمي والذكاء الاصطناعي ركيزتان للنمو وتنافسية الأعمال",
+  "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ZSGRfdThmSkxQeTk1cmVtSGFnU0tSRUxLM1BUMWtha2RDdG1pVkxjOW5lcU10cE1sN3BVaGlTb3dyQmJlYzNzcA?oc=5",
+  "source": "جريدة الأنباء الكويتية",
+  "reason": "KFH is not named in the source"
  }
 ]
