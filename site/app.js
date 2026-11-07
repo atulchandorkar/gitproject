@@ -76,7 +76,8 @@
     if (view === "country" && COUNTRIES[arg]) return setActiveTab("countries"), renderCountry(arg);
     if (view === "banks") return setActiveTab("banks"), renderBanks(q);
     if (view === "bank" && BANKS[arg]) return setActiveTab("banks"), renderBank(arg, q);
-    if (view === "sector") return setActiveTab("sector"), renderSector(q);
+    if (view === "sector") return setActiveTab("feed"), renderSector(q);
+    if (view === "insights") return setActiveTab("insights"), renderFeed(q, true);
     if (view === "about") return setActiveTab("about"), renderAbout();
     if (view === "weekly") return setActiveTab("weekly"), renderWeekly(arg);
     setActiveTab("feed");
@@ -322,10 +323,15 @@
   }
 
   // ---------- Feed ----------
-  function renderFeed(q) {
+  // News/Sector switch: the two lists side by side (Sector = global & GCC banking-AI studies, McKinsey, BCG …)
+  const mainSwitch = (on) => `<div class="seg" role="tablist" id="mainSwitch" aria-label="News or Sector">
+      <a role="tab" href="#/" aria-selected="${on === "news"}">📰 News</a>
+      <a role="tab" href="#/sector" aria-selected="${on === "sector"}">🌍 Sector</a></div>`;
+
+  function renderFeed(q, insightsMode = false) {
     const st = {
       country: q.get("country") || "", bank: q.get("bank") || "", cat: q.get("cat") || "",
-      period: q.get("period") || "all", q: q.get("q") || "", view: q.get("view") === "insights" ? "insights" : "",
+      period: q.get("period") || "all", q: q.get("q") || "", view: insightsMode ? "insights" : "",
     };
     const countryChips = [["", "All GCC", DATA.items.length]].concat(
       CFG.countries.map((c) => [c.code, `${flag(c)} ${esc(c.name)}`, DATA.items.filter((i) => i.country === c.code).length]));
@@ -354,10 +360,7 @@
         <select id="fcat" aria-label="Theme"><option value="">All themes</option><option value="${AR_FILTER}" ${st.cat === AR_FILTER ? "selected" : ""}>📘 Annual reports</option>${CATEGORIES.map((c) => `<option ${c === st.cat ? "selected" : ""}>${esc(c)}</option>`).join("")}</select>
         <select id="fperiod" aria-label="Period">${PERIODS.map(([v, l]) => `<option value="${v}" ${v === st.period ? "selected" : ""}>${l}</option>`).join("")}</select>
       </div>
-      <div class="seg" role="tablist" id="viewSwitch">
-        <button role="tab" data-view="" aria-selected="${st.view !== "insights"}">📰 News</button>
-        <button role="tab" data-view="insights" aria-selected="${st.view === "insights"}">📊 Insights</button>
-      </div>
+      ${insightsMode ? `<div class="section-title">📊 Insights · AI activity, themes and partners</div>` : mainSwitch("news")}
       <div id="insightsPane" ${st.view === "insights" ? "" : "hidden"}>
         <div style="margin-top:10px">${chartBlock("feedChart", "Activity")}</div>
         <div class="insights">
@@ -385,7 +388,7 @@
     const update = (resetPage = true) => {
       if (resetPage) shown = PAGE;
       const qp = new URLSearchParams();
-      Object.entries(st).forEach(([k, v]) => { if (v && !(k === "period" && v === "all")) qp.set(k, v); });
+      Object.entries(st).forEach(([k, v]) => { if (v && k !== "view" && !(k === "period" && v === "all")) qp.set(k, v); });
       setQuery(qp);
       const start = periodStart(st.period);
       const needle = st.q.trim().toLowerCase();
@@ -415,13 +418,17 @@
         st.cat === AR_FILTER ? "📘 Bank annual reports" : "", "src", base.length);
     };
     const showView = (v) => {
+      if (insightsMode && v !== "insights") {   // a tap on a bar opens the News list with that filter
+        const qp = new URLSearchParams();
+        Object.entries(st).forEach(([k, val]) => { if (val && k !== "view" && !(k === "period" && val === "all")) qp.set(k, val); });
+        location.hash = `#/${qp.toString() ? "?" + qp : ""}`;
+        return;
+      }
       st.view = v;
       $("#insightsPane").hidden = v !== "insights"; $("#newsPane").hidden = v === "insights";
-      document.querySelectorAll("#viewSwitch [data-view]").forEach((x) => x.setAttribute("aria-selected", x.dataset.view === v));
       update(false);
       if (v === "insights") mountChart("feedChart", lastList);  // chart needs a visible container to size itself
     };
-    $("#viewSwitch").addEventListener("click", (e) => { const x = e.target.closest("[data-view]"); if (x) showView(x.dataset.view); });
     $("#themeBars").addEventListener("click", (e) => {
       const x = e.target.closest("[data-theme]"); if (!x) return;
       st.cat = x.dataset.theme === st.cat ? "" : x.dataset.theme; $("#fcat").value = st.cat; showView("");
@@ -670,6 +677,7 @@
             <span class="ct-ic">${SECTOR_ICON(c)}</span><b>${all.filter((i) => i.category === c).length}</b><span class="ct-l">${esc(SECTOR_SHORT[c] || c)}</span></button>`).join("")}
         </div>
       </section>
+      ${mainSwitch("sector")}
       <div class="region-switch" role="tablist" id="regionSwitch" aria-label="Region"></div>
       <div id="statRailWrap"></div>
       <div class="filters">
@@ -683,8 +691,8 @@
         <select id="spub" aria-label="Publisher"><option value="">All publishers</option>${pubs.filter(Boolean).map((p) => `<option ${p === st.pub ? "selected" : ""}>${esc(p)}</option>`).join("")}</select>
         <select id="scat" aria-label="Category"><option value="">All categories</option>${cats.map((c) => `<option value="${esc(c)}" ${c === st.cat ? "selected" : ""}>${esc(SECTOR_SHORT[c] || c)}</option>`).join("")}</select>
       </div>
-      <div class="seg" role="tablist" id="secSwitch">
-        <button role="tab" data-view="" aria-selected="${st.view !== "charts"}">📑 Insights</button>
+      <div class="seg seg-sm" role="tablist" id="secSwitch" aria-label="List or charts">
+        <button role="tab" data-view="" aria-selected="${st.view !== "charts"}">📑 Studies</button>
         <button role="tab" data-view="charts" aria-selected="${st.view === "charts"}">📊 Charts</button>
       </div>
       <div id="secCharts" ${st.view === "charts" ? "" : "hidden"}>
@@ -748,6 +756,12 @@
       if (st.view === "charts") mountChart("secChart", list, 12, "insight");
     };
     const showView = (v) => {
+      if (insightsMode && v !== "insights") {   // a tap on a bar opens the News list with that filter
+        const qp = new URLSearchParams();
+        Object.entries(st).forEach(([k, val]) => { if (val && k !== "view" && !(k === "period" && val === "all")) qp.set(k, val); });
+        location.hash = `#/${qp.toString() ? "?" + qp : ""}`;
+        return;
+      }
       st.view = v;
       $("#secCharts").hidden = v !== "charts"; $("#secList").hidden = v === "charts";
       document.querySelectorAll("#secSwitch [data-view]").forEach((x) => x.setAttribute("aria-selected", x.dataset.view === v));
@@ -858,11 +872,11 @@
         stories by country, AI found in annual reports, global studies, top themes and partners, and 3–5 key takeaways. The takeaways are written
         by AI only from that week's verified items and each links to the items it is based on. Use “Save as PDF” to forward it.</p>
         <h2>Banking Sector Insights</h2>
-        <p>A separate tab for AI across the banking sector worldwide, with GCC items flagged: <b>studies &amp; surveys</b> (McKinsey, BCG,
+        <p>Next to News (the News · Sector switch): AI across the banking sector worldwide, with GCC items flagged: <b>studies &amp; surveys</b> (McKinsey, BCG,
         Accenture, PwC, Deloitte, EY, KPMG, IDC, Gartner …), <b>case studies &amp; use cases</b>, <b>maturity indices &amp; rankings</b>,
         <b>regulation &amp; guidance</b>, <b>market data</b>, <b>expert views</b> and <b>sector events &amp; initiatives</b> from the last 12 months.
         Filter by region (Global, GCC or one country). The same checks apply: the source must be about AI <i>and</i> banking, a GCC bank's own
-        news stays in the News tab, and a key figure is shown only when its exact wording appears in the source.</p>
+        news stays in News, and a key figure is shown only when its exact wording appears in the source.</p>
         <h2>Themes</h2>
         <p>${THEMES.map(esc).join(" · ")}. A story can belong to more than one theme.</p>
         <p style="font-size:13px">Summaries are AI-generated and fact-checked, but please open the source before citing a figure.</p>

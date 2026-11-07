@@ -168,7 +168,9 @@ A PDF that the site refuses twice (403) is downloaded once more through the real
 
 PDFs are linked, not copied. 74 banks × 2 years would be several GB, more than GitHub Pages allows.
 
-## Banking Sector Insights (the Sector tab)
+## Banking Sector Insights (Sector, next to News)
+The home page has a **News · Sector** switch; **Insights** in the tab bar shows the charts and analysis of the news (activity, themes, partners, sources) with the same filters.
+
 This tab covers AI across the **banking sector worldwide**, with GCC items flagged. It holds the last 12 months, in seven categories:
 **Studies & Surveys**, **Case Studies & Use Cases**, **Maturity & Rankings**, **Regulation & Guidance**, **Market Data**, **Expert Views** and **Events & Initiatives**.
 
