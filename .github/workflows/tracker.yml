@@ -113,6 +113,9 @@ jobs:
         run: |
           mkdir -p _site/data
           cp -r site/* _site/
+          # new file addresses on every publish, so phones never keep an old app.js / styles.css from their cache
+          V="${GITHUB_SHA::8}-$(date -u +%Y%m%d%H%M)"
+          sed -i -e "s|href=\"styles.css\"|href=\"styles.css?v=$V\"|" -e "s|src=\"app.js\"|src=\"app.js?v=$V\"|" _site/index.html
           cp data/news.json _site/data/news.json
           cp config/banks.json _site/data/banks.json
           cp config/sector_sources.json _site/data/sector_sources.json
