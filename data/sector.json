@@ -1,6 +1,97 @@
 {
- "updated_at": "2026-11-06T03:33:04+00:00",
+ "updated_at": "2026-11-07T02:53:22+00:00",
  "items": [
+  {
+   "id": "5bbcad2903be",
+   "date": "2026-11-06",
+   "category": "Expert Views",
+   "publisher": "EY",
+   "countries": [
+    "Global"
+   ],
+   "title": "How banks can move AI agents into production",
+   "summary": "EY offers guidance on moving AI agents from development to production in banking environments. The analysis covers implementation strategies and scaling considerations for operational AI deployments.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRlRJbGxaOTNZMVUwTDJtMWpRZDRnWmVSTVV6UlczVjlHZ1k0cnBwYXUyR0FSc1RTcFV5Vy1FazRhR0pqY1BCY2phclV0N0g0SC0wSXBHTV9CbVhnZzVzekJfbThMSUZfWVF5WTdzNUpvQm9XdFBUeXp0akcyNHM3U2xoUGg4NUFTTHBxcTE1MDE0RE1URXRUdW9Dbzk0UQ?oc=5",
+   "source_name": "EY",
+   "source_title": "How banks can move AI agents into production",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRlRJbGxaOTNZMVUwTDJtMWpRZDRnWmVSTVV6UlczVjlHZ1k0cnBwYXUyR0FSc1RTcFV5Vy1FazRhR0pqY1BCY2phclV0N0g0SC0wSXBHTV9CbVhnZzVzekJfbThMSUZfWVF5WTdzNUpvQm9XdFBUeXp0akcyNHM3U2xoUGg4NUFTTHBxcTE1MDE0RE1URXRUdW9Dbzk0UQ?oc=5",
+     "name": "EY"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-07T02:53:08+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-07"
+   },
+   "pdf_checked": "2026-11-07"
+  },
+  {
+   "id": "cc33064d231e",
+   "date": "2026-11-06",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "فقاعة الذكاء الاصطناعي بين الديون والقيود السياسية.. هل تنتقل الخسائر إلى البنوك؟",
+   "summary": "The analysis examines whether inflated AI investment expectations may create financial vulnerabilities for banks amid rising debt and regulatory constraints. The report questions sustainability of current banking sector AI spending.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiiwVBVV95cUxQc0VLY3lCNHVwZXp5OFlvSnhCOU55eXM1bTZZbTFfeUxFMDhnQ2RUWXh1VGpIb0t5emVnV3RxckZMem9XMnppRWpvTWhBVURhZGczY3FsS0JaLUI0M3M3VDhPOUJxVTdjTmZ6ZVU2clJZcGNlR18xTXNwMW4tSThHUzA2czhzT2xWWEN6aUt2Rl9rbzRYd0xCNHI0aTBVOWhVelRKNGZZbDFBTXdlXzdDWXJ2ak9VRGt2WVEtc1JEcF8wNThwN2xRV1AzY3VGQ3JmNVVCTlFueUNtb0NDSm81YW5OTFg3RGo1dHN6UXpVdXBCQnpfdm5tTk5xVWlRbHhoVkpod2JXRjlCeVc1WjM5TVF5X0x4RjNGNnRnWXRyLVdMVXM2UXVEX0JwQjdqYzNvZU55REw4dVhaMG9vcEUxYkJYRzh6X0lwOVZLUzVDV0stdGlrTDJQSHplV29LZU5welA3ZlBXYlVkX0E2a255TUZsazcxUHhmODY1TFJGNmk5RTNmbHNRUmxhTk9NekNCX2oyMU8xSHJsa3hUWWx2UGpsZF9XV0Q3WEtFWm5OdW5aMFBWZXhiZWY0VEVnQkJ0NThERGZHMVBCYU9BQzRYczhMQkk0SUEyLVY3ZlhJdTZXU0g3djdhYzZWUUo5eFdyb1Y0Y19WSUNtX29DTEZLSzdlSE4xQmpxMUhNLWtQYjJ0ZkFwVmg1eV92NVBoMEhsYXJueU5kOWJlelBfVlRJQWZ4UmZHZDdUYmlxUlQzajdubHRvMnZxYjNYTVhUaWQ1eW83UjhQZ1laaXZ1bHN6V3dwTG91dDlMaUJyUWIweWd4VnhNUFZscFJHQnNKTzdvQWxTWEFkRUd3YWM?oc=5",
+   "source_name": "CNBC عربية",
+   "source_title": "فقاعة الذكاء الاصطناعي بين الديون والقيود السياسية.. هل تنتقل الخسائر إلى البنوك؟",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiiwVBVV95cUxQc0VLY3lCNHVwZXp5OFlvSnhCOU55eXM1bTZZbTFfeUxFMDhnQ2RUWXh1VGpIb0t5emVnV3RxckZMem9XMnppRWpvTWhBVURhZGczY3FsS0JaLUI0M3M3VDhPOUJxVTdjTmZ6ZVU2clJZcGNlR18xTXNwMW4tSThHUzA2czhzT2xWWEN6aUt2Rl9rbzRYd0xCNHI0aTBVOWhVelRKNGZZbDFBTXdlXzdDWXJ2ak9VRGt2WVEtc1JEcF8wNThwN2xRV1AzY3VGQ3JmNVVCTlFueUNtb0NDSm81YW5OTFg3RGo1dHN6UXpVdXBCQnpfdm5tTk5xVWlRbHhoVkpod2JXRjlCeVc1WjM5TVF5X0x4RjNGNnRnWXRyLVdMVXM2UXVEX0JwQjdqYzNvZU55REw4dVhaMG9vcEUxYkJYRzh6X0lwOVZLUzVDV0stdGlrTDJQSHplV29LZU5welA3ZlBXYlVkX0E2a255TUZsazcxUHhmODY1TFJGNmk5RTNmbHNRUmxhTk9NekNCX2oyMU8xSHJsa3hUWWx2UGpsZF9XV0Q3WEtFWm5OdW5aMFBWZXhiZWY0VEVnQkJ0NThERGZHMVBCYU9BQzRYczhMQkk0SUEyLVY3ZlhJdTZXU0g3djdhYzZWUUo5eFdyb1Y0Y19WSUNtX29DTEZLSzdlSE4xQmpxMUhNLWtQYjJ0ZkFwVmg1eV92NVBoMEhsYXJueU5kOWJlelBfVlRJQWZ4UmZHZDdUYmlxUlQzajdubHRvMnZxYjNYTVhUaWQ1eW83UjhQZ1laaXZ1bHN6V3dwTG91dDlMaUJyUWIweWd4VnhNUFZscFJHQnNKTzdvQWxTWEFkRUd3YWM?oc=5",
+     "name": "CNBC عربية"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-11-07T02:53:08+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-07"
+   },
+   "pdf_checked": "2026-11-07"
+  },
+  {
+   "id": "5d5511f7b568",
+   "date": "2026-11-06",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "مديرة صندوق النقد الدولي: على البنوك المركزية مراقبة التوقعات بتباطؤ الزخم الناتج عن نمو الذكاء الاصطناعي",
+   "summary": "IMF leadership advised central banks to monitor risks of AI-driven growth deceleration and adjust expectations. The guidance emphasizes monetary policymakers must account for potential slowdown in AI economic benefits.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tdEhnelFZRHZSd1FzTFlSVWloLXMteDdMZnRXT0NYd1lqMmxnM2ctZEN4d0IySkI2TnJwUDlOR1VuUDMzVzVOd0d5R0o1c1NxQnBj?oc=5",
+   "source_name": "شبكة تواصل الإخبارية",
+   "source_title": "مديرة صندوق النقد الدولي: على البنوك المركزية مراقبة التوقعات بتباطؤ الزخم الناتج عن نمو الذكاء الاصطناعي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tdEhnelFZRHZSd1FzTFlSVWloLXMteDdMZnRXT0NYd1lqMmxnM2ctZEN4d0IySkI2TnJwUDlOR1VuUDMzVzVOd0d5R0o1c1NxQnBj?oc=5",
+     "name": "شبكة تواصل الإخبارية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi0ARBVV95cUxOOXdYTk9GQjVSZHNkMjVLbktWYXJ1TE93ZnpURnZSMG5wMDV6am9lcm84NW0wSU1ISEtycnJzdDlBYjNjUXluVEdOaFNpbmFVMDBzS3loR3hKLXp6cG9lV1FfRlNYY25QVmpZT2ZXWjVrSUIxa1JvZ01HLVNoNGJ1cjdPa1FfaXZ6cnNnVmVxbkphVWEwRk5lZ0VwSmFOWk9EOGxUN050bktRVVRmU3F4TXRqWVJEc1dkUzhXR0FuaGt3SmE2YjhjbTl0UGdtWUstZEZaQkZ0VkcyMG9sUHk5eExSUFdELTczYUNUSzFkWWxzaGZGUllhNGIzUEUwQnVEd2NUSDNzcUttV0NIbXBJRmEwdWZtcXRrUzFYMkRCMTRNTzJLNmNPTW9lVTB4czFuRk53cmZpRU81S3RXMnRxM1RKdGtDdUo4VHJHVGRIY3YtLVBUYnhKcktwT3RBczA5R2doQ0I0Y01lbEFVYXZyLTdqang0ZnlwZkhRc2VsOFpGVlp6QWJCYlg2Qy0xUHRUR2tydGdpXzNaa0t2TFZpTUlBZlFPMmgxMGFRT0lSaTViVzM4c0ZpYldQcU5UbWVmcjBYWXRxNUFEWW52a3N6UlZaTkdWNjFLREpNaHNfRmNva2R4UGNJYlZPOEN4SlMxZWhqcHhhN2F0RzNxNUNJSzhRZHdfdUc0UG1qejN1dkxhM05zUXI2bm54VVFkQ3F4YVlzbWQyVGYwVjU2QUVVX3pucUN1cGRBY2Y3TzZ4REtJT1h1blNtYXBNT2NhZzhN?oc=5",
+     "name": "Lebanon24"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-11-07T02:53:08+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-11-07"
+   },
+   "pdf_checked": "2026-11-07"
+  },
   {
    "id": "944d7d6c1424",
    "date": "2026-11-05",
@@ -6318,113 +6409,6 @@
     "checked": "2026-10-06"
    },
    "pdf_checked": "2026-10-06"
-  },
-  {
-   "id": "d2c792f5906f",
-   "date": "2025-11-05",
-   "category": "Market Data",
-   "publisher": "Boston Consulting Group",
-   "countries": [
-    "Global"
-   ],
-   "title": "Profit potential for retail banks via AI by 2030",
-   "summary": "BCG study quantifying the profit opportunity available to retail banks from AI deployment by end of decade. Provides financial forecasts of AI-driven value creation.",
-   "key_stats": [
-    {
-     "value": "$370 billion",
-     "label": "Profit potential for retail banks via AI by 2030",
-     "quote": "$370 Billion Profit Potential for Retail Banks via AI by 2030"
-    }
-   ],
-   "source_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcDBYaFgwdlNHN1kzenllNDBveUdQd0lJTERnOGFaQnhRdWRoYmJIS2R4RjFnZGNSeno4QmtGSGExQjYyc1JmOW1mY01DRHNIaGs2dW1oTE1aU0E4X0phR0tTZ1E0TlVfTXUxdTNlSVZNVGJvX2RBbHBXNjk3Uk9mSjk1TUt0UjB0djlXVHItUERMdw?oc=5",
-   "source_name": "Boston Consulting Group",
-   "source_title": "$370 Billion Profit Potential for Retail Banks via AI by 2030",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcDBYaFgwdlNHN1kzenllNDBveUdQd0lJTERnOGFaQnhRdWRoYmJIS2R4RjFnZGNSeno4QmtGSGExQjYyc1JmOW1mY01DRHNIaGs2dW1oTE1aU0E4X0phR0tTZ1E0TlVfTXUxdTNlSVZNVGJvX2RBbHBXNjk3Uk9mSjk1TUt0UjB0djlXVHItUERMdw?oc=5",
-     "name": "Boston Consulting Group"
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONDZ6Vlh0cllUaDZqWlZEUkw0eU1qamFSUzhtNUcyZkxuTW1hQzZoZHhzeHpKWlRVWm5PVGhlV1V2VEVac1JZRHdodTRYaXYxemlIMEk1ajlEZWlxREpTcWs5ZFkyTS03R3EyM0lhOTVheUxYLXFxN3pUYm1hdFVQd0RmbUZHSVYzSHhWY3VSUG5lbnhQZklETktySUdlc0hrVEoyUDRPTG1FWVJSNllPM2FOdFZxQQ?oc=5",
-     "name": "Banking Exchange"
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONDZ6Vlh0cllUaDZqWlZEUkw0eU1qamFSUzhtNUcyZkxuTW1hQzZoZHhzeHpKWlRVWm5PVGhlV1V2VEVac1JZRHdodTRYaXYxemlIMEk1ajlEZWlxREpTcWs5ZFkyTS03R3EyM0lhOTVheUxYLXFxN3pUYm1hdFVQd0RmbUZHSVYzSHhWY3VSUG5lbnhQZklETktySUdlc0hrVEoyUDRPTG1FWVJSNllPM2FOdFZxQQ?oc=5",
-     "name": "bankingexchange.com"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "official",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-06"
-  },
-  {
-   "id": "53968e8a2ab8",
-   "date": "2025-11-05",
-   "category": "Expert Views",
-   "publisher": "Boston Consulting Group",
-   "countries": [
-    "Global"
-   ],
-   "title": "From branches to bots: Will AI agents transform retail banking?",
-   "summary": "BCG analysis explores whether AI agents will transform retail banking and branch infrastructure. The report examines the potential for agentic AI to reshape traditional banking models.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOajZjcFJVNEs0N251TVFuOFN6bVQ3czdJd1Y4Z1NvV3l6WXNoUFUwYzZXalZuZkRtSWFwaGs3aTJFbURRZ1Y2T3B3RXIyaV9VTHdvTVVueG9xWTIyVm5YQ0tzY2ttWlM0d2FZbURSRDEtZ3FlUk5hTWNib3pGM1ltZk1pVDJVRm0zNkk2MENKZEM?oc=5",
-   "source_name": "Boston Consulting Group",
-   "source_title": "From Branches to Bots: Will AI Agents Transform Retail Banking?",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOajZjcFJVNEs0N251TVFuOFN6bVQ3czdJd1Y4Z1NvV3l6WXNoUFUwYzZXalZuZkRtSWFwaGs3aTJFbURRZ1Y2T3B3RXIyaV9VTHdvTVVueG9xWTIyVm5YQ0tzY2ttWlM0d2FZbURSRDEtZ3FlUk5hTWNib3pGM1ltZk1pVDJVRm0zNkk2MENKZEM?oc=5",
-     "name": "Boston Consulting Group"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "official",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-06"
-  },
-  {
-   "id": "7733bd0d0ecf",
-   "date": "2025-11-05",
-   "category": "Expert Views",
-   "publisher": "Fortune",
-   "countries": [
-    "Global"
-   ],
-   "title": "Bank of America increases annual technology spending with focus on larger AI initiatives",
-   "summary": "Bank of America has prioritized bigger AI initiatives as part of a 44% increase in annual technology spending over the past decade. The bank's investment strategy reflects broader industry trends toward larger-scale artificial intelligence deployments.",
-   "key_stats": [
-    {
-     "value": "44%",
-     "label": "Increase in Bank of America annual technology spending over past decade",
-     "quote": "annual spending on new tech increased by 44% over the past decade"
-    }
-   ],
-   "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOU21lQjIwRjNlVE1CQjRJZTRLZDZQRXMwcy0weklJUkNaZFJRdWRlRlhhbDJmNWFDcXJqSVRkSFBfMWhIbGRLRnBYZEJQaTFITWtZNEpsenRRZ1dQNkhaYm41elp3U3NXRzNzZDRjNVNkQUFvbnl2dUtLVTBnNWp0clhKWnM5U1kzdVNtNExja2NIdWNuN25JMHdiVGlPS1lrQmw0bmtwVVdWTUxTTFJJSHM4M0NjT1B4MEctTEhNUlBNSnNYN1dmSE5RSmp5cEc3YTJmUXZ5MTFRVm9URzNOdEtLYw?oc=5",
-   "source_name": "Fortune",
-   "source_title": "Bank of America prioritizes bigger AI initiatives, as annual spending on new tech increased by 44% over the past decade",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOU21lQjIwRjNlVE1CQjRJZTRLZDZQRXMwcy0weklJUkNaZFJRdWRlRlhhbDJmNWFDcXJqSVRkSFBfMWhIbGRLRnBYZEJQaTFITWtZNEpsenRRZ1dQNkhaYm41elp3U3NXRzNzZDRjNVNkQUFvbnl2dUtLVTBnNWp0clhKWnM5U1kzdVNtNExja2NIdWNuN25JMHdiVGlPS1lrQmw0bmtwVVdWTUxTTFJJSHM4M0NjT1B4MEctTEhNUlBNSnNYN1dmSE5RSmp5cEc3YTJmUXZ5MTFRVm9URzNOdEtLYw?oc=5",
-     "name": "Fortune"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "official",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-07"
   }
  ]
 }

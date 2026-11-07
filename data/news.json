@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-06T03:33:04+00:00",
+ "updated_at": "2026-11-07T02:53:22+00:00",
  "items": [
   {
    "id": "0804fa8a2d73",
@@ -928,6 +928,45 @@
    }
   },
   {
+   "id": "0d656836a5b1",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2026-11-02",
+   "title": "Emirates NBD commits half of tech budget as AI adoption exceeds 70% in DIFC",
+   "summary": "Emirates NBD commits half of its technology budget to AI as AI adoption reaches over 70% among firms in the Dubai International Financial Centre.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "AI investment",
+    "Tech budget allocation"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV3VXdV9aaFRaaTdQbTl1WmdfNEhvRk83WWd5TXpCb1BMRGstdnM2WmtJcU11TmtySVRWb1ZteXJnUmtPdTBBRzlxYi1JaGx6cWhKczBxTlFuZk5PdXgxSld0Z2hLQnp4R1JYSnFsZFBOdy0zcS0zUEFqRGIwdHI5VmM4VGxLMUFaeVF6VHpOeXI?oc=5",
+   "source_name": "www.wam.ae",
+   "source_title": "AI adoption exceeds 70% among DIFC firms as Emirates NBD commits half of tech budget",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV3VXdV9aaFRaaTdQbTl1WmdfNEhvRk83WWd5TXpCb1BMRGstdnM2WmtJcU11TmtySVRWb1ZteXJnUmtPdTBBRzlxYi1JaGx6cWhKczBxTlFuZk5PdXgxSld0Z2hLQnp4R1JYSnFsZFBOdy0zcS0zUEFqRGIwdHI5VmM4VGxLMUFaeVF6VHpOeXI?oc=5",
+     "name": "www.wam.ae"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRnZHeTVTV1otWVdoS3JPR2V4SEw1UkRaeG90MDZkYlVXTW1ZWWFfcmpVMWtTVm9GSmhsUXhJbGZ3eW5WTG5xcFN0TUlIdWtUWURXNVcxTHBqYkxobmpjX00tdWVNbmloYXFhRjVfeUN5SnNaMlRfYU5EVExhSFdkTGNCYkJINDluNzRRblFTS1BTeUp2NWFtMzJ0N0hwZWdJRF9aOEU3b25XTUloZ0pOM2wtUHF1emNRVnVGUDRUM1JodVBYNnBzTl9lRnZyR1EzQkFMMDJpRlYxU01HWEw0?oc=5",
+     "name": "Zawya"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-03T04:00:48+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-03"
+   }
+  },
+  {
    "id": "4701d21a85c4",
    "bank_id": "enbd",
    "country": "AE",
@@ -953,41 +992,6 @@
     {
      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPZk1sM0VXbFJPZllCTm1zREk3dVZBLWJPOTRWMF80WmdlWlZzeFVJV2N5Z0FkUUJ5Zm5BVzRCdXdFYURuTUxaM3pWOHA0M3BZSzE1V0hPMmdDU1pSTWxRRDZQT1FnR05sN3d5anNmNWZaMHNZMzhiRkRVcVRkNnRibHUwd1JhSUJNaElURVhaZDBvRDNrS0dOLWFyVFI5cGU2NUdTaE5zd0lZajZtZ2pHQWxlenZxRlBqQjBWWjZiTnJSZ1A0NEVsV3VYSlRaRXpzOEFJU2NlZ3dsdnJMaVNEU3BPQ0N4SFZyREctRmN2Q1B0UkZPazVvX2hEVjNtc2NU?oc=5",
      "name": "Zawya"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-11-03T04:00:48+00:00",
-   "verification": {
-    "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-11-03"
-   }
-  },
-  {
-   "id": "0d656836a5b1",
-   "bank_id": "enbd",
-   "country": "AE",
-   "date": "2026-11-02",
-   "title": "Emirates NBD commits half of tech budget as AI adoption exceeds 70% in DIFC",
-   "summary": "Emirates NBD commits half of its technology budget to AI as AI adoption reaches over 70% among firms in the Dubai International Financial Centre.",
-   "category": "AI Strategy & Leadership",
-   "topics": [
-    "AI Strategy & Leadership",
-    "AI Adoption in Operations"
-   ],
-   "tags": [
-    "AI investment",
-    "Tech budget allocation"
-   ],
-   "partners": [],
-   "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV3VXdV9aaFRaaTdQbTl1WmdfNEhvRk83WWd5TXpCb1BMRGstdnM2WmtJcU11TmtySVRWb1ZteXJnUmtPdTBBRzlxYi1JaGx6cWhKczBxTlFuZk5PdXgxSld0Z2hLQnp4R1JYSnFsZFBOdy0zcS0zUEFqRGIwdHI5VmM4VGxLMUFaeVF6VHpOeXI?oc=5",
-   "source_name": "www.wam.ae",
-   "source_title": "AI adoption exceeds 70% among DIFC firms as Emirates NBD commits half of tech budget",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV3VXdV9aaFRaaTdQbTl1WmdfNEhvRk83WWd5TXpCb1BMRGstdnM2WmtJcU11TmtySVRWb1ZteXJnUmtPdTBBRzlxYi1JaGx6cWhKczBxTlFuZk5PdXgxSld0Z2hLQnp4R1JYSnFsZFBOdy0zcS0zUEFqRGIwdHI5VmM4VGxLMUFaeVF6VHpOeXI?oc=5",
-     "name": "www.wam.ae"
     }
    ],
    "language": "en",

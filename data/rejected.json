@@ -2005,5 +2005,14 @@
   "source_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ZSGRfdThmSkxQeTk1cmVtSGFnU0tSRUxLM1BUMWtha2RDdG1pVkxjOW5lcU10cE1sN3BVaGlTb3dyQmJlYzNzcA?oc=5",
   "source": "جريدة الأنباء الكويتية",
   "reason": "KFH is not named in the source"
+ },
+ {
+  "checked": "2026-11-07",
+  "bank_id": "riyad",
+  "date": "2026-11-05",
+  "title": "«بنك الرياض» يرسم مستقبل القطاع المالي في عام الذكاء الاصطناعي",
+  "source_url": "https://news.google.com/rss/articles/CBMivwRBVV95cUxOMnR3YzNaWTRfTzlYOFV5bmJGVUk4TEFkRVBSenNiVGRCcWJnbVhjT0ZwcFN4aG0wbHhDLWk0LVdJWTh6WEMxOXF3QVBXV2psTmdwRzd4NnJVNldqNlBYMXBIYWVFX3h3akFuTmJlV3ZGVzRYbzBTUnZfVXhJRlFVcTRDVmJkM1A1OVVxV0dFMTRMV21rV3pMZGJjelVnUkhvOEtNRTJzczZPTDRzQWtpbXZiNHhCVlRfWTJydzh4emdZNGVhbHNQeXlMNkQxM2JneW5yRE4zaWcxZ3VIQ3lHYmZfdkxiX3RNbHZUTG5nTy0zX1Y0VFJyZWRhRXlWeE9PRkZtelFqNFg2cl9WNnlfdlg0NEEwMllENzd3LW5wcndkNTQ1UXdwOTFaYjd0dENGb1BwMmI2TmNQY092amdsclVUUFpmYmdnWHdhaE9PWGtaY1NYSC02ejhtcUtwRnJ6UUVfRllCV29YcGhYb250MWtZeFVKVElHS3NVbHd4OVZtQVhPa0JHN0owRksxc0ZtUko4NUg0R2VKb1FubmEwSFladE9QYzU0VjVYcl8wcE5tYnYxSDljUmxaSDd3NFFyRlMyekZPbUxEOEFkOVpMOWo4WXZNSWIyTTVwLW5ROThWaWVjZEtVZ3lFUkRVcE5VcWtESmxOSUVEU1hKMlNldHBRX1VFeTc0NzVOaGhZaG9udEJVcTR3QU5qZjk4N19WUVVqVDhuOTRnWlNJN2JtbEppeE55bHhscnNVRy1uYw?oc=5",
+  "source": "الشرق الأوسط",
+  "reason": "fact-check: The headline mentions Riyad Bank and AI but does not describe the bank's own AI activity, strategy, investment, or deployment—only that it 'charts' or 'shapes' the future, which is aspirational commentary rather than evidence of specific AI action."
  }
 ]
