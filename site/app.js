@@ -658,6 +658,50 @@
     </article>`;
   }
 
+  // ---------- Gulf banking AI in numbers (max 5 tiles) ----------
+  // Only figures about AI in GCC banks: key figures of GCC sector studies, then measured AI outcomes the Gulf banks
+  // report themselves (news and annual reports, all fact-checked), newest first, one per bank. Never global figures,
+  // awards, event attendance, offers or financial results.
+  // the headline number: a percentage or time saved ("40%", "85%+", "200,000+ hours", "up to 70%")
+  const FIG_NUM = /(?:\b(?:up to|over|more than)\s+|~)?\d[\d,.]*\s?(?:\+?\s?%\+?|\+?\s?(?:hours?|minutes?)\b)/i;
+  const FIG_SKIP = /profit|financial result|revenue|cashback|opex|dividend|attendee|participant|award|ranked|#\d|transaction volume|letters? of (?:credit|guarantee)|issuance|employees engaged/i;
+  function gulfFigures() {
+    const out = [], banksSeen = new Set();
+    SECTOR.items.filter(isGCC).sort((a, b) => b.date.localeCompare(a.date)).forEach((i) => (i.key_stats || []).forEach((k) => {
+      if (out.length < 2) out.push({ value: k.value, label: k.label, href: i.source_url, tip: k.quote, who: pubShort(i) || i.source_name,
+        avatar: pubAvatar(i, "avatar xs"), when: fmtDate(i.date), kind: "Study" });
+    }));
+    const outcomes = DATA.items.filter((i) => i.impact && !/Awards/i.test(i.category || ""))
+      .sort((a, b) => b.date.localeCompare(a.date));
+    for (const i of outcomes) {
+      if (out.length >= 5) break;
+      if (banksSeen.has(i.bank_id)) continue;
+      const clause = i.impact.split(/;\s*|,\s+(?=\d)/).map((c) => c.trim()).find((c) => FIG_NUM.test(c) && !FIG_SKIP.test(c));
+      if (!clause) continue;
+      const m = clause.match(FIG_NUM);
+      const value = m[0].replace(/^(?:up to|over|more than)\s+/i, "").replace(/\s+/g, " ").trim();
+      let label = (clause.slice(0, m.index) + " " + clause.slice(m.index + m[0].length)).replace(/\s+/g, " ")
+        .replace(/^[\s,:–-]+/, "").replace(/\s+(?:by|of|to|by up to|up to|over|more than|exceeding)$/i, "").trim();
+      if (label.length < 8) continue;
+      if (!/^(of|in|to|for|on)\b/i.test(label)) label = label.charAt(0).toUpperCase() + label.slice(1);   // "97% of new accounts …"
+      const b = BANKS[i.bank_id];
+      banksSeen.add(i.bank_id);
+      out.push({ value, label, href: i.source_url, tip: i.impact, who: b.short, avatar: avatar(b, "avatar xs"), flag: flag(COUNTRIES[i.country]),
+        when: isAR(i) ? `Annual Report ${i.report.year}` : fmtDate(i.date), kind: isAR(i) ? "Annual report" : "News" });
+    }
+    return out;
+  }
+  function gulfFiguresBlock() {
+    const figs = gulfFigures();
+    if (!figs.length) return "";
+    return `<div class="section-title">Gulf banking AI in numbers</div>
+      <div class="fig-rail">${figs.map((f) => `<a class="fig-card" href="${esc(f.href)}" target="_blank" rel="noopener" title="${esc(f.tip)}">
+        <span class="fig-top">${f.avatar}<b class="fig-who">${esc(f.who)}</b>${f.flag || ""}</span>
+        <span class="fig-v${f.value.length > 8 ? " long" : ""}">${esc(f.value)}</span>
+        <span class="fig-l">${esc(f.label)}</span>
+        <span class="fig-when">${f.kind === "Study" ? `Study · ${esc(f.when)}` : esc(f.kind === "News" ? `News · ${f.when}` : f.when)} ↗</span></a>`).join("")}</div>`;
+  }
+
   function renderSector(q) {
     const st = { cat: q.get("cat") || "", country: q.get("country") || "", pub: q.get("pub") || "", q: q.get("q") || "",
       view: q.get("view") === "charts" ? "charts" : "" };
@@ -724,10 +768,9 @@
           .join(" ").toLowerCase().includes(needle)));
       const list = base.filter((i) => !st.cat || i.category === st.cat);
       last = list;
-      const figures = list.flatMap((i) => (i.key_stats || []).map((k) => ({ ...k, i })));
       $("#secKpis").innerHTML = [["news", list.length, "insights", "list", "Show the insights list"],
         ["bank", new Set(list.map(pubShort).filter(Boolean)).size, "publishers", "pubs", "Show the publishers chart"],
-        ["bolt", figures.length, "key figures", "figures", "Show the key figures"], ["star", list.filter(isGCC).length, "GCC items", "gcc", "Show GCC items only"]]
+        ["bolt", gulfFigures().length, "Gulf figures", "figures", "Show Gulf banking AI in numbers"], ["star", list.filter(isGCC).length, "GCC items", "gcc", "Show GCC items only"]]
         .map(([k, v, l, act, tip]) => `<button class="kpi${act === "gcc" ? " kpi-gcc" : ""}" data-kpi="${act}" title="${tip}">${icon(k)}<b>${v}</b><span>${l}</span></button>`).join("");
       // All · Global · GCC switch, counted on everything except the region itself
       const others = all.filter((i) => (!st.pub || pubShort(i) === st.pub) && (!st.cat || i.category === st.cat));
@@ -739,9 +782,7 @@
         x.setAttribute("aria-pressed", x.dataset.cat === st.cat);
         x.querySelector("b").textContent = base.filter((i) => i.category === x.dataset.cat).length;
       });
-      $("#statRailWrap").innerHTML = figures.length ? `<div class="section-title">What the studies say</div>
-        <div class="stat-rail">${figures.slice(0, 12).map((f) => `<a class="stat-card" href="${esc(f.i.source_url)}" target="_blank" rel="noopener" title="${esc(f.quote)}">
-          <b>${esc(f.value)}</b><span class="sl">${esc(f.label)}</span><span class="sp">${pubAvatar(f.i, "avatar xs")}${esc(pubShort(f.i) || f.i.source_name)} · ${fmtDate(f.i.date)}</span></a>`).join("")}</div>` : "";
+      $("#statRailWrap").innerHTML = gulfFiguresBlock();
       $("#secCount").textContent = list.length ? `Showing ${Math.min(shown, list.length)} of ${plural(list.length, "insight")}` : "";
       $("#secClear").hidden = !(st.cat || st.country || st.pub || st.q);
       $("#secItems").innerHTML = list.length ? list.slice(0, shown).map(sectorCard).join("") : `<div class="empty card"><div class="big">${all.length ? "🔍" : "⏳"}</div>
