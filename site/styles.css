@@ -279,8 +279,9 @@ h1, h2, h3 { line-height: 1.2; margin: 0; }
 
 /* News | Insights switch */
 .seg { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin-top: 10px; padding: 4px; background: var(--surface-2); border-radius: 12px; }
-.seg button { height: 38px; border: 0; border-radius: 9px; background: transparent; font-weight: 650; font-size: 14px; color: var(--text-2); cursor: pointer; }
-.seg button[aria-selected="true"] { background: #ffffff; color: var(--text); box-shadow: 0 1px 3px rgba(11,27,63,.15); }
+.seg a { display: flex; align-items: center; justify-content: center; text-decoration: none; }
+.seg button, .seg a { height: 38px; border: 0; border-radius: 9px; background: transparent; font-weight: 650; font-size: 14px; color: var(--text-2); cursor: pointer; }
+.seg button[aria-selected="true"], .seg a[aria-selected="true"] { background: #ffffff; color: var(--text); box-shadow: 0 1px 3px rgba(11,27,63,.15); }
 
 /* ---------- GCC Banking Sector Insights ---------- */
 .topbar .icon-btn + .icon-btn { margin-left: -4px; }
@@ -501,3 +502,7 @@ button.kpi[aria-pressed="true"] { border-color: var(--accent); background: #fffa
 .news-card .tags { margin-top: 10px; min-height: 24px; }
 .news-card .impact-tag { font-weight: 650; color: var(--text); max-width: 60%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .news-card .meta .cat { flex-shrink: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+
+/* small List / Charts toggle under the News/Sector switch */
+.seg.seg-sm { width: 220px; margin-top: 8px; padding: 3px; border-radius: 10px; }
+.seg.seg-sm button { height: 30px; font-size: 13px; border-radius: 8px; }
