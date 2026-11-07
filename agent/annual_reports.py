@@ -325,6 +325,12 @@ def passages(pages: list[str]) -> str:
     return "\n\n".join(out)
 
 
+def report_date(year: int) -> str:
+    """Date shown for a report's items: the last day of the fiscal year the report covers (QNB 2025 → 2025-12-31).
+    Not the file's date: re-uploads and the day the report was read would put old reports at the top."""
+    return f"{year}-12-31"
+
+
 def _squash(s: str) -> str:
     return re.sub(r"\W+", "", (s or "").lower())
 
@@ -395,6 +401,23 @@ class AnnualReports:
             if self._todo_years(st):
                 st.pop("checked", None)
         done.append("ar-retry-v1")
+
+    def fix_dates(self, news_items: list[dict]) -> None:
+        """One-time: annual-report items are dated 31 December of the report's fiscal year (they were dated by the
+        PDF / server file date or the day the report was read, which put e.g. QNB 2025 at the top on 4 Nov 2026)."""
+        done = self.root_state.setdefault("migrations", [])
+        if "ar-dates-v2" in done:
+            return
+        n = 0
+        for i in news_items:
+            if i.get("source_type") == "annual_report" and i["date"] != report_date(i["report"]["year"]):
+                i["date"] = report_date(i["report"]["year"])
+                n += 1
+        for st in self.state.values():
+            for y, d in st.get("done", {}).items():
+                d["date"] = report_date(int(y))
+        print(f"Annual reports: {n} items re-dated to 31 December of their report's year")
+        done.append("ar-dates-v2")
 
     def mark_all_for_reread(self) -> None:
         """One-time: reports read under the old 'top 10 items' rule are read again to keep every AI item.
@@ -562,15 +585,7 @@ class AnnualReports:
                           file=sys.stderr)
                     continue
                 st.get("failed", {}).pop(str(y), None)
-                date = pdf_date if pdf_date and pdf_date[:4] >= str(y) else None
-                if not date and headers.get("Last-Modified"):
-                    try:
-                        import email.utils
-                        lm = email.utils.parsedate_to_datetime(headers["Last-Modified"]).date().isoformat()
-                        date = lm if lm[:4] >= str(y) else None
-                    except (TypeError, ValueError):
-                        date = None
-                date = min(date or f"{y + 1}-03-31", self.today.isoformat())
+                date = report_date(y)
                 try:
                     found = self.extract(bank, y, pages)
                     items, rejected = self.verify(bank, y, url, pages, date, found, page_urls)
