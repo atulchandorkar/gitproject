@@ -1,6 +1,146 @@
 {
  "digests": [
   {
+   "id": "2026-11-07",
+   "start": "2026-11-01",
+   "end": "2026-11-07",
+   "created_at": "2026-11-08T02:35:52+00:00",
+   "counts": {
+    "news": 7,
+    "banks": 5,
+    "annual_report_items": 16,
+    "annual_report_banks": 1,
+    "studies": 18
+   },
+   "countries": {
+    "AE": 5,
+    "BH": 2
+   },
+   "themes": [
+    [
+     "AI Adoption in Operations",
+     8
+    ],
+    [
+     "Fraud, Risk & Compliance",
+     7
+    ],
+    [
+     "AI Strategy & Leadership",
+     6
+    ],
+    [
+     "Tech Vendor Partnerships",
+     5
+    ],
+    [
+     "AI Skills & Talent",
+     3
+    ],
+    [
+     "Customer-Facing AI",
+     2
+    ]
+   ],
+   "partners": [
+    [
+     "Clari5",
+     1
+    ],
+    [
+     "UAE AI Office",
+     1
+    ],
+    [
+     "Total CX",
+     1
+    ],
+    [
+     "ARRAY",
+     1
+    ],
+    [
+     "Microsoft",
+     1
+    ]
+   ],
+   "banks": [
+    [
+     "enbd",
+     3
+    ],
+    [
+     "mashreq",
+     1
+    ],
+    [
+     "alsalam",
+     1
+    ],
+    [
+     "nbb",
+     1
+    ],
+    [
+     "cbd",
+     1
+    ]
+   ],
+   "top": [
+    "801b0f5152ca",
+    "844e7d076708",
+    "22724aff0598",
+    "0d656836a5b1",
+    "6cb93cc486b5",
+    "12172d06d38e",
+    "4701d21a85c4"
+   ],
+   "studies_top": [
+    "526b83b1ec15",
+    "944d7d6c1424",
+    "c134662e83e1",
+    "5d7825edf5d4",
+    "8945e3cb6c05"
+   ],
+   "report_banks": [
+    "qnb"
+   ],
+   "takeaways": [
+    {
+     "text": "QNB establishes comprehensive AI governance framework including dedicated security architecture, model risk policy updates, and mandatory ethics training for workforce.",
+     "ids": [
+      "92dcdac4c18b",
+      "3f9693899497",
+      "65d8b1439c0e",
+      "d8d4a2907237"
+     ]
+    },
+    {
+     "text": "GCC banks develop AI talent through government partnerships and acceleration programs; Emirates NBD evolves incubator into AI program for Emirati SMEs.",
+     "ids": [
+      "844e7d076708",
+      "6cb93cc486b5",
+      "4701d21a85c4"
+     ]
+    },
+    {
+     "text": "Global financial institutions accelerate multi-agent AI adoption for profitability, but banks struggle with orchestration and face emerging safety risks in autonomous systems.",
+     "ids": [
+      "944d7d6c1424",
+      "a34b867c2db3",
+      "5d7825edf5d4"
+     ]
+    },
+    {
+     "text": "Fraudsters leverage AI to steal customer verification codes; IMF urges central banks to account for AI investment slowdown risks in monetary policy.",
+     "ids": [
+      "c134662e83e1",
+      "526b83b1ec15"
+     ]
+    }
+   ]
+  },
+  {
    "id": "2026-10-31",
    "start": "2026-10-25",
    "end": "2026-10-31",

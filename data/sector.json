@@ -1,6 +1,97 @@
 {
- "updated_at": "2026-11-07T06:39:20+00:00",
+ "updated_at": "2026-11-08T02:35:49+00:00",
  "items": [
+  {
+   "id": "c134662e83e1",
+   "date": "2026-11-07",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Fraudsters use AI to target bank customers and extract verification codes",
+   "summary": "Security experts warn that criminals are employing artificial intelligence techniques to compromise bank customers and steal authentication credentials. The analysis highlights emerging fraud risks in banking operations.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5TZjI5UWYzV1Y5UWFYcmNXSHUwZjhaRkRkVi15dWcyVW9DYURzdjZHYkRPN2ZqMS15QWFsa1hfdHRUSGpCWUhnRDNpUGo5bEpJclB3?oc=5",
+   "source_name": "شبكة تواصل الإخبارية",
+   "source_title": "عبير خضر: المحتالون يوظفون الذكاء الاصطناعي لاستدراج عملاء البنوك ومشاركة رموز التحقق",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5TZjI5UWYzV1Y5UWFYcmNXSHUwZjhaRkRkVi15dWcyVW9DYURzdjZHYkRPN2ZqMS15QWFsa1hfdHRUSGpCWUhnRDNpUGo5bEpJclB3?oc=5",
+     "name": "شبكة تواصل الإخبارية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9tS3c5Sjl6X0FxTC1VSzFqTk5vcU9jbEFoeDlTaXRvRUhrdzFxc2ZNSFdOY1Jjb1lRT3ZpSTRHQkh3TVBUdzhv?oc=5",
+     "name": "بنكي"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-11-08T02:35:38+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-11-08"
+   },
+   "pdf_checked": "2026-11-08"
+  },
+  {
+   "id": "526b83b1ec15",
+   "date": "2026-11-06",
+   "category": "Regulation & Guidance",
+   "publisher": "International Monetary Fund",
+   "countries": [
+    "Global"
+   ],
+   "title": "IMF calls on central banks to account for AI investment slowdown risks",
+   "summary": "The International Monetary Fund has urged central banks to factor in the risks of slowing artificial intelligence investments when managing monetary policy. This guidance addresses emerging macroeconomic concerns related to AI sector volatility.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFByeXVBd3NyZjYzYTg1WmxMdVZJMXlGOGprdk9WTFV4YTU5ZHFXZFRjVFNKYmdHYWktN2p4ZUxjbDVTQllUVWlGNnF6SVE2VW9QUEUyQXdrcmxnbXVJSC00QWI4YWlDUjFaV1pXcFp2RTVwQQ?oc=5",
+   "source_name": "صحيفة اخبارنا",
+   "source_title": "صندوق النقد يدعو البنوك المركزية لاحتساب مخاطر تباطؤ استثمارات الذكاء الاصطناعي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFByeXVBd3NyZjYzYTg1WmxMdVZJMXlGOGprdk9WTFV4YTU5ZHFXZFRjVFNKYmdHYWktN2p4ZUxjbDVTQllUVWlGNnF6SVE2VW9QUEUyQXdrcmxnbXVJSC00QWI4YWlDUjFaV1pXcFp2RTVwQQ?oc=5",
+     "name": "صحيفة اخبارنا"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91YzBqYzc5OVV1ZGRiYVY5Q1BhbUt3N3owczlNSV9RZG5acG9FdDB3ZUVFbzdqdl9BUWJROS0xNl9hLXk4Vy1QcU5YeG9iSXkyZ1E0?oc=5",
+     "name": "شبكة تواصل الإخبارية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMitAVBVV95cUxOM2pEXzFBbmFJSjNRVU5xdm4yLTdDb2pLM3pFTkhiUFAyVzNVRkRpOGl3UTB6N084dU9DNGxBQkl6Xy1aZXpsT0hCQlZZSmdYODFmbGphNTB1b1UwYk1xQlJfTXh1Z1dBczJ3a1dmcUFpejlRMEpaSzE3V1p6NzN1Q3Q2cGxxNWJObnhzdGFkNkRNYWc0dG1yS013Sy1BQ2JLVVdPX1hUT19palF5Rm4xaC0xVXUtTGY4NDVwTmN5Y0hjbFZKaWthSmZpOUVmcXBrcl9jWDhNN0N6VmVkcGNBTXVMVmdlX0xFSWFONTB1ZDZ1SEJpVWpndGIxT1VxQldVLUdjUEQxRFhlZDFzQkRGd2dxaGZMNFNnZzBNcUt2NFhpdlp2ZTNESElJREh4UmtFazVjSTBLcTlKT3pETDgyQUc2YzgxeGU4V0RrUmRsZXhxOURYU2Z5amhRWHBWZEtwTm5vdVo5b1lIb2puWGNQd1lOQ0N3LTk4ZjY3amJjT0tzTHQ3Y2RuSDlSQll5TVBCYmVreHBGXzlEYmRhV1czeEhQQkxIZmtSZWE0T1o5Mi1HSGNUdWhfbW1sOC1kV0NHa1dsUEk3cUR4ZVBoRnpxdXoxVkRVM2hBc1F3M3BsZHh0ZU9JME9oSXB6a3dLcGpJaWVYU0RzLUM2ajBodGlDcnVGSmVZMnFzcWJrdGU1eExGTklRUjJMWTc3b1MyVDFhOGJWb0FnaUJEVS1WVlVfa19iaTZ5WWdFNVRNOVRRaUdXcVdxcENac1VfYkMxWk5BcEJGRHVpa2E0WWNNN2Q3aTVETkllUlFGOGduS2Z0dmNzRFJlWWdTdk5EYUdNZFE3Qnd4UVFrYmhiQ1p1YU1XZzJNanNDa3V4dHJDUnVScTM5SHZuMHZXT1QwQjBTZ091VlFHaQ?oc=5",
+     "name": "الجريدة العقارية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tdEhnelFZRHZSd1FzTFlSVWloLXMteDdMZnRXT0NYd1lqMmxnM2ctZEN4d0IySkI2TnJwUDlOR1VuUDMzVzVOd0d5R0o1c1NxQnBj?oc=5",
+     "name": "شبكة تواصل الإخبارية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi0ARBVV95cUxOOXdYTk9GQjVSZHNkMjVLbktWYXJ1TE93ZnpURnZSMG5wMDV6am9lcm84NW0wSU1ISEtycnJzdDlBYjNjUXluVEdOaFNpbmFVMDBzS3loR3hKLXp6cG9lV1FfRlNYY25QVmpZT2ZXWjVrSUIxa1JvZ01HLVNoNGJ1cjdPa1FfaXZ6cnNnVmVxbkphVWEwRk5lZ0VwSmFOWk9EOGxUN050bktRVVRmU3F4TXRqWVJEc1dkUzhXR0FuaGt3SmE2YjhjbTl0UGdtWUstZEZaQkZ0VkcyMG9sUHk5eExSUFdELTczYUNUSzFkWWxzaGZGUllhNGIzUEUwQnVEd2NUSDNzcUttV0NIbXBJRmEwdWZtcXRrUzFYMkRCMTRNTzJLNmNPTW9lVTB4czFuRk53cmZpRU81S3RXMnRxM1RKdGtDdUo4VHJHVGRIY3YtLVBUYnhKcktwT3RBczA5R2doQ0I0Y01lbEFVYXZyLTdqang0ZnlwZkhRc2VsOFpGVlp6QWJCYlg2Qy0xUHRUR2tydGdpXzNaa0t2TFZpTUlBZlFPMmgxMGFRT0lSaTViVzM4c0ZpYldQcU5UbWVmcjBYWXRxNUFEWW52a3N6UlZaTkdWNjFLREpNaHNfRmNva2R4UGNJYlZPOEN4SlMxZWhqcHhhN2F0RzNxNUNJSzhRZHdfdUc0UG1qejN1dkxhM05zUXI2bm54VVFkQ3F4YVlzbWQyVGYwVjU2QUVVX3pucUN1cGRBY2Y3TzZ4REtJT1h1blNtYXBNT2NhZzhN?oc=5",
+     "name": "Lebanon24"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-11-08T02:35:38+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-11-08"
+   },
+   "merged": [
+    {
+     "id": "5d5511f7b568",
+     "date": "2026-11-06",
+     "title": "مديرة صندوق النقد الدولي: على البنوك المركزية مراقبة التوقعات بتباطؤ الزخم الناتج عن نمو الذكاء الاصطناعي",
+     "source_title": "مديرة صندوق النقد الدولي: على البنوك المركزية مراقبة التوقعات بتباطؤ الزخم الناتج عن نمو الذكاء الاصطناعي",
+     "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tdEhnelFZRHZSd1FzTFlSVWloLXMteDdMZnRXT0NYd1lqMmxnM2ctZEN4d0IySkI2TnJwUDlOR1VuUDMzVzVOd0d5R0o1c1NxQnBj?oc=5",
+     "source_name": "شبكة تواصل الإخبارية",
+     "summary": "IMF leadership advised central banks to monitor risks of AI-driven growth deceleration and adjust expectations. The guidance emphasizes monetary policymakers must account for potential slowdown in AI economic benefits.",
+     "how": "ai",
+     "anchor": "IMF calls on central banks to account for AI investment slowdown risks"
+    }
+   ],
+   "pdf_checked": "2026-11-08"
+  },
   {
    "id": "5bbcad2903be",
    "date": "2026-11-06",
@@ -54,39 +145,6 @@
    "added_at": "2026-11-07T02:53:08+00:00",
    "verification": {
     "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-11-07"
-   },
-   "pdf_checked": "2026-11-07"
-  },
-  {
-   "id": "5d5511f7b568",
-   "date": "2026-11-06",
-   "category": "Expert Views",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "مديرة صندوق النقد الدولي: على البنوك المركزية مراقبة التوقعات بتباطؤ الزخم الناتج عن نمو الذكاء الاصطناعي",
-   "summary": "IMF leadership advised central banks to monitor risks of AI-driven growth deceleration and adjust expectations. The guidance emphasizes monetary policymakers must account for potential slowdown in AI economic benefits.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tdEhnelFZRHZSd1FzTFlSVWloLXMteDdMZnRXT0NYd1lqMmxnM2ctZEN4d0IySkI2TnJwUDlOR1VuUDMzVzVOd0d5R0o1c1NxQnBj?oc=5",
-   "source_name": "شبكة تواصل الإخبارية",
-   "source_title": "مديرة صندوق النقد الدولي: على البنوك المركزية مراقبة التوقعات بتباطؤ الزخم الناتج عن نمو الذكاء الاصطناعي",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tdEhnelFZRHZSd1FzTFlSVWloLXMteDdMZnRXT0NYd1lqMmxnM2ctZEN4d0IySkI2TnJwUDlOR1VuUDMzVzVOd0d5R0o1c1NxQnBj?oc=5",
-     "name": "شبكة تواصل الإخبارية"
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMi0ARBVV95cUxOOXdYTk9GQjVSZHNkMjVLbktWYXJ1TE93ZnpURnZSMG5wMDV6am9lcm84NW0wSU1ISEtycnJzdDlBYjNjUXluVEdOaFNpbmFVMDBzS3loR3hKLXp6cG9lV1FfRlNYY25QVmpZT2ZXWjVrSUIxa1JvZ01HLVNoNGJ1cjdPa1FfaXZ6cnNnVmVxbkphVWEwRk5lZ0VwSmFOWk9EOGxUN050bktRVVRmU3F4TXRqWVJEc1dkUzhXR0FuaGt3SmE2YjhjbTl0UGdtWUstZEZaQkZ0VkcyMG9sUHk5eExSUFdELTczYUNUSzFkWWxzaGZGUllhNGIzUEUwQnVEd2NUSDNzcUttV0NIbXBJRmEwdWZtcXRrUzFYMkRCMTRNTzJLNmNPTW9lVTB4czFuRk53cmZpRU81S3RXMnRxM1RKdGtDdUo4VHJHVGRIY3YtLVBUYnhKcktwT3RBczA5R2doQ0I0Y01lbEFVYXZyLTdqang0ZnlwZkhRc2VsOFpGVlp6QWJCYlg2Qy0xUHRUR2tydGdpXzNaa0t2TFZpTUlBZlFPMmgxMGFRT0lSaTViVzM4c0ZpYldQcU5UbWVmcjBYWXRxNUFEWW52a3N6UlZaTkdWNjFLREpNaHNfRmNva2R4UGNJYlZPOEN4SlMxZWhqcHhhN2F0RzNxNUNJSzhRZHdfdUc0UG1qejN1dkxhM05zUXI2bm54VVFkQ3F4YVlzbWQyVGYwVjU2QUVVX3pucUN1cGRBY2Y3TzZ4REtJT1h1blNtYXBNT2NhZzhN?oc=5",
-     "name": "Lebanon24"
-    }
-   ],
-   "language": "ar",
-   "added_at": "2026-11-07T02:53:08+00:00",
-   "verification": {
-    "level": "corroborated",
     "evidence": "headline",
     "checked": "2026-11-07"
    },
@@ -6372,39 +6430,6 @@
    "added_at": "2026-10-06T02:16:25+00:00",
    "verification": {
     "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-06"
-  },
-  {
-   "id": "23536b92a18a",
-   "date": "2025-11-06",
-   "category": "Expert Views",
-   "publisher": "Asian Banking and Finance",
-   "countries": [
-    "Global"
-   ],
-   "title": "Banks' AI adoption to shape competitive advantage in cost and revenue",
-   "summary": "AI adoption by banks is becoming a critical differentiator for cost efficiency and revenue generation across the industry. Banks that effectively implement AI capabilities are gaining strategic advantages over competitors.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRVZ6bDRYbVkzelZJN1pXVHE5Y2VMZHBFbk1rdEpON2hlMFotd2tBWG9oQW0zSXk5VDFiLXRLTE5tbHFSQjlGRzA0a3psRlctQjR5UDU0SXhGdlprZkZUT3FqZERiMTNCVlJaSC0zdXFVSTdjQjVrY1RvUkhzWnNBdEVxc2JNRlJReHZTUGUydktrLXRWNFlUcjZjWm9HQXNxYkZ6XzByR0tuemc2UnY1ZDdjcw?oc=5",
-   "source_name": "asianbankingandfinance.net",
-   "source_title": "Banks’ AI adoption to shape cost and revenue advantage",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRVZ6bDRYbVkzelZJN1pXVHE5Y2VMZHBFbk1rdEpON2hlMFotd2tBWG9oQW0zSXk5VDFiLXRLTE5tbHFSQjlGRzA0a3psRlctQjR5UDU0SXhGdlprZkZUT3FqZERiMTNCVlJaSC0zdXFVSTdjQjVrY1RvUkhzWnNBdEVxc2JNRlJReHZTUGUydktrLXRWNFlUcjZjWm9HQXNxYkZ6XzByR0tuemc2UnY1ZDdjcw?oc=5",
-     "name": "asianbankingandfinance.net"
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRVZ6bDRYbVkzelZJN1pXVHE5Y2VMZHBFbk1rdEpON2hlMFotd2tBWG9oQW0zSXk5VDFiLXRLTE5tbHFSQjlGRzA0a3psRlctQjR5UDU0SXhGdlprZkZUT3FqZERiMTNCVlJaSC0zdXFVSTdjQjVrY1RvUkhzWnNBdEVxc2JNRlJReHZTUGUydktrLXRWNFlUcjZjWm9HQXNxYkZ6XzByR0tuemc2UnY1ZDdjcw?oc=5",
-     "name": "Asian Banking & Finance"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "corroborated",
     "evidence": "headline",
     "checked": "2026-10-06"
    },

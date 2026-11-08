@@ -2014,5 +2014,23 @@
   "source_url": "https://news.google.com/rss/articles/CBMivwRBVV95cUxOMnR3YzNaWTRfTzlYOFV5bmJGVUk4TEFkRVBSenNiVGRCcWJnbVhjT0ZwcFN4aG0wbHhDLWk0LVdJWTh6WEMxOXF3QVBXV2psTmdwRzd4NnJVNldqNlBYMXBIYWVFX3h3akFuTmJlV3ZGVzRYbzBTUnZfVXhJRlFVcTRDVmJkM1A1OVVxV0dFMTRMV21rV3pMZGJjelVnUkhvOEtNRTJzczZPTDRzQWtpbXZiNHhCVlRfWTJydzh4emdZNGVhbHNQeXlMNkQxM2JneW5yRE4zaWcxZ3VIQ3lHYmZfdkxiX3RNbHZUTG5nTy0zX1Y0VFJyZWRhRXlWeE9PRkZtelFqNFg2cl9WNnlfdlg0NEEwMllENzd3LW5wcndkNTQ1UXdwOTFaYjd0dENGb1BwMmI2TmNQY092amdsclVUUFpmYmdnWHdhaE9PWGtaY1NYSC02ejhtcUtwRnJ6UUVfRllCV29YcGhYb250MWtZeFVKVElHS3NVbHd4OVZtQVhPa0JHN0owRksxc0ZtUko4NUg0R2VKb1FubmEwSFladE9QYzU0VjVYcl8wcE5tYnYxSDljUmxaSDd3NFFyRlMyekZPbUxEOEFkOVpMOWo4WXZNSWIyTTVwLW5ROThWaWVjZEtVZ3lFUkRVcE5VcWtESmxOSUVEU1hKMlNldHBRX1VFeTc0NzVOaGhZaG9udEJVcTR3QU5qZjk4N19WUVVqVDhuOTRnWlNJN2JtbEppeE55bHhscnNVRy1uYw?oc=5",
   "source": "الشرق الأوسط",
   "reason": "fact-check: The headline mentions Riyad Bank and AI but does not describe the bank's own AI activity, strategy, investment, or deployment—only that it 'charts' or 'shapes' the future, which is aspirational commentary rather than evidence of specific AI action."
+ },
+ {
+  "checked": "2026-11-08",
+  "bank_id": "enbd",
+  "date": "2026-10-12",
+  "title": "Emirates NBD Launches AI Travel Assistant with Visa and Tripadvisor",
+  "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnp2bU8xZGhvOHpRNzlINzdKck9xUVNvR3hlWVhEUDlwVzVXVTlrWnZrU3owYVgzX2JJMk0xV241aEhNUW40OGpqUmt1VHJZUzdiQ2s5aHFoNFVfdUItdkQ0ZXpNN2lCOV82U080azh4TDkyQk5MUlludmdwMHFyakptd21MdWJGNFB4MEpUY0FOQm5IVVItTFRldU4?oc=5",
+  "source": "The Fintech Times",
+  "reason": "no second outlet confirmed it within 21 days"
+ },
+ {
+  "checked": "2026-11-08",
+  "bank_id": "snb",
+  "date": "2026-10-16",
+  "title": "البنك الأهلي السعودي يطلق برنامج التقنية والذكاء الاصطناعي",
+  "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zOWoxazJVV3Z1d3R6RXotb2JuUVk4ZGtKZVlQdFA5VzU2X0xVb1FVcFM0RWg4NTFmRHYyM3h1WHdQSHBybHNKallIOHJFRjctUW0wX01R?oc=5",
+  "source": "صحيفة صدى الالكترونية",
+  "reason": "no second outlet confirmed it within 21 days"
  }
 ]
