@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-08T02:35:49+00:00",
+ "updated_at": "2026-11-09T02:47:19+00:00",
  "items": [
   {
    "id": "c134662e83e1",
@@ -33,6 +33,35 @@
     "checked": "2026-11-08"
    },
    "pdf_checked": "2026-11-08"
+  },
+  {
+   "id": "ad3c302afade",
+   "date": "2026-11-06",
+   "category": "Expert Views",
+   "publisher": "American Banker",
+   "countries": [
+    "Global"
+   ],
+   "title": "What AI agents can do for banks' customer relationships",
+   "summary": "The headline indicates expert analysis on AI agents' role in banking customer relationships. Details on applications and benefits cannot be verified from the headline alone.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNc1Y2Q1BzNzUtVlZWcWRzeGR3U0RtaDZ6MnRDNk1CVGJhSmxkTE5hUUJkaklMSzJjSXZQNFo3clJaS3c3R1hOM2E1NE9JTkV3dk5PNWZhLWZjaFRUb2pIaW1IQTltTUYzbVRpN05FOFVfVHRDRTJ4UG5DREVxaUFNN2J2Y3Z5bmNxczEtRkpyMmlNb0FB?oc=5",
+   "source_name": "American Banker",
+   "source_title": "What AI agents can do for banks' customer relationships",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNc1Y2Q1BzNzUtVlZWcWRzeGR3U0RtaDZ6MnRDNk1CVGJhSmxkTE5hUUJkaklMSzJjSXZQNFo3clJaS3c3R1hOM2E1NE9JTkV3dk5PNWZhLWZjaFRUb2pIaW1IQTltTUYzbVRpN05FOFVfVHRDRTJ4UG5DREVxaUFNN2J2Y3Z5bmNxczEtRkpyMmlNb0FB?oc=5",
+     "name": "American Banker"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-09T02:47:10+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-11-09"
+   },
+   "pdf_checked": "2026-11-09"
   },
   {
    "id": "526b83b1ec15",
