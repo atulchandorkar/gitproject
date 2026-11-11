@@ -1,6 +1,99 @@
 {
- "updated_at": "2026-11-10T04:49:22+00:00",
+ "updated_at": "2026-11-11T02:53:43+00:00",
  "items": [
+  {
+   "id": "b21f09cfc6c9",
+   "date": "2026-11-11",
+   "category": "Studies & Surveys",
+   "publisher": "McKinsey & Company",
+   "countries": [
+    "Global"
+   ],
+   "title": "AI could cut banking industry's cost base by twenty percent",
+   "summary": "McKinsey research shows AI could reduce banking industry costs by 20%, demonstrating significant operational efficiency gains from strategic AI implementation.",
+   "key_stats": [
+    {
+     "value": "20%",
+     "label": "Potential cost reduction in banking industry",
+     "quote": "AI could cut banking industry's cost base by 20%"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxON3A0U2VZdVJ5c2FQX3dyV2IwN0x5akR4dy1GWVg4c0V4ZXBMM0sxUXZPUEtRdDZjZnlLQzJfb01zY1N6N0lvQjdsdzhsNXRYY3lNNU41YlFZZkNhNGc4dC1NSUhYcDdvUnE4NzVqdTVVZU9Gcks4WVFNT01xVkhRMnZLV0RMNjlfV09UdFN6N1NDeUlSMzZaWmxjVFhHU2dTS3g4?oc=5",
+   "source_name": "Finextra Research",
+   "source_title": "AI could cut banking industry's cost base by 20% - McKinsey's",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxON3A0U2VZdVJ5c2FQX3dyV2IwN0x5akR4dy1GWVg4c0V4ZXBMM0sxUXZPUEtRdDZjZnlLQzJfb01zY1N6N0lvQjdsdzhsNXRYY3lNNU41YlFZZkNhNGc4dC1NSUhYcDdvUnE4NzVqdTVVZU9Gcks4WVFNT01xVkhRMnZLV0RMNjlfV09UdFN6N1NDeUlSMzZaWmxjVFhHU2dTS3g4?oc=5",
+     "name": "Finextra Research"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-11T02:53:28+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-11"
+   },
+   "pdf_checked": "2026-11-11"
+  },
+  {
+   "id": "8b93a10de17d",
+   "date": "2026-11-10",
+   "category": "Expert Views",
+   "publisher": "McKinsey & Company",
+   "countries": [
+    "Global"
+   ],
+   "title": "Global Banking Annual Review 2026: The AI disruption dividend",
+   "summary": "McKinsey's annual review examines how artificial intelligence is creating value opportunities across the global banking sector. The report analyzes the strategic and financial implications of AI adoption for banks worldwide.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOGMxZW9DUi1QOXoyd2N1Y3lnTTRBX25tanFkTFlNblVPSTU2YUhMOVBhbVc1em43bXNfRDlBWlpyeDRpOGh1djFGUGM1YW00a0RIRGYydHJJRGtlZGtKbURyTjIzd1N4OEZidTBET1ctVHJQUWxTZXBuQkZ2czFtakVjUHZDT05UNmpCYXlTOWFmOEo4Z3AwakFnY2Y?oc=5",
+   "source_name": "McKinsey & Company",
+   "source_title": "Global Banking Annual Review 2026: The AI disruption dividend",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOGMxZW9DUi1QOXoyd2N1Y3lnTTRBX25tanFkTFlNblVPSTU2YUhMOVBhbVc1em43bXNfRDlBWlpyeDRpOGh1djFGUGM1YW00a0RIRGYydHJJRGtlZGtKbURyTjIzd1N4OEZidTBET1ctVHJQUWxTZXBuQkZ2czFtakVjUHZDT05UNmpCYXlTOWFmOEo4Z3AwakFnY2Y?oc=5",
+     "name": "McKinsey & Company"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-11T02:53:28+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-11-11"
+   },
+   "pdf_checked": "2026-11-11"
+  },
+  {
+   "id": "675c995c7e34",
+   "date": "2026-11-10",
+   "category": "Studies & Surveys",
+   "publisher": "IBS Intelligence",
+   "countries": [
+    "Global"
+   ],
+   "title": "Global banks increase AI investment amid governance gaps",
+   "summary": "IBS Intelligence reports that global banks are significantly increasing AI spending while managing frameworks and governance structures lag behind deployment. The analysis identifies governance as a critical challenge in scaling AI adoption.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORWd6NGduZjRud2EwUHlDbk9FZW81V1NIeWV6MnZ3OGFwb0V6MVhwVFNPZ1IxNkRZNS0wTVpiY1RJUUNXY2dFRGxLLWRqMDlLYlVURDhuUS1aZmJmeEJUVzdrbE1vV21CQ3RIdmpMZ2UxeFJPc0NxUFBSWnNUeTFHSDhTSFY4UE8tdmtZdGZFQ1U3cVRhWjBqT2RkOA?oc=5",
+   "source_name": "IBS Intelligence",
+   "source_title": "Global banks increase AI investment amid governance gaps",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORWd6NGduZjRud2EwUHlDbk9FZW81V1NIeWV6MnZ3OGFwb0V6MVhwVFNPZ1IxNkRZNS0wTVpiY1RJUUNXY2dFRGxLLWRqMDlLYlVURDhuUS1aZmJmeEJUVzdrbE1vV21CQ3RIdmpMZ2UxeFJPc0NxUFBSWnNUeTFHSDhTSFY4UE8tdmtZdGZFQ1U3cVRhWjBqT2RkOA?oc=5",
+     "name": "IBS Intelligence"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-11T02:53:28+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-11-11"
+   },
+   "pdf_checked": "2026-11-11"
+  },
   {
    "id": "a6a79eb436f0",
    "date": "2026-11-09",

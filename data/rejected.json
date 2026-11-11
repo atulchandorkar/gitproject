@@ -2041,5 +2041,32 @@
   "source_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE15SnVhTGRkVW05aVB4TGtXYnVKdFJadW9hdW1aNkh0dV9ZbGN2Q3lra253UW4zVmNEYkR3UDlLcEMzTFBnYkJ3?oc=5",
   "source": "صحيفة سبق الإلكترونية",
   "reason": "no second outlet confirmed it within 21 days"
+ },
+ {
+  "checked": "2026-11-11",
+  "bank_id": "enbd",
+  "date": "2026-10-19",
+  "title": "شراكة استراتيجية بين بنك الإمارات دبي الوطني وأوبن إيه آي لتوظيف الذكاء الاصطناعي في الخدمات المصرفية",
+  "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9BYXJmNUliUXFFb1A1dVFYd05GMHhZT0lMdGs2TzhwZS1UaC1VUFdiR1M5aUNVbG01MWlQZ0xoQTN3NzNfLXZvZlY3VVlDTF9aLWNJ?oc=5",
+  "source": "https://emirates24.net/",
+  "reason": "no second outlet confirmed it within 21 days"
+ },
+ {
+  "checked": "2026-11-11",
+  "bank_id": "enbd",
+  "date": "2026-10-19",
+  "title": "«الإمارات دبي الوطني» أول بنك في الشرق الأوسط وشمال أفريقيا يشغّل نماذج «Open ai» لتعزيز الخدمات الرقمية وإدارة المخاطر ومكافحة الجرائم المالية",
+  "source_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE52cEp4TGliWExpNkRvQ01oSUt4S0t0TEJRWng3TzdHdGdxU21VWHVQejhSVjdvdTU0M0hkSVdNajNIUFBV?oc=5",
+  "source": "بوابة التكنولوجيا المالية",
+  "reason": "no second outlet confirmed it within 21 days"
+ },
+ {
+  "checked": "2026-11-11",
+  "bank_id": "ahlibankqa",
+  "date": "2026-11-10",
+  "title": "سهى التركي: الذكاء الاصطناعي يساعد البنك الأهلي في تحليل سلوك العملاء وتطوير المنتجات المصرفية",
+  "source_url": "https://news.google.com/rss/articles/CBMijgNBVV95cUxPcUZkWXpzbFdWZ1VTalk1S1RwQ1VKXzZGZXcyX2ZRcDVVTG1wQ0tkb1RWRnFadEkzdzNBZlJ3Q3ZKbV9FUi05WUs1N3daV1hUa2hYbllJS3YxYURBTl8yTGprRnZ4R2l1TUNHZDN1N3RmS1dmbktjRndiRFlPeEdPU0wtLU1PQ2FLaWtlMWxrWEZ4QVhXMmM5d1ZsZ3c0ZkdmbXFFcDJCMEcxZktidTktUEZlMnI4enR2UGpuajdFQVlsZlZwWEY5YmQ1dVExV21zdm9oS241anl2dzNaT0FtV1FEMVlQelJZSDdIbDlQQWUzS2k4QWxrX2dYdERELTZ1UHFrU3pKZTBVR1F4Tk9NMFJRLTkzcnBqaU5KUHdEY2JaTEx5djF0UDgtTy1HTHdrNEtfaXY0SWV6d2ZBcDJiUmxLWVlwZTZPVEttZXlBVlhlMWQ5UGdCZE9waDN4UWlpWFFGMVNVNERtS3ROcGlLRmJwaTBGck4ybzZKMlVjU3V2S0VpZ1g2Y2lOcll2UQ?oc=5",
+  "source": "جريدة المال",
+  "reason": "fact-check: Evidence mentions 'البنك الأهلي' (Al-Ahli Bank) which is not Ahlibank Qatar but a different bank."
  }
 ]

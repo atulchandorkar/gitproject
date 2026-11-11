@@ -1,6 +1,99 @@
 {
- "updated_at": "2026-11-10T04:49:22+00:00",
+ "updated_at": "2026-11-11T02:53:43+00:00",
  "items": [
+  {
+   "id": "6f46f104fdc0",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2026-11-10",
+   "title": "Emirates NBD and Bridgewise launch AI-powered market insights",
+   "summary": "Emirates NBD has partnered with Bridgewise to launch AI-powered market insights for customers.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI",
+    "Tech Vendor Partnerships"
+   ],
+   "tags": [
+    "Market insights",
+    "AI analytics",
+    "Customer product",
+    "Market analysis",
+    "AI service",
+    "Customer offering"
+   ],
+   "partners": [
+    "Bridgewise"
+   ],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUTFsZENxRExnNmNZbDQ2NURhSF9YOVBQSS1kRHZodVVsbUhLWWM2ZU5yYmtJWWNZOUJic1hSd0M0R1JtVl8xazJuRm83c2lVOVkwWlU1azFUWEI3TC1XNU53WjRxVHU5VE9WVW1rbzlsc3ZBWXVKMDVGd21uSHphRklTQUNYSGVUZ0xnN1hzQ0NNdHFXS1MyR1psZkswQQ?oc=5",
+   "source_name": "TradeArabia",
+   "source_title": "Emirates NBD, Bridgewise launch AI-powered market insights",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUTFsZENxRExnNmNZbDQ2NURhSF9YOVBQSS1kRHZodVVsbUhLWWM2ZU5yYmtJWWNZOUJic1hSd0M0R1JtVl8xazJuRm83c2lVOVkwWlU1azFUWEI3TC1XNU53WjRxVHU5VE9WVW1rbzlsc3ZBWXVKMDVGd21uSHphRklTQUNYSGVUZ0xnN1hzQ0NNdHFXS1MyR1psZkswQQ?oc=5",
+     "name": "TradeArabia"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMizAVBVV95cUxOd3pxUkRsZUQ0d0EtLU1EcjhKZGVWSml0NjFYcXpMZUhxbV94YTU0emg3ZHhuUzJDMlg5aHRjZnhwY3RERG41NUlvUDZ6c3J3S2JoU2VrVmRWajNTaHM5RjBqUGtqNXFZR0ZrNkRHenhVcFU2aXV1VUxqcERjaXBjZWdKQUpMZ2dWN3FFd1BIUm9QeEhzOXd4YmxtMmpPa1ZvZmZCWWgyTWNadGpDTVZEUG9CWTBzVFZXTGJRd2ZJV18tZVFiVzVQem9mV0pMclFKbGJDOTljVFZHelBlUU8talcyVFl5R1AtX0h4cDZEY3ZTblpBMURNSnU0N3hzUHd3WTNkbUsyTzFTVjZpa213T0ZrUEgwT2U0QlJoRkV2QTN3YTA0RVZoc0k3UEdvV1JZY3UySkNzLVlMV2g4ZFZCTXpfY2lUZDBxbWE3QXVINHppRUdKdk80c3daa3dDeEpMYUdpY24yVXBxXzFTLUpNMWdXUkNVeXBiYWdGblJJWUtXS3Btc2U3QW1sWFRab0VXVndpV0pZV0h2WmJ4Y3VQbm9zbm9KVXVteE1rX2p2ZElzXzZrcllJWnN3TEYzTWRxeHdXbEVnWTc3bmdnb0xFY2pPTlhKU0NtU1ZaN0Q4LXpZUWwtVlRDMTJ5dDFGUXh1NWZETXFweVNpdVRONlpmQTN3MWhYS2ZZQlB3ZmNIakVKMVZITklTZEhMbnpvNEZMVHlqTVFQTXB4ZkpyM3NzUGNOeTNzMm1UTFY1dFFiNVBaeklEQXc2bk5XSE5SZmdTXzdfcUZBdENZbmNOVUptWWdvRGVNREdhaE1WRXpYZkxkNm5JLUJpMGZPU2Ezc29LaXMtaFQwbGJ3clpIV1oyNzVmZ3AxLUZHaFZpUll4aDZFaEZsdUlxN0NUMm1ZMTFpZ1JxQkhpTWdjZHZpQk4yaGhXdXR6T3BkdzBWLQ?oc=5",
+     "name": "صحيفة الخليج"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-11T02:49:48+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-11"
+   },
+   "merged": [
+    {
+     "id": "0decca887a3c",
+     "date": "2026-11-10",
+     "title": "Emirates NBD launches AI-supported market analysis service",
+     "source_title": "«الإمارات دبي الوطني» يطلق خدمة تحليل الأسواق مدعومة بالذكاء الاصطناعي",
+     "source_url": "https://news.google.com/rss/articles/CBMizAVBVV95cUxOd3pxUkRsZUQ0d0EtLU1EcjhKZGVWSml0NjFYcXpMZUhxbV94YTU0emg3ZHhuUzJDMlg5aHRjZnhwY3RERG41NUlvUDZ6c3J3S2JoU2VrVmRWajNTaHM5RjBqUGtqNXFZR0ZrNkRHenhVcFU2aXV1VUxqcERjaXBjZWdKQUpMZ2dWN3FFd1BIUm9QeEhzOXd4YmxtMmpPa1ZvZmZCWWgyTWNadGpDTVZEUG9CWTBzVFZXTGJRd2ZJV18tZVFiVzVQem9mV0pMclFKbGJDOTljVFZHelBlUU8talcyVFl5R1AtX0h4cDZEY3ZTblpBMURNSnU0N3hzUHd3WTNkbUsyTzFTVjZpa213T0ZrUEgwT2U0QlJoRkV2QTN3YTA0RVZoc0k3UEdvV1JZY3UySkNzLVlMV2g4ZFZCTXpfY2lUZDBxbWE3QXVINHppRUdKdk80c3daa3dDeEpMYUdpY24yVXBxXzFTLUpNMWdXUkNVeXBiYWdGblJJWUtXS3Btc2U3QW1sWFRab0VXVndpV0pZV0h2WmJ4Y3VQbm9zbm9KVXVteE1rX2p2ZElzXzZrcllJWnN3TEYzTWRxeHdXbEVnWTc3bmdnb0xFY2pPTlhKU0NtU1ZaN0Q4LXpZUWwtVlRDMTJ5dDFGUXh1NWZETXFweVNpdVRONlpmQTN3MWhYS2ZZQlB3ZmNIakVKMVZITklTZEhMbnpvNEZMVHlqTVFQTXB4ZkpyM3NzUGNOeTNzMm1UTFY1dFFiNVBaeklEQXc2bk5XSE5SZmdTXzdfcUZBdENZbmNOVUptWWdvRGVNREdhaE1WRXpYZkxkNm5JLUJpMGZPU2Ezc29LaXMtaFQwbGJ3clpIV1oyNzVmZ3AxLUZHaFZpUll4aDZFaEZsdUlxN0NUMm1ZMTFpZ1JxQkhpTWdjZHZpQk4yaGhXdXR6T3BkdzBWLQ?oc=5",
+     "source_name": "صحيفة الخليج",
+     "summary": "Emirates NBD has launched a market analysis service powered by artificial intelligence.",
+     "how": "ai",
+     "anchor": "Bridgewise"
+    }
+   ]
+  },
+  {
+   "id": "a358d511dd04",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2026-11-10",
+   "title": "Emirates NBD provides AI-powered information for digital wealth clients",
+   "summary": "Emirates NBD offers AI-powered information and insights to its digital wealth management customers.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "Wealth management",
+    "AI analytics",
+    "Customer insights"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNVF96OXZmUWVnLTNLTW02OVB6Mm9zSWk0cU1aUmM5X2x2WGJUd3NIYVZtLWEwNkxIX2szOVgzRHVNWFYyTnI0OG9Icmg0RExsSnhmYzJHbjA4RHBaakMzb19YOFpTYUFTZGow?oc=5",
+   "source_name": "البيان",
+   "source_title": "«الإمارات دبي الوطني» يوفر معلومات مدعومة بالذكاء الاصطناعي لعملاء الثروات الرقمية",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNVF96OXZmUWVnLTNLTW02OVB6Mm9zSWk0cU1aUmM5X2x2WGJUd3NIYVZtLWEwNkxIX2szOVgzRHVNWFYyTnI0OG9Icmg0RExsSnhmYzJHbjA4RHBaakMzb19YOFpTYUFTZGow?oc=5",
+     "name": "البيان"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-11-11T02:49:48+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-11"
+   }
+  },
   {
    "id": "801b0f5152ca",
    "bank_id": "mashreq",
