@@ -1,6 +1,35 @@
 {
- "updated_at": "2026-11-11T02:53:43+00:00",
+ "updated_at": "2026-11-12T03:55:29+00:00",
  "items": [
+  {
+   "id": "b4f357718245",
+   "date": "2026-11-11",
+   "category": "Case Studies & Use Cases",
+   "publisher": "Finextra Research",
+   "countries": [
+    "Global"
+   ],
+   "title": "Deutsche Bank and technology partner outline integration roadmap for agentic AI in wholesale banking",
+   "summary": "Two organisations developed a strategic roadmap for embedding agentic artificial intelligence into wholesale banking operations. The plan addresses technical and operational requirements for AI agent deployment.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVlRmVVE5ZUN5bWlWa2VPOVJJb0Q5aTFnUTBfaXE0U1RZdTY5RXAxZndqamxQS0dOcHVlNU9qdHExUmNUZS1XeFd6VV9jdkxqTTllaXZHWjNmUGZtdTl0dHlnWjFEMEdtdmhYMTZsZnI4Z3EwMFF3WndiNHdVVlZRLUhjSl84WGNYNEJyOUZZQ0swMVozZnRVNXBHRnl6NFRNN2otaGVKcVprTkQzX056UWZiRk1BU1ViX084d2ZKSnQwYll5RTRaazR3?oc=5",
+   "source_name": "Finextra Research",
+   "source_title": "Deutsche Bank and Ant set out roadmap for integrating agentic AI into wholesale banking",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVlRmVVE5ZUN5bWlWa2VPOVJJb0Q5aTFnUTBfaXE0U1RZdTY5RXAxZndqamxQS0dOcHVlNU9qdHExUmNUZS1XeFd6VV9jdkxqTTllaXZHWjNmUGZtdTl0dHlnWjFEMEdtdmhYMTZsZnI4Z3EwMFF3WndiNHdVVlZRLUhjSl84WGNYNEJyOUZZQ0swMVozZnRVNXBHRnl6NFRNN2otaGVKcVprTkQzX056UWZiRk1BU1ViX084d2ZKSnQwYll5RTRaazR3?oc=5",
+     "name": "Finextra Research"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-12T03:55:10+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-11-12"
+   },
+   "pdf_checked": "2026-11-12"
+  },
   {
    "id": "b21f09cfc6c9",
    "date": "2026-11-11",
@@ -35,6 +64,64 @@
     "checked": "2026-11-11"
    },
    "pdf_checked": "2026-11-11"
+  },
+  {
+   "id": "6e6f8e195237",
+   "date": "2026-11-10",
+   "category": "Expert Views",
+   "publisher": "American Banker",
+   "countries": [
+    "Global"
+   ],
+   "title": "Community banks adopt cautious approach to artificial intelligence adoption",
+   "summary": "Some community banks are proceeding slowly with AI implementation despite industry momentum. The analysis explores reasons behind measured adoption strategies among smaller financial institutions.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZW1pcHFIVU1KQjJ0SDluUTRLQlpqOVhNN29CNm53YUgyLVRjT3hCMU1wU1NPeV9sV1k5VEVNUmRnVVE0dUpXV1R4Z2liVDM4SEZZcVEtQmNkU2N3Z2UwemI1ZC0waFRsSEFOb1BFT1BoRXlLMlNsYk5GMjlPNXVmRnllVXZkNHQwMi1sTVcxQXFLZW5y?oc=5",
+   "source_name": "American Banker",
+   "source_title": "Why some community banks are going slow on AI adoption",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZW1pcHFIVU1KQjJ0SDluUTRLQlpqOVhNN29CNm53YUgyLVRjT3hCMU1wU1NPeV9sV1k5VEVNUmRnVVE0dUpXV1R4Z2liVDM4SEZZcVEtQmNkU2N3Z2UwemI1ZC0waFRsSEFOb1BFT1BoRXlLMlNsYk5GMjlPNXVmRnllVXZkNHQwMi1sTVcxQXFLZW5y?oc=5",
+     "name": "American Banker"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-12T03:55:10+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-11-12"
+   },
+   "pdf_checked": "2026-11-12"
+  },
+  {
+   "id": "15858c706eee",
+   "date": "2026-11-10",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Bank launches AI-powered assistant for customer support services",
+   "summary": "A bank deployed an AI-based banking assistant to provide customers with instant support and services. The system represents the bank's first implementation of conversational AI for customer-facing operations.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRm5Ya0tWM0M1OEx3OW1jUGYzTDVMejVVS2xwNmFnam5rRUszWnpib2JqaTRJTFhNdWFNS0VtRnFtWDR3VnVUR0tlRlVxeUw4ODBjdGFvbXVhWE1md1N2N1FRV1hnbFhNRHU3SHNfekUxamxTa0NZLTRsbkItQ3B5YURGTDFVQWQyOW9wVVhUZHJibkVjaWdv?oc=5",
+   "source_name": "FF News",
+   "source_title": "Bank of Cyprus Debuts DANAI: The Island's First AI Banking Assistant for Instant Support",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRm5Ya0tWM0M1OEx3OW1jUGYzTDVMejVVS2xwNmFnam5rRUszWnpib2JqaTRJTFhNdWFNS0VtRnFtWDR3VnVUR0tlRlVxeUw4ODBjdGFvbXVhWE1md1N2N1FRV1hnbFhNRHU3SHNfekUxamxTa0NZLTRsbkItQ3B5YURGTDFVQWQyOW9wVVhUZHJibkVjaWdv?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-12T03:55:10+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-12"
+   },
+   "pdf_checked": "2026-11-12"
   },
   {
    "id": "8b93a10de17d",
@@ -540,6 +627,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVTh6VnVST2h4RUgxRmlrdTE2cFQ4ZnFURnV5Um5EX2p6UjJXc0Q0Umg0RjhFWVBMNWMwSVlvZUxxLWxacjJFZkVZUWlzTEdvbUdvT09QSFB4dldzLXN4MlVQWGk0RW5PX3RZLXpia3l5T094Qk9nYUNyTFdNcHRHQXpFUlNWZ1pXNFhNOXRFaWlVUFRDU0F3WmoxOWlJQzk4alhvTkFKNA?oc=5",
      "name": "Amazon Web Services (AWS)"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNWo1RjVTLVQ4QW1WdDFpTF96c21pdUE1dmppVHZ4Z1MxWVdkaFdaOEdxMTRPRHJlcTZnOV93d08tTnRxLXFZWGtYSy1rRDByUXd4NWtPSmV2ZnA5VWdYdk00SmtmQWVZNWRfZGxaYkVmUHBhZ0VfU05rS3VKa29PMmYyaXYzTkJTYUV6Y0JCS1JBTTJKMlVFaGVnYlVXbVEtTjVBNktIcw?oc=5",
+     "name": "Evotek JSC"
     }
    ],
    "language": "en",

@@ -2068,5 +2068,32 @@
   "source_url": "https://news.google.com/rss/articles/CBMijgNBVV95cUxPcUZkWXpzbFdWZ1VTalk1S1RwQ1VKXzZGZXcyX2ZRcDVVTG1wQ0tkb1RWRnFadEkzdzNBZlJ3Q3ZKbV9FUi05WUs1N3daV1hUa2hYbllJS3YxYURBTl8yTGprRnZ4R2l1TUNHZDN1N3RmS1dmbktjRndiRFlPeEdPU0wtLU1PQ2FLaWtlMWxrWEZ4QVhXMmM5d1ZsZ3c0ZkdmbXFFcDJCMEcxZktidTktUEZlMnI4enR2UGpuajdFQVlsZlZwWEY5YmQ1dVExV21zdm9oS241anl2dzNaT0FtV1FEMVlQelJZSDdIbDlQQWUzS2k4QWxrX2dYdERELTZ1UHFrU3pKZTBVR1F4Tk9NMFJRLTkzcnBqaU5KUHdEY2JaTEx5djF0UDgtTy1HTHdrNEtfaXY0SWV6d2ZBcDJiUmxLWVlwZTZPVEttZXlBVlhlMWQ5UGdCZE9waDN4UWlpWFFGMVNVNERtS3ROcGlLRmJwaTBGck4ybzZKMlVjU3V2S0VpZ1g2Y2lOcll2UQ?oc=5",
   "source": "جريدة المال",
   "reason": "fact-check: Evidence mentions 'البنك الأهلي' (Al-Ahli Bank) which is not Ahlibank Qatar but a different bank."
+ },
+ {
+  "checked": "2026-11-12",
+  "bank_id": "fab",
+  "date": "2026-10-19",
+  "title": "بنك أبوظبي الأول مصر يستعين بتكنولوجيا IBM لإعادة تشكيل عملياته المصرفية بالذكاء الاصطناعي",
+  "source_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBBTk0ybzRMeUZKSVphTW1fMTNHajlKWmQ1ejc5dUJpZFlycTdETTVCZlBRRVNNblc5UXdoeUZhUDNaXzRNdEZz?oc=5",
+  "source": "Pioneers Misr",
+  "reason": "no second outlet confirmed it within 21 days"
+ },
+ {
+  "checked": "2026-11-12",
+  "bank_id": "enbd",
+  "date": "2026-10-19",
+  "title": "Emirates NBD wants to be the first MENA bank to use ChatGPT on in-country infra + AI-for-movies company lands USD 1 mn",
+  "source_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbVlKTy04UDhScDR0WWotcThDYVdvb1Q5dlFDbVFXOW5nNTVfZ3l5aWtoVTNlR0I2SnZSZ0NCdHh3aFJITVdSaFRWTVM5LUROYmxmVFZuOWowVUtuRGJxb0Q3VzVMdUNUMGNjcmJ5bWN1M2FGd1FaVWtnejMyTnRpdG91aHJVLU16aW9QRGJjaW1KTWtIc3BvOE1CWnNjcUZDS1JTZDQzd1ZmYzFIU2pVT01hUjVwSTVrVDlrZkpmUGZqOTBaQm5KT09vakRvczBFTUZEb0twOXRDaDcyYlhTenF0T0tPMW93QlJVSg?oc=5",
+  "source": "EnterpriseAM",
+  "reason": "no second outlet confirmed it within 21 days"
+ },
+ {
+  "checked": "2026-11-12",
+  "bank_id": "cbq",
+  "date": "2026-11-11",
+  "title": "استعراض تجربة «التجاري» في توظيف الذكاء الاصطناعي",
+  "source_url": "https://news.google.com/rss/articles/CBMinANBVV95cUxNWGZ1dGRtM0stWVdoSHRrdjdsRVpPanBVS2RuNW9ycWdxekVDejZLakNhWHFCRDByNmU3Y3piLXZIQm1vckx4MGtUWEJwRUxDeFoxSGN5Qk5JaXUzb3B6YzlXRjY1Z3NQSDhOdmZpa3JyT0ZaT3hBeTkxdGhNa3JlXzBwaHdvRTBlc3JwU2dvMlJ6SjNhVThzWERlZzJCY3ZEU0RpMjBWVThYWG01WjFpVkw3Wm5FcUQ5Tkt5NXlnSW9HNzJPOXloMGJPdS1yUWk5NkFIZDJsYXhscFJlOWNCSnRpdDJHRVBBS29xX3Rvc0hhMTZhazN6SHZCUkhDLXB5Sk5XMEl4V3gxc09PV1R5Z29nSW4wbURvSDJtTzhqeXpwUmFFWnpmTXBRZmoxZF9yV3FES2x2Qno5YzhrVlZMbzhodjM1alkycTdaZGxGQ2h6NFhHTXBHUm83RmtSSkdycG9Eajg0ckVWLVlfdG9qV1JzcTBJam52SDViazhMUG1tYUNySE1iR0kwMUgxV3loTmVyeVZMdHF4NEV60gGcA0FVX3lxTE1YZnV0ZG0zSy1ZV2hIdGt2N2xFWk9qcFVLZG41b3JxZ3F6RUN6NktqQ2FYcUJEMHI2ZTdjemItdkhCbW9yTHgwa1RYQnBFTEN4WjFIY3lCTklpdTNvcHpjOVdGNjVnc1BIOE52ZmlrcnJPRlpPeEF5OTF0aE1rcmVfMHBod29FMGVzcnBTZ28yUnpKM2FVOHNYRGVnMkJjdkRTRGkyMFZVOFhYbTVaMWlWTDdabkVxRDlOS3k1eWdJb0c3Mk85eWgwYk91LXJRaTk2QUhkMmxheGxwUmU5Y0JKdGl0MkdFUEFLb3FfdG9zSGExNmFrM3pIdkJSSEMtcHlKTlcwSXhXeDFzT09XVHlnb2dJbjBtRG9IMm1POGp5enBSYUVaemZNcFFmajFkX3JXcURLbHZCejljOGtWVkxvOGh2MzVqWTJxN1pkbEZDaHo0WEdNcEdSbzdGa1JKR3Jwb0RqODRyRVYtWV90b2pXUnNxMElqbnZINWJrOExQbW1hQ3JITWJHSTAxSDFXeWhOZXJ5Vkx0cXg0RXo?oc=5",
+  "source": "جريدة الراية",
+  "reason": "Commercial Bank is not named in the source"
  }
 ]

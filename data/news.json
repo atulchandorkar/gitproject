@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-11T02:53:43+00:00",
+ "updated_at": "2026-11-12T03:55:29+00:00",
  "items": [
   {
    "id": "6f46f104fdc0",
@@ -19,7 +19,10 @@
     "Customer product",
     "Market analysis",
     "AI service",
-    "Customer offering"
+    "Customer offering",
+    "Mobile app",
+    "Market analytics",
+    "AI-powered"
    ],
    "partners": [
     "Bridgewise"
@@ -36,6 +39,14 @@
     {
      "url": "https://news.google.com/rss/articles/CBMizAVBVV95cUxOd3pxUkRsZUQ0d0EtLU1EcjhKZGVWSml0NjFYcXpMZUhxbV94YTU0emg3ZHhuUzJDMlg5aHRjZnhwY3RERG41NUlvUDZ6c3J3S2JoU2VrVmRWajNTaHM5RjBqUGtqNXFZR0ZrNkRHenhVcFU2aXV1VUxqcERjaXBjZWdKQUpMZ2dWN3FFd1BIUm9QeEhzOXd4YmxtMmpPa1ZvZmZCWWgyTWNadGpDTVZEUG9CWTBzVFZXTGJRd2ZJV18tZVFiVzVQem9mV0pMclFKbGJDOTljVFZHelBlUU8talcyVFl5R1AtX0h4cDZEY3ZTblpBMURNSnU0N3hzUHd3WTNkbUsyTzFTVjZpa213T0ZrUEgwT2U0QlJoRkV2QTN3YTA0RVZoc0k3UEdvV1JZY3UySkNzLVlMV2g4ZFZCTXpfY2lUZDBxbWE3QXVINHppRUdKdk80c3daa3dDeEpMYUdpY24yVXBxXzFTLUpNMWdXUkNVeXBiYWdGblJJWUtXS3Btc2U3QW1sWFRab0VXVndpV0pZV0h2WmJ4Y3VQbm9zbm9KVXVteE1rX2p2ZElzXzZrcllJWnN3TEYzTWRxeHdXbEVnWTc3bmdnb0xFY2pPTlhKU0NtU1ZaN0Q4LXpZUWwtVlRDMTJ5dDFGUXh1NWZETXFweVNpdVRONlpmQTN3MWhYS2ZZQlB3ZmNIakVKMVZITklTZEhMbnpvNEZMVHlqTVFQTXB4ZkpyM3NzUGNOeTNzMm1UTFY1dFFiNVBaeklEQXc2bk5XSE5SZmdTXzdfcUZBdENZbmNOVUptWWdvRGVNREdhaE1WRXpYZkxkNm5JLUJpMGZPU2Ezc29LaXMtaFQwbGJ3clpIV1oyNzVmZ3AxLUZHaFZpUll4aDZFaEZsdUlxN0NUMm1ZMTFpZ1JxQkhpTWdjZHZpQk4yaGhXdXR6T3BkdzBWLQ?oc=5",
      "name": "صحيفة الخليج"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNbjd3cWdYOGc5Zy1xTjduN2prblNsSFNzQW1NMGc2cHBDallsQ0JQZ0dSYmF2Sng0LUFEcFVKTHU0U1ExWHhpX01yejhkS242M3NERGJ4ZXNwTmlHdENLLTc0ancwSGRWU21XaUVlRlV3TUlrV0JkbEFicXNweWRkNEtNenBHTV84QTlNVncwYXRwc3FETkpTWFNpVnNHSjBMUTQ1dmc0SXMxN3dFZUNKVjV6MTI0dTIyZElJdUhPbUV3TDNDOTNkei1PUFZrclBtOG5kVF9nWHMyXzMxVkpQR2QyWjlYc3MwZjV2N19UUUZScTJMQTR5U3dxTUFUbl9lZ2JCSU5ibmp1NEdyNm5ZMnpxQWtkQ0pKT3ZLWU14WHc0aXFDYW5kREk0NWFIdWlDcy12Z3lCa2VkSjJCTUhGbG8tZmVxckk?oc=5",
+     "name": "25H"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPcTFFWE1wcUo4dmppRHA3S1JLaG5ISFpSdUVadW12UFczbmRIckYyZThmT0N1bnRZajRCUElJMU1JR21zQUppbUdjUFFDb1hoV0dsb1NfLUFNdVVULVJ3dkxOaWt6Z29McVluWmJ5MEgwaGJoZWVLbjdHcGMyVWtaa1hoZG1XQVRZY3RmSkpHTXdDMDgzMHB4UjVNYWh0bm5QXzhaaFJKY0ZHcEhYckZlS0h5RXFzN05pVFNwNjZZdE13MkhIWUtua1V0U2VZNVJMekhGMHdRRUlVWkEydnJ5dm9XTnY1U1ZKbnZWUDNvcVRoa1BtOTJOMmVTZW9pbGtHcC1PdzRyZlIzVU5EZGE3MW9CVkUwcTA?oc=5",
+     "name": "البوابة"
     }
    ],
    "language": "en",
@@ -56,6 +67,17 @@
      "summary": "Emirates NBD has launched a market analysis service powered by artificial intelligence.",
      "how": "ai",
      "anchor": "Bridgewise"
+    },
+    {
+     "id": "a3040f5f5b7e",
+     "date": "2026-11-10",
+     "title": "Emirates NBD and Bridgewise launch AI market analytics on ENBD X app",
+     "source_title": "بنك الإمارات دبي الوطني وBridgewise يطلقان تحليلات ومعلومات سوقية مدعومة بالذكاء الاصطناعي على تطبيق ENBD X",
+     "source_url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNbjd3cWdYOGc5Zy1xTjduN2prblNsSFNzQW1NMGc2cHBDallsQ0JQZ0dSYmF2Sng0LUFEcFVKTHU0U1ExWHhpX01yejhkS242M3NERGJ4ZXNwTmlHdENLLTc0ancwSGRWU21XaUVlRlV3TUlrV0JkbEFicXNweWRkNEtNenBHTV84QTlNVncwYXRwc3FETkpTWFNpVnNHSjBMUTQ1dmc0SXMxN3dFZUNKVjV6MTI0dTIyZElJdUhPbUV3TDNDOTNkei1PUFZrclBtOG5kVF9nWHMyXzMxVkpQR2QyWjlYc3MwZjV2N19UUUZScTJMQTR5U3dxTUFUbl9lZ2JCSU5ibmp1NEdyNm5ZMnpxQWtkQ0pKT3ZLWU14WHc0aXFDYW5kREk0NWFIdWlDcy12Z3lCa2VkSjJCTUhGbG8tZmVxckk?oc=5",
+     "source_name": "25H",
+     "summary": "Emirates NBD and Bridgewise have launched AI-powered market analytics and insights on the ENBD X mobile application.",
+     "how": "ai",
+     "anchor": "Emirates NBD and Bridgewise launch AI-powered market insights"
     }
    ]
   },
