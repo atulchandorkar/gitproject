@@ -1,6 +1,132 @@
 {
- "updated_at": "2026-11-12T03:55:29+00:00",
+ "updated_at": "2026-11-13T03:32:11+00:00",
  "items": [
+  {
+   "id": "3b026ae99687",
+   "date": "2026-11-12",
+   "category": "Expert Views",
+   "publisher": "Bain & Company",
+   "countries": [
+    "Global"
+   ],
+   "title": "The Future of Banking: Strategy for the AI Era",
+   "summary": "Bain & Company examines how artificial intelligence will reshape banking strategy and competitive positioning in a financial services landscape increasingly driven by AI technology.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE52Q210VEFzZW1wVHBVbXh3d0U3cFdkMVN0WTZHZVNkem5qUWx1X29yZktBTmloOVlOQjNkNHlqZ0o3MXZwY0Q4V0FCS2lJcV9pajNXRWw3NERfOWhlX3hkMnYyc1VKOXhCSGp3ZjlVam1EM21XYVFJ?oc=5",
+   "source_name": "Bain & Company",
+   "source_title": "The Future of Banking: Strategy for the AI Era",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE52Q210VEFzZW1wVHBVbXh3d0U3cFdkMVN0WTZHZVNkem5qUWx1X29yZktBTmloOVlOQjNkNHlqZ0o3MXZwY0Q4V0FCS2lJcV9pajNXRWw3NERfOWhlX3hkMnYyc1VKOXhCSGp3ZjlVam1EM21XYVFJ?oc=5",
+     "name": "Bain & Company"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-13T03:31:54+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-11-13"
+   },
+   "pdf_checked": "2026-11-13"
+  },
+  {
+   "id": "ba034262a2bf",
+   "date": "2026-11-12",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Bank Launches Voice-Based Transactional Payments Powered by Agentic AI",
+   "summary": "A bank has deployed agentic AI technology to enable customers to conduct payment transactions through natural voice interaction. The innovation demonstrates how conversational AI can enhance banking user experience and transaction processing.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOalNCNTloQjZYNjRlOHBiZC03cnpOOURkTG1ZZlcxT3NnMkhLb3ZmTG8weFlpcm1VRERESjRFMW84cFJGODJGV2F6T0hGSjk3VmRsMXVzZUoxTjh3WnE4M2dEbm9RMS1PUnM3WTJ3Z1pkZlg0U1RTMEhMV1hReXBXcWo0M3VSTnpDMEwxNkp3?oc=5",
+   "source_name": "FF News",
+   "source_title": "Starling Bank Debuts 'Talk to Transact' Voice Payments via Agentic AI",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOalNCNTloQjZYNjRlOHBiZC03cnpOOURkTG1ZZlcxT3NnMkhLb3ZmTG8weFlpcm1VRERESjRFMW84cFJGODJGV2F6T0hGSjk3VmRsMXVzZUoxTjh3WnE4M2dEbm9RMS1PUnM3WTJ3Z1pkZlg0U1RTMEhMV1hReXBXcWo0M3VSTnpDMEwxNkp3?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-13T03:31:54+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-13"
+   },
+   "pdf_checked": "2026-11-13"
+  },
+  {
+   "id": "05de5fa7cb16",
+   "date": "2026-11-12",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Pelican AI brings 25 years of banking AI to faster, safer global payment screening",
+   "summary": "Pelican AI leverages banking expertise to improve the efficiency and security of cross-border payment screening processes. The solution addresses critical compliance and fraud prevention needs in banking operations.",
+   "key_stats": [
+    {
+     "value": "25 years",
+     "label": "Banking AI expertise",
+     "quote": "Pelican AI brings 25 years of banking AI"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONldCSURUX1ZDbHMtb08tQXg1OUg2M1VjNVZTVWlzSWhWRENabDFYLVhycEVJbWd3eHJBS2hVaE5XakNyM3NWczEzSGlOcVFFR3Z0Nm5xOTN6U3hYN3d6UUlGd3NSNWx4YldWS0hsd1VHOHdSWkVYbGRkRkRUdFZPY0xHVVdoNjlxTUJxR2hUcEc5Y1NzRkpNYjZVNzluOV8xZnZualBYUXhKUzM1aFp3S3VzRFlZS1JVUHNsQXZaUnJIMmRpUjIwdXBCYy1XZl8xcDJkZktn?oc=5",
+   "source_name": "BNN Bloomberg",
+   "source_title": "Pelican AI brings 25 years of banking AI to faster, safer global payment screening",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONldCSURUX1ZDbHMtb08tQXg1OUg2M1VjNVZTVWlzSWhWRENabDFYLVhycEVJbWd3eHJBS2hVaE5XakNyM3NWczEzSGlOcVFFR3Z0Nm5xOTN6U3hYN3d6UUlGd3NSNWx4YldWS0hsd1VHOHdSWkVYbGRkRkRUdFZPY0xHVVdoNjlxTUJxR2hUcEc5Y1NzRkpNYjZVNzluOV8xZnZualBYUXhKUzM1aFp3S3VzRFlZS1JVUHNsQXZaUnJIMmRpUjIwdXBCYy1XZl8xcDJkZktn?oc=5",
+     "name": "BNN Bloomberg"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-13T03:31:54+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-13"
+   },
+   "pdf_checked": "2026-11-13"
+  },
+  {
+   "id": "d4d362b25807",
+   "date": "2026-11-12",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Senior banking leader emphasises artificial intelligence as partner to human workforce rather than replacement",
+   "summary": "A banking executive articulates that AI should complement human workers in financial services rather than displace them. The perspective advocates for collaborative human-AI models in banking operations.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9MVm9FcXl3VzFSYm9seXBkd082NGlERTlsVWdiWmFTN3dfV3E4ZWFweEhZRE9ld1JLQWNiR3FHQmhGeGlpb1Aw?oc=5",
+   "source_name": "www.bnokonline.com",
+   "source_title": "نانسي بباوي: الذكاء الاصطناعي شريك للعنصر البشري وليس بديلًا عنه في القطاع المصرفي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9MVm9FcXl3VzFSYm9seXBkd082NGlERTlsVWdiWmFTN3dfV3E4ZWFweEhZRE9ld1JLQWNiR3FHQmhGeGlpb1Aw?oc=5",
+     "name": "www.bnokonline.com"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9MVm9FcXl3VzFSYm9seXBkd082NGlERTlsVWdiWmFTN3dfV3E4ZWFweEhZRE9ld1JLQWNiR3FHQmhGeGlpb1Aw?oc=5",
+     "name": "بنوك اون لاين"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-11-12T03:55:10+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-11-12"
+   },
+   "pdf_checked": "2026-11-13"
+  },
   {
    "id": "b4f357718245",
    "date": "2026-11-11",
@@ -182,6 +308,45 @@
    "pdf_checked": "2026-11-11"
   },
   {
+   "id": "4e26203d6c02",
+   "date": "2026-11-10",
+   "category": "Studies & Surveys",
+   "publisher": "BioCatch",
+   "countries": [
+    "Global"
+   ],
+   "title": "80% of Banks Have Already Faced Agentic AI Attacks, According to BioCatch Survey",
+   "summary": "A BioCatch survey reveals that eighty percent of banks globally have already faced attacks leveraging agentic AI technologies. The findings highlight emerging security threats as banks scale AI deployments.",
+   "key_stats": [
+    {
+     "value": "80%",
+     "label": "Banks that have faced agentic AI attacks",
+     "quote": "80% of Banks Have Already Faced Agentic AI Attacks"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQenlydUdvNFZiejBmZkFlQlN3WlJPZV8zTXdGYVFDMmg3RVNPRjJZUVRCaGlTVEczS0FSdktIRXo4Yjc0bDFTUnluOXY1cm9RNVpqUHZsMUFhNDlobmtCMGVIVUlfcEJVWVRjOUkwS0dscmR5WW1jMmgyUDJrSEgwUUJFYXlaT1dTX083UUFzcU9VV3NkY1VjMjBJOEs0SGFSaC1oMEVxOXRPQm1xRGNucnJCT3BmdkZr?oc=5",
+   "source_name": "Finance Magnates",
+   "source_title": "80% of Banks Have Already Faced Agentic AI Attacks, According to BioCatch Survey",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQenlydUdvNFZiejBmZkFlQlN3WlJPZV8zTXdGYVFDMmg3RVNPRjJZUVRCaGlTVEczS0FSdktIRXo4Yjc0bDFTUnluOXY1cm9RNVpqUHZsMUFhNDlobmtCMGVIVUlfcEJVWVRjOUkwS0dscmR5WW1jMmgyUDJrSEgwUUJFYXlaT1dTX083UUFzcU9VV3NkY1VjMjBJOEs0SGFSaC1oMEVxOXRPQm1xRGNucnJCT3BmdkZr?oc=5",
+     "name": "Finance Magnates"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNm9pTllWcXBVMExiTE9GejFlenpSSTMzb3JmOXllV1M0X2tMSEhMV25DSS12RmR1U3dwbE94Sk9sMUtwTkRWS0xnektoRWt3RUJROW1aZGJqd0NLM3MtWlZKYzYyVzFTUVc1LTMzUmJ6cUF6SDIxOEh6TmQ5emVtZjRQVFRfQXJXUHhEa2J5eHNQTm84dGJQUUM0Nk1iNmVERXZKSkJscXktQTJuWUxldmNGcXVVV0xrb2t3cTdXd3BoQWJKS3NtTUFwdVpwRmtMYkM2SVlMVEhTQWlI?oc=5",
+     "name": "TradingView"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-11T02:53:28+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-11-11"
+   },
+   "pdf_checked": "2026-11-13"
+  },
+  {
    "id": "a6a79eb436f0",
    "date": "2026-11-09",
    "category": "Market Data",
@@ -215,6 +380,39 @@
     "checked": "2026-11-10"
    },
    "pdf_checked": "2026-11-10"
+  },
+  {
+   "id": "5f64d6301953",
+   "date": "2026-11-09",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Central bank establishes customer data protection as fundamental requirement for banking AI deployment",
+   "summary": "The central bank established that protecting customer funds and data is a prerequisite for approving AI applications in banking. The guidance prioritizes security and customer safeguards as core conditions for AI adoption.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPMXBCdVdFNHMwbEk2ZmpZZU1Qd3IyVlJUSjhtVjFkcWctbF9qUF9HRnhHZ0JON1JhWHB0YURRRUo1eGVSYVJaYTNQMWxSdW5VQl9SemxsUlV5VHcydnBKNFVQMW5NdmhKSW5TcDVjTW5MWm9TMXM2eVVia2pZcFpxRERqWGQyNHBkSVlhdGVoenpaY3ZHbkxqV3lfMXNYc0hidU80WjI0c3ZVUUpScFdxaV9yZWlDWjBPQWpqbVh1em4zZ25SN29DcGtsYWliM00xRHZQUDFLYTB6ZTVJMjdaSnltVlQ2REJyYU9FUWM3blpUQlp5ZmlhQ25YZ0ZjaThFSGNmM01yMEc1SEdYdVhTekw2RFhkcGE5VlNYQUFad2V1c0wzUlJzX2txRGhOQm50SFQ1eUZUTkNwdFNiNERBTDZZWQ?oc=5",
+   "source_name": "followict",
+   "source_title": "البنك المركزي: حماية أموال وبيانات العملاء شرط أساسي لإتاحة تطبيقات الذكاء الاصطناعي بالبنوك",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPMXBCdVdFNHMwbEk2ZmpZZU1Qd3IyVlJUSjhtVjFkcWctbF9qUF9HRnhHZ0JON1JhWHB0YURRRUo1eGVSYVJaYTNQMWxSdW5VQl9SemxsUlV5VHcydnBKNFVQMW5NdmhKSW5TcDVjTW5MWm9TMXM2eVVia2pZcFpxRERqWGQyNHBkSVlhdGVoenpaY3ZHbkxqV3lfMXNYc0hidU80WjI0c3ZVUUpScFdxaV9yZWlDWjBPQWpqbVh1em4zZ25SN29DcGtsYWliM00xRHZQUDFLYTB6ZTVJMjdaSnltVlQ2REJyYU9FUWM3blpUQlp5ZmlhQ25YZ0ZjaThFSGNmM01yMEc1SEdYdVhTekw2RFhkcGE5VlNYQUFad2V1c0wzUlJzX2txRGhOQm50SFQ1eUZUTkNwdFNiNERBTDZZWQ?oc=5",
+     "name": "followict"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE4tVW5SSTluQzNyXzhjN0Q1bVo2WHFOaEdHdmprOXFDd2Qwb2tfOWxncU5pcktuOThUSjA1SnVLWHR5eWFB?oc=5",
+     "name": "بانكير"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-11-10T04:48:56+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-11-10"
+   },
+   "pdf_checked": "2026-11-13"
   },
   {
    "id": "c134662e83e1",

@@ -1694,5 +1694,37 @@
   "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5kOGkwTXhhM2l5UVhZRUxaOVZkbDgzRFIzeUFzQmt6cHV1UFNyNUlMY3lWSDVjWjVDSjlCTExhcUlmRnNETTZKdWphck9OTFRYSG5vZEREaw?oc=5",
   "source": "إرم بزنس",
   "reason": "fact-check: Publisher is IMF but evidence credits only 'إرم بزنس' (Erem Business); headline mentions only AI slowdown impact on central banks, not AI in banking itself."
+ },
+ {
+  "checked": "2026-11-13",
+  "date": "2026-10-21",
+  "title": "UK watchdog warns banks to prepare for AI failures",
+  "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVFlGN0RLWFF6ckZ0WVFLX3hfbWQ2UEliZFZNNENFQTNBdDFaRXhvNmU0dG1ERzh3Q18zcl9Qbl9xS3JuZW92WTNSYmoxUURZZmx4WmJkclFEZzBjdDBXQmFhQlpjbGhNX1JTYjVhTkZtTmVucDJoSXlrRnRCUVlBeVVLVkNEXzRoZDZ3?oc=5",
+  "source": "Bitdefender",
+  "reason": "no second outlet confirmed it within 21 days"
+ },
+ {
+  "checked": "2026-11-13",
+  "date": "2026-10-21",
+  "title": "بنك إنجلترا يطور سيناريوهات لمواجهة مخاطر الذكاء الاصطناعي على استقرار النظام المصرفي (تفاصيل)",
+  "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92OU8tal9Jd2N4UXJCeWZfck01UnBBWlJPLXlNQTU3ZUw2ZmVHdXg4MXZjUmU0TUxld012cC1QdGlwSE1zSEw5NUpfUTBuQVE2TkowSi1vdFducmRWaW1V?oc=5",
+  "source": "المصري اليوم",
+  "reason": "no second outlet confirmed it within 21 days"
+ },
+ {
+  "checked": "2026-11-13",
+  "date": "2026-10-19",
+  "title": "Huntington Bank Unveils 1866 Studio AI Operating System for Small Business",
+  "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNFN4YUxBNGQ4WEZZTTVpMnlJa1VBYXVZWk03ekt6NGJDbE5RZWVHSFNwX0ctWFJuci1IeDdZYmxIdnBVc1EtaGw3anBmN2FOUExRUkxrazJmOFFXNXZ2Y25yRWVJU0QxS1hKdDZzODhiejVKV0xoTHdIUzAyOG15MUhjMmpUM2hZOFBhNklaNFI4U2pBYm5YNGU0dTc?oc=5",
+  "source": "Unite.AI",
+  "reason": "no second outlet confirmed it within 21 days"
+ },
+ {
+  "checked": "2026-11-13",
+  "date": "2026-11-12",
+  "title": "المركزي الأوروبي يستعين بـ«ريديت» والذكاء الاصطناعي لقياس معنويات المستثمرين",
+  "source_url": "https://news.google.com/rss/articles/CBMi9wRBVV95cUxONTZsMDVSc1V1QjF2ODdYUWlLQXprM09meURuakZNZ0kxMGFuYk05RTJ6bGhZenczekxMaVk1dWR0d0hrX2xOSUIweGJOcUJtNTQ2a2NTU0xJYzdNVGxBSW1CeTEyNFBUaWRFOGU0eFJ5MmpTV2NDVGYtbGZxNEhqSUhrR3VjaHdRUXRjakl4cXVUYjdvcnhjV20xaXJtRXVzV0piSzB6RjR5Z3JLbW5mS3BReEltZTVwR1lkdkZzUUFoSU1lMjhyWExuUl95NTdiZ2V2V194Tnplak15bk5lRUd1QzBuTFY0WEdwbnVWMEFhQlFRN2ZQTUw5NzJ5ZnppRHk1dUF5X3FjWUNEbXVOZVU1ZFlIanUzUE1DVG03cEZWal9CZFNPUFQ3NzVoTVY0VlVDTC14aTZkellZelVGSE9acDNCUGU2UlpWMTdUVDBMYUdKT19PaEVkSjJLamRmS0VmWjFBcDVhWGVEaDhlZkRoSC1NdVFESjU3SWJfSHpJU3BvQ1lvVTBpNUZHUFlWdE9tbmpPRkU4Q1ZTb0hhRVlkN1lCSUpMNjk3c2R4dGtIdVpoc0VacWpmUHdXbWpMaGcwb09PbVhnY1UyNy1WZXVuMlFaZnY1dHRYdWw0c1JScmFBU1VwZUx5THhPNXVDamw3NldDbXFRZ0I2Z1d6VVNRUTk3NmpmaGtwS2F0cVBSWHRKNzZGa2NyTHBieTNlNEU0U051X1JoaV9XT1RyZFdtNC1aZHR6NV83UWI2VzZtODRMYllrcW43MUs4bEY0ci1RUFo5V1FQYkJoMnJnMzg4WFJ5S1N0MFNzMFRNSVZ2ZlVKTzFF?oc=5",
+  "source": "CNN الاقتصادية",
+  "reason": "fact-check: Evidence is about a European central bank, not GCC banks; category should be 'Expert Views' or similar but ECB is not a publisher in the evidence; not about banking sector AI specifically."
  }
 ]
