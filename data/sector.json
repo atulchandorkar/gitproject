@@ -1,6 +1,35 @@
 {
- "updated_at": "2026-11-13T03:32:11+00:00",
+ "updated_at": "2026-11-14T03:17:46+00:00",
  "items": [
+  {
+   "id": "94813892354a",
+   "date": "2026-11-13",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "DNB Partners with Genesys to Transform Banking Customer Service via Agentic AI",
+   "summary": "Case study of a bank deploying agentic AI for customer service transformation. Demonstrates a concrete implementation of AI agents in banking operations.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLTBBWGlOTkhfMlBVeGc3WFhxT2NvZXo2UHk2dFA4blA3anctNllkbGJkbmRSd2hvRWpZTkx3RUhQU1ktY19YVUNGdU9venVkQ0hDcjNyNUZIVEJoUnZ0THNUU3pkZnZmekVWMU1nWnpyTHZLSmotUV8yZGZ3ZkU3bDNCdHlpOWR3T3dLVGxNb1ZValZMZ3UwLXdDbklhSmc?oc=5",
+   "source_name": "FF News",
+   "source_title": "DNB Partners with Genesys to Transform Banking Customer Service via Agentic AI",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLTBBWGlOTkhfMlBVeGc3WFhxT2NvZXo2UHk2dFA4blA3anctNllkbGJkbmRSd2hvRWpZTkx3RUhQU1ktY19YVUNGdU9venVkQ0hDcjNyNUZIVEJoUnZ0THNUU3pkZnZmekVWMU1nWnpyTHZLSmotUV8yZGZ3ZkU3bDNCdHlpOWR3T3dLVGxNb1ZValZMZ3UwLXdDbklhSmc?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-14T03:17:34+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-14"
+   },
+   "pdf_checked": "2026-11-14"
+  },
   {
    "id": "3b026ae99687",
    "date": "2026-11-12",
@@ -93,6 +122,39 @@
     "checked": "2026-11-13"
    },
    "pdf_checked": "2026-11-13"
+  },
+  {
+   "id": "963ea3207fe7",
+   "date": "2026-11-12",
+   "category": "Market Data",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Banking Customers Show Preference for External Artificial Intelligence Tools",
+   "summary": "Banking customers show preference for external AI tools over internal systems. This indicates adoption trends in AI services within regional banking sectors.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93YURDY3NyMjBvSGRyT2dSS0pUc19Jd3dGZjJlSXJXSFpoMVJfWUR1YlhHdVVaUWZaZVJoWFV3eHhmTGxwUWp3VEZxcnp1cVhlemtJ?oc=5",
+   "source_name": "شبكة تواصل الإخبارية",
+   "source_title": "تفضيل العملاء لأدوات الذكاء الاصطناعي الخارجية في المصارف",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93YURDY3NyMjBvSGRyT2dSS0pUc19Jd3dGZjJlSXJXSFpoMVJfWUR1YlhHdVVaUWZaZVJoWFV3eHhmTGxwUWp3VEZxcnp1cVhlemtJ?oc=5",
+     "name": "شبكة تواصل الإخبارية"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMinARBVV95cUxOZXY3V2FhNWlBUlcxd1hHRHRVdG5NTlcydXFvS0k2aGNvRHA3b0ZzTG1ab21mRTV1MUVpQVVCVXJIYU5ZdHowU2hUTEtvbXpoRkZTMG13ajNLbVM1cHpTTU51N2pEQnZSS215OG1yWVJiYzl0c2FJYTV3TkNfQno5TzhRdmFPZmxXRkEwQmZVTTBwNVVaanhCSDdDTS1IVkp0T0FLY3I0VzhrZkdTSzQ4OWh1U1NIMGVhYllJVDlpVm80UldRVF9rdWxzeVZNdmlLYXduUFQzYWs1TVZMU3BtZGhJYThjdlB4aHRHNXBlaGlGUlBhRVd2Sk0zdnFyZXNBYk9oRnpBaGdLVVA1TGNSWU4yMU9TY2JrRm9zQWxwQWloelMzbUxHTFJheXVuU0NtbGR4NTlHNDUyQUpvenppbU91ckNYblY4bVpkRkpHN3JPNl94NXprcktNQkZBM1h5NTg0eV9yN3dSdzg0SDhXM2J4VW5jbGMtNDBYX1pOZ25oQ1IzUUx4amw4RVctcW9zZHpNYTBjSjI3UzFUVWxLQXpjZklyRFZPNjBLNlZVSURxNnczY1p6U3ptY3pydHhDVVF6bmZJbzlTNUpaNUhfT3Q1YlRyQVF0dUI4bXY3Ym9wUjNQbEdLdmd6M0JuZS1zMEJ5NzNzLUJLVXVzQkJlT0U1dU8xR0pLUUE3cUtHVWVBUUtBZTlzdUxPREY?oc=5",
+     "name": "annahar.com"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-11-13T03:31:54+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-11-13"
+   },
+   "pdf_checked": "2026-11-14"
   },
   {
    "id": "d4d362b25807",
