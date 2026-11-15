@@ -1,5 +1,5 @@
 {
- "last_update": "2026-11-14T03:14:10+00:00",
+ "last_update": "2026-11-15T03:58:33+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -2454,42 +2454,49 @@
  "retry": [],
  "newsrooms": {
   "rakbank": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "adcb": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "mashreq": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "sib": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "ei": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "bos": {
-   "checked": "2026-11-14",
-   "url": null,
-   "status": "not found"
+   "checked": "2026-11-15",
+   "url": "https://www.bankofsharjah.com/en/news/media-center",
+   "status": "ok",
+   "links": 3,
+   "scanned": "2026-11-15",
+   "known": [
+    "9b60b61e820d",
+    "7e28780fa325",
+    "e19aa7988eda"
+   ]
   },
   "enbd": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "investbank": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
@@ -2498,7 +2505,7 @@
    "url": "https://www.dib.ae/about-us/media-centre",
    "status": "ok",
    "links": 19,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "0f225cf346d6",
     "2dcb346ec750",
@@ -2522,9 +2529,9 @@
    ]
   },
   "cbd": {
-   "checked": "2026-10-05",
-   "url": "https://www.cbd.ae/aboutus/media-centre/press-room/news/id/3c0f77ff-458f-66de-b8c5-ff0b00b6b24a",
-   "status": "unreachable (HTTPError)",
+   "checked": "2026-11-15",
+   "url": null,
+   "status": "not found",
    "links": 4,
    "scanned": "2026-11-13",
    "known": [
@@ -2535,42 +2542,42 @@
    ]
   },
   "nbf": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "edb": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "cbuae": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "wio": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "adib": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "alrajhi": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "snb": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "ajman": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
@@ -2579,7 +2586,7 @@
    "url": "https://www.zand.ae/en/news",
    "status": "ok",
    "links": 29,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "beb166c6b910",
     "837760b162de",
@@ -2613,42 +2620,42 @@
    ]
   },
   "aljazira": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "sab": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "anb": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "gibsa": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "bsf": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "d360": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "fab": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "visionbank": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
@@ -2657,7 +2664,7 @@
    "status": "unreachable (HTTPError)"
   },
   "saib": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
@@ -2666,7 +2673,7 @@
    "url": "https://www.alinma.com/About-the-Bank/The-Bank/News",
    "status": "ok",
    "links": 30,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "ca10ea15a45c",
     "0aacda7e2687",
@@ -2705,7 +2712,7 @@
    "url": "https://www.alrayan.com/en/press-release",
    "status": "ok",
    "links": 3,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "1722b361feb0",
     "8eea57958b29",
@@ -2713,17 +2720,17 @@
    ]
   },
   "dohabank": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "sama": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "cbq": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
@@ -2732,7 +2739,7 @@
    "url": "https://www.dukhanbank.com/media-center/press-release",
    "status": "ok",
    "links": 29,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "3419bd274668",
     "fe0fc0810447",
@@ -2766,12 +2773,12 @@
    ]
   },
   "albilad": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "qdb": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
@@ -2780,7 +2787,7 @@
    "url": "https://www.uab.ae/en/media-center/awards",
    "status": "ok",
    "links": 15,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "4465122501be",
     "6dba8d618990",
@@ -2800,7 +2807,7 @@
    ]
   },
   "qcb": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
@@ -2809,7 +2816,7 @@
    "url": "https://www.qiib.com.qa/Press/List/Announcements",
    "status": "ok",
    "links": 5,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "452f6107a821",
     "98394071c36b",
@@ -2823,7 +2830,7 @@
    "url": "https://www.riyadbank.com/personal-banking/media-center?p_p_id=com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath=%2Fdisplay_article.jsp&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId=6385919&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_shareURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fdisplay_article.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId%3D6385919%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL%3Dhttps%253A%252F%252Fwww.riyadbank.com%252Fpersonal-banking%252Fmedia-center%253Fp_p_id%253Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%2526p_p_lifecycle%253D0%2526p_p_state%253Dnormal%2526p_p_mode%253Dview%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%253D%25252Fview.jsp%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%253D2%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%253D10&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fview.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%3D2%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%3D10",
    "status": "ok",
    "links": 11,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "08694c1b0166",
     "aa5cf1170494",
@@ -2839,7 +2846,7 @@
    ]
   },
   "qib": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
@@ -2848,7 +2855,7 @@
    "url": "https://www.leshabank.com/media-center/news/",
    "status": "ok",
    "links": 8,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "476f26ee9150",
     "a28fc0cfe8aa",
@@ -2861,7 +2868,7 @@
    ]
   },
   "boubyan": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
@@ -2870,7 +2877,7 @@
    "url": "https://www.ahlibank.com.qa/en/media-center/news-press-releases",
    "status": "ok",
    "links": 24,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "15c9bdd0b3e0",
     "e9793b0023c9",
@@ -2903,7 +2910,7 @@
    "url": "https://www.kfh.com/home/Personal/news.html",
    "status": "ok",
    "links": 15,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "01ad2dba80ff",
     "755e88cbfdd5",
@@ -2923,7 +2930,7 @@
    ]
   },
   "warba": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found",
    "links": 12,
@@ -2944,12 +2951,12 @@
    ]
   },
   "kib": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "cbkw": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
@@ -2958,7 +2965,7 @@
    "url": "https://www.cbk.com/Media-Library/Press-Releases",
    "status": "ok",
    "links": 101,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "eab970557bf9",
     "ddd76ed745e9",
@@ -3068,7 +3075,7 @@
    "url": "https://www.e-gulfbank.com/en/about-us/media/press-releases/",
    "status": "ok",
    "links": 9,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "e3571f3c8b93",
     "f4bb873ec593",
@@ -3082,42 +3089,42 @@
    ]
   },
   "sohar": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "bankdhofar": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "ibk": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "bankmuscat": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "burgan": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "nizwa": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "cbo": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "abk": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
@@ -3126,7 +3133,7 @@
    "url": "https://www.nbk.com/news-and-insights/Media-Relations.html",
    "status": "ok",
    "links": 5,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "52da315c2d2f",
     "610cdb1a375d",
@@ -3136,37 +3143,37 @@
    ]
   },
   "oab": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "gib": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "stcbank": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "bankabc": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "khcb": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "gfh": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "aub": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
@@ -3175,7 +3182,7 @@
    "url": "https://www.nbo.om/en/Pages/News/Home.aspx",
    "status": "ok",
    "links": 57,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "1ce4089663e9",
     "d644291877af",
@@ -3241,7 +3248,7 @@
    "url": "https://www.alsalambank.com/press-releases/",
    "status": "ok",
    "links": 8,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "5e1ac655eb8b",
     "74fe05a54f12",
@@ -3254,12 +3261,12 @@
    ]
   },
   "cbb": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
   "bbk": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
@@ -3268,7 +3275,7 @@
    "url": "https://nbbonline.com/about/news/",
    "status": "ok",
    "links": 16,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "245733299cbb",
     "9e9ed4ac8849",
@@ -3289,7 +3296,7 @@
    ]
   },
   "bisb": {
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "url": null,
    "status": "not found"
   },
@@ -3298,7 +3305,7 @@
    "url": "https://ahlibank.om/Ahlibank/news/",
    "status": "ok",
    "links": 9,
-   "scanned": "2026-11-14",
+   "scanned": "2026-11-15",
    "known": [
     "af5f08321e09",
     "0611da646956",
@@ -4842,118 +4849,6 @@
   "https://www.bcg.com/press/13november2026-operationalizing-ai-governance-advantage-scaling-ai": "2026-11-14"
  },
  "sector_pending": [
-  {
-   "id": "75816f69a795",
-   "date": "2026-10-20",
-   "category": "Regulation & Guidance",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "Chinese central bank to employ 3-part AI strategy, says governor",
-   "summary": "The headline mentions a three-part AI strategy announced by China's central bank governor. Details on governance, implementation and risk management cannot be confirmed from the headline alone.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWVVOSDVLUDk2ek5Vc2NjaVc1cFV1OWxyN01PNURidE9iMDd0SXVIVV91U1BjeTFoVjVubGVTTmhyU0E0ZVVkd0J1eFN0T0ZNcVlQdUM3NVFoSGVfeXNQeml1WDBhT1Z4NFU1MnB0SDF1ZFQ5N0xqb1NuM2VEMWt4a0F6MWgxS0FiYVk3b2JaQkJ5VjUwcFk2Ql9uSmFsV2RrMFpNMGc0Sl9yWEpXRm9QdEdmNEI1M2dXLXFXOA?oc=5",
-   "source_name": "CGTN",
-   "source_title": "Chinese central bank to employ 3-part AI strategy, says governor",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWVVOSDVLUDk2ek5Vc2NjaVc1cFV1OWxyN01PNURidE9iMDd0SXVIVV91U1BjeTFoVjVubGVTTmhyU0E0ZVVkd0J1eFN0T0ZNcVlQdUM3NVFoSGVfeXNQeml1WDBhT1Z4NFU1MnB0SDF1ZFQ5N0xqb1NuM2VEMWt4a0F6MWgxS0FiYVk3b2JaQkJ5VjUwcFk2Ql9uSmFsV2RrMFpNMGc0Sl9yWEpXRm9QdEdmNEI1M2dXLXFXOA?oc=5",
-     "name": "CGTN"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-24T02:27:03+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-24"
-   }
-  },
-  {
-   "id": "20049190d251",
-   "date": "2026-10-23",
-   "category": "Case Studies & Use Cases",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "TD Bank (TSX:TD): How Is Agentic AI Used in Mortgage Workflows?",
-   "summary": "TD Bank has implemented autonomous AI agents to streamline mortgage processing. The deployment demonstrates practical application of agentic AI in core banking operations.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPejRFQ3oxMTJTM3ZUN2J5djU3d29BdG1BVllBeWhTRFpyUV9RZHdiUFFSUEFHbUllQWFreUwzdUFkSzZTRm14MkZVYmxoM2QxZXlHMzhvYkhybTNVd1FkbU1SUzBLd0d0QTJzX0NWSGdRdVVWNDJxLWxSbWlxLTVNTDhBSjl6cFBoMnR6TGNYcUtES3B1aVJzZjVtRXJqRFVqRUpuYWdtNm9sdEo2dmlrRW92R2w3QV9T?oc=5",
-   "source_name": "Kalkine Media",
-   "source_title": "TD Bank (TSX:TD): How Is Agentic AI Used in Mortgage Workflows?",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPejRFQ3oxMTJTM3ZUN2J5djU3d29BdG1BVllBeWhTRFpyUV9RZHdiUFFSUEFHbUllQWFreUwzdUFkSzZTRm14MkZVYmxoM2QxZXlHMzhvYkhybTNVd1FkbU1SUzBLd0d0QTJzX0NWSGdRdVVWNDJxLWxSbWlxLTVNTDhBSjl6cFBoMnR6TGNYcUtES3B1aVJzZjVtRXJqRFVqRUpuYWdtNm9sdEo2dmlrRW92R2w3QV9T?oc=5",
-     "name": "Kalkine Media"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-24T02:27:03+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-24"
-   }
-  },
-  {
-   "id": "987feecae589",
-   "date": "2026-10-23",
-   "category": "Regulation & Guidance",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "HKMA establishes regulatory framework for agentic AI in banking",
-   "summary": "Hong Kong's monetary authority has established the ART framework setting rules for autonomous AI agents in banking. The guidance addresses governance and operational standards.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMlFhRU1CT3hwZngzOUREM24tWjRfSU80OWg0YjdRNlhXVW54clJoYWt1YWs3Y012Yk1aTV9GMTRObzBpeEoyQjZHcjNOREpoeloydGZHMmFReHk0b05BMEFVOEhTZXd4amxSNFk2ZVh4VnB0c2pWMU5qbm1OTzdoc1c5cTBYdEE4RExoUEs3UlUzYXp2RFE?oc=5",
-   "source_name": "FinTech Global",
-   "source_title": "HKMA’s ART framework sets rules for agentic AI in banking",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMlFhRU1CT3hwZngzOUREM24tWjRfSU80OWg0YjdRNlhXVW54clJoYWt1YWs3Y012Yk1aTV9GMTRObzBpeEoyQjZHcjNOREpoeloydGZHMmFReHk0b05BMEFVOEhTZXd4amxSNFk2ZVh4VnB0c2pWMU5qbm1OTzdoc1c5cTBYdEE4RExoUEs3UlUzYXp2RFE?oc=5",
-     "name": "FinTech Global"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-24T02:27:03+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-24"
-   }
-  },
-  {
-   "id": "38c37a5d5b7e",
-   "date": "2026-10-23",
-   "category": "Case Studies & Use Cases",
-   "publisher": "",
-   "countries": [
-    "Global"
-   ],
-   "title": "Goldman Sachs and Anthropic Team Up to Build AI Agents for Core Banking Tasks",
-   "summary": "Goldman Sachs and Anthropic have partnered to develop autonomous agents for banking tasks. The initiative reflects industry movement toward AI-driven automation of critical operations.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSjVRcEhxRUJVVzdfakV3empIXzVhYjY0YUlVQ3Q4SlVBVUlCc01PR055TjRIeDJjWHFHMzdSNW9OOVp3cjVWSTdNMUZaTTQ1YXM2V3I0NDF4cE9IRDhpOFN6U1BuMUgzUlhwRmRBaEdoVmszSGllUWFuWWZZTEdmY0pnVVd3OVB5TktkWmVvQ1VTdHhUVDUzQUk3Q2VQUFozSHMzUElveDlPT1dpeHBteg?oc=5",
-   "source_name": "AIM Media House",
-   "source_title": "Goldman Sachs and Anthropic Team Up to Build AI Agents for Core Banking Tasks",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSjVRcEhxRUJVVzdfakV3empIXzVhYjY0YUlVQ3Q4SlVBVUlCc01PR055TjRIeDJjWHFHMzdSNW9OOVp3cjVWSTdNMUZaTTQ1YXM2V3I0NDF4cE9IRDhpOFN6U1BuMUgzUlhwRmRBaEdoVmszSGllUWFuWWZZTEdmY0pnVVd3OVB5TktkWmVvQ1VTdHhUVDUzQUk3Q2VQUFozSHMzUElveDlPT1dpeHBteg?oc=5",
-     "name": "AIM Media House"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-24T02:27:03+00:00",
-   "verification": {
-    "level": "pending",
-    "evidence": "headline",
-    "checked": "2026-10-24"
-   }
-  },
   {
    "id": "f3577326daca",
    "date": "2026-10-23",

@@ -1,6 +1,88 @@
 {
  "digests": [
   {
+   "id": "2026-11-14",
+   "start": "2026-11-08",
+   "end": "2026-11-14",
+   "created_at": "2026-11-15T04:15:50+00:00",
+   "counts": {
+    "news": 2,
+    "banks": 1,
+    "annual_report_items": 0,
+    "annual_report_banks": 0,
+    "studies": 18
+   },
+   "countries": {
+    "AE": 2
+   },
+   "themes": [
+    [
+     "Customer-Facing AI",
+     2
+    ],
+    [
+     "Tech Vendor Partnerships",
+     1
+    ]
+   ],
+   "partners": [
+    [
+     "Bridgewise",
+     1
+    ]
+   ],
+   "banks": [
+    [
+     "enbd",
+     2
+    ]
+   ],
+   "top": [
+    "6f46f104fdc0",
+    "a358d511dd04"
+   ],
+   "studies_top": [
+    "526b83b1ec15",
+    "963ea3207fe7",
+    "d4d362b25807",
+    "4e26203d6c02",
+    "5f64d6301953"
+   ],
+   "report_banks": [],
+   "takeaways": [
+    {
+     "text": "Emirates NBD launched two AI-powered customer offerings: market insights via Bridgewise partnership and AI-powered information for digital wealth clients.",
+     "ids": [
+      "6f46f104fdc0",
+      "a358d511dd04"
+     ]
+    },
+    {
+     "text": "Eighty percent of banks globally have faced agentic AI attacks, while regulators require customer data protection as fundamental prerequisite for AI deployment.",
+     "ids": [
+      "4e26203d6c02",
+      "5f64d6301953"
+     ]
+    },
+    {
+     "text": "Banks deploy agentic AI for customer service, voice-based payments, and payment screening, though customers prefer external AI tools over internal systems.",
+     "ids": [
+      "94813892354a",
+      "ba034262a2bf",
+      "05de5fa7cb16",
+      "963ea3207fe7"
+     ]
+    },
+    {
+     "text": "IMF urges central banks to account for AI investment slowdown risks in monetary policy, as fraudsters increasingly use AI to target bank customers.",
+     "ids": [
+      "526b83b1ec15",
+      "c134662e83e1"
+     ]
+    }
+   ]
+  },
+  {
    "id": "2026-11-07",
    "start": "2026-11-01",
    "end": "2026-11-07",

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-14T03:17:46+00:00",
+ "updated_at": "2026-11-15T04:15:50+00:00",
  "items": [
   {
    "id": "94813892354a",
@@ -6944,41 +6944,6 @@
    "added_at": "2026-10-06T02:16:25+00:00",
    "verification": {
     "level": "corroborated",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-06"
-  },
-  {
-   "id": "210029fa34d8",
-   "date": "2025-11-13",
-   "category": "Market Data",
-   "publisher": "Business Wire",
-   "countries": [
-    "Global"
-   ],
-   "title": "Financial institutions boost generative AI adoption in lending with increased 2026 budgets",
-   "summary": "Eighty-three percent of financial institutions are increasing their budgets for generative AI in lending during 2026. The trend reflects accelerating investment in AI-powered lending solutions across the sector.",
-   "key_stats": [
-    {
-     "value": "83%",
-     "label": "Financial institutions increasing AI budgets for lending in 2026",
-     "quote": "83% Boosting Budgets in 2026"
-    }
-   ],
-   "source_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPcGxFbkI1a202eHp5SzNnLV9qTVdwZXdXTEZONDByc0pDV3dPb3AtRTgzMFMwSHlnbkxhTldwUzRYMExOcVhuSlFHVDI4bzg2UGprd1lScnNwc3FzZ3JRNkVWTzMxalNXeVowMWJtbkRKX2d0Wm9PSGUxWklZemNVamloS3k5U0dfZzBaaVE3ZDVmN29WU05qUnZuSUtvUFNHUzFnbWlsZExaVC1tSkd0ekxwUElkbTRDQ1JfMG9KbjFTOTlCWE1qeVVhSlVBVXdMOUhtZlItQXRIWEJhLVg2b1U2QlpBQQ?oc=5",
-   "source_name": "Business Wire",
-   "source_title": "Financial Institutions Race to Adopt Generative AI in Lending, with 83% Boosting Budgets in 2026",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPcGxFbkI1a202eHp5SzNnLV9qTVdwZXdXTEZONDByc0pDV3dPb3AtRTgzMFMwSHlnbkxhTldwUzRYMExOcVhuSlFHVDI4bzg2UGprd1lScnNwc3FzZ3JRNkVWTzMxalNXeVowMWJtbkRKX2d0Wm9PSGUxWklZemNVamloS3k5U0dfZzBaaVE3ZDVmN29WU05qUnZuSUtvUFNHUzFnbWlsZExaVC1tSkd0ekxwUElkbTRDQ1JfMG9KbjFTOTlCWE1qeVVhSlVBVXdMOUhtZlItQXRIWEJhLVg2b1U2QlpBQQ?oc=5",
-     "name": "Business Wire"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-06"
    },
