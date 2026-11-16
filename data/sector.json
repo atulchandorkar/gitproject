@@ -1,6 +1,45 @@
 {
- "updated_at": "2026-11-15T04:15:50+00:00",
+ "updated_at": "2026-11-16T02:50:48+00:00",
  "items": [
+  {
+   "id": "1c74a812a9bc",
+   "date": "2026-11-16",
+   "category": "Studies & Surveys",
+   "publisher": "McKinsey & Company",
+   "countries": [
+    "Global"
+   ],
+   "title": "AI could reshape banking economics as early adopters see nearly 3x returns: McKinsey",
+   "summary": "McKinsey research shows that banks adopting AI early are achieving nearly three times the returns compared to peers. The study examines how artificial intelligence is reshaping the fundamental economics of banking operations.",
+   "key_stats": [
+    {
+     "value": "nearly 3x",
+     "label": "Returns for early adopters vs peers",
+     "quote": "AI could reshape banking economics as early adopters see nearly 3x returns"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUmxOUVVxejNqZDYxRk1wYnh5MjlWOWk0Y0xMTklWTDVjMnBMQmpYb2RvUkRPZGNONFVDblFSNWozS3hmd3Z0dllsUk5ybTZQUjZvUU9rc3RWUnVOdWxzRDNRQXRZQlE5ZkdBUlBMMGg2bklyX0h3aEtYVVJiWlc0NTh4b2hiVS1yYUxzVkJadmp0dHlENU9Ja3ZORXpCZW54Nl9PS3BPaTQ4Z2Q2dnU5bW5iSlRVbzhFdk85TFE0Xy1HOU5vSXJMcDQwUEZRRFlBY1NwcEp30gHbAUFVX3lxTE9sS0UzZUpjZ1N5MUlaWUl5MGJKWmVMUGJ0TlZCT21DVFg3dFpsR2ZnZDNTbjNMS0lpM2NsN1BOSG5Icjl5ZGFZZ1g5em95OXl6S1k3d2lHQXd0Qk1QRFRCZnFCN0FhVkVDVnl1cU9OM2o2RExHQUdxckVBMGRQU2tqSDN4X2RXSmNncVhzT081bVdvQVBFWmNHRWNMNlpkOFBRdFNnN0JOUU05T2k3cXN3aTBodXFBVXotWnhwZDFtb0NYOGF3WVdRVXVYU2pTU29WbmZPNzJyTG1sYw?oc=5",
+   "source_name": "Livemint",
+   "source_title": "AI could reshape banking economics as early adopters see nearly 3x returns: McKinsey",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUmxOUVVxejNqZDYxRk1wYnh5MjlWOWk0Y0xMTklWTDVjMnBMQmpYb2RvUkRPZGNONFVDblFSNWozS3hmd3Z0dllsUk5ybTZQUjZvUU9rc3RWUnVOdWxzRDNRQXRZQlE5ZkdBUlBMMGg2bklyX0h3aEtYVVJiWlc0NTh4b2hiVS1yYUxzVkJadmp0dHlENU9Ja3ZORXpCZW54Nl9PS3BPaTQ4Z2Q2dnU5bW5iSlRVbzhFdk85TFE0Xy1HOU5vSXJMcDQwUEZRRFlBY1NwcEp30gHbAUFVX3lxTE9sS0UzZUpjZ1N5MUlaWUl5MGJKWmVMUGJ0TlZCT21DVFg3dFpsR2ZnZDNTbjNMS0lpM2NsN1BOSG5Icjl5ZGFZZ1g5em95OXl6S1k3d2lHQXd0Qk1QRFRCZnFCN0FhVkVDVnl1cU9OM2o2RExHQUdxckVBMGRQU2tqSDN4X2RXSmNncVhzT081bVdvQVBFWmNHRWNMNlpkOFBRdFNnN0JOUU05T2k3cXN3aTBodXFBVXotWnhwZDFtb0NYOGF3WVdRVXVYU2pTU29WbmZPNzJyTG1sYw?oc=5",
+     "name": "Livemint"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPV3NlQ0dNV2RFOU8xblh2M0lUaklTLVMzUC1YRy04M21INVZnNGxGcW5DZ1ZmakNPZkJwSUxmTnRmY2R1eFU1SkJWVXlBNVBuVnFEekFyUndFVVZTY1Q1NEUyWmk2VTVjYm55MFIzay04NGdjdlQtRGxrMTRKazN2OElzOVhrbENHaWdtc1g0Sm1kckYxMHE5YWZ4TzUxQlpSNFJic0ZwTVYwbmVYMlkyM3FiYnJ4LUZ6Vk1jME9VLVZxMkZNWTZ6QUt0RlRCUUk?oc=5",
+     "name": "ANI News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-16T02:50:40+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-11-16"
+   },
+   "pdf_checked": "2026-11-16"
+  },
   {
    "id": "94813892354a",
    "date": "2026-11-13",

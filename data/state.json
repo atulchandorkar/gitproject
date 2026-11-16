@@ -1,5 +1,5 @@
 {
- "last_update": "2026-11-15T03:58:33+00:00",
+ "last_update": "2026-11-16T02:47:18+00:00",
  "seen": {
   "edc3fc489ad8b1": "2025-12-02",
   "d833d51efaa9af": "2026-03-14",
@@ -1936,7 +1936,35 @@
   "1f0ea114b77170": "2026-11-13",
   "592cf5fbd4586e": "2026-11-13",
   "1a90675b79d0cb": "2026-11-13",
-  "30e695123d3133": "2026-11-13"
+  "30e695123d3133": "2026-11-13",
+  "754ec87592cb8c": "2026-11-09",
+  "c33db2c7d36478": "2026-11-13",
+  "997a2e20748407": "2026-11-13",
+  "29a482dc57a5c9": "2026-11-14",
+  "ee5b3106bf5b5c": "2026-11-14",
+  "a4696ebf7c026e": "2026-11-14",
+  "cb246ca1331bee": "2026-11-14",
+  "d00d4c2f1ebed4": "2026-11-14",
+  "1f9dffe562dd44": "2026-11-14",
+  "1a942f82b6429b": "2026-11-14",
+  "c62229d517da78": "2026-11-14",
+  "b6e0d62f837af7": "2026-11-14",
+  "4e4430ab26d68d": "2026-11-15",
+  "4d6e0f391c87d3": "2026-11-15",
+  "f92df6eeb4d871": "2026-11-15",
+  "a8cbcd091f1ecc": "2026-11-15",
+  "ef1cfe7e84a53f": "2026-11-15",
+  "89e090d2b38a4e": "2026-11-15",
+  "83320d054b65fd": "2026-11-15",
+  "d89f5fdda89705": "2026-11-15",
+  "3fbd2723dee7f8": "2026-11-15",
+  "df74c8b119be9d": "2026-11-15",
+  "09c96ce59afc84": "2026-11-15",
+  "9fe3583dcdf446": "2026-11-15",
+  "c4a536648e6765": "2026-11-15",
+  "e68a375badee61": "2026-11-15",
+  "c0c7f6094b1b56": "2026-11-15",
+  "ae6c4451fc5395": "2026-11-16"
  },
  "history_loaded": {
   "adcb": "2026-10-05",
@@ -2454,34 +2482,34 @@
  "retry": [],
  "newsrooms": {
   "rakbank": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "adcb": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "mashreq": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "sib": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "ei": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "bos": {
    "checked": "2026-11-15",
    "url": "https://www.bankofsharjah.com/en/news/media-center",
-   "status": "ok",
+   "status": "unreachable (HTTPError)",
    "links": 3,
    "scanned": "2026-11-15",
    "known": [
@@ -2491,12 +2519,12 @@
    ]
   },
   "enbd": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "investbank": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
@@ -2505,7 +2533,7 @@
    "url": "https://www.dib.ae/about-us/media-centre",
    "status": "ok",
    "links": 19,
-   "scanned": "2026-11-15",
+   "scanned": "2026-11-16",
    "known": [
     "0f225cf346d6",
     "2dcb346ec750",
@@ -2529,7 +2557,7 @@
    ]
   },
   "cbd": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found",
    "links": 4,
@@ -2542,42 +2570,42 @@
    ]
   },
   "nbf": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "edb": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "cbuae": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "wio": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "adib": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "alrajhi": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "snb": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "ajman": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
@@ -2586,7 +2614,7 @@
    "url": "https://www.zand.ae/en/news",
    "status": "ok",
    "links": 29,
-   "scanned": "2026-11-15",
+   "scanned": "2026-11-16",
    "known": [
     "beb166c6b910",
     "837760b162de",
@@ -2620,42 +2648,42 @@
    ]
   },
   "aljazira": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "sab": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "anb": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "gibsa": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "bsf": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "d360": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "fab": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "visionbank": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
@@ -2664,7 +2692,7 @@
    "status": "unreachable (HTTPError)"
   },
   "saib": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
@@ -2673,7 +2701,7 @@
    "url": "https://www.alinma.com/About-the-Bank/The-Bank/News",
    "status": "ok",
    "links": 30,
-   "scanned": "2026-11-15",
+   "scanned": "2026-11-16",
    "known": [
     "ca10ea15a45c",
     "0aacda7e2687",
@@ -2712,7 +2740,7 @@
    "url": "https://www.alrayan.com/en/press-release",
    "status": "ok",
    "links": 3,
-   "scanned": "2026-11-15",
+   "scanned": "2026-11-16",
    "known": [
     "1722b361feb0",
     "8eea57958b29",
@@ -2720,65 +2748,35 @@
    ]
   },
   "dohabank": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "sama": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "cbq": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "dukhan": {
    "checked": "2026-10-05",
    "url": "https://www.dukhanbank.com/media-center/press-release",
-   "status": "ok",
-   "links": 29,
-   "scanned": "2026-11-15",
-   "known": [
-    "3419bd274668",
-    "fe0fc0810447",
-    "a8e106894c28",
-    "339f3c3d15c1",
-    "b317b1e6b4f5",
-    "38e6c1a44987",
-    "2e69093e2e27",
-    "cd5ea75de02b",
-    "8caf803a213a",
-    "d6a8ec9decdc",
-    "57b779245f11",
-    "f67995661af3",
-    "7b97af5d1974",
-    "ea629bf2048c",
-    "18429cadac9f",
-    "09b85daf62f2",
-    "cd20ca6e8432",
-    "703cbc410ce3",
-    "d490f781e93e",
-    "3a21be01d4d9",
-    "f07eed0be171",
-    "7a76dfdc200a",
-    "48106997abc4",
-    "7b4ca4eb7014",
-    "05c09bed2321",
-    "0eef050012ec",
-    "84533a61ef3a",
-    "653b0d3a19f1",
-    "227f0a792ded"
-   ]
+   "status": "no links (page may need JavaScript)",
+   "links": 0,
+   "scanned": "2026-11-16",
+   "known": []
   },
   "albilad": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "qdb": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
@@ -2787,7 +2785,7 @@
    "url": "https://www.uab.ae/en/media-center/awards",
    "status": "ok",
    "links": 15,
-   "scanned": "2026-11-15",
+   "scanned": "2026-11-16",
    "known": [
     "4465122501be",
     "6dba8d618990",
@@ -2807,7 +2805,7 @@
    ]
   },
   "qcb": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
@@ -2816,7 +2814,7 @@
    "url": "https://www.qiib.com.qa/Press/List/Announcements",
    "status": "ok",
    "links": 5,
-   "scanned": "2026-11-15",
+   "scanned": "2026-11-16",
    "known": [
     "452f6107a821",
     "98394071c36b",
@@ -2830,7 +2828,7 @@
    "url": "https://www.riyadbank.com/personal-banking/media-center?p_p_id=com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath=%2Fdisplay_article.jsp&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId=6385919&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_shareURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fdisplay_article.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_articleId%3D6385919%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL%3Dhttps%253A%252F%252Fwww.riyadbank.com%252Fpersonal-banking%252Fmedia-center%253Fp_p_id%253Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%2526p_p_lifecycle%253D0%2526p_p_state%253Dnormal%2526p_p_mode%253Dview%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%253D%25252Fview.jsp%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%253D2%2526_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%253D10&_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_backtoArticleURL=https%3A%2F%2Fwww.riyadbank.com%2Fpersonal-banking%2Fmedia-center%3Fp_p_id%3Dcom_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_mvcPath%3D%252Fview.jsp%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_cur%3D2%26_com_web_content_filter_WebContentFilterPortlet_INSTANCE_nmgo_delta%3D10",
    "status": "ok",
    "links": 11,
-   "scanned": "2026-11-15",
+   "scanned": "2026-11-16",
    "known": [
     "08694c1b0166",
     "aa5cf1170494",
@@ -2846,7 +2844,7 @@
    ]
   },
   "qib": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
@@ -2855,7 +2853,7 @@
    "url": "https://www.leshabank.com/media-center/news/",
    "status": "ok",
    "links": 8,
-   "scanned": "2026-11-15",
+   "scanned": "2026-11-16",
    "known": [
     "476f26ee9150",
     "a28fc0cfe8aa",
@@ -2868,7 +2866,7 @@
    ]
   },
   "boubyan": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
@@ -2877,7 +2875,7 @@
    "url": "https://www.ahlibank.com.qa/en/media-center/news-press-releases",
    "status": "ok",
    "links": 24,
-   "scanned": "2026-11-15",
+   "scanned": "2026-11-16",
    "known": [
     "15c9bdd0b3e0",
     "e9793b0023c9",
@@ -2910,8 +2908,9 @@
    "url": "https://www.kfh.com/home/Personal/news.html",
    "status": "ok",
    "links": 15,
-   "scanned": "2026-11-15",
+   "scanned": "2026-11-16",
    "known": [
+    "446d42c477cb",
     "01ad2dba80ff",
     "755e88cbfdd5",
     "dfeed89931c0",
@@ -2925,12 +2924,11 @@
     "a0dc8c6d2fad",
     "f7ac64eecbdc",
     "5295ec47d19a",
-    "6f0f709ea7c7",
-    "5b476dff9104"
+    "6f0f709ea7c7"
    ]
   },
   "warba": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found",
    "links": 12,
@@ -2951,12 +2949,12 @@
    ]
   },
   "kib": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "cbkw": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
@@ -2965,7 +2963,7 @@
    "url": "https://www.cbk.com/Media-Library/Press-Releases",
    "status": "ok",
    "links": 101,
-   "scanned": "2026-11-15",
+   "scanned": "2026-11-16",
    "known": [
     "eab970557bf9",
     "ddd76ed745e9",
@@ -3075,7 +3073,7 @@
    "url": "https://www.e-gulfbank.com/en/about-us/media/press-releases/",
    "status": "ok",
    "links": 9,
-   "scanned": "2026-11-15",
+   "scanned": "2026-11-16",
    "known": [
     "e3571f3c8b93",
     "f4bb873ec593",
@@ -3089,42 +3087,42 @@
    ]
   },
   "sohar": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "bankdhofar": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "ibk": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "bankmuscat": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "burgan": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "nizwa": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "cbo": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "abk": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
@@ -3133,7 +3131,7 @@
    "url": "https://www.nbk.com/news-and-insights/Media-Relations.html",
    "status": "ok",
    "links": 5,
-   "scanned": "2026-11-15",
+   "scanned": "2026-11-16",
    "known": [
     "52da315c2d2f",
     "610cdb1a375d",
@@ -3143,37 +3141,37 @@
    ]
   },
   "oab": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "gib": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "stcbank": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "bankabc": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "khcb": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "gfh": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "aub": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
@@ -3182,7 +3180,7 @@
    "url": "https://www.nbo.om/en/Pages/News/Home.aspx",
    "status": "ok",
    "links": 57,
-   "scanned": "2026-11-15",
+   "scanned": "2026-11-16",
    "known": [
     "1ce4089663e9",
     "d644291877af",
@@ -3248,7 +3246,7 @@
    "url": "https://www.alsalambank.com/press-releases/",
    "status": "ok",
    "links": 8,
-   "scanned": "2026-11-15",
+   "scanned": "2026-11-16",
    "known": [
     "5e1ac655eb8b",
     "74fe05a54f12",
@@ -3261,12 +3259,12 @@
    ]
   },
   "cbb": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
   "bbk": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
@@ -3275,7 +3273,7 @@
    "url": "https://nbbonline.com/about/news/",
    "status": "ok",
    "links": 16,
-   "scanned": "2026-11-15",
+   "scanned": "2026-11-16",
    "known": [
     "245733299cbb",
     "9e9ed4ac8849",
@@ -3296,7 +3294,7 @@
    ]
   },
   "bisb": {
-   "checked": "2026-11-15",
+   "checked": "2026-11-16",
    "url": null,
    "status": "not found"
   },
@@ -3305,7 +3303,7 @@
    "url": "https://ahlibank.om/Ahlibank/news/",
    "status": "ok",
    "links": 9,
-   "scanned": "2026-11-15",
+   "scanned": "2026-11-16",
    "known": [
     "af5f08321e09",
     "0611da646956",
@@ -4842,7 +4840,18 @@
   "2bceacc0a5aeef": "2026-11-13",
   "0b8599781b0297": "2026-11-13",
   "1ee606dc96520c": "2026-11-13",
-  "a58b39d4295e6a": "2026-11-13"
+  "a58b39d4295e6a": "2026-11-13",
+  "2b5ad0969cd977": "2026-11-09",
+  "b309b9a3771708": "2026-11-11",
+  "c153d068924108": "2026-11-12",
+  "9b50e9f29868aa": "2026-11-12",
+  "5fdb6fddb4fddc": "2026-11-15",
+  "aaca6727f12763": "2026-11-15",
+  "4d6e0f391c87d3": "2026-11-15",
+  "3fbd2723dee7f8": "2026-11-15",
+  "ca92f4aafd5dbb": "2026-11-15",
+  "5b0910e3961cd7": "2026-11-15",
+  "d5ec200bec1792": "2026-11-16"
  },
  "sector_known": {
   "https://www.oliverwyman.com/our-expertise/insights/2026/jan/key-debates-future-of-financial-institutions-in-age-of-ai": "2026-11-07",
@@ -13626,6 +13635,36 @@
    "merge": false,
    "anchor": "",
    "confidence": "high",
+   "same": false
+  },
+  "v2|1c74a812a9bc|67a1f1b57566": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1c74a812a9bc|60bf8016a1ba": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1c74a812a9bc|66b324c4335e": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "high",
+   "same": false
+  },
+  "v2|1c74a812a9bc|8b93a10de17d": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
+   "same": false
+  },
+  "v2|1c74a812a9bc|b21f09cfc6c9": {
+   "merge": false,
+   "anchor": "",
+   "confidence": "medium",
    "same": false
   }
  }

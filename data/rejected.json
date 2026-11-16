@@ -2113,5 +2113,32 @@
   "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XVXQ5d3lPamNoYmRJTGEtT1hNYUdSdHZhVVltQ1BLWnNiZ0xQazBGYnRzWnFueWs4V3Z4bDZFNmIwOE5ncHE3bmhUSFhlRlBJbWhQQ2FkeUI5UGt3cTdNNTc0ZGxRc1FVczRRcjNTdmlDYzEwY0llcA?oc=5",
   "source": "QA Financial",
   "reason": "no second outlet confirmed it within 21 days"
+ },
+ {
+  "checked": "2026-11-16",
+  "bank_id": "saib",
+  "date": "2026-11-15",
+  "title": "الذكاء الاصطناعي يقتحم خزائن البنوك.. saib يخطط لشراكة استراتيجية مع Synapse Analytics لمدة 3 سنوات",
+  "source_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9qMmtyNnpLWmtfcTlNRC1Bd1NiSjY1RUFFQ0w0T0d3aWt2Z2dIc2YxMmRGMVNJazQ0NTNSRFZmZlpZbUpPQVo5LWZR?oc=5",
+  "source": "elmaser.com",
+  "reason": "SAIB is not named in the source"
+ },
+ {
+  "checked": "2026-11-16",
+  "bank_id": "saib",
+  "date": "2026-11-15",
+  "title": "بنك saib يبحث إقامة شراكة استراتيجية مع «Synapse Analytics» لتطوير حلول الذكاء الاصطناعي وتعزيز التحول الرقمي",
+  "source_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Wd3d0TVpEcGRSV1oyeGlROVZ4WTNJNUNzVUlialhjUG9QQml5a2FFWlY0dkF6bHNkbURxT1BvblpPTVl2TWFMZ28yZ2xDZw?oc=5",
+  "source": "التعمير",
+  "reason": "SAIB is not named in the source"
+ },
+ {
+  "checked": "2026-11-16",
+  "bank_id": "saib",
+  "date": "2026-11-15",
+  "title": "بنك saib يبحث إقامة شراكة استراتيجية مع «Synapse Analytics» لتطوير حلول الذكاء الاصطناعي وتعزيز التحول الرقمي",
+  "source_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9aa00weFlzZl9ZSmJIY2NZVXE1aUg2clEwMndsZmJfNXotbDFQQlU5d0JWS1licFpxZ2ZmWEJoWnFXZFI5Rjdn?oc=5",
+  "source": "بنكي",
+  "reason": "SAIB is not named in the source"
  }
 ]
