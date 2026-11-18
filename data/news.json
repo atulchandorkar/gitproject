@@ -1,6 +1,41 @@
 {
- "updated_at": "2026-11-17T05:19:30+00:00",
+ "updated_at": "2026-11-18T04:39:45+00:00",
  "items": [
+  {
+   "id": "e17d458ae1fa",
+   "bank_id": "cbq",
+   "country": "QA",
+   "date": "2026-11-16",
+   "title": "Commercial Bank of Qatar wins 5 AI in Finance Awards 2026",
+   "summary": "Commercial Bank of Qatar won 5 awards at Global Finance's AI in Finance Awards 2026.",
+   "category": "Awards & Rankings",
+   "topics": [
+    "Awards & Rankings",
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "AI awards",
+    "AI in finance"
+   ],
+   "partners": [],
+   "impact": "5 awards",
+   "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcVh1emR0X1d6YmJnbVpzNkF1QmplcENob2lTaGR0Y0M0ZGFORjZHYi1qNXY4NExQU3l6SHpSUmQ3bEk4Y0VVdm1CSHRmbHh1M2ZpbnExaHpVTFh0MnlvTlVTYnFEUVo5OXpORmtmaTVIUlZXT2RlUXZxWDNyZjhRNWx0aG42WnowZkFPYVV0N3I5SXVYc0twVk9MSFlNRzg3THBoSUZ0dFBhQW44V3RiNWx5WVBDelUxblZiUVdMS0hWNlHSAcgBQVVfeXFMT0stdTY2ajQ2S2VEN3R3QWxOdXRPaWlrTmpSRXRCT3BhZE5OYlR1Qkl6R2pkdDZDTENtdTNiRV9UajJRMnc5MFpwaDV1dk85blFXT1haRGRIWjU3eVVlUm52cDc5Z29nMlJhdVM1OGVRTXNRNklneVhveTdNX3dJbW4yU25SRlF3Z3pZaTJkUUJuNm96dkx4Wnc4RXpPUmxvUmhSWHFGNE9WREF3b2h4eHdUU21hQTFuQUNydE1QRVVPMTFkQk0tZ0U?oc=5",
+   "source_name": "Gulf Times",
+   "source_title": "Commercial Bank wins 5 awards at Global Finance’s AI in Finance Awards 2026 | Gulf Times",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcVh1emR0X1d6YmJnbVpzNkF1QmplcENob2lTaGR0Y0M0ZGFORjZHYi1qNXY4NExQU3l6SHpSUmQ3bEk4Y0VVdm1CSHRmbHh1M2ZpbnExaHpVTFh0MnlvTlVTYnFEUVo5OXpORmtmaTVIUlZXT2RlUXZxWDNyZjhRNWx0aG42WnowZkFPYVV0N3I5SXVYc0twVk9MSFlNRzg3THBoSUZ0dFBhQW44V3RiNWx5WVBDelUxblZiUVdMS0hWNlHSAcgBQVVfeXFMT0stdTY2ajQ2S2VEN3R3QWxOdXRPaWlrTmpSRXRCT3BhZE5OYlR1Qkl6R2pkdDZDTENtdTNiRV9UajJRMnc5MFpwaDV1dk85blFXT1haRGRIWjU3eVVlUm52cDc5Z29nMlJhdVM1OGVRTXNRNklneVhveTdNX3dJbW4yU25SRlF3Z3pZaTJkUUJuNm96dkx4Wnc4RXpPUmxvUmhSWHFGNE9WREF3b2h4eHdUU21hQTFuQUNydE1QRVVPMTFkQk0tZ0U?oc=5",
+     "name": "Gulf Times"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:19:19+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-18"
+   }
+  },
   {
    "id": "6f46f104fdc0",
    "bank_id": "enbd",
@@ -3518,6 +3553,681 @@
     "Tech Vendor Partnerships",
     "AI Adoption in Operations"
    ]
+  },
+  {
+   "id": "ce1fde545444",
+   "bank_id": "gfh",
+   "country": "BH",
+   "date": "2025-12-31",
+   "title": "GFH AI-Powered Investment Assistants in Mobile App",
+   "summary": "GFH enhanced the GFH App with AI-powered investment assistants designed to streamline client interactions and strengthen engagement. The AI-enabled text and voice virtual assistant provides round-the-clock support, addressing account and investment queries and guiding clients through key transactions.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "AI assistants",
+    "investment support",
+    "virtual assistant",
+    "mobile app"
+   ],
+   "partners": [],
+   "impact": "Strengthened client engagement and streamlined client interactions",
+   "source_url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf#page=71",
+   "source_name": "GFH Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf#page=71",
+     "name": "GFH Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:34:40+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf",
+    "page": 71,
+    "quote": "In parallel, the GFH App was further enhanced with the introduction of AI-powered investment assistants, improved digital onboarding journeys and expanded capabilities designed to streamline client interactions and strengthen engagement."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "62e4cd6064c0",
+   "bank_id": "gfh",
+   "country": "BH",
+   "date": "2025-12-31",
+   "title": "GFH AI Co-Pilot Tools for Internal Operations",
+   "summary": "GFH deployed AI Co-Pilot tools across multiple functions to support productivity, document drafting, research, data analysis and workflow automation. These tools contributed to more insight-driven operations across GFH Financial Group businesses.",
+   "category": "Generative AI & Copilots",
+   "topics": [
+    "Generative AI & Copilots"
+   ],
+   "tags": [
+    "AI copilots",
+    "productivity",
+    "document drafting",
+    "data analysis"
+   ],
+   "partners": [],
+   "impact": "Contributed to more insight-driven operations across GFH Financial Group businesses",
+   "source_url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf#page=79",
+   "source_name": "GFH Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf#page=79",
+     "name": "GFH Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:34:40+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf",
+    "page": 79,
+    "quote": "AI Co-Pilot Capabilities AI Co-Pilot tools were deployed across multiple functions to support productivity, document drafting, research, data analysis and workflow automation, contributing to more insight-driven operations across GFH Financial Group businesses."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "12bce73d8702",
+   "bank_id": "gfh",
+   "country": "BH",
+   "date": "2025-12-31",
+   "title": "GFH Human-Like AI Call Center Agents",
+   "summary": "GFH deployed human-like AI call center agents to advance its client servicing model. These agents enable intelligent, scalable support while reinforcing the commitment to embedding advanced technologies across the investment lifecycle and driving greater efficiency across operations.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "call center AI",
+    "customer service",
+    "agents",
+    "scalable support"
+   ],
+   "partners": [],
+   "impact": "Enabling intelligent, scalable support and driving greater efficiency across the Group's operations",
+   "source_url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf#page=71",
+   "source_name": "GFH Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf#page=71",
+     "name": "GFH Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:34:40+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf",
+    "page": 71,
+    "quote": "The deployment of human-like AI call center agents further advanced our client servicing model, enabling intelligent, scalable support while reinforcing our commitment to embedding advanced technologies across the investment lifecycle and driving greater efficiency across the Group's operations."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "a5b0a70fcfd6",
+   "bank_id": "gfh",
+   "country": "BH",
+   "date": "2025-12-31",
+   "title": "GFH Digital Transformation Strategy with AI Focus",
+   "summary": "GFH advanced its digital transformation strategy guided by three strategic pillars: elevating customer experience through AI-enabled support, digitising internal processes by embedding digital-by-default controls and automation, and leveraging data, AI and analytics to generate insights and enable predictive client engagement. The focus is on building a seamless, secure and data-driven investment experience.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "digital strategy",
+    "AI adoption",
+    "transformation",
+    "data-driven"
+   ],
+   "partners": [],
+   "impact": "Strengthening technological foundations and expanding digital capabilities across the Group",
+   "source_url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf#page=79",
+   "source_name": "GFH Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf#page=79",
+     "name": "GFH Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:34:40+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf",
+    "page": 79,
+    "quote": "In 2025, GFH continued to advance its digital transformation strategy, strengthening our technological foundations, expanding digital capabilities and accelerating the adoption of AI across the Group. The focus remains on building a seamless, secure and data-driven investment experience for clients while improving internal efficiency and governance. GFH's initiatives are guided by three strategic pillars. The first is elevating the customer experience ('CEX') by delivering intuitive, mobile-first platforms, simplified digital journeys and AI-enabled support to ensure fast, reliable and user-friendly interactions. The second is digitising internal processes by re-engineering and automating key workflows, embedding digital-by-default controls and improving accuracy, turnaround times and operational resilience. The third is leveraging data, AI and analytics to generate insights, support decision-making and enable predictive and personalised client engagement."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "df407f889348",
+   "bank_id": "gfh",
+   "country": "BH",
+   "date": "2025-12-31",
+   "title": "GFH Temenos Core Banking System Implementation",
+   "summary": "GFH strengthened its digital infrastructure through the implementation of a new Temenos core banking system, enhancing the Group's ability to deliver more agile wealth and investment management solutions. The system provides a scalable foundation for future innovation.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Temenos",
+    "core banking",
+    "platform",
+    "infrastructure"
+   ],
+   "partners": [
+    "Temenos"
+   ],
+   "impact": "Enhanced ability to deliver more agile wealth and investment management solutions with scalable foundation for future innovation",
+   "source_url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf#page=71",
+   "source_name": "GFH Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf#page=71",
+     "name": "GFH Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:34:40+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf",
+    "page": 71,
+    "quote": "During the year, GFH strengthened its digital infrastructure through the implementation of a new Temenos core banking system, enhancing the Group's ability to deliver more agile wealth and investment management solutions while providing a scalable foundation for future innovation."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "ae873c870c66",
+   "bank_id": "gfh",
+   "country": "BH",
+   "date": "2025-12-31",
+   "title": "GFH Enhanced Digital Onboarding Journeys",
+   "summary": "GFH optimised several in-app journeys including onboarding, transfers, beneficiary management, subscription flows and payments, simplified and redesigned to improve clarity and reduce steps required. Additionally, digital onboarding journeys were enhanced as part of the GFH App improvements.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "onboarding",
+    "digital journeys",
+    "customer experience",
+    "automation"
+   ],
+   "partners": [],
+   "impact": "Reduced number of steps required, minimised operational rework and client queries",
+   "source_url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf#page=79",
+   "source_name": "GFH Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf#page=79",
+     "name": "GFH Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:34:40+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf",
+    "page": 79,
+    "quote": "Optimised Digital Journeys Several in-app journeys – including onboarding, transfers, beneficiary management, subscription flows and payments were simplified and redesigned to improve clarity, reduce the number of steps required and minimise operational rework and client queries."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "464efef771cf",
+   "bank_id": "gfh",
+   "country": "BH",
+   "date": "2025-12-31",
+   "title": "GFH Chief Technology Officer for Digital, AI & Technology Transformation",
+   "summary": "GFH appointed Osama Nasr as Chief Technology Officer responsible for Digital, AI & Technology Transformation at GFH Financial Group and Khaleeji Bank. This leadership hire demonstrates the Group's commitment to advancing digital and AI initiatives.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "Chief Technology Officer",
+    "CTO",
+    "leadership",
+    "AI governance"
+   ],
+   "partners": [],
+   "impact": "Leadership position established for overseeing digital and AI transformation across GFH and Khaleeji Bank",
+   "source_url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf#page=88",
+   "source_name": "GFH Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf#page=88",
+     "name": "GFH Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:34:40+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf",
+    "page": 88,
+    "quote": "Osama Nasr Chief Technology Officer GFH Financial Group & Khaleeji Bank Digital, AI & Technology Transformation"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "cc5d6d32bb3f",
+   "bank_id": "cbuae",
+   "country": "AE",
+   "date": "2025-12-31",
+   "title": "CBUAE Sovereign Financial Cloud Services Infrastructure with AI",
+   "summary": "The CBUAE is developing the world's first sovereign financial cloud services infrastructure through the application of AI. This initiative strengthens strategic pillars of financial technology to foster a resilient and inclusive financial environment.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "sovereign cloud",
+    "infrastructure"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=9",
+   "source_name": "CBUAE Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=9",
+     "name": "CBUAE Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:26:37+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf",
+    "page": 9,
+    "quote": "Through the application of AI, the CBUAE is developing the world's first sovereign financial cloud services infrastructure, while strengthening the strategic pillars of financial technology to foster a financial environment characterised by resilience, seamless and inclusive interoperability."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "a33fcab851bf",
+   "bank_id": "cbuae",
+   "country": "AE",
+   "date": "2025-12-31",
+   "title": "CBUAE-Presight Joint Venture for AI-Powered Financial Market Infrastructure",
+   "summary": "CBUAE signed a joint venture with Presight to deliver and maintain sovereign, AI-powered technological platforms for critical financial market infrastructures. The partnership ensures the UAE's financial market infrastructure remains resilient, secure, efficient and future-ready.",
+   "category": "Tech Vendor Partnerships",
+   "topics": [
+    "Tech Vendor Partnerships"
+   ],
+   "tags": [
+    "AI-powered platforms",
+    "joint venture"
+   ],
+   "partners": [
+    "Presight"
+   ],
+   "impact": "ensures the UAE's financial market infrastructure remains resilient, secure, efficient and future-ready",
+   "source_url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=13",
+   "source_name": "CBUAE Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=13",
+     "name": "CBUAE Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:26:37+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf",
+    "page": 13,
+    "quote": "JV signed with Presight focused on delivering and maintaining sovereign, AI-powered technological platforms relating to various critical financial market infrastructures."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "df7f9bccccd9",
+   "bank_id": "cbuae",
+   "country": "AE",
+   "date": "2025-12-31",
+   "title": "CBUAE Exploratory Work on AI for Regulatory Development and Supervisory Tools",
+   "summary": "In 2025, CBUAE advanced exploratory work on AI to support regulatory development, benchmarking, and supervisory tools. This effort enhances the CBUAE's capability to strengthen governance and risk management.",
+   "category": "AI Regulation & Policy",
+   "topics": [
+    "AI Regulation & Policy"
+   ],
+   "tags": [
+    "regulatory AI",
+    "benchmarking"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=40",
+   "source_name": "CBUAE Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=40",
+     "name": "CBUAE Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:26:37+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf",
+    "page": 40,
+    "quote": "the CBUAE advanced exploratory work on AI to support regulatory development, benchmarking, and supervisory tools."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "41b690ca5c22",
+   "bank_id": "cbuae",
+   "country": "AE",
+   "date": "2025-12-31",
+   "title": "CBUAE AI-Enabled Assistant for Tawteen Smart Services System",
+   "summary": "CBUAE deployed an AI-enabled assistant in upgrades to the Tawteen smart services system to improve data analytics and monitoring capabilities. API integration with Licensed Financial Institutions was completed to enhance data accuracy and reporting.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "AI assistant",
+    "Tawteen system"
+   ],
+   "partners": [],
+   "impact": "enhance data accuracy and streamline reporting",
+   "source_url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=50",
+   "source_name": "CBUAE Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=50",
+     "name": "CBUAE Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:26:37+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf",
+    "page": 50,
+    "quote": "Upgrades to the Tawteen smart services system included deployment of an AI-enabled assistant to improve data analytics. API integration between the Tawteen system and LFIs was completed to enhance data accuracy and streamline reporting."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "ee5fa1332b3f",
+   "bank_id": "cbuae",
+   "country": "AE",
+   "date": "2025-12-31",
+   "title": "CBUAE Sandbox Testing for Generative AI and Advanced AI Models in Banking",
+   "summary": "CBUAE operates regulatory sandboxes where firms test innovations including Generative AI and advanced AI models for banking and financial services. Testing activities cover compliance automation, customer engagement, risk management, operational efficiency and supervisory technology.",
+   "category": "AI Regulation & Policy",
+   "topics": [
+    "AI Regulation & Policy"
+   ],
+   "tags": [
+    "compliance automation",
+    "GenAI testing"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=56",
+   "source_name": "CBUAE Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=56",
+     "name": "CBUAE Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:26:37+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf",
+    "page": 56,
+    "quote": "Testing activities within these environments have included innovations in Generative AI and advanced AI models applied to banking and financial services, covering areas such as compliance automation, customer engagement, risk management, operational efficiency and supervisory technology."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "5eeb594bd02f",
+   "bank_id": "cbuae",
+   "country": "AE",
+   "date": "2025-12-31",
+   "title": "CBUAE AI and Machine Learning Pilots for Licensing, Surveillance and Anomaly Detection",
+   "summary": "CBUAE initiated AI and machine learning pilots across multiple use cases including licensing automation, market surveillance, and anomaly detection. More than 80 AI/ML use cases were identified at various stages of evaluation.",
+   "category": "AI Adoption in Operations",
+   "topics": [
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "ML pilots",
+    "anomaly detection",
+    "licensing automation"
+   ],
+   "partners": [],
+   "impact": "More than 80 use cases were identified at various stages of evaluation",
+   "source_url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=56",
+   "source_name": "CBUAE Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=56",
+     "name": "CBUAE Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:26:37+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf",
+    "page": 56,
+    "quote": "Al and machine learning pilots were initiated across multiple use cases, including licensing automation, market surveillance, and anomaly detection. More than 80 use cases were identified at various stages of evaluation."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "63168b2e26ca",
+   "bank_id": "cbuae",
+   "country": "AE",
+   "date": "2025-12-31",
+   "title": "CBUAE AURA Academy for AI Upskilling and Workforce Development",
+   "summary": "CBUAE launched AURA Academy (Artificial Intelligence Upskilling for Resource Advancement) to equip employees with practical AI competencies. The programme enhances capabilities in supervision, risk management, compliance, and operational efficiency while fostering innovation and continuous learning.",
+   "category": "AI Skills & Talent",
+   "topics": [
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "AURA Academy",
+    "employee upskilling"
+   ],
+   "partners": [],
+   "impact": "equip employees with practical AI competencies to enhance supervision, risk management, compliance, and operational efficiency",
+   "source_url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=58",
+   "source_name": "CBUAE Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=58",
+     "name": "CBUAE Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:26:37+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf",
+    "page": 58,
+    "quote": "In response to rapid advancements in AI, the CBUAE launched AURA Academy (Artificial Intelligence Upskilling for Resource Advancement) to equip employees with practical AI competencies to enhance supervision, risk management, compliance, and operational efficiency, while fostering a culture of innovation and continuous learning."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "4335367ae508",
+   "bank_id": "cbuae",
+   "country": "AE",
+   "date": "2025-12-31",
+   "title": "CBUAE AI-Enabled Operational Risk Reporting and Integration",
+   "summary": "In 2025, CBUAE integrated Enterprise Risk Management and Operational Risk Management, standardized methodologies and deployed AI-enabled reporting. This enhances efficiency and provides real-time risk visibility across the organization.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "AI-enabled reporting",
+    "risk integration"
+   ],
+   "partners": [],
+   "impact": "enhancing efficiency and real-time risk visibility",
+   "source_url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=68",
+   "source_name": "CBUAE Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=68",
+     "name": "CBUAE Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:26:37+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf",
+    "page": 68,
+    "quote": "In 2025, ERM and Operational Risk Management (ORM) were further integrated, methodologies standardised and AI-enabled reporting deployed, enhancing efficiency and real-time risk visibility."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "aafe9593e10e",
+   "bank_id": "cbuae",
+   "country": "AE",
+   "date": "2025-12-31",
+   "title": "CBUAE Model Risk Management Policy for AI Applications",
+   "summary": "In 2025, CBUAE implemented a comprehensive Model Risk Management (MRM) Policy that establishes governance for conventional and AI applications. The policy ensures decision-making is accurate, transparent, and resilient through a holistic approach to managing model design and usage risks.",
+   "category": "Fraud, Risk & Compliance",
+   "topics": [
+    "Fraud, Risk & Compliance"
+   ],
+   "tags": [
+    "Model Risk Management",
+    "AI oversight"
+   ],
+   "partners": [],
+   "impact": "establishes a rigorous governance framework for conventional and AI applications ensuring that decision-making is accurate, transparent, and resilient",
+   "source_url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=68",
+   "source_name": "CBUAE Annual Report 2025",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf#page=68",
+     "name": "CBUAE Annual Report 2025"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:26:37+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2025,
+    "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf",
+    "page": 68,
+    "quote": "In 2025, the CBUAE significantly enhanced its risk oversight capabilities with the implementation of a comprehensive Model Risk Management (MRM) Policy. It establishes a rigorous governance framework for conventional and AI applications ensuring that decision-making is accurate, transparent, and resilient."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "0804fa8a2d73",
@@ -16502,6 +17212,220 @@
     "AI Skills & Talent",
     "Generative AI & Copilots"
    ]
+  },
+  {
+   "id": "141f8764047f",
+   "bank_id": "gfh",
+   "country": "BH",
+   "date": "2024-12-31",
+   "title": "GFH AI-Powered Mobile App with OpenAI Virtual Assistant",
+   "summary": "GFH launched a new mobile app in 2024 featuring a text and voice-enabled AI-powered virtual assistant powered by OpenAI that provides 24/7 customer support, answering investment and account queries, offering quick tips and assisting with transactions. The app enables GFH to provide clients with prompt and efficient support across the GCC region.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "OpenAI",
+    "virtual assistant",
+    "24/7 support",
+    "investment queries"
+   ],
+   "partners": [
+    "OpenAI"
+   ],
+   "impact": "Provides 24/7 customer support with text and voice capabilities",
+   "source_url": "https://gfh.com/wp-content/uploads/2025/05/GFH-Annual-Report-2024.pdf#page=150",
+   "source_name": "GFH Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://gfh.com/wp-content/uploads/2025/05/GFH-Annual-Report-2024.pdf#page=150",
+     "name": "GFH Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:35:06+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://gfh.com/wp-content/uploads/2025/05/GFH-Annual-Report-2024.pdf",
+    "page": 150,
+    "quote": "GFH's AI-driven virtual assistant, powered by OpenAI, provides 24/7 customer support, answering investment and account queries, offering quick tips and assisting with transactions"
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "413c5553832c",
+   "bank_id": "gfh",
+   "country": "BH",
+   "date": "2024-12-31",
+   "title": "GFH Three Strategic Pillars including AI & ML Data Analytics Initiative",
+   "summary": "GFH established three core strategic pillars including Pillar 3 focused on leveraging data analytics with emphasis on AI & ML by analyzing the Group's existing datasets to provide insights and recommendations for continuous improvement. The pillars also include Pillar 1 introducing mobile-friendly platforms such as an app, chatbot and Open AI integration.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "strategic pillars",
+    "AI & ML",
+    "data analytics",
+    "chatbot"
+   ],
+   "partners": [],
+   "impact": "Continuous improvement across the Group through AI-driven data insights",
+   "source_url": "https://gfh.com/wp-content/uploads/2025/05/GFH-Annual-Report-2024.pdf#page=150",
+   "source_name": "GFH Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://gfh.com/wp-content/uploads/2025/05/GFH-Annual-Report-2024.pdf#page=150",
+     "name": "GFH Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:35:06+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://gfh.com/wp-content/uploads/2025/05/GFH-Annual-Report-2024.pdf",
+    "page": 150,
+    "quote": "Pillar 3 – Leverage Data Analytics With a Focus on AI & ML: By analyzing our Group's existing datasets, we can provide insights and the necessary reports and recommendations for continuous improvement across the Group."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "c3cd0f6e1ce3",
+   "bank_id": "gfh",
+   "country": "BH",
+   "date": "2024-12-31",
+   "title": "GFH US$96 Million AI Infrastructure Fund Launch",
+   "summary": "GFH launched a US$96 million US AI Infrastructure Fund focusing on AI-driven data centers and data mobility platforms, strategically investing through five leading platforms: Vantage Data Centers, DataBank, Switch, Vertical Bridge, and Novva. This investment capitalizes on opportunities in the rapidly growing digital real estate sector.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "infrastructure fund",
+    "data centers",
+    "digital real estate"
+   ],
+   "partners": [],
+   "impact": "US$96 million investment in AI infrastructure across five leading data center platforms",
+   "source_url": "https://gfh.com/wp-content/uploads/2025/05/GFH-Annual-Report-2024.pdf#page=145",
+   "source_name": "GFH Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://gfh.com/wp-content/uploads/2025/05/GFH-Annual-Report-2024.pdf#page=145",
+     "name": "GFH Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:35:06+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://gfh.com/wp-content/uploads/2025/05/GFH-Annual-Report-2024.pdf",
+    "page": 145,
+    "quote": "During the year, we launched the US$96 million US AI Infrastructure Fund, building on opportunities in the rapidly growing digital real estate sector, focusing on AI-driven data centers and data mobility platforms. The Fund is strategically investing in five leading platforms—Vantage Data Centers, DataBank, Switch, Vertical Bridge, and Novva—through two reputable partners, ensuring exposure to scalable, high- demand infrastructure."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "8193fc16be85",
+   "bank_id": "gfh",
+   "country": "BH",
+   "date": "2024-12-31",
+   "title": "GFH Expanded Technology Portfolio with AI-Driven Platforms Investment",
+   "summary": "GFH significantly expanded its global technology investment portfolio by backing over 25 high-growth, late-stage technology companies in disruptive sectors including AI-driven platforms, cloud & enterprise software, cyber security, fintech & digital payments, and E-commerce. GFH's technology strategy is closely aligned with emerging trends including AI-driven fintech innovation and next-gen digital infrastructure investments.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "25+ companies",
+    "AI platforms",
+    "fintech",
+    "cyber security"
+   ],
+   "partners": [],
+   "impact": "Portfolio backing of 25+ high-growth technology companies across AI and digital sectors with executed exits from Snowflake, Rubrik, UiPath, DoorDash, and Klaviyo",
+   "source_url": "https://gfh.com/wp-content/uploads/2025/05/GFH-Annual-Report-2024.pdf#page=155",
+   "source_name": "GFH Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://gfh.com/wp-content/uploads/2025/05/GFH-Annual-Report-2024.pdf#page=155",
+     "name": "GFH Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:35:06+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://gfh.com/wp-content/uploads/2025/05/GFH-Annual-Report-2024.pdf",
+    "page": 155,
+    "quote": "GFH has significantly expanded its global technology investment portfolio, backing over 25 high-growth, late- stage technology companies in disruptive sectors, including cloud & enterprise software, cyber security, fintech & digital payments, E-commerce & AI-driven platforms."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
+  },
+  {
+   "id": "5c28e2249590",
+   "bank_id": "gfh",
+   "country": "BH",
+   "date": "2024-12-31",
+   "title": "GFH AI-Powered App as Technical Strength Evidence",
+   "summary": "GFH's technical strength is evidenced by its new AI-powered App, which puts smart financial tools into clients' hands. This app represents GFH's investment in customer-facing AI technology.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "technical strength",
+    "customer tools"
+   ],
+   "partners": [],
+   "impact": "Smart financial tools deployed to clients",
+   "source_url": "https://gfh.com/wp-content/uploads/2025/05/GFH-Annual-Report-2024.pdf#page=11",
+   "source_name": "GFH Annual Report 2024",
+   "source_title": "",
+   "sources": [
+    {
+     "url": "https://gfh.com/wp-content/uploads/2025/05/GFH-Annual-Report-2024.pdf#page=11",
+     "name": "GFH Annual Report 2024"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:35:06+00:00",
+   "source_type": "annual_report",
+   "report": {
+    "year": 2024,
+    "url": "https://gfh.com/wp-content/uploads/2025/05/GFH-Annual-Report-2024.pdf",
+    "page": 11,
+    "quote": "GFH's technical strength continued to grow as evidenced by our new AI-powered App, which puts smart financial tools into our clients' hands."
+   },
+   "verification": {
+    "level": "official",
+    "evidence": "annual report",
+    "checked": "2026-11-18"
+   }
   },
   {
    "id": "6c5dda5831b3",

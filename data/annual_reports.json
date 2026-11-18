@@ -129,6 +129,15 @@
    "date": "2024-12-31"
   }
  ],
+ "cbuae": [
+  {
+   "year": 2025,
+   "url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf",
+   "pages": 76,
+   "items": 9,
+   "date": "2025-12-31"
+  }
+ ],
  "alrajhi": [
   {
    "year": 2025,
@@ -451,6 +460,22 @@
    "url": "https://www.bisb.com/sites/default/files/2025-03/bh2407088_-_bisb_-_annual_report_faw_single_pages_english.pdf",
    "pages": 388,
    "items": 8,
+   "date": "2024-12-31"
+  }
+ ],
+ "gfh": [
+  {
+   "year": 2025,
+   "url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf",
+   "pages": 159,
+   "items": 7,
+   "date": "2025-12-31"
+  },
+  {
+   "year": 2024,
+   "url": "https://gfh.com/wp-content/uploads/2025/05/GFH-Annual-Report-2024.pdf",
+   "pages": 337,
+   "items": 5,
    "date": "2024-12-31"
   }
  ]

@@ -2140,5 +2140,59 @@
   "source_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9aa00weFlzZl9ZSmJIY2NZVXE1aUg2clEwMndsZmJfNXotbDFQQlU5d0JWS1licFpxZ2ZmWEJoWnFXZFI5Rjdn?oc=5",
   "source": "بنكي",
   "reason": "SAIB is not named in the source"
+ },
+ {
+  "checked": "2026-11-18",
+  "bank_id": "saib",
+  "date": "2026-11-15",
+  "title": "بنك saib يبحث إقامة شراكة استراتيجية مع «Synapse Analytics» لتطوير حلول الذكاء الاصطناعي",
+  "source_url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPY19CZkstbWI0cGJhVXhzR0R4el91VVN2bkZmWFlCZkc1S2ItNmtsQXdBR1dqalVKX3pLaUwtdDdjdXAyNFhPR0cyRWNiOElYSVpIOVRYUU1YUDkwVHdKeVNzTGdvOWZnRFB1c1NhWnd1T0hJRnl4S0dtOWlSQzRoRlcyXzNOU0lQYWVZcnhCampmTWRob3RjaTdCMmt1NU9VWFVmYkdialNxS0dxVEhpVWI5LXo1Wm8yb25GaUpKQ1VKZ21ZWkdWZjZ4bTlQaUZBa0VXc0J5YmZiNWtfQU84c3hMOGtVSFJSSi01R05iX280eEduZGUxZ0dzV0F1YzVFQ2JNelQxSHBscWcwYnJLSGlPdXBDV2VlM1RIWDN2cmRJd0lteXIyNXJhSG1IdVBMSE1qYUlWR0dYbFJXTzdqZ2VDTQ?oc=5",
+  "source": "عالم المال",
+  "reason": "SAIB is not named in the source"
+ },
+ {
+  "checked": "2026-11-18",
+  "bank_id": "cbuae",
+  "date": "2025-12-31",
+  "title": "CBUAE Strategic Foresight Programme with AI-Enabled Trend Analysis Tool",
+  "source_url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf",
+  "source": "CBUAE Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-11-18",
+  "bank_id": "cbuae",
+  "date": "2025-12-31",
+  "title": "CBUAE Machine Learning and Econometric Modelling for Monetary Policy Analysis",
+  "source_url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf",
+  "source": "CBUAE Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-11-18",
+  "bank_id": "cbuae",
+  "date": "2025-12-31",
+  "title": "CBUAE Sovereign Financial Cloud Platform with Advanced AI and Analytics",
+  "source_url": "https://centralbank.ae/media/wk3epmd1/annual-report-2025-en.pdf",
+  "source": "CBUAE Annual Report 2025",
+  "reason": "fact-check: Claims omit Core42 as the partner in developing the sovereign financial cloud platform."
+ },
+ {
+  "checked": "2026-11-18",
+  "bank_id": "gfh",
+  "date": "2025-12-31",
+  "title": "GFH AI Virtual Agents 'Sara' and 'Ahmed'",
+  "source_url": "https://gfh.com/wp-content/uploads/2026/03/GFH7261-GFH-Annual-Report-2025-Double-Spread-v25.pdf",
+  "source": "GFH Annual Report 2025",
+  "reason": "quote not found word for word in the report"
+ },
+ {
+  "checked": "2026-11-18",
+  "bank_id": "gfh",
+  "date": "2024-12-31",
+  "title": "GFH Strategic Focus on AI-Driven Energy and Infrastructure Investment",
+  "source_url": "https://gfh.com/wp-content/uploads/2025/05/GFH-Annual-Report-2024.pdf",
+  "source": "GFH Annual Report 2024",
+  "reason": "fact-check: The evidence does not describe GFH's own AI-driven energy strategy; it only mentions that AI adoption is driving energy demand as context for why energy investments are relevant."
  }
 ]

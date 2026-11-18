@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-17T05:19:30+00:00",
+ "updated_at": "2026-11-18T04:39:45+00:00",
  "items": [
   {
    "id": "1c74a812a9bc",
@@ -29,6 +29,14 @@
     {
      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPV3NlQ0dNV2RFOU8xblh2M0lUaklTLVMzUC1YRy04M21INVZnNGxGcW5DZ1ZmakNPZkJwSUxmTnRmY2R1eFU1SkJWVXlBNVBuVnFEekFyUndFVVZTY1Q1NEUyWmk2VTVjYm55MFIzay04NGdjdlQtRGxrMTRKazN2OElzOVhrbENHaWdtc1g0Sm1kckYxMHE5YWZ4TzUxQlpSNFJic0ZwTVYwbmVYMlkyM3FiYnJ4LUZ6Vk1jME9VLVZxMkZNWTZ6QUt0RlRCUUk?oc=5",
      "name": "ANI News"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQUFZFSm9kaFYzbDFtWFppTW4ybFUweFB1cmk3Yjk1NGhnWnhFOFNZVVd0bHNrR3NVVkZPdXIyODAzeUwwM0tyU2FoS3hBYzJKazdXTlNUUW1wVFVnZlNCZV95Z2tFaDBQS3o5clFrWG5lQkU0UHJNeUx2R0FTZTVLNXFMVTRGTEplcUJ0RVJBeVJNekphelVWZlQ0SWhiVFhSMmlrQnJOZjRYTzJaMzJHejNsWkt5XzJ1R2gwQzlFMktjUF9HSFpBekNRcEhpZnZWYjVZVW9qeHlhRUNkV3ctSGJRRDZETVBnTEJVbExhOVJabWx2M0d6d9IB_gFBVV95cUxQT0lzNFNUUGJGb3NnQnB0OHpibkR2SWRseHNqbngzYzQwSFI2TGdIdWE0SDVBNkh5SzcyWURqN3NjSkZRWGRzNDFXeVlQQWozN1JCVjlNSm04Uk14Y1ZnMnVKektoTzVJSkJCemZIVFllT01qSHhoUmJ1U2xYR0RNLXNaRGh3eUVfQ2lyRWgzUjNST3Vyb3NacHNIVURaUjVKbXMySk9WbGptekg4UXRSZGpWMVNtWC1MLVlpcWZsM1ZYZ1lnYklhUXlINkViZzBvcjA5cWU1WlkybURtcTJXLVNyYXI2d1lGdnQ3R2VQRXVjbUlrQ2JuWDkzSmZWZw?oc=5",
+     "name": "The Times of India"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MbUlGeDZIMDFuT2lEdWVzWVo2Yjk3Y0M0NTdQVnNmOWxWaWYtWU5YV3NQU3o3RlA0UXU3Q2FiZjNwektWVVRqT21rRGhvbTZlNzA1Rkg5RzhkeXJXcXdCRXJLWlUyOE9lVDlqcmNSUUM?oc=5",
+     "name": "Wocult"
     }
    ],
    "language": "en",
@@ -38,7 +46,49 @@
     "evidence": "headline",
     "checked": "2026-11-16"
    },
-   "pdf_checked": "2026-11-16"
+   "pdf_checked": "2026-11-16",
+   "merged": [
+    {
+     "id": "cd0e178615a2",
+     "date": "2026-11-16",
+     "title": "AI agents could help banks generate nearly three times returns over three years",
+     "source_title": "AI agents could help banks generate nearly 3x returns over three years: McKinsey",
+     "source_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQUFZFSm9kaFYzbDFtWFppTW4ybFUweFB1cmk3Yjk1NGhnWnhFOFNZVVd0bHNrR3NVVkZPdXIyODAzeUwwM0tyU2FoS3hBYzJKazdXTlNUUW1wVFVnZlNCZV95Z2tFaDBQS3o5clFrWG5lQkU0UHJNeUx2R0FTZTVLNXFMVTRGTEplcUJ0RVJBeVJNekphelVWZlQ0SWhiVFhSMmlrQnJOZjRYTzJaMzJHejNsWkt5XzJ1R2gwQzlFMktjUF9HSFpBekNRcEhpZnZWYjVZVW9qeHlhRUNkV3ctSGJRRDZETVBnTEJVbExhOVJabWx2M0d6d9IB_gFBVV95cUxQT0lzNFNUUGJGb3NnQnB0OHpibkR2SWRseHNqbngzYzQwSFI2TGdIdWE0SDVBNkh5SzcyWURqN3NjSkZRWGRzNDFXeVlQQWozN1JCVjlNSm04Uk14Y1ZnMnVKektoTzVJSkJCemZIVFllT01qSHhoUmJ1U2xYR0RNLXNaRGh3eUVfQ2lyRWgzUjNST3Vyb3NacHNIVURaUjVKbXMySk9WbGptekg4UXRSZGpWMVNtWC1MLVlpcWZsM1ZYZ1lnYklhUXlINkViZzBvcjA5cWU1WlkybURtcTJXLVNyYXI2d1lGdnQ3R2VQRXVjbUlrQ2JuWDkzSmZWZw?oc=5",
+     "source_name": "The Times of India",
+     "summary": "McKinsey research indicates AI agents could generate nearly three times returns for banks over three years, providing substantial financial benefits from early AI adoption in banking operations.",
+     "how": "ai",
+     "anchor": "AI agents could help banks generate nearly three times returns over three years"
+    }
+   ]
+  },
+  {
+   "id": "5fd523b9bb1f",
+   "date": "2026-11-13",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "مسؤول في «المركزي الأوروبي»: الذكاء الاصطناعي يقود ربع نمو الإقراض للشركات",
+   "summary": "A European Central Bank official states that artificial intelligence is driving approximately one-quarter of corporate lending growth. The assessment highlights AI's material impact on banking sector credit expansion.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi9wRBVV95cUxQY0ZfdkdxUFNIZ054MEZwWFJueGNDT3I5LUViYlFxLUJRUEJNSnp5ZmJXeUZCSXpNOUo5TjQtZG9XUkxqUHFscE50TnNvc2RnQktfSFhNenBOSFowbkRNdDdVVzRWNk5adXRCQkZESVNTMG9EcVhOalhxcmZIT2N1VWRQSWhiZ3NPSmdxNEg4Mm00cVJFb3J3Ql9pamJXNjFaVzgyVTBxbHgtMlJtY2tvT0N6SGZRSXJPNkI4WkstcmhOZ1UwclNScTVQOWU0SGJqcFFEaXQxVF9FM2pDelRIOF9kbDNHWFQ1TV96N1NJM3JCU1pOVXJtYmdyYzVVZnJoWWQtanpXNFRLUWlyVmdTakM4SlRzcnpQSk5qeFJDRGNaZjZXM01VZzFSemlDZnVsdUE1aEtKSmp4a2hSejN4VVk0QTVqWHY0MjNUY1JRc3IwcHlPQXJVd21IaVlNUC13cDAxRDdMLXhXNmhJX2wyR0I1MmZSdGxtajVPRjJaUTdVTjYzNXhFVEtJcmZRZnYwR1ZXYVRXU1BPdTZXOV9TUVp0cGwxeGpwakVlakNtTndZbFBSZkRuNlRvZjhkYW0xVkpCdWhpTHFsX2VDcWlNcEVhNHlySkpGODFjVHI0eHVVQk5jeUVHNUI2TDlPWktzNVlwU0lwQW1jbVNSZnF1RXU3ZHJpQXBiVVhWbWhmQkdaUzFiVXV5ZmhQWGNNLWNlQ2dIOTkzZEVPYW5YMzZ2VWs1aDNzUmJiUnNhbXYxdHlYLU1xY3B1cjY1clJ1aEtfY0RhS0V3UXNaS25abFJjSnl0cENRbl81R04zeDFWUVlvbHpkLTlN?oc=5",
+   "source_name": "الشرق الأوسط",
+   "source_title": "مسؤول في «المركزي الأوروبي»: الذكاء الاصطناعي يقود ربع نمو الإقراض للشركات",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi9wRBVV95cUxQY0ZfdkdxUFNIZ054MEZwWFJueGNDT3I5LUViYlFxLUJRUEJNSnp5ZmJXeUZCSXpNOUo5TjQtZG9XUkxqUHFscE50TnNvc2RnQktfSFhNenBOSFowbkRNdDdVVzRWNk5adXRCQkZESVNTMG9EcVhOalhxcmZIT2N1VWRQSWhiZ3NPSmdxNEg4Mm00cVJFb3J3Ql9pamJXNjFaVzgyVTBxbHgtMlJtY2tvT0N6SGZRSXJPNkI4WkstcmhOZ1UwclNScTVQOWU0SGJqcFFEaXQxVF9FM2pDelRIOF9kbDNHWFQ1TV96N1NJM3JCU1pOVXJtYmdyYzVVZnJoWWQtanpXNFRLUWlyVmdTakM4SlRzcnpQSk5qeFJDRGNaZjZXM01VZzFSemlDZnVsdUE1aEtKSmp4a2hSejN4VVk0QTVqWHY0MjNUY1JRc3IwcHlPQXJVd21IaVlNUC13cDAxRDdMLXhXNmhJX2wyR0I1MmZSdGxtajVPRjJaUTdVTjYzNXhFVEtJcmZRZnYwR1ZXYVRXU1BPdTZXOV9TUVp0cGwxeGpwakVlakNtTndZbFBSZkRuNlRvZjhkYW0xVkpCdWhpTHFsX2VDcWlNcEVhNHlySkpGODFjVHI0eHVVQk5jeUVHNUI2TDlPWktzNVlwU0lwQW1jbVNSZnF1RXU3ZHJpQXBiVVhWbWhmQkdaUzFiVXV5ZmhQWGNNLWNlQ2dIOTkzZEVPYW5YMzZ2VWs1aDNzUmJiUnNhbXYxdHlYLU1xY3B1cjY1clJ1aEtfY0RhS0V3UXNaS25abFJjSnl0cENRbl81R04zeDFWUVlvbHpkLTlN?oc=5",
+     "name": "الشرق الأوسط"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-11-18T04:39:29+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-18"
+   },
+   "pdf_checked": "2026-11-18"
   },
   {
    "id": "94813892354a",
