@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18T04:39:45+00:00",
+ "updated_at": "2026-11-19T04:16:40+00:00",
  "items": [
   {
    "id": "e17d458ae1fa",
@@ -857,6 +857,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN3d2SkN1UUhJUFFwNmthT21QdWw4b19VaXl2RWpycUdUTmhWeHp6Ykh6WWg3anRUS0VVVlZELVRrekpWNnlZMGRfUGNUNGNqVUVjOGVaOXRaN0NiZzV5ZTk3WXZBTjFuaC1aOTVjNEhKUGo0S2FfbjIwcjQ2NHBRbWhubnhYSFBJaXVzUXd0Mk1fTE5MQjYycWVpVnRNMTVlVGI3Uk9SeDRPRWxxdzlscURFOUdwd2I1Wm1ZWmhfV2hqWGE3RGw5UlJiaWRkSWNHVnY0MUlqTQ?oc=5",
      "name": "Gulf Daily News (Bahrain)"
+    },
+    {
+     "url": "https://nbbonline.com/news/43327/",
+     "name": "NBB newsroom"
     }
    ],
    "language": "ar",
@@ -1193,7 +1197,8 @@
     "Banking automation",
     "IBM",
     "Integration",
-    "IBM Bob"
+    "IBM Bob",
+    "IBM partnership"
    ],
    "partners": [
     "IBM"
@@ -1230,6 +1235,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNajc3YnM4R2JOQTF4bHlLSmhxampacE02YjIwVEJOU3lVb0JCYUFMYS11NTAxaW1KN3JCZTYzZDlMem5lZ3FZSVpvaUluZklnOFZLYVNRN1l4bk53ZlRPQmtxWXZiS1RpQlAyLXplRzBsUUZGVHExemVTem9lQ1lxamF6bEFNMDNkV2hPNDV4RW12dnFqdzJZSG5aQndrdVNaWS1ucw?oc=5",
      "name": "menafn"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNkZhdXhBWE16b0kyM0czZHFTWndMdWFod3hlbFlBZS1xeGN6TXR6ZWF0TTNfLTd1aFBCRlJ6dWpqVERfd3VFTnVkRGk5VnhkcDBPVFlGaThNOVZjcThsel9tdHRGSEZUei0wMGJLT2xReXZnZUduVm8wZTgwa3VXZmJma21VQmdNZWRwWEVKUEMyemo1UHR3TGNQTWN1c3drM09hRVFESWJ1VlNORE9nWFFsd0JpWjVOWmIwdklKTl90UzFJ?oc=5",
+     "name": "TradingView"
     }
    ],
    "language": "en",
@@ -1259,6 +1268,17 @@
      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWFhpUmY3Rl9DRWpzTVpvZDFSOWU2N25PSWFoNldfcTJGSzczeDF6SkhNdWU5ZS11ZFJ6cm5uTmY4NGN1cW11U2pGRWNwRGlJYXZYRDkybEtxUjVZRkJmSlNwOWZPSFE4S2FzMlRYVWFWaFdic2V0UXJ0TzFrcXNjelZCYV9pNEhxbmYwUg?oc=5",
      "source_name": "TradeArabia",
      "summary": "Mashreq is piloting IBM Bob, an agentic AI solution, to advance its capabilities in this area.",
+     "how": "ai",
+     "anchor": "Mashreq and IBM pilot agentic AI"
+    },
+    {
+     "id": "ac5da58fec51",
+     "date": "2026-10-12",
+     "title": "Mashreq pilots IBM Bob to advance Agentic AI",
+     "source_title": "ZAWYA: Mashreq pilots IBM Bob to advance Agentic AI",
+     "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNkZhdXhBWE16b0kyM0czZHFTWndMdWFod3hlbFlBZS1xeGN6TXR6ZWF0TTNfLTd1aFBCRlJ6dWpqVERfd3VFTnVkRGk5VnhkcDBPVFlGaThNOVZjcThsel9tdHRGSEZUei0wMGJLT2xReXZnZUduVm8wZTgwa3VXZmJma21VQmdNZWRwWEVKUEMyemo1UHR3TGNQTWN1c3drM09hRVFESWJ1VlNORE9nWFFsd0JpWjVOWmIwdklKTl90UzFJ?oc=5",
+     "source_name": "TradingView",
+     "summary": "Mashreq is piloting IBM Bob to advance its agentic AI capabilities.",
      "how": "ai",
      "anchor": "Mashreq and IBM pilot agentic AI"
     }

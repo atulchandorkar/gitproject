@@ -1,6 +1,97 @@
 {
- "updated_at": "2026-11-18T04:39:45+00:00",
+ "updated_at": "2026-11-19T04:16:40+00:00",
  "items": [
+  {
+   "id": "cd576f9c94f5",
+   "date": "2026-11-18",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "BNP Paribas scales generative AI across banking and mortgage journeys",
+   "summary": "BNP Paribas expands generative AI deployment across retail and mortgage banking processes to improve customer journeys. The case demonstrates enterprise-wide AI scaling in customer-facing operations.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZkkwc2k0TklpUW9CNXk1UG9rWVdZRHpSNkJya0VGSjBlMUFKbTc5VS1rbkpQM2ZISHY4V0U1WDAzWlFUSGdrc1BsbkJYSl8yRmpvUWE5b1otVkp1RDB2Rm1NN2JyMndtajZObUQ4RFlDWG9UYVBkaXVBQVJEbDFGZzdvNzgyaTZNaDZIUGF4WElpYWdXYlYwcWZsY1lscWFf?oc=5",
+   "source_name": "The Digital Banker",
+   "source_title": "BNP Paribas scales generative AI across banking and mortgage journeys",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZkkwc2k0TklpUW9CNXk1UG9rWVdZRHpSNkJya0VGSjBlMUFKbTc5VS1rbkpQM2ZISHY4V0U1WDAzWlFUSGdrc1BsbkJYSl8yRmpvUWE5b1otVkp1RDB2Rm1NN2JyMndtajZObUQ4RFlDWG9UYVBkaXVBQVJEbDFGZzdvNzgyaTZNaDZIUGF4WElpYWdXYlYwcWZsY1lscWFf?oc=5",
+     "name": "The Digital Banker"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-19T04:16:21+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-19"
+   },
+   "pdf_checked": "2026-11-19"
+  },
+  {
+   "id": "96d8c6900a00",
+   "date": "2026-11-18",
+   "category": "Events & Initiatives",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "ASEAN banks unite for AI governance and cybersecurity advancements",
+   "summary": "Regional banking initiative establishes common standards for AI governance and cyber resilience. Industry consortium effort on AI policy harmonization across Southeast Asia.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV3gzUHdrUF9aRVNrZ1NRRENpaDFuLVNBMXdLM0QtbnVQaG5wa3N4d3hmVlJkSzROVGYyRWt2T3I5Q2NRZk5GNmdNcTV6MjU1YjJzNnVaZ29KUnpmLUlxekdSd3REeHhWNkZsOERMQVZzQ2gwb0JEX2RKd3FrdklhQUZ5XzduampV?oc=5",
+   "source_name": "Daily Tribune",
+   "source_title": "ASEAN Banks Unite for AI Governance and Cybersecurity Advancements",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV3gzUHdrUF9aRVNrZ1NRRENpaDFuLVNBMXdLM0QtbnVQaG5wa3N4d3hmVlJkSzROVGYyRWt2T3I5Q2NRZk5GNmdNcTV6MjU1YjJzNnVaZ29KUnpmLUlxekdSd3REeHhWNkZsOERMQVZzQ2gwb0JEX2RKd3FrdklhQUZ5XzduampV?oc=5",
+     "name": "Daily Tribune"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-19T04:16:21+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-19"
+   },
+   "pdf_checked": "2026-11-19"
+  },
+  {
+   "id": "661937db6b00",
+   "date": "2026-11-18",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Why agentic AI alone will not improve banks without internal change",
+   "summary": "Analysis of organizational transformation required for successful agentic AI adoption in banking. Expert commentary on combining AI technology with internal process and cultural change.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdXI1MWZOcDJ4bUtOQlF5Q2tpSFFza3VTZmFOM0VXUTJzVEsxdXZsMU9zY25GSmpVSXdzVEdJa196WVMtVWZFRlctZnpuYzdDSnljdE5iQmQzNnFnSC1NN2ItNmViOHZ1Z3ZCUDFicHNWTHVJbTRublIyT1BQUDRnekdGbFBkdk5pM3hOcHhIZDhnNFA5N2c?oc=5",
+   "source_name": "Singapore Business Review",
+   "source_title": "Why agentic AI alone will not improve banks without internal change",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdXI1MWZOcDJ4bUtOQlF5Q2tpSFFza3VTZmFOM0VXUTJzVEsxdXZsMU9zY25GSmpVSXdzVEdJa196WVMtVWZFRlctZnpuYzdDSnljdE5iQmQzNnFnSC1NN2ItNmViOHZ1Z3ZCUDFicHNWTHVJbTRublIyT1BQUDRnekdGbFBkdk5pM3hOcHhIZDhnNFA5N2c?oc=5",
+     "name": "Singapore Business Review"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSENhUmZaUml3WkZldGFfXzZqOWNkWkpESnpJVGtrOEFGaWFlcWt0RC00RkdBNS1fSEF1R2NVLVdmVDFQMG15Tmg2bVdUQWhHMFo2OXFFdDN6RHV4dEo2aDltUVp6S29wYzF3bDFJTllnb2o1dVhjOFFVT2JDVERMYXNWb29sNFlHOXRBc2h4dEZoVF9RSWF3Mnc5WmFwaDA?oc=5",
+     "name": "Insurance Asia"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-19T04:16:21+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-11-19"
+   },
+   "pdf_checked": "2026-11-19"
+  },
   {
    "id": "1c74a812a9bc",
    "date": "2026-11-16",
@@ -742,6 +833,35 @@
     "checked": "2026-11-07"
    },
    "pdf_checked": "2026-11-07"
+  },
+  {
+   "id": "3caeaa62f939",
+   "date": "2026-11-05",
+   "category": "Expert Views",
+   "publisher": "Oliver Wyman",
+   "countries": [
+    "Global"
+   ],
+   "title": "How central banks can prioritize AI for lasting value",
+   "summary": "Oliver Wyman analysis on strategic priorities for central banks implementing artificial intelligence. Expert guidance on building sustainable AI value in central banking operations.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaGM4Q1ZDdHlENDhZeGRFRmUtVTVodENVRWtGbjFCZnZzMExydTlOUTYzRkt6d05nZnBiak1BdnFqUnlfSklKZHdqbGNRV2NVZG00R1JrMllYdGZDb3BjejUwVERyR3J1UUpTSm9xdlRERFhNOGt0TGg4ZTR2LWZXMmt4d3VoT0lLMDQtSndwa21XU3E0bFFGQ1VDT1lVNVlfMzRuMDRwTU11eUJFQ2c?oc=5",
+   "source_name": "Oliver Wyman",
+   "source_title": "How central banks can prioritize AI for lasting value",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaGM4Q1ZDdHlENDhZeGRFRmUtVTVodENVRWtGbjFCZnZzMExydTlOUTYzRkt6d05nZnBiak1BdnFqUnlfSklKZHdqbGNRV2NVZG00R1JrMllYdGZDb3BjejUwVERyR3J1UUpTSm9xdlRERFhNOGt0TGg4ZTR2LWZXMmt4d3VoT0lLMDQtSndwa21XU3E0bFFGQ1VDT1lVNVlfMzRuMDRwTU11eUJFQ2c?oc=5",
+     "name": "Oliver Wyman"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-19T04:16:21+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-11-19"
+   },
+   "pdf_checked": "2026-11-19"
   },
   {
    "id": "944d7d6c1424",
