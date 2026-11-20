@@ -1,6 +1,35 @@
 {
- "updated_at": "2026-11-19T04:16:40+00:00",
+ "updated_at": "2026-11-20T04:07:18+00:00",
  "items": [
+  {
+   "id": "6701bc143a64",
+   "date": "2026-11-19",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "BMO Achieves Quantum Utility Milestone for AI-Driven Financial Services",
+   "summary": "BMO reached a quantum computing utility milestone with applications to AI-driven financial services. The achievement demonstrates progress in quantum-AI integration for banking.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbmhwbVVhSThaUGsxaGZkbWVRbHREdlNDS0tsZEVOUlNtNjJBVi1KVERObl9aZlZ4QXplMHBfQlNidkhMS1FiTG9iaTZqd25OM0plZnlEQkpmY0xxVG9IdE4weThPUWlEQTkyS1ZuMU84R3JHS1RjNjVXWTZEZVd6ZDFiRzdleVJHVFFuRTZOaldYOUZnakFtYlB3M19qOU1RWm5NTkpGNkMxZWdYZm9GS0xicw?oc=5",
+   "source_name": "FF News",
+   "source_title": "BMO Achieves Quantum Utility Milestone for AI-Driven Financial Services",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbmhwbVVhSThaUGsxaGZkbWVRbHREdlNDS0tsZEVOUlNtNjJBVi1KVERObl9aZlZ4QXplMHBfQlNidkhMS1FiTG9iaTZqd25OM0plZnlEQkpmY0xxVG9IdE4weThPUWlEQTkyS1ZuMU84R3JHS1RjNjVXWTZEZVd6ZDFiRzdleVJHVFFuRTZOaldYOUZnakFtYlB3M19qOU1RWm5NTkpGNkMxZWdYZm9GS0xicw?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-20T04:07:00+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-20"
+   },
+   "pdf_checked": "2026-11-20"
+  },
   {
    "id": "cd576f9c94f5",
    "date": "2026-11-18",
@@ -91,6 +120,68 @@
     "checked": "2026-11-19"
    },
    "pdf_checked": "2026-11-19"
+  },
+  {
+   "id": "b2cccf3f0af9",
+   "date": "2026-11-18",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Ant Digital Technologies and JB Financial Group explore agentic AI applications in financial services",
+   "summary": "Ant Digital Technologies and JB Financial Group have signed a memorandum of understanding to investigate agentic artificial intelligence solutions for the financial services sector. The partnership represents collaborative effort to advance AI agent technology in banking.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObTRKeGFmNk5hVDVvbkVQTFZOM0dnUklWMUJFbWQwUGI1Zm4yZHhtazVyN2M2bTFBZHltTkhoVmZsZW1OOGZsVVloMTZYWkIyWVM2NHVIQVRtTnA0UGRndTN4ZkxhOFVxZDVubEZ4LWFRN0VHN3IzNE0wbFktejBmMmRoamNNcmNhU0MyUjlGLWpwLUpBS053N3B1UGkyZ3V3ME44?oc=5",
+   "source_name": "Yahoo Finance",
+   "source_title": "Ant Digital Technologies and JB Financial Group Sign MOU to Explore Agentic AI in Financial Services",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObTRKeGFmNk5hVDVvbkVQTFZOM0dnUklWMUJFbWQwUGI1Zm4yZHhtazVyN2M2bTFBZHltTkhoVmZsZW1OOGZsVVloMTZYWkIyWVM2NHVIQVRtTnA0UGRndTN4ZkxhOFVxZDVubEZ4LWFRN0VHN3IzNE0wbFktejBmMmRoamNNcmNhU0MyUjlGLWpwLUpBS053N3B1UGkyZ3V3ME44?oc=5",
+     "name": "Yahoo Finance"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUnU4bEwwUFJqOUVCaWFoUXgzUG40alJvWVBfNHh6NllpN2tBMkhyMnRWUC1qa1R2bTNReExMRHZCaHZOUlNDamFvZmdUYlZkaUZzaGlzRFJkVVhDQVFfc2EtZE80cGZmRm1xcGhNY3BVRHY2X2k5cWZVSGZGVG1rMVByWEFjZlJPUWFSRExSVDVPcm9IS19zemFsZVBzWDVzRTRCbC1tQzdtS1FUVmlBbEFZcUlSV2dxUUFCTHJlVjk1OUc0Skw0ckg5N0tWd3lyU09fN2Yyakx6OGYxRFI3V0hR?oc=5",
+     "name": "The Malaysian Reserve"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-18T04:39:29+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-11-18"
+   },
+   "pdf_checked": "2026-11-20"
+  },
+  {
+   "id": "7543e0a2e6d7",
+   "date": "2026-11-17",
+   "category": "Expert Views",
+   "publisher": "Deloitte",
+   "countries": [
+    "Global"
+   ],
+   "title": "From AI investment to trusted end user adoption and measurable impact in banking",
+   "summary": "Deloitte examines how banks transition from AI investment to measurable business outcomes through trusted end-user adoption. The analysis addresses achieving concrete impact from AI solutions in banking operations.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb3lxalpEOGN3a1N3dlY1VGlkUEdMMkhSakU5YzJkcXlNVUZJMllsakExaDBPYm9HdXMzaEJZVWlXRTNLQkc0aTFhdmhUa2Fkb2V2MXRkU0Rqck1meThRNGRQbmp2eUMxUXNwQkVzUGFRRzVXSEFpVURhZXo3NXJLQXFSREs1Vll4d2VWeUtkZXpXVU1XRnc?oc=5",
+   "source_name": "Deloitte",
+   "source_title": "From AI investment to trusted end user adoption and measurable impact in banking",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb3lxalpEOGN3a1N3dlY1VGlkUEdMMkhSakU5YzJkcXlNVUZJMllsakExaDBPYm9HdXMzaEJZVWlXRTNLQkc0aTFhdmhUa2Fkb2V2MXRkU0Rqck1meThRNGRQbmp2eUMxUXNwQkVzUGFRRzVXSEFpVURhZXo3NXJLQXFSREs1Vll4d2VWeUtkZXpXVU1XRnc?oc=5",
+     "name": "Deloitte"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-20T04:07:00+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-11-20"
+   },
+   "pdf_checked": "2026-11-20"
   },
   {
    "id": "1c74a812a9bc",
@@ -7124,39 +7215,6 @@
     "checked": "2026-10-06"
    },
    "pdf_checked": "2026-10-07"
-  },
-  {
-   "id": "2f2ad0f1cd8b",
-   "date": "2025-11-18",
-   "category": "Studies & Surveys",
-   "publisher": "Centre for Economic Policy Research",
-   "countries": [
-    "Global"
-   ],
-   "title": "AI for financial sector supervision in emerging markets and developing economies",
-   "summary": "A study by CEPR examines how AI can enhance financial sector supervision in emerging market and developing economies. The research provides evidence-based insights on AI applications for regulatory oversight.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ0lzWVdER1BVTXJzNXE1M3VQRmFUNzhQdEVaaGh2YXpxRjdtWkYwOTgyZ1R5dFc0WUpZSWZtNjBzX2Z5cF9TZXBReUtxRTZiaFlVclpSZUxiUkw4X055RXk1NlRMc0tKWXlxUjJKSFgtUFZsZi1jVzh1dWw0d21kd3B1cHZ2ZzlyaWYtNF9aLWdRMkxzaHZrTkRXMUNLX1ZldEZJT250c1Bnck50SXNTOFpreW83YkE?oc=5",
-   "source_name": "cepr.org",
-   "source_title": "AI for financial sector supervision: New evidence from emerging market and developing economies",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ0lzWVdER1BVTXJzNXE1M3VQRmFUNzhQdEVaaGh2YXpxRjdtWkYwOTgyZ1R5dFc0WUpZSWZtNjBzX2Z5cF9TZXBReUtxRTZiaFlVclpSZUxiUkw4X055RXk1NlRMc0tKWXlxUjJKSFgtUFZsZi1jVzh1dWw0d21kd3B1cHZ2ZzlyaWYtNF9aLWdRMkxzaHZrTkRXMUNLX1ZldEZJT250c1Bnck50SXNTOFpreW83YkE?oc=5",
-     "name": "cepr.org"
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ0lzWVdER1BVTXJzNXE1M3VQRmFUNzhQdEVaaGh2YXpxRjdtWkYwOTgyZ1R5dFc0WUpZSWZtNjBzX2Z5cF9TZXBReUtxRTZiaFlVclpSZUxiUkw4X055RXk1NlRMc0tKWXlxUjJKSFgtUFZsZi1jVzh1dWw0d21kd3B1cHZ2ZzlyaWYtNF9aLWdRMkxzaHZrTkRXMUNLX1ZldEZJT250c1Bnck50SXNTOFpreW83YkE?oc=5",
-     "name": "CEPR"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "corroborated",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-06"
   }
  ]
 }

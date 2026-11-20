@@ -1,6 +1,78 @@
 {
- "updated_at": "2026-11-19T04:16:40+00:00",
+ "updated_at": "2026-11-20T04:07:18+00:00",
  "items": [
+  {
+   "id": "b4bef62b2eb3",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2026-11-19",
+   "title": "Emirates NBD earns triple recognition for AI-powered banking",
+   "summary": "Emirates NBD has received three awards recognizing its AI-powered banking services.",
+   "category": "Awards & Rankings",
+   "topics": [
+    "Awards & Rankings",
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "AI banking",
+    "Awards"
+   ],
+   "partners": [],
+   "impact": "three awards",
+   "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRUdueDNJa1o1ejdRSG0yUk5pS2Z5aVNSSjlkX2RHNU9WNGE1SmJsTHhsWkV2bTdHTDgzU3lFbFJDRkp1Q202bC1wSDN1cFdyQkt0M1Y0RzNwczBJc1V1QnEtUWNuUVlxMWFPblJCWTJPTWdUZjZOVXlZWnZWay1IRV9wZUN5b2k3cU1sT1lldUh5dmtGSlZTQTBKS040NEhFeEE?oc=5",
+   "source_name": "TradeArabia",
+   "source_title": "Emirates NBD earns triple recognition for AI-powered banking",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRUdueDNJa1o1ejdRSG0yUk5pS2Z5aVNSSjlkX2RHNU9WNGE1SmJsTHhsWkV2bTdHTDgzU3lFbFJDRkp1Q202bC1wSDN1cFdyQkt0M1Y0RzNwczBJc1V1QnEtUWNuUVlxMWFPblJCWTJPTWdUZjZOVXlZWnZWay1IRV9wZUN5b2k3cU1sT1lldUh5dmtGSlZTQTBKS040NEhFeEE?oc=5",
+     "name": "TradeArabia"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-20T04:03:20+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-20"
+   }
+  },
+  {
+   "id": "72b91d9fe76e",
+   "bank_id": "cbd",
+   "country": "AE",
+   "date": "2026-11-19",
+   "title": "Zamp to power AI-driven operational transformation at Commercial Bank of Dubai",
+   "summary": "Zamp will enable AI-driven operational transformation at Commercial Bank of Dubai.",
+   "category": "Tech Vendor Partnerships",
+   "topics": [
+    "Tech Vendor Partnerships",
+    "AI Adoption in Operations"
+   ],
+   "tags": [
+    "Operational AI",
+    "Vendor partnership"
+   ],
+   "partners": [
+    "Zamp"
+   ],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOc2VPU2hFQ3pKRzBST09JNjZPeGQ2MDBFRkJqQW01UW1JbVprNUpvOUJpaEN1VFBKeXhiX29rSWtvOHlPd25ycTNMY2g5emdlem8zMUduOHA3WGNSLU9PdU1TbmNyT1RuSlR1SWp6eUVNaTB3SGJPYXI2Rkg3ZTdNcEM2dEZoQ0lBVmtmS0lkLW9XRkJiTmpVQjdLbDlBZXU0bDc2UGJRNFBRQ3NHbUY4blZjbWJMOC1lQU4ycGF6Vm9mRDhXV2QwZU1uSEpWajZDY0FaMg?oc=5",
+   "source_name": "PR Newswire",
+   "source_title": "Zamp to Power AI-Driven Operational Transformation at Commercial Bank of Dubai (CBD)",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOc2VPU2hFQ3pKRzBST09JNjZPeGQ2MDBFRkJqQW01UW1JbVprNUpvOUJpaEN1VFBKeXhiX29rSWtvOHlPd25ycTNMY2g5emdlem8zMUduOHA3WGNSLU9PdU1TbmNyT1RuSlR1SWp6eUVNaTB3SGJPYXI2Rkg3ZTdNcEM2dEZoQ0lBVmtmS0lkLW9XRkJiTmpVQjdLbDlBZXU0bDc2UGJRNFBRQ3NHbUY4blZjbWJMOC1lQU4ycGF6Vm9mRDhXV2QwZU1uSEpWajZDY0FaMg?oc=5",
+     "name": "PR Newswire"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-20T04:03:20+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-20"
+   }
+  },
   {
    "id": "e17d458ae1fa",
    "bank_id": "cbq",
