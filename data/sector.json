@@ -1,6 +1,64 @@
 {
- "updated_at": "2026-11-20T04:07:18+00:00",
+ "updated_at": "2026-11-21T04:04:53+00:00",
  "items": [
+  {
+   "id": "b372dec7da60",
+   "date": "2026-11-20",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "How AI is reshaping banking beyond the pilot phase",
+   "summary": "Analysis on AI's transformation of banking as the industry moves beyond experimental pilots. The piece examines structural changes and scalability challenges in AI-driven banking.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQR2QxbjRKMVdZcGVzblhnNTE1eXhvRmVPeG95U3R4cmN5TXFRNkQ3SzJxWkJBQTZvakZ3eDhoRzlCWjk4X0MwWXNCVllUNDhyQVBIdlFIRWVkRGpoX2dqS0ZFVkZKQ25BOXRSb2JISk9nZGdrbmhReTFTM0dKUlB1UmdfYk51cTdVcm92REo1Rzh0TzI5aV90dkV6dGQwQUJZQnFMbE9nek1CRzEzSnBhM29FYldvOWw4TXA5U0pzRjNMd9IB1AFBVV95cUxOcmtiUWFQZFBVemFlV191T215ODNVY3hsVkdkVVlnTG45SW1OY3RKS3ljOTZkaGN0RmRHWWt1bGNKRElQZm10RkUyS1BwbVJFUTQyekNSWVZTN2VDXzkyYUMtN2ZtM0drZi1USDF6bmhDRml6WlBKYUtyU0ZyMnFyX3p3QkpUOXZaOXpUVmJOcjlpTWlqdnZSWi1mYU1mREh2YzY2S1BSdkpqQUctZFB2OEhQZzMzSTVPS0FWQUNUS0pzWV9ReUt3cGtZd3E0a3ZaX3FFcg?oc=5",
+   "source_name": "Gulf News",
+   "source_title": "Fixing the foundations: How AI is reshaping banking beyond the pilot phase",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQR2QxbjRKMVdZcGVzblhnNTE1eXhvRmVPeG95U3R4cmN5TXFRNkQ3SzJxWkJBQTZvakZ3eDhoRzlCWjk4X0MwWXNCVllUNDhyQVBIdlFIRWVkRGpoX2dqS0ZFVkZKQ25BOXRSb2JISk9nZGdrbmhReTFTM0dKUlB1UmdfYk51cTdVcm92REo1Rzh0TzI5aV90dkV6dGQwQUJZQnFMbE9nek1CRzEzSnBhM29FYldvOWw4TXA5U0pzRjNMd9IB1AFBVV95cUxOcmtiUWFQZFBVemFlV191T215ODNVY3hsVkdkVVlnTG45SW1OY3RKS3ljOTZkaGN0RmRHWWt1bGNKRElQZm10RkUyS1BwbVJFUTQyekNSWVZTN2VDXzkyYUMtN2ZtM0drZi1USDF6bmhDRml6WlBKYUtyU0ZyMnFyX3p3QkpUOXZaOXpUVmJOcjlpTWlqdnZSWi1mYU1mREh2YzY2S1BSdkpqQUctZFB2OEhQZzMzSTVPS0FWQUNUS0pzWV9ReUt3cGtZd3E0a3ZaX3FFcg?oc=5",
+     "name": "Gulf News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-21T04:04:39+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-21"
+   },
+   "pdf_checked": "2026-11-21"
+  },
+  {
+   "id": "445598ce37fe",
+   "date": "2026-11-20",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Standard Bank Group automates AI risk assessment for generative AI",
+   "summary": "Standard Bank Group deployed automated AI risk assessment tools for generative AI with human oversight retained. The case demonstrates how a major bank operationalized AI governance and risk management.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcmZXem9adnJ3MXMzcDFTX2xPSEYzWVp1MmptNHpoc0g5MUFMcWkyOXpTYVBpdTlUZmh2SENWYWFya0NEaUQ5TzJvQmFCeEttV0FQa3hJUHhiTlR0VXZWQnVKUmxWTDBManlmc2tMTFdyUjNwTXZickVoWVFLY1VzUVVHdjc1T1BKQzZDbWJCbmhkLVVCbEZNVmR2UVVTZHpSRE1sZEZDT3JJN1FqU191Rnd0Skl6dEpH?oc=5",
+   "source_name": "Amazon Web Services (AWS)",
+   "source_title": "How Standard Bank Group automates AI risk assessment for generative AI",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcmZXem9adnJ3MXMzcDFTX2xPSEYzWVp1MmptNHpoc0g5MUFMcWkyOXpTYVBpdTlUZmh2SENWYWFya0NEaUQ5TzJvQmFCeEttV0FQa3hJUHhiTlR0VXZWQnVKUmxWTDBManlmc2tMTFdyUjNwTXZickVoWVFLY1VzUVVHdjc1T1BKQzZDbWJCbmhkLVVCbEZNVmR2UVVTZHpSRE1sZEZDT3JJN1FqU191Rnd0Skl6dEpH?oc=5",
+     "name": "Amazon Web Services (AWS)"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-21T04:04:38+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-21"
+   },
+   "pdf_checked": "2026-11-21"
+  },
   {
    "id": "6701bc143a64",
    "date": "2026-11-19",
@@ -182,6 +240,35 @@
     "checked": "2026-11-20"
    },
    "pdf_checked": "2026-11-20"
+  },
+  {
+   "id": "dad7bb07a980",
+   "date": "2026-11-16",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "AI is reshaping banking jobs but profit impact remains uncertain",
+   "summary": "AI is transforming banking jobs, but its ability to generate profits for banks remains unclear. This raises questions about the true business value of AI investments in financial services.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZHZIa09iVmpJVUxUeDNFV0hybmJBTmhQcHVzSmIxUk1QWXptVUUydG15TURacjltYlRnX1lqTTNZeDlpU3BYN3VHTVRNSURVaWpIQndaNjMtTUNaWTJtZmpFQ0ZibE9LVEdsVUNJb1lPckJsNXJkU0tGeHdlSUY5S1dXMzhzV1gxcFVqa0JCcXrSAZYBQVVfeXFMT0ZhUU5Ld3hwdUtKUnFWQ0dTNzBkazZnOXhsZzFtY2dXNDV4blVIOWpuakY0NkxFOUl4aDd4RmhVUzg2NnpGY1dVTTZEZ2U1R0UweFdVRF9wQW1tM0IyWVlOUkFpNkVEVFJvX0hfOXlycm9hOWZhR2FiRDJHRnVQa2loUTJja2lhd2lLNXBldnJycHNuUEdB?oc=5",
+   "source_name": "CNBC",
+   "source_title": "AI is reshaping banking jobs – but its ability to drive profits remains unclear",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZHZIa09iVmpJVUxUeDNFV0hybmJBTmhQcHVzSmIxUk1QWXptVUUydG15TURacjltYlRnX1lqTTNZeDlpU3BYN3VHTVRNSURVaWpIQndaNjMtTUNaWTJtZmpFQ0ZibE9LVEdsVUNJb1lPckJsNXJkU0tGeHdlSUY5S1dXMzhzV1gxcFVqa0JCcXrSAZYBQVVfeXFMT0ZhUU5Ld3hwdUtKUnFWQ0dTNzBkazZnOXhsZzFtY2dXNDV4blVIOWpuakY0NkxFOUl4aDd4RmhVUzg2NnpGY1dVTTZEZ2U1R0UweFdVRF9wQW1tM0IyWVlOUkFpNkVEVFJvX0hfOXlycm9hOWZhR2FiRDJHRnVQa2loUTJja2lhd2lLNXBldnJycHNuUEdB?oc=5",
+     "name": "CNBC"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-21T04:04:39+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-21"
+   },
+   "pdf_checked": "2026-11-21"
   },
   {
    "id": "1c74a812a9bc",
@@ -884,6 +971,10 @@
    "sources": [
     {
      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRlRJbGxaOTNZMVUwTDJtMWpRZDRnWmVSTVV6UlczVjlHZ1k0cnBwYXUyR0FSc1RTcFV5Vy1FazRhR0pqY1BCY2phclV0N0g0SC0wSXBHTV9CbVhnZzVzekJfbThMSUZfWVF5WTdzNUpvQm9XdFBUeXp0akcyNHM3U2xoUGg4NUFTTHBxcTE1MDE0RE1URXRUdW9Dbzk0UQ?oc=5",
+     "name": "EY"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa0kxMVVZVVlRVVpFVWZDaFAtOEtwM1RjRVVHSGFUVFlseFhUemlYQi1tcGxNeGtWMWd2c0tjeGtBOFhQMGlOVG9PSGdJZXVGZ3N6UXBfY2w5d2xzRFdaZDNQWmpoRzRXQzB5OV9mMHdWTnlORzVEcGp5NVJmRzhlUjkyODlPVDdaY3ZYbWpxRWczTFk3Wjd0Nk9LRjI5UQ?oc=5",
      "name": "EY"
     }
    ],

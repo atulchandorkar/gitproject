@@ -1,6 +1,51 @@
 {
- "updated_at": "2026-11-20T04:07:18+00:00",
+ "updated_at": "2026-11-21T04:04:53+00:00",
  "items": [
+  {
+   "id": "af74e53e2e36",
+   "bank_id": "enbd",
+   "country": "AE",
+   "date": "2026-11-19",
+   "title": "Dubai Future Foundation and Emirates NBD partner to develop AI capabilities",
+   "summary": "Emirates NBD Group has partnered with Dubai Future Foundation to develop future talent and build AI capabilities.",
+   "category": "Tech Vendor Partnerships",
+   "topics": [
+    "Tech Vendor Partnerships",
+    "AI Skills & Talent"
+   ],
+   "tags": [
+    "AI partnership",
+    "Talent development"
+   ],
+   "partners": [
+    "Dubai Future Foundation"
+   ],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMTRwc0IyR29PUjJUNmpINEI5T2dfdTktVDh4ZDFWTEFzUVNkMjhCX2E2SjJvVVBfRE5vc2xFTFVWVkhrdXBBcnRPeHByc3BLTFFPVEtYNnFHVFEyOWdhS004YXhFQlRWYmVSTVFBRlZjc3hLdXp3bWRMd2lUUlZabFlqWGpuTk0yTjVndTE3S0owd0d4OEdkUF9PSkN4cWZsdjNVR1l2SmJtVVRnald6SHU5QkdpazRDdUhnZnpRN1RQZkJkRGpVRWZkQy1yOG5nR1UxekZEYjRMc0U?oc=5",
+   "source_name": "Big News Network.com",
+   "source_title": "Dubai Future Foundation, Emirates NBD Group partner to develop future talent, build AI capabilities",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMTRwc0IyR29PUjJUNmpINEI5T2dfdTktVDh4ZDFWTEFzUVNkMjhCX2E2SjJvVVBfRE5vc2xFTFVWVkhrdXBBcnRPeHByc3BLTFFPVEtYNnFHVFEyOWdhS004YXhFQlRWYmVSTVFBRlZjc3hLdXp3bWRMd2lUUlZabFlqWGpuTk0yTjVndTE3S0owd0d4OEdkUF9PSkN4cWZsdjNVR1l2SmJtVVRnald6SHU5QkdpazRDdUhnZnpRN1RQZkJkRGpVRWZkQy1yOG5nR1UxekZEYjRMc0U?oc=5",
+     "name": "Big News Network.com"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTFlyQ1BudUVoUTJUcmNBVXNHR2ctVXhSck5HXzU1aWp2bENNTkMtdlRMSG1pVFNfZUtJQVYtOGFzUWp4QllqMkxpb09Nb3JQZlJQN2NMa3lFNHhlT213OGZ3Qlo5WVFEa2c1MXFvbWdtYnlqenkyOWw2VHhWWlVSaFZvSHd5alBQUWpoWUhVYnV4OTA?oc=5",
+     "name": "www.wam.ae"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxQX28yUHN2STg0U1NaenY0OHo4V3AtZHR0c29lT0Q1NTVpTzBENGJDOFJVODhNcWE4eFp6R09QbHlFS3NjQVk3d2pPZkE3R2J1VGQzMkhzSmFhc3FHXy1RZjFuR05ZQkkyLUV1TFdWa1JZRUpldWpRUFFocld5R3dwS0lhbURaQ1NfbW5qQTd6S2pCYy13blRnNWlvWjBGdnRJdm9MdFRwSFBUREEyY1hvVzdNdGNLalFPeVV5Sy0tZC1YRmY2V3dNc0tPNjdTX1JkX052a1UzNVhxS2VuOFFObXJJWFc1a2JFNEkyLTR0Mld5a2VMX0hjVTBqZGx6UlEwb01CV3BaVXNLR0ZNR2NkVWp4RGVRUjBxNmRIRE5Xd1VIRVNOUEl0dUhMT0w4Y1lpNUlZWFI1dHFYRHEzVFVkNnZSN0x2WjdHTE9Ib1IzTl9aZUVfaVdqVWh2YXpvdnZPdnJDNVJNWkU0WktDdFJfelNxN1dISU5CTVpOSXhRVUpQX01KRldHWEQ3MFRNU1FMWHo4U25oM1hMSkprWHhacDQ1MTFaRVJLUFdBZXBVZFJrdw?oc=5",
+     "name": "www.wam.ae"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-20T04:03:20+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-20"
+   }
+  },
   {
    "id": "b4bef62b2eb3",
    "bank_id": "enbd",
