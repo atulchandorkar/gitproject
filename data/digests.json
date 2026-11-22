@@ -1,6 +1,140 @@
 {
  "digests": [
   {
+   "id": "2026-11-21",
+   "start": "2026-11-15",
+   "end": "2026-11-21",
+   "created_at": "2026-11-22T03:13:37+00:00",
+   "counts": {
+    "news": 4,
+    "banks": 3,
+    "annual_report_items": 21,
+    "annual_report_banks": 2,
+    "studies": 14
+   },
+   "countries": {
+    "AE": 3,
+    "QA": 1
+   },
+   "themes": [
+    [
+     "AI Strategy & Leadership",
+     7
+    ],
+    [
+     "Customer-Facing AI",
+     5
+    ],
+    [
+     "AI Adoption in Operations",
+     5
+    ],
+    [
+     "Tech Vendor Partnerships",
+     3
+    ],
+    [
+     "AI Skills & Talent",
+     2
+    ],
+    [
+     "Awards & Rankings",
+     2
+    ]
+   ],
+   "partners": [
+    [
+     "Dubai Future Foundation",
+     1
+    ],
+    [
+     "Zamp",
+     1
+    ],
+    [
+     "Temenos",
+     1
+    ],
+    [
+     "Presight",
+     1
+    ],
+    [
+     "OpenAI",
+     1
+    ]
+   ],
+   "banks": [
+    [
+     "enbd",
+     2
+    ],
+    [
+     "cbq",
+     1
+    ],
+    [
+     "cbd",
+     1
+    ]
+   ],
+   "top": [
+    "af74e53e2e36",
+    "b4bef62b2eb3",
+    "e17d458ae1fa",
+    "72b91d9fe76e"
+   ],
+   "studies_top": [
+    "1c74a812a9bc",
+    "b815b25b8177",
+    "661937db6b00",
+    "b2cccf3f0af9",
+    "f4a552fb5035"
+   ],
+   "report_banks": [
+    "gfh",
+    "cbuae"
+   ],
+   "takeaways": [
+    {
+     "text": "Emirates NBD and Commercial Bank of Qatar both received multiple AI awards this week, with CBQ winning 5 AI in Finance Awards and Emirates NBD earning triple recognition.",
+     "ids": [
+      "b4bef62b2eb3",
+      "e17d458ae1fa"
+     ]
+    },
+    {
+     "text": "GFH Financial Group deployed AI across customer service, internal operations and decision-making: AI-powered investment assistants, human-like call center agents, and AI Co-Pilot tools.",
+     "ids": [
+      "ce1fde545444",
+      "12bce73d8702",
+      "62e4cd6064c0"
+     ]
+    },
+    {
+     "text": "Central Bank of UAE initiated over 80 AI and machine learning use cases across licensing, surveillance and anomaly detection, plus implemented AI governance policy for conventional and AI applications.",
+     "ids": [
+      "5eeb594bd02f",
+      "aafe9593e10e"
+     ]
+    },
+    {
+     "text": "GCC banks partnered with technology providers for transformation: Emirates NBD with Dubai Future Foundation, Commercial Bank of Dubai with Zamp, CBUAE with Presight.",
+     "ids": [
+      "af74e53e2e36",
+      "72b91d9fe76e",
+      "a33fcab851bf"
+     ]
+    },
+    {
+     "text": "McKinsey research shows early-adopting banks achieve nearly three times returns versus peers, highlighting competitive advantage from AI implementation.",
+     "ids": [
+      "1c74a812a9bc"
+     ]
+    }
+   ]
+  },
+  {
    "id": "2026-11-14",
    "start": "2026-11-08",
    "end": "2026-11-14",

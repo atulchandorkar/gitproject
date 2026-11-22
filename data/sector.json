@@ -1,6 +1,35 @@
 {
- "updated_at": "2026-11-21T04:04:53+00:00",
+ "updated_at": "2026-11-22T03:13:33+00:00",
  "items": [
+  {
+   "id": "f4a552fb5035",
+   "date": "2026-11-21",
+   "category": "Expert Views",
+   "publisher": "EY",
+   "countries": [
+    "Global"
+   ],
+   "title": "Five ways banks turn GCCs into AI value engines",
+   "summary": "EY identifies five ways banks use global capability centers as AI value engines. This matters because it shows strategic approaches for deploying AI at scale in banking operations.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM29UR0FLLVJWT2FKMjRNNC0yZEZMazE0X0RUUkdYQXpCNC1YWXQxVWpmX0REOUljVjVyaURFQUxjUEFVVldUQWN6eXZpeU9kb0xQRVhFdlRXZ1pQTHJpNWEtdkhfdnV3cy1LMVVVZzdObTg4UURGUkZkLVA4bFJmQlhHSi0wX1hOdzZ4VVEyUWRYLTF5Rl9ZS1lNVmdKQThFbExZay1nMWwyYWFWR3U3YnU3LUd6anp3eWViSjFVUQ?oc=5",
+   "source_name": "EY",
+   "source_title": "Five ways banks turn GCCs into AI value engines",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM29UR0FLLVJWT2FKMjRNNC0yZEZMazE0X0RUUkdYQXpCNC1YWXQxVWpmX0REOUljVjVyaURFQUxjUEFVVldUQWN6eXZpeU9kb0xQRVhFdlRXZ1pQTHJpNWEtdkhfdnV3cy1LMVVVZzdObTg4UURGUkZkLVA4bFJmQlhHSi0wX1hOdzZ4VVEyUWRYLTF5Rl9ZS1lNVmdKQThFbExZay1nMWwyYWFWR3U3YnU3LUd6anp3eWViSjFVUQ?oc=5",
+     "name": "EY"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-22T03:13:25+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-22"
+   },
+   "pdf_checked": "2026-11-22"
+  },
   {
    "id": "b372dec7da60",
    "date": "2026-11-20",
@@ -87,6 +116,39 @@
     "checked": "2026-11-20"
    },
    "pdf_checked": "2026-11-20"
+  },
+  {
+   "id": "b815b25b8177",
+   "date": "2026-11-19",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "AI agents threaten traditional banking models",
+   "summary": "Analysis of existential risks posed by autonomous AI agents to conventional banking. Expert perspective on competitive and operational threats from advanced AI technologies.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zbzcxVFlLb1N0dE5WS3dKQk5OTkRFQmp2dmNCYzlRRFpGYWhEd0ZaaEdBd1hiaUo0Si1mWUJEVGY0d0h6XzFabVViTXlaT1A2cmh0MnBEcjNEZVJ4ekFlTTFTVmVXZ2hYRjMzZmVWTkgwV3Q4VWRv?oc=5",
+   "source_name": "varindia",
+   "source_title": "AI Agents Threaten Traditional Banking",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zbzcxVFlLb1N0dE5WS3dKQk5OTkRFQmp2dmNCYzlRRFpGYWhEd0ZaaEdBd1hiaUo0Si1mWUJEVGY0d0h6XzFabVViTXlaT1A2cmh0MnBEcjNEZVJ4ekFlTTFTVmVXZ2hYRjMzZmVWTkgwV3Q4VWRv?oc=5",
+     "name": "varindia"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zbzcxVFlLb1N0dE5WS3dKQk5OTkRFQmp2dmNCYzlRRFpGYWhEd0ZaaEdBd1hiaUo0Si1mWUJEVGY0d0h6XzFabVViTXlaT1A2cmh0MnBEcjNEZVJ4ekFlTTFTVmVXZ2hYRjMzZmVWTkgwV3Q4VWRv?oc=5",
+     "name": "var india"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-19T04:16:21+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-11-19"
+   },
+   "pdf_checked": "2026-11-22"
   },
   {
    "id": "cd576f9c94f5",
@@ -7273,39 +7335,6 @@
     "checked": "2026-10-06"
    },
    "pdf_checked": "2026-10-06"
-  },
-  {
-   "id": "37b86d3536ee",
-   "date": "2025-11-20",
-   "category": "Regulation & Guidance",
-   "publisher": "European Banking Authority",
-   "countries": [
-    "Global"
-   ],
-   "title": "Banking supervisor guidance on AI impact for credit scoring and fraud detection",
-   "summary": "European banking supervisors provide guidance on AI's impact and use cases in credit scoring and fraud detection operations. The regulatory guidance addresses implementation considerations and supervisory expectations.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZXduZG5ReWQtbHQwNnVfYy1NWU8yY2RWUHpGc1c0RHhveWcyLW1saTRNWHNQdE9sS3pHSkhUR09KQTQ4OTZwcTRMRzFiSkxQTTZzTWFxbWhIeUdSMnRMbjhrWERhbzI3WWZHUjNfWk9ILTFodEJXVWFVMllvbnljUGdWQ0FNcnh0VE1TeFlFdXBsT2hpSDl5ZkJpMEc0S1BRS3k5Y3dJdGxCcEZ2VlpxVUdLdVo?oc=5",
-   "source_name": "bankingsupervision.europa.eu",
-   "source_title": "AI’s impact on banking: use cases for credit scoring and fraud detection",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZXduZG5ReWQtbHQwNnVfYy1NWU8yY2RWUHpGc1c0RHhveWcyLW1saTRNWHNQdE9sS3pHSkhUR09KQTQ4OTZwcTRMRzFiSkxQTTZzTWFxbWhIeUdSMnRMbjhrWERhbzI3WWZHUjNfWk9ILTFodEJXVWFVMllvbnljUGdWQ0FNcnh0VE1TeFlFdXBsT2hpSDl5ZkJpMEc0S1BRS3k5Y3dJdGxCcEZ2VlpxVUdLdVo?oc=5",
-     "name": "bankingsupervision.europa.eu"
-    },
-    {
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZXduZG5ReWQtbHQwNnVfYy1NWU8yY2RWUHpGc1c0RHhveWcyLW1saTRNWHNQdE9sS3pHSkhUR09KQTQ4OTZwcTRMRzFiSkxQTTZzTWFxbWhIeUdSMnRMbjhrWERhbzI3WWZHUjNfWk9ILTFodEJXVWFVMllvbnljUGdWQ0FNcnh0VE1TeFlFdXBsT2hpSDl5ZkJpMEc0S1BRS3k5Y3dJdGxCcEZ2VlpxVUdLdVo?oc=5",
-     "name": "ECB Banking Supervision"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "corroborated",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-07"
   }
  ]
 }
