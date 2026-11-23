@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-22T03:13:33+00:00",
+ "updated_at": "2026-11-23T03:51:02+00:00",
  "items": [
   {
    "id": "f4a552fb5035",
@@ -87,6 +87,35 @@
     "checked": "2026-11-21"
    },
    "pdf_checked": "2026-11-21"
+  },
+  {
+   "id": "ed5ea2e89951",
+   "date": "2026-11-19",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Major bank shares learnings from implementing artificial intelligence at scale",
+   "summary": "Lloyds Bank presents insights and best practices from deploying AI across its operations at significant scale. The case study documents the bank's experience and lessons learned in managing large-scale AI implementation.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ0pMcEdwOVVoVEhYdERBdjJoUzlUb0lqbU5vWHFNREdkTTlySURjUHdERWNKWVZ5VlN5clg3RUtLeFNHOTZIY1JrM1ZENUcxMDNsaE1ady0tT2NiR3JGeDVvWHFYME9VWTFHa1ZhQUtuNzJRNmVrazR5YmlHWk1zZWRMNklkWEg2SHI0bFNRVFVSaDhVc1RPbVlLTUZwSjFQZmQxTW5WWHF3aG44SmdWZF9FN3UyWTQwSFE?oc=5",
+   "source_name": "Computer Weekly",
+   "source_title": "Lloyds Bank shares learnings from doing artificial intelligence at scale",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ0pMcEdwOVVoVEhYdERBdjJoUzlUb0lqbU5vWHFNREdkTTlySURjUHdERWNKWVZ5VlN5clg3RUtLeFNHOTZIY1JrM1ZENUcxMDNsaE1ady0tT2NiR3JGeDVvWHFYME9VWTFHa1ZhQUtuNzJRNmVrazR5YmlHWk1zZWRMNklkWEg2SHI0bFNRVFVSaDhVc1RPbVlLTUZwSjFQZmQxTW5WWHF3aG44SmdWZF9FN3UyWTQwSFE?oc=5",
+     "name": "Computer Weekly"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-23T03:50:52+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-23"
+   },
+   "pdf_checked": "2026-11-23"
   },
   {
    "id": "6701bc143a64",
@@ -7302,35 +7331,6 @@
    "added_at": "2026-10-06T02:16:25+00:00",
    "verification": {
     "level": "trusted",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-06"
-  },
-  {
-   "id": "1e112aaab291",
-   "date": "2025-11-21",
-   "category": "Expert Views",
-   "publisher": "McKinsey & Company",
-   "countries": [
-    "Global"
-   ],
-   "title": "Agentic AI will disrupt banking business models and profit pools",
-   "summary": "McKinsey & Company analyzes how agentic AI will fundamentally reshape banking, potentially shrinking global profit pools as business models change. The assessment highlights the transformative impact of autonomous AI agents on the financial sector.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTHZndEktaEJncTNtRXNZc3BKZ2hmYzNFQm5MSDJLOXpPOVNJTDlnMEk3eFQzV0pNbU5ZWTJJdmU5dXdybFFsWmRZTGFUanhNOUI1aEJuVGV5TDJmY25YcjJ2UGpSSGVZOTB3a2k3ZVZXOTNWei10UlZGWExkaTV4WEpwVVVGaWZCclBtZkRQRXpyblRKZlUyTlVKd0h6NmZOVHZYY3VrbnZ5VU5nNGVITnR1dEJoV2RhRXpVYURhcGhtZXhSX3dWd0R5QXQ5X2dpdVJvbE56OXVuSjAydTI0?oc=5",
-   "source_name": "McKinsey & Company",
-   "source_title": "Agentic AI will shake up banking, shrinking global profit pools",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTHZndEktaEJncTNtRXNZc3BKZ2hmYzNFQm5MSDJLOXpPOVNJTDlnMEk3eFQzV0pNbU5ZWTJJdmU5dXdybFFsWmRZTGFUanhNOUI1aEJuVGV5TDJmY25YcjJ2UGpSSGVZOTB3a2k3ZVZXOTNWei10UlZGWExkaTV4WEpwVVVGaWZCclBtZkRQRXpyblRKZlUyTlVKd0h6NmZOVHZYY3VrbnZ5VU5nNGVITnR1dEJoV2RhRXpVYURhcGhtZXhSX3dWd0R5QXQ5X2dpdVJvbE56OXVuSjAydTI0?oc=5",
-     "name": "McKinsey & Company"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "official",
     "evidence": "headline",
     "checked": "2026-10-06"
    },
