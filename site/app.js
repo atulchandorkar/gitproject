@@ -34,7 +34,7 @@
   let DATA = { items: [], updated_at: null };
   let CFG = { countries: [], banks: [], types: {} };
   let BANKS = {}, COUNTRIES = {}, CATEGORIES = [], LOGOS = {};
-  let REPORTS = {}, PUBLOGOS = {}, DIGESTS = [];
+  let REPORTS = {}, PUBLOGOS = {}, DIGESTS = [], UC = null;
   let SECTOR = { items: [], updated_at: null }, SECTOR_CFG = { categories: [], publishers: [] };
 
   // ---------- utils ----------
@@ -80,6 +80,7 @@
     if (view === "insights") return setActiveTab("insights"), renderFeed(q, true);
     if (view === "about") return setActiveTab("about"), renderAbout();
     if (view === "weekly") return setActiveTab("weekly"), renderWeekly(arg);
+    if (view === "usecases") return ucInit(), setActiveTab("usecases"), (arg && UCX.byId[arg] ? renderUseCase(arg, q) : renderUseCases(q));
     setActiveTab("feed");
     renderFeed(q);
   }
@@ -572,6 +573,9 @@
           <span class="track"><span class="fill" style="display:block;width:${(n / maxCat) * 100}%"></span></span></button>`).join("")}</div></div>` : ""}
       ${(REPORTS[id] || []).length ? `<div class="section-title">📘 Annual reports</div><div class="ar-list">${REPORTS[id].map((r) =>
         `<a class="pdf-btn" href="${esc(r.url)}" target="_blank" rel="noopener"><span>📘</span><b>Annual Report ${r.year}</b><small>${r.items} AI disclosure${r.items === 1 ? "" : "s"} · ${r.format === "web" ? `${r.pages} sections · online` : `${r.pages} pages · PDF`}</small><span class="pdf-go">↗</span></a>`).join("")}</div>` : ""}
+      ${(() => { ucInit(); const imps = UC ? implementations(all).sort((a, z) => STATUS_RANK[a.status] - STATUS_RANK[z.status]) : [];
+        return imps.length ? `<div class="section-title">🧩 AI use cases <span class="st-sub">${imps.length}</span></div><div class="uc-bank-list">${imps.map((x) =>
+          `<a class="uc-chip" href="#/usecases/${x.uc}">${UCX.dom[UCX.byId[x.uc].domain].icon} ${esc(UCX.byId[x.uc].name)} ${statusChip(x.status)}</a>`).join("")}</div>` : ""; })()}
       ${partners.length ? `<div class="section-title">Technology partners</div><div class="tags">${partners.map((p) => `<span class="tag">${esc(p)}</span>`).join("")}</div>` : ""}
       <div class="section-title" id="tlTitle">AI timeline</div><div id="timeline"></div>`;
 
@@ -834,6 +838,140 @@
   }
 
   // ---------- About ----------
+  // ---------- AI use cases (what Gulf banks have built: use case × bank × channel × status) ----------
+  const UCX = { byId: {}, dom: {}, ch: {} };
+  const ucInit = () => {
+    if (!UC || UCX.ready) return;
+    UC.use_cases.forEach((u) => { UCX.byId[u.id] = u; });
+    UC.domains.forEach((d) => { UCX.dom[d.id] = d; });
+    UC.channels.forEach((c) => { UCX.ch[c.id] = c; });
+    UCX.ready = true;
+  };
+  const STATUS_RANK = { live: 0, pilot: 1, planned: 2, unknown: 3 };
+  const STATUS_LABEL = { live: "Live", pilot: "Pilot", planned: "Planned", unknown: "Status n/a" };
+  const ucItems = () => DATA.items.filter((i) => (i.use_cases || []).some((u) => UCX.byId[u]));
+  const statusChip = (s) => `<span class="uc-status st-${s || "unknown"}">${STATUS_LABEL[s || "unknown"]}</span>`;
+  const ucChip = (id, small) => { const u = UCX.byId[id]; if (!u) return "";
+    return `<a class="uc-chip${small ? " sm" : ""}" href="#/usecases/${id}">${UCX.dom[u.domain].icon} ${esc(u.name)}</a>`; };
+  // implementations: one per (bank, use case), with its best status, channels, latest date and items
+  function implementations(items) {
+    const m = new Map();
+    items.forEach((i) => (i.use_cases || []).forEach((u) => {
+      if (!UCX.byId[u]) return;
+      const k = `${i.bank_id}|${u}`;
+      const x = m.get(k) || { bank: i.bank_id, uc: u, status: "unknown", channels: new Set(), last: "", items: [] };
+      if (STATUS_RANK[i.uc_status || "unknown"] < STATUS_RANK[x.status]) x.status = i.uc_status || "unknown";
+      (i.channels || []).forEach((c) => x.channels.add(c));
+      if (i.date > x.last) x.last = i.date;
+      x.items.push(i);
+      m.set(k, x);
+    }));
+    return [...m.values()];
+  }
+  const logoStack = (bankIds, max = 6) => `<span class="logo-stack">${bankIds.slice(0, max).map((b) => BANKS[b] ? avatar(BANKS[b], "avatar xs") : "").join("")}${bankIds.length > max ? `<span class="more">+${bankIds.length - max}</span>` : ""}</span>`;
+
+  function renderUseCases(q) {
+    ucInit();
+    if (!UC) { app.innerHTML = `<div class="page-head"><h1>AI use cases</h1></div><div class="empty card"><p>Use cases are loading…</p></div>`; return; }
+    const st = { country: q.get("country") || "", status: q.get("status") || "", channel: q.get("channel") || "", domain: q.get("domain") || "" };
+    const all = ucItems();
+    app.innerHTML = `<div class="page-head"><h1>AI use cases</h1>
+        <div class="sub">What Gulf banks have actually built with AI: by use case, bank, channel and status</div></div>
+      <div class="chips" id="ucCountry">${[["", "All GCC"]].concat(CFG.countries.map((c) => [c.code, `${flag(c)} ${esc(SHORT_NAME[c.code] || c.name)}`]))
+        .map(([v, l]) => `<button class="chip" data-country="${v}" aria-pressed="${st.country === v}">${l}</button>`).join("")}</div>
+      <div class="filters uc-filters">
+        <select id="ucDomain" aria-label="Domain"><option value="">All domains</option>${UC.domains.map((d) => `<option value="${d.id}" ${st.domain === d.id ? "selected" : ""}>${d.icon} ${esc(d.name)}</option>`).join("")}</select>
+        <select id="ucChannel" aria-label="Channel"><option value="">All channels</option>${UC.channels.map((c) => `<option value="${c.id}" ${st.channel === c.id ? "selected" : ""}>${c.icon} ${esc(c.name)}</option>`).join("")}</select>
+        <select id="ucStatus" aria-label="Status"><option value="">Any status</option>${UC.statuses.map((x) => `<option value="${x.id}" ${st.status === x.id ? "selected" : ""}>${esc(x.name)}</option>`).join("")}</select>
+      </div>
+      <div id="ucBody"></div>`;
+    const update = () => {
+      const qp = new URLSearchParams(); Object.entries(st).forEach(([k, v]) => v && qp.set(k, v)); setQuery(qp);
+      const items = all.filter((i) => (!st.country || i.country === st.country) && (!st.status || i.uc_status === st.status)
+        && (!st.channel || (i.channels || []).includes(st.channel))
+        && (!st.domain || i.use_cases.some((u) => UCX.byId[u] && UCX.byId[u].domain === st.domain)));
+      const imps = implementations(items).filter((x) => !st.domain || UCX.byId[x.uc].domain === st.domain);
+      const banks = new Set(imps.map((x) => x.bank));
+      const live = imps.filter((x) => x.status === "live").length;
+      // most popular use cases = most banks
+      const byUc = new Map(); imps.forEach((x) => { (byUc.get(x.uc) || byUc.set(x.uc, []).get(x.uc)).push(x); });
+      const popular = [...byUc.entries()].map(([u, xs]) => ({ u, xs, banks: [...new Set(xs.map((x) => x.bank))], live: xs.filter((x) => x.status === "live").length }))
+        .sort((a, z) => z.banks.length - a.banks.length || z.xs.length - a.xs.length);
+      const maxB = Math.max(1, ...popular.map((p) => p.banks.length));
+      const domRows = UC.domains.map((d) => [d.id, new Set(imps.filter((x) => UCX.byId[x.uc].domain === d.id).map((x) => x.bank)).size]).filter(([, n]) => n).sort((a, z) => z[1] - a[1]);
+      const chRows = UC.channels.map((c) => [c.id, new Set(imps.filter((x) => x.channels.has(c.id)).map((x) => `${x.bank}|${x.uc}`)).size]).filter(([, n]) => n).sort((a, z) => z[1] - a[1]);
+      const stRows = ["live", "pilot", "planned", "unknown"].map((s) => [s, imps.filter((x) => x.status === s).length]).filter(([, n]) => n);
+      // bank × domain matrix (distinct use cases per cell)
+      const bankRowsM = [...banks].map((b) => {
+        const mine = imps.filter((x) => x.bank === b);
+        return { b, total: new Set(mine.map((x) => x.uc)).size, live: mine.filter((x) => x.status === "live").length,
+          cells: UC.domains.map((d) => new Set(mine.filter((x) => UCX.byId[x.uc].domain === d.id).map((x) => x.uc)).size) };
+      }).sort((a, z) => z.total - a.total || z.live - a.live).slice(0, 25);
+      const maxCell = Math.max(1, ...bankRowsM.flatMap((r) => r.cells));
+      const latest = [...items].sort((a, z) => z.date.localeCompare(a.date) || (a.source_type === "annual_report") - (z.source_type === "annual_report")).slice(0, 12);
+      const bars = (rows, label, total) => { const max = Math.max(1, ...rows.map(([, n]) => n));
+        return `<div class="cat-bars">${rows.map(([k, n]) => `<div class="cat-bar static"><span class="lbl">${label(k)}</span><span class="cnt">${n}${total ? ` <span class="pct">· ${Math.round((n / total) * 100)}%</span>` : ""}</span>
+          <span class="track"><span class="fill" style="display:block;width:${(n / max) * 100}%"></span></span></div>`).join("")}</div>`; };
+      $("#ucBody").innerHTML = !imps.length ? `<div class="empty card"><div class="big">🧩</div><p><b>${all.length ? "No use cases match these filters" : "Use cases are being extracted"}</b></p>
+          <p>${all.length ? "Try widening the filters." : "The next daily run reads every bank AI item and tags its use case, channel and status."}</p></div>` : `
+        <div class="uc-stats">${stats([[popular.length, "use cases in use"], [banks.size, "banks"], [imps.length, "implementations"], [`${Math.round((live / imps.length) * 100)}%`, "live"]])}</div>
+        <div class="section-title">Most popular use cases <span class="st-sub">by number of banks</span></div>
+        <div class="card uc-rank">${popular.map((p, n) => { const u = UCX.byId[p.u];
+          return `<a class="uc-row" href="#/usecases/${p.u}">
+            <span class="uc-n">${n + 1}</span>
+            <span class="uc-main"><span class="uc-name">${UCX.dom[u.domain].icon} ${esc(u.name)}</span>
+              <span class="uc-track"><span style="width:${(p.banks.length / maxB) * 100}%"></span></span>
+              <span class="uc-meta">${logoStack(p.banks)}<span>${plural(p.banks.length, "bank")} · ${p.live} live</span></span></span>
+            <span class="uc-go">›</span></a>`; }).join("")}</div>
+        <div class="grid-2 uc-grid">
+          <div><div class="section-title">By domain <span class="st-sub">banks</span></div><div class="card">${bars(domRows, (k) => `${UCX.dom[k].icon} ${esc(UCX.dom[k].name)}`, banks.size)}</div></div>
+          <div><div class="section-title">By channel <span class="st-sub">implementations</span></div><div class="card">${chRows.length ? bars(chRows, (k) => `${UCX.ch[k].icon} ${esc(UCX.ch[k].name)}`) : `<p class="muted">Channels are named in few items.</p>`}</div></div>
+          <div><div class="section-title">By status</div><div class="card">${bars(stRows, (k) => statusChip(k), imps.length)}</div></div>
+        </div>
+        <div class="section-title">Banks × domains <span class="st-sub">number of use cases · tap a bank</span></div>
+        <div class="card uc-matrix-wrap"><table class="uc-matrix"><thead><tr><th class="bk">Bank</th><th>Total</th>${UC.domains.map((d) => `<th title="${esc(d.name)}"><span class="mh">${d.icon}</span><span class="ml">${esc(d.name)}</span></th>`).join("")}</tr></thead>
+          <tbody>${bankRowsM.map((r) => `<tr><td class="bk"><a href="#/bank/${r.b}">${avatar(BANKS[r.b], "avatar xs")}<span>${esc(BANKS[r.b].short)}</span>${flag(COUNTRIES[BANKS[r.b].country])}</a></td>
+            <td class="tot">${r.total}</td>${r.cells.map((n) => `<td class="cell" style="--a:${n ? 0.15 + 0.85 * (n / maxCell) : 0}">${n || ""}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
+        <div class="section-title">Latest use cases</div>
+        <div class="card uc-latest">${latest.map((i) => { const b = BANKS[i.bank_id];
+          return `<div class="uc-item"><div class="uc-item-top">${avatar(b, "avatar xs")}<a class="bank" href="#/bank/${b.id}">${esc(b.short)}</a>${flag(COUNTRIES[i.country])}
+              <span class="dot"></span><time>${isAR(i) ? `Annual Report ${i.report.year}` : fmtDate(i.date)}</time>${statusChip(i.uc_status)}</div>
+            <div class="uc-item-chips">${i.use_cases.map((u) => ucChip(u, true)).join("")}${(i.channels || []).map((c) => UCX.ch[c] ? `<span class="ch-chip">${UCX.ch[c].icon} ${esc(UCX.ch[c].name)}</span>` : "").join("")}</div>
+            <a class="uc-item-t" href="${esc(i.source_url)}" target="_blank" rel="noopener">${esc(i.uc_note || i.title)} ↗</a></div>`; }).join("")}</div>`;
+    };
+    $("#ucCountry").addEventListener("click", (e) => { const x = e.target.closest("[data-country]"); if (!x) return; st.country = x.dataset.country;
+      document.querySelectorAll("#ucCountry [data-country]").forEach((c) => c.setAttribute("aria-pressed", c === x)); update(); });
+    $("#ucDomain").onchange = (e) => { st.domain = e.target.value; update(); };
+    $("#ucChannel").onchange = (e) => { st.channel = e.target.value; update(); };
+    $("#ucStatus").onchange = (e) => { st.status = e.target.value; update(); };
+    update();
+  }
+
+  function renderUseCase(id, q) {
+    ucInit();
+    const u = UCX.byId[id], d = UCX.dom[u.domain];
+    const items = ucItems().filter((i) => i.use_cases.includes(id)).sort((a, z) => z.date.localeCompare(a.date));
+    const imps = implementations(items).filter((x) => x.uc === id)
+      .sort((a, z) => STATUS_RANK[a.status] - STATUS_RANK[z.status] || z.last.localeCompare(a.last));
+    const countries = countBy(imps, (x) => [BANKS[x.bank].country]);
+    const chs = countBy(imps, (x) => [...x.channels]);
+    app.innerHTML = `<a class="back" href="#/usecases">‹ All use cases</a>
+      <div class="page-head"><h1>${d.icon} ${esc(u.name)}</h1><div class="sub">${esc(d.name)} · ${esc(u.guide)}</div></div>
+      <div class="uc-stats">${stats([[imps.length, "banks"], [imps.filter((x) => x.status === "live").length, "live"], [countries.length, "countries"], [items.length, "news & reports"]])}</div>
+      <div class="section-title">Banks with this use case</div>
+      <div class="uc-banks">${imps.map((x) => { const b = BANKS[x.bank];
+        return `<a class="uc-bank card" href="#/bank/${b.id}">${avatar(b, "avatar sm")}<span class="ub-main"><b>${esc(b.short)} ${flag(COUNTRIES[b.country])}</b>
+          <span class="ub-sub">${statusChip(x.status)} ${[...x.channels].map((c) => UCX.ch[c] ? UCX.ch[c].icon : "").join(" ")} · ${fmtDate(x.last)}</span></span></a>`; }).join("") || `<p class="muted">No bank yet.</p>`}</div>
+      <div class="grid-2 uc-grid">
+        <div><div class="section-title">By country</div><div class="card"><div class="cat-bars">${countries.map(([k, n]) =>
+          `<div class="cat-bar static"><span class="lbl">${flag(COUNTRIES[k])} ${esc(COUNTRIES[k].name)}</span><span class="cnt">${n}</span><span class="track"><span class="fill" style="display:block;width:${(n / Math.max(1, countries[0][1])) * 100}%"></span></span></div>`).join("")}</div></div></div>
+        <div><div class="section-title">By channel</div><div class="card">${chs.length ? `<div class="cat-bars">${chs.map(([k, n]) =>
+          `<div class="cat-bar static"><span class="lbl">${UCX.ch[k] ? `${UCX.ch[k].icon} ${esc(UCX.ch[k].name)}` : esc(k)}</span><span class="cnt">${n}</span><span class="track"><span class="fill" style="display:block;width:${(n / chs[0][1]) * 100}%"></span></span></div>`).join("")}</div>` : `<p class="muted">No channel named.</p>`}</div></div>
+      </div>
+      <div class="section-title">All news & annual-report items</div>
+      <div class="news-list">${items.map((i) => newsCard(i)).join("")}</div>`;
+  }
+
   // ---------- weekly digest (built every Sunday by the agent; print → Save as PDF) ----------
   const fmtShort = (iso) => { const [, m, d] = iso.split("-"); return `${+d} ${MONTHS[+m - 1]}`; };
   function renderWeekly(id) {
@@ -943,7 +1081,9 @@
     fetch("data/annual_reports.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : {}).catch(() => ({})),
     fetch("data/publisher_logos.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : {}).catch(() => ({})),
     fetch("data/digests.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : {}).catch(() => ({})),
-  ]).then(([cfg, news, logos, sector, sectorCfg, reports, pubLogos, digests]) => {
+    fetch("data/use_cases.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : null).catch(() => null),
+  ]).then(([cfg, news, logos, sector, sectorCfg, reports, pubLogos, digests, ucCfg]) => {
+    UC = ucCfg;
     REPORTS = reports || {}; PUBLOGOS = pubLogos || {}; DIGESTS = (digests && digests.digests) || [];
     CFG = cfg; DATA = news; LOGOS = logos || {};
     SECTOR = sector || { items: [] }; SECTOR.items = (SECTOR.items || []).sort((a, b) => b.date.localeCompare(a.date));
