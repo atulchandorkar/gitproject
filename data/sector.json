@@ -1,6 +1,68 @@
 {
- "updated_at": "2026-11-24T07:08:47+00:00",
+ "updated_at": "2026-11-25T03:20:29+00:00",
  "items": [
+  {
+   "id": "f5c1c26e0267",
+   "date": "2026-11-24",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Banking infrastructure providers partner to deliver sovereign AI and composable banking solutions",
+   "summary": "Technology providers have partnered to offer AI-powered composable banking infrastructure solutions to financial institutions. The collaboration demonstrates industry efforts to simplify AI and modernization adoption in banking.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZGd5ZVUyU3Y2SFloYTBvakRLc0tMVmFqbnMyYUh1LVpOd1I4RDFNVWJMS2EzNjBvVENVRmVqYWpDSkJGVWVfTXZiZFUxeFN0dlNzRnlLZUVJRlhvQkE4bnFlcXhWeERoSnhGUU1tRXJwTHBqU1FIQVlaS0hXTkMybnFSMHkyN2RzYkwzdE5jNUFlWS1FanhwQVBFdjNWcEEzdjRF?oc=5",
+   "source_name": "FF News",
+   "source_title": "BKN301 and Mambu Partner to Deliver Sovereign AI and Composable Banking Infrastructure",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZGd5ZVUyU3Y2SFloYTBvakRLc0tMVmFqbnMyYUh1LVpOd1I4RDFNVWJMS2EzNjBvVENVRmVqYWpDSkJGVWVfTXZiZFUxeFN0dlNzRnlLZUVJRlhvQkE4bnFlcXhWeERoSnhGUU1tRXJwTHBqU1FIQVlaS0hXTkMybnFSMHkyN2RzYkwzdE5jNUFlWS1FanhwQVBFdjNWcEEzdjRF?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-25T03:20:08+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-25"
+   },
+   "pdf_checked": "2026-11-25"
+  },
+  {
+   "id": "01a7f251ebc5",
+   "date": "2026-11-24",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "AI approaches banking accounts and raises questions about financial liability for errors",
+   "summary": "Analysis examines the implications of AI deployment in banking and questions about accountability when AI systems cause financial errors. The commentary highlights consumer protection concerns as AI becomes more prevalent in banking.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQX05WajRFcllzMlZWTkhsRkstVXd3MWY3MnBSOTRYMXZ3VDgzYjZzRm0tYWdhWnRKMlZCNHZXcDRsSjNDREROU2NHR3FieHNyWmU5ZTJ2bWlOamRnSWlaZzB5T3JiOEQxd0FIbGc1MFFkX0twelZmdVVNdzJsdmdMNkVrR1VCRW42QmUwbXpOUDczWVNvcjN0dHBVR2llOTVjSWoyTmQtOGtOMEIwMUdzbDBCbXc2T1N0al9QRGFiQ0NHYVMwTEN4QzJyQnVOMTJUR3dSVXctVmNtV1hVTG1OQnJybERDZElad3hmYm9mbHlwODF1YzJMNXM2QlE5bW5OaGlZUUY0VTc2Qmk0ejlLZUNwR0ZscVdJZE9BVjdYMThFb1BJVEE5M3VsdUFhNHYwT0RNTlNMYjJjb1lsWmhhY0JMQQ?oc=5",
+   "source_name": "الجزيرة نت",
+   "source_title": "الذكاء الاصطناعي يقترب من حساباتك المصرفية.. فمن يتحمل ثمن أخطائه المالية؟",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQX05WajRFcllzMlZWTkhsRkstVXd3MWY3MnBSOTRYMXZ3VDgzYjZzRm0tYWdhWnRKMlZCNHZXcDRsSjNDREROU2NHR3FieHNyWmU5ZTJ2bWlOamRnSWlaZzB5T3JiOEQxd0FIbGc1MFFkX0twelZmdVVNdzJsdmdMNkVrR1VCRW42QmUwbXpOUDczWVNvcjN0dHBVR2llOTVjSWoyTmQtOGtOMEIwMUdzbDBCbXc2T1N0al9QRGFiQ0NHYVMwTEN4QzJyQnVOMTJUR3dSVXctVmNtV1hVTG1OQnJybERDZElad3hmYm9mbHlwODF1YzJMNXM2QlE5bW5OaGlZUUY0VTc2Qmk0ejlLZUNwR0ZscVdJZE9BVjdYMThFb1BJVEE5M3VsdUFhNHYwT0RNTlNMYjJjb1lsWmhhY0JMQQ?oc=5",
+     "name": "الجزيرة نت"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9MMmNSdlZxYm9ZNFNYRVAzMU9EeVNCeGFVakFzVzVGUmxaaU9tWXJrUUJUWWNiZzA5TzF4S3ViejE0TWtNZzJNSm5DaWc1c3U5WWVJ?oc=5",
+     "name": "شبكة تواصل الإخبارية"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-11-25T03:20:08+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-11-25"
+   },
+   "pdf_checked": "2026-11-25"
+  },
   {
    "id": "4713f16d277e",
    "date": "2026-11-24",
@@ -52,6 +114,14 @@
     {
      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPb0pELTVieEVteWV5TWE5cU80T1M4MmNHVmxQVjNmb0tkQ3diUHRFSTg0X1NJTnhEMGZHcS1CaFZfRHUyeWUyQ0RSMWVOa2drMEY0VG1Ba3puU0FmamtxdzF3dFFLaXl0TGloeVIteHFxMkNiRlFLMU5Yc0FUeDNvVzJZS0lLS2t1TWo5Tmk1RWJjMGlHQ2Q2eXlwc1NRU0lXNEFxODVLZ1FmQm4xLUR0QWFoRTRTS1FqSE5FRGVfUzNPaFZGUlNJREtSb0ZjUQ?oc=5",
      "name": "Reuters"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOb2RObmp3OVdSUHBFUk1tMkRFX0lJa2RiNUpTclV3SmhSYklYNktILU53NFlUWVlvckszQVI3SlI0Q1R0S0c0cUJsbm5KUFJFSXFtLTAtMnNtMGRxOGc2T3dBdEZMU3pWbVk1bjBlMEZZY1NzVW8tOURhZGJGQy1SUjEycw?oc=5",
+     "name": "Wisevoter"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQYU43bTY2X2dYMGtmTGNYaGFaUnUtTXh2RTFnQ2NaNWkydHF2cV84bktfc2FyZVpYb2JadmxKUjk1aXlsdjYtOHcxZGM2aTgwZzRROTctR282TVFnNGJqMW1aWkFXQWFPQzRxd3ZrQUVHdHhiMHM2Q1c3bEIyVndiOENyOHVVY0xoRlRQTS15dGpfM09sckxZYl9xOFNpaEJfQnY5RU4yYUQ1TFE0MUJaZE5qT2tjYjN3bkNoaHAxNzM1UnBQbGNsajFJaEtGN2dEUl81YUduSmNodXNzc3k0a1FadzlBQdIB6wFBVV95cUxNTlN2dDd1QnNYcURFdzdNcTk2U3VvY1k3YkNHMmk3WVFFQkhoRGRfWWw3MndYaWFZbmtJLVVTWmZ1SkpTbloxbm0tTEo2QzdqMG1XUmRaSFVBZWtoQURCS2ZHSGVFU0RqZFNKb2pSNE5pYU92RHUxVWJ4ZnlQR0JGb0ZuZTQxaUx4alprY0cycjBWXzJmSlRqUkQ5Z2ZveTBoT2I2dkhBTlQ0NWsxdnd3eGdvdUNpR2wxbDhDNDBsaFdpdThIN01ScEpkSnpNM2toMTZKSnB5U2FwUlVZVDdmcERkdVBPUzRhcjJr?oc=5",
+     "name": "The Times of India"
     }
    ],
    "language": "en",
@@ -61,7 +131,20 @@
     "evidence": "headline",
     "checked": "2026-11-24"
    },
-   "pdf_checked": "2026-11-24"
+   "pdf_checked": "2026-11-24",
+   "merged": [
+    {
+     "id": "2f530e1a01e1",
+     "date": "2026-11-24",
+     "title": "Banks tighten controls on AI agents in response to rogue AI risks",
+     "source_title": "Banks Tighten Controls on AI Agents Amid Rogue Risks",
+     "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOb2RObmp3OVdSUHBFUk1tMkRFX0lJa2RiNUpTclV3SmhSYklYNktILU53NFlUWVlvckszQVI3SlI0Q1R0S0c0cUJsbm5KUFJFSXFtLTAtMnNtMGRxOGc2T3dBdEZMU3pWbVk1bjBlMEZZY1NzVW8tOURhZGJGQy1SUjEycw?oc=5",
+     "source_name": "Wisevoter",
+     "summary": "Banks are implementing stricter controls on AI agents to manage risks of models operating outside their designed parameters, addressing governance concerns in financial institutions.",
+     "how": "ai",
+     "anchor": "US banks tighten AI-agent controls"
+    }
+   ]
   },
   {
    "id": "d4e9801afd1c",
@@ -438,6 +521,39 @@
     "checked": "2026-11-18"
    },
    "pdf_checked": "2026-11-20"
+  },
+  {
+   "id": "08ca5c68997f",
+   "date": "2026-11-17",
+   "category": "Expert Views",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "What it takes to build the AI-native modern bank",
+   "summary": "Analysis examines foundational elements and architectural decisions needed to build modern banks with AI as core. The piece covers technical, organizational and cultural prerequisites for AI-native banking.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ2dOMmNmdzJ1VXFYTUFlYXQ5Q1JBeVRHLUNHWkw3dGpGZHhGZUxxX0szcGdIRkoxSUNoUlNQWDBhSy1vZTlBOVRFbWs5UzJTajBBeFJxU2VUU1lsQ1pJaE5NckVhOGlYVFNEa05wcXFGNE4yLWU5X2dlRnE1NjBMU0VQbzR1akdaSDNHNjJ5RVc3ckZ4R0cwcHZHMWR5TFNzNXVONUNzUVFfaUtWT0pnR0tDVm5ES3R2MWNmbFZB?oc=5",
+   "source_name": "The Business Times",
+   "source_title": "What it takes to build the AI-native modern bank",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ2dOMmNmdzJ1VXFYTUFlYXQ5Q1JBeVRHLUNHWkw3dGpGZHhGZUxxX0szcGdIRkoxSUNoUlNQWDBhSy1vZTlBOVRFbWs5UzJTajBBeFJxU2VUU1lsQ1pJaE5NckVhOGlYVFNEa05wcXFGNE4yLWU5X2dlRnE1NjBMU0VQbzR1akdaSDNHNjJ5RVc3ckZ4R0cwcHZHMWR5TFNzNXVONUNzUVFfaUtWT0pnR0tDVm5ES3R2MWNmbFZB?oc=5",
+     "name": "The Business Times"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTDB5SkZWOWY5Z0dMOWNDV0JCaGxBWFhTNzNwNFRnaF9DckkyTW1aR0paTHJCX0VMQ3JZQ0xfRHZxNHE5TG1DSHoteVVVUUsyQnp1UTFCbE1yeDE4WklPUVQ3SFNWLVAwWW1uQlkzRW9raUs2c2k5dktXeDJhYkVEZkY1Tmlfdw?oc=5",
+     "name": "Bain & Company"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-24T07:08:21+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-11-24"
+   },
+   "pdf_checked": "2026-11-25"
   },
   {
    "id": "7543e0a2e6d7",

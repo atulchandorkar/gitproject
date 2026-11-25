@@ -1,43 +1,86 @@
 {
- "updated_at": "2026-11-24T07:08:47+00:00",
+ "updated_at": "2026-11-25T03:20:29+00:00",
  "items": [
   {
-   "id": "2788e5cd2ecd",
+   "id": "437abf7fab3e",
    "bank_id": "dukhan",
    "country": "QA",
    "date": "2026-11-24",
-   "title": "Dukhan Bank Adopts Claude Platform to Enhance AI Capabilities",
-   "summary": "Dukhan Bank has adopted the Claude platform to strengthen its artificial intelligence capabilities.",
-   "category": "Generative AI & Copilots",
+   "title": "Dukhan Bank Signs Agreement With Anthropic To Build Enterprise AI Capability With Claude",
+   "summary": "Dukhan Bank has signed an agreement with Anthropic to build enterprise AI capability using Claude.",
+   "category": "Tech Vendor Partnerships",
    "topics": [
-    "Generative AI & Copilots",
-    "Tech Vendor Partnerships"
+    "Tech Vendor Partnerships",
+    "Generative AI & Copilots"
    ],
    "tags": [
     "GenAI",
+    "Claude",
+    "Enterprise AI",
     "Claude platform",
     "AI adoption"
    ],
    "partners": [
+    "Anthropic",
     "Claude"
    ],
    "impact": "",
-   "source_url": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxQZTcxcEZaUlN1VzVZUG9fTjJpbXlZWWV6SV85bXBFNC0tVzZwWG8wekJPekNDSGZHbmpUNWU0QWNKdGVxVVo3eWNRQ0FHR2lXZ2hKaVBiUExfSG5xQ3RJczBMMDI0MjBkUEo2b3JWQ0VxOTdCMEZMS2h6RVpQLXZYVFY3UkFSaVZsZUlmdXVkbGMwS0xWcExJbjM2MmV5R0piTFRWa3VuaEpiYWE4RXRrZUxEOVBJT19tdVpDOS1MbU9ocDg5Y1ZHb0gyQ3NabDRTREstMFN3VGdwMHRxT05GQTBoY2dHY2NqUm5ZX0poenVhdXFpdjhpWjVtNGROQWVOTFRaUWJHbGhhX3VfZ2NqVG1nX3M4Z0w1RTFSbTRyUWNwWldXVC1HTUprNUJyM0E5bHhGQXluLU1XVnR3cDhzOGdROWpTNFhhb0h0cTZBVlRWcWo2Um5zZXphTl91R3hYMHpJSVYwTV9PTnFiSm9uU3dld0dUYnM4aVRHSXdZSVlDcW1vRk5pbE1CdnlhWmFHam54RFdhY0VQeGhyZjh2cWVnN0J1T3AtZ2xPbjZOU2kzUUFON05mUDM1Nkg4NXZ6TkNwZkxaT2hoNFFCdTI0eEhZWUIzOU54MmVMYU1xaERXQ0xkQ1E?oc=5",
-   "source_name": "Mubasher",
-   "source_title": "بنك دخان يعتمد منصة \"كلود\" لتعزيز قدراته في الذكاء الاصطناعي",
+   "source_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQVdPcDB1UFl0RElDbVdPdS0xNnoyUVNXREcxSy0wRDhyclI4NkVGbEZyWkhxSFljYnBTSjZHektfcnVYXzFGV1YyRC01dmFEc2dtVkpCR09Fb2NDc01EMW9wR3VHcmoyQUFOc01GbjZLdmZ6bVFwWjJjNXZTazYtZ3pzcTl5YU4xWWJIbVRCeVV0NkpBZk9ZOUpKd1RGemd0RW1NMlc2MWJlLXlvNDNvUzNwYl9mLXZkWnp2QWtFQk8weVB0aDhKUEhzbXE0VU9mZVhnM1JILTU2OWZ4S010Y1pMNWxibTJ5NU5oa28zZw?oc=5",
+   "source_name": "TradingView",
+   "source_title": "Dukhan Bank Signs Agreement With Anthropic To Build Enterprise AI Capability With Claude",
    "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQVdPcDB1UFl0RElDbVdPdS0xNnoyUVNXREcxSy0wRDhyclI4NkVGbEZyWkhxSFljYnBTSjZHektfcnVYXzFGV1YyRC01dmFEc2dtVkpCR09Fb2NDc01EMW9wR3VHcmoyQUFOc01GbjZLdmZ6bVFwWjJjNXZTazYtZ3pzcTl5YU4xWWJIbVRCeVV0NkpBZk9ZOUpKd1RGemd0RW1NMlc2MWJlLXlvNDNvUzNwYl9mLXZkWnp2QWtFQk8weVB0aDhKUEhzbXE0VU9mZVhnM1JILTU2OWZ4S010Y1pMNWxibTJ5NU5oa28zZw?oc=5",
+     "name": "TradingView"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQV9fc1NubFhYalJlT2NfV0k5T21JV0JDOUdxRXdPOHduWnN3UUQ3UUY1QlE4Ukppa01DdURQUWcyVU1Yek1mN0g1WkVaY0lfRU9iTnpXWXpZblFyaTZEN1luaUp5SXlOdk5HSFB3TE40MHZqdlNFb3BLZDhtV0RwcDNmcWFDNVZ3M0x1UjAzRUdlazFjbTd4RXAxRmpFQVFqeEJMMDhYT3hhWUJNNTdka3RveDNMeUc1SEVUcVkxYUhCaklzV2tGNzJrOVp6QdIB0wFBVV95cUxNOUx4cG5yWUZmcW9FbzlwSmtSYS13TzkwUmJ4VVo1YTlIVHBzdFdxNWRNQ0xDZ3NUNmlDUVlhODUxby1TYlpEZ3A3c2UtcUk4YzJnUUJJaC1FTDNJODhFeEU5N08yTEx6MmhvQzVvYlprZ2ZRWU1wU2NaVUpfaHcyZjZINkZka3NqbjQtYTZ1Szc5UDZJdWxXYU5VY21OdXVhcFBaTHcwOVhQSlR0aXA2cUVsX1h6OTNhc1h2RUVqNzRNVTkxYkMweUp5VDVMRWQ4Ukow?oc=5",
+     "name": "Gulf Times"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTU1qWFZuZGpidzRtRnBER3Rtck5vUjlZc1Y5eFB5U1B5LWdKd21WU0RLdlpGMkRvOVpzZ09pelRYYXZwc3lJenBBSjdYWW5SVmNOWENoSVZxZlNmc09kd2gtYTFFYm9xSFNpU0FmMVZ6Sjg1QmxiS3lXRWpGVU9NSjhLRXJYY1NMdzdhLXFHeHJPNXZtOEZ4a1FYVW15QkxSMGdFbkEydE05Nm1tOERiLVhaQUF2NlhwV0syQXh0R0tzRGFhUlHSAcsBQVVfeXFMTmtieENMTUtoYVR1YkJkQV96dkRDTFp1dnk1NGljd2Y0VXdBSkVVTFlxcFVRQU5QMEFfWklJSDdkNDBpTUxpU3gwOWUzV1dlMGZHSk53ek9qY1dNQ2JfeEw3NXV2em5sdWMwV04yY2pNQzkxTlBjRTRuLVJpOV9ZLXFaQW05bExSQ3JRWUFKRkkzWHo5WVk2QlFyeDJhSkVGWEFLX3Jxdl9BUFR2eVFOVUhYS245bzFBUC1xdGF0WWJjZFhUWGRVcDhlRVU?oc=5",
+     "name": "Gulf Times"
+    },
+    {
+     "url": "https://www.dukhanbank.com/media-center/press-release/dukhan-bank-signs-an-agreement-with-anthropic-to-build-enterprise-ai-capability-with-claude",
+     "name": "Dukhan Bank newsroom"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimAVBVV95cUxPd3lJNlRzS1JNYjd1ajZZNDlwbnozTUJfUHEzRHJCMjZPd0FQcE4tNzNJM0loTEk0VlJ4cFdvcHUwOFNlOTM2QjlLbEdpaUZFaENzajBrN1YwS3hHelN1RVlCdmZzVl9sWDd1VTlWTzRWR1M1UGJQMEk5OW5Lc3RkQmdiRlJHemlhakdyYXNQbF85ODR5NXRQUGdhWDRrT3RJdXpSNmVnVEwtMHQ0Tmp5bFAyMDZEOE1ROW8tRzJOZ2pxcTJRVFFmTUhoWVpyam8xVnBJaDRwdFFsZmZrM1dvc1cxNTZfZ0l4VVNJZjYwQmhqcnpDczh1bEJETmh5UmhsZ1RiZ21KQVRHZ2ZPMmVHNlV3Y1RMMi1rU0dud0NUNndiSkJDTU1JaVBwU2JEbURwbG1IVnItdDYwem9naWx6Zi1ENkNTSkwtWFU2THVCWVRRbVREdHRLYWhZQ25HdkVvaWtlT0NnX0dtSU4zX0NyTnJ1WEtfNzc4QWpDblJrZE1VTjRuYU03d0hlclB1cDJ3NTlfc1pZMkJRQ2hwMFNQWlI0N0Z6UUV3RnBudHVvNWZkbDc2R3d2UlA0UkJNR2VhR1owUGNfall5TVlyaXlXNk9xNWZmZmo1QzRoaVNZMXJyN2J6NEVQd1AzSngxeTltZ2FwQ2dSZmpJWHV2MUJ3Y3NKcVp4RUpEbFc0SHM3NjRVQUFpR1FmbEVDX0ZtUDlqM3Vvc0N2OS1wT2ZLWHNsSGJkbF9qSUs3Y3NMTTUteDVoc1VXWW41T2FEMTFtSDUyMW5JNk5uQ3E3ZUQzQWxPenVvRUFYUHZUTFRERndRRlRNREJ6NEV3eXZOWjNUejF3bkhUd0VCcUlkbkEtVUlVVHd0UmFqbzla0gGeBUFVX3lxTFBnVFE5a3pYVmtoRTJKODhTRGEwcG9ybGh3SHVnbU9qQ3dTa29PRlNHb2F2SFNMOUk1Ql94QXNNeXBlOTNzcXNxZ29udmVlVkRod1lZZ0tuczdwOExYVWpZYVpXaDNzbU5XcGFWbXQ3T0E3SVpNM1V4S1loTi1yaW5scWpNbGRVMW9JQTZIV3hpQzJQUkRvSVBfN0xxelljUjBzdUJFUlpuVW80el9hSnJOVTlMMko2Z2FBUFk0TEdpVjFFdEZJelA0WGgzbmJxVHI0R0lFbGVGdENPYmhscS11QkIyNkhaRkJtcGlRTEVWMWl4a0ItcjY4OXpWS1hJOVhST3I0UXpsTUo0VzVRMmFXRnNzQXRjTlNrSWc0Rld1Tk52QWdNcWxKam9heFlkdDZkSkIxR2lHVE5vTWVYeVVYVGRRN3dtVDUwUWl1ZHZwTEN1akstYzFXd3JhWEE2bnE2cGVSR1Z4empRcTZUa1p3WWlKVW45bW5SdjlNMERNTEtRTXJlZWNmUXBROFRpeG9BdENfcDlNaGNTMTlza3UwYXdVWElwUDBLUUhjUWNMY3hsbXZJVHkySnRnZjBHMV9qQnU4SW8wLThHN2ZYWHVSX1FjRENPSEdIQ0dzSU5QVVBuYkViQ1gtc25fblRDRVpRX3I4d2NURUp6LXZqbHk1V182bnRVM1k0c0sxTV85YU80T25Gby1sZjFwRjh2RlRxSi1lVWtGVVFQMERKVXNxOGZuNjdHZ2VoZ1VyZE8xaEIxZkhGMEVoUTFxdTNNUnBUcjZaTGZUTUpiVm5TNnYzWE5pSWsyd04wVDZpeTJ2OEp1V2dfTGpfdGRtcVVrN0d4VVJYRmsxZE1JaFpIdlluY04waEg3V29MRVRIb0E?oc=5",
+     "name": "جريدة الراية"
+    },
     {
      "url": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxQZTcxcEZaUlN1VzVZUG9fTjJpbXlZWWV6SV85bXBFNC0tVzZwWG8wekJPekNDSGZHbmpUNWU0QWNKdGVxVVo3eWNRQ0FHR2lXZ2hKaVBiUExfSG5xQ3RJczBMMDI0MjBkUEo2b3JWQ0VxOTdCMEZMS2h6RVpQLXZYVFY3UkFSaVZsZUlmdXVkbGMwS0xWcExJbjM2MmV5R0piTFRWa3VuaEpiYWE4RXRrZUxEOVBJT19tdVpDOS1MbU9ocDg5Y1ZHb0gyQ3NabDRTREstMFN3VGdwMHRxT05GQTBoY2dHY2NqUm5ZX0poenVhdXFpdjhpWjVtNGROQWVOTFRaUWJHbGhhX3VfZ2NqVG1nX3M4Z0w1RTFSbTRyUWNwWldXVC1HTUprNUJyM0E5bHhGQXluLU1XVnR3cDhzOGdROWpTNFhhb0h0cTZBVlRWcWo2Um5zZXphTl91R3hYMHpJSVYwTV9PTnFiSm9uU3dld0dUYnM4aVRHSXdZSVlDcW1vRk5pbE1CdnlhWmFHam54RFdhY0VQeGhyZjh2cWVnN0J1T3AtZ2xPbjZOU2kzUUFON05mUDM1Nkg4NXZ6TkNwZkxaT2hoNFFCdTI0eEhZWUIzOU54MmVMYU1xaERXQ0xkQ1E?oc=5",
      "name": "Mubasher"
     }
    ],
-   "language": "ar",
-   "added_at": "2026-11-24T07:04:35+00:00",
+   "language": "en",
+   "added_at": "2026-11-25T03:14:02+00:00",
    "verification": {
-    "level": "trusted",
+    "level": "official",
     "evidence": "headline",
-    "checked": "2026-11-24"
-   }
+    "checked": "2026-11-25"
+   },
+   "merged": [
+    {
+     "id": "2788e5cd2ecd",
+     "date": "2026-11-24",
+     "title": "Dukhan Bank Adopts Claude Platform to Enhance AI Capabilities",
+     "source_title": "بنك دخان يعتمد منصة \"كلود\" لتعزيز قدراته في الذكاء الاصطناعي",
+     "source_url": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxQZTcxcEZaUlN1VzVZUG9fTjJpbXlZWWV6SV85bXBFNC0tVzZwWG8wekJPekNDSGZHbmpUNWU0QWNKdGVxVVo3eWNRQ0FHR2lXZ2hKaVBiUExfSG5xQ3RJczBMMDI0MjBkUEo2b3JWQ0VxOTdCMEZMS2h6RVpQLXZYVFY3UkFSaVZsZUlmdXVkbGMwS0xWcExJbjM2MmV5R0piTFRWa3VuaEpiYWE4RXRrZUxEOVBJT19tdVpDOS1MbU9ocDg5Y1ZHb0gyQ3NabDRTREstMFN3VGdwMHRxT05GQTBoY2dHY2NqUm5ZX0poenVhdXFpdjhpWjVtNGROQWVOTFRaUWJHbGhhX3VfZ2NqVG1nX3M4Z0w1RTFSbTRyUWNwWldXVC1HTUprNUJyM0E5bHhGQXluLU1XVnR3cDhzOGdROWpTNFhhb0h0cTZBVlRWcWo2Um5zZXphTl91R3hYMHpJSVYwTV9PTnFiSm9uU3dld0dUYnM4aVRHSXdZSVlDcW1vRk5pbE1CdnlhWmFHam54RFdhY0VQeGhyZjh2cWVnN0J1T3AtZ2xPbjZOU2kzUUFON05mUDM1Nkg4NXZ6TkNwZkxaT2hoNFFCdTI0eEhZWUIzOU54MmVMYU1xaERXQ0xkQ1E?oc=5",
+     "source_name": "Mubasher",
+     "summary": "Dukhan Bank has adopted the Claude platform to strengthen its artificial intelligence capabilities.",
+     "how": "ai",
+     "anchor": "Dukhan Bank Claude"
+    }
+   ],
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "Building enterprise AI capability using Claude.",
+   "uc_v": 1
   },
   {
    "id": "af74e53e2e36",
@@ -82,7 +125,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-11-20"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "b4bef62b2eb3",
@@ -117,7 +165,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-11-20"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "72b91d9fe76e",
@@ -154,7 +207,16 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-11-20"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "planned",
+   "uc_note": "AI-driven operational transformation via Zamp.",
+   "uc_v": 1
   },
   {
    "id": "e17d458ae1fa",
@@ -189,7 +251,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "6f46f104fdc0",
@@ -277,7 +344,16 @@
      "how": "ai",
      "anchor": "Emirates NBD and Bridgewise launch AI-powered market insights"
     }
-   ]
+   ],
+   "use_cases": [
+    "treasury"
+   ],
+   "channels": [
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-powered market insights for wealth customers.",
+   "uc_v": 1
   },
   {
    "id": "a358d511dd04",
@@ -312,7 +388,16 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-11-11"
-   }
+   },
+   "use_cases": [
+    "wealth_advice"
+   ],
+   "channels": [
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-powered insights for digital wealth clients.",
+   "uc_v": 1
   },
   {
    "id": "801b0f5152ca",
@@ -401,7 +486,16 @@
      "how": "ai",
      "anchor": "Clari5"
     }
-   ]
+   ],
+   "use_cases": [
+    "fraud"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Clari5 GenAI strengthens fraud detection.",
+   "uc_v": 1
   },
   {
    "id": "844e7d076708",
@@ -464,7 +558,12 @@
      "how": "ai",
      "anchor": "UAE AI Office and Emirates NBD"
     }
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "12172d06d38e",
@@ -500,7 +599,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-11-04"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "22724aff0598",
@@ -542,7 +646,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-11-03"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "0d656836a5b1",
@@ -581,7 +690,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-11-03"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "4701d21a85c4",
@@ -617,7 +731,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-11-03"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "6cb93cc486b5",
@@ -659,7 +778,14 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-11-02"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "Establishing AI centre of excellence with ARRAY.",
+   "uc_v": 1
   },
   {
    "id": "16124ded37df",
@@ -693,7 +819,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-31"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "1552df4b1a60",
@@ -727,7 +858,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-31"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "86e143c0c2c0",
@@ -767,7 +903,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-28"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "2faf6ebdb2a5",
@@ -823,7 +964,12 @@
      "how": "ai",
      "anchor": "QNB Group accelerates global AI and digital infrastructure financing"
     }
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "51bdcd3d0a0a",
@@ -866,7 +1012,16 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-24"
-   }
+   },
+   "use_cases": [
+    "dev_ai"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "pilot",
+   "uc_note": "Agentic AI pilot in software engineering with IBM.",
+   "uc_v": 1
   },
   {
    "id": "840a834b6389",
@@ -962,7 +1117,16 @@
      "how": "ai",
      "anchor": "Emirates NBD"
     }
-   ]
+   ],
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Running OpenAI GPT models on UAE infrastructure.",
+   "uc_v": 1
   },
   {
    "id": "35fd1053396c",
@@ -1059,7 +1223,12 @@
      "how": "words",
      "anchor": ""
     }
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "873b4c878716",
@@ -1152,7 +1321,12 @@
      "how": "ai (cached)",
      "anchor": ""
     }
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "5303cdb55378",
@@ -1191,7 +1365,14 @@
     "level": "corroborated",
     "evidence": "headline",
     "checked": "2026-10-20"
-   }
+   },
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "1802cb36e6b1",
@@ -1231,7 +1412,16 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-19"
-   }
+   },
+   "use_cases": [
+    "hr_ai"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI for young talent recruitment experience",
+   "uc_v": 1
   },
   {
    "id": "09d3537f1816",
@@ -1283,7 +1473,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-17"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "0128e9e6f9be",
@@ -1331,7 +1526,14 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-17"
-   }
+   },
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Responsible enterprise AI adoption programme",
+   "uc_v": 1
   },
   {
    "id": "019fb3b5cf85",
@@ -1437,7 +1639,16 @@
      "how": "ai",
      "anchor": "Mashreq and IBM pilot agentic AI"
     }
-   ]
+   ],
+   "use_cases": [
+    "dev_ai"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "pilot",
+   "uc_note": "Agentic AI for software engineering in digital banking",
+   "uc_v": 1
   },
   {
    "id": "cf584c3e0ec8",
@@ -1472,7 +1683,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-11"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "cbbccca4d821",
@@ -1513,7 +1729,14 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-08"
-   }
+   },
+   "use_cases": [
+    "cx_analytics"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "AI to enhance customer experience",
+   "uc_v": 1
   },
   {
    "id": "e94747f1e551",
@@ -1548,7 +1771,16 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-11"
-   }
+   },
+   "use_cases": [
+    "kyc"
+   ],
+   "channels": [
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-powered customer onboarding and digital banking",
+   "uc_v": 1
   },
   {
    "id": "38abf2dd9df2",
@@ -1614,7 +1846,12 @@
      "how": "ai (cached)",
      "anchor": ""
     }
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "c6d5639013d1",
@@ -1678,7 +1915,17 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [
+    "mobile",
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI travel assistant for travel planning and booking",
+   "uc_v": 1
   },
   {
    "id": "99253906cde8",
@@ -1713,7 +1960,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-06"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "7b953b1ccd7f",
@@ -1772,7 +2024,14 @@
      "how": "ai (cached)",
      "anchor": ""
     }
-   ]
+   ],
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "ISO 42001:2023 AI management system certification",
+   "uc_v": 1
   },
   {
    "id": "cfaaa8e5b53d",
@@ -1811,7 +2070,16 @@
     "level": "corroborated",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "branch"
+   ],
+   "uc_status": "live",
+   "uc_note": "Banking robot for branch automation",
+   "uc_v": 1
   },
   {
    "id": "e690b74dba68",
@@ -1849,7 +2117,12 @@
    "topics": [
     "Tech Vendor Partnerships",
     "AI Adoption in Operations"
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "dc9ff44185cf",
@@ -1888,7 +2161,12 @@
     "level": "corroborated",
     "evidence": "headline",
     "checked": "2026-10-15"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "9e8e7178de87",
@@ -1923,7 +2201,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "65701ede68e5",
@@ -1957,7 +2240,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "5b2b26590264",
@@ -2008,7 +2296,12 @@
    },
    "topics": [
     "AI Strategy & Leadership"
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "9f39aafa1c40",
@@ -2042,7 +2335,14 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "treasury"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI guides US equity portfolio investment expansion.",
+   "uc_v": 1
   },
   {
    "id": "7571cca80591",
@@ -2087,7 +2387,12 @@
     "AI Skills & Talent",
     "Tech Vendor Partnerships",
     "AI Strategy & Leadership"
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "32af279b644f",
@@ -2136,7 +2441,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "171b20a78ec2",
@@ -2174,7 +2484,14 @@
    "topics": [
     "Fraud, Risk & Compliance",
     "Tech Vendor Partnerships"
-   ]
+   ],
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI governance and responsible AI use in model risk management.",
+   "uc_v": 1
   },
   {
    "id": "90c043301ad8",
@@ -2210,7 +2527,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "228780d62d8f",
@@ -2244,7 +2566,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "d3ad0cbc0d90",
@@ -2282,7 +2609,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "eded5bf8033c",
@@ -2319,7 +2651,15 @@
    "topics": [
     "Fraud, Risk & Compliance",
     "Tech Vendor Partnerships"
-   ]
+   ],
+   "use_cases": [
+    "fraud",
+    "cyber"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI detects payment fraud and cyber threats in real-time.",
+   "uc_v": 1
   },
   {
    "id": "02072bac92d6",
@@ -2357,7 +2697,14 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "trade_finance"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI automates trade finance compliance checking.",
+   "uc_v": 1
   },
   {
    "id": "32034ebcf497",
@@ -2394,7 +2741,19 @@
     "Awards & Rankings",
     "Generative AI & Copilots",
     "Customer-Facing AI"
-   ]
+   ],
+   "use_cases": [
+    "chatbot",
+    "process_automation",
+    "kyc"
+   ],
+   "channels": [
+    "mobile",
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-powered customer support, onboarding, STP in digital bank.",
+   "uc_v": 1
   },
   {
    "id": "7ea45c9bbcb1",
@@ -2443,7 +2802,12 @@
    "topics": [
     "AI Skills & Talent",
     "Tech Vendor Partnerships"
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "6b3d51db3e49",
@@ -2484,7 +2848,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "33824c18c883",
@@ -2519,7 +2888,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "5294baeb4b52",
@@ -2557,7 +2931,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "b5ee04e2c390",
@@ -2603,7 +2982,17 @@
    "topics": [
     "Customer-Facing AI",
     "Tech Vendor Partnerships"
-   ]
+   ],
+   "use_cases": [
+    "nbo"
+   ],
+   "channels": [
+    "mobile",
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-powered automated cashback rewards at merchants.",
+   "uc_v": 1
   },
   {
    "id": "73c2772db9b3",
@@ -2638,7 +3027,12 @@
    "topics": [
     "AI Skills & Talent",
     "AI Strategy & Leadership"
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "cf34857e6ec1",
@@ -2673,7 +3067,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "7bc6581fdb2c",
@@ -2708,7 +3107,17 @@
    "topics": [
     "Awards & Rankings",
     "Generative AI & Copilots"
-   ]
+   ],
+   "use_cases": [
+    "process_automation",
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Agentic AI in payments, relationship management, developer augmentation.",
+   "uc_v": 1
   },
   {
    "id": "0161dd3893d0",
@@ -2781,7 +3190,12 @@
      "how": "ai (cached)",
      "anchor": ""
     }
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "000a8d5e6ac7",
@@ -2815,7 +3229,16 @@
    "topics": [
     "Generative AI & Copilots",
     "AI Adoption in Operations"
-   ]
+   ],
+   "use_cases": [
+    "trade_finance"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Agentic AI for end-to-end trade operations processing.",
+   "uc_v": 1
   },
   {
    "id": "7cb72f467196",
@@ -2850,7 +3273,17 @@
    "topics": [
     "Generative AI & Copilots",
     "AI Adoption in Operations"
-   ]
+   ],
+   "use_cases": [
+    "copilot",
+    "ai_platform"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Internal GenAI tools and real-time analytics platform",
+   "uc_v": 1
   },
   {
    "id": "d6c9d58d17f9",
@@ -2885,7 +3318,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "4d6b130a8718",
@@ -2920,7 +3358,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "f0a355b33100",
@@ -2958,7 +3401,16 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [
+    "mobile"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-powered mobile banking application",
+   "uc_v": 1
   },
   {
    "id": "a7dd11cc4917",
@@ -2994,7 +3446,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "26e868ac875b",
@@ -3032,7 +3489,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "586cfd14d31e",
@@ -3073,7 +3535,12 @@
    "topics": [
     "AI Strategy & Leadership",
     "Generative AI & Copilots"
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "706481e45284",
@@ -3109,7 +3576,17 @@
     "AI Adoption in Operations",
     "Generative AI & Copilots",
     "Customer-Facing AI"
-   ]
+   ],
+   "use_cases": [
+    "copilot",
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "pilot",
+   "uc_note": "AI in daily work and agentic workflows for staff",
+   "uc_v": 1
   },
   {
    "id": "d015319b4712",
@@ -3157,7 +3634,16 @@
     "AI Adoption in Operations",
     "Tech Vendor Partnerships",
     "Generative AI & Copilots"
-   ]
+   ],
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI HR chatbot automating HR workflows for employees",
+   "uc_v": 1
   },
   {
    "id": "0edb49204011",
@@ -3191,7 +3677,12 @@
    "topics": [
     "AI Skills & Talent",
     "Generative AI & Copilots"
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "752ce46fc259",
@@ -3226,7 +3717,12 @@
    "topics": [
     "Awards & Rankings",
     "AI Strategy & Leadership"
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "88833631af45",
@@ -3269,7 +3765,14 @@
    "topics": [
     "Fraud, Risk & Compliance",
     "Tech Vendor Partnerships"
-   ]
+   ],
+   "use_cases": [
+    "fraud"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Real-time AI fraud detection and prevention",
+   "uc_v": 1
   },
   {
    "id": "537fbfaf76c0",
@@ -3305,7 +3808,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "2955b44f27ed",
@@ -3367,7 +3875,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "0165a5c893af",
@@ -3402,7 +3915,14 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "marketing"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI use in digital marketing",
+   "uc_v": 1
   },
   {
    "id": "70b98bf3e47a",
@@ -3444,7 +3964,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "85b0ccc5b586",
@@ -3481,7 +4006,17 @@
     "AI Adoption in Operations",
     "AI Skills & Talent",
     "Generative AI & Copilots"
-   ]
+   ],
+   "use_cases": [
+    "process_automation",
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Intelligent automation and agentic AI in core processes",
+   "uc_v": 1
   },
   {
    "id": "99610558f1ff",
@@ -3515,7 +4050,14 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Virtual assistant service",
+   "uc_v": 1
   },
   {
    "id": "52e02e0c5290",
@@ -3552,7 +4094,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "c1238bfd983b",
@@ -3586,7 +4133,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "fdc0353f25e4",
@@ -3622,7 +4174,18 @@
    "topics": [
     "AI Adoption in Operations",
     "Fraud, Risk & Compliance"
-   ]
+   ],
+   "use_cases": [
+    "credit_scoring",
+    "kyc",
+    "fraud"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI for credit decisioning, onboarding, fraud prevention deployed",
+   "uc_v": 1
   },
   {
    "id": "3a18961bbafc",
@@ -3656,7 +4219,12 @@
    },
    "topics": [
     "AI Adoption in Operations"
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "8a402dfdb272",
@@ -3692,7 +4260,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "93dcfbce5ec4",
@@ -3727,7 +4300,15 @@
    "topics": [
     "Tech Vendor Partnerships",
     "AI Adoption in Operations"
-   ]
+   ],
+   "use_cases": [
+    "early_warning",
+    "credit_scoring"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "AI for sustainable finance, risk management, SME support",
+   "uc_v": 1
   },
   {
    "id": "ce1fde545444",
@@ -3770,7 +4351,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [
+    "chatbot",
+    "wealth_advice"
+   ],
+   "channels": [
+    "mobile"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI investment assistant in mobile app for client support",
+   "uc_v": 1
   },
   {
    "id": "62e4cd6064c0",
@@ -3813,7 +4404,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "GenAI copilots for drafting, research, data analysis",
+   "uc_v": 1
   },
   {
    "id": "12bce73d8702",
@@ -3856,7 +4456,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [
+    "voice"
+   ],
+   "channels": [
+    "contact_centre"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI call center agents for client servicing",
+   "uc_v": 1
   },
   {
    "id": "a5b0a70fcfd6",
@@ -3899,7 +4508,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "df407f889348",
@@ -3944,7 +4558,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "ae873c870c66",
@@ -3987,7 +4606,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "464efef771cf",
@@ -4030,7 +4654,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "cc5d6d32bb3f",
@@ -4071,7 +4700,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "Sovereign financial cloud infrastructure with AI",
+   "uc_v": 1
   },
   {
    "id": "a33fcab851bf",
@@ -4114,7 +4750,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "AI-powered financial market infrastructure platforms",
+   "uc_v": 1
   },
   {
    "id": "df7f9bccccd9",
@@ -4155,7 +4798,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [
+    "regtech"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "pilot",
+   "uc_note": "AI for regulatory development and supervisory tools",
+   "uc_v": 1
   },
   {
    "id": "41b690ca5c22",
@@ -4196,7 +4848,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [
+    "cx_analytics"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI assistant for data analytics and monitoring system",
+   "uc_v": 1
   },
   {
    "id": "ee5fa1332b3f",
@@ -4237,7 +4898,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [
+    "regtech",
+    "chatbot",
+    "early_warning"
+   ],
+   "channels": [],
+   "uc_status": "pilot",
+   "uc_note": "GenAI testing for compliance, engagement, risk, efficiency",
+   "uc_v": 1
   },
   {
    "id": "5eeb594bd02f",
@@ -4279,7 +4949,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [
+    "regtech",
+    "early_warning",
+    "kyc"
+   ],
+   "channels": [],
+   "uc_status": "pilot",
+   "uc_note": "AI/ML pilots for licensing, surveillance, anomaly detection",
+   "uc_v": 1
   },
   {
    "id": "63168b2e26ca",
@@ -4320,7 +4999,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "4335367ae508",
@@ -4361,7 +5045,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [
+    "early_warning"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-enabled operational risk reporting and integration",
+   "uc_v": 1
   },
   {
    "id": "aafe9593e10e",
@@ -4402,7 +5095,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Model risk management policy for AI applications",
+   "uc_v": 1
   },
   {
    "id": "0804fa8a2d73",
@@ -4465,7 +5167,12 @@
      "how": "words",
      "anchor": ""
     }
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "af7e2644bd67",
@@ -4506,7 +5213,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-04"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI tools assist employees with day-to-day operational tasks",
+   "uc_v": 1
   },
   {
    "id": "371f230e4c42",
@@ -4550,7 +5266,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-04"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Microsoft 365 Copilot integrated into internal audit workflow",
+   "uc_v": 1
   },
   {
    "id": "9763a768ea97",
@@ -4593,7 +5318,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-04"
-   }
+   },
+   "use_cases": [
+    "aml",
+    "fraud"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI/ML enhances detection and monitoring in financial crime compliance",
+   "uc_v": 1
   },
   {
    "id": "92dcdac4c18b",
@@ -4635,7 +5370,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-04"
-   }
+   },
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Model risk policy updated to govern AI implementations",
+   "uc_v": 1
   },
   {
    "id": "56756b7769c9",
@@ -4677,7 +5419,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-04"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "3f9693899497",
@@ -4719,7 +5466,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-04"
-   }
+   },
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Dedicated AI security architecture with data governance controls",
+   "uc_v": 1
   },
   {
    "id": "b079ca5f51da",
@@ -4761,7 +5515,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-04"
-   }
+   },
+   "use_cases": [
+    "cyber"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI deployed for proactive detection of malicious activities",
+   "uc_v": 1
   },
   {
    "id": "65d8b1439c0e",
@@ -4803,7 +5564,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-04"
-   }
+   },
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI ethics and privacy safeguards embedded in systems",
+   "uc_v": 1
   },
   {
    "id": "d8d4a2907237",
@@ -4845,7 +5613,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-04"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "b6df07341dc1",
@@ -4887,7 +5660,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-04"
-   }
+   },
+   "use_cases": [
+    "wealth_advice"
+   ],
+   "channels": [
+    "online"
+   ],
+   "uc_status": "planned",
+   "uc_note": "AI-driven investment recommendations platform launching 2026",
+   "uc_v": 1
   },
   {
    "id": "75e357700fad",
@@ -4929,7 +5711,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-04"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "50e3971fabac",
@@ -4972,7 +5759,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-04"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "485317d34478",
@@ -5014,7 +5806,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-04"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "4e9a2e6573c7",
@@ -5056,7 +5853,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-04"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "39b14d01a38f",
@@ -5098,7 +5900,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-04"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "0e9a2da3258e",
@@ -5141,7 +5948,18 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-21"
-   }
+   },
+   "use_cases": [
+    "chatbot",
+    "marketing"
+   ],
+   "channels": [
+    "mobile",
+    "branch"
+   ],
+   "uc_status": "live",
+   "uc_note": "Hamad AI generative avatar live in mobile app and holographic branch",
+   "uc_v": 1
   },
   {
    "id": "ad6c279acb4f",
@@ -5184,7 +6002,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-21"
-   }
+   },
+   "use_cases": [
+    "cyber"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-driven threat detection and monitoring via Security Operations Centre",
+   "uc_v": 1
   },
   {
    "id": "328958ccc8fa",
@@ -5226,7 +6053,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-21"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Data analytics and AI improve operational efficiency",
+   "uc_v": 1
   },
   {
    "id": "619538c6443c",
@@ -5269,7 +6103,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "GenAI supplier risk assessment framework with security standards",
+   "uc_v": 1
   },
   {
    "id": "3bcf4b2b4c78",
@@ -5311,7 +6152,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "0294f5f34895",
@@ -5353,7 +6199,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "4a77baffe084",
@@ -5395,7 +6246,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "e40fc826e4e4",
@@ -5442,7 +6298,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "6a87c5f980fc",
@@ -5488,7 +6349,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "c6fc24daaed8",
@@ -5530,7 +6396,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "43a220da96d2",
@@ -5572,7 +6443,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "e5d40e96e952",
@@ -5614,7 +6490,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Microsoft 365 Copilot bank-wide rollout in everyday workflows",
+   "uc_v": 1
   },
   {
    "id": "3df92a47a528",
@@ -5658,7 +6543,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Microsoft 365 Copilot embedded across entire bank for productivity",
+   "uc_v": 1
   },
   {
    "id": "443d78e0d91f",
@@ -5703,7 +6597,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "3C Programme: Microsoft Copilot adoption with department-specific applications",
+   "uc_v": 1
   },
   {
    "id": "cf4bcc5b5b2d",
@@ -5744,7 +6647,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "304ecd0887f7",
@@ -5786,7 +6694,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cyber"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-driven command center monitoring operations, cybersecurity, transactions",
+   "uc_v": 1
   },
   {
    "id": "ce1d8c5f19cf",
@@ -5827,7 +6744,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cyber"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-driven tools for operational management and cybersecurity monitoring",
+   "uc_v": 1
   },
   {
    "id": "ca4b937661c8",
@@ -5868,7 +6794,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Machine-learning models automating key internal workflows",
+   "uc_v": 1
   },
   {
    "id": "4b8c0dda5856",
@@ -5910,7 +6845,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "pilot",
+   "uc_note": "AI initiatives with foundational capabilities and pilot high-impact use cases",
+   "uc_v": 1
   },
   {
    "id": "74c60f4fd4df",
@@ -5952,7 +6894,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "doc_processing"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Intelligent character recognition automates document processing",
+   "uc_v": 1
   },
   {
    "id": "c1b5f2297829",
@@ -5995,7 +6946,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cx_analytics"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Smart email with LLM generates response suggestions for customer emails",
+   "uc_v": 1
   },
   {
    "id": "e68e0615b487",
@@ -6038,7 +6998,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Machine learning predicts customer product interest for relevant offerings",
+   "uc_v": 1
   },
   {
    "id": "517c06a5b51b",
@@ -6081,7 +7048,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "On-premises GPU cluster for secure AI development and LLM infrastructure",
+   "uc_v": 1
   },
   {
    "id": "c949d48beadc",
@@ -6123,7 +7097,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Enterprise data lakehouse enables flexible big data and analytics",
+   "uc_v": 1
   },
   {
    "id": "81824c0ce9e5",
@@ -6166,7 +7147,18 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "fraud",
+    "aml",
+    "nbo"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Real-time fraud prevention, compliance notifications, customer engagement",
+   "uc_v": 1
   },
   {
    "id": "3d2ce8ec8802",
@@ -6207,7 +7199,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "1d475ef2a73c",
@@ -6249,7 +7246,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "77cda8e4b029",
@@ -6291,7 +7293,19 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo",
+    "cx_analytics"
+   ],
+   "channels": [
+    "branch",
+    "mobile",
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI analyzes customer behavior for personalized offers",
+   "uc_v": 1
   },
   {
    "id": "fd0ffbec20aa",
@@ -6333,7 +7347,18 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "chatbot",
+    "nbo"
+   ],
+   "channels": [
+    "online",
+    "mobile"
+   ],
+   "uc_status": "planned",
+   "uc_note": "AI assistants for personalized customer engagements",
+   "uc_v": 1
   },
   {
    "id": "3b9bcf6e7571",
@@ -6376,7 +7401,18 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "credit_scoring",
+    "fraud",
+    "aml"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "planned",
+   "uc_note": "AI for credit, fraud, compliance detection and risk management",
+   "uc_v": 1
   },
   {
    "id": "fbf07164ea42",
@@ -6420,7 +7456,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "online",
+    "mobile"
+   ],
+   "uc_status": "live",
+   "uc_note": "Automated workflows and improved platform navigation",
+   "uc_v": 1
   },
   {
    "id": "491549744914",
@@ -6461,7 +7507,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-assisted Board decision support system",
+   "uc_v": 1
   },
   {
    "id": "e0ccd12ee127",
@@ -6502,7 +7557,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "24af60586b2f",
@@ -6545,7 +7605,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI/ML models and Banking Analytical Engine for insights",
+   "uc_v": 1
   },
   {
    "id": "d660dcf86a28",
@@ -6589,7 +7658,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Microsoft Copilot for enhanced productivity and workflows",
+   "uc_v": 1
   },
   {
    "id": "603b31b2d653",
@@ -6629,7 +7707,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo",
+    "cx_analytics"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Predictive insights for personalized customer servicing",
+   "uc_v": 1
   },
   {
    "id": "603b31b2d653",
@@ -6669,7 +7757,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Automated reconciliation for payment flows",
+   "uc_v": 1
   },
   {
    "id": "38867c1c5d45",
@@ -6711,7 +7808,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "91cd50db1da7",
@@ -6756,7 +7858,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "f4eaadb55a19",
@@ -6798,7 +7905,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "fraud"
+   ],
+   "channels": [
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI fraud detection analyzes customer behavior in real-time",
+   "uc_v": 1
   },
   {
    "id": "21f11dc9459a",
@@ -6840,7 +7956,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "trade_finance"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI engine automatically reviews LC documents for compliance",
+   "uc_v": 1
   },
   {
    "id": "0562d95f60d5",
@@ -6882,7 +8007,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "doc_processing",
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "GenAI for policy, procedure, document management",
+   "uc_v": 1
   },
   {
    "id": "5d9e23e23ef7",
@@ -6924,7 +8059,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "early_warning"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI/ML for risk models, predictive analysis, real-time identification",
+   "uc_v": 1
   },
   {
    "id": "fab7c9017603",
@@ -6965,7 +8109,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "kyc"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Facial recognition for customer authentication",
+   "uc_v": 1
   },
   {
    "id": "a88390603e58",
@@ -7007,7 +8158,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "a3ed3b397f1d",
@@ -7049,7 +8205,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "d7ed88ef14b9",
@@ -7091,7 +8252,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "RPA automation of Ministry of Justice due collection",
+   "uc_v": 1
   },
   {
    "id": "cceb1598fefe",
@@ -7135,7 +8305,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "b4db3911d94e",
@@ -7176,7 +8351,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Automated profit calculation and distribution system",
+   "uc_v": 1
   },
   {
    "id": "dfa825a831ff",
@@ -7218,7 +8402,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "marketing"
+   ],
+   "channels": [
+    "atm"
+   ],
+   "uc_status": "live",
+   "uc_note": "ATM marketing campaign management and targeted offers",
+   "uc_v": 1
   },
   {
    "id": "8cbc6d0f1743",
@@ -7260,7 +8453,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "7de1aee7c5c5",
@@ -7302,7 +8500,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "40d0782a29ae",
@@ -7344,7 +8547,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "6b2c6cfe64f7",
@@ -7388,7 +8596,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Microsoft Copilot enterprise-wide deployment for employees",
+   "uc_v": 1
   },
   {
    "id": "905f9ef390d4",
@@ -7432,7 +8649,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "73d16525b6d3",
@@ -7476,7 +8698,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "6a3015372cde",
@@ -7518,7 +8745,19 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "crosssell",
+    "nbo",
+    "voice"
+   ],
+   "channels": [
+    "contact_centre",
+    "rm"
+   ],
+   "uc_status": "live",
+   "uc_note": "ML models for lead targeting, personalization and call center",
+   "uc_v": 1
   },
   {
    "id": "8f490c0792d6",
@@ -7560,7 +8799,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "fraud",
+    "aml"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI for fraud detection and anti-money laundering real-time",
+   "uc_v": 1
   },
   {
    "id": "6c653bc7682d",
@@ -7602,7 +8851,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "fraud"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Real-time fraud detection platform with cross-channel correlation",
+   "uc_v": 1
   },
   {
    "id": "d9f05aa4a410",
@@ -7644,7 +8902,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Data analytics with predictive models and next best action",
+   "uc_v": 1
   },
   {
    "id": "468cd7e27fb3",
@@ -7686,7 +8951,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "035f4635f4a5",
@@ -7728,7 +8998,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "bbbe8a96a0f2",
@@ -7770,7 +9045,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "cd0603f72d1f",
@@ -7812,7 +9092,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "c630e903e4af",
@@ -7854,7 +9139,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "89f946094d43",
@@ -7896,7 +9186,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "RPA automation of retail operations and customer journeys",
+   "uc_v": 1
   },
   {
    "id": "bd2ff21a6b4a",
@@ -7938,7 +9237,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "marketing",
+    "crosssell"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Marketing campaign automation and cross-sell through engagement platform",
+   "uc_v": 1
   },
   {
    "id": "2b8b0455aa8b",
@@ -7980,7 +9289,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "40+ automation enhancements across critical functions",
+   "uc_v": 1
   },
   {
    "id": "b57d5051fb7d",
@@ -8022,7 +9340,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Automation of five key HR operational processes",
+   "uc_v": 1
   },
   {
    "id": "b2a5e869d8a3",
@@ -8064,7 +9391,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "77401918edac",
@@ -8106,7 +9438,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "a5e3539b1307",
@@ -8148,7 +9485,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "9824eeec9efd",
@@ -8192,7 +9534,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "f562475693aa",
@@ -8235,7 +9582,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [
+    "mobile",
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "Al Murshid AI-powered Shari'a knowledge and advisory platform",
+   "uc_v": 1
   },
   {
    "id": "db6ccc5532c0",
@@ -8278,7 +9635,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "b23984a36c5a",
@@ -8322,7 +9684,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI Fatema virtual assistant for internal productivity",
+   "uc_v": 1
   },
   {
    "id": "5e9d6ff37f14",
@@ -8365,7 +9736,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI Centre of Excellence driving process automation",
+   "uc_v": 1
   },
   {
    "id": "6e48197fdff1",
@@ -8410,7 +9790,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "30+ AI and automation use cases; GenAI adopted by 1000+ users",
+   "uc_v": 1
   },
   {
    "id": "03768c1854f4",
@@ -8453,7 +9842,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "credit_scoring"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-driven credit reviews for banks and financial institutions",
+   "uc_v": 1
   },
   {
    "id": "f0b97c00b43a",
@@ -8496,7 +9894,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "kyc"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-assisted digital onboarding for merchants",
+   "uc_v": 1
   },
   {
    "id": "7ffa4f7f49c0",
@@ -8538,7 +9945,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "trade_finance",
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI and automation in trade finance operations",
+   "uc_v": 1
   },
   {
    "id": "1688edd991de",
@@ -8580,7 +9997,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Frontline platform rolled out to 11 units with insights",
+   "uc_v": 1
   },
   {
    "id": "38908339690c",
@@ -8622,7 +10048,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Data Management function for advanced analytics",
+   "uc_v": 1
   },
   {
    "id": "35cecdb41db1",
@@ -8665,7 +10100,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "450aad790597",
@@ -8707,7 +10147,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "4634727f5716",
@@ -8749,7 +10194,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Eliminated manual tasks through automation solutions",
+   "uc_v": 1
   },
   {
    "id": "f8d18ef321b5",
@@ -8791,7 +10245,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "d3455044cd48",
@@ -8833,7 +10292,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "early_warning"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Proactively identifies credit deterioration risk signals",
+   "uc_v": 1
   },
   {
    "id": "9e3202294765",
@@ -8875,7 +10343,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "End-to-end automation for legal customers recovery",
+   "uc_v": 1
   },
   {
    "id": "6947bf4b9468",
@@ -8916,7 +10393,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "b66e48f043c8",
@@ -8958,7 +10440,18 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "kyc",
+    "process_automation"
+   ],
+   "channels": [
+    "mobile",
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Automated digital onboarding for mobile wallet",
+   "uc_v": 1
   },
   {
    "id": "b66e48f043c8",
@@ -8999,7 +10492,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "HR new staff onboarding automation",
+   "uc_v": 1
   },
   {
    "id": "b66e48f043c8",
@@ -9040,7 +10542,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "End-of-day processing automation via RPA",
+   "uc_v": 1
   },
   {
    "id": "e6e24eecbe85",
@@ -9082,7 +10593,19 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "chatbot",
+    "kyc",
+    "process_automation"
+   ],
+   "channels": [
+    "mobile",
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI across chatbots, eKYC, and workflows",
+   "uc_v": 1
   },
   {
    "id": "5d394f2d7d6d",
@@ -9127,7 +10650,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "99023bfa2d80",
@@ -9171,7 +10699,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "hr_ai"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "planned",
+   "uc_note": "SAP Business AI for talent management",
+   "uc_v": 1
   },
   {
    "id": "9571eaa78715",
@@ -9214,7 +10751,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "9abb21718f7c",
@@ -9257,7 +10799,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "chatbot",
+    "voice"
+   ],
+   "channels": [
+    "mobile"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI digital assistant in Kuwaiti dialect with voice",
+   "uc_v": 1
   },
   {
    "id": "6122b22dd87f",
@@ -9299,7 +10851,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI predicts customer transactional needs; 90% accuracy",
+   "uc_v": 1
   },
   {
    "id": "f8934634a2ba",
@@ -9341,7 +10900,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI automation and intelligent decisioning systems",
+   "uc_v": 1
   },
   {
    "id": "2dec72a1c40f",
@@ -9384,7 +10952,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "fraud"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI detects and prevents transaction and account fraud",
+   "uc_v": 1
   },
   {
    "id": "51929f1b0b58",
@@ -9426,7 +11003,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo"
+   ],
+   "channels": [
+    "mobile"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI analyzes behavior for personalized recommendations",
+   "uc_v": 1
   },
   {
    "id": "f976154b856a",
@@ -9468,7 +11054,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI and analytics streamlines corporate banking",
+   "uc_v": 1
   },
   {
    "id": "7b747acfd76c",
@@ -9510,7 +11105,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "e0012bdd3461",
@@ -9553,7 +11153,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI platform for advanced analytics and use cases",
+   "uc_v": 1
   },
   {
    "id": "3170e4b4090b",
@@ -9595,7 +11202,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "fraud"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Integrated fraud detection across electronic and transaction channels",
+   "uc_v": 1
   },
   {
    "id": "e605c40ab23b",
@@ -9637,7 +11251,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI governance framework for responsible deployment",
+   "uc_v": 1
   },
   {
    "id": "3283c734ae25",
@@ -9679,7 +11300,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "b629a89e2189",
@@ -9721,7 +11347,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI prioritization committee for strategic use-case selection",
+   "uc_v": 1
   },
   {
    "id": "9c4dc08cc86e",
@@ -9763,7 +11396,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Unified data and AI platform for analytics and GenAI",
+   "uc_v": 1
   },
   {
    "id": "b1270c4eb046",
@@ -9805,7 +11445,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI agent for operations policies and financing calculations",
+   "uc_v": 1
   },
   {
    "id": "9426da18a413",
@@ -9847,7 +11496,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "GenAI assistant for staff policies and procedures search",
+   "uc_v": 1
   },
   {
    "id": "7d2a2faef196",
@@ -9894,7 +11552,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "marketing"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Visa AI-powered marketing program for marketing maturity",
+   "uc_v": 1
   },
   {
    "id": "40b7d6d83cf1",
@@ -9938,7 +11603,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "NVIDIA GPUs for GenAI and agentic-AI processing",
+   "uc_v": 1
   },
   {
    "id": "a161ba961c2a",
@@ -9982,7 +11654,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Dataiku platform for scalable AI and GenAI development",
+   "uc_v": 1
   },
   {
    "id": "dcc6b1ca2d92",
@@ -10037,7 +11716,14 @@
      "how": "words",
      "anchor": ""
     }
-   ]
+   ],
+   "use_cases": [
+    "early_warning"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Early warning signals model for corporate risk identification",
+   "uc_v": 1
   },
   {
    "id": "028a9dcf1a4d",
@@ -10079,7 +11765,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "crosssell"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Next product to buy model generating cross-sell leads",
+   "uc_v": 1
   },
   {
    "id": "4b5c9fff0903",
@@ -10121,7 +11814,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "fraud"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Mule accounts and fraud victim detection models",
+   "uc_v": 1
   },
   {
    "id": "4b5c9fff0903",
@@ -10163,7 +11863,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cyber"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Risky domains alarm model for cybersecurity threats",
+   "uc_v": 1
   },
   {
    "id": "692663733eb1",
@@ -10204,7 +11911,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "churn"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Hidden affluent model for customer segmentation",
+   "uc_v": 1
   },
   {
    "id": "3533ac6561a7",
@@ -10246,7 +11960,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "82d572546a5a",
@@ -10288,7 +12007,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Intelichat GenAI solution for operational efficiency",
+   "uc_v": 1
   },
   {
    "id": "8ba6cfabc2a0",
@@ -10329,7 +12057,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "dda1ae322bfb",
@@ -10372,7 +12105,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "40543406251e",
@@ -10433,7 +12171,16 @@
      "how": "words",
      "anchor": ""
     }
-   ]
+   ],
+   "use_cases": [
+    "treasury"
+   ],
+   "channels": [
+    "atm"
+   ],
+   "uc_status": "live",
+   "uc_note": "Predictive analytics optimizes ATM cash replenishment schedules",
+   "uc_v": 1
   },
   {
    "id": "10261fab9152",
@@ -10475,7 +12222,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Launched Center of Intelligence, Saudi Arabia's first banking AI center",
+   "uc_v": 1
   },
   {
    "id": "11e725900d1c",
@@ -10520,7 +12274,18 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "hr_ai",
+    "copilot",
+    "chatbot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "GenAI assistants for HR, Remedy, customer experience deployed",
+   "uc_v": 1
   },
   {
    "id": "291c05b02748",
@@ -10562,7 +12327,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "GenAI assistant streamlines HR policies, processes, content creation",
+   "uc_v": 1
   },
   {
    "id": "291c05b02748",
@@ -10604,7 +12378,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "CXC AI Assistant Chatbot streamlines internal processes",
+   "uc_v": 1
   },
   {
    "id": "866fdfa49507",
@@ -10646,7 +12429,15 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "trade_finance",
+    "doc_processing"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "ML automation for trade finance document checking, 19% LC/LG growth",
+   "uc_v": 1
   },
   {
    "id": "7b7fb9dbe87b",
@@ -10688,7 +12479,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "churn"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Enhanced customer lifetime value models improve relationship management",
+   "uc_v": 1
   },
   {
    "id": "7b7fb9dbe87b",
@@ -10730,7 +12528,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "crosssell"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI cross-sell optimization for SME banking segment",
+   "uc_v": 1
   },
   {
    "id": "7b7fb9dbe87b",
@@ -10772,7 +12577,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cx_analytics"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI-enabled complaints categorization automates complaint processing",
+   "uc_v": 1
   },
   {
    "id": "7b7fb9dbe87b",
@@ -10814,7 +12626,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Upgraded Next Best Offer engines improve digital engagement",
+   "uc_v": 1
   },
   {
    "id": "433a77acb953",
@@ -10856,7 +12675,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "aml"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Analytics capabilities deployed across financial crimes operations",
+   "uc_v": 1
   },
   {
    "id": "dac59c41f520",
@@ -10898,7 +12724,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "fraud"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI fraud detection system mitigates risk with predictive analytics",
+   "uc_v": 1
   },
   {
    "id": "433a77acb953",
@@ -10940,7 +12773,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "hr_ai"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "HR analytics capabilities strengthen HR operations, decision-making",
+   "uc_v": 1
   },
   {
    "id": "94c496a43914",
@@ -10982,7 +12822,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "churn"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "End-of-Relationship Prediction identifies, addresses customer churn",
+   "uc_v": 1
   },
   {
    "id": "dac59c41f520",
@@ -11024,7 +12871,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "treasury"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Dynamic product pricing AI boosts revenue, efficiency, mitigates risk",
+   "uc_v": 1
   },
   {
    "id": "dac59c41f520",
@@ -11066,7 +12920,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "crosssell"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "SME Smart Sales solution enhances sales targeting, revenue generation",
+   "uc_v": 1
   },
   {
    "id": "9036dc40940a",
@@ -11108,7 +12969,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Staff Level Optimization dynamically allocates resources in real-time",
+   "uc_v": 1
   },
   {
    "id": "d62921309311",
@@ -11150,7 +13020,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "churn"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "5-Star Digital Segmentation enables tailored engagement, paperless",
+   "uc_v": 1
   },
   {
    "id": "781df1ff81e0",
@@ -11196,7 +13073,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "Partnerships with NVIDIA, DataRobot accelerate GenAI, Agentic AI",
+   "uc_v": 1
   },
   {
    "id": "7c57bb721a19",
@@ -11263,7 +13147,12 @@
      "how": "words",
      "anchor": ""
     }
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "b908b26d5747",
@@ -11305,7 +13194,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "kyc"
+   ],
+   "channels": [
+    "online",
+    "mobile"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-based KYC verification for digital onboarding",
+   "uc_v": 1
   },
   {
    "id": "bc00ec7668ae",
@@ -11347,7 +13246,15 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "credit_scoring",
+    "nbo"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Real-time credit decisioning and personalized product recommendations",
+   "uc_v": 1
   },
   {
    "id": "1d16e87fbddf",
@@ -11389,7 +13296,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "early_warning"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "ML/AI for predictive modeling and risk assessment",
+   "uc_v": 1
   },
   {
    "id": "3dbe340fb555",
@@ -11434,7 +13350,15 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "kyc",
+    "doc_processing"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Face recognition and OCR for onboarding verification",
+   "uc_v": 1
   },
   {
    "id": "f7e70bb7cc5d",
@@ -11476,7 +13400,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Proprietary private cloud AI infrastructure platform",
+   "uc_v": 1
   },
   {
    "id": "938565628ca6",
@@ -11519,7 +13452,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Internal generative AI platform for employee productivity",
+   "uc_v": 1
   },
   {
    "id": "ec8d3bb622dc",
@@ -11560,7 +13502,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "GPU computing environment for AI workloads",
+   "uc_v": 1
   },
   {
    "id": "33c088ea8a16",
@@ -11602,7 +13553,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Enterprise data platform for AI-driven analytics",
+   "uc_v": 1
   },
   {
    "id": "8f74cf83d21f",
@@ -11643,7 +13603,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Teradata EDW upgrade for analytical workloads",
+   "uc_v": 1
   },
   {
    "id": "eddb9bff46ae",
@@ -11685,7 +13654,18 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo"
+   ],
+   "channels": [
+    "online",
+    "mobile",
+    "messaging"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-integrated NBO campaigns for personalized engagement",
+   "uc_v": 1
   },
   {
    "id": "6bfe181a1270",
@@ -11726,7 +13706,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "d5ff72cfd333",
@@ -11768,7 +13753,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "hr_ai"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-powered gamified learning application for employees",
+   "uc_v": 1
   },
   {
    "id": "1d93585eb9b2",
@@ -11810,7 +13804,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "5d9bc05d1ad4",
@@ -11853,7 +13852,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "fraud",
+    "credit_scoring"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "ML models for fraud detection and credit scoring",
+   "uc_v": 1
   },
   {
    "id": "1cdaaf98b49f",
@@ -11895,7 +13904,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "a19ddfa5d4a6",
@@ -11938,7 +13952,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "c34d5404a27d",
@@ -11983,7 +14002,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo"
+   ],
+   "channels": [
+    "mobile"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-powered personalized mobile banking journeys",
+   "uc_v": 1
   },
   {
    "id": "b6d6f35051b5",
@@ -12028,7 +14056,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "regtech"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-powered compliance platform for governance",
+   "uc_v": 1
   },
   {
    "id": "46dafd037388",
@@ -12073,7 +14110,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "kyc"
+   ],
+   "channels": [
+    "mobile"
+   ],
+   "uc_status": "live",
+   "uc_note": "Facial recognition for secure digital banking",
+   "uc_v": 1
   },
   {
    "id": "1c4c6cb1e7af",
@@ -12117,7 +14163,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "trade_finance"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Digitized supply chain finance operations",
+   "uc_v": 1
   },
   {
    "id": "50ffd0efb88b",
@@ -12160,7 +14215,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "kyc",
+    "aml"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Digital onboarding with enhanced KYC and AML checks",
+   "uc_v": 1
   },
   {
    "id": "d78a8f42a1d6",
@@ -12203,7 +14268,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "fraud",
+    "aml"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI Falcon scoring for credit card fraud detection",
+   "uc_v": 1
   },
   {
    "id": "eb53f73e2a62",
@@ -12246,7 +14321,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "fraud"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI risk scoring models for fraud prevention",
+   "uc_v": 1
   },
   {
    "id": "9c7c8f5e9663",
@@ -12288,7 +14372,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "RPA in 2 additional back-office processes",
+   "uc_v": 1
   },
   {
    "id": "a0c9bf3cd9b7",
@@ -12331,7 +14424,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "dd967510f353",
@@ -12373,7 +14471,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "eac22ff87ebf",
@@ -12414,7 +14517,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "Agentic chat capabilities for customer engagement",
+   "uc_v": 1
   },
   {
    "id": "eac22ff87ebf",
@@ -12455,7 +14565,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "planned",
+   "uc_note": "Autonomous workflows to streamline processes",
+   "uc_v": 1
   },
   {
    "id": "eac22ff87ebf",
@@ -12496,7 +14615,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "kyc",
+    "aml"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "planned",
+   "uc_note": "Automated due diligence for compliance",
+   "uc_v": 1
   },
   {
    "id": "eac22ff87ebf",
@@ -12537,7 +14666,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "fraud"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "planned",
+   "uc_note": "Enhanced fraud detection capabilities",
+   "uc_v": 1
   },
   {
    "id": "e7b4502fb402",
@@ -12578,7 +14716,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "998746456dac",
@@ -12619,7 +14762,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-driven productivity tools for employee support",
+   "uc_v": 1
   },
   {
    "id": "c8516cf58ac2",
@@ -12660,7 +14812,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "5cdaa346489f",
@@ -12701,7 +14858,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "5efd440086ed",
@@ -12744,7 +14906,18 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "chatbot",
+    "voice"
+   ],
+   "channels": [
+    "mobile",
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "Chatbot and Siri-enabled voice payments",
+   "uc_v": 1
   },
   {
    "id": "c060b9b79e1c",
@@ -12790,7 +14963,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "399df1b99fde",
@@ -12833,7 +15011,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "kyc",
+    "credit_scoring",
+    "fraud"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI deployment across onboarding, credit, fraud, marketing",
+   "uc_v": 1
   },
   {
    "id": "eaf571156e86",
@@ -12876,7 +15063,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform",
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Cloud-native platform enabling straight-through processing",
+   "uc_v": 1
   },
   {
    "id": "1b6aaa0a658f",
@@ -12919,7 +15116,18 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "chatbot",
+    "nbo"
+   ],
+   "channels": [
+    "mobile",
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-enabled virtual assistants routing to self-service",
+   "uc_v": 1
   },
   {
    "id": "247e52ce9e7d",
@@ -12962,7 +15170,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "kyc",
+    "doc_processing"
+   ],
+   "channels": [
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "Digital onboarding with facial recognition and AI",
+   "uc_v": 1
   },
   {
    "id": "60057e20cca2",
@@ -13005,7 +15223,15 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "kyc",
+    "doc_processing"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Digital onboarding and KYC journeys with credit workflow digitisation",
+   "uc_v": 1
   },
   {
    "id": "9aebfb2cd5e0",
@@ -13048,7 +15274,15 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "regtech",
+    "treasury"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI analytics for regulatory submissions and cash flow enhancement",
+   "uc_v": 1
   },
   {
    "id": "f785e6a48067",
@@ -13091,7 +15325,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Data and AI capabilities for scalability and decisioning",
+   "uc_v": 1
   },
   {
    "id": "66079d7b9ecc",
@@ -13136,7 +15377,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cx_analytics"
+   ],
+   "channels": [
+    "mobile",
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "Carbon-tracking platform showing customers environmental impact",
+   "uc_v": 1
   },
   {
    "id": "ae79b7308048",
@@ -13179,7 +15430,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "72ab9daa7420",
@@ -13222,7 +15478,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "regtech"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "900+ regulatory questionnaires automated; 200,000+ hours saved",
+   "uc_v": 1
   },
   {
    "id": "4f60f64d2000",
@@ -13265,7 +15530,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "regtech"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Automated 90+ slides and 40+ AML spreadsheets; 300 hours monthly saved",
+   "uc_v": 1
   },
   {
    "id": "e75b81d2780e",
@@ -13307,7 +15581,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "regtech"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "planned",
+   "uc_note": "GenAI for compliance analytics and predictive insights deployment",
+   "uc_v": 1
   },
   {
    "id": "e7e0db24a219",
@@ -13349,7 +15632,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "db528d83b559",
@@ -13391,7 +15679,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "13c6f9ddb305",
@@ -13433,7 +15726,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "018131027512",
@@ -13475,7 +15773,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "AI to streamline operations and reduce cost-to-serve",
+   "uc_v": 1
   },
   {
    "id": "8ed48a8bd35a",
@@ -13517,7 +15822,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "91c4f15231f3",
@@ -13559,7 +15869,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Responsible AI framework with governance and Shariah safeguards",
+   "uc_v": 1
   },
   {
    "id": "f955ccbc0f1a",
@@ -13601,7 +15918,19 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo"
+   ],
+   "channels": [
+    "branch",
+    "contact_centre",
+    "mobile",
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-augmented channels across branches, contact centre, mobile, web",
+   "uc_v": 1
   },
   {
    "id": "06ff242ddc3e",
@@ -13643,7 +15972,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "kyc",
+    "nbo",
+    "fraud"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "GenAI for instant onboarding, cross-sell and fraud mitigation",
+   "uc_v": 1
   },
   {
    "id": "41f2d7df48ab",
@@ -13685,7 +16023,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "crosssell"
+   ],
+   "channels": [
+    "rm"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI virtual corporate relationship manager assistant",
+   "uc_v": 1
   },
   {
    "id": "6274969440aa",
@@ -13727,7 +16074,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "trade_finance"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Trade AI for document screening and transaction processing",
+   "uc_v": 1
   },
   {
    "id": "f5f92d81f00e",
@@ -13769,7 +16125,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Data Insights Platform for AI and open banking capabilities",
+   "uc_v": 1
   },
   {
    "id": "548754d64844",
@@ -13811,7 +16174,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "hr_ai"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Upskilling employees to embed AI into day-to-day work",
+   "uc_v": 1
   },
   {
    "id": "b901f1a6f43a",
@@ -13853,7 +16223,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "14c3e6bf32ab",
@@ -13895,7 +16270,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI tailors products, recommendations, servicing.",
+   "uc_v": 1
   },
   {
    "id": "8b4a5c1afd2e",
@@ -13937,7 +16319,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Building AI-ready data infrastructure and platforms.",
+   "uc_v": 1
   },
   {
    "id": "efd9a058e680",
@@ -13979,7 +16368,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "dev_ai"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI-enabled journey design, automation, testing.",
+   "uc_v": 1
   },
   {
    "id": "b78e91a0ad7d",
@@ -14021,7 +16417,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI Committee for centralized governance and adoption.",
+   "uc_v": 1
   },
   {
    "id": "6807cf791bc7",
@@ -14063,7 +16466,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "fraud"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI-powered fraud detection systems deployed.",
+   "uc_v": 1
   },
   {
    "id": "3229927a5ac9",
@@ -14105,7 +16515,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "fraud",
+    "credit_scoring",
+    "nbo"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI models for decisioning, fraud, next-best-offer.",
+   "uc_v": 1
   },
   {
    "id": "d0478b1f6eca",
@@ -14149,7 +16568,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Partnership for responsible AI adoption across organization.",
+   "uc_v": 1
   },
   {
    "id": "975f00dbab6c",
@@ -14193,7 +16619,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "8f7dbea5566a",
@@ -14235,7 +16666,15 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo",
+    "voice"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "AI hyper-personalization and voice conversational banking.",
+   "uc_v": 1
   },
   {
    "id": "8a45c64f0055",
@@ -14277,7 +16716,15 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_governance",
+    "cyber"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI governance controls and threat intelligence.",
+   "uc_v": 1
   },
   {
    "id": "e4caac11cdbb",
@@ -14319,7 +16766,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "aml"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI automation and analytics for financial crime surveillance.",
+   "uc_v": 1
   },
   {
    "id": "7da857200133",
@@ -14361,7 +16815,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI policy, governance framework, enterprise strategy.",
+   "uc_v": 1
   },
   {
    "id": "7da857200133",
@@ -14403,7 +16864,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "e0f681eece48",
@@ -14445,7 +16911,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "Strategic focus on building AI/ML capabilities.",
+   "uc_v": 1
   },
   {
    "id": "41d796646d7d",
@@ -14487,7 +16960,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "056dd1f291f4",
@@ -14529,7 +17007,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [
+    "mobile",
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-driven interaction platforms for customer engagement.",
+   "uc_v": 1
   },
   {
    "id": "d0eb4ddb2704",
@@ -14571,7 +17059,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cx_analytics"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Data-driven event platform and advanced analytics deployed.",
+   "uc_v": 1
   },
   {
    "id": "5347b973c5dc",
@@ -14613,7 +17108,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "early_warning"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "Analytics and AI for risk identification and mitigation.",
+   "uc_v": 1
   },
   {
    "id": "b24206f4bb69",
@@ -14655,7 +17157,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "4fca9d1038c7",
@@ -14701,7 +17208,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "57081ae44821",
@@ -14743,7 +17255,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "93fa6f9c858f",
@@ -14805,7 +17322,16 @@
      "how": "words",
      "anchor": ""
     }
-   ]
+   ],
+   "use_cases": [
+    "voice"
+   ],
+   "channels": [
+    "contact_centre"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI conversational IVR reducing call processing times 30%.",
+   "uc_v": 1
   },
   {
    "id": "059962f7dac5",
@@ -14847,7 +17373,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cyber"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-enabled monitoring tools for cyber threat detection.",
+   "uc_v": 1
   },
   {
    "id": "277950eee394",
@@ -14889,7 +17424,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "2926ed5069c5",
@@ -14931,7 +17471,18 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "fraud",
+    "process_automation",
+    "early_warning"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI for fraud prevention, risk insights and process efficiency.",
+   "uc_v": 1
   },
   {
    "id": "a60baa48c61e",
@@ -14973,7 +17524,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "1310bacf3217",
@@ -15015,7 +17571,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "d5c72ebcfa11",
@@ -15057,7 +17618,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [
+    "mobile",
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "Chat-based banking and sustainability chatbot launched.",
+   "uc_v": 1
   },
   {
    "id": "d5c72ebcfa11",
@@ -15099,7 +17670,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cx_analytics",
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Predictive insights and automated customer service workflows deployed.",
+   "uc_v": 1
   },
   {
    "id": "09a59f3a4bff",
@@ -15141,7 +17722,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Advanced analytics and AI embedded across retail, corporate, risk.",
+   "uc_v": 1
   },
   {
    "id": "05dacc6657f1",
@@ -15183,7 +17773,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "hr_ai"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-enabled recruitment conducting 98,000 interviews, saving 13,000 hours.",
+   "uc_v": 1
   },
   {
    "id": "893dd8dc261b",
@@ -15225,7 +17824,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "voice"
+   ],
+   "channels": [
+    "contact_centre"
+   ],
+   "uc_status": "live",
+   "uc_note": "GenAI in voice operations improving contact centre sales 40%.",
+   "uc_v": 1
   },
   {
    "id": "f1a3453a2e8b",
@@ -15268,7 +17876,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "planned",
+   "uc_note": "Multi-year Project Trinity for AI-enabled transformation and automation.",
+   "uc_v": 1
   },
   {
    "id": "ed1b81daeaa4",
@@ -15310,7 +17927,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot",
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "GenAI scaled accelerating processes 70%, enabling 24-hour AI support.",
+   "uc_v": 1
   },
   {
    "id": "89d89a4ba237",
@@ -15352,7 +17979,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "dev_ai"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "GenAI enablement programmes and Developer Hub enhancing engineering productivity.",
+   "uc_v": 1
   },
   {
    "id": "3a8d331d44f7",
@@ -15394,7 +18030,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cyber"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-driven perimeter protection strengthening cybersecurity resilience.",
+   "uc_v": 1
   },
   {
    "id": "62e6351f308b",
@@ -15436,7 +18081,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "aml"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Data analytics and AI for AML compliance screening and monitoring.",
+   "uc_v": 1
   },
   {
    "id": "b84697b16ea5",
@@ -15478,7 +18132,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "aml"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "NLP and ML for improved AML alert management and effectiveness.",
+   "uc_v": 1
   },
   {
    "id": "b570dcf74f53",
@@ -15520,7 +18183,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "aml"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI and automation for sanction screening, transaction monitoring, compliance.",
+   "uc_v": 1
   },
   {
    "id": "14d4a8977d33",
@@ -15562,7 +18234,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cyber"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-driven monitoring and anomaly detection for cyber threats",
+   "uc_v": 1
   },
   {
    "id": "689c4e6550d0",
@@ -15600,7 +18281,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "4bb3365a45c7",
@@ -15636,7 +18322,18 @@
    "topics": [
     "Tech Vendor Partnerships",
     "AI Adoption in Operations"
-   ]
+   ],
+   "use_cases": [
+    "crosssell",
+    "nbo"
+   ],
+   "channels": [
+    "branch",
+    "rm"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI platform ranking corporate prospects, branch/ATM planning and cost optimization",
+   "uc_v": 1
   },
   {
    "id": "8c1470ee1a9f",
@@ -15671,7 +18368,14 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "fraud"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI detects and identifies fraudsters",
+   "uc_v": 1
   },
   {
    "id": "8a4874b8aade",
@@ -15708,7 +18412,17 @@
     "Awards & Rankings",
     "AI Adoption in Operations",
     "Generative AI & Copilots"
-   ]
+   ],
+   "use_cases": [
+    "cx_analytics",
+    "kyc"
+   ],
+   "channels": [
+    "rm"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI insights for relationship managers including sentiment analysis and digital onboarding",
+   "uc_v": 1
   },
   {
    "id": "d6b237b0ece1",
@@ -15746,7 +18460,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "4c850b47dce8",
@@ -15784,7 +18503,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "01b615e4fe51",
@@ -15819,7 +18543,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "338419965276",
@@ -15879,7 +18608,16 @@
      "how": "ai",
      "anchor": "NCR Atleos"
     }
-   ]
+   ],
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [
+    "branch"
+   ],
+   "uc_status": "live",
+   "uc_note": "Conversational AI avatar for in-branch banking experience",
+   "uc_v": 1
   },
   {
    "id": "2731f9456f3f",
@@ -15916,7 +18654,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "e22969a77781",
@@ -15951,7 +18694,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "f1f89c11697c",
@@ -15989,7 +18737,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "a85aacbd7c89",
@@ -16025,7 +18778,14 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Fatema virtual assistant named best in Middle East",
+   "uc_v": 1
   },
   {
    "id": "affefbe7f8bb",
@@ -16067,7 +18827,12 @@
    "topics": [
     "Tech Vendor Partnerships",
     "AI Adoption in Operations"
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "f8df6a232f1d",
@@ -16112,7 +18877,12 @@
    "topics": [
     "Tech Vendor Partnerships",
     "AI Adoption in Operations"
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "6a21fc41bcbd",
@@ -16147,7 +18917,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "b718f68dc149",
@@ -16185,7 +18960,12 @@
     "level": "corroborated",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "f4676d60f862",
@@ -16221,7 +19001,16 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "fraud"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI integrated into banking security system",
+   "uc_v": 1
   },
   {
    "id": "d13f824c8f04",
@@ -16256,7 +19045,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "9d012aed8104",
@@ -16295,7 +19089,17 @@
    "topics": [
     "Generative AI & Copilots",
     "Customer-Facing AI"
-   ]
+   ],
+   "use_cases": [
+    "chatbot",
+    "ai_platform"
+   ],
+   "channels": [
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "GenAI-driven chatbots for 24/7 customer service and underlying data platform",
+   "uc_v": 1
   },
   {
    "id": "9aae7ff66c0b",
@@ -16333,7 +19137,12 @@
     "level": "corroborated",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "1f1693185706",
@@ -16367,7 +19176,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "3e0461f0570d",
@@ -16403,7 +19217,16 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "voice"
+   ],
+   "channels": [
+    "contact_centre"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI solutions launched in contact center operations",
+   "uc_v": 1
   },
   {
    "id": "c4a96de04289",
@@ -16442,7 +19265,16 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Microsoft Copilot deployed across all divisions",
+   "uc_v": 1
   },
   {
    "id": "45231d1ebc94",
@@ -16484,7 +19316,12 @@
    },
    "topics": [
     "AI Strategy & Leadership"
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "28e65e2e75e0",
@@ -16526,7 +19363,14 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "Sovereign AI company established with Presight",
+   "uc_v": 1
   },
   {
    "id": "608fa7c07c2d",
@@ -16563,7 +19407,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "d637eaafe98f",
@@ -16598,7 +19447,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "c0af00cdbdba",
@@ -16634,7 +19488,14 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Fahad AI-powered virtual employee launched",
+   "uc_v": 1
   },
   {
    "id": "25bc4e89a44b",
@@ -16669,7 +19530,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "4c862f3116b1",
@@ -16706,7 +19572,17 @@
    "topics": [
     "Tech Vendor Partnerships",
     "AI Adoption in Operations"
-   ]
+   ],
+   "use_cases": [
+    "collections",
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "eMACH.ai automates debt collection, links subsystems",
+   "uc_v": 1
   },
   {
    "id": "4ab2ee83b7a2",
@@ -16743,7 +19619,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "66be903315a8",
@@ -16780,7 +19661,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "233b2907fc31",
@@ -16826,7 +19712,19 @@
     "Tech Vendor Partnerships",
     "AI Adoption in Operations",
     "Customer-Facing AI"
-   ]
+   ],
+   "use_cases": [
+    "kyc",
+    "doc_processing",
+    "chatbot"
+   ],
+   "channels": [
+    "mobile",
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "KYC case time 80 to 20 minutes; 2M documents digitised; mobile app assistant",
+   "uc_v": 1
   },
   {
    "id": "891374ff7440",
@@ -16869,7 +19767,14 @@
     "level": "corroborated",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "fraud"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "GenAI-powered fraud detection platform launching",
+   "uc_v": 1
   },
   {
    "id": "6c5db3e3b63d",
@@ -16910,7 +19815,17 @@
    "topics": [
     "Fraud, Risk & Compliance",
     "AI Adoption in Operations"
-   ]
+   ],
+   "use_cases": [
+    "aml",
+    "trade_finance"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "pilot",
+   "uc_note": "AI compliance platform pilots sanctions screening for payments and trade",
+   "uc_v": 1
   },
   {
    "id": "0b564b378f42",
@@ -16950,7 +19865,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "9009ac32599f",
@@ -16987,7 +19907,17 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "trade_finance",
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Trade finance operations automated with Cleareye.ai",
+   "uc_v": 1
   },
   {
    "id": "62ba1909f674",
@@ -17023,7 +19953,12 @@
    "topics": [
     "AI Strategy & Leadership",
     "Tech Vendor Partnerships"
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "c53b6db4a3dc",
@@ -17070,7 +20005,16 @@
     "Generative AI & Copilots",
     "Tech Vendor Partnerships",
     "AI Skills & Talent"
-   ]
+   ],
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Microsoft 365 Copilot deployed; 39,000 hours saved annually",
+   "uc_v": 1
   },
   {
    "id": "ede9d4f7050f",
@@ -17108,7 +20052,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "f4172484397a",
@@ -17161,7 +20110,12 @@
    "topics": [
     "AI Skills & Talent",
     "Tech Vendor Partnerships"
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "5f1770d39dcc",
@@ -17199,7 +20153,14 @@
    "topics": [
     "Tech Vendor Partnerships",
     "Fraud, Risk & Compliance"
-   ]
+   ],
+   "use_cases": [
+    "cyber"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "MoU to integrate threat intelligence with digital payments",
+   "uc_v": 1
   },
   {
    "id": "852d08b71e46",
@@ -17236,7 +20197,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "506157871f1c",
@@ -17272,7 +20238,14 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "credit_scoring"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI-powered financing programmes for 600k customers",
+   "uc_v": 1
   },
   {
    "id": "569d24b021ee",
@@ -17311,7 +20284,16 @@
     "Generative AI & Copilots",
     "AI Skills & Talent",
     "Tech Vendor Partnerships"
-   ]
+   ],
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Microsoft Copilot rollout to 800+ employees",
+   "uc_v": 1
   },
   {
    "id": "3969bf344324",
@@ -17349,7 +20331,14 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "fraud"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Real-time AI fraud detection and prevention",
+   "uc_v": 1
   },
   {
    "id": "aecacdf36bb9",
@@ -17386,7 +20375,12 @@
    "topics": [
     "AI Skills & Talent",
     "Generative AI & Copilots"
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "141f8764047f",
@@ -17431,7 +20425,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [
+    "mobile"
+   ],
+   "uc_status": "live",
+   "uc_note": "24/7 AI virtual assistant for investment and account queries",
+   "uc_v": 1
   },
   {
    "id": "413c5553832c",
@@ -17474,7 +20477,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [
+    "chatbot",
+    "cx_analytics"
+   ],
+   "channels": [
+    "mobile"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI chatbot and data analytics for group insights",
+   "uc_v": 1
   },
   {
    "id": "c3cd0f6e1ce3",
@@ -17516,7 +20529,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "8193fc16be85",
@@ -17559,7 +20577,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "5c28e2249590",
@@ -17600,7 +20623,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-11-18"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "6c5dda5831b3",
@@ -17642,7 +20670,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "b886c8854d20",
@@ -17685,7 +20718,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "fraud",
+    "credit_scoring",
+    "process_automation"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "30+ AI use cases across fraud, credit and automation",
+   "uc_v": 1
   },
   {
    "id": "a2ce7ee54085",
@@ -17727,7 +20769,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "aml"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI detects money laundering and mule accounts",
+   "uc_v": 1
   },
   {
    "id": "d9e7cb09e963",
@@ -17769,7 +20818,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "credit_scoring"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI improves credit underwriting and approval speed",
+   "uc_v": 1
   },
   {
    "id": "1cebae78d041",
@@ -17811,7 +20867,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "crosssell"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI analyzes customer behavior for cross-sell optimization",
+   "uc_v": 1
   },
   {
    "id": "4e3ed8f0f074",
@@ -17853,7 +20916,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo"
+   ],
+   "channels": [
+    "mobile",
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "Generative AI personalisation on mobile and digital",
+   "uc_v": 1
   },
   {
    "id": "bd402bcff393",
@@ -17895,7 +20968,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cx_analytics"
+   ],
+   "channels": [
+    "contact_centre"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI analyzes customer requests and sentiment in calls",
+   "uc_v": 1
   },
   {
    "id": "58b3396bf289",
@@ -17938,7 +21020,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "pilot",
+   "uc_note": "AI chatbot handles HR queries, policies, onboarding",
+   "uc_v": 1
   },
   {
    "id": "6c2cb4097fcb",
@@ -17980,7 +21071,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "planned",
+   "uc_note": "AI automates HR email responses outside working hours",
+   "uc_v": 1
   },
   {
    "id": "f4dff53c0c63",
@@ -18027,7 +21127,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "0907fcbf04fa",
@@ -18073,7 +21178,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "88a776900cb2",
@@ -18115,7 +21225,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "AI framework development covering governance, ethics",
+   "uc_v": 1
   },
   {
    "id": "41ed3288f8fc",
@@ -18157,7 +21274,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Cloud infrastructure supports AI-driven analytics operations",
+   "uc_v": 1
   },
   {
    "id": "cd2d57110743",
@@ -18199,7 +21323,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI adoption framework established with 30 use cases",
+   "uc_v": 1
   },
   {
    "id": "c2e176fe5e58",
@@ -18241,7 +21372,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "9aaefa1e19d3",
@@ -18283,7 +21419,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "6b27cac8b19e",
@@ -18324,7 +21465,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "7b498b43e447",
@@ -18366,7 +21512,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "397586be19cc",
@@ -18408,7 +21559,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "credit_scoring"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI integrated into credit rating process for efficiency",
+   "uc_v": 1
   },
   {
    "id": "ddf03ac5b946",
@@ -18455,7 +21613,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "264a0ce35d95",
@@ -18500,7 +21663,15 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "doc_processing",
+    "process_automation"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "GenAI extracts documents for SME onboarding automation",
+   "uc_v": 1
   },
   {
    "id": "7dec4e267dbd",
@@ -18544,7 +21715,15 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "crosssell",
+    "nbo"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "ML analyzes customer behavior for FX trade opportunities",
+   "uc_v": 1
   },
   {
    "id": "6f25d2bd35a2",
@@ -18588,7 +21767,15 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "crosssell",
+    "nbo"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI identifies FX and trade product needs for SMEs",
+   "uc_v": 1
   },
   {
    "id": "a287b083d8fc",
@@ -18632,7 +21819,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "aml"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Machine learning screens transactions for suspicious activity",
+   "uc_v": 1
   },
   {
    "id": "a358b326490e",
@@ -18676,7 +21870,15 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "kyc",
+    "process_automation"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI-powered smart customer acquisition for business banking",
+   "uc_v": 1
   },
   {
    "id": "b6c46a280032",
@@ -18718,7 +21920,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "1fd8cfa11849",
@@ -18761,7 +21968,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "dev_ai"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Automated testing increased engineering productivity by 30%",
+   "uc_v": 1
   },
   {
    "id": "9042014a68e0",
@@ -18804,7 +22018,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cyber"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Real-time risk monitoring and automated compliance tracking",
+   "uc_v": 1
   },
   {
    "id": "a4e5d9a94421",
@@ -18846,7 +22069,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "7839714440b0",
@@ -18889,7 +22117,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "RPA for mortgage, loan valuation, and data entry automation",
+   "uc_v": 1
   },
   {
    "id": "2658ea1b9d08",
@@ -18932,7 +22169,19 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "credit_scoring",
+    "fraud",
+    "kyc"
+   ],
+   "channels": [
+    "mobile",
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "Real-time credit decisioning, fraud detection, customer screening",
+   "uc_v": 1
   },
   {
    "id": "9ff7975db9a3",
@@ -18975,7 +22224,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "doc_processing",
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Character recognition and automated data extraction for accounts",
+   "uc_v": 1
   },
   {
    "id": "5c29951f58ec",
@@ -19018,7 +22277,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "regtech"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Automation for cybersecurity risk and compliance tracking",
+   "uc_v": 1
   },
   {
    "id": "a995ef47fe17",
@@ -19061,7 +22329,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "d95c02df3b0b",
@@ -19103,7 +22376,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "RPA to streamline workflows and improve operational efficiency",
+   "uc_v": 1
   },
   {
    "id": "290cdffcf9df",
@@ -19145,7 +22427,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "290cdffcf9df",
@@ -19189,7 +22476,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "18c4d58b912b",
@@ -19232,7 +22524,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Data governance framework enabling AI and ML integration",
+   "uc_v": 1
   },
   {
    "id": "55375ea1dd0e",
@@ -19275,7 +22576,18 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo",
+    "cx_analytics"
+   ],
+   "channels": [
+    "mobile",
+    "online"
+   ],
+   "uc_status": "planned",
+   "uc_note": "Personalized experiences, predictive insights, automated interactions",
+   "uc_v": 1
   },
   {
    "id": "e21800a35053",
@@ -19317,7 +22629,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cyber"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "planned",
+   "uc_note": "AI-enabled threat detection for customer data protection",
+   "uc_v": 1
   },
   {
    "id": "0ad423c18e89",
@@ -19359,7 +22680,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "planned",
+   "uc_note": "RPA and AI-driven workflows to streamline operations",
+   "uc_v": 1
   },
   {
    "id": "1e75e2ea5828",
@@ -19402,7 +22732,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Data center infrastructure supporting AI and cloud solutions",
+   "uc_v": 1
   },
   {
    "id": "47bbba50d897",
@@ -19447,7 +22786,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "7b3490abbb1e",
@@ -19491,7 +22835,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "early_warning"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI and ML for risk measurement, monitoring, early detection",
+   "uc_v": 1
   },
   {
    "id": "2b06bc3a8ae0",
@@ -19534,7 +22887,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "branch",
+    "atm"
+   ],
+   "uc_status": "live",
+   "uc_note": "RPA for card issuance and operational efficiency",
+   "uc_v": 1
   },
   {
    "id": "34d1b8587145",
@@ -19576,7 +22939,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "credit_scoring"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "CreditLense digital credit management solution",
+   "uc_v": 1
   },
   {
    "id": "f94da157abed",
@@ -19619,7 +22991,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cyber"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI technology adoption, cybersecurity defenses, infrastructure",
+   "uc_v": 1
   },
   {
    "id": "3ba0b1a8e120",
@@ -19663,7 +23044,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "early_warning"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Real-time risk identification and monitoring with AI and ML",
+   "uc_v": 1
   },
   {
    "id": "c90705810c71",
@@ -19706,7 +23096,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "baa232158ef4",
@@ -19750,7 +23145,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "early_warning"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI and ML to measure, monitor, predict risks early",
+   "uc_v": 1
   },
   {
    "id": "9e1c593d5a4d",
@@ -19792,7 +23196,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "03485fedf646",
@@ -19833,7 +23242,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "0c332369c78d",
@@ -19877,7 +23291,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI platform provides Islamic fatwas to students and researchers",
+   "uc_v": 1
   },
   {
    "id": "c4d0f1f2c905",
@@ -19922,7 +23345,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "6bb36580c9e0",
@@ -19966,7 +23394,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI chatbots and virtual assistants for HR employee support",
+   "uc_v": 1
   },
   {
    "id": "b12085f7e66c",
@@ -20009,7 +23446,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "6dfb025c13e8",
@@ -20055,7 +23497,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "79fcb381ec1b",
@@ -20097,7 +23544,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI and ML to streamline workflows and boost productivity",
+   "uc_v": 1
   },
   {
    "id": "c0f0be2694eb",
@@ -20140,7 +23596,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "AI analyzes customer behavior for tailored financing solutions",
+   "uc_v": 1
   },
   {
    "id": "a9750fb48f35",
@@ -20184,7 +23647,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "Data analytics and AI to improve customer experience",
+   "uc_v": 1
   },
   {
    "id": "5b2f840d8543",
@@ -20226,7 +23696,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "RPA platforms automate business processes across units",
+   "uc_v": 1
   },
   {
    "id": "11d62a3c16a0",
@@ -20268,7 +23747,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cx_analytics"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "In-house ML model for customer service enhancement",
+   "uc_v": 1
   },
   {
    "id": "77342c1dbe77",
@@ -20312,7 +23798,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "RPA with Automation Anywhere streamlines operations",
+   "uc_v": 1
   },
   {
    "id": "c9a7d59e8f28",
@@ -20354,7 +23849,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "aml"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "CRAM model for AML risk assessment in institutions",
+   "uc_v": 1
   },
   {
    "id": "a484a5f4e504",
@@ -20396,7 +23900,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "pilot",
+   "uc_note": "AI and data analytics integration for journeys and operations",
+   "uc_v": 1
   },
   {
    "id": "281c19c4caf1",
@@ -20439,7 +23950,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Risk management protocol for AI with pre-deployment assessment",
+   "uc_v": 1
   },
   {
    "id": "adeb47887599",
@@ -20481,7 +24001,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "planned",
+   "uc_note": "AI and RPA expansion in audit cycles for 2025",
+   "uc_v": 1
   },
   {
    "id": "d57a5fdeb65a",
@@ -20523,7 +24052,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [
+    "mobile",
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "Virtual assistant Rashid for customer support and service resolution",
+   "uc_v": 1
   },
   {
    "id": "1813662819d7",
@@ -20565,7 +24104,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "credit_scoring"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Automated credit underwriting for digital lending",
+   "uc_v": 1
   },
   {
    "id": "dbd3ed8a1399",
@@ -20607,7 +24153,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_governance"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "Data governance framework review for AI readiness",
+   "uc_v": 1
   },
   {
    "id": "e60b4f3f8acf",
@@ -20649,7 +24202,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "706f2532afa3",
@@ -20691,7 +24249,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "fraud"
+   ],
+   "channels": [],
+   "uc_status": "pilot",
+   "uc_note": "Advanced fraud detection system with AI analytics",
+   "uc_v": 1
   },
   {
    "id": "69f7eb9fe6e8",
@@ -20733,7 +24298,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "regtech",
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "planned",
+   "uc_note": "RegTech and AI automation for compliance and process optimization",
+   "uc_v": 1
   },
   {
    "id": "b5862b410351",
@@ -20775,7 +24350,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "4cc4f5217be9",
@@ -20819,7 +24399,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "f101fd877625",
@@ -20863,7 +24448,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "credit_scoring",
+    "aml",
+    "doc_processing"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "AI/ML for credit underwriting, AML/CFT and records management",
+   "uc_v": 1
   },
   {
    "id": "a43891e4b30e",
@@ -20909,7 +24503,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Microsoft Copilot adoption across organisation",
+   "uc_v": 1
   },
   {
    "id": "470367db329a",
@@ -20951,7 +24554,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "fd5daca1f256",
@@ -20993,7 +24601,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "f548f26981b5",
@@ -21037,7 +24650,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "888cfef47638",
@@ -21083,7 +24701,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Hybrid cloud platform with AI capabilities for core banking",
+   "uc_v": 1
   },
   {
    "id": "0317172865ca",
@@ -21125,7 +24750,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [
+    "online"
+   ],
+   "uc_status": "live",
+   "uc_note": "Next generation chatbot for customer digital experience",
+   "uc_v": 1
   },
   {
    "id": "865d8d169ee3",
@@ -21167,7 +24801,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "7079d160933d",
@@ -21210,7 +24849,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "ea425835fc79",
@@ -21251,7 +24895,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "c55582a3202e",
@@ -21293,7 +24942,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "dev_ai"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Generative AI for software code writing and testing automation",
+   "uc_v": 1
   },
   {
    "id": "0996dcc5757a",
@@ -21335,7 +24993,19 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo",
+    "crosssell",
+    "churn"
+   ],
+   "channels": [
+    "online",
+    "mobile"
+   ],
+   "uc_status": "live",
+   "uc_note": "Advanced analytics and ML for customer insights and cross-sell",
+   "uc_v": 1
   },
   {
    "id": "8a6fe27df387",
@@ -21377,7 +25047,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "Machine learning for personalized offers and cross-selling",
+   "uc_v": 1
   },
   {
    "id": "4772b16fceb5",
@@ -21421,7 +25098,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "aml"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI automates alert screening investigations, reduces false positives",
+   "uc_v": 1
   },
   {
    "id": "7fc798042559",
@@ -21463,7 +25149,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI/ML identifies customer subsets on partner platforms for offers",
+   "uc_v": 1
   },
   {
    "id": "f09693b3b08b",
@@ -21505,7 +25198,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "4f27bb18ebc6",
@@ -21547,7 +25245,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "10e3402890ae",
@@ -21588,7 +25291,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "8b9610dc7c25",
@@ -21630,7 +25338,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "copilot"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Data and AI tools enable faster employee decision-making",
+   "uc_v": 1
   },
   {
    "id": "8654ce239dc8",
@@ -21673,7 +25390,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "ML real-time analysis delivers contextualised experiences during product selection",
+   "uc_v": 1
   },
   {
    "id": "3b853bf1b840",
@@ -21716,7 +25440,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "ML enhances decision-making through predictive analytics and automation",
+   "uc_v": 1
   },
   {
    "id": "41c42678976d",
@@ -21759,7 +25492,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Cloud-based AI-driven analytics tools for departmental integration",
+   "uc_v": 1
   },
   {
    "id": "9cafa1d3d8cf",
@@ -21802,7 +25544,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "RPA and AI automate routine tasks, reduce errors, free resources",
+   "uc_v": 1
   },
   {
    "id": "28ebbea92e60",
@@ -21845,7 +25596,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cx_analytics"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Advanced analytics and AI gain insights into customer behaviour and operations",
+   "uc_v": 1
   },
   {
    "id": "b9a1886eab40",
@@ -21888,7 +25648,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "process_automation"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Process mining identifies improvements, reduces cycle times and costs",
+   "uc_v": 1
   },
   {
    "id": "1ff5b7e95111",
@@ -21930,7 +25699,17 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "chatbot"
+   ],
+   "channels": [
+    "mobile",
+    "online"
+   ],
+   "uc_status": "planned",
+   "uc_note": "AI-driven customer service through mobile and online channels",
+   "uc_v": 1
   },
   {
    "id": "f736956c0379",
@@ -21973,7 +25752,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "cyber"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Predictive analytics and real-time monitoring detect and mitigate threats",
+   "uc_v": 1
   },
   {
    "id": "84e78fa677f4",
@@ -22016,7 +25804,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "f63f9eb48a89",
@@ -22059,7 +25852,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "planned",
+   "uc_note": "Investment in cloud, analytics, and AI-driven digital infrastructure",
+   "uc_v": 1
   },
   {
    "id": "2e9fcdb08473",
@@ -22102,7 +25904,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo"
+   ],
+   "channels": [],
+   "uc_status": "planned",
+   "uc_note": "Data and AI for personalized solutions and proactive service delivery",
+   "uc_v": 1
   },
   {
    "id": "465341328346",
@@ -22145,7 +25954,14 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "nbo"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI and analytics deliver personalized, seamless banking experiences",
+   "uc_v": 1
   },
   {
    "id": "4bcb7750cabd",
@@ -22188,7 +26004,16 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "Core banking migration supports ML implementation for enhanced operations",
+   "uc_v": 1
   },
   {
    "id": "91a8b2efd58f",
@@ -22231,7 +26056,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "08fb98091ca3",
@@ -22273,7 +26103,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "369ef7ddd841",
@@ -22315,7 +26150,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "730f7ab89ba4",
@@ -22358,7 +26198,12 @@
     "level": "official",
     "evidence": "annual report",
     "checked": "2026-10-07"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "ac7cd7aec7a1",
@@ -22398,7 +26243,16 @@
    "topics": [
     "AI Strategy & Leadership",
     "Generative AI & Copilots"
-   ]
+   ],
+   "use_cases": [
+    "ai_platform"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "unknown",
+   "uc_note": "Data scientists team and digital lab for AI innovation",
+   "uc_v": 1
   },
   {
    "id": "634be7a44733",
@@ -22433,7 +26287,16 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "voice"
+   ],
+   "channels": [
+    "contact_centre"
+   ],
+   "uc_status": "planned",
+   "uc_note": "AI to improve customer service operations",
+   "uc_v": 1
   },
   {
    "id": "4d6d676cdc3f",
@@ -22469,7 +26332,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "77df6116f767",
@@ -22504,7 +26372,12 @@
    "topics": [
     "AI Strategy & Leadership",
     "Generative AI & Copilots"
-   ]
+   ],
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "4aba31f616c3",
@@ -22541,7 +26414,14 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "cx_analytics"
+   ],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "Partnership to advance AI and advanced analytics",
+   "uc_v": 1
   },
   {
    "id": "24223507518f",
@@ -22576,7 +26456,12 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
   },
   {
    "id": "a98adf759fc2",
@@ -22612,7 +26497,16 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "regtech"
+   ],
+   "channels": [
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI programme for Shari'a fatwa automation",
+   "uc_v": 1
   },
   {
    "id": "c67f4b8119a8",
@@ -22649,7 +26543,14 @@
    "topics": [
     "Tech Vendor Partnerships",
     "AI Strategy & Leadership"
-   ]
+   ],
+   "use_cases": [
+    "cx_analytics"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI and advanced analytics capabilities achieved",
+   "uc_v": 1
   },
   {
    "id": "b3052356be54",
@@ -22685,7 +26586,16 @@
     "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-05"
-   }
+   },
+   "use_cases": [
+    "wealth_advice"
+   ],
+   "channels": [
+    "mobile"
+   ],
+   "uc_status": "live",
+   "uc_note": "AI-powered investor mobile app launched",
+   "uc_v": 1
   },
   {
    "id": "597f3cbcb962",
@@ -22723,7 +26633,19 @@
     "AI Adoption in Operations",
     "Customer-Facing AI",
     "Fraud, Risk & Compliance"
-   ]
+   ],
+   "use_cases": [
+    "fraud",
+    "nbo",
+    "chatbot"
+   ],
+   "channels": [
+    "mobile",
+    "internal"
+   ],
+   "uc_status": "live",
+   "uc_note": "ML fraud detection, AI personalised offers, chatbots, GitHub Copilot",
+   "uc_v": 1
   }
  ]
 }
