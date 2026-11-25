@@ -38,6 +38,7 @@ import digest
 import dedupe
 import newsrooms
 import sector
+import usecases
 import verify
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -839,6 +840,18 @@ def main() -> None:
         tracker.save()
         tg.notify_reports(ar_added)
         print(f"Annual reports: {len(ar_added)} AI disclosures added.")
+
+        # AI use cases (Use cases tab): tag each item once with use case, channel and status
+        try:
+            n = usecases.tag_all(tracker.news["items"], tracker.banks, tracker.checker.ask)
+            if n:
+                print(f"Use cases: {n} items tagged "
+                      f"({sum(1 for i in tracker.news['items'] if i.get('use_cases'))} items with a use case).")
+                tracker.save()
+        except FatalAPIError:
+            raise
+        except Exception as exc:   # never lose the run over this
+            print(f"  ! use-case tagging failed: {exc!r}", file=sys.stderr)
 
         # GCC Banking Sector Insights (studies, rankings, regulation … about AI across GCC banks)
         sec = sector.Sector(ROOT, tracker.banks, tracker.state, tracker.news["items"], tracker.checker, gnews,

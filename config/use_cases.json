@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "domains": [
+    {"id": "customer", "name": "Customer service", "icon": "💬"},
+    {"id": "sales", "name": "Sales & personalisation", "icon": "🎯"},
+    {"id": "credit", "name": "Credit & risk", "icon": "📊"},
+    {"id": "fincrime", "name": "Fraud & financial crime", "icon": "🛡️"},
+    {"id": "ops", "name": "Operations & automation", "icon": "⚙️"},
+    {"id": "employee", "name": "Employee productivity", "icon": "🧑‍💼"},
+    {"id": "wealth", "name": "Wealth & markets", "icon": "📈"},
+    {"id": "security", "name": "Cybersecurity & IT", "icon": "🔐"},
+    {"id": "foundation", "name": "AI platform & governance", "icon": "🏗️"}
+  ],
+  "use_cases": [
+    {"id": "chatbot", "domain": "customer", "name": "Chatbot / virtual assistant", "guide": "AI chatbot or virtual assistant answering customers (app, web, WhatsApp, social)"},
+    {"id": "voice", "domain": "customer", "name": "Voice AI & contact centre", "guide": "conversational IVR, voice bots, AI in the contact/call centre, speech analytics, agent assist"},
+    {"id": "cx_analytics", "domain": "customer", "name": "Customer experience analytics", "guide": "sentiment analysis, complaint analytics, customer feedback / NPS analytics with AI"},
+    {"id": "nbo", "domain": "sales", "name": "Next best offer & personalisation", "guide": "next best offer/action, personalised offers, recommendations, hyper-personalisation, personalised cashback"},
+    {"id": "crosssell", "domain": "sales", "name": "Lead generation & cross-sell", "guide": "AI leads for relationship managers, cross-sell / up-sell propensity, sales prioritisation"},
+    {"id": "churn", "domain": "sales", "name": "Churn & customer segmentation", "guide": "churn prediction, attrition, customer segmentation or lifetime value models"},
+    {"id": "marketing", "domain": "sales", "name": "Marketing content & campaigns", "guide": "AI-generated marketing content, campaign optimisation, AI avatars for marketing"},
+    {"id": "credit_scoring", "domain": "credit", "name": "Credit scoring & underwriting", "guide": "credit scoring, loan decisioning, underwriting, credit risk models, instant AI lending decisions"},
+    {"id": "early_warning", "domain": "credit", "name": "Early warning & risk monitoring", "guide": "early warning signals, portfolio / credit monitoring, risk analytics, stress testing with AI"},
+    {"id": "collections", "domain": "credit", "name": "Collections & recovery", "guide": "AI for collections, delinquency prediction, recovery prioritisation"},
+    {"id": "fraud", "domain": "fincrime", "name": "Fraud detection", "guide": "card / payment / transaction fraud detection and prevention, scam detection, behavioural biometrics"},
+    {"id": "aml", "domain": "fincrime", "name": "AML & transaction monitoring", "guide": "anti-money-laundering, transaction monitoring, sanctions screening, financial crime compliance"},
+    {"id": "kyc", "domain": "fincrime", "name": "KYC, onboarding & identity", "guide": "digital onboarding, eKYC, identity verification, face / liveness checks, document verification of customers"},
+    {"id": "doc_processing", "domain": "ops", "name": "Document processing (IDP/OCR)", "guide": "intelligent document processing, OCR, extracting data from documents, digitising and indexing documents"},
+    {"id": "process_automation", "domain": "ops", "name": "Process automation", "guide": "AI-driven automation of back-office processes, straight-through processing, RPA with AI, faster turnaround"},
+    {"id": "trade_finance", "domain": "ops", "name": "Trade finance automation", "guide": "AI in trade finance: letters of credit / guarantees checking, trade document review"},
+    {"id": "regtech", "domain": "ops", "name": "Regulatory compliance & reporting", "guide": "regulatory reporting, compliance checks, regulatory questionnaires, policy review with AI (not AML)"},
+    {"id": "copilot", "domain": "employee", "name": "GenAI copilot for employees", "guide": "Microsoft Copilot or internal GenAI assistants for staff, knowledge search, summarisation, drafting"},
+    {"id": "dev_ai", "domain": "employee", "name": "AI for software engineering", "guide": "AI coding assistants, test automation with AI, engineering productivity"},
+    {"id": "hr_ai", "domain": "employee", "name": "HR & recruitment AI", "guide": "AI in recruitment (AI interviews, CV screening), HR analytics, learning recommendations"},
+    {"id": "wealth_advice", "domain": "wealth", "name": "Wealth advice & robo-advisory", "guide": "robo-advisory, AI investment insights, wealth management advice, portfolio recommendations"},
+    {"id": "treasury", "domain": "wealth", "name": "Treasury, markets & forecasting", "guide": "AI for treasury, liquidity or cash-flow forecasting, market / trading analytics, pricing"},
+    {"id": "cyber", "domain": "security", "name": "Cybersecurity & threat detection", "guide": "AI for cyber threat detection, security operations, IT operations / AIOps"},
+    {"id": "ai_platform", "domain": "foundation", "name": "AI platform & data foundation", "guide": "enterprise AI platforms, data platforms, AI centres of excellence or labs that build AI use cases, cloud for AI"},
+    {"id": "ai_governance", "domain": "foundation", "name": "AI governance & model risk", "guide": "AI governance frameworks, responsible AI, model risk management, ISO 42001 certification"}
+  ],
+  "channels": [
+    {"id": "mobile", "name": "Mobile app", "icon": "📱"},
+    {"id": "online", "name": "Online banking / web", "icon": "💻"},
+    {"id": "messaging", "name": "WhatsApp & messaging", "icon": "💬"},
+    {"id": "contact_centre", "name": "Contact centre / voice", "icon": "📞"},
+    {"id": "branch", "name": "Branch", "icon": "🏦"},
+    {"id": "atm", "name": "ATM / ITM", "icon": "🏧"},
+    {"id": "rm", "name": "Relationship managers", "icon": "🤝"},
+    {"id": "internal", "name": "Internal / back office", "icon": "🏢"}
+  ],
+  "statuses": [
+    {"id": "live", "name": "Live"},
+    {"id": "pilot", "name": "Pilot"},
+    {"id": "planned", "name": "Planned / announced"}
+  ]
+}

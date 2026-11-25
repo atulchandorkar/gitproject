@@ -189,6 +189,16 @@ This tab covers AI across the **banking sector worldwide**, with GCC items flagg
   - Rejected items are logged in `data/sector_rejected.json`.
 - **Limits:** up to 250 items are fact-checked per run; the rest wait for the next run.
 
+## AI use cases (the Use cases tab)
+Every bank news item and annual-report disclosure is tagged once by Claude Haiku with:
+- **use cases** (0–3) from a fixed list of 25 in `config/use_cases.json`, grouped into 9 domains (customer service, sales & personalisation, credit & risk, fraud & financial crime, operations, employee productivity, wealth & markets, cybersecurity, AI platform & governance);
+- **channels** (mobile app, online, WhatsApp & messaging, contact centre, branch, ATM, relationship managers, internal) where the text states or clearly implies them;
+- **status** (live, pilot, planned) and a one-line note, from the item's text only.
+
+Items that aren't a concrete application (strategy, hires, training, awards, events) get no use case. The tags are stored on each item (`use_cases`, `channels`, `uc_status`, `uc_note`, `uc_v`); raising `version` in the config re-tags everything.
+
+The tab shows the most popular use cases (by number of banks), breakdowns by domain, channel and status, a bank × domain matrix, the latest use cases and a page per use case listing every bank that has it. Filters: country, domain, channel, status. Each bank page lists its use cases.
+
 ## Weekly digest (the Weekly tab)
 Every **Sunday morning (Qatar time)** the daily run also builds a one-page summary of the past week (Sunday–Saturday):
 - new bank AI stories, by country, with the top stories

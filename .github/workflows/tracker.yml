@@ -119,6 +119,7 @@ jobs:
           cp data/news.json _site/data/news.json
           cp config/banks.json _site/data/banks.json
           cp config/sector_sources.json _site/data/sector_sources.json
+          cp config/use_cases.json _site/data/use_cases.json
           if [ -f data/sector.json ]; then cp data/sector.json _site/data/sector.json; fi
           if [ -f data/annual_reports.json ]; then cp data/annual_reports.json _site/data/annual_reports.json; fi
           if [ -f data/digests.json ]; then cp data/digests.json _site/data/digests.json; fi
