@@ -1,6 +1,136 @@
 {
- "updated_at": "2026-11-26T05:10:46+00:00",
+ "updated_at": "2026-11-27T05:07:32+00:00",
  "items": [
+  {
+   "id": "ea158fa98490",
+   "date": "2026-11-26",
+   "category": "Market Data",
+   "publisher": "FF News",
+   "countries": [
+    "Global"
+   ],
+   "title": "African banks increase AI investments despite legacy system constraints",
+   "summary": "African banks are expanding artificial intelligence spending even though legacy systems consume 55% of IT budgets. The industry is prioritizing AI adoption despite significant technical debt.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBsWXI5Q0VaaGZRaEpWMjlFXzBSNy1yTllZVWlGUC1nVS1KVlIwQ0VsRGtGeXI4OGo3SnNYbHpwSkI4ODdUbENJZ0h1S29vWDlLODBzRk14aE1SQkltSlhPNlBLT2J2RG13WkJzYkdCeWVpMm9kX2RNUXlB?oc=5",
+   "source_name": "FF News",
+   "source_title": "African Banks Pivot to AI Despite Spending 55% of IT Budgets on Legacy Systems",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBsWXI5Q0VaaGZRaEpWMjlFXzBSNy1yTllZVWlGUC1nVS1KVlIwQ0VsRGtGeXI4OGo3SnNYbHpwSkI4ODdUbENJZ0h1S29vWDlLODBzRk14aE1SQkltSlhPNlBLT2J2RG13WkJzYkdCeWVpMm9kX2RNUXlB?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-27T05:07:11+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-11-27"
+   },
+   "pdf_checked": "2026-11-27"
+  },
+  {
+   "id": "fd6d9d892283",
+   "date": "2026-11-26",
+   "category": "Case Studies & Use Cases",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Women's World Banking and EY launch AI strategy to unlock underserved women financial market",
+   "summary": "Women's World Banking and EY have developed an artificial intelligence strategy targeting a $700 billion market of underserved women in financial services. The initiative aims to expand financial inclusion through AI-driven solutions.",
+   "key_stats": [
+    {
+     "value": "$700 billion",
+     "label": "Market size for underserved women in financial services",
+     "quote": "unlock $700 Billion Market for Underserved Women"
+    }
+   ],
+   "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdmp2bjR6c0xIYmN6SFd0Smo5NWk3MHhYaTVSYW9qbGdOMzVjRjk4ZWpIYlFhTjlaVHkwUFF1eXJVTWN0N0VxSU55Zms5V3JDeFV5dVRJRVlBNWdfR01uWXlpd1gzMGxRLUxaT2dmMDV0NS1hNEpfN2FLVmJyRktmUFNXS2p1UkFlbTAycjVoWE5fNHhObElLNFhFcDVaaklPbXpXd21PbGk1alBlTXprZVhwNA?oc=5",
+   "source_name": "FF News",
+   "source_title": "Women’s World Banking and EY Launch AI Strategy to Unlock $700 Billion Market for Underserved Women",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdmp2bjR6c0xIYmN6SFd0Smo5NWk3MHhYaTVSYW9qbGdOMzVjRjk4ZWpIYlFhTjlaVHkwUFF1eXJVTWN0N0VxSU55Zms5V3JDeFV5dVRJRVlBNWdfR01uWXlpd1gzMGxRLUxaT2dmMDV0NS1hNEpfN2FLVmJyRktmUFNXS2p1UkFlbTAycjVoWE5fNHhObElLNFhFcDVaaklPbXpXd21PbGk1alBlTXprZVhwNA?oc=5",
+     "name": "FF News"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-27T05:07:11+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-27"
+   },
+   "pdf_checked": "2026-11-27"
+  },
+  {
+   "id": "39fcf2cae6a9",
+   "date": "2026-11-26",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Pakistan central bank to issue AI banking rules by March 2027",
+   "summary": "Pakistan's central bank will publish artificial intelligence regulations for the banking sector by March 2027. The guidance will establish supervisory expectations for AI implementation in banks.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaXVlS1RKcTZPM3c3MzdDR2lITlpCQ3A5STl6YmNCdk1HZXI2X3pHYTNCLVBMaVFSSEpIWGVFTXZBTXRNSXo4R2xaYVpISHF4X1BhMnp3ZWYyR3EtSGN4bUowMmpFRzRpQmkxdlNEcnJmVHVUN0hkNGpSdzROSTY0YUpReU1QVE9ZeXQtOC11MjBGMmp2SmxpakUxZXF4QUpwTFdjcUx2OFkxbG5oUC02RA?oc=5",
+   "source_name": "Arab News PK",
+   "source_title": "Pakistan central bank to issue AI banking rules by March 2027 — official",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaXVlS1RKcTZPM3c3MzdDR2lITlpCQ3A5STl6YmNCdk1HZXI2X3pHYTNCLVBMaVFSSEpIWGVFTXZBTXRNSXo4R2xaYVpISHF4X1BhMnp3ZWYyR3EtSGN4bUowMmpFRzRpQmkxdlNEcnJmVHVUN0hkNGpSdzROSTY0YUpReU1QVE9ZeXQtOC11MjBGMmp2SmxpakUxZXF4QUpwTFdjcUx2OFkxbG5oUC02RA?oc=5",
+     "name": "Arab News PK"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-27T05:07:11+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-27"
+   },
+   "pdf_checked": "2026-11-27"
+  },
+  {
+   "id": "b9e17aa5a856",
+   "date": "2026-11-26",
+   "category": "Expert Views",
+   "publisher": "The Economic Times",
+   "countries": [
+    "Global"
+   ],
+   "title": "Adoption of agentic AI by global banks poses pressure on Indian IT service revenues",
+   "summary": "A report warns that banks' adoption of autonomous AI agents could reduce demand for traditional IT services from Indian providers. The shift to agentic AI threatens revenue models dependent on manual software development and maintenance.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQTU1lcWg0b3VpMHpvTnQ5RjVNWUNSbUo2U3p2elBkZ0w0QjYzS1RRRG5UMDBWTmRhNTByZDhKS2p1UmhDWEc0N1ozSUQycWZmcmxmMUd1b25JQXJVNnhJbEV2V0NvUXBSWS1qMDVlMHBHcjNHQV80a2R4YVNpMkFYRXFSSmVhYmtTZE9Sb25DNThWeHZLX1NVYVFndlNqVFF3eF9Rei11RXEtc3BLa244Z2wwd1hHUXJMczFPT2tfMXdNUUNsekNodnBJZ3BZYi1JdnBJYUF6U1R2UzZlMUZWSW9VMXZFczVTM1hobFJudERkQm_SAfgBQVVfeXFMTjY2aDBXVGFIc21YZGd0eW1WNzlHN3pvUG01UG9peVRiTHBCUU5qaUVoTXBwM2lzYTZYeFFfZDVsSlRaWUp0UEVDejRNb3V1WlJMOHZBRTBTem9rLVRvSkh4UmNJak9yU2pXVHRmSXZvdXVIVWdqZlh0S3JCX2V2cXIxelJ3WEJKRlNkRVFubUVxXzhKLU03ZnktSW5VNEV2WGxhMVBZWkRCRC0xMWFqczRsaVRneDQxejNMa3h0cmhHVWNOMldpSzcxZGlvWnE5MUowWEdhYnJ5dXBWRXRRMEQ4dFhnUjd1b050MUo4cTRrR25XbGc2Yjk?oc=5",
+   "source_name": "The Economic Times",
+   "source_title": "Agentic AI adoption by global banks could put further pressure on Indian IT revenues: Report",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQTU1lcWg0b3VpMHpvTnQ5RjVNWUNSbUo2U3p2elBkZ0w0QjYzS1RRRG5UMDBWTmRhNTByZDhKS2p1UmhDWEc0N1ozSUQycWZmcmxmMUd1b25JQXJVNnhJbEV2V0NvUXBSWS1qMDVlMHBHcjNHQV80a2R4YVNpMkFYRXFSSmVhYmtTZE9Sb25DNThWeHZLX1NVYVFndlNqVFF3eF9Rei11RXEtc3BLa244Z2wwd1hHUXJMczFPT2tfMXdNUUNsekNodnBJZ3BZYi1JdnBJYUF6U1R2UzZlMUZWSW9VMXZFczVTM1hobFJudERkQm_SAfgBQVVfeXFMTjY2aDBXVGFIc21YZGd0eW1WNzlHN3pvUG01UG9peVRiTHBCUU5qaUVoTXBwM2lzYTZYeFFfZDVsSlRaWUp0UEVDejRNb3V1WlJMOHZBRTBTem9rLVRvSkh4UmNJak9yU2pXVHRmSXZvdXVIVWdqZlh0S3JCX2V2cXIxelJ3WEJKRlNkRVFubUVxXzhKLU03ZnktSW5VNEV2WGxhMVBZWkRCRC0xMWFqczRsaVRneDQxejNMa3h0cmhHVWNOMldpSzcxZGlvWnE5MUowWEdhYnJ5dXBWRXRRMEQ4dFhnUjd1b050MUo4cTRrR25XbGc2Yjk?oc=5",
+     "name": "The Economic Times"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPLUVBM0lHckh0ZWRld2tITVdxNHAxanM0ampqNnV3U0Q0djZUVEFuWUVuLUYzRWg4cnVSMm9BanpWSmNLcExMTnFaNE13eXhrNkx3Sjhnek5BcEJYd0ZfbDZ2V0tNMExHaU1ibC0zZUxnaVB0aHYyNUNqQW5abVdEbEN6eTlzenhMNlB6Q2hvc201bHU2NmlkLUNNc3NEbFRueVZkaFZjbTRpcE5mMm5fMWtKejFlcHlnU0ZvQndtYlpkRjFwdktaQkJxY0FLakpkdzctSjVyZUV5UkwtMDdtS2pPcUMta3JoMEhIMGdhYkcwNHJka05xa1h0bFRWWXPSAfgBQVVfeXFMTjY2aDBXVGFIc21YZGd0eW1WNzlHN3pvUG01UG9peVRiTHBCUU5qaUVoTXBwM2lzYTZYeFFfZDVsSlRaWUp0UEVDejRNb3V1WlJMOHZBRTBTem9rLVRvSkh4UmNJak9yU2pXVHRmSXZvdXVIVWdqZlh0S3JCX2V2cXIxelJ3WEJKRlNkRVFubUVxXzhKLU03ZnktSW5VNEV2WGxhMVBZWkRCRC0xMWFqczRsaVRneDQxejNMa3h0cmhHVWNOMldpSzcxZGlvWnE5MUowWEdhYnJ5dXBWRXRRMEQ4dFhnUjd1b050MUo4cTRrR25XbGc2Yjk?oc=5",
+     "name": "The Economic Times"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPMWNMQnUwdTU5bW5xM2FCdUdDWTY0V0Z2bmJBdmNPWHZZM0ZqdUFZTEppS3R6Vlhlb19EOUpMS1NfQzNPc1RPTnAwSXFCNlJCMEk0MDFkOGRqTVg3Zm1TRzNYOHhwR1Z4VmpPT0NsSW5qaFRnUmFTbG45alpFWERrQy1XT0prM0hHemxpdHpobk1OTGdKeFZvSEltOFR3MjZNYkpvZFFqRG5kU3J5RkxHeTE2YkpVdmpDdGhOWUhyZWIzY3VHMUxJYXdKVklTLU1WUTMwVHFxQnRtN0pTdWtlc0JncGZ3amp1LWZqS3NiYXTSAfABQVVfeXFMTzFjTEJ1MHU1OW1ucTNhQnVHQ1k2NFdGdm5iQXZjT1h2WTNGanVBWUxKaUt0elZYZW9fRDlKTEtTX0MzT3NUT05wMElxQjZSQjBJNDAxZDhkak1YN2ZtU0czWDh4cEdWeFZqT09DbEluamhUZ1JhU2xuOWpaRVhEa0MtV09KazNIR3psaXR6aG5NTkxnSnhWb0hJbThUdzI2TWJKb2RRakRuZFNyeUZMR3kxNmJKVXZqQ3RoTllIcmViM2N1RzFMSWF3SlZJUy1NVlEzMFRxcUJ0bTdKU3VrZXNCZ3Bmd2pqdS1maktzYmF0?oc=5",
+     "name": "ETHRWorld.com"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-27T05:07:11+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-11-27"
+   },
+   "pdf_checked": "2026-11-27"
+  },
   {
    "id": "0b1e51b4f2f8",
    "date": "2026-11-25",
@@ -1418,6 +1548,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNc1Y2Q1BzNzUtVlZWcWRzeGR3U0RtaDZ6MnRDNk1CVGJhSmxkTE5hUUJkaklMSzJjSXZQNFo3clJaS3c3R1hOM2E1NE9JTkV3dk5PNWZhLWZjaFRUb2pIaW1IQTltTUYzbVRpN05FOFVfVHRDRTJ4UG5DREVxaUFNN2J2Y3Z5bmNxczEtRkpyMmlNb0FB?oc=5",
      "name": "American Banker"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRlJPa3dJdERJakx0ck5UTjFpbTZaS3BOYXFKOUpVSU9QYl81WFFSTDNPaXBWU0lMMXI2WDE5S1pNMFBndzI3QmpCamljX3RaREJLeXFURjMzaW03RV9uQTcwX2VWMmNGQTNoSk9DYk9sNE1hdUg4dEFxMGtqcVNrcE9xdnVMX2tyRDlhSFRfWUZDNmFyZE0wbUxTSENfZzJRYXQ5bWdkR0k3Z1Ja?oc=5",
+     "name": "The Asian Banker"
     }
    ],
    "language": "en",

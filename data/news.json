@@ -1,6 +1,93 @@
 {
- "updated_at": "2026-11-26T05:10:46+00:00",
+ "updated_at": "2026-11-27T05:07:32+00:00",
  "items": [
+  {
+   "id": "853102bf7c55",
+   "bank_id": "fab",
+   "country": "AE",
+   "date": "2026-11-26",
+   "title": "FAB launches FAB First shaping the future of AI-native banking",
+   "summary": "First Abu Dhabi Bank launches FAB First, an AI-native banking initiative.",
+   "category": "AI Strategy & Leadership",
+   "topics": [
+    "AI Strategy & Leadership",
+    "Generative AI & Copilots"
+   ],
+   "tags": [
+    "AI-native banking",
+    "GenAI"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVUdaMWh6M2FmYVRmaEd6dWlDTVZyeTBWS0x5UjV5WGY1NUFwSzNGWV84emlPNjd3Q290cXowXzNnWEZFMHZJYjRYT1JiSmdmX1ZXOUI1VGZkQm9KczNJWUVLaFdUejl3a2VhLWVFNDBhN0lwMk9yNk5ablVEcDRiZ3dLX1REeFBFVnJndWJrX1h1TV9nZDdlaVQyMm9BNTJsZUdJUA?oc=5",
+   "source_name": "TradeArabia",
+   "source_title": "FAB launches FAB First shaping the future of AI-native banking",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVUdaMWh6M2FmYVRmaEd6dWlDTVZyeTBWS0x5UjV5WGY1NUFwSzNGWV84emlPNjd3Q290cXowXzNnWEZFMHZJYjRYT1JiSmdmX1ZXOUI1VGZkQm9KczNJWUVLaFdUejl3a2VhLWVFNDBhN0lwMk9yNk5ablVEcDRiZ3dLX1REeFBFVnJndWJrX1h1TV9nZDdlaVQyMm9BNTJsZUdJUA?oc=5",
+     "name": "TradeArabia"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT3JmOGU4elF3Skx2NVpHekFxSHo5YVFwcnd1MzVLYzlRd2prdnFReVlNaDlfSHdBTGJUYkxrd3M4LUZnajYydFhTUGpObzFHUmEyU3FtRFFyS05vVEVlZ1E3Qzd2cWJTaDM0MURCSkRQODlZcC10bXRrSWg3Y3NhZVptVmxEWVc3TFJibVlFWksta3l1bndr?oc=5",
+     "name": "Menafn"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-27T05:03:24+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-27"
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
+  },
+  {
+   "id": "8df2a6379365",
+   "bank_id": "sib",
+   "country": "AE",
+   "date": "2026-11-26",
+   "title": "Sharjah Islamic Bank wins MMA SMARTIES MENA award for AI-powered SIB Millionaire campaign",
+   "summary": "Sharjah Islamic Bank received an MMA SMARTIES MENA award for its AI-powered SIB Millionaire marketing campaign.",
+   "category": "Awards & Rankings",
+   "topics": [
+    "Awards & Rankings",
+    "Customer-Facing AI"
+   ],
+   "tags": [
+    "Marketing AI",
+    "Award",
+    "Campaign"
+   ],
+   "partners": [],
+   "impact": "MMA SMARTIES MENA award",
+   "source_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQM2IycU9VMjZmbWx4OGNWdzFMdEhGeWFkRjdXMEdiYnRjZ0dTQ2djUVRpOHhGd0RQTktybHVMLUpqdmhXY2xLbWYtTUl4TXFicjR3V3ZfY3ZBdmNkRklXRzh6R2ZMTHA5bWNuSnk4MzRPa1VsX2VFV3lSSzZqNzBMRzlwOXdTcVczV1hVLXFURm45eFNCM1R1MDVPaEtqeTFEcDVZal9INklpX2F6cXdGdHBOX21MZEVKSWp6MldacnZQNm9hdlZQYXczN3BWQ2p6b2ZHT3Q5QzBTdGhrdHItbk9rbVZOUQ?oc=5",
+   "source_name": "Zawya",
+   "source_title": "Sharjah Islamic Bank wins MMA SMARTIES MENA award for AI-powered SIB Millionaire campaign",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQM2IycU9VMjZmbWx4OGNWdzFMdEhGeWFkRjdXMEdiYnRjZ0dTQ2djUVRpOHhGd0RQTktybHVMLUpqdmhXY2xLbWYtTUl4TXFicjR3V3ZfY3ZBdmNkRklXRzh6R2ZMTHA5bWNuSnk4MzRPa1VsX2VFV3lSSzZqNzBMRzlwOXdTcVczV1hVLXFURm45eFNCM1R1MDVPaEtqeTFEcDVZal9INklpX2F6cXdGdHBOX21MZEVKSWp6MldacnZQNm9hdlZQYXczN3BWQ2p6b2ZHT3Q5QzBTdGhrdHItbk9rbVZOUQ?oc=5",
+     "name": "Zawya"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-27T05:03:24+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-27"
+   },
+   "use_cases": [
+    "marketing"
+   ],
+   "channels": [],
+   "uc_status": "live",
+   "uc_note": "AI-powered marketing campaign for SIB Millionaire promotion",
+   "uc_v": 1
+  },
   {
    "id": "437abf7fab3e",
    "bank_id": "dukhan",
