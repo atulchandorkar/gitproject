@@ -1,34 +1,38 @@
 {
- "updated_at": "2026-11-27T05:07:32+00:00",
+ "updated_at": "2026-11-28T04:52:20+00:00",
  "items": [
   {
-   "id": "ea158fa98490",
-   "date": "2026-11-26",
+   "id": "44c1dec0789b",
+   "date": "2026-11-27",
    "category": "Market Data",
-   "publisher": "FF News",
+   "publisher": "European Central Bank",
    "countries": [
     "Global"
    ],
-   "title": "African banks increase AI investments despite legacy system constraints",
-   "summary": "African banks are expanding artificial intelligence spending even though legacy systems consume 55% of IT budgets. The industry is prioritizing AI adoption despite significant technical debt.",
+   "title": "European Central Bank: Widespread Artificial Intelligence Adoption Among Eurozone Banking Staff",
+   "summary": "The European Central Bank reports that artificial intelligence is increasingly prevalent among employees across eurozone financial institutions. The analysis documents growing integration of AI tools into daily banking operations across the currency union.",
    "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBsWXI5Q0VaaGZRaEpWMjlFXzBSNy1yTllZVWlGUC1nVS1KVlIwQ0VsRGtGeXI4OGo3SnNYbHpwSkI4ODdUbENJZ0h1S29vWDlLODBzRk14aE1SQkltSlhPNlBLT2J2RG13WkJzYkdCeWVpMm9kX2RNUXlB?oc=5",
-   "source_name": "FF News",
-   "source_title": "African Banks Pivot to AI Despite Spending 55% of IT Budgets on Legacy Systems",
+   "source_url": "https://news.google.com/rss/articles/CBMi9ARBVV95cUxQazFMMUI2QWRVOWVVYmxXNXp0MnVUdHZkSnBjLVpwRUgxUDRkTHVXcjdCVzhvaHNqdDV3NFNweDBHNFU5LXM2aUZ3SW9NSzFtN29MSW9EZ0RrdWRmRVF3NGxKVDFQdWdVTklWMTE3Nml4d3lXalNCUTFNb0JKTklWVlBIQmZCcF9NN0xLU1ZjOEFzMG5sdkJkMHNqWFpmSTZpN0pOdWxCVnhmekVVUGdONHVhOTZZbEMzSkgzcVZsVHpfMklDUGNQRENTRjlBUDBXbEZqMHFseDhwcTViUmZxWE9jNWRha3Q0MzlKX252UURBQmNXYUdrbk82b0VTZlRFdWZnTmJKbGxSUE9GVVZsQzV4cEw5a2VfTWY5emlfYWMtTDMwSmRmNl9Td0xrSVlFLTJsXzYwZkR2ZG16ZkdtdWNBRkxUZTdFN2l2TzB2YXZzb3RQc2hxVWNuaDlHOWQ5M2F5bV80SDlQSlBfRXgwQURNUmxtYWs2N3ppblZKTkFmOTdpRl9UdURoOFFNaTNGWDhHWEdmVm1aRl9oWlRzbU1OeUFJLTdPbDlzSm9QcHA1SnpYU1FtY2xGQWNPYy1JWmU1bjl6VThiR3NNWEpCbHZLMmZYLS1QLUpoRnpTeHBVdDdEMDliT2RuNWU0eFhwb1pQVVlIcEtFWmxVN3ZZRy1zcWpQN2VyUk1Sa3pTejhkcXFRYzN3TWpRRmpZU3dFb0N4VXpvOUhMMUpMOTRVNDhrNHdmT1pkN1o2Rm1jYzRYOEhhWi1wRnlfTVl6SnM5OW80U1dkRkV5N21oYktfMXgwRUxCZHFMZGNoZkVuMXBNckJ6?oc=5",
+   "source_name": "الهيئة الوطنية للإعلام",
+   "source_title": "البنك المركزي الأوروبي :انتشار الذكاء الاصطناعي بين العاملين في منطقة اليورو",
    "sources": [
     {
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBsWXI5Q0VaaGZRaEpWMjlFXzBSNy1yTllZVWlGUC1nVS1KVlIwQ0VsRGtGeXI4OGo3SnNYbHpwSkI4ODdUbENJZ0h1S29vWDlLODBzRk14aE1SQkltSlhPNlBLT2J2RG13WkJzYkdCeWVpMm9kX2RNUXlB?oc=5",
-     "name": "FF News"
+     "url": "https://news.google.com/rss/articles/CBMi9ARBVV95cUxQazFMMUI2QWRVOWVVYmxXNXp0MnVUdHZkSnBjLVpwRUgxUDRkTHVXcjdCVzhvaHNqdDV3NFNweDBHNFU5LXM2aUZ3SW9NSzFtN29MSW9EZ0RrdWRmRVF3NGxKVDFQdWdVTklWMTE3Nml4d3lXalNCUTFNb0JKTklWVlBIQmZCcF9NN0xLU1ZjOEFzMG5sdkJkMHNqWFpmSTZpN0pOdWxCVnhmekVVUGdONHVhOTZZbEMzSkgzcVZsVHpfMklDUGNQRENTRjlBUDBXbEZqMHFseDhwcTViUmZxWE9jNWRha3Q0MzlKX252UURBQmNXYUdrbk82b0VTZlRFdWZnTmJKbGxSUE9GVVZsQzV4cEw5a2VfTWY5emlfYWMtTDMwSmRmNl9Td0xrSVlFLTJsXzYwZkR2ZG16ZkdtdWNBRkxUZTdFN2l2TzB2YXZzb3RQc2hxVWNuaDlHOWQ5M2F5bV80SDlQSlBfRXgwQURNUmxtYWs2N3ppblZKTkFmOTdpRl9UdURoOFFNaTNGWDhHWEdmVm1aRl9oWlRzbU1OeUFJLTdPbDlzSm9QcHA1SnpYU1FtY2xGQWNPYy1JWmU1bjl6VThiR3NNWEpCbHZLMmZYLS1QLUpoRnpTeHBVdDdEMDliT2RuNWU0eFhwb1pQVVlIcEtFWmxVN3ZZRy1zcWpQN2VyUk1Sa3pTejhkcXFRYzN3TWpRRmpZU3dFb0N4VXpvOUhMMUpMOTRVNDhrNHdmT1pkN1o2Rm1jYzRYOEhhWi1wRnlfTVl6SnM5OW80U1dkRkV5N21oYktfMXgwRUxCZHFMZGNoZkVuMXBNckJ6?oc=5",
+     "name": "الهيئة الوطنية للإعلام"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNZDlabXNJS21EWTFTOHJWSERyMlU1RWNTVzN1VEg2VVE1WWhHNjY0OWQ5a3Fvc0dqWWUzSFNudlZIaXBOSjV5ckdBYWJmWXdRZ3VOc0RZX0Fxdjh4ZWZCel9OQjRNdmNVbGtreHl3bVdzMG1GZWZVNmJoOTBWRU1GTTZ2eVJfbzl5UEwyd1NVTmRuR2xqQWozclRDVFlmUGptSjRMT3pHTEh4RU5PQ2g1M2NXQVVqWGp1R3JWU0lLRXdaeGFJYTdlblY4YVVrdlY0NjV0REs2dHNNS1YyaE9wYWFPTU9tUThkcDJ0TGRYa1MyeTJfY1ZCdjJGUnRRdkJVWEp2WEZNdE9oQkl3bEVmTmkwdmNuYmlJdDRJZ1BTaVdPakRad0p4eGw2Ty1Ba00xVFVPUEctaTRnVjg2bXk1MF9FMExYZktwZUMzd2Rn?oc=5",
+     "name": "الاستاد الرياضي"
     }
    ],
-   "language": "en",
-   "added_at": "2026-11-27T05:07:11+00:00",
+   "language": "ar",
+   "added_at": "2026-11-28T04:52:06+00:00",
    "verification": {
-    "level": "official",
+    "level": "corroborated",
     "evidence": "headline",
-    "checked": "2026-11-27"
+    "checked": "2026-11-28"
    },
-   "pdf_checked": "2026-11-27"
+   "pdf_checked": "2026-11-28"
   },
   {
    "id": "fd6d9d892283",
@@ -120,6 +124,14 @@
     {
      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPMWNMQnUwdTU5bW5xM2FCdUdDWTY0V0Z2bmJBdmNPWHZZM0ZqdUFZTEppS3R6Vlhlb19EOUpMS1NfQzNPc1RPTnAwSXFCNlJCMEk0MDFkOGRqTVg3Zm1TRzNYOHhwR1Z4VmpPT0NsSW5qaFRnUmFTbG45alpFWERrQy1XT0prM0hHemxpdHpobk1OTGdKeFZvSEltOFR3MjZNYkpvZFFqRG5kU3J5RkxHeTE2YkpVdmpDdGhOWUhyZWIzY3VHMUxJYXdKVklTLU1WUTMwVHFxQnRtN0pTdWtlc0JncGZ3amp1LWZqS3NiYXTSAfABQVVfeXFMTzFjTEJ1MHU1OW1ucTNhQnVHQ1k2NFdGdm5iQXZjT1h2WTNGanVBWUxKaUt0elZYZW9fRDlKTEtTX0MzT3NUT05wMElxQjZSQjBJNDAxZDhkak1YN2ZtU0czWDh4cEdWeFZqT09DbEluamhUZ1JhU2xuOWpaRVhEa0MtV09KazNIR3psaXR6aG5NTkxnSnhWb0hJbThUdzI2TWJKb2RRakRuZFNyeUZMR3kxNmJKVXZqQ3RoTllIcmViM2N1RzFMSWF3SlZJUy1NVlEzMFRxcUJ0bTdKU3VrZXNCZ3Bmd2pqdS1maktzYmF0?oc=5",
      "name": "ETHRWorld.com"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNaGpZa1kwS0VMQlVJTGJYX05Eak1QLWpNdm9Hd1JDaDNQa0hMV0w0Z1dyZFJoaF81b2lUd2VHNVdWeTItYTZSbUhyTU1Yc1dhMnB6aWczeVFBcWUtazhrSFg4cVRVMlI2anhyblA2c0RvbEdhRlU1YlhqLThRZHF0eUVrWm5qRnpXeHJ1LVlqcDlQZ3FwOVF0bTlfLTNaM0xrZTRoSUxWbWVxWDVVUDBxNjhQOFNwaURGSEQ0aHRXYjJQNHpmT1lWc1hYa3JLMF9Nb25OX3M0UEZKMXF3OE41alNFcFMtSkZGU19lR2hwYXlaOWFUYWtxODVWaUbSAfwBQVVfeXFMTWhqWWtZMEtFTEJVSUxiWF9ORGpNUC1qTXZvR3dSQ2gzUGtITFdMNGdXcmRSaGhfNW9pVHdlRzVXVnkyLWE2Um1Ick1NWHNXYTJwemlnM3lRQXFlLWs4a0hYOHFUVTJSNmp4cm5QNnNEb2xHYUZVNWJYai04UWRxdHlFa1puakZ6V3hydS1ZanA5UGdxcDlRdG05Xy0zWjNMa2U0aElMVm1lcVg1VVAwcTY4UDhTcGlERkhENGh0V2IyUDR6Zk9ZVnNYWGtySzBfTW9uTl9zNFBGSjFxdzhONWpTRXBTLUpGRlNfZUdocGF5WjlhVGFrcTg1VmlG?oc=5",
+     "name": "ET CIO"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOY0ZpaU9jNE1LRmFNaVJyOU1CcmUyN1dfRTE3YUFqd3h0NHlTZjBsZTFvOUhqWWozN3c2cDktSWo4VFNTczJZY1l4NHc1eXZybTFLalVIUktPRlVwU1RScUpPeGc5RHozeGMzam52VXBHeGZUUzFFS0FaS2JDSmlIYVlNcWYwdVJWVDBBQmRCcmlNOXp4c2V0ZDV1NWkwdHJjbFZWRWRCUnp6c3NEcGVhNnNLY1dnRjFmdEZjWkp3eW14dmdRUmVOaFdpMVRSd3dGMzdFMzZibVF6RU1oampYWThEMFQwTUNqX2Mw0gHwAUFVX3lxTE8xY0xCdTB1NTltbnEzYUJ1R0NZNjRXRnZuYkF2Y09YdlkzRmp1QVlMSmlLdHpWWGVvX0Q5SkxLU19DM09zVE9OcDBJcUI2UkIwSTQwMWQ4ZGpNWDdmbVNHM1g4eHBHVnhWak9PQ2xJbmpoVGdSYVNsbjlqWkVYRGtDLVdPSmszSEd6bGl0emhuTU5MZ0p4Vm9ISW04VHcyNk1iSm9kUWpEbmRTcnlGTEd5MTZiSlV2akN0aE5ZSHJlYjNjdUcxTElhd0pWSVMtTVZRMzBUcXFCdG03SlN1a2VzQmdwZndqanUtZmpLc2JhdA?oc=5",
+     "name": "ETHRWorld.com"
     }
    ],
    "language": "en",
@@ -130,6 +142,60 @@
     "checked": "2026-11-27"
    },
    "pdf_checked": "2026-11-27"
+  },
+  {
+   "id": "ea158fa98490",
+   "date": "2026-11-25",
+   "category": "Market Data",
+   "publisher": "FF News",
+   "countries": [
+    "Global"
+   ],
+   "title": "African banks increase AI investments despite legacy system constraints",
+   "summary": "African banks are expanding artificial intelligence spending even though legacy systems consume 55% of IT budgets. The industry is prioritizing AI adoption despite significant technical debt.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBsWXI5Q0VaaGZRaEpWMjlFXzBSNy1yTllZVWlGUC1nVS1KVlIwQ0VsRGtGeXI4OGo3SnNYbHpwSkI4ODdUbENJZ0h1S29vWDlLODBzRk14aE1SQkltSlhPNlBLT2J2RG13WkJzYkdCeWVpMm9kX2RNUXlB?oc=5",
+   "source_name": "FF News",
+   "source_title": "African Banks Pivot to AI Despite Spending 55% of IT Budgets on Legacy Systems",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBsWXI5Q0VaaGZRaEpWMjlFXzBSNy1yTllZVWlGUC1nVS1KVlIwQ0VsRGtGeXI4OGo3SnNYbHpwSkI4ODdUbENJZ0h1S29vWDlLODBzRk14aE1SQkltSlhPNlBLT2J2RG13WkJzYkdCeWVpMm9kX2RNUXlB?oc=5",
+     "name": "FF News"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUVVFRFgxRlNJLUJRcVQwYmhQdkFNNlZqNG5QSmlFdE5oUmxFNEZjSHE0bWx2MEVBc09IMElNWDVXb1Z3OE93STlISlFwOHJHMFJIZ19fVE9qdy1FTWRVeG1pdkZhbXpqTUpXdmVGTU00aURyM1c1WnN0di0yeTc0akZ1ZElzRTBCd3U1Qlc3NW5lLTREbmZRXzRfLTlqTjV1Sm1FRmRJWlRkeWc4R2FjWFJBVDA?oc=5",
+     "name": "iAfrica.com"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeHZhcGZzWXBDbkNXSHl6NlpLaDJxOXNDcVh5Q3NJclJHZ2JlMzZwYnFoUF9yT0NOemloSUh4Zy1hVEpNczR2Zk1hVFVhQmNINTRlcnJ4M3JsY2R1RHFJaHpCMy1vb1hqeUxjX0FjSTFPdEp3VnVHRUtaM0xoaUZCR0o2emJRS0JubXdiS0ZjU2ZHdEhJUm5yaXN0cy1FVTVkQU5NNw?oc=5",
+     "name": "Africa.com"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPc0ZObTdoZkpaZFRIeFJOWGhsalRiS3hoSTJienBfMWNYaFU1eHBhb19mSldiVmVqaTN4Y0dZX2YxRk41OUVFRHZsd1labFRJVUp0eUgzdHdvalROVE9LMmRCLXI4YUlLYk5VT1EwdVZUNHpCcm9SdkZocjhvVi1ncnluS0twTmlKTm11TEdqYllKdDFYU0xYZDBOSnFGdFRzQmFzYXVsald5ZVFBT1EyeHlQcmpIcVRVSEJOdFZRRGJiMl9Yc3c?oc=5",
+     "name": "African Business"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-27T05:07:11+00:00",
+   "verification": {
+    "level": "official",
+    "evidence": "headline",
+    "checked": "2026-11-27"
+   },
+   "pdf_checked": "2026-11-27",
+   "merged": [
+    {
+     "id": "accba9181f5e",
+     "date": "2026-11-25",
+     "title": "African banks accelerate artificial intelligence adoption amid legacy system constraints",
+     "source_title": "African banks accelerate Artificial Intelligence (AI) adoption amid legacy constraints, new report reveals",
+     "source_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeHZhcGZzWXBDbkNXSHl6NlpLaDJxOXNDcVh5Q3NJclJHZ2JlMzZwYnFoUF9yT0NOemloSUh4Zy1hVEpNczR2Zk1hVFVhQmNINTRlcnJ4M3JsY2R1RHFJaHpCMy1vb1hqeUxjX0FjSTFPdEp3VnVHRUtaM0xoaUZCR0o2emJRS0JubXdiS0ZjU2ZHdEhJUm5yaXN0cy1FVTVkQU5NNw?oc=5",
+     "source_name": "Africa.com",
+     "summary": "A new report documents increased AI adoption across African banking institutions despite challenges from outdated technology infrastructure. The findings reveal both progress and barriers to AI implementation in emerging markets.",
+     "how": "ai",
+     "anchor": "African banks accelerate artificial intelligence adoption amid legacy system constraints"
+    }
+   ]
   },
   {
    "id": "0b1e51b4f2f8",
@@ -277,6 +343,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQTXZGaW9ia2Z6aUFpRHR4bmYxc01Velc4dkVQT1Fjc3p3MUtwdERkUnNac05RV2tjckhNbTZCUGJQSnFtcnRoMWdYYnY0WGtHMTNUOUctSmpXdlpWRjhMWWFoQzg0WnhsYkM1bUFpMmZ5RVVMU2k1Mzl3SWxxVEpwdDF5R0s0WTlGdW9GdXF0ejczOWFuZW5iNWZZVFVvOUZqcmQ2bHRsTllyU0ZIX3pTWUhjeWs5YzRwWURiYTZvbEhXdXFEeEpZeDM3TUdMTm9fTmFTa280bzNBNTVLdE1zSGpfZllVTjREMVJEa0Q3NGhCTXVwcU0wbmw3OVZtS2htOS1heDFMWS04V05ZWmdJZGtyOE11Ri14WjFBZnRuWjk2OHNETHpjZ0NFMS1hSXVTS3BjSG9qeVZVQkJINFplY2R0Sk3SAYICQVVfeXFMTm5fU0p5bUREVUNuandTQUh6Vm1pUW1qaUNyckMxUnFTSjB3MWFBZVNwN29neGZLdHVkdFB6YnF4YUNpOWVSeFpjcEluTnV6RXhHRkNJVTI0RzFQSFVTRzBzREVhV3M2RzFqZGUzMUxlYm9sY0hWVjlHQ0lHV21KLVJwdHFKRU1sUkdfejAxcU1udmJmSS1EZXJvQnExQnlLdEJDX2RXWkNaOTR5N1QwNEZrN0lXNVJuVktsV2JXeDRxb19TcHlMN244aHA3YUwxcGFXZkJCU3J2NFc3S3dqanNjbVhQbWRMUTd3eDQ4d0lVd3llRHg3YlBMWUNCNU42UHNn?oc=5",
      "name": "ET CIO"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQSzFvWXRCZ1R2dGFpY3VVTmstdElWRFhmWGQtVW1FbHg1bWR2RE4tUXhGdmFqTGtmU3lFUG5NNGRZdDFwNTIyajZnQzk2MVJTY01JNWE0MFJPSWFpdmpNa0MzNkoxd21welBRRHV4Slc0UThXWG5lS0JXOG1sSnpjS3p5SlkzNmJFcHJnSGkzODdKemxKNkFxQzVuejBxYUxUNDlBd0syQVJCMHYwemswVXBfUUFpVEFBQmRrZnVHenJ2QVVsRlVNQ2dDaVFRTm8zZncwem1DMC15cGpEZ2ZaS3B0Z29YLUUyb0R1Q2JNODBoUmp0Q2VYYUxzT2bSAYICQVVfeXFMTm5fU0p5bUREVUNuandTQUh6Vm1pUW1qaUNyckMxUnFTSjB3MWFBZVNwN29neGZLdHVkdFB6YnF4YUNpOWVSeFpjcEluTnV6RXhHRkNJVTI0RzFQSFVTRzBzREVhV3M2RzFqZGUzMUxlYm9sY0hWVjlHQ0lHV21KLVJwdHFKRU1sUkdfejAxcU1udmJmSS1EZXJvQnExQnlLdEJDX2RXWkNaOTR5N1QwNEZrN0lXNVJuVktsV2JXeDRxb19TcHlMN244aHA3YUwxcGFXZkJCU3J2NFc3S3dqanNjbVhQbWRMUTd3eDQ4d0lVd3llRHg3YlBMWUNCNU42UHNn?oc=5",
+     "name": "ET CIO"
     }
    ],
    "language": "en",
@@ -287,6 +357,39 @@
     "checked": "2026-11-26"
    },
    "pdf_checked": "2026-11-26"
+  },
+  {
+   "id": "453bfe375fb6",
+   "date": "2026-11-24",
+   "category": "Regulation & Guidance",
+   "publisher": "",
+   "countries": [
+    "Global"
+   ],
+   "title": "Banks test safeguards for agentic finance under PathFin.ai initiative",
+   "summary": "Terminal 3 and banks test safety measures for autonomous AI agents under PathFin.ai, a central bank initiative. The programme ensures responsible deployment of agentic artificial intelligence in banking.",
+   "key_stats": [],
+   "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeXp1U0E3TWZDTHo0MW42aWtlaTBzdWhoYktFWFRjZTUtV2I2YzZZSjR2a2E4TzJpem1YQUs3QlRpTVNJZFIzX0dVNDluaHJrMDNwblpCLWhSNlVXakp1LUN5eWYzMnFqblBFbHEyb2ExNXBZelZPR1lBdXdvb0RfdDJkN1loQTJVMy1CclpYSm8yR1YyZjFlYTFsU0g4MVhra3ZfcVN1aVVPTXp4TllfUXY5Q1BjV2loVkRCUlU1WndMaXBlc1JmMw?oc=5",
+   "source_name": "Macau Business",
+   "source_title": "Terminal 3 partners with banks to test safeguards for agentic finance under MAS's PathFin.ai initiative",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeXp1U0E3TWZDTHo0MW42aWtlaTBzdWhoYktFWFRjZTUtV2I2YzZZSjR2a2E4TzJpem1YQUs3QlRpTVNJZFIzX0dVNDluaHJrMDNwblpCLWhSNlVXakp1LUN5eWYzMnFqblBFbHEyb2ExNXBZelZPR1lBdXdvb0RfdDJkN1loQTJVMy1CclpYSm8yR1YyZjFlYTFsU0g4MVhra3ZfcVN1aVVPTXp4TllfUXY5Q1BjV2loVkRCUlU1WndMaXBlc1JmMw?oc=5",
+     "name": "Macau Business"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVG5qQ2FFN0Z6andDa2dNd3dqb2dmS2hja1hteFJHR0diNTA4eTA4LVFJMlBUV2dqbWRwZGVjTV9GZ05ZMm5GTHZEa3FMWnI2N08xOVFhOFlNb0daQXZkLWVydjMzYU1DMVBvWEtmOTNMVVlmY0xzM2RzTUdiWkJyYXFBZmVMZFlURjRsaGUxb3FtVkxyRjJESVVEQmdNNkt6MWpxMkNQeHpWWVBzMDVUeFBWam05RTdFMWY1MXVXeGVaY2JPYjlGTldrNmpLeU5Eb181RXFjSkY1TkpWSmdpcTlTQQ?oc=5",
+     "name": "Plataforma Media"
+    }
+   ],
+   "language": "en",
+   "added_at": "2026-11-26T05:10:08+00:00",
+   "verification": {
+    "level": "corroborated",
+    "evidence": "headline",
+    "checked": "2026-11-26"
+   },
+   "pdf_checked": "2026-11-28"
   },
   {
    "id": "f5c1c26e0267",
@@ -1949,6 +2052,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNWo1RjVTLVQ4QW1WdDFpTF96c21pdUE1dmppVHZ4Z1MxWVdkaFdaOEdxMTRPRHJlcTZnOV93d08tTnRxLXFZWGtYSy1rRDByUXd4NWtPSmV2ZnA5VWdYdk00SmtmQWVZNWRfZGxaYkVmUHBhZ0VfU05rS3VKa29PMmYyaXYzTkJTYUV6Y0JCS1JBTTJKMlVFaGVnYlVXbVEtTjVBNktIcw?oc=5",
      "name": "Evotek JSC"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ycVZGZlhrdmJsVFNGZ3NzZXhPdUFXZDhHVkk5bElGdlEwMWFIVVc2aC0ybllOMG1iX1pNQ3ZTUWlBQWZrWTFfRVFsOFVLTG1meDJNVm5GWlV4YUJaZHFnOGw4Mml4QmtrZGhZbTFDZF8xX1RIa2kwOA?oc=5",
+     "name": "Boston Consulting Group"
     }
    ],
    "language": "en",
@@ -7878,35 +7985,6 @@
    "added_at": "2026-10-06T02:16:25+00:00",
    "verification": {
     "level": "official",
-    "evidence": "headline",
-    "checked": "2026-10-06"
-   },
-   "pdf_checked": "2026-10-06"
-  },
-  {
-   "id": "e244416111dd",
-   "date": "2025-11-26",
-   "category": "Expert Views",
-   "publisher": "Capgemini",
-   "countries": [
-    "Global"
-   ],
-   "title": "Reimagining financial services delivery with agentic AI capabilities",
-   "summary": "Capgemini explores how agentic AI is reimagining financial services delivery and operations. The analysis addresses the strategic implications of autonomous AI agents for the sector's future.",
-   "key_stats": [],
-   "source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ2hpa2l1SXNrdDVacDhXYU92QnA2dEUyQmFqdTdLSVFsSjdMajFOQVpHdmZkSXNBbklHUktUelVyR0NVWGVKdkFrVXpIQkpzUWVkWEV2OVNGYnNESlkwUGJtODlnZHZQSFJMekdMWm8zcC11SmZTUVFLdUZTTzhOR0trYTB3RWxfZGN1TUpCc1FJdTl4NVpxbEhsbFVJQkpQ?oc=5",
-   "source_name": "Capgemini",
-   "source_title": "Reimagining financial services with agentic AI",
-   "sources": [
-    {
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ2hpa2l1SXNrdDVacDhXYU92QnA2dEUyQmFqdTdLSVFsSjdMajFOQVpHdmZkSXNBbklHUktUelVyR0NVWGVKdkFrVXpIQkpzUWVkWEV2OVNGYnNESlkwUGJtODlnZHZQSFJMekdMWm8zcC11SmZTUVFLdUZTTzhOR0trYTB3RWxfZGN1TUpCc1FJdTl4NVpxbEhsbFVJQkpQ?oc=5",
-     "name": "Capgemini"
-    }
-   ],
-   "language": "en",
-   "added_at": "2026-10-06T02:16:25+00:00",
-   "verification": {
-    "level": "trusted",
     "evidence": "headline",
     "checked": "2026-10-06"
    },

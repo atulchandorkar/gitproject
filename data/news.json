@@ -1,6 +1,50 @@
 {
- "updated_at": "2026-11-27T05:07:32+00:00",
+ "updated_at": "2026-11-28T04:52:20+00:00",
  "items": [
+  {
+   "id": "de2e577ab297",
+   "bank_id": "fab",
+   "country": "AE",
+   "date": "2026-11-27",
+   "title": "First Abu Dhabi Bank Sets New Standards for AI-Powered Banking Services",
+   "summary": "First Abu Dhabi Bank is establishing new standards for banking services based on artificial intelligence.",
+   "category": "Customer-Facing AI",
+   "topics": [
+    "Customer-Facing AI",
+    "AI Strategy & Leadership"
+   ],
+   "tags": [
+    "GenAI",
+    "Banking Innovation"
+   ],
+   "partners": [],
+   "impact": "",
+   "source_url": "https://news.google.com/rss/articles/CBMitARBVV95cUxQNFZiNXlVS3BaYkJFMk5RcHFWNjRtQ1R1UnhFcHFrNHYxbzlWVENwSDRzbXJJd2d6MEVRT01OS3ZRa0JHdG5wN083SXVjSU95cWQzS0h3OUwxZHFtb3cyQ19rNi0zYzgwZ0tsU213YzdVcVRmQlRqWkdJNHdOQ1h6TUsyY3pFcHZoOVA2ME1VUzFhVnhhTU16VjFXalZqdGdNSDJueDJHZnhfRjZPeTVscmVrVklON2MzT0l4M1dEY1J5dkc1MHA1dTlSbGRBVnhPcmJ5U2I0aE9tcFVad3pwNmtnZktSMGktdnFFNTJmYVRZRk1sTFdBRFZYQUt4WkpkS2JWUEx0MTVQLUVOSDlQcjA1RFBadEI3b3ZxaFpwSUtyQmpDaGRTSElGVVMwSXpKUTlsOGpLQjM4YUE4TVRGMW5tdXZKM0ZzcHhJWmY3U0tEckZLaG1YcTdxVmJQRno2eHhlanN3bDlwZU0zODhnYnRCTWZYcnZYc3FrX0t4VkNZU0JxeFF5RHdnV2VHb1JvVEVyaHota0RtbGh6S2p4LVQyZ0NtakZqWHVVVktCTjB3UHRTVDYwdHg4dzItOEZSYmMwQ2xKcEhQVEJ6NjZRYXNzb0xrMW5TZEg0SG1VLWZiWkFmamJVV1NiMzF2WXFNNGFtcno1WDFJcFp6VUMyOUpPM3FleHh3UGdubG5VLTZ1QXBMQXZGczBucWl0ZVpyU0Jtb3haR21pSEtlMnFNNnA5Ym0?oc=5",
+   "source_name": "الاتحاد للأخبار",
+   "source_title": "«بنك أبوظبي الأول» يُرسي معايير جديدة للخدمات المصرفية القائمة على الذكاء الاصطناعي",
+   "sources": [
+    {
+     "url": "https://news.google.com/rss/articles/CBMitARBVV95cUxQNFZiNXlVS3BaYkJFMk5RcHFWNjRtQ1R1UnhFcHFrNHYxbzlWVENwSDRzbXJJd2d6MEVRT01OS3ZRa0JHdG5wN083SXVjSU95cWQzS0h3OUwxZHFtb3cyQ19rNi0zYzgwZ0tsU213YzdVcVRmQlRqWkdJNHdOQ1h6TUsyY3pFcHZoOVA2ME1VUzFhVnhhTU16VjFXalZqdGdNSDJueDJHZnhfRjZPeTVscmVrVklON2MzT0l4M1dEY1J5dkc1MHA1dTlSbGRBVnhPcmJ5U2I0aE9tcFVad3pwNmtnZktSMGktdnFFNTJmYVRZRk1sTFdBRFZYQUt4WkpkS2JWUEx0MTVQLUVOSDlQcjA1RFBadEI3b3ZxaFpwSUtyQmpDaGRTSElGVVMwSXpKUTlsOGpLQjM4YUE4TVRGMW5tdXZKM0ZzcHhJWmY3U0tEckZLaG1YcTdxVmJQRno2eHhlanN3bDlwZU0zODhnYnRCTWZYcnZYc3FrX0t4VkNZU0JxeFF5RHdnV2VHb1JvVEVyaHota0RtbGh6S2p4LVQyZ0NtakZqWHVVVktCTjB3UHRTVDYwdHg4dzItOEZSYmMwQ2xKcEhQVEJ6NjZRYXNzb0xrMW5TZEg0SG1VLWZiWkFmamJVV1NiMzF2WXFNNGFtcno1WDFJcFp6VUMyOUpPM3FleHh3UGdubG5VLTZ1QXBMQXZGczBucWl0ZVpyU0Jtb3haR21pSEtlMnFNNnA5Ym0?oc=5",
+     "name": "الاتحاد للأخبار"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMioARBVV95cUxONDRLVmhyQ09ySHh4Z0xTWkFlOGpWUGtzUEZwQnNqMnRxRlloN1o5VGJfem9LQUpjeXBuUDZNM1B2LUVTa3I5bGF0VFBGd2hvbmNreEZyc1dHMXNzUGJXRGdmM2t4SE9ET1NIX2hqR3hLbTg0T0wzTTU1SmJPMUxyV29XRUN0RUhyZG5ZU1BQd3BkcGhUZFVrSnMxXzVZcjcwdkpodm8xWUdWb3RNOXlDV3g5eWhYVGxWYXBKTkNrSGFXMDJIVXZRY3VkeFBQWERvbmtldkQ2RmNpMTZqZnVXTldEWVhFMWtmY2ZCU2ZsQjA3Zy0xVzVEX1JoX0tzUDNQcXRsZFhWWTFGalRsSFhmQUY4NjY4cFE4eGt2d3o3VUZPT19BQlRlcTFBR1QxMkx3bnpNU09McHdrLXAwUkxQSm5sQWNYOUxyUTB5SF9tYVVyWFNWRkw5Q080YU9UdERjUlFhUEVXZFdrVWxubElySHJfVE9scnBjbzFXZXhCeEd2czlISDlpdk5JRWp0X3JjcDBmRUtjSmU3LTk0MWhkVGtpYlFOaUowX25SRUJWXzNHREpNanhXUG9DTnBBY2pHcFdaRUZpSWdfcEd5Z1FURUU0ckRtTnk0VGxEejRtdk9OUmVQSTc0aHd5R2s0UjdDVmlIWExzS01ibHVXUC1zTmkyVTExYkJYYWZtUUFnWFd4OGpla3NKeFFHbEllTS020gFeQVVfeXFMUEQyRzlKVmpVS2s4VWNHMGc2THg2bzI2UXR6T1JBY0JQdXNQZXdMWGM5X1hCdl81QWsyaUF2bHRHN2NFcHVPdTVidGNEbURmZi1TTG1CcFhHQ1UtRFYzdw?oc=5",
+     "name": "برس بي"
+    }
+   ],
+   "language": "ar",
+   "added_at": "2026-11-28T04:48:17+00:00",
+   "verification": {
+    "level": "trusted",
+    "evidence": "headline",
+    "checked": "2026-11-28"
+   },
+   "use_cases": [],
+   "channels": [],
+   "uc_status": "unknown",
+   "uc_note": "",
+   "uc_v": 1
+  },
   {
    "id": "853102bf7c55",
    "bank_id": "fab",
@@ -11,11 +55,14 @@
    "category": "AI Strategy & Leadership",
    "topics": [
     "AI Strategy & Leadership",
-    "Generative AI & Copilots"
+    "Generative AI & Copilots",
+    "Customer-Facing AI"
    ],
    "tags": [
     "AI-native banking",
-    "GenAI"
+    "GenAI",
+    "Conversational AI",
+    "Mobile Banking"
    ],
    "partners": [],
    "impact": "",
@@ -30,6 +77,10 @@
     {
      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT3JmOGU4elF3Skx2NVpHekFxSHo5YVFwcnd1MzVLYzlRd2prdnFReVlNaDlfSHdBTGJUYkxrd3M4LUZnajYydFhTUGpObzFHUmEyU3FtRFFyS05vVEVlZ1E3Qzd2cWJTaDM0MURCSkRQODlZcC10bXRrSWg3Y3NhZVptVmxEWVc3TFJibVlFWksta3l1bndr?oc=5",
      "name": "Menafn"
+    },
+    {
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT21TUTRjb2ptNVdUa2FVeTE2SVlMTmxydDVWRVhNOVRGTHpPVXFmdmRQbEpyN2hwVTVBSGRrbVNMaFl6VEVNUmRDZWtnN3VsVGc2bjVJZkJPTWNFNTB3S3F1WDRPUXZFelNqMU4zelY4WXpvdUo0NFVlUXltN1k0OGR6b3NzbDVWMno2aW1MQWVXMlZJcDlndU9lSQ?oc=5",
+     "name": "FF News"
     }
    ],
    "language": "en",
@@ -43,7 +94,20 @@
    "channels": [],
    "uc_status": "unknown",
    "uc_note": "",
-   "uc_v": 1
+   "uc_v": 1,
+   "merged": [
+    {
+     "id": "34a4c6c1fedd",
+     "date": "2026-11-27",
+     "title": "First Abu Dhabi Bank Launches FAB First: An AI-Native Conversational Banking App",
+     "source_title": "First Abu Dhabi Bank Launches FAB First: An AI-Native Conversational Banking App",
+     "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT21TUTRjb2ptNVdUa2FVeTE2SVlMTmxydDVWRVhNOVRGTHpPVXFmdmRQbEpyN2hwVTVBSGRrbVNMaFl6VEVNUmRDZWtnN3VsVGc2bjVJZkJPTWNFNTB3S3F1WDRPUXZFelNqMU4zelY4WXpvdUo0NFVlUXltN1k0OGR6b3NzbDVWMno2aW1MQWVXMlZJcDlndU9lSQ?oc=5",
+     "source_name": "FF News",
+     "summary": "First Abu Dhabi Bank has launched FAB First, an AI-native conversational banking app that enables customers to conduct banking transactions through AI chat.",
+     "how": "ai",
+     "anchor": "FAB First"
+    }
+   ]
   },
   {
    "id": "8df2a6379365",
